@@ -1,0 +1,72 @@
+[
+  {
+    "command": [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "pip",
+      "check"
+    ],
+    "start_utc": "2026-10-12T06:21:13.392787+00:00",
+    "elapsed_seconds": 0.8241083000320941,
+    "exit_code": 0,
+    "log": "research/logs/environment-2026-10-12/pip-check.log"
+  },
+  {
+    "command": [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-c",
+      "import numpy,matplotlib,pytest; from gosc import Config, Simulation; from matplotlib.figure import Figure; from matplotlib.backends.backend_agg import FigureCanvasAgg; f=Figure(); FigureCanvasAgg(f); f.add_subplot().plot([0,1],[0,1]); f.canvas.draw(); print('Imports and in-memory Agg render OK'); print('matplotlib backend:', matplotlib.get_backend())"
+    ],
+    "start_utc": "2026-10-12T06:21:14.218328+00:00",
+    "elapsed_seconds": 4.034049600013532,
+    "exit_code": 0,
+    "log": "research/logs/environment-2026-10-12/import-smoke.log"
+  },
+  {
+    "command": [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "pytest",
+      "--collect-only",
+      "-q",
+      "tests",
+      "-p",
+      "no:cacheprovider"
+    ],
+    "start_utc": "2026-10-12T06:21:18.253680+00:00",
+    "elapsed_seconds": 1.1971984000410885,
+    "exit_code": 0,
+    "log": "research/logs/environment-2026-10-12/pytest-collection.log"
+  },
+  {
+    "command": [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "pytest",
+      "-q",
+      "tests",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      ".local/pytest-2026-10-12",
+      "--junitxml",
+      ".local/environment-2026-10-12/pytest.xml"
+    ],
+    "start_utc": "2026-10-12T06:21:19.465157+00:00",
+    "elapsed_seconds": 42.3501610000385,
+    "exit_code": 0,
+    "log": "research/logs/environment-2026-10-12/pytest.log"
+  }
+]

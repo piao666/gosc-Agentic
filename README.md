@@ -1,5 +1,27 @@
 # GOSC: Resource-Efficient Semantic Communication for Heterogeneous Agentic Teams
 
+## Research working copy
+
+This working repository is maintained at
+<https://github.com/piao666/gosc-Agentic>. It retains the history, MIT license,
+attribution, simulator, tests, original mission results and public LLM caches from
+<https://github.com/frezazadeh/gosc-agentic-teams>, with upstream baseline commit
+`387b49389385b51c275dc5a22ec1672087edda1d`.
+
+For the recorded Windows environment, see
+[research/reproduction/windows_environment.md](research/reproduction/windows_environment.md).
+Use `scripts/bootstrap_windows.ps1` with CPython 3.12; exact Python dependencies are
+in `requirements-windows.lock.txt`. Local validation on 2026-10-12 collected and passed
+85 upstream tests. This is environment/test validation, not full paper reproduction.
+No GOSC algorithm changes are included in this setup.
+
+The two locally regenerated `summary_realistic.json` and `summary_revision.json`
+files were removed at the user's request; original copies remain in baseline history.
+Private backups, virtual environments, credentials and personal paper PDFs are excluded
+from Git. The upstream README follows below.
+
+---
+
 Simulator, configurations, per-mission results and cached LLM responses for the paper
 
 > F. Rezazadeh, H. Chergui, L. Liu, and M. Debbah, "Resource-Efficient Semantic

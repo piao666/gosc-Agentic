@@ -9,3 +9,11 @@ results/overhead.jsonl
 results/shared.jsonl
 # generated figures and tables
 figures/
+# Local backups, temporary files and machine-specific diagnostics
+.local/
+.env
+.env.*
+!.env.example
+# Regenerated summaries removed at the user's request; upstream copies remain in Git history
+results/summary_realistic.json
+results/summary_revision.json
