@@ -1,0 +1,6 @@
+﻿campaign,scheme,param,mismatched_runs,group_n
+frontier-W100,gosc_aoi,W100/eta0.0,2,100
+frontier-W100,gosc_aoi,W100/eta0.003,1,100
+frontier-W100,gosc_bits,W100/eta0.0,73,100
+frontier-W100,gosc_bits,W100/eta0.1,68,100
+frontier-W100,gosc_bits,W100/eta0.3,56,100

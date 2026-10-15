@@ -1,0 +1,19 @@
+{
+  "status": "statistically_inconclusive",
+  "receiver_diagnostics_allowed": false,
+  "primary_family": 104,
+  "classifications": {
+    "equivalent": 100,
+    "inconclusive": 4
+  },
+  "exact_reference_mismatch_records": 200,
+  "strict_stage_status": "failed_preserved",
+  "completed_fresh": 5200,
+  "protocol_sha256": "c6d86bb21faf14613479a7cd0e7851d182123e0053b4d408cf27a0fc2a34119f",
+  "agreement_sha256": "8a97fdf1316027b92f2179cb54f51555069245869cdba19f970c5601a477cb1f",
+  "protected_inputs": {
+    "checked": 76,
+    "differences": []
+  },
+  "interpretation": "Amended finite-panel statistical agreement; historical source/environment unresolved; not full paper reproduction."
+}

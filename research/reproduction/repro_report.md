@@ -1,5 +1,12 @@
 # Research Task Report — 2026-10-15
 
+**Approved statistical follow-up:** 5200 new Planner missions completed. R4-S1 gives
+100 equivalent and 4 inconclusive endpoints out of 104; overall still Pending.
+Original private600 and frozen headline1200 saved fields are reproduced. The new
+receiver factorial was not run. See [the statistical report](2026-10-15-statistical/report.md)
+and [the unapproved scoped diagnostic proposal](2026-10-15-statistical/receiver_scope_proposal.md).
+Neither the original strict failure nor the new statistical gate is rewritten as passed.
+
 **Follow-up diagnosis:** [RUN] A same-input one-ULP counterfactual now demonstrates
 numerically sensitive message selection. The author's 83-slot trajectory is still
 unmatched. R4 remains blocked; receiver diagnostics were not run. See the

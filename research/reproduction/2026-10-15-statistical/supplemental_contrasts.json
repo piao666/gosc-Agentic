@@ -1,0 +1,255 @@
+{
+  "frozen": {
+    "search-W100": {
+      "task_metric": "completion_time",
+      "target": 76.1875,
+      "task_gosc_minus_periodic": {
+        "n": 100,
+        "mean": -5.29,
+        "ci95": [
+          -14.8,
+          4.34
+        ],
+        "bonferroni_ci": [
+          -18.19,
+          7.58
+        ],
+        "family_size": 6,
+        "bootstrap_resamples": 20000
+      },
+      "uses_ratio_periodic_over_gosc": {
+        "mean": 1.1875252638860465,
+        "ci95": [
+          1.1087392779315306,
+          1.2736103189409196
+        ]
+      },
+      "interpretation": "Original frozen points; resource and task effects jointly reported, no retuning."
+    },
+    "search-K10": {
+      "task_metric": "completion_time",
+      "target": 57.775,
+      "task_gosc_minus_periodic": {
+        "n": 100,
+        "mean": -2.9,
+        "ci95": [
+          -9.02,
+          3.110249999999978
+        ],
+        "bonferroni_ci": [
+          -10.87,
+          5.1667083333332995
+        ],
+        "family_size": 6,
+        "bootstrap_resamples": 20000
+      },
+      "uses_ratio_periodic_over_gosc": {
+        "mean": 5.914660750903532,
+        "ci95": [
+          5.570435940624737,
+          6.2780193546313106
+        ]
+      },
+      "interpretation": "Original frozen points; resource and task effects jointly reported, no retuning."
+    },
+    "search-clustered": {
+      "task_metric": "completion_time",
+      "target": 59.0,
+      "task_gosc_minus_periodic": {
+        "n": 100,
+        "mean": 2.74,
+        "ci95": [
+          -4.69,
+          9.89
+        ],
+        "bonferroni_ci": [
+          -7.27,
+          12.326708333333299
+        ],
+        "family_size": 6,
+        "bootstrap_resamples": 20000
+      },
+      "uses_ratio_periodic_over_gosc": {
+        "mean": 1.280356402141287,
+        "ci95": [
+          1.1435045005270073,
+          1.4306254521780088
+        ]
+      },
+      "interpretation": "Original frozen points; resource and task effects jointly reported, no retuning."
+    },
+    "rescue-W100": {
+      "task_metric": "saved_fraction",
+      "target": 0.858375,
+      "task_gosc_minus_periodic": {
+        "n": 100,
+        "mean": 0.03625,
+        "ci95": [
+          0.0125,
+          0.06
+        ],
+        "bonferroni_ci": [
+          0.004161458333333332,
+          0.06875
+        ],
+        "family_size": 6,
+        "bootstrap_resamples": 20000
+      },
+      "uses_ratio_periodic_over_gosc": {
+        "mean": 1.7776309814795137,
+        "ci95": [
+          1.6322964891114666,
+          1.9325658139002992
+        ]
+      },
+      "interpretation": "Original frozen points; resource and task effects jointly reported, no retuning."
+    },
+    "rescue-W50": {
+      "task_metric": "saved_fraction",
+      "target": 0.858375,
+      "task_gosc_minus_periodic": {
+        "n": 100,
+        "mean": 0.0725,
+        "ci95": [
+          0.04625,
+          0.09875
+        ],
+        "bonferroni_ci": [
+          0.0375,
+          0.10875
+        ],
+        "family_size": 6,
+        "bootstrap_resamples": 20000
+      },
+      "uses_ratio_periodic_over_gosc": {
+        "mean": 2.599287302210017,
+        "ci95": [
+          2.4294026494998375,
+          2.7777812170921843
+        ]
+      },
+      "interpretation": "Original frozen points; resource and task effects jointly reported, no retuning."
+    },
+    "rescue-snr-5": {
+      "task_metric": "saved_fraction",
+      "target": 0.858375,
+      "task_gosc_minus_periodic": {
+        "n": 100,
+        "mean": 0.0025,
+        "ci95": [
+          -0.02625,
+          0.03125
+        ],
+        "bonferroni_ci": [
+          -0.03625,
+          0.04
+        ],
+        "family_size": 6,
+        "bootstrap_resamples": 20000
+      },
+      "uses_ratio_periodic_over_gosc": {
+        "mean": 8.524369979539623,
+        "ci95": [
+          7.869340667475339,
+          9.20480493292132
+        ]
+      },
+      "interpretation": "Original frozen points; resource and task effects jointly reported, no retuning."
+    }
+  },
+  "private": {
+    "default": {
+      "task_shared_minus_oracle": {
+        "n": 100,
+        "mean": 3.12,
+        "ci95": [
+          -4.38,
+          10.51
+        ],
+        "bonferroni_ci": [
+          -5.97,
+          12.14
+        ],
+        "family_size": 3,
+        "bootstrap_resamples": 20000
+      },
+      "uses_oracle_minus_shared": {
+        "n": 100,
+        "mean": 498.96,
+        "ci95": [
+          -306.741,
+          1307.2819999999997
+        ],
+        "bonferroni_ci": [
+          -499.21075,
+          1480.7315833333337
+        ],
+        "family_size": 3,
+        "bootstrap_resamples": 20000
+      },
+      "interpretation": "Privileged joint oracle, fixed eta; realized communication cost not matched."
+    },
+    "W50": {
+      "task_shared_minus_oracle": {
+        "n": 100,
+        "mean": 4.95,
+        "ci95": [
+          -2.76,
+          12.64
+        ],
+        "bonferroni_ci": [
+          -4.3734166666666665,
+          14.373416666666671
+        ],
+        "family_size": 3,
+        "bootstrap_resamples": 20000
+      },
+      "uses_oracle_minus_shared": {
+        "n": 100,
+        "mean": 627.83,
+        "ci95": [
+          114.82075000000002,
+          1145.7537499999971
+        ],
+        "bonferroni_ci": [
+          4.227666666666665,
+          1267.9628333333337
+        ],
+        "family_size": 3,
+        "bootstrap_resamples": 20000
+      },
+      "interpretation": "Privileged joint oracle, fixed eta; realized communication cost not matched."
+    },
+    "snr-5": {
+      "task_shared_minus_oracle": {
+        "n": 100,
+        "mean": -7.37,
+        "ci95": [
+          -18.29,
+          3.4704999999999564
+        ],
+        "bonferroni_ci": [
+          -20.676833333333335,
+          5.81
+        ],
+        "family_size": 3,
+        "bootstrap_resamples": 20000
+      },
+      "uses_oracle_minus_shared": {
+        "n": 100,
+        "mean": 112.03,
+        "ci95": [
+          -709.7585,
+          926.95175
+        ],
+        "bonferroni_ci": [
+          -904.9375833333334,
+          1121.330166666667
+        ],
+        "family_size": 3,
+        "bootstrap_resamples": 20000
+      },
+      "interpretation": "Privileged joint oracle, fixed eta; realized communication cost not matched."
+    }
+  }
+}

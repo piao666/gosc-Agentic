@@ -1,0 +1,16 @@
+{
+  "status": "completed_pending_statistical_gate",
+  "completed": 5200,
+  "fresh_executions": 5200,
+  "reused_previous_runs": 0,
+  "exact_reference_mismatch_records": 200,
+  "start_utc": "2026-10-15T07:42:56.004591+00:00",
+  "elapsed_seconds": 1455.8269405000028,
+  "workers": 4,
+  "raw_sha256": "0bd0433ef40db011aa64a972e9165298092af3e1bfb885f902ec7dc56cb53780",
+  "plan_sha256": "ca037db0ccd9cfd30a23db6d85b58a2faf5c3cc86d284e2de8497e85023e480d",
+  "protected_inputs": {
+    "checked": 76,
+    "differences": []
+  }
+}

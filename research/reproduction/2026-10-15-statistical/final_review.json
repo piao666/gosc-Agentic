@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "fresh_missions": 5200,
+  "matching_saved_fields": 5000,
+  "exact_discrepancy_records": 200,
+  "scalar_discrepancies": 800,
+  "classifications": {
+    "equivalent": 100,
+    "inconclusive": 4
+  },
+  "primary_n": 100,
+  "raw_sha256": "0bd0433ef40db011aa64a972e9165298092af3e1bfb885f902ec7dc56cb53780",
+  "protocol_sha256": "c6d86bb21faf14613479a7cd0e7851d182123e0053b4d408cf27a0fc2a34119f",
+  "source_plan_unchanged": true,
+  "dependencies_match": true,
+  "protected_inputs": {
+    "checked": 76,
+    "differences": []
+  },
+  "receiver_directory_exists": false,
+  "visual_review": "Wrapped labels and legend outside data; final v2 PNGs inspected.",
+  "note": "Statistical gate is inconclusive despite successful execution and validation. No new receiver runs."
+}

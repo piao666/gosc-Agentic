@@ -1,0 +1,415 @@
+{
+  "fresh": {
+    "5000": {
+      "gosc_aoi": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 86.35775755137557,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      },
+      "gosc_bits": {
+        "available": true,
+        "completion_time": 86.14898696027463,
+        "gosc_completion_time": 86.35775755137557,
+        "difference_vs_gosc": -0.20877059110094365,
+        "ci95": [
+          -7.837413095376861,
+          8.137205936886696
+        ],
+        "inherited_bonferroni15_ci": [
+          -11.893053029676587,
+          11.935111889609223
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "gosc_tv": {
+        "available": true,
+        "completion_time": 99.7784091785488,
+        "gosc_completion_time": 86.35775755137557,
+        "difference_vs_gosc": 13.420651627173228,
+        "ci95": [
+          5.4205169207826325,
+          23.31201674585424
+        ],
+        "inherited_bonferroni15_ci": [
+          1.3256502051462333,
+          28.138918733285006
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "sem": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 86.35775755137557,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      },
+      "sem_agg": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 86.35775755137557,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      }
+    },
+    "10000": {
+      "gosc_aoi": {
+        "available": true,
+        "completion_time": 77.45867723406995,
+        "gosc_completion_time": 74.82202689681847,
+        "difference_vs_gosc": 2.6366503372514813,
+        "ci95": [
+          -4.463509385349798,
+          19.395234033111524
+        ],
+        "inherited_bonferroni15_ci": [
+          -8.241771299643323,
+          32.72786393390478
+        ],
+        "valid_bootstrap": 19769,
+        "total_bootstrap": 20000
+      },
+      "gosc_bits": {
+        "available": true,
+        "completion_time": 76.5377504121002,
+        "gosc_completion_time": 74.82202689681847,
+        "difference_vs_gosc": 1.7157235152817236,
+        "ci95": [
+          -5.214504995135609,
+          8.390148267574874
+        ],
+        "inherited_bonferroni15_ci": [
+          -8.56881727935829,
+          11.840844193514158
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "gosc_tv": {
+        "available": true,
+        "completion_time": 86.8065663257189,
+        "gosc_completion_time": 74.82202689681847,
+        "difference_vs_gosc": 11.984539428900433,
+        "ci95": [
+          4.099814080537618,
+          21.50558077185605
+        ],
+        "inherited_bonferroni15_ci": [
+          0.42506572522276315,
+          26.97406551752532
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "sem": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 74.82202689681847,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      },
+      "sem_agg": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 74.82202689681847,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      }
+    },
+    "20000": {
+      "gosc_aoi": {
+        "available": true,
+        "completion_time": 68.04786579383803,
+        "gosc_completion_time": 66.36273756514804,
+        "difference_vs_gosc": 1.6851282286899902,
+        "ci95": [
+          -3.8087467528088026,
+          5.86122617350447
+        ],
+        "inherited_bonferroni15_ci": [
+          -6.053199165909345,
+          8.685796803710932
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "gosc_bits": {
+        "available": true,
+        "completion_time": 71.08132790092714,
+        "gosc_completion_time": 66.36273756514804,
+        "difference_vs_gosc": 4.718590335779098,
+        "ci95": [
+          -2.0567060281041596,
+          9.771446581828338
+        ],
+        "inherited_bonferroni15_ci": [
+          -4.7593670803427655,
+          13.032197688024441
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "gosc_tv": {
+        "available": true,
+        "completion_time": 73.23507312957383,
+        "gosc_completion_time": 66.36273756514804,
+        "difference_vs_gosc": 6.872335564425796,
+        "ci95": [
+          1.8277002601170154,
+          12.038355677953756
+        ],
+        "inherited_bonferroni15_ci": [
+          -0.819747081200747,
+          14.63595056486823
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "sem": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 66.36273756514804,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      },
+      "sem_agg": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 66.36273756514804,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      }
+    }
+  },
+  "reference": {
+    "5000": {
+      "gosc_aoi": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 86.35775755137557,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      },
+      "gosc_bits": {
+        "available": true,
+        "completion_time": 86.04056883854872,
+        "gosc_completion_time": 86.35775755137557,
+        "difference_vs_gosc": -0.317188712826848,
+        "ci95": [
+          -8.064410695647505,
+          8.066008581322015
+        ],
+        "inherited_bonferroni15_ci": [
+          -12.18406282236295,
+          11.824083698662461
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "gosc_tv": {
+        "available": true,
+        "completion_time": 99.7784091785488,
+        "gosc_completion_time": 86.35775755137557,
+        "difference_vs_gosc": 13.420651627173228,
+        "ci95": [
+          5.4205169207826325,
+          23.31201674585424
+        ],
+        "inherited_bonferroni15_ci": [
+          1.3256502051462333,
+          28.138918733285006
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "sem": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 86.35775755137557,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      },
+      "sem_agg": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 86.35775755137557,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      }
+    },
+    "10000": {
+      "gosc_aoi": {
+        "available": true,
+        "completion_time": 77.45867723406995,
+        "gosc_completion_time": 74.82202689681847,
+        "difference_vs_gosc": 2.6366503372514813,
+        "ci95": [
+          -4.463509385349798,
+          19.395234033111524
+        ],
+        "inherited_bonferroni15_ci": [
+          -8.241771299643323,
+          32.72786393390478
+        ],
+        "valid_bootstrap": 19769,
+        "total_bootstrap": 20000
+      },
+      "gosc_bits": {
+        "available": true,
+        "completion_time": 76.111737632444,
+        "gosc_completion_time": 74.82202689681847,
+        "difference_vs_gosc": 1.2897107356255333,
+        "ci95": [
+          -5.485795397939623,
+          7.771014676380288
+        ],
+        "inherited_bonferroni15_ci": [
+          -8.61384801987706,
+          10.916828884087712
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "gosc_tv": {
+        "available": true,
+        "completion_time": 86.8065663257189,
+        "gosc_completion_time": 74.82202689681847,
+        "difference_vs_gosc": 11.984539428900433,
+        "ci95": [
+          4.099814080537618,
+          21.50558077185605
+        ],
+        "inherited_bonferroni15_ci": [
+          0.42506572522276315,
+          26.97406551752532
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "sem": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 74.82202689681847,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      },
+      "sem_agg": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 74.82202689681847,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      }
+    },
+    "20000": {
+      "gosc_aoi": {
+        "available": true,
+        "completion_time": 68.0319934273114,
+        "gosc_completion_time": 66.36273756514804,
+        "difference_vs_gosc": 1.669255862163368,
+        "ci95": [
+          -3.8273072760262403,
+          5.856091312799035
+        ],
+        "inherited_bonferroni15_ci": [
+          -6.053199165909345,
+          8.664369489798323
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "gosc_bits": {
+        "available": true,
+        "completion_time": 69.76430134975894,
+        "gosc_completion_time": 66.36273756514804,
+        "difference_vs_gosc": 3.4015637846109,
+        "ci95": [
+          -2.687009135068052,
+          8.213363112129361
+        ],
+        "inherited_bonferroni15_ci": [
+          -5.520172974273653,
+          10.849625406126961
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "gosc_tv": {
+        "available": true,
+        "completion_time": 73.23507312957383,
+        "gosc_completion_time": 66.36273756514804,
+        "difference_vs_gosc": 6.872335564425796,
+        "ci95": [
+          1.8277002601170154,
+          12.038355677953756
+        ],
+        "inherited_bonferroni15_ci": [
+          -0.819747081200747,
+          14.63595056486823
+        ],
+        "valid_bootstrap": 20000,
+        "total_bootstrap": 20000
+      },
+      "sem": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 66.36273756514804,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      },
+      "sem_agg": {
+        "available": false,
+        "completion_time": null,
+        "gosc_completion_time": 66.36273756514804,
+        "difference_vs_gosc": null,
+        "ci95": null,
+        "inherited_bonferroni15_ci": null,
+        "valid_bootstrap": 0,
+        "total_bootstrap": 20000
+      }
+    }
+  },
+  "interpretation": "Log-linear lower-envelope interpolation, UL data uses only. Not exact equal-cost mission interventions; conditional bootstrap availability retained."
+}

@@ -1,0 +1,107 @@
+{
+  "experiment_id": "2026-10-15-statistical-v1",
+  "date": "2026-10-15T07:42:30.930190+00:00",
+  "git_commit": "dfd94755fe8dfe53820e9ab0103a1d0b690e8c0b",
+  "baseline_commit": "387b49389385b51c275dc5a22ec1672087edda1d",
+  "working_tree_dirty": false,
+  "scheme": [
+    "gosc",
+    "gosc_aoi",
+    "gosc_bits",
+    "gosc_tv",
+    "sem",
+    "sem_agg",
+    "sem_raf",
+    "sem_ras"
+  ],
+  "config_file": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-statistical-v1\\configs.json",
+  "config_sha256": "e9f711a72db7acbfc58a769a0c12dc6bcc5f6009506c4b2bf6b2546dfacef338",
+  "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "dependencies_lock": "requirements-windows.lock.txt",
+  "dependencies_lock_sha256": "6f95f953f6d83f04dcea0cefcfd0b5b83caa681141c2a0a8f7a864482ce5bd34",
+  "os": "Windows-11-10.0.26200-SP0",
+  "hardware": "research/logs/environment-2026-10-12/hardware.json",
+  "agent_models": [
+    "Planner"
+  ],
+  "llm_cache_mode": "not_used",
+  "seeds": {
+    "evaluation": [
+      0,
+      99
+    ],
+    "validation": [
+      3000,
+      3099
+    ]
+  },
+  "train_calib_eval_split": "0-99 original evaluation; 3000-3099 frozen validation; no calibration tuning",
+  "wireless_channel": "Original outage/Rayleigh per configuration",
+  "bandwidth_or_channel_budget": "Original per-agent W100/W50 and frozen point settings; see configs.json",
+  "commands": [
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "experiments_ext.statistical_reproduction",
+      "prepare",
+      "--run-id",
+      "2026-10-15-statistical-v1"
+    ],
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "experiments_ext.statistical_reproduction",
+      "run",
+      "--run-id",
+      "2026-10-15-statistical-v1",
+      "--workers",
+      "4"
+    ],
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "experiments_ext.statistical_reproduction",
+      "analyze",
+      "--run-id",
+      "2026-10-15-statistical-v1"
+    ]
+  ],
+  "raw_output_paths": [
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-statistical-v1\\r4-statistical\\raw.jsonl"
+  ],
+  "logs": [
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-statistical-v1\\execution.log",
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-statistical-v1\\analysis.log"
+  ],
+  "status": "statistically_inconclusive",
+  "receiver_diagnostic_status": "not_run_statistical_gate_not_passed",
+  "completed_fresh": 5200,
+  "exact_matching_saved_field_records": 5000,
+  "exact_discrepancy_records": 200,
+  "strict_stage_status": "failed_preserved",
+  "protocol_sha256": "c6d86bb21faf14613479a7cd0e7851d182123e0053b4d408cf27a0fc2a34119f",
+  "gate_sha256": "c7ef962b4c2c5721863e8335b003364dc8078afca42332a1b1df837235cc0f4d",
+  "raw_sha256": "0bd0433ef40db011aa64a972e9165298092af3e1bfb885f902ec7dc56cb53780",
+  "raw_bytes": 8912773,
+  "elapsed_seconds": 1455.8269405000028,
+  "workers": 4,
+  "seed_unit": "One complete mission; shared resampling within seed cohort",
+  "prior_data_exposure": "1399 strict-stage retained results and seed-0 probes already observed",
+  "source_snapshot_directory": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-statistical-v1\\source",
+  "notes": [
+    "No new model/training/API/algorithm changes.",
+    "Historical calibration and LLM replay/live not run.",
+    "Headline references have task and symbols only; equality claims are limited to saved fields.",
+    "Tail examples are diagnostic illustrations; all seeds retained.",
+    "CPU/GPU peaks, inference tokens and real serialized bytes not measured."
+  ]
+}

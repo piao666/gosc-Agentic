@@ -1,0 +1,156 @@
+{
+  "cwd": "E:\\gosc-agentic-teams",
+  "commands": [
+    {
+      "argv": [
+        "E:\\gosc-agentic-teams\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "experiments_ext.statistical_reproduction",
+        "prepare",
+        "--run-id",
+        "2026-10-15-statistical-v1"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "E:\\gosc-agentic-teams\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "experiments_ext.statistical_reproduction",
+        "run",
+        "--run-id",
+        "2026-10-15-statistical-v1",
+        "--workers",
+        "4"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "E:\\gosc-agentic-teams\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "experiments_ext.statistical_reproduction",
+        "analyze",
+        "--run-id",
+        "2026-10-15-statistical-v1"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "E:\\gosc-agentic-teams\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "pytest",
+        "-q",
+        "tests",
+        "tests_ext"
+      ],
+      "exit_code": 0,
+      "passed": 99,
+      "elapsed_seconds": 132.5,
+      "log": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-statistical-preflight\\tests.log"
+    },
+    {
+      "argv": [
+        "E:\\gosc-agentic-teams\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "pytest",
+        "-q",
+        "tests_ext/test_statistical_agreement.py"
+      ],
+      "exit_code": 0,
+      "passed": 7,
+      "elapsed_seconds": 0.72,
+      "log": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-statistical-preflight\\statistical-tests-final.log"
+    },
+    {
+      "argv": [
+        "E:\\gosc-agentic-teams\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "pytest",
+        "-q",
+        "tests_ext/test_receiver_statistical_gate.py"
+      ],
+      "exit_code": 0,
+      "passed": 2,
+      "elapsed_seconds": 0.12,
+      "log": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-statistical-preflight\\receiver-gate-tests.log"
+    },
+    {
+      "argv": [
+        "E:\\gosc-agentic-teams\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-statistical-v1\\export_compact.py"
+      ],
+      "exit_code": 1,
+      "error": "ModuleNotFoundError: experiments_ext; no output created"
+    },
+    {
+      "argv": [
+        "E:\\gosc-agentic-teams\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-statistical-v1\\export_compact.py"
+      ],
+      "environment_overrides": {
+        "PYTHONPATH": "E:\\gosc-agentic-teams"
+      },
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "E:\\gosc-agentic-teams\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "experiments_ext.plot_statistical_agreement",
+        "--run-id",
+        "2026-10-15-statistical-v1"
+      ],
+      "presentation_version": 1,
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "E:\\gosc-agentic-teams\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "experiments_ext.plot_statistical_agreement",
+        "--run-id",
+        "2026-10-15-statistical-v1"
+      ],
+      "presentation_version": 2,
+      "exit_code": 0
+    }
+  ],
+  "notes": [
+    "Actual execution commands; not a replay against completed output paths.",
+    "The initial six statistical tests also passed before the full suite; --help and static inspection calls are additional read-only checks.",
+    "No receiver campaign command was executed.",
+    "Original figures and revised presentation versions retained."
+  ]
+}

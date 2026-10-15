@@ -1,5 +1,26 @@
 # Reproduction evidence index
 
+## Approved R4-S1 statistical reproduction
+
+Raw root: `.local/reproduction/2026-10-15-statistical-v1/`.
+Compact directory: `research/reproduction/2026-10-15-statistical/`.
+
+| Claim / limitation | Evidence |
+|---|---|
+| 5200 fresh, zero reused; 1455.827s, four workers | `execution_manifest.json`, raw `execution.log` |
+| 100/104 equivalent, four inconclusive, no incompatible endpoints | `gate.json`, `agreement.csv/json` |
+| 200 exact-discrepancy records, 800 scalar differences | `discrepancy_groups.csv`, raw `exact_discrepancies.csv` |
+| Private600 and headline1200 saved fields match | raw per-record `reference_differences`; `report.md` states saved-field boundary |
+| Three joint-oracle task CIs cross zero; no stable benefit established | `supplemental_contrasts.json:private` |
+| All seeds retained, illustrative large positive/negative tails | raw `raw.jsonl`, compact `tail_examples.csv` |
+| No extrapolation; invalid frontier resamples counted | `frontier_statistics.json` |
+| Full99 tests + final statistics7 + gate2 (separate invocations) | raw `preflight.json` and linked logs |
+| New receiver factorization not run; scoped proposal unapproved | `experiment_manifest.json`, `receiver_scope_proposal.md` |
+
+This is a disclosed amendment after prior data exposure, not a blind preregistration.
+Original strict R4 remains failed; R4-S1 remains inconclusive. Historical calibration,
+live/cached LLM reproduction and new estimator contributions are not claimed.
+
 ## Approved mismatch follow-up
 
 [RUN] Raw root: `.local/reproduction/2026-10-15-mismatch-v2/` (local only).

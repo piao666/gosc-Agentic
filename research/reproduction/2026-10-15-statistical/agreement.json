@@ -1,0 +1,3443 @@
+{
+  "resamples": 20000,
+  "seed": 20261015,
+  "family_size": 104,
+  "critical_value": 3.1432208110805355,
+  "method": "paired bootstrap max absolute standardized centered-mean deviation; fixed sample SE",
+  "caveat": "Approximate finite-panel inference; zero observed variance is not proof for unseen seeds.",
+  "results": [
+    {
+      "id": "0/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 64.39,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 0,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta0.0",
+        "metric": "completion_time",
+        "fresh_mean": 64.39,
+        "reference_mean": 64.39
+      }
+    },
+    {
+      "id": "0/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 23303.65,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 0,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta0.0",
+        "metric": "symbols",
+        "fresh_mean": 23303.65,
+        "reference_mean": 23303.65
+      }
+    },
+    {
+      "id": "1/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 96.28,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 1,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta0.0001",
+        "metric": "completion_time",
+        "fresh_mean": 96.28,
+        "reference_mean": 96.28
+      }
+    },
+    {
+      "id": "1/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 3498.52,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 1,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta0.0001",
+        "metric": "symbols",
+        "fresh_mean": 3498.52,
+        "reference_mean": 3498.52
+      }
+    },
+    {
+      "id": "2/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 106.56,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 2,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta0.0003",
+        "metric": "completion_time",
+        "fresh_mean": 106.56,
+        "reference_mean": 106.56
+      }
+    },
+    {
+      "id": "2/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 1651.32,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 2,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta0.0003",
+        "metric": "symbols",
+        "fresh_mean": 1651.32,
+        "reference_mean": 1651.32
+      }
+    },
+    {
+      "id": "3/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 94.17,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 3,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta0.001",
+        "metric": "completion_time",
+        "fresh_mean": 94.17,
+        "reference_mean": 94.17
+      }
+    },
+    {
+      "id": "3/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 883.68,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 3,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta0.001",
+        "metric": "symbols",
+        "fresh_mean": 883.68,
+        "reference_mean": 883.68
+      }
+    },
+    {
+      "id": "4/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 72.89,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 4,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta1e-05",
+        "metric": "completion_time",
+        "fresh_mean": 72.89,
+        "reference_mean": 72.89
+      }
+    },
+    {
+      "id": "4/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 12063.24,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 4,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta1e-05",
+        "metric": "symbols",
+        "fresh_mean": 12063.24,
+        "reference_mean": 12063.24
+      }
+    },
+    {
+      "id": "5/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 78.05,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 5,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta3e-05",
+        "metric": "completion_time",
+        "fresh_mean": 78.05,
+        "reference_mean": 78.05
+      }
+    },
+    {
+      "id": "5/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 7309.58,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 5,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta3e-05",
+        "metric": "symbols",
+        "fresh_mean": 7309.58,
+        "reference_mean": 7309.58
+      }
+    },
+    {
+      "id": "6/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 69.06,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 6,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta3e-06",
+        "metric": "completion_time",
+        "fresh_mean": 69.06,
+        "reference_mean": 69.06
+      }
+    },
+    {
+      "id": "6/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 16227.5,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 6,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W100/eta3e-06",
+        "metric": "symbols",
+        "fresh_mean": 16227.5,
+        "reference_mean": 16227.5
+      }
+    },
+    {
+      "id": "7/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 69.15,
+      "margin": 0.05,
+      "delta_mean": -0.39,
+      "normalized_delta_mean": -0.005639913232104121,
+      "normalized_ci95": [
+        -0.016919739696312365,
+        0.0
+      ],
+      "simultaneous_interval": [
+        -0.023367405875942285,
+        0.012087579411734044
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 1,
+      "same_seeds": 99,
+      "max_absolute_difference": 39.0,
+      "metadata": {
+        "group_index": 7,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta0.0",
+        "metric": "completion_time",
+        "fresh_mean": 68.76,
+        "reference_mean": 69.15
+      }
+    },
+    {
+      "id": "7/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 27018.97,
+      "margin": 0.05,
+      "delta_mean": -94.37,
+      "normalized_delta_mean": -0.0034927312181034288,
+      "normalized_ci95": [
+        -0.01046486968230099,
+        0.0
+      ],
+      "simultaneous_interval": [
+        -0.014428933634264486,
+        0.0074434711980576294
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 2,
+      "same_seeds": 98,
+      "max_absolute_difference": 9401.0,
+      "metadata": {
+        "group_index": 7,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta0.0",
+        "metric": "symbols",
+        "fresh_mean": 26924.6,
+        "reference_mean": 27018.97
+      }
+    },
+    {
+      "id": "8/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 67.78,
+      "margin": 0.05,
+      "delta_mean": 0.04,
+      "normalized_delta_mean": 0.0005901445854234287,
+      "normalized_ci95": [
+        0.0,
+        0.001770433756270286
+      ],
+      "simultaneous_interval": [
+        -0.0012648101570259872,
+        0.0024450993278728444
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 1,
+      "negative_seeds": 0,
+      "same_seeds": 99,
+      "max_absolute_difference": 4.0,
+      "metadata": {
+        "group_index": 8,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta0.003",
+        "metric": "completion_time",
+        "fresh_mean": 67.82,
+        "reference_mean": 67.78
+      }
+    },
+    {
+      "id": "8/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 22438.29,
+      "margin": 0.05,
+      "delta_mean": 13.51,
+      "normalized_delta_mean": 0.0006020957925046873,
+      "normalized_ci95": [
+        0.0,
+        0.001806287377514062
+      ],
+      "simultaneous_interval": [
+        -0.0012904242327600743,
+        0.002494615817769449
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 1,
+      "negative_seeds": 0,
+      "same_seeds": 99,
+      "max_absolute_difference": 1351.0,
+      "metadata": {
+        "group_index": 8,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta0.003",
+        "metric": "symbols",
+        "fresh_mean": 22451.8,
+        "reference_mean": 22438.29
+      }
+    },
+    {
+      "id": "9/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 68.19,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 9,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta0.01",
+        "metric": "completion_time",
+        "fresh_mean": 68.19,
+        "reference_mean": 68.19
+      }
+    },
+    {
+      "id": "9/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 18608.18,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 9,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta0.01",
+        "metric": "symbols",
+        "fresh_mean": 18608.18,
+        "reference_mean": 18608.18
+      }
+    },
+    {
+      "id": "10/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 71.14,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 10,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta0.03",
+        "metric": "completion_time",
+        "fresh_mean": 71.14,
+        "reference_mean": 71.14
+      }
+    },
+    {
+      "id": "10/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 15429.84,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 10,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta0.03",
+        "metric": "symbols",
+        "fresh_mean": 15429.84,
+        "reference_mean": 15429.84
+      }
+    },
+    {
+      "id": "11/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 73.34,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 11,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta0.1",
+        "metric": "completion_time",
+        "fresh_mean": 73.34,
+        "reference_mean": 73.34
+      }
+    },
+    {
+      "id": "11/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 11861.19,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 11,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta0.1",
+        "metric": "symbols",
+        "fresh_mean": 11861.19,
+        "reference_mean": 11861.19
+      }
+    },
+    {
+      "id": "12/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 77.98,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 12,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta0.3",
+        "metric": "completion_time",
+        "fresh_mean": 77.98,
+        "reference_mean": 77.98
+      }
+    },
+    {
+      "id": "12/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 9786.27,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 12,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta0.3",
+        "metric": "symbols",
+        "fresh_mean": 9786.27,
+        "reference_mean": 9786.27
+      }
+    },
+    {
+      "id": "13/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 106.54,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 13,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta1.0",
+        "metric": "completion_time",
+        "fresh_mean": 106.54,
+        "reference_mean": 106.54
+      }
+    },
+    {
+      "id": "13/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 9289.99,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 13,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_aoi",
+        "param": "W100/eta1.0",
+        "metric": "symbols",
+        "fresh_mean": 9289.99,
+        "reference_mean": 9289.99
+      }
+    },
+    {
+      "id": "14/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 68.72,
+      "margin": 0.05,
+      "delta_mean": 2.54,
+      "normalized_delta_mean": 0.0369615832363213,
+      "normalized_ci95": [
+        -0.0037871071012805565,
+        0.08847497089639114
+      ],
+      "simultaneous_interval": [
+        -0.037562006144356105,
+        0.11148517261699871
+      ],
+      "classification": "inconclusive",
+      "positive_seeds": 16,
+      "negative_seeds": 12,
+      "same_seeds": 72,
+      "max_absolute_difference": 105.0,
+      "metadata": {
+        "group_index": 14,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta0.0",
+        "metric": "completion_time",
+        "fresh_mean": 71.26,
+        "reference_mean": 68.72
+      }
+    },
+    {
+      "id": "14/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 26605.88,
+      "margin": 0.05,
+      "delta_mean": 492.82,
+      "normalized_delta_mean": 0.0185229731172207,
+      "normalized_ci95": [
+        -0.002735908378147987,
+        0.04454468335570934
+      ],
+      "simultaneous_interval": [
+        -0.019656457997890658,
+        0.056702404232332054
+      ],
+      "classification": "inconclusive",
+      "positive_seeds": 38,
+      "negative_seeds": 35,
+      "same_seeds": 27,
+      "max_absolute_difference": 21207.0,
+      "metadata": {
+        "group_index": 14,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta0.0",
+        "metric": "symbols",
+        "fresh_mean": 27098.7,
+        "reference_mean": 26605.88
+      }
+    },
+    {
+      "id": "15/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 69.58,
+      "margin": 0.05,
+      "delta_mean": 1.49,
+      "normalized_delta_mean": 0.021414199482609947,
+      "normalized_ci95": [
+        -0.016671457315320496,
+        0.06021845357861455
+      ],
+      "simultaneous_interval": [
+        -0.04002598324779388,
+        0.08285438221301378
+      ],
+      "classification": "inconclusive",
+      "positive_seeds": 16,
+      "negative_seeds": 9,
+      "same_seeds": 75,
+      "max_absolute_difference": 77.0,
+      "metadata": {
+        "group_index": 15,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta0.1",
+        "metric": "completion_time",
+        "fresh_mean": 71.07,
+        "reference_mean": 69.58
+      }
+    },
+    {
+      "id": "15/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 21606.25,
+      "margin": 0.05,
+      "delta_mean": 246.35,
+      "normalized_delta_mean": 0.01140179346253977,
+      "normalized_ci95": [
+        -0.007436875903962974,
+        0.03268072895574194
+      ],
+      "simultaneous_interval": [
+        -0.02083127827623253,
+        0.04363486520131207
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 35,
+      "negative_seeds": 33,
+      "same_seeds": 32,
+      "max_absolute_difference": 11898.0,
+      "metadata": {
+        "group_index": 15,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta0.1",
+        "metric": "symbols",
+        "fresh_mean": 21852.6,
+        "reference_mean": 21606.25
+      }
+    },
+    {
+      "id": "16/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 70.48,
+      "margin": 0.05,
+      "delta_mean": 0.64,
+      "normalized_delta_mean": 0.009080590238365492,
+      "normalized_ci95": [
+        -0.027667423382519863,
+        0.05419977298524404
+      ],
+      "simultaneous_interval": [
+        -0.056783438694691324,
+        0.07494461917142231
+      ],
+      "classification": "inconclusive",
+      "positive_seeds": 11,
+      "negative_seeds": 11,
+      "same_seeds": 78,
+      "max_absolute_difference": 118.0,
+      "metadata": {
+        "group_index": 16,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta0.3",
+        "metric": "completion_time",
+        "fresh_mean": 71.12,
+        "reference_mean": 70.48
+      }
+    },
+    {
+      "id": "16/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 14816.56,
+      "margin": 0.05,
+      "delta_mean": -36.12,
+      "normalized_delta_mean": -0.0024378128256491377,
+      "normalized_ci95": [
+        -0.016654692452229124,
+        0.011817334792961381
+      ],
+      "simultaneous_interval": [
+        -0.025292885271754086,
+        0.020417259620455812
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 34,
+      "negative_seeds": 21,
+      "same_seeds": 45,
+      "max_absolute_difference": 6097.0,
+      "metadata": {
+        "group_index": 16,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta0.3",
+        "metric": "symbols",
+        "fresh_mean": 14780.44,
+        "reference_mean": 14816.56
+      }
+    },
+    {
+      "id": "17/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 89.43,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 17,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta1.0",
+        "metric": "completion_time",
+        "fresh_mean": 89.43,
+        "reference_mean": 89.43
+      }
+    },
+    {
+      "id": "17/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 3946.45,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 17,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta1.0",
+        "metric": "symbols",
+        "fresh_mean": 3946.45,
+        "reference_mean": 3946.45
+      }
+    },
+    {
+      "id": "18/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 93.57,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 18,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta2.0",
+        "metric": "completion_time",
+        "fresh_mean": 93.57,
+        "reference_mean": 93.57
+      }
+    },
+    {
+      "id": "18/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 1417.84,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 18,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta2.0",
+        "metric": "symbols",
+        "fresh_mean": 1417.84,
+        "reference_mean": 1417.84
+      }
+    },
+    {
+      "id": "19/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 99.18,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 19,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta3.0",
+        "metric": "completion_time",
+        "fresh_mean": 99.18,
+        "reference_mean": 99.18
+      }
+    },
+    {
+      "id": "19/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 1103.59,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 19,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta3.0",
+        "metric": "symbols",
+        "fresh_mean": 1103.59,
+        "reference_mean": 1103.59
+      }
+    },
+    {
+      "id": "20/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 98.52,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 20,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta4.0",
+        "metric": "completion_time",
+        "fresh_mean": 98.52,
+        "reference_mean": 98.52
+      }
+    },
+    {
+      "id": "20/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 951.86,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 20,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_bits",
+        "param": "W100/eta4.0",
+        "metric": "symbols",
+        "fresh_mean": 951.86,
+        "reference_mean": 951.86
+      }
+    },
+    {
+      "id": "21/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 66.59,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 21,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.0",
+        "metric": "completion_time",
+        "fresh_mean": 66.59,
+        "reference_mean": 66.59
+      }
+    },
+    {
+      "id": "21/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 28617.75,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 21,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.0",
+        "metric": "symbols",
+        "fresh_mean": 28617.75,
+        "reference_mean": 28617.75
+      }
+    },
+    {
+      "id": "22/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 68.32,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 22,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.0001",
+        "metric": "completion_time",
+        "fresh_mean": 68.32,
+        "reference_mean": 68.32
+      }
+    },
+    {
+      "id": "22/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 25525.18,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 22,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.0001",
+        "metric": "symbols",
+        "fresh_mean": 25525.18,
+        "reference_mean": 25525.18
+      }
+    },
+    {
+      "id": "23/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 71.9,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 23,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.0003",
+        "metric": "completion_time",
+        "fresh_mean": 71.9,
+        "reference_mean": 71.9
+      }
+    },
+    {
+      "id": "23/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 23015.05,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 23,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.0003",
+        "metric": "symbols",
+        "fresh_mean": 23015.05,
+        "reference_mean": 23015.05
+      }
+    },
+    {
+      "id": "24/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 75.39,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 24,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.001",
+        "metric": "completion_time",
+        "fresh_mean": 75.39,
+        "reference_mean": 75.39
+      }
+    },
+    {
+      "id": "24/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 15944.09,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 24,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.001",
+        "metric": "symbols",
+        "fresh_mean": 15944.09,
+        "reference_mean": 15944.09
+      }
+    },
+    {
+      "id": "25/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 89.79,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 25,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.003",
+        "metric": "completion_time",
+        "fresh_mean": 89.79,
+        "reference_mean": 89.79
+      }
+    },
+    {
+      "id": "25/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 8852.29,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 25,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.003",
+        "metric": "symbols",
+        "fresh_mean": 8852.29,
+        "reference_mean": 8852.29
+      }
+    },
+    {
+      "id": "26/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 113.11,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 26,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.01",
+        "metric": "completion_time",
+        "fresh_mean": 113.11,
+        "reference_mean": 113.11
+      }
+    },
+    {
+      "id": "26/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 4016.09,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 26,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.01",
+        "metric": "symbols",
+        "fresh_mean": 4016.09,
+        "reference_mean": 4016.09
+      }
+    },
+    {
+      "id": "27/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 103.61,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 27,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.03",
+        "metric": "completion_time",
+        "fresh_mean": 103.61,
+        "reference_mean": 103.61
+      }
+    },
+    {
+      "id": "27/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 722.4,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 27,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc_tv",
+        "param": "W100/eta0.03",
+        "metric": "symbols",
+        "fresh_mean": 722.4,
+        "reference_mean": 722.4
+      }
+    },
+    {
+      "id": "28/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 78.73,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 28,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "sem",
+        "param": "W100/k1",
+        "metric": "completion_time",
+        "fresh_mean": 78.73,
+        "reference_mean": 78.73
+      }
+    },
+    {
+      "id": "28/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 41302.9,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 28,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "sem",
+        "param": "W100/k1",
+        "metric": "symbols",
+        "fresh_mean": 41302.9,
+        "reference_mean": 41302.9
+      }
+    },
+    {
+      "id": "29/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 85.38,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 29,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "sem_agg",
+        "param": "W100/k1",
+        "metric": "completion_time",
+        "fresh_mean": 85.38,
+        "reference_mean": 85.38
+      }
+    },
+    {
+      "id": "29/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 46158.21,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 29,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "sem_agg",
+        "param": "W100/k1",
+        "metric": "symbols",
+        "fresh_mean": 46158.21,
+        "reference_mean": 46158.21
+      }
+    },
+    {
+      "id": "30/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 97.04,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 30,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "sem_agg",
+        "param": "W100/k16",
+        "metric": "completion_time",
+        "fresh_mean": 97.04,
+        "reference_mean": 97.04
+      }
+    },
+    {
+      "id": "30/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 34509.43,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 30,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "sem_agg",
+        "param": "W100/k16",
+        "metric": "symbols",
+        "fresh_mean": 34509.43,
+        "reference_mean": 34509.43
+      }
+    },
+    {
+      "id": "31/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 82.11,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 31,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "sem_agg",
+        "param": "W100/k2",
+        "metric": "completion_time",
+        "fresh_mean": 82.11,
+        "reference_mean": 82.11
+      }
+    },
+    {
+      "id": "31/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 41724.75,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 31,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "sem_agg",
+        "param": "W100/k2",
+        "metric": "symbols",
+        "fresh_mean": 41724.75,
+        "reference_mean": 41724.75
+      }
+    },
+    {
+      "id": "32/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 69.0,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 32,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "sem_agg",
+        "param": "W100/k4",
+        "metric": "completion_time",
+        "fresh_mean": 69.0,
+        "reference_mean": 69.0
+      }
+    },
+    {
+      "id": "32/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 31295.45,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 32,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "sem_agg",
+        "param": "W100/k4",
+        "metric": "symbols",
+        "fresh_mean": 31295.45,
+        "reference_mean": 31295.45
+      }
+    },
+    {
+      "id": "33/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 78.26,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 33,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "sem_agg",
+        "param": "W100/k8",
+        "metric": "completion_time",
+        "fresh_mean": 78.26,
+        "reference_mean": 78.26
+      }
+    },
+    {
+      "id": "33/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 31286.72,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 33,
+        "campaign": "frontier-W100",
+        "setting": "",
+        "family": "",
+        "scheme": "sem_agg",
+        "param": "W100/k8",
+        "metric": "symbols",
+        "fresh_mean": 31286.72,
+        "reference_mean": 31286.72
+      }
+    },
+    {
+      "id": "34/saved_fraction",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 1.0,
+      "margin": 0.02,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 34,
+        "campaign": "headline-frozen",
+        "setting": "rescue-W100",
+        "family": "gosc",
+        "scheme": "gosc",
+        "param": "W100/eta0.0001",
+        "metric": "saved_fraction",
+        "fresh_mean": 0.93625,
+        "reference_mean": 0.93625
+      }
+    },
+    {
+      "id": "34/symbols",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 4140.28,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 34,
+        "campaign": "headline-frozen",
+        "setting": "rescue-W100",
+        "family": "gosc",
+        "scheme": "gosc",
+        "param": "W100/eta0.0001",
+        "metric": "symbols",
+        "fresh_mean": 4140.28,
+        "reference_mean": 4140.28
+      }
+    },
+    {
+      "id": "35/saved_fraction",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 1.0,
+      "margin": 0.02,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 35,
+        "campaign": "headline-frozen",
+        "setting": "rescue-W100",
+        "family": "periodic",
+        "scheme": "sem_ras",
+        "param": "rescue-W100/k2/th1.0",
+        "metric": "saved_fraction",
+        "fresh_mean": 0.9,
+        "reference_mean": 0.9
+      }
+    },
+    {
+      "id": "35/symbols",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 7359.89,
+      "margin": 0.05,
+      "delta_mean": 4.547473508864641e-15,
+      "normalized_delta_mean": 6.178724829942622e-19,
+      "normalized_ci95": [
+        0.0,
+        1.8536174489827866e-18
+      ],
+      "simultaneous_interval": [
+        -1.324237164147306e-18,
+        2.5599821301358307e-18
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 4.547473508864641e-13,
+      "metadata": {
+        "group_index": 35,
+        "campaign": "headline-frozen",
+        "setting": "rescue-W100",
+        "family": "periodic",
+        "scheme": "sem_ras",
+        "param": "rescue-W100/k2/th1.0",
+        "metric": "symbols",
+        "fresh_mean": 7359.89,
+        "reference_mean": 7359.89
+      }
+    },
+    {
+      "id": "36/saved_fraction",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 1.0,
+      "margin": 0.02,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 36,
+        "campaign": "headline-frozen",
+        "setting": "rescue-W50",
+        "family": "gosc",
+        "scheme": "gosc",
+        "param": "W50/eta0.0001",
+        "metric": "saved_fraction",
+        "fresh_mean": 0.95125,
+        "reference_mean": 0.95125
+      }
+    },
+    {
+      "id": "36/symbols",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 3058.8,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        -4.460056403358808e-18,
+        4.460056403358808e-18
+      ],
+      "simultaneous_interval": [
+        -6.64188555437385e-18,
+        6.64188555437385e-18
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 4.547473508864641e-13,
+      "metadata": {
+        "group_index": 36,
+        "campaign": "headline-frozen",
+        "setting": "rescue-W50",
+        "family": "gosc",
+        "scheme": "gosc",
+        "param": "W50/eta0.0001",
+        "metric": "symbols",
+        "fresh_mean": 3058.8,
+        "reference_mean": 3058.8
+      }
+    },
+    {
+      "id": "37/saved_fraction",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 1.0,
+      "margin": 0.02,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 37,
+        "campaign": "headline-frozen",
+        "setting": "rescue-W50",
+        "family": "periodic",
+        "scheme": "sem_ras",
+        "param": "rescue-W50/k2/th1.0",
+        "metric": "saved_fraction",
+        "fresh_mean": 0.87875,
+        "reference_mean": 0.87875
+      }
+    },
+    {
+      "id": "37/symbols",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 7950.7,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 37,
+        "campaign": "headline-frozen",
+        "setting": "rescue-W50",
+        "family": "periodic",
+        "scheme": "sem_ras",
+        "param": "rescue-W50/k2/th1.0",
+        "metric": "symbols",
+        "fresh_mean": 7950.7,
+        "reference_mean": 7950.7
+      }
+    },
+    {
+      "id": "38/saved_fraction",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 1.0,
+      "margin": 0.02,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 38,
+        "campaign": "headline-frozen",
+        "setting": "rescue-snr-5",
+        "family": "gosc",
+        "scheme": "gosc",
+        "param": "snr-5/eta0.0001",
+        "metric": "saved_fraction",
+        "fresh_mean": 0.8925,
+        "reference_mean": 0.8925
+      }
+    },
+    {
+      "id": "38/symbols",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 5151.42,
+      "margin": 0.05,
+      "delta_mean": -1.3642420526593923e-14,
+      "normalized_delta_mean": -2.6482834881632488e-18,
+      "normalized_ci95": [
+        -7.062089301768664e-18,
+        0.0
+      ],
+      "simultaneous_interval": [
+        -8.82761162721083e-18,
+        3.531044650884333e-18
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 9.094947017729282e-13,
+      "metadata": {
+        "group_index": 38,
+        "campaign": "headline-frozen",
+        "setting": "rescue-snr-5",
+        "family": "gosc",
+        "scheme": "gosc",
+        "param": "snr-5/eta0.0001",
+        "metric": "symbols",
+        "fresh_mean": 5151.42,
+        "reference_mean": 5151.42
+      }
+    },
+    {
+      "id": "39/saved_fraction",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 1.0,
+      "margin": 0.02,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 39,
+        "campaign": "headline-frozen",
+        "setting": "rescue-snr-5",
+        "family": "periodic",
+        "scheme": "sem_ras",
+        "param": "rescue-snr-5/k2/th1.0",
+        "metric": "saved_fraction",
+        "fresh_mean": 0.89,
+        "reference_mean": 0.89
+      }
+    },
+    {
+      "id": "39/symbols",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 43912.61,
+      "margin": 0.05,
+      "delta_mean": -3.637978807091713e-14,
+      "normalized_delta_mean": -8.2845879739139e-19,
+      "normalized_ci95": [
+        -2.4853763921741703e-18,
+        0.0
+      ],
+      "simultaneous_interval": [
+        -3.4324877304747595e-18,
+        1.7755701356919794e-18
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 3.637978807091713e-12,
+      "metadata": {
+        "group_index": 39,
+        "campaign": "headline-frozen",
+        "setting": "rescue-snr-5",
+        "family": "periodic",
+        "scheme": "sem_ras",
+        "param": "rescue-snr-5/k2/th1.0",
+        "metric": "symbols",
+        "fresh_mean": 43912.61,
+        "reference_mean": 43912.61
+      }
+    },
+    {
+      "id": "40/completion_time",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 54.94,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 40,
+        "campaign": "headline-frozen",
+        "setting": "search-K10",
+        "family": "gosc",
+        "scheme": "gosc",
+        "param": "K10/eta0.0003",
+        "metric": "completion_time",
+        "fresh_mean": 54.94,
+        "reference_mean": 54.94
+      }
+    },
+    {
+      "id": "40/symbols",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 2443.19,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        -2.7919278743351777e-18,
+        2.7919278743351777e-18
+      ],
+      "simultaneous_interval": [
+        -4.157719934536147e-18,
+        4.157719934536147e-18
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 2.2737367544323206e-13,
+      "metadata": {
+        "group_index": 40,
+        "campaign": "headline-frozen",
+        "setting": "search-K10",
+        "family": "gosc",
+        "scheme": "gosc",
+        "param": "K10/eta0.0003",
+        "metric": "symbols",
+        "fresh_mean": 2443.19,
+        "reference_mean": 2443.19
+      }
+    },
+    {
+      "id": "41/completion_time",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 57.84,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 41,
+        "campaign": "headline-frozen",
+        "setting": "search-K10",
+        "family": "periodic",
+        "scheme": "sem_ras",
+        "param": "K10/k4/th0.05",
+        "metric": "completion_time",
+        "fresh_mean": 57.84,
+        "reference_mean": 57.84
+      }
+    },
+    {
+      "id": "41/symbols",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 14450.64,
+      "margin": 0.05,
+      "delta_mean": 7.275957614183426e-14,
+      "normalized_delta_mean": 5.035041779591372e-18,
+      "normalized_ci95": [
+        1.258760444897843e-18,
+        1.0070083559182744e-17
+      ],
+      "simultaneous_interval": [
+        -2.757264124447865e-18,
+        1.2827347683630609e-17
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 1.8189894035458565e-12,
+      "metadata": {
+        "group_index": 41,
+        "campaign": "headline-frozen",
+        "setting": "search-K10",
+        "family": "periodic",
+        "scheme": "sem_ras",
+        "param": "K10/k4/th0.05",
+        "metric": "symbols",
+        "fresh_mean": 14450.64,
+        "reference_mean": 14450.64
+      }
+    },
+    {
+      "id": "42/completion_time",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 70.93,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 42,
+        "campaign": "headline-frozen",
+        "setting": "search-W100",
+        "family": "gosc",
+        "scheme": "gosc",
+        "param": "W100/eta1e-05",
+        "metric": "completion_time",
+        "fresh_mean": 70.93,
+        "reference_mean": 70.93
+      }
+    },
+    {
+      "id": "42/symbols",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 11825.18,
+      "margin": 0.05,
+      "delta_mean": 5.456968210637569e-14,
+      "normalized_delta_mean": 4.614702026216573e-18,
+      "normalized_ci95": [
+        0.0,
+        1.0767638061172004e-17
+      ],
+      "simultaneous_interval": [
+        -3.674757155405152e-18,
+        1.2904161207838298e-17
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 1.8189894035458565e-12,
+      "metadata": {
+        "group_index": 42,
+        "campaign": "headline-frozen",
+        "setting": "search-W100",
+        "family": "gosc",
+        "scheme": "gosc",
+        "param": "W100/eta1e-05",
+        "metric": "symbols",
+        "fresh_mean": 11825.18,
+        "reference_mean": 11825.18
+      }
+    },
+    {
+      "id": "43/completion_time",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 76.22,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 43,
+        "campaign": "headline-frozen",
+        "setting": "search-W100",
+        "family": "periodic",
+        "scheme": "sem_raf",
+        "param": "W100/k4",
+        "metric": "completion_time",
+        "fresh_mean": 76.22,
+        "reference_mean": 76.22
+      }
+    },
+    {
+      "id": "43/symbols",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 14042.7,
+      "margin": 0.05,
+      "delta_mean": -9.094947017729283e-15,
+      "normalized_delta_mean": -6.476636984147837e-19,
+      "normalized_ci95": [
+        -1.942991095244351e-18,
+        0.0
+      ],
+      "simultaneous_interval": [
+        -2.683413713853519e-18,
+        1.3880863170239515e-18
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 9.094947017729282e-13,
+      "metadata": {
+        "group_index": 43,
+        "campaign": "headline-frozen",
+        "setting": "search-W100",
+        "family": "periodic",
+        "scheme": "sem_raf",
+        "param": "W100/k4",
+        "metric": "symbols",
+        "fresh_mean": 14042.7,
+        "reference_mean": 14042.7
+      }
+    },
+    {
+      "id": "44/completion_time",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 57.83,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 44,
+        "campaign": "headline-frozen",
+        "setting": "search-clustered",
+        "family": "gosc",
+        "scheme": "gosc",
+        "param": "clustered/eta3e-05",
+        "metric": "completion_time",
+        "fresh_mean": 57.83,
+        "reference_mean": 57.83
+      }
+    },
+    {
+      "id": "44/symbols",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 6123.42,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        -5.941089794741685e-18,
+        5.941089794741685e-18
+      ],
+      "simultaneous_interval": [
+        -9.384117018418785e-18,
+        9.384117018418785e-18
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 9.094947017729282e-13,
+      "metadata": {
+        "group_index": 44,
+        "campaign": "headline-frozen",
+        "setting": "search-clustered",
+        "family": "gosc",
+        "scheme": "gosc",
+        "param": "clustered/eta3e-05",
+        "metric": "symbols",
+        "fresh_mean": 6123.42,
+        "reference_mean": 6123.42
+      }
+    },
+    {
+      "id": "45/completion_time",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 55.09,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 45,
+        "campaign": "headline-frozen",
+        "setting": "search-clustered",
+        "family": "periodic",
+        "scheme": "sem_ras",
+        "param": "clustered/k4/th0.2",
+        "metric": "completion_time",
+        "fresh_mean": 55.09,
+        "reference_mean": 55.09
+      }
+    },
+    {
+      "id": "45/symbols",
+      "cohort": "validation",
+      "n": 100,
+      "scale": 7840.16,
+      "margin": 0.05,
+      "delta_mean": -9.094947017729283e-15,
+      "normalized_delta_mean": -1.1600460982593827e-18,
+      "normalized_ci95": [
+        -3.4801382947781484e-18,
+        0.0
+      ],
+      "simultaneous_interval": [
+        -4.806327136121051e-18,
+        2.486234939602286e-18
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 9.094947017729282e-13,
+      "metadata": {
+        "group_index": 45,
+        "campaign": "headline-frozen",
+        "setting": "search-clustered",
+        "family": "periodic",
+        "scheme": "sem_ras",
+        "param": "clustered/k4/th0.2",
+        "metric": "symbols",
+        "fresh_mean": 7840.16,
+        "reference_mean": 7840.16
+      }
+    },
+    {
+      "id": "46/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 73.46,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 46,
+        "campaign": "private-original",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W50/oracle",
+        "metric": "completion_time",
+        "fresh_mean": 73.46,
+        "reference_mean": 73.46
+      }
+    },
+    {
+      "id": "46/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 7809.5,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 46,
+        "campaign": "private-original",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W50/oracle",
+        "metric": "symbols",
+        "fresh_mean": 7809.5,
+        "reference_mean": 7809.5
+      }
+    },
+    {
+      "id": "47/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 78.41,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 47,
+        "campaign": "private-original",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W50/shared",
+        "metric": "completion_time",
+        "fresh_mean": 78.41,
+        "reference_mean": 78.41
+      }
+    },
+    {
+      "id": "47/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 7181.67,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 47,
+        "campaign": "private-original",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "W50/shared",
+        "metric": "symbols",
+        "fresh_mean": 7181.67,
+        "reference_mean": 7181.67
+      }
+    },
+    {
+      "id": "48/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 69.77,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 48,
+        "campaign": "private-original",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "default/oracle",
+        "metric": "completion_time",
+        "fresh_mean": 69.77,
+        "reference_mean": 69.77
+      }
+    },
+    {
+      "id": "48/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 12562.2,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 48,
+        "campaign": "private-original",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "default/oracle",
+        "metric": "symbols",
+        "fresh_mean": 12562.2,
+        "reference_mean": 12562.2
+      }
+    },
+    {
+      "id": "49/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 72.89,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 49,
+        "campaign": "private-original",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "default/shared",
+        "metric": "completion_time",
+        "fresh_mean": 72.89,
+        "reference_mean": 72.89
+      }
+    },
+    {
+      "id": "49/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 12063.24,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 49,
+        "campaign": "private-original",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "default/shared",
+        "metric": "symbols",
+        "fresh_mean": 12063.24,
+        "reference_mean": 12063.24
+      }
+    },
+    {
+      "id": "50/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 105.03,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 50,
+        "campaign": "private-original",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "snr-5/oracle",
+        "metric": "completion_time",
+        "fresh_mean": 105.03,
+        "reference_mean": 105.03
+      }
+    },
+    {
+      "id": "50/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 12120.06,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 50,
+        "campaign": "private-original",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "snr-5/oracle",
+        "metric": "symbols",
+        "fresh_mean": 12120.06,
+        "reference_mean": 12120.06
+      }
+    },
+    {
+      "id": "51/completion_time",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 97.66,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 51,
+        "campaign": "private-original",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "snr-5/shared",
+        "metric": "completion_time",
+        "fresh_mean": 97.66,
+        "reference_mean": 97.66
+      }
+    },
+    {
+      "id": "51/symbols",
+      "cohort": "evaluation",
+      "n": 100,
+      "scale": 12008.03,
+      "margin": 0.05,
+      "delta_mean": 0.0,
+      "normalized_delta_mean": 0.0,
+      "normalized_ci95": [
+        0.0,
+        0.0
+      ],
+      "simultaneous_interval": [
+        0.0,
+        0.0
+      ],
+      "classification": "equivalent",
+      "positive_seeds": 0,
+      "negative_seeds": 0,
+      "same_seeds": 100,
+      "max_absolute_difference": 0.0,
+      "metadata": {
+        "group_index": 51,
+        "campaign": "private-original",
+        "setting": "",
+        "family": "",
+        "scheme": "gosc",
+        "param": "snr-5/shared",
+        "metric": "symbols",
+        "fresh_mean": 12008.03,
+        "reference_mean": 12008.03
+      }
+    }
+  ],
+  "all_equivalent": false
+}
