@@ -29,3 +29,26 @@ released `schemes.py`, message accounting and confirmation-priority settings? A 
 seed-0 scheduling trace or environment manifest would help identify the first divergence.
 
 The root cause is currently unresolved; this report does not assert an upstream bug.
+
+## Follow-up evidence and requested provenance (local draft, still unsent)
+
+With unchanged source and the same seed/configuration, our existing Linux x86_64
+containers produce 76/29565/22201 (Python 3.11.17 or 3.14.8, NumPy 2.4.6) and
+72/29896/22228 (Python 3.11.17, NumPy 1.24.4 or 1.26.4). Disabling
+AVX512F/AVX2/FMA3 under Linux NumPy 1.26.4 produces 76/29596/22109.
+Windows NumPy 1.26.4 and 2.4.6 match our original Windows 2.5.3 result.
+None matches the saved 83-slot trajectory.
+
+We isolated a local numerical sensitivity between two of these environments:
+at slot 40, agent 3, a one-ULP candidate value difference changes the residual
+greedy group's density ordering in `lagrangian_select`. Replaying the identical
+candidate set with only that value changed reproduces the different selection.
+This establishes local sensitivity, but we do not have your trace and therefore
+cannot identify the first divergence relative to your original run.
+
+In addition to version numbers, could you share the NumPy wheel/build, CPU
+architecture/available SIMD path, relevant dispatch settings, and exact source and
+configuration used for generation? A trace including candidate groups, option
+values/rates/symbol counts, selected options and channel state for this seed would
+be particularly helpful. We will keep the saved records unchanged and distinguish
+exact replay failure from any subsequent statistical reproduction.
