@@ -1,0 +1,16 @@
+scheme,point,retained_n,planned_n,matching_n,mean_completion_time,mean_symbols,group_complete
+gosc,W100/eta0.0,100,100,100,64.39,23303.65,True
+gosc,W100/eta3e-06,100,100,100,69.06,16227.5,True
+gosc,W100/eta1e-05,100,100,100,72.89,12063.24,True
+gosc,W100/eta3e-05,100,100,100,78.05,7309.58,True
+gosc,W100/eta0.0001,100,100,100,96.28,3498.52,True
+gosc,W100/eta0.0003,100,100,100,106.56,1651.32,True
+gosc,W100/eta0.001,100,100,100,94.17,883.68,True
+gosc_tv,W100/eta0.0,100,100,100,66.59,28617.75,True
+gosc_tv,W100/eta0.0001,100,100,100,68.32,25525.18,True
+gosc_tv,W100/eta0.0003,100,100,100,71.9,23015.05,True
+gosc_tv,W100/eta0.001,100,100,100,75.39,15944.09,True
+gosc_tv,W100/eta0.003,100,100,100,89.79,8852.29,True
+gosc_tv,W100/eta0.01,100,100,100,113.11,4016.09,True
+gosc_tv,W100/eta0.03,98,100,98,103.28571428571429,717.8979591836735,False
+gosc_bits,W100/eta0.0,1,100,0,76.0,29596.0,False

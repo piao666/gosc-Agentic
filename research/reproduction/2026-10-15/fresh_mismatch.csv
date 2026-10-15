@@ -1,0 +1,7 @@
+field,saved_author_value,fresh_value,fresh_minus_saved
+completion_time,83,76,-7
+bits,23468,22109,-1359
+symbols,31011,29596,-1415
+delivered_bits,12426,11849,-577
+dl_symbols,6253,5965,-288
+confirm_latency,0.125,0.0,-0.125

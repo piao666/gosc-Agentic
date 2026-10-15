@@ -1,0 +1,58 @@
+{
+  "experiment_id": "2026-10-15-baseline-v1",
+  "date": "2026-10-15",
+  "git_commit": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "upstream_commit": "387b49389385b51c275dc5a22ec1672087edda1d",
+  "working_tree_dirty": true,
+  "scheme": [
+    "gosc",
+    "gosc_tv",
+    "gosc_bits (first mismatch)"
+  ],
+  "config_file": "local run r4/configs.json",
+  "config_sha256": "e9f711a72db7acbfc58a769a0c12dc6bcc5f6009506c4b2bf6b2546dfacef338",
+  "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "dependencies_lock": "requirements-windows.lock.txt",
+  "dependencies_lock_sha256": "6f95f953f6d83f04dcea0cefcfd0b5b83caa681141c2a0a8f7a864482ce5bd34",
+  "os": "Windows-11-10.0.26200-SP0",
+  "hardware": "research/logs/environment-2026-10-12/hardware.json",
+  "agent_models": [],
+  "llm_cache_mode": "not_run",
+  "seeds": {
+    "R3": [
+      0
+    ],
+    "R4_retained": "0-99 across partially completed original operating points; see raw records",
+    "frozen_3000_3099": "not_reached",
+    "diagnostic_4000_4099": "not_run"
+  },
+  "train_calib_eval_split": "No training/tuning. Original calibration history missing; original evaluation seeds used solely for reproduction.",
+  "wireless_channel": "original default outage model",
+  "bandwidth_or_channel_budget": "W=100 in retained R4 frontier records",
+  "commands": [
+    "experiments_ext.reproduce prepare/r2/r3",
+    "original plot -> plot_revision -> run_belief_divergence --table -> plot_realistic in isolated archive",
+    "experiments_ext.campaign r4 --workers 4 (stopped at first mismatch)",
+    "bounded probe_baseline_mismatch and trace_mismatch commands",
+    "pytest -q tests tests_ext -p no:cacheprovider"
+  ],
+  "raw_output_paths": [
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-baseline-v1\\r3_output.json",
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-baseline-v1\\r4\\raw.jsonl",
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-baseline-v1\\r4\\failure.json",
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-baseline-v1\\mismatch-probes",
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-baseline-v1\\mismatch-trace"
+  ],
+  "logs": [
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-baseline-v1\\r2_logs",
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-baseline-v1\\r4-execution.log",
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-baseline-v1\\final-tests.log"
+  ],
+  "status": "R2_R3_passed_R4_blocked",
+  "notes": [
+    "No new receiver-state campaign was executed.",
+    "All failures and partial records retained.",
+    "Per-seed mismatch is unresolved and not evidence of an aggregate paper error or a TeamModel defect."
+  ],
+  "checkpoint_status": "checkpoint_status.final.json"
+}

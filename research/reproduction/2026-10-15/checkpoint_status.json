@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-15",
+  "run_root": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-baseline-v1",
+  "working_base": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "upstream_baseline": "387b49389385b51c275dc5a22ec1672087edda1d",
+  "R1": "Previously passed 85 upstream tests; combined final tests pending at report creation.",
+  "R2": {
+    "status": "passed",
+    "generated_pdfs": 17,
+    "generated_tex": 18,
+    "paper_rows_matched": 83,
+    "source": "r2_numeric_audit_v2.json"
+  },
+  "R3": {
+    "status": "passed",
+    "stage": "R3",
+    "git_commit": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+    "baseline_commit": "387b49389385b51c275dc5a22ec1672087edda1d",
+    "config_sha256": "4c0d962efa6a4bfd5f0aa6f2e523001172d410182a10f24579c6d560b30c595d",
+    "seeds": [
+      0
+    ],
+    "scheme": "gosc",
+    "differences": [],
+    "elapsed_seconds": 3.416679699992528,
+    "output_sha256": "829e82f3c3081ee28365cf887feb8bc63c8860958550a8d50304271d88551a4d",
+    "protected_inputs": {
+      "checked": 76,
+      "differences": []
+    }
+  },
+  "R4": {
+    "status": "blocked_by_saved_fresh_discrepancy",
+    "planned_records": 5200,
+    "retained_records": 1399,
+    "matching_records": 1398,
+    "mismatch_records": 1,
+    "not_retained": 3801,
+    "note": "Tasks were terminated at the first mismatch. Some unretained tasks may have been in flight; they are not counted as verified executions.",
+    "first_mismatch": {
+      "campaign": "frontier-W100",
+      "scheme": "gosc_bits",
+      "param": "W100/eta0.0",
+      "seed": 0,
+      "config_key": "c144f7d6eae134f6bee6f5257e50a66358b591010ff893c922626a8691dcdecf",
+      "status": "completed",
+      "reference_differences": [
+        {
+          "field": "completion_time",
+          "expected": 83,
+          "actual": 76
+        },
+        {
+          "field": "bits",
+          "expected": 23468,
+          "actual": 22109
+        },
+        {
+          "field": "symbols",
+          "expected": 31011,
+          "actual": 29596
+        },
+        {
+          "field": "delivered_bits",
+          "expected": 12426,
+          "actual": 11849
+        },
+        {
+          "field": "dl_symbols",
+          "expected": 6253,
+          "actual": 5965
+        },
+        {
+          "field": "confirm_latency",
+          "expected": 0.125,
+          "actual": 0.0
+        }
+      ],
+      "elapsed_seconds": 0.26126130000920966
+    },
+    "campaign_wall_seconds_estimated_from_file_timestamps": 396.6343138217926
+  },
+  "new_receiver_diagnostic": {
+    "status": "not_run",
+    "reason": "R4 gate not passed",
+    "pre_registered_seeds": "4000-4099",
+    "adapter_contract_tests_passed": 6,
+    "all_extension_tests_passed": 8
+  },
+  "root_cause": "unresolved; direct original archive, two NumPy versions and limited numerical probes reproduce the discrepancy",
+  "protected_inputs": {
+    "checked": 76,
+    "differences": []
+  },
+  "status": "partial_completion_with_reproduction_blocker"
+}
