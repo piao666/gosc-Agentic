@@ -1,5 +1,25 @@
 # Reproduction evidence index
 
+## Approved mismatch follow-up
+
+[RUN] Raw root: `.local/reproduction/2026-10-15-mismatch-v2/` (local only).
+Compact evidence: [diagnosis report](2026-10-15-mismatch/diagnosis_report.md).
+
+| Claim / boundary | Evidence |
+|---|---|
+| 14 seed-0 probes; none matches the saved reference | `2026-10-15-mismatch/compatibility_matrix.csv`, `experiment_manifest.json` |
+| One-ULP value-only replay changes selected message | `2026-10-15-mismatch/first_scheduler_divergence.json`, `selection_audit.json` |
+| Dual stage selects empty; greedy group order changes | `selection_audit.json:dual_and_greedy_left/right` |
+| 80-combination offline objective audit, not task quality | `selection_audit.json:exact_small_state_left/right` |
+| All mission argv, failed image probe and pip invocation retained | `2026-10-15-mismatch/command_ledger.json` |
+| Existing tests: 93 passed in 45.32s | raw root `tests.log` |
+| Original 76 inputs unchanged, Linux 14 source hashes match | raw root `protected-and-linux-source-check.json` |
+| Historical 83-slot provenance unresolved; R4/receiver not resumed | `2026-10-15-mismatch/experiment_manifest.json`, `diagnosis_report.md` |
+
+These observations establish local numerical sensitivity. They do not identify the
+author's original generation environment, validate a new estimator or establish a
+representative receiver-model defect.
+
 Run root (local, not uploaded):
 `E:\gosc-agentic-teams\.local\reproduction\2026-10-15-baseline-v1`.
 Original baseline: `387b49389385b51c275dc5a22ec1672087edda1d`.

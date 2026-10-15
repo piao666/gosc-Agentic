@@ -1,0 +1,196 @@
+{
+  "status": "audited",
+  "source_sha256": "9b3160fc53c23e5d6715c834c1c2c1949fba9f291fc7c202a0cee2ad6f355d85",
+  "inputs": {
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\original-trace.jsonl": "39bcda61693dc63f70ba13bdb3afa45a84e809754124fd1c69511592375ecf95",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\original-trace.jsonl": "92275e9c17a8cb6a868b073fb079dc6d83f1684fec7c0decf9016e4a3b108eef"
+  },
+  "first_group_difference": 2,
+  "first_discrete_difference": 243,
+  "t": 40,
+  "agent": 3,
+  "same_observed_state": true,
+  "same_candidate_shapes": true,
+  "value_changes": [
+    {
+      "group": 0,
+      "option": 2,
+      "left": 6.191039765244135,
+      "right": 6.191039765244134,
+      "difference": -8.881784197001252e-16,
+      "ulps": -1.0
+    }
+  ],
+  "left": {
+    "chosen": [
+      {
+        "group": 0,
+        "kind": "INTENT",
+        "option": {
+          "rate": 0.25,
+          "bits": 18,
+          "symbols": 72,
+          "value": 14.708667182474091,
+          "n_records": 0
+        }
+      }
+    ],
+    "symbols": 72,
+    "objective": 14.708667182474091,
+    "maximum_densities": [
+      {
+        "kind": "INTENT",
+        "density": 0.34394665362467414,
+        "density_hex": "0x1.60338d338be4ep-2"
+      },
+      {
+        "kind": "EVID",
+        "density": 0.34394665362467414,
+        "density_hex": "0x1.60338d338be4ep-2"
+      }
+    ]
+  },
+  "right": {
+    "chosen": [
+      {
+        "group": 1,
+        "kind": "EVID",
+        "option": {
+          "rate": 1.0,
+          "bits": 99,
+          "symbols": 99,
+          "value": 34.05071870884274,
+          "n_records": 4
+        }
+      }
+    ],
+    "symbols": 99,
+    "objective": 34.05071870884274,
+    "maximum_densities": [
+      {
+        "kind": "INTENT",
+        "density": 0.3439466536246741,
+        "density_hex": "0x1.60338d338be4dp-2"
+      },
+      {
+        "kind": "EVID",
+        "density": 0.34394665362467414,
+        "density_hex": "0x1.60338d338be4ep-2"
+      }
+    ]
+  },
+  "value_only_counterfactual": {
+    "chosen": [
+      {
+        "group": 1,
+        "kind": "EVID",
+        "option": {
+          "rate": 1.0,
+          "bits": 99,
+          "symbols": 99,
+          "value": 34.05071870884274,
+          "n_records": 4
+        }
+      }
+    ],
+    "symbols": 99,
+    "objective": 34.05071870884274,
+    "maximum_densities": [
+      {
+        "kind": "INTENT",
+        "density": 0.3439466536246741,
+        "density_hex": "0x1.60338d338be4dp-2"
+      },
+      {
+        "kind": "EVID",
+        "density": 0.34394665362467414,
+        "density_hex": "0x1.60338d338be4ep-2"
+      }
+    ]
+  },
+  "dual_and_greedy_left": {
+    "initial_symbols": 171,
+    "dual_needed": true,
+    "lo": 0.34394665362436133,
+    "hi": 0.34394665362467414,
+    "dual_symbols": 0,
+    "greedy_group_order": [
+      "INTENT",
+      "EVID"
+    ],
+    "rate1_utilities_at_hi": [
+      {
+        "kind": "INTENT",
+        "utilities": [
+          0.0
+        ]
+      },
+      {
+        "kind": "EVID",
+        "utilities": [
+          0.0
+        ]
+      }
+    ]
+  },
+  "dual_and_greedy_right": {
+    "initial_symbols": 171,
+    "dual_needed": true,
+    "lo": 0.34394665362436133,
+    "hi": 0.34394665362467414,
+    "dual_symbols": 0,
+    "greedy_group_order": [
+      "EVID",
+      "INTENT"
+    ],
+    "rate1_utilities_at_hi": [
+      {
+        "kind": "INTENT",
+        "utilities": [
+          -8.881784197001252e-16
+        ]
+      },
+      {
+        "kind": "EVID",
+        "utilities": [
+          0.0
+        ]
+      }
+    ]
+  },
+  "exact_small_state_left": {
+    "objective": 34.05071870884274,
+    "chosen": [
+      {
+        "group": 1,
+        "kind": "EVID",
+        "option": {
+          "rate": 1.0,
+          "bits": 99,
+          "symbols": 99,
+          "value": 34.05071870884274,
+          "n_records": 4
+        }
+      }
+    ],
+    "combinations": 80
+  },
+  "exact_small_state_right": {
+    "objective": 34.05071870884274,
+    "chosen": [
+      {
+        "group": 1,
+        "kind": "EVID",
+        "option": {
+          "rate": 1.0,
+          "bits": 99,
+          "symbols": 99,
+          "value": 34.05071870884274,
+          "n_records": 4
+        }
+      }
+    ],
+    "combinations": 80
+  },
+  "note": "Offline selection replay isolates numerical sensitivity. Does not identify the author's generation environment or establish a TeamModel defect."
+}

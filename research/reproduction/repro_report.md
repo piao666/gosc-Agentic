@@ -1,5 +1,11 @@
 # Research Task Report — 2026-10-15
 
+**Follow-up diagnosis:** [RUN] A same-input one-ULP counterfactual now demonstrates
+numerically sensitive message selection. The author's 83-slot trajectory is still
+unmatched. R4 remains blocked; receiver diagnostics were not run. See the
+[diagnosis report](2026-10-15-mismatch/diagnosis_report.md) and its 14-run matrix.
+The original report and v1 failure evidence below remain preserved.
+
 - **Research Question / Hypothesis**: [HYPOTHESIS] Can the original GOSC numbers and missions be reproduced before assessing whether TeamModel receiver assumptions cause a stable task-performance loss?
 - **已核验前人工作**: [PAPER] D01, arXiv:2609.39477v1, computational Figures 2–5 and Tables IV–XIII. [RUN] Saved-data regeneration matches 83 displayed numeric rows. This does not establish the validity of all inherited scientific interpretations.
 - **实际阅读源码**: [CODE] Baseline `387b49389385b51c275dc5a22ec1672087edda1d`; original plot modules, run_revision, validate_headline, run_belief_divergence, Config, Simulation, GOSC.build_groups/lagrangian_select and TeamModel. The source of the five central files is identical across the available upstream initial/current release history.
