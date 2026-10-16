@@ -1,0 +1,22 @@
+{
+  "status": "mechanism_review_complete_pilot_not_run",
+  "client_date": "2026-10-16",
+  "reviewed_files": 15,
+  "broken_relative_markdown_links": [],
+  "credential_pattern_hits": [],
+  "large_files": [],
+  "protected_inputs_checked": 76,
+  "protected_differences": [],
+  "prior_receiver_artifacts_checked": 23,
+  "prior_receiver_artifacts_differences": [],
+  "full_tests": {
+    "passed": 113,
+    "seconds": 99.18,
+    "includes_new_8": true
+  },
+  "new_runner_exists": false,
+  "new_performance_data": false,
+  "baseline_status_unchanged": true,
+  "next_action": "user review of counterfactual_protocol_v1.md before new implementation/pilot",
+  "pushed": false
+}

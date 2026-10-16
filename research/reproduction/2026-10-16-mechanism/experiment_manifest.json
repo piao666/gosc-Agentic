@@ -1,0 +1,51 @@
+{
+  "experiment_id": "2026-10-16-mechanism-v1",
+  "date": "2026-10-16",
+  "date_basis": "client Asia/Shanghai date",
+  "git_commit": "d1eddaebc63313f222da7b5bb759a3e86a4da4d3",
+  "working_tree_dirty": true,
+  "startup_working_tree_dirty": false,
+  "dirty_scope": "only new files belonging to this task",
+  "baseline_commit": "387b49389385b51c275dc5a22ec1672087edda1d",
+  "scheme": "no new performance experiment; existing source and saved diagnostic audit",
+  "config_file": null,
+  "config_sha256": null,
+  "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "dependencies_lock": "requirements-windows.lock.txt",
+  "dependencies_lock_sha256": "6f95f953f6d83f04dcea0cefcfd0b5b83caa681141c2a0a8f7a864482ce5bd34",
+  "os": "Windows-11-10.0.26200-SP0",
+  "hardware": "research/logs/environment-2026-10-12/hardware.json (prior inventory, not re-benchmarked)",
+  "agent_models": [
+    "Planner for synthetic fixtures and existing tests; no new LLM evaluation"
+  ],
+  "llm_cache_mode": "not_used",
+  "seeds": [],
+  "synthetic_fixture_seed": 991234,
+  "train_calib_eval_split": "unchanged; no new diagnostic data; proposed5000-5007 not run",
+  "wireless_channel": "existing default model in synthetic contract; no performance cohort",
+  "bandwidth_or_channel_budget": null,
+  "commands": "command_ledger.json",
+  "raw_output_paths": [
+    "saved_diagnostic_audit.json",
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-16-mechanism-v1\\full-tests.log",
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-16-mechanism-v1\\papers"
+  ],
+  "logs": [
+    "research/logs/2026-10-16_mechanism_task_brief.md",
+    "research/logs/task_log_2026-10-16_mechanism.md"
+  ],
+  "status": "completed_mechanism_review_protocol_ready_pilot_not_run",
+  "tests": {
+    "targeted": {
+      "passed": 8,
+      "seconds": 1.41
+    },
+    "full": {
+      "passed": 113,
+      "seconds": 99.18,
+      "includes_targeted": true
+    },
+    "additional_rank_assertions": 4
+  },
+  "notes": "Synthetic counterexamples show existence, not frequency or task loss. strict R4 failed and R4-S1 inconclusive retained; no online algorithm changed."
+}

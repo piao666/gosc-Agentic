@@ -1,0 +1,118 @@
+{
+  "analysis_kind": "saved_author_data_only_no_new_simulation",
+  "input_path": "E:\\gosc-agentic-teams\\results\\rev_value_fidelity.json",
+  "input_sha256": "333088e4624ad0d69d60eccc6223eac82a6b2a8e3f65383958c5a32ad578752c",
+  "records": 914,
+  "missions": 20,
+  "missing_target_change_count": 914,
+  "metric_warning": "gt_gain != 0 measures changed coverage utility, not count of changed targets",
+  "rank_sensitivity": "point estimates only, no CI, no significance claim",
+  "kinds": {
+    "E": {
+      "n": 369,
+      "nonzero_coverage_gain": 21,
+      "nonzero_coverage_gain_fraction": 0.056910569105691054,
+      "positive_dT": 185,
+      "negative_dT": 147,
+      "zero_dT": 37,
+      "ranks": {
+        "tom": {
+          "unique_feature_values": 369,
+          "unique_dT_values": 227,
+          "author_ordinal_rho": 0.05348728898569832,
+          "average_tie_rho": 0.05312801881489894
+        },
+        "tv": {
+          "unique_feature_values": 367,
+          "unique_dT_values": 227,
+          "author_ordinal_rho": 0.08845141536021704,
+          "average_tie_rho": 0.08482693237264555
+        },
+        "bits": {
+          "unique_feature_values": 209,
+          "unique_dT_values": 227,
+          "author_ordinal_rho": 0.08896205325155483,
+          "average_tie_rho": 0.08635151708383679
+        },
+        "aoi": {
+          "unique_feature_values": 192,
+          "unique_dT_values": 227,
+          "author_ordinal_rho": 0.0794178059289406,
+          "average_tie_rho": 0.0738835791501189
+        }
+      }
+    },
+    "I": {
+      "n": 279,
+      "nonzero_coverage_gain": 19,
+      "nonzero_coverage_gain_fraction": 0.06810035842293907,
+      "positive_dT": 94,
+      "negative_dT": 94,
+      "zero_dT": 91,
+      "ranks": {
+        "tom": {
+          "unique_feature_values": 213,
+          "unique_dT_values": 140,
+          "author_ordinal_rho": 0.10318270729038889,
+          "average_tie_rho": 0.10150559801795793
+        },
+        "tv": {
+          "unique_feature_values": 1,
+          "unique_dT_values": 140,
+          "author_ordinal_rho": null,
+          "average_tie_rho": null
+        },
+        "bits": {
+          "unique_feature_values": 1,
+          "unique_dT_values": 140,
+          "author_ordinal_rho": null,
+          "average_tie_rho": null
+        },
+        "aoi": {
+          "unique_feature_values": 17,
+          "unique_dT_values": 140,
+          "author_ordinal_rho": -0.08039043419642167,
+          "average_tie_rho": -0.059323722602969156
+        }
+      }
+    },
+    "EI": {
+      "n": 266,
+      "nonzero_coverage_gain": 32,
+      "nonzero_coverage_gain_fraction": 0.12030075187969924,
+      "positive_dT": 151,
+      "negative_dT": 99,
+      "zero_dT": 16,
+      "ranks": {
+        "tom": {
+          "unique_feature_values": 266,
+          "unique_dT_values": 185,
+          "author_ordinal_rho": 0.039184775591724695,
+          "average_tie_rho": 0.03849635330484238
+        },
+        "tv": {
+          "unique_feature_values": 265,
+          "unique_dT_values": 185,
+          "author_ordinal_rho": 0.07108602543033438,
+          "average_tie_rho": 0.06966281946713034
+        },
+        "bits": {
+          "unique_feature_values": 169,
+          "unique_dT_values": 185,
+          "author_ordinal_rho": 0.06139208525872663,
+          "average_tie_rho": 0.05715243992047987
+        },
+        "aoi": {
+          "unique_feature_values": 160,
+          "unique_dT_values": 185,
+          "author_ordinal_rho": 0.035908193209332424,
+          "average_tie_rho": 0.03396398623795989
+        }
+      }
+    }
+  },
+  "protected_inputs": {
+    "checked": 76,
+    "differences": []
+  }
+}

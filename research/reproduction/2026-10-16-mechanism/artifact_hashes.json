@@ -1,0 +1,17 @@
+{
+  "experiments_ext/review_receiver_mechanisms.py": "7002b1678b577d792ef3f13c76bf682f8697dbfb29f675b6c43b04eaa5b6c3aa",
+  "tests_ext/test_counterfactual_semantics.py": "4c89d298d82b288fba1ba66c84ef09496c8dfb6fa7eec427dcfbc8298d536025",
+  "research/logs/2026-10-16_mechanism_task_brief.md": "bd243509cae31a2bee02f7878e3ae033e14a3d13f7df0090ac0c68c2c8e55ad8",
+  "research/logs/task_log_2026-10-16_mechanism.md": "4773abda16f7cc1b080386648cd3cd418a71f6d90c7340e978ef732f9dd283b0",
+  "research/reproduction/2026-10-16-mechanism/code_map.csv": "71b5170cdd38cb4dd7b4a9f2650577f126aea2333ff5827b3a1d3c2a705bbb65",
+  "research/reproduction/2026-10-16-mechanism/command_ledger.json": "4d47d00b5201a727652887dc9990fac10b5463cc6b0ee637ea53f52880b7ea57",
+  "research/reproduction/2026-10-16-mechanism/counterfactual_protocol_v1.md": "5cec02bb8f9b3d072c1f420f62ad28d9691fec59f4e5c83e00428639b0551074",
+  "research/reproduction/2026-10-16-mechanism/evidence_index.md": "c65a19bd8ed06400953eaa59ba3c15bf20f42fe8d9fe85c83ef985fda454849e",
+  "research/reproduction/2026-10-16-mechanism/experiment_manifest.json": "49220eba2d8d984d41503f0184ca2961f9581249dde9dc95594ea7900ed7716e",
+  "research/reproduction/2026-10-16-mechanism/input_hashes.json": "3797f4f9e0fbb5407d26d0778fe0a40f67d2a1229a01758f1401a1638208a50a",
+  "research/reproduction/2026-10-16-mechanism/paper_evidence_index.json": "5454d5d026ad482392164342fd6c49e4fab047cb01f8ebe9258fc45f35e16e0d",
+  "research/reproduction/2026-10-16-mechanism/pilot_proposal.json": "7d240126a0c0adb603539309975a9380ec3cc2eddc3792029c31739772a20fb3",
+  "research/reproduction/2026-10-16-mechanism/prior_art.md": "895780398efb1c12fe7fd2b56772e931c5d68a283fc3ccd238596809a905be44",
+  "research/reproduction/2026-10-16-mechanism/report.md": "2b57a45fd201a8615fe5d65687ef244b778a6568748479cb5802b3d92a2fa4ca",
+  "research/reproduction/2026-10-16-mechanism/saved_diagnostic_audit.json": "748fa590678033941cc2807f7c29b66dbd05f3349f362e47bdeacb69ee3a4034"
+}

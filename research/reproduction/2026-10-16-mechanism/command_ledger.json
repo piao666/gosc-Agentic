@@ -1,0 +1,56 @@
+{
+  "client_date": "2026-10-16",
+  "cwd": "E:\\gosc-agentic-teams",
+  "key_actual_commands": [
+    {
+      "command": "git status --short; git rev-parse HEAD; git remote -v; python --version",
+      "kind": "startup read-only checks",
+      "result": "clean at d1eddae; Python 3.12.10; existing remotes unchanged"
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest tests_ext/test_counterfactual_semantics.py -q",
+      "exit_code": 0,
+      "result": "8 passed in 1.41s"
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m experiments_ext.review_receiver_mechanisms --output-dir research/reproduction/2026-10-16-mechanism",
+      "exit_code": 0,
+      "output": "saved_diagnostic_audit.json",
+      "result": "914 saved rows; 20 missions; 76 protected matches; no simulation"
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest tests tests_ext -q 2>&1 | Tee-Object -FilePath .local/reproduction/2026-10-16-mechanism-v1/full-tests.log",
+      "exit_code": 0,
+      "result": "113 passed in 99.18s",
+      "log": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-16-mechanism-v1\\full-tests.log",
+      "log_sha256": "836dccc3beb0aa5b78704b0504c676d7c609536ce9d1e1573d355217d45d3afb"
+    },
+    {
+      "command": "inline Python import average_ranks/correlation; four exact mathematical assertions; source line range validation",
+      "kind": "described inline command, not a new pytest run",
+      "exit_code": 0,
+      "result": "4 rank assertions passed; all CSV source ranges exist"
+    }
+  ],
+  "other_actual_read_only_work": [
+    "Get-Content/rg: root AGENTS/spec/README/latest task logs/source/old reports and metadata",
+    "bundled Python pypdf.PdfReader for four local PDFs; JSON full text saved only under ignored .local",
+    "installed pdftoppm -f <page> -l <page> -singlefile -r 95 -png for D01p5/D08p6/D06p5/A02p3",
+    "view_image for four rendered pages; no upload",
+    "inline Python provenance generation and SHA256 checking, no mission execution"
+  ],
+  "read_only_command_errors_preserved": [
+    "Missing research/硕士论文研究与实施说明书.md: located root 硕士论文研究与实施说明书.md (as startup already established)",
+    "Guessed absent test_receiver_diagnostic.py, research/protocols and pyproject.toml; located actual tests_ext/protocol files; no creation to fake availability",
+    "Windows literal rg glob arguments failed; replaced with actual paths/inventory",
+    "PDF extracted text stdout hit gbk UnicodeEncodeError; retried with stdout UTF-8; no input writes"
+  ],
+  "not_run": [
+    "experiments.diagnose_value main/point/rollout batch",
+    "new Receiver-CF runner or pilot",
+    "new estimator or model training",
+    "Ollama/cache replay/live LLM",
+    "dependency/model download",
+    "git push or public submission"
+  ]
+}

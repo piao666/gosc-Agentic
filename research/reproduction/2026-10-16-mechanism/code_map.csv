@@ -1,0 +1,23 @@
+id,paper_anchor,source,lines,symbol,finding,boundary
+M01,D01 p3 Eq1,gosc/agent.py,27-42,Agent.plan,argmax plus old-target hysteresis and tiny tie jitter,receiver old target matters
+M02,D01 p5 Eq4,gosc/voi.py,29-57,TeamModel.__init__,sender-belief utility and shared or privileged receiver belief,not world truth
+M03,D01 p5 Eq4,gosc/voi.py,97-105,TeamModel._expected_utility,normalized-temperature softmax,no receiver old-target hysteresis
+M04,D01 Algorithm1,gosc/simulator.py,214-258,Simulation.phase_decide,sensing and planning precede communication,current target already selected
+M05,D01 Algorithm1,gosc/simulator.py,260-302,Simulation.phase_communicate,all UL decisions before fusion then movement,next native replan after movement and new sensing
+M06,D01 Algorithm1,gosc/simulator.py,132-151,Simulation.deliver,shared LLR fusion and sender pending removal,does not itself clear pending_records
+M07,D01 source filter,gosc/schemes.py,341-364,GOSC.on_step,queued records filtered while private LLR retains observations,pending_llr differs from queued_llr
+M08,D01 Eq4 scheduling,gosc/schemes.py,366-400,GOSC.evidence_voi/_options,negative VoI clipped then success-probability weighted,record raw and clipped values separately
+M09,D01 packet/rate selection,gosc/schemes.py,407-469,GOSC.build_groups,longest feasible evidence prefix per rate and independent intent,full-buffer EI not a single feasible packet
+M10,D01 Algorithm1,gosc/schemes.py,471-497,GOSC.transmit,ACK and queue mutation before edge fusion,success/failure counterfactual must change both consistently
+M11,D01 realistic robustness,gosc/realistic.py,84-176,RealisticGOSC.build_groups,parallel estimator scheduling with extra overhead,not interchangeable cost model
+M12,D01 shared UL,gosc/realistic.py,359-383,RealisticSimulation.phase_communicate,orthogonal delegates to base otherwise separate path,pilot excludes shared budget
+M13,D01 p9 section V-D,experiments/diagnose_value.py,65-76,force,free instant full E/I delivery before other uplinks and sender silence,author diagnostic estimand not native feasible attempt
+M14,D01 p9 section V-D,experiments/diagnose_value.py,79-110,gt_utility,hypothetical immediate teammate replan then truth coverage,not native next target timing
+M15,D01 p9 section V-D,experiments/diagnose_value.py,113-125,rollout,reseed sense fading plan decode but not DL,default ideal DL no stochastic downlink effect
+M16,D01 p9 section V-D,experiments/diagnose_value.py,128-161,point,paired branches and n_teammate_changes=None,target-change count not saved
+M17,D01 p9 changed claim,experiments/plot_revision.py,657-691,efficiency_outputs fidelity,changed derived from gt_gain!=0,utility change not equivalent to target change
+M18,D01 fidelity analysis,experiments/analyze_fidelity.py,13-52,rk/spearman/main,ordinal ranks and mission-cluster bootstrap,average-tie sensitivity separate from original analysis
+M19,random stream coupling,gosc/environment.py,38-43,World.sense,clipped footprint determines random draw shape,equal initial RNG not cell-aligned after path divergence
+M20,full state cloning,gosc/simulator.py,107-108,Simulation._snapshot,four broadcast fields only,not complete checkpoint
+M21,task and resource accounting,gosc/simulator.py,317-337,Simulation.result,capped completion and simulated bits UL/DL uses,no actual wire serializer and incomplete control costs
+M22,synthetic mechanism checks,tests_ext/test_counterfactual_semantics.py,1-154,8 contract tests,constructed state evidence only,no population frequency or performance inference

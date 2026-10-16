@@ -1,0 +1,74 @@
+[
+  {
+    "id": "D01",
+    "path": "E:\\Obsidian\\Papers\\99-附件\\论文原文\\D01-Resource-Efficient Semantic Communication for Heterogeneous Agentic Teams.pdf",
+    "pdf_sha256": "e99130b27965bc4b6c06ccca8fc2dd9a3fd8b2dd5f6880964b6e0a4003c01923",
+    "pdf_pages": 13,
+    "read_status": "targeted_sections_not_full_results_verification",
+    "targeted_pages": [
+      1,
+      3,
+      5,
+      9,
+      11
+    ],
+    "visually_checked_page": 5,
+    "local_extraction": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-16-mechanism-v1\\papers\\D01.json",
+    "local_extraction_sha256": "86539c44c4d84ff4c31647510a60ba125fbbfc1075d70b37dc34885947c4b569",
+    "local_page_image_sha256": "df66a878c4ccfee68b1f868bb3a898c4df807f14c5f0bbd4bb944879a0038bdf",
+    "external_publication_status": "not_verified"
+  },
+  {
+    "id": "D08",
+    "path": "E:\\Obsidian\\Papers\\99-附件\\论文原文\\D08.pdf",
+    "pdf_sha256": "baee633fcc46d4d61749d3fad62d3f86850aee9fe2d02690a0cc61e8ddfebfc8",
+    "pdf_pages": 17,
+    "read_status": "targeted_sections_not_full_results_verification",
+    "targeted_pages": [
+      1,
+      5,
+      6
+    ],
+    "visually_checked_page": 6,
+    "local_extraction": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-16-mechanism-v1\\papers\\D08.json",
+    "local_extraction_sha256": "f05e835799173546c054a5bfdec07738e93e1fa86cbfa82ad0935178ab76623c",
+    "local_page_image_sha256": "82027b5a1563ba9ffbfca52b3f2a66547e97c0592f7ddd6356ebe0567d1ee193",
+    "external_publication_status": "not_verified"
+  },
+  {
+    "id": "D06",
+    "path": "E:\\Obsidian\\Papers\\99-附件\\论文原文\\D06-Pragmatic Communication in Multi-Agent Collaborative Perception（PragComm）.pdf",
+    "pdf_sha256": "ce5490ab0ab6a193dbab83726584b2db9c7a605a09f4e832caf53d8b4b630cb2",
+    "pdf_pages": 18,
+    "read_status": "targeted_sections_not_full_results_verification",
+    "targeted_pages": [
+      1,
+      5,
+      9,
+      10
+    ],
+    "visually_checked_page": 5,
+    "local_extraction": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-16-mechanism-v1\\papers\\D06.json",
+    "local_extraction_sha256": "4519492e0c0cddec04da6acdfb3c04cbc7adc845641f528b24d21dd2dfeeaae1",
+    "local_page_image_sha256": "77ec94bc0c822a179374caab753159ecbd5ba99407df8f33c9cbe839cc40a883",
+    "external_publication_status": "not_verified"
+  },
+  {
+    "id": "A02",
+    "path": "E:\\Obsidian\\Papers\\99-附件\\论文原文\\2-Causality-Inspired Semantic Packet Scheduling for Bandwidth-Efficient Multi-Agent Collaboration.pdf",
+    "pdf_sha256": "f21bc0cb4d1521f33adf6ab38b56f36f4ce2d8009a6e733cf4ae130d79a6ead3",
+    "pdf_pages": 11,
+    "read_status": "targeted_sections_not_full_results_verification",
+    "targeted_pages": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "visually_checked_page": 3,
+    "local_extraction": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-16-mechanism-v1\\papers\\A02.json",
+    "local_extraction_sha256": "30572e9bf072086c2e605115e5f2f24378c08bd56bf20dc2202fdc034de8c027",
+    "local_page_image_sha256": "e886191c365c5883c1270bfc40519457b163206c7fbb52086a676cb797b2f79b",
+    "external_publication_status": "not_verified"
+  }
+]
