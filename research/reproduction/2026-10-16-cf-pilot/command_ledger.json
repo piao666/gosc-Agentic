@@ -1,0 +1,79 @@
+{
+  "client_date": "2026-10-16",
+  "cwd": "E:\\gosc-agentic-teams",
+  "actual_commands": [
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest tests_ext/test_receiver_cf.py -q",
+      "result": "10 passed in 1.49s (initial contract version)",
+      "exit_code": 0
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest tests_ext/test_receiver_cf.py -q",
+      "result": "13 passed in 1.32s (contracts plus statistics/timeout)",
+      "exit_code": 0
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m experiments_ext.run_receiver_cf --help",
+      "result": "reviewed fixed scope/new local output/clean source gate",
+      "exit_code": 0
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m experiments_ext.analyze_receiver_cf --help",
+      "exit_code": 0
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest tests tests_ext -q 2>&1 | Tee-Object -FilePath .local/reproduction/2026-10-16-cf-implementation-v1/full-tests.log",
+      "result": "126 passed57.39s; includes13, do not add counts",
+      "exit_code": 0
+    },
+    {
+      "command": "git commit -m \"research: implement gated native receiver counterfactual pilot\"",
+      "result": "48404fd5e68c2f7671845ed10ccd2868423edfbe; clean execution source",
+      "exit_code": 0
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m experiments_ext.run_receiver_cf --output-dir .local/reproduction/2026-10-16-cf-pilot-v1 --gate-file .local/reproduction/2026-10-16-cf-implementation-v1/gate.json 2>&1 | Tee-Object -FilePath .local/reproduction/2026-10-16-cf-implementation-v1/pilot-execution.log",
+      "result": "8 missions;14points;112 branches;70.756868s wall",
+      "exit_code": 0
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m experiments_ext.analyze_receiver_cf --run-dir .local/reproduction/2026-10-16-cf-pilot-v1 2>&1 | Tee-Object -FilePath .local/reproduction/2026-10-16-cf-implementation-v1/analysis.log",
+      "result": "frozen bootstrap and paired label analysis",
+      "exit_code": 0
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m experiments_ext.plot_receiver_cf --run-dir .local/reproduction/2026-10-16-cf-pilot-v1",
+      "result": "descriptive PNG/SVG, PNG view_image checked",
+      "exit_code": 0
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m experiments_ext.review_receiver_cf --run-dir .local/reproduction/2026-10-16-cf-pilot-v1 --output-name outcome_review_recomputed.json",
+      "result": "same as first inline postrun review; no simulations",
+      "exit_code": 0
+    }
+  ],
+  "actual_inline_work": [
+    "startup Get-Content/rg rootAGENTS/spec/README/latest logs/protocol/source; git status/rev-parse/remote/python version",
+    "approval/gate hash recording, original 76/old receiver23 artifacts and raw protection audit",
+    "16 complete checkpoint SHA/native tape-direct validations and all112 branch statuses/unique IDs/feature whitelist check",
+    "independent bootstrap with scalar per-mission means preserves draw multiplicities, raw14point label/MCSE rebuild, exact CI agreement",
+    "new small derived exports via exclusive-create; no raw snapshot or PDF copies into Git"
+  ],
+  "execution_cost_counting": "112 full continuations plus8 original native prefixes;16checkpoint tape/direct checks are32 single-slot replays, not extra complete continuations; wall and workerCPU include them",
+  "read_only_notes": [
+    "Initial batched long text output was truncated; relevant spec/source portions re-read in smaller chunks",
+    "Git LF/CRLF warnings recorded; no core file conversion or baseline edits"
+  ],
+  "not_run": [
+    "new estimator/M0/M1/M2",
+    "extra repetitions beyondR4 or seed replacements",
+    "proposed784branch R32 extension",
+    "live/cachedLLM or Ollama",
+    "dependency/model downloads or paid API",
+    "remote push/publication/author contact"
+  ],
+  "postrun_helpers_source_sha256": {
+    "experiments_ext/plot_receiver_cf.py": "28de3d38bb501d07d12d90ccc1190a3d38bfd90378245485ffc20179a68ec447",
+    "experiments_ext/review_receiver_cf.py": "68df0bab0f4c0efb94edefc3772e107b24a6efe994438b21b61202a640988c22"
+  }
+}

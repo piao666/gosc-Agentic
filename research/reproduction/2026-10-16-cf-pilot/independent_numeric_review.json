@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "method": "Independent scalar mission-means bootstrap, preserving repeated sampled mission multiplicity; paired labels rebuilt directly from raw",
+  "independent_mean_intervals": {
+    "EVID": {
+      "mission_equal_mean": -1.0178571428571428,
+      "ci95": [
+        -4.732142857142857,
+        2.7035156250000014
+      ],
+      "valid_bootstraps": 4000
+    },
+    "INTENT": {
+      "mission_equal_mean": 2.7,
+      "ci95": [
+        -3.0833333333333335,
+        9.291666666666666
+      ],
+      "valid_bootstraps": 3998
+    },
+    "all": {
+      "mission_equal_mean": 1.09375,
+      "ci95": [
+        -2.5,
+        5.265625
+      ],
+      "valid_bootstraps": 4000
+    }
+  },
+  "point_labels_and_MC_SE_rebuilt": 14,
+  "postrun_review_recomputed_identical": true,
+  "all_current_agent_UL_uses_le_100": true,
+  "note": "No additional simulations; bootstrap rng0/4000 and frozen type order."
+}

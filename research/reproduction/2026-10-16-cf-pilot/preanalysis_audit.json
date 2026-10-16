@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "missions": 8,
+  "raw_branches": 112,
+  "paired_repetitions": 56,
+  "selected_points": 14,
+  "scheduled_slots": 16,
+  "availability_counts": {
+    "selected": 14,
+    "no_selected_E_or_I": 2
+  },
+  "checkpoint_pairs_verified": 16,
+  "native_state_replay_matches": true,
+  "feature_whitelist_verified": true,
+  "all_branch_status_ok": true,
+  "source_sha_verified": true,
+  "protected_inputs_matching": 76,
+  "prior_receiver_artifacts_unchanged": 23,
+  "prior_receiver_raw_unchanged": true,
+  "elapsed_wall_seconds": 70.75686799999676,
+  "worker_cpu_seconds_sum": 132.96875,
+  "max_worker_lifetime_peak_rss_bytes": 39145472,
+  "raw_sha256_by_seed": {
+    "seed-5000": "f110aa28e000df27bb5094eb3f6b423a69a58679ae0e91de19e940bf7b1bb05c",
+    "seed-5001": "ff955b6c56b56a031445aad1254cec6f083420c4abe76e103813b57c9728028f",
+    "seed-5002": "4a9e3202ced35e5c4080fc34f1338bc75c2b54db36c4b65e3bd0b2f536ecf12c",
+    "seed-5003": "1fc4535a768dc14cc3e7e2822a5f76a37782cb15ac1da53b05334f816089dfd0",
+    "seed-5004": "0156934a4b5ea4566e4d77c9c1ffe15ab04ca5745b2ca2471bceb1c573b89691",
+    "seed-5005": "48d1df568954a87f7ae7550d7ee3e6a2f4d8c390ae2ff439d7c2071b62e8ba95",
+    "seed-5006": "2ec17df6be302c774ff681411ee4b5cca075d410f4da2b8fbc8f588c2f11fce9",
+    "seed-5007": "7159425f32826e23291f516eeb8c37600da3deb95088e6c228f636f2999681b0"
+  }
+}

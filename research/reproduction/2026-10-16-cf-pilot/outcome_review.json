@@ -1,0 +1,29 @@
+{
+  "completed_branch_missions": 112,
+  "branches": 112,
+  "false_declarations_across_branch_runs": 3,
+  "completion_time_range": [
+    29,
+    131
+  ],
+  "point_positive_zero_negative": [
+    5,
+    1,
+    8
+  ],
+  "paired_MC_positive_zero_negative": [
+    14,
+    28,
+    14
+  ],
+  "nonzero_points_MC_SE_ge_absolute_mean": 12,
+  "nonzero_points": 13,
+  "points_any_next_receiver_change": 7,
+  "points_any_shadow_receiver_change": 4,
+  "comparable_next_decision_pairs": 56,
+  "mc_se_range": [
+    0.0,
+    12.010412149464313
+  ],
+  "interpretation": "Descriptive postrun checks only; paired continuations and points are not independent mission samples."
+}

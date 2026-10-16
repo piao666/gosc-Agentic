@@ -1,0 +1,574 @@
+{
+  "analysis_kind": "exploratory_conditional_decode_effect_not_new_policy",
+  "run_commit": "48404fd5e68c2f7671845ed10ccd2868423edfbe",
+  "raw_branch_rows": 112,
+  "ok_branches": 112,
+  "missing_or_incomplete_points": [],
+  "availability": [
+    {
+      "seed": 5000,
+      "t": 8,
+      "status": "selected",
+      "selected_packet_id": "21ee73fd46388cb29abdef7cbf5ddf76c32a044f9e257154ad386b86ebd2b7c1",
+      "selected_kind": "EVID",
+      "available_attempts": [
+        {
+          "packet_id": "9b85208b6ef4f62be9c3d6a9b09e27b730b7334f792ea71130f38d321fc11307",
+          "kind": "EVID",
+          "agent": 1
+        },
+        {
+          "packet_id": "5969185e15670c71c5948ad4c538b0dbc91ec153f493f44beaffd7d0fe9c64b3",
+          "kind": "EVID",
+          "agent": 3
+        },
+        {
+          "packet_id": "21ee73fd46388cb29abdef7cbf5ddf76c32a044f9e257154ad386b86ebd2b7c1",
+          "kind": "EVID",
+          "agent": 4
+        }
+      ]
+    },
+    {
+      "seed": 5000,
+      "t": 24,
+      "status": "selected",
+      "selected_packet_id": "1a4e96b453628f1986016081bd4b5fe4249dc5836b155e08db736a595f6a58ad",
+      "selected_kind": "EVID",
+      "available_attempts": [
+        {
+          "packet_id": "5bd20d87f28b112e4f3d6b5cdc505323de935186a2585f792db1ea405285a2b9",
+          "kind": "CONF",
+          "agent": 0
+        },
+        {
+          "packet_id": "1a4e96b453628f1986016081bd4b5fe4249dc5836b155e08db736a595f6a58ad",
+          "kind": "EVID",
+          "agent": 4
+        },
+        {
+          "packet_id": "de571a9b6aab84b6422a95c5754191610260308327a1d35fcb058c23a9f6619a",
+          "kind": "EVID",
+          "agent": 5
+        }
+      ]
+    },
+    {
+      "seed": 5001,
+      "t": 8,
+      "status": "selected",
+      "selected_packet_id": "4a3cd216cb5b4296c3be161ae85c8396e2a27616d04208d9b5345e7b9dc11471",
+      "selected_kind": "INTENT",
+      "available_attempts": [
+        {
+          "packet_id": "9d32618b23030ccd9a95b8f146ae6445fc2d983898f2fde64379358dae9a99e6",
+          "kind": "EVID",
+          "agent": 1
+        },
+        {
+          "packet_id": "d1654f90d340b7ef79969fcb03da2f92805ceaca2da8eefd02e626e06132171d",
+          "kind": "EVID",
+          "agent": 2
+        },
+        {
+          "packet_id": "eee71fd9d34c80ca639b391b9d170c6af7c12637f8bbbf52e35aa3c6252c86e1",
+          "kind": "EVID",
+          "agent": 3
+        },
+        {
+          "packet_id": "4a3cd216cb5b4296c3be161ae85c8396e2a27616d04208d9b5345e7b9dc11471",
+          "kind": "INTENT",
+          "agent": 4
+        }
+      ]
+    },
+    {
+      "seed": 5001,
+      "t": 24,
+      "status": "selected",
+      "selected_packet_id": "7df8a534492a0fa496b349a999891bf0b0cc93a59ec42df34e929907f591de11",
+      "selected_kind": "EVID",
+      "available_attempts": [
+        {
+          "packet_id": "5e43b4b4caf78d66007599e7075f225ff630143a163ad89d6288e23f63880c31",
+          "kind": "INTENT",
+          "agent": 2
+        },
+        {
+          "packet_id": "7df8a534492a0fa496b349a999891bf0b0cc93a59ec42df34e929907f591de11",
+          "kind": "EVID",
+          "agent": 2
+        },
+        {
+          "packet_id": "811384ccee7bcb085bee2cdadb134f5a806159e5fd5fcc041a3d3145786f0638",
+          "kind": "INTENT",
+          "agent": 4
+        }
+      ]
+    },
+    {
+      "seed": 5002,
+      "t": 8,
+      "status": "selected",
+      "selected_packet_id": "a0c4e71dd2cc6ab531314d15ac22f558386e15d1f16fe4996b1d86f6f06e273f",
+      "selected_kind": "EVID",
+      "available_attempts": [
+        {
+          "packet_id": "67de3db6be8c29932b4c90e8acaa0caf9c0301147fd362f14e9ca4a25a35e15c",
+          "kind": "INTENT",
+          "agent": 0
+        },
+        {
+          "packet_id": "b9332d1a79609fe23e019bef1b38d72555eb6c5b9e5478a18533af8451753500",
+          "kind": "EVID",
+          "agent": 1
+        },
+        {
+          "packet_id": "a09663b1fd49df618f64d6137c5bcccf117b95349f5e41600ec4acedc97eb854",
+          "kind": "CONF",
+          "agent": 2
+        },
+        {
+          "packet_id": "a0c4e71dd2cc6ab531314d15ac22f558386e15d1f16fe4996b1d86f6f06e273f",
+          "kind": "EVID",
+          "agent": 3
+        },
+        {
+          "packet_id": "02450578f53d2bfb6570cb1af9f18d4594ef5742c563d51239b0c537ded44eec",
+          "kind": "EVID",
+          "agent": 4
+        }
+      ]
+    },
+    {
+      "seed": 5002,
+      "t": 24,
+      "status": "no_selected_E_or_I",
+      "selected_packet_id": null,
+      "selected_kind": null,
+      "available_attempts": []
+    },
+    {
+      "seed": 5003,
+      "t": 8,
+      "status": "selected",
+      "selected_packet_id": "73724a8edf5a036abc324de7e82376ed39a157588216ff0d04143d73b3bb85d1",
+      "selected_kind": "EVID",
+      "available_attempts": [
+        {
+          "packet_id": "73724a8edf5a036abc324de7e82376ed39a157588216ff0d04143d73b3bb85d1",
+          "kind": "EVID",
+          "agent": 0
+        },
+        {
+          "packet_id": "d2bcc0a63d08248e12b551619b1f30b77714bb04b9fffdc916848623b1aa3326",
+          "kind": "INTENT",
+          "agent": 1
+        },
+        {
+          "packet_id": "d0724f687f822091ccaf0282d3b7eddabdbf3d033c4ec10d70e8e92bbe266b99",
+          "kind": "EVID",
+          "agent": 2
+        },
+        {
+          "packet_id": "f4c12a48c491b500deec8478ed0970cfd7810241bc9accc11d5d32d79e150f71",
+          "kind": "INTENT",
+          "agent": 3
+        },
+        {
+          "packet_id": "628179980c89aa31cb8f63865754b751515f473513b38778bc087a35d918a903",
+          "kind": "INTENT",
+          "agent": 4
+        }
+      ]
+    },
+    {
+      "seed": 5003,
+      "t": 24,
+      "status": "selected",
+      "selected_packet_id": "716f1d09dcec7b3df73e02e293fcfc336b923be2d167ed29e959dc0e91a68d49",
+      "selected_kind": "INTENT",
+      "available_attempts": [
+        {
+          "packet_id": "716f1d09dcec7b3df73e02e293fcfc336b923be2d167ed29e959dc0e91a68d49",
+          "kind": "INTENT",
+          "agent": 0
+        },
+        {
+          "packet_id": "7848cc1abd2591ec17cd3470556ba7cdf9cacb270822f4afe2be874df30bfd14",
+          "kind": "INTENT",
+          "agent": 1
+        },
+        {
+          "packet_id": "5f038646d08f00d8f1b61a409ee282878a05417b1a2da35b938cfc6082c7c493",
+          "kind": "EVID",
+          "agent": 2
+        },
+        {
+          "packet_id": "87ac9c54e46b6d010d16dc7fcf420a6438d289511c5875194c7496ba33868381",
+          "kind": "EVID",
+          "agent": 5
+        }
+      ]
+    },
+    {
+      "seed": 5004,
+      "t": 8,
+      "status": "selected",
+      "selected_packet_id": "fcdd05cf73d37bbcf434ebbb2e00d9fb90d82e0bebf16a182c1262a9ba0c2f12",
+      "selected_kind": "EVID",
+      "available_attempts": [
+        {
+          "packet_id": "8167e3791ad573715d3d2bbc4cc091845ad31e0effb3683bf7c43aaf92228872",
+          "kind": "INTENT",
+          "agent": 1
+        },
+        {
+          "packet_id": "123ea78e7a8c462ce3be58473b490cc37848d55fdf4e0af0289944bda113546d",
+          "kind": "EVID",
+          "agent": 1
+        },
+        {
+          "packet_id": "7f1a581b88d48a38457ae7e9b2f176ad54b55364a0a125e3fdd66a514f884b4e",
+          "kind": "INTENT",
+          "agent": 2
+        },
+        {
+          "packet_id": "6d3ed99a29487fadbb71636ec6fd54f3b1bfe077d5a1fc25689e35968e2b15d2",
+          "kind": "EVID",
+          "agent": 3
+        },
+        {
+          "packet_id": "fcdd05cf73d37bbcf434ebbb2e00d9fb90d82e0bebf16a182c1262a9ba0c2f12",
+          "kind": "EVID",
+          "agent": 4
+        }
+      ]
+    },
+    {
+      "seed": 5004,
+      "t": 24,
+      "status": "selected",
+      "selected_packet_id": "c2025ae7bf32ad64b4ec7a69456a51ca5dae4d6d783efae92502479ece8df493",
+      "selected_kind": "INTENT",
+      "available_attempts": [
+        {
+          "packet_id": "c2025ae7bf32ad64b4ec7a69456a51ca5dae4d6d783efae92502479ece8df493",
+          "kind": "INTENT",
+          "agent": 0
+        },
+        {
+          "packet_id": "37fee94f898b5c4a6b58449106f5ab5fd37e0d1454f21d8975be34d1767d75b8",
+          "kind": "EVID",
+          "agent": 5
+        }
+      ]
+    },
+    {
+      "seed": 5005,
+      "t": 8,
+      "status": "selected",
+      "selected_packet_id": "d1c607884c1018e6d861dfed4dff03ac32a09db9795277303e95c0eb2d52b1ca",
+      "selected_kind": "EVID",
+      "available_attempts": [
+        {
+          "packet_id": "59d8076642c9da0469c6dfe51c3dd9354c849d9f800190df83be0c3462b72b25",
+          "kind": "EVID",
+          "agent": 1
+        },
+        {
+          "packet_id": "7a38fd8cb36739f257a247194c5f32518ced4b7b78db0d5c4c28e8d2ca43d890",
+          "kind": "EVID",
+          "agent": 3
+        },
+        {
+          "packet_id": "d1c607884c1018e6d861dfed4dff03ac32a09db9795277303e95c0eb2d52b1ca",
+          "kind": "EVID",
+          "agent": 5
+        }
+      ]
+    },
+    {
+      "seed": 5005,
+      "t": 24,
+      "status": "selected",
+      "selected_packet_id": "765a53f2c340b2026fe93fd6a547e6cb50e6057f97996b1b01e25273da5d2908",
+      "selected_kind": "EVID",
+      "available_attempts": [
+        {
+          "packet_id": "ac2d3cebb09f6a417539cd1b8f73400360bbc93d7e75f8b144600fb1eecc54d3",
+          "kind": "EVID",
+          "agent": 1
+        },
+        {
+          "packet_id": "765a53f2c340b2026fe93fd6a547e6cb50e6057f97996b1b01e25273da5d2908",
+          "kind": "EVID",
+          "agent": 5
+        }
+      ]
+    },
+    {
+      "seed": 5006,
+      "t": 8,
+      "status": "selected",
+      "selected_packet_id": "f25d5b3e6df353af1a6916af04481b8c0819314b4418df2245539916a99ef4f3",
+      "selected_kind": "INTENT",
+      "available_attempts": [
+        {
+          "packet_id": "2d329cac5bdaa7e9a736bd5feb981c3093d4d493e9a50e0a81cdfa7811b17ac5",
+          "kind": "CONF",
+          "agent": 0
+        },
+        {
+          "packet_id": "c10394f1f6d1a1a567eea8228d01b24513e065bfece8e0bf7e780433b8ba694e",
+          "kind": "INTENT",
+          "agent": 0
+        },
+        {
+          "packet_id": "877665d0b62343ce75b205aa19a0976c7f9abc3245cceb55a879e0d60fa584f5",
+          "kind": "INTENT",
+          "agent": 1
+        },
+        {
+          "packet_id": "48fbc5546ca493b4f11d90de1ed6bea401ada5ccae7245a0fb6ead013b84eb6a",
+          "kind": "EVID",
+          "agent": 1
+        },
+        {
+          "packet_id": "1c3a187d3d9b801673b4f0b516d72fe573201df9fb833e5d6fba8c9902e6636e",
+          "kind": "EVID",
+          "agent": 2
+        },
+        {
+          "packet_id": "2446c82279397c907ca9cad4b29cbe46d09b6c8941846ff5ad3c64fd58049a04",
+          "kind": "EVID",
+          "agent": 3
+        },
+        {
+          "packet_id": "f25d5b3e6df353af1a6916af04481b8c0819314b4418df2245539916a99ef4f3",
+          "kind": "INTENT",
+          "agent": 4
+        },
+        {
+          "packet_id": "d89b2c2866a2c71b86526a800c7c508ef10bdd5cd049dca116bdc520c0d8dcc6",
+          "kind": "EVID",
+          "agent": 4
+        }
+      ]
+    },
+    {
+      "seed": 5006,
+      "t": 24,
+      "status": "selected",
+      "selected_packet_id": "c4e1055313400aba667eafa78637d3e6e38b5228d0ae4f543ebfda7ef62b3677",
+      "selected_kind": "EVID",
+      "available_attempts": [
+        {
+          "packet_id": "bf7f05e8bdd44bf66f35978a44c1dea8211b1f652baff955333251f23e54355f",
+          "kind": "INTENT",
+          "agent": 0
+        },
+        {
+          "packet_id": "c4e1055313400aba667eafa78637d3e6e38b5228d0ae4f543ebfda7ef62b3677",
+          "kind": "EVID",
+          "agent": 1
+        },
+        {
+          "packet_id": "83308c854876cd1acb557b0e7662f5e34c0dcb579d22bba02e343fba50fe795d",
+          "kind": "EVID",
+          "agent": 5
+        }
+      ]
+    },
+    {
+      "seed": 5007,
+      "t": 8,
+      "status": "selected",
+      "selected_packet_id": "8490fdd0aeea65c1c9e8904f9f9c4cba1b1f3061fef281d2c7ef21a1fb977605",
+      "selected_kind": "INTENT",
+      "available_attempts": [
+        {
+          "packet_id": "496255a75c95d9ac4afde39c5b1beee2cf374dd3b325beb9a68af5af5c5c717d",
+          "kind": "EVID",
+          "agent": 2
+        },
+        {
+          "packet_id": "8490fdd0aeea65c1c9e8904f9f9c4cba1b1f3061fef281d2c7ef21a1fb977605",
+          "kind": "INTENT",
+          "agent": 3
+        },
+        {
+          "packet_id": "3645e12d1ce0656dbf25666fd552b8c91fe4a7a02e58f05fdc4e0e90776901b0",
+          "kind": "EVID",
+          "agent": 3
+        },
+        {
+          "packet_id": "3392279293efb490175bdc5a4e1e30248abf5ec049e069491dffaae5202c795a",
+          "kind": "INTENT",
+          "agent": 4
+        },
+        {
+          "packet_id": "e4c95169daeb2a2890a2b39d9d031fec64cc614579a5051be7d5caab43620440",
+          "kind": "EVID",
+          "agent": 4
+        }
+      ]
+    },
+    {
+      "seed": 5007,
+      "t": 24,
+      "status": "no_selected_E_or_I",
+      "selected_packet_id": null,
+      "selected_kind": null,
+      "available_attempts": []
+    }
+  ],
+  "statistics": {
+    "EVID": {
+      "points": 9,
+      "missions_with_points": 7,
+      "delta_T_mission_equal_mean": -1.0178571428571428,
+      "delta_T_quantiles_point_level": [
+        -9.25,
+        -3.5,
+        -1.5,
+        3.5,
+        6.25
+      ],
+      "positive_zero_negative_points": [
+        3,
+        0,
+        6
+      ],
+      "mean_interval": {
+        "ci95": [
+          -4.732142857142857,
+          2.7035156250000014
+        ],
+        "valid_bootstraps": 4000,
+        "total_bootstraps": 4000
+      },
+      "rho": {
+        "tom": {
+          "point_estimate": 0.48333333333333334,
+          "ci95": [
+            -0.44001895734597163,
+            0.9999999999999999
+          ],
+          "valid_bootstraps": 4000,
+          "total_bootstraps": 4000
+        },
+        "tv": {
+          "point_estimate": 0.25,
+          "ci95": [
+            -0.7614678899082569,
+            0.8710685483870971
+          ],
+          "valid_bootstraps": 4000,
+          "total_bootstraps": 4000
+        },
+        "bits": {
+          "point_estimate": 0.1338923854009157,
+          "ci95": [
+            -0.8697010869565217,
+            0.7824202240539622
+          ],
+          "valid_bootstraps": 4000,
+          "total_bootstraps": 4000
+        },
+        "aoi": {
+          "point_estimate": -0.03497487083913345,
+          "ci95": [
+            -0.9494385671940514,
+            0.6666794859469826
+          ],
+          "valid_bootstraps": 3997,
+          "total_bootstraps": 4000
+        }
+      }
+    },
+    "INTENT": {
+      "points": 5,
+      "missions_with_points": 5,
+      "delta_T_mission_equal_mean": 2.7,
+      "delta_T_quantiles_point_level": [
+        -6.0,
+        -0.25,
+        0.0,
+        5.75,
+        14.0
+      ],
+      "positive_zero_negative_points": [
+        2,
+        1,
+        2
+      ],
+      "mean_interval": {
+        "ci95": [
+          -3.0833333333333335,
+          9.291666666666666
+        ],
+        "valid_bootstraps": 3998,
+        "total_bootstraps": 4000
+      },
+      "rho": {
+        "tom": {
+          "point_estimate": 0.39999999999999997,
+          "ci95": [
+            -1.0,
+            1.0
+          ],
+          "valid_bootstraps": 3833,
+          "total_bootstraps": 4000
+        },
+        "tv": {
+          "point_estimate": null,
+          "ci95": null,
+          "valid_bootstraps": 0,
+          "total_bootstraps": 4000
+        },
+        "bits": {
+          "point_estimate": null,
+          "ci95": null,
+          "valid_bootstraps": 0,
+          "total_bootstraps": 4000
+        },
+        "aoi": {
+          "point_estimate": -0.35355339059327373,
+          "ci95": [
+            -1.0,
+            0.3952847075210474
+          ],
+          "valid_bootstraps": 2564,
+          "total_bootstraps": 4000
+        }
+      }
+    },
+    "all": {
+      "missions": 8,
+      "points": 14,
+      "delta_T_mission_equal_mean": 1.09375,
+      "ci95": [
+        -2.5,
+        5.265625
+      ],
+      "valid_bootstraps": 4000,
+      "total_bootstraps": 4000,
+      "delta_recorded_uses_success_minus_failure": -499.40625,
+      "mean_next_receiver_changes_point_level": 0.5,
+      "mean_shadow_receiver_changes_point_level": 0.35714285714285715
+    }
+  },
+  "bootstrap_seed": 0,
+  "bootstrap_repetitions": 4000,
+  "cluster_unit": "mission",
+  "rho_rule": "average ties; undefined if <3 points or <2 distinct missions or constant feature/outcome",
+  "uncertainty_note": "8 mission clusters; percentile CI exploratory, no multiplicity-adjusted confirmatory claims; R=4 MC uncertainty reported per point, not separately propagated by cluster bootstrap",
+  "cost_boundary": {
+    "wire_bytes": "not_serialized_not_measured",
+    "extra_ack_crc_phy_sync": "not_modeled_in_native_base",
+    "ul_uses": "native symbols",
+    "dl_uses": "native ceil(broadcast_bits/dl_rate)",
+    "llm_calls": 0
+  }
+}

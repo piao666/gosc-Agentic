@@ -1,0 +1,11 @@
+{
+  "kind": "descriptive_all_points_postrun_visualization",
+  "csv_sha256": "becff4e59d4dcfbb113ef5e4b3c49b71f07a34b5519c5029a5bdcb4d1254de6c",
+  "script_sha256": "28de3d38bb501d07d12d90ccc1190a3d38bfd90378245485ffc20179a68ec447",
+  "points": 14,
+  "error_bar": "1 paired MC SE, not population CI",
+  "files": {
+    "point_effects.png": "682855fd85d130c6688f15dcf99e53d3d8a31a5229db99a46d4fc69f7fdeab37",
+    "point_effects.svg": "632a33fefb43e961684312705d7f65bdb35b545dd0dc3b258075ce627ce9e992"
+  }
+}
