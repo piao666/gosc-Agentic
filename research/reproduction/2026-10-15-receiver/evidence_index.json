@@ -1,0 +1,11 @@
+{
+  "raw": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-receiver-v1\\diagnostic\\raw.jsonl",
+  "primary": "statistics.json settings.*.contrasts.private/position.time_shared_minus_mode",
+  "resources": "statistics.json settings.*.contrasts.*.ul_mode_minus_shared/total_recorded_uses_mode_minus_shared",
+  "all_seeds": "per_seed_outcomes.csv",
+  "masks": "extensions/receiver_oracle.py",
+  "tested_execution_commit": "491b1878dfc50a439c055703f598212862079bfc",
+  "analysis": "experiments_ext/summarize.py",
+  "report_generation": "experiments_ext/receiver_report.py",
+  "decisions": "decision_summary.json"
+}

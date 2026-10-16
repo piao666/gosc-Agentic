@@ -1,5 +1,28 @@
 # Reproduction evidence index
 
+## Receiver-D1 completed; analyzed on 2026-10-16
+
+The user approved the ToM-path-only scope after the historical R4-S1 report below.
+This new admission does not change strict R4 failed / R4-S1 inconclusive.
+Full reviewed report: `2026-10-15-receiver/report_v2.md`; protocol: `receiver_tom_scope_protocol_v1.md`.
+The original export is retained; `report_review.json` records the wording correction
+from fresh execution count to the explicit N=100 paired statistical unit.
+
+| Claim / boundary | Evidence |
+|---|---|
+| [RUN] 1200 fresh missions; 3 settings × 4 modes × 100 seeds4000–4099 | `2026-10-15-receiver/execution_manifest.json`, `per_seed_outcomes.csv`; full raw in `.local/reproduction/2026-10-15-receiver-v1/diagnostic/raw.jsonl` |
+| [RUN] Six primary adjusted intervals all cross zero; no stable practical effect established | `2026-10-15-receiver/statistics.json`, `decision_summary.json`, `time_contrasts.png` |
+| [RUN] Default/private mean gain8.48%, unadjusted positive CI loses exclusion of zero after adjustment | `2026-10-15-receiver/contrasts.csv`; all six comparisons retained |
+| [RUN] Fixed eta did not match realized costs | `statistics.json` task/UL/recordedUL+DL contrasts; oracle synchronization uncharged |
+| [RUN] All tasks completed, 45 false declarations retained | `per_seed_outcomes.csv`; completion does not imply zero errors |
+| [RUN] Full105 tests and targeted11, separate calls before simulation | raw `full-tests.log`, `contract-tests.log`; report exporter added afterward and validated separately |
+| [RUN] Original76 protected inputs, baseline raw/gate, frozen analysis/adapter unchanged | `preanalysis_audit.json`, `experiment_manifest.json`, completion audit |
+| [CODE] Position changes both predicted policy and proxy utility; joint is not optimal | `gosc/voi.py:TeamModel`, `extensions/receiver_oracle.py`; report section4 |
+| [HYPOTHESIS] Actual-Planner mismatch may matter; not identified here | report section4 and `next_stage_plan.md`; no new estimator or LLM experiment |
+
+Historical entries saying "receiver not run/unapproved" below describe their dated
+checkpoints; the new completion record supersedes that status without rewriting them.
+
 ## Approved R4-S1 statistical reproduction
 
 Raw root: `.local/reproduction/2026-10-15-statistical-v1/`.

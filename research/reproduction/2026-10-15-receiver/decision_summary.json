@@ -1,0 +1,9 @@
+{
+  "primary_comparisons": 6,
+  "point_gain_at_least_5pct": 1,
+  "family_lower_above_zero": 0,
+  "family_lower_above_5pct": 0,
+  "family_upper_below_5pct": 0,
+  "stable_practical_single_factor_established": false,
+  "conclusion": "No stable practical effect established; no equivalence or absence-of-effect proof."
+}

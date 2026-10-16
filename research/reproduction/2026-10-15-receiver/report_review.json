@@ -1,0 +1,12 @@
+{
+  "review": "Clarify fresh execution count versus independent statistical unit; no numerical or inferential changes.",
+  "source_sha256": "7d07135fa0e49fdb372d02c926f77230cd8a0b553d2c9e8fdd5dd56dbd55351b",
+  "reviewed_sha256": "e4c7b81c406e9a23f498a49ab97e2dfab45ad608fd25f993176a35df1b58c758",
+  "substitution": {
+    "from": "**[RUN] 已完成1200次独立接收端诊断。",
+    "to": "**[RUN] 已完成1200次新运行（100个配对seed×3设置×4模式）。"
+  },
+  "inserted_before_section2": "[RUN] 三设置沿用相同100个seed，四模式在seed内配对；1200是新执行次数，不是1200个独立统计样本。每项对比的独立抽样单位为100个mission seed。相同seed跨设置相关，Bonferroni不要求比较间独立；本轮不额外合并为一个独立N300或N1200检验。\n\n",
+  "original_report_retained": true,
+  "canonical_report": "report_v2.md"
+}

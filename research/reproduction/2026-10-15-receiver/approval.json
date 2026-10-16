@@ -1,0 +1,27 @@
+{
+  "status": "approved",
+  "scope": "tom_path_diagnostic_only",
+  "user_confirmation": "确认",
+  "authorization_source": "Current human message confirms the specific ToM-path-only proposal linked in the previous final response annotation 1.",
+  "recorded_at_utc": "2026-10-15T08:40:54.593507+00:00",
+  "proposal_file": "research\\reproduction\\2026-10-15-statistical\\receiver_scope_proposal.md",
+  "proposal_sha256": "09d28de897516c60c0e6738d479d74961677ed471e8df92485e8d2e98b8a0bf6",
+  "protocol_file": "research\\reproduction\\receiver_tom_scope_protocol_v1.md",
+  "protocol_sha256": "3c814cd86778fd629cb9088f13c58464d29f67022c9574a1284beefac16f79df",
+  "baseline_gate_sha256": "c7ef962b4c2c5721863e8335b003364dc8078afca42332a1b1df837235cc0f4d",
+  "constraints": {
+    "missions": 1200,
+    "seeds": [
+      4000,
+      4099
+    ],
+    "models": [
+      "Planner"
+    ],
+    "workers_max": 4,
+    "timeout_seconds": 1500,
+    "preserve_strict_failure": true,
+    "preserve_statistical_inconclusive": true,
+    "no_publication": true
+  }
+}

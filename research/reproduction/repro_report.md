@@ -1,5 +1,16 @@
 # Research Task Report — 2026-10-15
 
+## Latest follow-up — 2026-10-16
+
+[RUN] The approved ToM-path-only Receiver-D1 campaign completed 1200 fresh missions
+on 2026-10-15 and was audited/analyzed on 2026-10-16. Six primary family-adjusted
+intervals all cross zero; stable practical receiver-state gains were not established.
+This is not an equivalence or absence-of-effect finding. All raw outcomes, costs and
+negative seeds are retained. Strict R4 remains failed and R4-S1 inconclusive.
+
+See `2026-10-15-receiver/report_v2.md`, `receiver_tom_scope_protocol_v1.md` and
+`2026-10-15-receiver/next_stage_plan.md`. The report below is a preserved earlier checkpoint.
+
 **Approved statistical follow-up:** 5200 new Planner missions completed. R4-S1 gives
 100 equivalent and 4 inconclusive endpoints out of 104; overall still Pending.
 Original private600 and frozen headline1200 saved fields are reproduced. The new

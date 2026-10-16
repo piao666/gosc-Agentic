@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "records": 1200,
+  "unique_pairs": 1200,
+  "groups": {
+    "default/private": 100,
+    "default/joint": 100,
+    "default/shared": 100,
+    "default/position": 100,
+    "W50/shared": 100,
+    "W50/private": 100,
+    "W50/position": 100,
+    "W50/joint": 100,
+    "snr-5/shared": 100,
+    "snr-5/position": 100,
+    "snr-5/private": 100,
+    "snr-5/joint": 100
+  },
+  "finite_top_level_scalars": true,
+  "raw_sha256": "74b89a22cc6e1226fc85b944e850813b090a7fa82dbab6fefab384953b5b7483",
+  "frozen_analysis_sha256": "b7ccf14a2b89065d969ac3255085cad189dec4982829bbe284284140647e12cd",
+  "original_inputs": {
+    "checked": 76,
+    "differences": []
+  },
+  "admission": {
+    "policy": "tom-path-diagnostic-only",
+    "scope": "tom_path_diagnostic_only",
+    "approval_sha256": "cb6e0ceeb68de747a067e47add9a6342c0af9ee1717fe548fe328ae81752937b",
+    "proposal_sha256": "09d28de897516c60c0e6738d479d74961677ed471e8df92485e8d2e98b8a0bf6",
+    "protocol_sha256": "3c814cd86778fd629cb9088f13c58464d29f67022c9574a1284beefac16f79df",
+    "matching_tom_saved_field_records": 1900,
+    "counts": {
+      "frontier-W100": 700,
+      "private-original": 600,
+      "headline-frozen": 600
+    },
+    "strict_r4": "failed_preserved",
+    "r4_s1": "statistically_inconclusive",
+    "interpretation": "Limited diagnostic admission, not statistical agreement of all baselines; headline references have task/symbols only."
+  },
+  "strict_r4": "failed_preserved",
+  "r4_s1": "statistically_inconclusive",
+  "simulation_date_utc": "2026-10-15T08:42:26.984800+00:00",
+  "analysis_client_date": "2026-10-16"
+}

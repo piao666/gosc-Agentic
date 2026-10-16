@@ -1,0 +1,77 @@
+{
+  "commands": [
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "pytest",
+      "-q",
+      "tests_ext/test_receiver_statistical_gate.py",
+      "tests_ext/test_receiver_oracle.py"
+    ],
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "pytest",
+      "-q",
+      "tests",
+      "tests_ext"
+    ],
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "experiments_ext.run_receiver_factorial",
+      "--run-id",
+      "2026-10-15-statistical-v1",
+      "--output-run-id",
+      "2026-10-15-receiver-v1",
+      "--admission",
+      "tom-path-diagnostic-only",
+      "--approval-file",
+      ".local/reproduction/2026-10-15-receiver-v1/approval.json",
+      "--workers",
+      "4"
+    ],
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "experiments_ext.summarize",
+      "diagnostic",
+      "--run-id",
+      "2026-10-15-receiver-v1"
+    ],
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "experiments_ext.receiver_report"
+    ]
+  ],
+  "scope": "Tests and simulations ran 2026-10-15; resumed integrity audit, frozen analysis and export on client date 2026-10-16.",
+  "logs": {
+    "contract-tests.log": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-receiver-v1\\contract-tests.log",
+    "full-tests.log": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-receiver-v1\\full-tests.log",
+    "execution.log": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-receiver-v1\\execution.log",
+    "analysis.log": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-15-receiver-v1\\analysis.log"
+  },
+  "read_only_startup": [
+    "git status --short",
+    "git rev-parse HEAD",
+    "git remote -v",
+    "python --version"
+  ],
+  "additional_checks": "Read-only verify_plan/verify_admission/check_protected and raw identity audit; no new simulation."
+}
