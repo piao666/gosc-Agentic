@@ -1,0 +1,28 @@
+{
+  "approved": true,
+  "client_date": "2026-10-16",
+  "user_message": "批准",
+  "approved_selection": "审定反事实与成本协议，实现执行器并通过契约检查，最多8个开发missions/128条分支/2workers/15分钟",
+  "protocol_path": "research\\reproduction\\2026-10-16-mechanism\\counterfactual_protocol_v1.md",
+  "protocol_sha256": "5cec02bb8f9b3d072c1f420f62ad28d9691fec59f4e5c83e00428639b0551074",
+  "base_commit": "37cf326f163a25faafc6c3d439b7068e6528f990",
+  "seeds": [
+    5000,
+    5001,
+    5002,
+    5003,
+    5004,
+    5005,
+    5006,
+    5007
+  ],
+  "slots": [
+    8,
+    24
+  ],
+  "repetitions": 4,
+  "max_branches": 128,
+  "workers": 2,
+  "wall_cap_seconds": 900,
+  "scope": "offline diagnostic only; no estimator/LLM/task expansion/remote push"
+}

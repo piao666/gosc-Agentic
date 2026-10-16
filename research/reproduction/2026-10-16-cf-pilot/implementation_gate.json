@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "client_date": "2026-10-16",
+  "contract_test_count": 13,
+  "full_test_count": 126,
+  "full_test_seconds": 57.39,
+  "full_test_command": ".\\.venv\\Scripts\\python.exe -m pytest tests tests_ext -q",
+  "full_test_log": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-16-cf-implementation-v1\\full-tests.log",
+  "full_test_log_sha256": "17100aada50ed46fdf50becfff33d9f6ffeacdaa69b952a42b8268439c571b97",
+  "source_sha256": {
+    "extensions/counterfactual.py": "0b896132cb110028ad7f2d2c691a5a9b12659b5bd04b24d189de9c6e9da79cb4",
+    "experiments_ext/run_receiver_cf.py": "0a784b00d1ef663bd6aa5d46b0c9a70105113c0101920b61bd0f276b5c549e1d",
+    "experiments_ext/analyze_receiver_cf.py": "c456df1030edd3b66659f3068fe3aa8eacf9168afd1f5bf09e62fc0b8d5477b3",
+    "tests_ext/test_receiver_cf.py": "36d40f46f263b195a90fb59ab8f6dd7dc2946baafb43824e432000bec0721b2e",
+    "experiments_ext/review_receiver_mechanisms.py": "7002b1678b577d792ef3f13c76bf682f8697dbfb29f675b6c43b04eaa5b6c3aa"
+  },
+  "protected_inputs_matching": 76,
+  "source_base_commit": "37cf326f163a25faafc6c3d439b7068e6528f990",
+  "help_reviewed": true,
+  "write_paths_reviewed": true
+}
