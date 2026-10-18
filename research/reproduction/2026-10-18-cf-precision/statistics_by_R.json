@@ -1,0 +1,614 @@
+{
+  "analysis": "fixed14 cumulative R4/8/16/32 MC precision; no new policy",
+  "old_branches": 112,
+  "new_branches": 784,
+  "merged_branches": 896,
+  "old_R4_rebuilt_exactly": true,
+  "mission_clusters": 8,
+  "fixed_points": 14,
+  "levels": {
+    "4": {
+      "status": "complete",
+      "statistics": {
+        "EVID": {
+          "points": 9,
+          "missions_with_points": 7,
+          "delta_T_mission_equal_mean": -1.0178571428571428,
+          "delta_T_quantiles_point_level": [
+            -9.25,
+            -3.5,
+            -1.5,
+            3.5,
+            6.25
+          ],
+          "positive_zero_negative_points": [
+            3,
+            0,
+            6
+          ],
+          "mean_interval": {
+            "ci95": [
+              -4.732142857142857,
+              2.7035156250000014
+            ],
+            "valid_bootstraps": 4000,
+            "total_bootstraps": 4000
+          },
+          "rho": {
+            "tom": {
+              "point_estimate": 0.48333333333333334,
+              "ci95": [
+                -0.44001895734597163,
+                0.9999999999999999
+              ],
+              "valid_bootstraps": 4000,
+              "total_bootstraps": 4000
+            },
+            "tv": {
+              "point_estimate": 0.25,
+              "ci95": [
+                -0.7614678899082569,
+                0.8710685483870971
+              ],
+              "valid_bootstraps": 4000,
+              "total_bootstraps": 4000
+            },
+            "bits": {
+              "point_estimate": 0.1338923854009157,
+              "ci95": [
+                -0.8697010869565217,
+                0.7824202240539622
+              ],
+              "valid_bootstraps": 4000,
+              "total_bootstraps": 4000
+            },
+            "aoi": {
+              "point_estimate": -0.03497487083913345,
+              "ci95": [
+                -0.9494385671940514,
+                0.6666794859469826
+              ],
+              "valid_bootstraps": 3997,
+              "total_bootstraps": 4000
+            }
+          }
+        },
+        "INTENT": {
+          "points": 5,
+          "missions_with_points": 5,
+          "delta_T_mission_equal_mean": 2.7,
+          "delta_T_quantiles_point_level": [
+            -6.0,
+            -0.25,
+            0.0,
+            5.75,
+            14.0
+          ],
+          "positive_zero_negative_points": [
+            2,
+            1,
+            2
+          ],
+          "mean_interval": {
+            "ci95": [
+              -3.0833333333333335,
+              9.291666666666666
+            ],
+            "valid_bootstraps": 3998,
+            "total_bootstraps": 4000
+          },
+          "rho": {
+            "tom": {
+              "point_estimate": 0.39999999999999997,
+              "ci95": [
+                -1.0,
+                1.0
+              ],
+              "valid_bootstraps": 3833,
+              "total_bootstraps": 4000
+            },
+            "tv": {
+              "point_estimate": null,
+              "ci95": null,
+              "valid_bootstraps": 0,
+              "total_bootstraps": 4000
+            },
+            "bits": {
+              "point_estimate": null,
+              "ci95": null,
+              "valid_bootstraps": 0,
+              "total_bootstraps": 4000
+            },
+            "aoi": {
+              "point_estimate": -0.35355339059327373,
+              "ci95": [
+                -1.0,
+                0.3952847075210474
+              ],
+              "valid_bootstraps": 2564,
+              "total_bootstraps": 4000
+            }
+          }
+        },
+        "all": {
+          "missions": 8,
+          "points": 14,
+          "delta_T_mission_equal_mean": 1.09375,
+          "ci95": [
+            -2.5,
+            5.265625
+          ],
+          "valid_bootstraps": 4000,
+          "total_bootstraps": 4000,
+          "delta_recorded_uses_success_minus_failure": -499.40625,
+          "mean_next_receiver_changes_point_level": 0.5,
+          "mean_shadow_receiver_changes_point_level": 0.35714285714285715
+        }
+      },
+      "precision": {
+        "median_MC_SE": 6.047536879535246,
+        "max_MC_SE": 12.010412149464313,
+        "nonzero_points": 13,
+        "nonzero_MC_SE_ge_abs_mean": 12,
+        "point_positive_zero_negative": [
+          5,
+          1,
+          8
+        ]
+      }
+    },
+    "8": {
+      "status": "complete",
+      "statistics": {
+        "EVID": {
+          "points": 9,
+          "missions_with_points": 7,
+          "delta_T_mission_equal_mean": -1.2232142857142858,
+          "delta_T_quantiles_point_level": [
+            -8.5,
+            -7.0,
+            -0.75,
+            1.75,
+            5.5
+          ],
+          "positive_zero_negative_points": [
+            4,
+            0,
+            5
+          ],
+          "mean_interval": {
+            "ci95": [
+              -4.5625,
+              2.25
+            ],
+            "valid_bootstraps": 4000,
+            "total_bootstraps": 4000
+          },
+          "rho": {
+            "tom": {
+              "point_estimate": 0.08333333333333334,
+              "ci95": [
+                -0.7735849056603774,
+                0.9999999999999998
+              ],
+              "valid_bootstraps": 4000,
+              "total_bootstraps": 4000
+            },
+            "tv": {
+              "point_estimate": -0.21666666666666667,
+              "ci95": [
+                -0.9259259259259259,
+                0.8422064777327941
+              ],
+              "valid_bootstraps": 4000,
+              "total_bootstraps": 4000
+            },
+            "bits": {
+              "point_estimate": -0.31799441532717476,
+              "ci95": [
+                -0.922102897102897,
+                0.7647058823529412
+              ],
+              "valid_bootstraps": 4000,
+              "total_bootstraps": 4000
+            },
+            "aoi": {
+              "point_estimate": -0.4896481917478682,
+              "ci95": [
+                -0.9597148699373931,
+                0.5617872536801126
+              ],
+              "valid_bootstraps": 3997,
+              "total_bootstraps": 4000
+            }
+          }
+        },
+        "INTENT": {
+          "points": 5,
+          "missions_with_points": 5,
+          "delta_T_mission_equal_mean": -2.025,
+          "delta_T_quantiles_point_level": [
+            -20.625,
+            -3.0,
+            0.75,
+            5.875,
+            6.875
+          ],
+          "positive_zero_negative_points": [
+            3,
+            0,
+            2
+          ],
+          "mean_interval": {
+            "ci95": [
+              -11.826562499999998,
+              5.875
+            ],
+            "valid_bootstraps": 3998,
+            "total_bootstraps": 4000
+          },
+          "rho": {
+            "tom": {
+              "point_estimate": 0.7999999999999999,
+              "ci95": [
+                -1.0,
+                1.0
+              ],
+              "valid_bootstraps": 3833,
+              "total_bootstraps": 4000
+            },
+            "tv": {
+              "point_estimate": null,
+              "ci95": null,
+              "valid_bootstraps": 0,
+              "total_bootstraps": 4000
+            },
+            "bits": {
+              "point_estimate": null,
+              "ci95": null,
+              "valid_bootstraps": 0,
+              "total_bootstraps": 4000
+            },
+            "aoi": {
+              "point_estimate": 0.35355339059327373,
+              "ci95": [
+                -0.46770717334674267,
+                1.0
+              ],
+              "valid_bootstraps": 2564,
+              "total_bootstraps": 4000
+            }
+          }
+        },
+        "all": {
+          "missions": 8,
+          "points": 14,
+          "delta_T_mission_equal_mean": -2.6796875,
+          "ci95": [
+            -8.3443359375,
+            1.625
+          ],
+          "valid_bootstraps": 4000,
+          "total_bootstraps": 4000,
+          "delta_recorded_uses_success_minus_failure": -34.828125,
+          "mean_next_receiver_changes_point_level": 0.48214285714285715,
+          "mean_shadow_receiver_changes_point_level": 0.35714285714285715
+        }
+      },
+      "precision": {
+        "median_MC_SE": 4.388319722240502,
+        "max_MC_SE": 20.46594514588285,
+        "nonzero_points": 14,
+        "nonzero_MC_SE_ge_abs_mean": 5,
+        "point_positive_zero_negative": [
+          7,
+          0,
+          7
+        ]
+      }
+    },
+    "16": {
+      "status": "complete",
+      "statistics": {
+        "EVID": {
+          "points": 9,
+          "missions_with_points": 7,
+          "delta_T_mission_equal_mean": 3.6160714285714284,
+          "delta_T_quantiles_point_level": [
+            -7.0,
+            -3.8125,
+            2.125,
+            3.5625,
+            12.8125
+          ],
+          "positive_zero_negative_points": [
+            5,
+            1,
+            3
+          ],
+          "mean_interval": {
+            "ci95": [
+              -0.7032552083333333,
+              8.473214285714286
+            ],
+            "valid_bootstraps": 4000,
+            "total_bootstraps": 4000
+          },
+          "rho": {
+            "tom": {
+              "point_estimate": 0.09999999999999999,
+              "ci95": [
+                -0.8518518518518517,
+                0.8481012658227849
+              ],
+              "valid_bootstraps": 4000,
+              "total_bootstraps": 4000
+            },
+            "tv": {
+              "point_estimate": -0.19999999999999998,
+              "ci95": [
+                -0.8500000000000001,
+                0.7215189873417723
+              ],
+              "valid_bootstraps": 4000,
+              "total_bootstraps": 4000
+            },
+            "bits": {
+              "point_estimate": -0.2677847708018314,
+              "ci95": [
+                -0.8421052631578949,
+                0.5248131235119282
+              ],
+              "valid_bootstraps": 4000,
+              "total_bootstraps": 4000
+            },
+            "aoi": {
+              "point_estimate": -0.3410049906815511,
+              "ci95": [
+                -0.8708006883682161,
+                0.2800975743474507
+              ],
+              "valid_bootstraps": 3997,
+              "total_bootstraps": 4000
+            }
+          }
+        },
+        "INTENT": {
+          "points": 5,
+          "missions_with_points": 5,
+          "delta_T_mission_equal_mean": -2.525,
+          "delta_T_quantiles_point_level": [
+            -5.25,
+            -3.875,
+            -2.4375,
+            -1.375,
+            0.3125
+          ],
+          "positive_zero_negative_points": [
+            1,
+            0,
+            4
+          ],
+          "mean_interval": {
+            "ci95": [
+              -4.3125,
+              -0.6041666666666666
+            ],
+            "valid_bootstraps": 3998,
+            "total_bootstraps": 4000
+          },
+          "rho": {
+            "tom": {
+              "point_estimate": 0.49999999999999994,
+              "ci95": [
+                -1.0,
+                1.0
+              ],
+              "valid_bootstraps": 3833,
+              "total_bootstraps": 4000
+            },
+            "tv": {
+              "point_estimate": null,
+              "ci95": null,
+              "valid_bootstraps": 0,
+              "total_bootstraps": 4000
+            },
+            "bits": {
+              "point_estimate": null,
+              "ci95": null,
+              "valid_bootstraps": 0,
+              "total_bootstraps": 4000
+            },
+            "aoi": {
+              "point_estimate": 0.7071067811865475,
+              "ci95": [
+                0.6236095644623235,
+                1.0
+              ],
+              "valid_bootstraps": 2564,
+              "total_bootstraps": 4000
+            }
+          }
+        },
+        "all": {
+          "missions": 8,
+          "points": 14,
+          "delta_T_mission_equal_mean": 0.15625,
+          "ci95": [
+            -2.71484375,
+            3.0470703125000007
+          ],
+          "valid_bootstraps": 4000,
+          "total_bootstraps": 4000,
+          "delta_recorded_uses_success_minus_failure": -331.4921875,
+          "mean_next_receiver_changes_point_level": 0.45089285714285715,
+          "mean_shadow_receiver_changes_point_level": 0.35714285714285715
+        }
+      },
+      "precision": {
+        "median_MC_SE": 5.461441803300005,
+        "max_MC_SE": 16.189631455554096,
+        "nonzero_points": 13,
+        "nonzero_MC_SE_ge_abs_mean": 8,
+        "point_positive_zero_negative": [
+          6,
+          1,
+          7
+        ]
+      }
+    },
+    "32": {
+      "status": "complete",
+      "statistics": {
+        "EVID": {
+          "points": 9,
+          "missions_with_points": 7,
+          "delta_T_mission_equal_mean": 2.4486607142857144,
+          "delta_T_quantiles_point_level": [
+            -15.9375,
+            -1.90625,
+            -0.625,
+            6.625,
+            7.96875
+          ],
+          "positive_zero_negative_points": [
+            4,
+            0,
+            5
+          ],
+          "mean_interval": {
+            "ci95": [
+              -2.122767857142857,
+              6.494921875000001
+            ],
+            "valid_bootstraps": 4000,
+            "total_bootstraps": 4000
+          },
+          "rho": {
+            "tom": {
+              "point_estimate": -0.03333333333333333,
+              "ci95": [
+                -0.9259259259259259,
+                0.9999999999999998
+              ],
+              "valid_bootstraps": 4000,
+              "total_bootstraps": 4000
+            },
+            "tv": {
+              "point_estimate": -0.3666666666666667,
+              "ci95": [
+                -0.8919630156472262,
+                0.4712797619047623
+              ],
+              "valid_bootstraps": 4000,
+              "total_bootstraps": 4000
+            },
+            "bits": {
+              "point_estimate": -0.27615304488938863,
+              "ci95": [
+                -0.9999999999999999,
+                0.7061611374407583
+              ],
+              "valid_bootstraps": 4000,
+              "total_bootstraps": 4000
+            },
+            "aoi": {
+              "point_estimate": -0.2623115312935008,
+              "ci95": [
+                -0.8660254037844388,
+                0.5573619243168841
+              ],
+              "valid_bootstraps": 3997,
+              "total_bootstraps": 4000
+            }
+          }
+        },
+        "INTENT": {
+          "points": 5,
+          "missions_with_points": 5,
+          "delta_T_mission_equal_mean": -0.025,
+          "delta_T_quantiles_point_level": [
+            -4.375,
+            -3.03125,
+            0.21875,
+            2.9375,
+            4.125
+          ],
+          "positive_zero_negative_points": [
+            3,
+            0,
+            2
+          ],
+          "mean_interval": {
+            "ci95": [
+              -3.03125,
+              3.078125
+            ],
+            "valid_bootstraps": 3998,
+            "total_bootstraps": 4000
+          },
+          "rho": {
+            "tom": {
+              "point_estimate": -0.19999999999999998,
+              "ci95": [
+                -1.0,
+                1.0
+              ],
+              "valid_bootstraps": 3833,
+              "total_bootstraps": 4000
+            },
+            "tv": {
+              "point_estimate": null,
+              "ci95": null,
+              "valid_bootstraps": 0,
+              "total_bootstraps": 4000
+            },
+            "bits": {
+              "point_estimate": null,
+              "ci95": null,
+              "valid_bootstraps": 0,
+              "total_bootstraps": 4000
+            },
+            "aoi": {
+              "point_estimate": 0.35355339059327373,
+              "ci95": [
+                -0.44721359549995804,
+                1.0
+              ],
+              "valid_bootstraps": 2564,
+              "total_bootstraps": 4000
+            }
+          }
+        },
+        "all": {
+          "missions": 8,
+          "points": 14,
+          "delta_T_mission_equal_mean": 0.638671875,
+          "ci95": [
+            -2.5432617187499997,
+            3.09375
+          ],
+          "valid_bootstraps": 4000,
+          "total_bootstraps": 4000,
+          "delta_recorded_uses_success_minus_failure": -214.552734375,
+          "mean_next_receiver_changes_point_level": 0.44642857142857145,
+          "mean_shadow_receiver_changes_point_level": 0.35714285714285715
+        }
+      },
+      "precision": {
+        "median_MC_SE": 3.8472158650961648,
+        "max_MC_SE": 10.249778715156605,
+        "nonzero_points": 14,
+        "nonzero_MC_SE_ge_abs_mean": 6,
+        "point_positive_zero_negative": [
+          7,
+          0,
+          7
+        ]
+      }
+    }
+  },
+  "bootstrap_repetitions": 4000,
+  "bootstrap_seed": 0,
+  "notes": "Nested cumulative levels are dependent, not independent confirmations. Cluster CIs exploratory; do not separately propagate finite MC noise. No multiple-comparison/causal-mechanism claim."
+}

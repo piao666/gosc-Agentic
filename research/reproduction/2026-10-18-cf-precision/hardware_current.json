@@ -1,0 +1,16 @@
+{
+  "client_date": "2026-10-18",
+  "cpu": {
+    "Name": "11th Gen Intel(R) Core(TM) i7-11700F @ 2.50GHz",
+    "NumberOfCores": 8,
+    "NumberOfLogicalProcessors": 16
+  },
+  "machine": {
+    "TotalPhysicalMemory": 16962883584
+  },
+  "os": {
+    "Caption": "Microsoft Windows 11 家庭版 中文版",
+    "Version": "10.0.26200",
+    "OSArchitecture": "64 位"
+  }
+}

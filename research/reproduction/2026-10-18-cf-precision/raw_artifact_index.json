@@ -1,0 +1,219 @@
+{
+  "raw_root": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-18-cf-precision-v1",
+  "prior_root": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-16-cf-pilot-v1",
+  "files": {
+    "analysis/convergence.csv": {
+      "bytes": 2182,
+      "sha256": "b25266223532b15909872028893daa0aa08a14e1c67fd6ea48b7d0616cd2e244"
+    },
+    "analysis/convergence.png": {
+      "bytes": 239945,
+      "sha256": "c5fb13cc7613819c23c159bf9182bcfb69f8e6017b2f3f9400007777a4ea6a44"
+    },
+    "analysis/convergence_review.json": {
+      "bytes": 643,
+      "sha256": "b4150ff41f7d02a08a4959ce2f6fee3d011b217be0ca3247a70c2b487407b758"
+    },
+    "analysis/independent_audit.json": {
+      "bytes": 2896,
+      "sha256": "4c359f2cc91a87d57dd2ff518a0251b2b3eae28c7073feb16caf0d2dc28f2220"
+    },
+    "analysis/per_point_by_R.csv": {
+      "bytes": 21981,
+      "sha256": "6d7d3f3b7010f15ddf93f796b4aea5610c08771d051953ca7d246d819b19006f"
+    },
+    "analysis/statistics_by_R.json": {
+      "bytes": 17600,
+      "sha256": "847358a48c1c67459474fcc609d809f5886f1da36a158441eb0c7c4230a58fc2"
+    },
+    "execution.log": {
+      "bytes": 3019,
+      "sha256": "ffedf9cbc8d29291029a85e1b5c73205e74088465cf78916c06083a06a55a623"
+    },
+    "execution_completion.json": {
+      "bytes": 3347,
+      "sha256": "43db9e88cc32d486597c8f0349519f918cb1c65db52ba341ccde8b99cc7ef549"
+    },
+    "experiment_manifest.json": {
+      "bytes": 26176,
+      "sha256": "09169d93eaf03d2e660898ccb61c862b0c828137ad5a6f7d179c13160549f9a9"
+    },
+    "fixed_points.json": {
+      "bytes": 18177,
+      "sha256": "f562372f3ec961c9d9825fb3fb93200af4f6c1324499c95d0f3cbbbb4f677e35"
+    },
+    "point-5000-24/branches.jsonl": {
+      "bytes": 708098,
+      "sha256": "a36e91fa329be4a7137d7334999f3ad203d5f3ad631ede08953c7424e7cc7ad0"
+    },
+    "point-5000-24/completion.json": {
+      "bytes": 184,
+      "sha256": "00c60169e5b2a93d4eb3a53e9721e2b94093e871f0d821d2a90f053290f563aa"
+    },
+    "point-5000-24/source.json": {
+      "bytes": 1225,
+      "sha256": "79067781993b38071c03deb6ac21fab065ee007c169b123f401f7a3d31226f1b"
+    },
+    "point-5000-8/branches.jsonl": {
+      "bytes": 715751,
+      "sha256": "b768349a74df3dd122187e4b4e812cc2e95b4f09a438c252c802ce700c6100e5"
+    },
+    "point-5000-8/completion.json": {
+      "bytes": 183,
+      "sha256": "923b8ac46c3d2302fcfe6f7502078a883022994a9734a80a1d99f13df10cd621"
+    },
+    "point-5000-8/source.json": {
+      "bytes": 1225,
+      "sha256": "1409996f0942d62556e88736849a0f341ed477bf4ac126b64ac313972cd395cb"
+    },
+    "point-5001-24/branches.jsonl": {
+      "bytes": 792054,
+      "sha256": "9dd4b03b78d1f982693c5f39174173b0f980d8a048392af07a880882531ba45f"
+    },
+    "point-5001-24/completion.json": {
+      "bytes": 184,
+      "sha256": "e2c5842702be958073b6ab30162f303b85bc0e3c730cd45f6c79a8b836071c15"
+    },
+    "point-5001-24/source.json": {
+      "bytes": 1229,
+      "sha256": "53478fb07dc3b8ebb313fe8d9dba3956b064e18eefd511fa548cdacc5c517e06"
+    },
+    "point-5001-8/branches.jsonl": {
+      "bytes": 717365,
+      "sha256": "fadb31ea8f9f665e9cc8ba0fffe9d73267b4d2105f745b3b77d1a653740cd35f"
+    },
+    "point-5001-8/completion.json": {
+      "bytes": 185,
+      "sha256": "15fe3a4dd003218aebc87f81cca96781d0a1d13b743cb6158bb532ab9bfdafd3"
+    },
+    "point-5001-8/source.json": {
+      "bytes": 1213,
+      "sha256": "c11bd9faee0dd614a44cbf883c3249d6ce22592a3ff4c9e3a15329bd71e88df6"
+    },
+    "point-5002-8/branches.jsonl": {
+      "bytes": 794003,
+      "sha256": "3f20d88553d215cff0d809178485cf8a356ec47f59c2bceac4e8eae4434a95aa"
+    },
+    "point-5002-8/completion.json": {
+      "bytes": 185,
+      "sha256": "b9fc270b367a26ca30c1efb182f796c2cef1f3b2a07b52a07c1ce1da54edc1e2"
+    },
+    "point-5002-8/source.json": {
+      "bytes": 1226,
+      "sha256": "a46883b879d1e1feedb8505e87eef99a3cb3a1cf9a84e4763bb3dea8af6c21b8"
+    },
+    "point-5003-24/branches.jsonl": {
+      "bytes": 724901,
+      "sha256": "f3ac8d75a59f30e94f04937afac299e691b8da31ac097e07b1cd41f036b38767"
+    },
+    "point-5003-24/completion.json": {
+      "bytes": 184,
+      "sha256": "5bbbe98542865ee3e573fa93546f0cb374b271314b358c0bb8e49f224dfbd474"
+    },
+    "point-5003-24/source.json": {
+      "bytes": 1213,
+      "sha256": "7c9dbdae83c90e60c69ec6e0ed24acc01a97d81bab2ec94615c061cb8655a928"
+    },
+    "point-5003-8/branches.jsonl": {
+      "bytes": 753300,
+      "sha256": "164c36abba1b207d9a347cba73cd164799974dac9a24893f5a0f83ef6b9b0649"
+    },
+    "point-5003-8/completion.json": {
+      "bytes": 185,
+      "sha256": "09d5c0ae7cd303c7f819ac0db75cefe64fd078e2809a1566e4792e55af309a73"
+    },
+    "point-5003-8/source.json": {
+      "bytes": 1219,
+      "sha256": "2b91d0e8ce503e30f181de922f34984e68c0584c0020a187474c8830745857b7"
+    },
+    "point-5004-24/branches.jsonl": {
+      "bytes": 701005,
+      "sha256": "b4bf7096545402c91f3a62adaa183c15587d2727d6213aafe0bbb1cf3ec8ca75"
+    },
+    "point-5004-24/completion.json": {
+      "bytes": 185,
+      "sha256": "b0dcd4b4b3705598836e15d98af6b42896fa42764571f93e8a18e2c7d77871c2"
+    },
+    "point-5004-24/source.json": {
+      "bytes": 1218,
+      "sha256": "d37093517d9eb25c1ac165ead22729f6ac63563ba8eefb1c10cf6c196fedb0e4"
+    },
+    "point-5004-8/branches.jsonl": {
+      "bytes": 827048,
+      "sha256": "f4ca55f91fd4c870074819747d08a6123f52fc344c3d19765352f6f008522195"
+    },
+    "point-5004-8/completion.json": {
+      "bytes": 185,
+      "sha256": "165f75d701144d9fbab801c198a9b81cb2f0b8f581461797e145f71e7a4f489f"
+    },
+    "point-5004-8/source.json": {
+      "bytes": 1226,
+      "sha256": "748f8b4109c05f31e2f0b8ed739e432c925f95a0986164984d4b27cbcb28fa82"
+    },
+    "point-5005-24/branches.jsonl": {
+      "bytes": 652899,
+      "sha256": "6e522ce7fe89e4bba4d2f5c2d720e21f7af2ba13ecdfaeb174a83d5e1f5ac819"
+    },
+    "point-5005-24/completion.json": {
+      "bytes": 185,
+      "sha256": "cda19e8915e97a3171c1a80b3b2c6735ac28475609a00576b5fa1ecf1fb140f3"
+    },
+    "point-5005-24/source.json": {
+      "bytes": 1230,
+      "sha256": "8a046276610966ccc54065c9daf7db25d92b97b1bc7dcbaa70b7d538b51f8099"
+    },
+    "point-5005-8/branches.jsonl": {
+      "bytes": 663469,
+      "sha256": "acae6895e125caf4e16934c47e3545998172472e412e013dbc321cfcacad6fcb"
+    },
+    "point-5005-8/completion.json": {
+      "bytes": 182,
+      "sha256": "6e98a764513ffcc0f106f4b63582e8e53ee65d5589c01e4fe40c4a180c35e329"
+    },
+    "point-5005-8/source.json": {
+      "bytes": 1224,
+      "sha256": "46ac0c0aa9021740bcecfd5eb9e0cee0a1f3b088a2e8393dbca43ae96e86e3db"
+    },
+    "point-5006-24/branches.jsonl": {
+      "bytes": 705153,
+      "sha256": "2ed45a5089c3c10f57afcb17cca3f03d928087e9c5e2a652dfc9af0c4d3d7e2a"
+    },
+    "point-5006-24/completion.json": {
+      "bytes": 186,
+      "sha256": "1c757ebbe23c69f720f08423f565951c806a13594f164609596efe8797b1ee2a"
+    },
+    "point-5006-24/source.json": {
+      "bytes": 1231,
+      "sha256": "5c772de004fdb3e796d1c4590abc18909d72f4da79dbf0336771389d179e0327"
+    },
+    "point-5006-8/branches.jsonl": {
+      "bytes": 877726,
+      "sha256": "189dc52a828e2d44f47758dc715c5e3c97d011aba1b5c340b113a91141028461"
+    },
+    "point-5006-8/completion.json": {
+      "bytes": 183,
+      "sha256": "6e8323844c1402f60792583f5e7fff528bcd1818fb5b6f8e046bffdb48ba5fd4"
+    },
+    "point-5006-8/source.json": {
+      "bytes": 1207,
+      "sha256": "2e69241eb0751f5f0333e927e5d6a64a0fcc8cd57405897f47910d9b4ea2c64a"
+    },
+    "point-5007-8/branches.jsonl": {
+      "bytes": 883502,
+      "sha256": "d0f4abac5eb9695afa1a86c828c975a5bdf8ca32fcad2837f4fd0b4436f359fc"
+    },
+    "point-5007-8/completion.json": {
+      "bytes": 184,
+      "sha256": "9d19db030c63ceb6044c34011c7a2055dd64a12888cf75039229cee460a43bc3"
+    },
+    "point-5007-8/source.json": {
+      "bytes": 1210,
+      "sha256": "3df2ea8d8da8710f2a94be50bb937a425179764e377cafee7dc24ed223695a71"
+    },
+    "preanalysis_audit.json": {
+      "bytes": 514,
+      "sha256": "3f0fb91e5608e2684800d944c75b0ed4048c13cf0645e87efb2a09609bb041ee"
+    }
+  },
+  "raw_research_data_uploaded": false
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "descriptive_cumulative_precision_review_not_significance_test",
+  "point_sign_changed_including_zero": 5,
+  "strict_positive_negative_flips": 4,
+  "zero_to_nonzero": 1,
+  "same_nonzero_sign_all_four_levels": 5,
+  "MC_SE_lower_at_R32_than_R4": 8,
+  "MC_SE_equal": 0,
+  "MC_SE_higher_at_R32": 6,
+  "max_absolute_mean_drift": 19.4375,
+  "median_SE_by_R": {
+    "4": 6.047536879535246,
+    "8": 4.388319722240502,
+    "16": 5.461441803300005,
+    "32": 3.8472158650961648
+  },
+  "note": "Cumulative levels overlap; same sign does not constitute independent replication. R32 is finite-MC estimate, not a gold label."
+}

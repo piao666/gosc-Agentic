@@ -1,0 +1,99 @@
+{
+  "client_date": "2026-10-18",
+  "cwd": "E:\\gosc-agentic-teams",
+  "runtime_commit": "83338a3fa38d049f924c23bde788936990433afa",
+  "scope": "Actual command entry points and recorded results; shell wrappers/preflight inline snippets not reconstructed verbatim.",
+  "commands": [
+    {
+      "entry_points": [
+        "git status --short",
+        "git rev-parse HEAD",
+        "git remote -v",
+        "python --version"
+      ],
+      "outcome": "Startup clean at9196a61; correct paths/remotes; Python3.12.10"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe -m pytest tests_ext/test_receiver_cf_precision.py -q",
+      "phase": "initial implementation",
+      "result": "8 passed /0.41s"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe -m pytest tests tests_ext -q",
+      "phase": "initial implementation",
+      "result": "134 passed /56.74s",
+      "log": "full-tests-initial.log"
+    },
+    {
+      "entry_point": "inline Python trusted-local checkpoint/source/environment preflight",
+      "phase": "before new continuations",
+      "result": "Windows backslash lookup KeyError; in-memory normalization fixed; zero new continuations",
+      "evidence": "implementation_repairs.json"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe -m experiments_ext.run_receiver_cf_precision --output-dir .local/reproduction/2026-10-18-cf-precision-v1 --gate-file .local/reproduction/2026-10-18-cf-precision-implementation-v1/gate.json",
+      "phase": "commit36909b1 first launch",
+      "result": "GBK UnicodeDecodeError on UTF8 approval; zero new continuations",
+      "log": "failed-launch.log"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe -m pytest tests_ext/test_receiver_cf_precision.py -q",
+      "phase": "UTF8 fix",
+      "result": "9 passed /0.26s"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe -m pytest tests tests_ext -q",
+      "phase": "final pre-execution gate",
+      "result": "135 passed /65.81s",
+      "log": "full-tests-v2.log"
+    },
+    {
+      "entry_point": "inline Python checkpoint/config/alias/tape/features/native single-slot replay and installed version checks",
+      "result": "14 fixed points,94 old indexed files,16 actual dependency versions verified",
+      "evidence": "checkpoint_preflight_v2.json"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe -m experiments_ext.run_receiver_cf_precision --output-dir .local/reproduction/2026-10-18-cf-precision-v1 --gate-file .local/reproduction/2026-10-18-cf-precision-implementation-v1/gate_v2.json",
+      "result": "exit0;784 new branches complete;413.0648496s",
+      "log": "execution.log"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe -m experiments_ext.analyze_receiver_cf_precision --run-dir .local/reproduction/2026-10-18-cf-precision-v1",
+      "result": "exit0; all4 cumulative levels complete; exact oldR4 equality",
+      "evidence": "statistics_by_R.json"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe -m experiments_ext.audit_receiver_cf_precision --run-dir .local/reproduction/2026-10-18-cf-precision-v1",
+      "result": "exit0;56 means/SE and12 mean/CIs verified independently",
+      "evidence": "independent_audit.json"
+    },
+    {
+      "entry_points": [
+        "Get-CimInstance Win32_Processor",
+        "Get-CimInstance Win32_ComputerSystem",
+        "Get-CimInstance Win32_OperatingSystem"
+      ],
+      "result": "Selected CPU/core/RAM/OS fields only",
+      "evidence": "hardware_current.json"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe .local/reproduction/2026-10-18-cf-precision-implementation-v1/finalize_archive.py",
+      "phase": "saved-data archive only",
+      "result": "See final_review.json; no new rollout"
+    }
+  ],
+  "not_run": [
+    "new worlds",
+    "R64 or higher",
+    "learned estimators",
+    "LLM cached/live",
+    "new policies",
+    "Ollama/API/GPU",
+    "remote push/publication"
+  ],
+  "git_local_implementation_commits": [
+    "36909b1",
+    "83338a3"
+  ],
+  "local_archive_commit": "Resolved after this document is committed; see ignored run closure.json and Git history."
+}

@@ -1,0 +1,127 @@
+{
+  "status": "passed",
+  "old_branches": 112,
+  "new_branches": 784,
+  "merged_branches": 896,
+  "paired_MC_repetitions": 448,
+  "independent_worlds": 8,
+  "point_level_cells_checked": 56,
+  "old_indexed_files_unchanged": 94,
+  "protected_inputs_unchanged": 76,
+  "all_runtime_source_hashes_match": true,
+  "independent_mean_CIs_all_levels": {
+    "4": {
+      "EVID": {
+        "mean": -1.0178571428571428,
+        "ci95": [
+          -4.732142857142857,
+          2.7035156250000014
+        ],
+        "valid_bootstraps": 4000
+      },
+      "INTENT": {
+        "mean": 2.7,
+        "ci95": [
+          -3.0833333333333335,
+          9.291666666666666
+        ],
+        "valid_bootstraps": 3998
+      },
+      "all": {
+        "mean": 1.09375,
+        "ci95": [
+          -2.5,
+          5.265625
+        ],
+        "valid_bootstraps": 4000
+      }
+    },
+    "8": {
+      "EVID": {
+        "mean": -1.2232142857142858,
+        "ci95": [
+          -4.5625,
+          2.25
+        ],
+        "valid_bootstraps": 4000
+      },
+      "INTENT": {
+        "mean": -2.025,
+        "ci95": [
+          -11.826562499999998,
+          5.875
+        ],
+        "valid_bootstraps": 3998
+      },
+      "all": {
+        "mean": -2.6796875,
+        "ci95": [
+          -8.3443359375,
+          1.625
+        ],
+        "valid_bootstraps": 4000
+      }
+    },
+    "16": {
+      "EVID": {
+        "mean": 3.6160714285714284,
+        "ci95": [
+          -0.7032552083333333,
+          8.473214285714286
+        ],
+        "valid_bootstraps": 4000
+      },
+      "INTENT": {
+        "mean": -2.525,
+        "ci95": [
+          -4.3125,
+          -0.6041666666666666
+        ],
+        "valid_bootstraps": 3998
+      },
+      "all": {
+        "mean": 0.15625,
+        "ci95": [
+          -2.71484375,
+          3.0470703125000007
+        ],
+        "valid_bootstraps": 4000
+      }
+    },
+    "32": {
+      "EVID": {
+        "mean": 2.4486607142857144,
+        "ci95": [
+          -2.122767857142857,
+          6.494921875000001
+        ],
+        "valid_bootstraps": 4000
+      },
+      "INTENT": {
+        "mean": -0.025,
+        "ci95": [
+          -3.03125,
+          3.078125
+        ],
+        "valid_bootstraps": 3998
+      },
+      "all": {
+        "mean": 0.638671875,
+        "ci95": [
+          -2.5432617187499997,
+          3.09375
+        ],
+        "valid_bootstraps": 4000
+      }
+    }
+  },
+  "completed_new_branch_missions": 784,
+  "new_false_declarations_retained": 15,
+  "all_branch_false_declarations": 18,
+  "new_completion_time_range": [
+    28,
+    270
+  ],
+  "audit_script_sha256": "d32be0a11d125f6e20a981a23b55103ca170eda019ce19c8952a6c483315e5fd",
+  "method": "Raw paired-difference reconstruction plus independent scalar mission-means cluster bootstrap."
+}

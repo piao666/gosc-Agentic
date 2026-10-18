@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\gosc-agentic-teams\experiments_ext\run_receiver_cf_precision.py", line 213, in <module>
+    main()
+  File "E:\gosc-agentic-teams\experiments_ext\run_receiver_cf_precision.py", line 151, in main
+    approval=json.loads((DOC/"approval.json").read_text())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\34904\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1028, in read_text
+    return f.read()
+           ^^^^^^^^
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xa1 in position 85: illegal multibyte sequence

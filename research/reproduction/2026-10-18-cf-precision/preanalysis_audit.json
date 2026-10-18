@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "new_branches": 784,
+  "fixed_points": 14,
+  "old_branches_retained": 112,
+  "combined_expected": 896,
+  "unique_new_branch_IDs": 784,
+  "all_replicate4_to31_pairs_complete": true,
+  "prior_indexed_files_unchanged": 94,
+  "original_protected_inputs_matching": 76,
+  "runtime_source_hashes_match": true,
+  "wall_seconds": 413.06484959999216,
+  "worker_CPU_seconds": 743.265625,
+  "worker_lifetime_peak_rss_max_bytes": 40800256,
+  "parent_lifetime_peak_rss_bytes": 53047296
+}

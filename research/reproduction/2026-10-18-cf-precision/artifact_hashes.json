@@ -1,0 +1,129 @@
+{
+  "scope": "All files in this archive except this self-index, plus post-run helper/task log. Earlier runtime source hashes in immutable experiment_manifest.",
+  "files": {
+    "experiments_ext/audit_receiver_cf_precision.py": {
+      "bytes": 4142,
+      "sha256": "d32be0a11d125f6e20a981a23b55103ca170eda019ce19c8952a6c483315e5fd"
+    },
+    "research/logs/task_log_2026-10-18_cf_precision.md": {
+      "bytes": 2023,
+      "sha256": "f2cb2af54b4b06a6a4498adc8d42f02870c2ce73fe843873c6b572fd0cd5d338"
+    },
+    "research/reproduction/2026-10-18-cf-precision/approval.json": {
+      "bytes": 813,
+      "sha256": "dcd7b65031ecb04023b5a42a9d8d7602bbe49713a72163789f34433a23f15e01"
+    },
+    "research/reproduction/2026-10-18-cf-precision/checkpoint_preflight_v2.json": {
+      "bytes": 259,
+      "sha256": "56ffeba9e329a41eb2bf391c46fc781a01dea38246e588f5ee210e42ef474bc2"
+    },
+    "research/reproduction/2026-10-18-cf-precision/command_ledger.json": {
+      "bytes": 4222,
+      "sha256": "7a72eccd38657291a14fb4896a4bf0c5faefe6d686e8858aca64d445178ea720"
+    },
+    "research/reproduction/2026-10-18-cf-precision/convergence.csv": {
+      "bytes": 2182,
+      "sha256": "b25266223532b15909872028893daa0aa08a14e1c67fd6ea48b7d0616cd2e244"
+    },
+    "research/reproduction/2026-10-18-cf-precision/convergence.png": {
+      "bytes": 239945,
+      "sha256": "c5fb13cc7613819c23c159bf9182bcfb69f8e6017b2f3f9400007777a4ea6a44"
+    },
+    "research/reproduction/2026-10-18-cf-precision/convergence_review.json": {
+      "bytes": 643,
+      "sha256": "b4150ff41f7d02a08a4959ce2f6fee3d011b217be0ca3247a70c2b487407b758"
+    },
+    "research/reproduction/2026-10-18-cf-precision/evidence_index.md": {
+      "bytes": 3498,
+      "sha256": "e33968ba5b4434412f5a004761bd290cd2548255aeb9ca8c8df5d22e980b5998"
+    },
+    "research/reproduction/2026-10-18-cf-precision/execution.log": {
+      "bytes": 3019,
+      "sha256": "ffedf9cbc8d29291029a85e1b5c73205e74088465cf78916c06083a06a55a623"
+    },
+    "research/reproduction/2026-10-18-cf-precision/execution_completion.json": {
+      "bytes": 3347,
+      "sha256": "43db9e88cc32d486597c8f0349519f918cb1c65db52ba341ccde8b99cc7ef549"
+    },
+    "research/reproduction/2026-10-18-cf-precision/experiment_manifest.json": {
+      "bytes": 26176,
+      "sha256": "09169d93eaf03d2e660898ccb61c862b0c828137ad5a6f7d179c13160549f9a9"
+    },
+    "research/reproduction/2026-10-18-cf-precision/failed-launch.log": {
+      "bytes": 716,
+      "sha256": "2a0e9158e93ae104b797c78cc9a9bfebc51607849162f25319aa947a401b23d4"
+    },
+    "research/reproduction/2026-10-18-cf-precision/final_review.json": {
+      "bytes": 741,
+      "sha256": "3bb1f013e378789e9dc7a29398a74ff9a7dc16a509af3e0c83811622a0255afc"
+    },
+    "research/reproduction/2026-10-18-cf-precision/fixed_points.json": {
+      "bytes": 18177,
+      "sha256": "f562372f3ec961c9d9825fb3fb93200af4f6c1324499c95d0f3cbbbb4f677e35"
+    },
+    "research/reproduction/2026-10-18-cf-precision/full-tests-initial.log": {
+      "bytes": 184,
+      "sha256": "bf634dcbf24aa038a7e30b4785598e3878e4e60254d04e1b17e311f6dfd9bcd1"
+    },
+    "research/reproduction/2026-10-18-cf-precision/full-tests-v2.log": {
+      "bytes": 194,
+      "sha256": "acd1518c12634fb654c52e13b152c14c81b9bb96a0a0678e72565b0a2a201270"
+    },
+    "research/reproduction/2026-10-18-cf-precision/hardware_current.json": {
+      "bytes": 381,
+      "sha256": "c0f9d53c8461da7b326fe59a94c72615675ddac0e49592bb19cf202b5d4fb900"
+    },
+    "research/reproduction/2026-10-18-cf-precision/implementation_gate.json": {
+      "bytes": 987,
+      "sha256": "885fe680b0bbc01d55383406496fc68a5835f2097e8a0c390d633e988f29d116"
+    },
+    "research/reproduction/2026-10-18-cf-precision/implementation_gate_v2.json": {
+      "bytes": 1072,
+      "sha256": "f1bba58d5a8ad3938dac9a94f6319eda7f30ad488e7da080bbdc4f8d3969ad99"
+    },
+    "research/reproduction/2026-10-18-cf-precision/implementation_repairs.json": {
+      "bytes": 1011,
+      "sha256": "f85dce0fcf6dd2c678cd96d015ff56b6f273b8d10bbbbb4f9b1ae7e039373f41"
+    },
+    "research/reproduction/2026-10-18-cf-precision/independent_audit.json": {
+      "bytes": 2896,
+      "sha256": "4c359f2cc91a87d57dd2ff518a0251b2b3eae28c7073feb16caf0d2dc28f2220"
+    },
+    "research/reproduction/2026-10-18-cf-precision/next_stage_plan.md": {
+      "bytes": 1625,
+      "sha256": "008eeff773e64a3c369ba04c17849f1996f4d00c5ceba657f29fd9ec92719c81"
+    },
+    "research/reproduction/2026-10-18-cf-precision/per_point_by_R.csv": {
+      "bytes": 21981,
+      "sha256": "6d7d3f3b7010f15ddf93f796b4aea5610c08771d051953ca7d246d819b19006f"
+    },
+    "research/reproduction/2026-10-18-cf-precision/point_summary.md": {
+      "bytes": 1445,
+      "sha256": "fe1af148129e6dd10f73d1d61ed0fee294a9aa205eea6cbc5404aecf7d1596b3"
+    },
+    "research/reproduction/2026-10-18-cf-precision/preanalysis_audit.json": {
+      "bytes": 514,
+      "sha256": "3f0fb91e5608e2684800d944c75b0ed4048c13cf0645e87efb2a09609bb041ee"
+    },
+    "research/reproduction/2026-10-18-cf-precision/protocol.md": {
+      "bytes": 3139,
+      "sha256": "782e303251c36ab0cac6e1d7c4fd41d8c88014e66f515b3abb24bb7a6d0f4ebf"
+    },
+    "research/reproduction/2026-10-18-cf-precision/R4_analysis_golden.json": {
+      "bytes": 150,
+      "sha256": "0aff98f65f3b1a83f3278fe95c418ceaafcf4586b955635f231a627a6cdebab8"
+    },
+    "research/reproduction/2026-10-18-cf-precision/raw_artifact_index.json": {
+      "bytes": 8277,
+      "sha256": "e666688366e98df46e3d771571eced9da28e97ef13b7508c185d4c21a5ee8e53"
+    },
+    "research/reproduction/2026-10-18-cf-precision/report.md": {
+      "bytes": 10931,
+      "sha256": "3b24c67c5c642f8d58c49f7effe8881bf2739c5fd93f14a307081fe4b43aa8c8"
+    },
+    "research/reproduction/2026-10-18-cf-precision/statistics_by_R.json": {
+      "bytes": 17600,
+      "sha256": "847358a48c1c67459474fcc609d809f5886f1da36a158441eb0c7c4230a58fc2"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "client_date": "2026-10-18",
+  "scope": "saved-data and archive checks; no additional simulations",
+  "old_indexed_files_rehashed": 94,
+  "original_protected_files_rehashed": 76,
+  "runtime_source_hashes_match": true,
+  "all_indexed_new_raw_hashes_match": 53,
+  "exported_raw_and_analysis_files_match": true,
+  "markdown_link_targets_exist": true,
+  "all_archive_files_below_1MiB": true,
+  "raw_snapshots_PDFs_not_archived": true,
+  "independent_audit_script_hash_matches": true,
+  "tests": "135 passed /65.81s before execution; audit helper added after that gate and actually executed independently",
+  "current_scope": "Stop after local archive; no higher R, new worlds, model or remote changes."
+}

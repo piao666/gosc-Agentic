@@ -1,0 +1,520 @@
+[
+  {
+    "feature": {
+      "point_id": "5000:8",
+      "packet_id": "21ee73fd46388cb29abdef7cbf5ddf76c32a044f9e257154ad386b86ebd2b7c1",
+      "seed": 5000,
+      "t": 8,
+      "sender": 4,
+      "kind": "EVID",
+      "rate": 4.0,
+      "bits": 39,
+      "symbols": 10,
+      "tom": 0.000454625043352426,
+      "tom_clipped": 0.000454625043352426,
+      "option_value": 0.0004083569771038261,
+      "ps": 0.8982280740466538,
+      "tv": 0.14150543174697539,
+      "aoi": 1.0,
+      "sender_position": [
+        14,
+        14
+      ],
+      "sender_target": 231
+    },
+    "snapshot_rel": "seed-5000/snapshot-8.pkl",
+    "snapshot_sha256": "50117b9a496b789b31d58d44d533ed4cb638864a76070704aaf58d28c4b6c2e1",
+    "tape_rel": "seed-5000/tape-8.json",
+    "tape_sha256": "f02dc8e7756e0fd07047e281abb1502bc4608ab7985a3c10b2be7d16bc1acf5c",
+    "checkpoint": {
+      "seed": 5000,
+      "t": 8,
+      "snapshot_state_sha256": "d9db116f27514ce7699f66930db87ab391d17fb09ba221fbd38eed1e7e8fcfc2",
+      "pickle_sha256": "50117b9a496b789b31d58d44d533ed4cb638864a76070704aaf58d28c4b6c2e1",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "f02dc8e7756e0fd07047e281abb1502bc4608ab7985a3c10b2be7d16bc1acf5c",
+      "native_replay_matches": true
+    }
+  },
+  {
+    "feature": {
+      "point_id": "5000:24",
+      "packet_id": "1a4e96b453628f1986016081bd4b5fe4249dc5836b155e08db736a595f6a58ad",
+      "seed": 5000,
+      "t": 24,
+      "sender": 4,
+      "kind": "EVID",
+      "rate": 1.0,
+      "bits": 82,
+      "symbols": 82,
+      "tom": 0.00264997123428648,
+      "tom_clipped": 0.00264997123428648,
+      "option_value": 0.001083418796840394,
+      "ps": 0.4088417197978041,
+      "tv": 0.14221965029540995,
+      "aoi": 6.0,
+      "sender_position": [
+        6,
+        6
+      ],
+      "sender_target": 195
+    },
+    "snapshot_rel": "seed-5000/snapshot-24.pkl",
+    "snapshot_sha256": "3ba1414dbddbf5ad784856a0e2a75518d12bd4cce01bf51143be9c62dba4a408",
+    "tape_rel": "seed-5000/tape-24.json",
+    "tape_sha256": "a71034a6f7a71174e801ad73e981aebea2ab3f231f304f0ea13e57dfb9977af9",
+    "checkpoint": {
+      "seed": 5000,
+      "t": 24,
+      "snapshot_state_sha256": "9729da517b83d8cd95c4d3db7a234a7003afcf9066b9ae04d8171b32f94deaec",
+      "pickle_sha256": "3ba1414dbddbf5ad784856a0e2a75518d12bd4cce01bf51143be9c62dba4a408",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "a71034a6f7a71174e801ad73e981aebea2ab3f231f304f0ea13e57dfb9977af9",
+      "native_replay_matches": true
+    }
+  },
+  {
+    "feature": {
+      "point_id": "5001:8",
+      "packet_id": "4a3cd216cb5b4296c3be161ae85c8396e2a27616d04208d9b5345e7b9dc11471",
+      "seed": 5001,
+      "t": 8,
+      "sender": 4,
+      "kind": "INTENT",
+      "rate": 2.0,
+      "bits": 18,
+      "symbols": 9,
+      "tom": 0.0002673539036169084,
+      "tom_clipped": 0.0002673539036169084,
+      "option_value": 0.00018540224712241358,
+      "ps": 0.6934712551946748,
+      "tv": 0.0,
+      "aoi": 1.0,
+      "sender_position": [
+        23,
+        14
+      ],
+      "sender_target": 777
+    },
+    "snapshot_rel": "seed-5001/snapshot-8.pkl",
+    "snapshot_sha256": "8d190992343a2d82ae02895a1f227668c8c83c938c10e4130dd87af7f45ce41f",
+    "tape_rel": "seed-5001/tape-8.json",
+    "tape_sha256": "54cf6e09c582aeebd8f796ce27baee88c09234b60da096f474863a1f342719c6",
+    "checkpoint": {
+      "seed": 5001,
+      "t": 8,
+      "snapshot_state_sha256": "408c26e6ef9232eeb6f783c8677c9419531d8122db4ce464ba788f8af693604e",
+      "pickle_sha256": "8d190992343a2d82ae02895a1f227668c8c83c938c10e4130dd87af7f45ce41f",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "54cf6e09c582aeebd8f796ce27baee88c09234b60da096f474863a1f342719c6",
+      "native_replay_matches": true
+    }
+  },
+  {
+    "feature": {
+      "point_id": "5001:24",
+      "packet_id": "7df8a534492a0fa496b349a999891bf0b0cc93a59ec42df34e929907f591de11",
+      "seed": 5001,
+      "t": 24,
+      "sender": 2,
+      "kind": "EVID",
+      "rate": 1.0,
+      "bits": 39,
+      "symbols": 39,
+      "tom": 0.0010403013443746334,
+      "tom_clipped": 0.0010403013443746334,
+      "option_value": 0.000598916478915651,
+      "ps": 0.5757144140534429,
+      "tv": 0.03910974498484132,
+      "aoi": 1.0,
+      "sender_position": [
+        8,
+        7
+      ],
+      "sender_target": 330
+    },
+    "snapshot_rel": "seed-5001/snapshot-24.pkl",
+    "snapshot_sha256": "5a89818ab043e7c8e2900a236d7ea73d1a4f31fc01be5cd17373a7098b3b67a8",
+    "tape_rel": "seed-5001/tape-24.json",
+    "tape_sha256": "8a5b0826c87ff1dd97c18c3618890c01086ebe5492fb6dacd00fe64d90107cbc",
+    "checkpoint": {
+      "seed": 5001,
+      "t": 24,
+      "snapshot_state_sha256": "7ea5738c4f936e8eff088a6bf1ba1c2325ee2fddb4fa2be8ef9ddd0458292936",
+      "pickle_sha256": "5a89818ab043e7c8e2900a236d7ea73d1a4f31fc01be5cd17373a7098b3b67a8",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "8a5b0826c87ff1dd97c18c3618890c01086ebe5492fb6dacd00fe64d90107cbc",
+      "native_replay_matches": true
+    }
+  },
+  {
+    "feature": {
+      "point_id": "5002:8",
+      "packet_id": "a0c4e71dd2cc6ab531314d15ac22f558386e15d1f16fe4996b1d86f6f06e273f",
+      "seed": 5002,
+      "t": 8,
+      "sender": 3,
+      "kind": "EVID",
+      "rate": 1.0,
+      "bits": 55,
+      "symbols": 55,
+      "tom": 0.0023664111928799955,
+      "tom_clipped": 0.0023664111928799955,
+      "option_value": 0.002005024757756065,
+      "ps": 0.8472850212121791,
+      "tv": 0.15227229659195635,
+      "aoi": 3.0,
+      "sender_position": [
+        15,
+        24
+      ],
+      "sender_target": 509
+    },
+    "snapshot_rel": "seed-5002/snapshot-8.pkl",
+    "snapshot_sha256": "d9228ea0a9977cfffcb96000d35e689e830b310d94b09f6ede2de001d67b9606",
+    "tape_rel": "seed-5002/tape-8.json",
+    "tape_sha256": "deb0cdd54778bfe7fc85716b4834eb875cf293d90af2a7a2dbe8ccbc3657f9e6",
+    "checkpoint": {
+      "seed": 5002,
+      "t": 8,
+      "snapshot_state_sha256": "440600a401d6d2a93fa7237d1225792b7f65ec855376df044f07415d8d5f3bff",
+      "pickle_sha256": "d9228ea0a9977cfffcb96000d35e689e830b310d94b09f6ede2de001d67b9606",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "deb0cdd54778bfe7fc85716b4834eb875cf293d90af2a7a2dbe8ccbc3657f9e6",
+      "native_replay_matches": true
+    }
+  },
+  {
+    "feature": {
+      "point_id": "5003:8",
+      "packet_id": "73724a8edf5a036abc324de7e82376ed39a157588216ff0d04143d73b3bb85d1",
+      "seed": 5003,
+      "t": 8,
+      "sender": 0,
+      "kind": "EVID",
+      "rate": 1.0,
+      "bits": 89,
+      "symbols": 89,
+      "tom": 0.11371162151712642,
+      "tom_clipped": 0.11371162151712642,
+      "option_value": 0.09671388605179171,
+      "ps": 0.8505189246397772,
+      "tv": 0.8675536540874728,
+      "aoi": 6.0,
+      "sender_position": [
+        8,
+        16
+      ],
+      "sender_target": 240
+    },
+    "snapshot_rel": "seed-5003/snapshot-8.pkl",
+    "snapshot_sha256": "c8e1ca286f2a055ef296caa7eb0b927128e6dd7d68e1b9c78f6c31da9d0edfef",
+    "tape_rel": "seed-5003/tape-8.json",
+    "tape_sha256": "20689b501a33290ea5f68b8f533a9407c71b4dd89f89e82f6e44a925328dfc3f",
+    "checkpoint": {
+      "seed": 5003,
+      "t": 8,
+      "snapshot_state_sha256": "00dd052ed9d2a64d99b796697cef2d2d28279e9640b159686c5e7e24da30d55b",
+      "pickle_sha256": "c8e1ca286f2a055ef296caa7eb0b927128e6dd7d68e1b9c78f6c31da9d0edfef",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "20689b501a33290ea5f68b8f533a9407c71b4dd89f89e82f6e44a925328dfc3f",
+      "native_replay_matches": true
+    }
+  },
+  {
+    "feature": {
+      "point_id": "5003:24",
+      "packet_id": "716f1d09dcec7b3df73e02e293fcfc336b923be2d167ed29e959dc0e91a68d49",
+      "seed": 5003,
+      "t": 24,
+      "sender": 0,
+      "kind": "INTENT",
+      "rate": 0.5,
+      "bits": 18,
+      "symbols": 36,
+      "tom": 0.0011336126715139339,
+      "tom_clipped": 0.0011336126715139339,
+      "option_value": 0.00059364913308648,
+      "ps": 0.523678984898488,
+      "tv": 0.0,
+      "aoi": 2.0,
+      "sender_position": [
+        3,
+        27
+      ],
+      "sender_target": 93
+    },
+    "snapshot_rel": "seed-5003/snapshot-24.pkl",
+    "snapshot_sha256": "4adcdcfdb9cc59f66f9a97e293f19c34cde91ebd3a2a54029e0cf61b6d17f2e4",
+    "tape_rel": "seed-5003/tape-24.json",
+    "tape_sha256": "1ba44778ce3e39c79407bf1002953f563976c14887f5d1e3dbf46503cba9fa92",
+    "checkpoint": {
+      "seed": 5003,
+      "t": 24,
+      "snapshot_state_sha256": "fc9cb3412dc4fea3f7019dd1c94e0df407c85eec819bc2635243c42747576d78",
+      "pickle_sha256": "4adcdcfdb9cc59f66f9a97e293f19c34cde91ebd3a2a54029e0cf61b6d17f2e4",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "1ba44778ce3e39c79407bf1002953f563976c14887f5d1e3dbf46503cba9fa92",
+      "native_replay_matches": true
+    }
+  },
+  {
+    "feature": {
+      "point_id": "5004:8",
+      "packet_id": "fcdd05cf73d37bbcf434ebbb2e00d9fb90d82e0bebf16a182c1262a9ba0c2f12",
+      "seed": 5004,
+      "t": 8,
+      "sender": 4,
+      "kind": "EVID",
+      "rate": 1.0,
+      "bits": 44,
+      "symbols": 44,
+      "tom": 0.0031825051164053528,
+      "tom_clipped": 0.0031825051164053528,
+      "option_value": 0.002845859868043904,
+      "ps": 0.8942200448866238,
+      "tv": 0.13535646589410655,
+      "aoi": 1.0,
+      "sender_position": [
+        11,
+        21
+      ],
+      "sender_target": 279
+    },
+    "snapshot_rel": "seed-5004/snapshot-8.pkl",
+    "snapshot_sha256": "2bcc3db305b2a0fc65b7867c417d572d7be0bcdbfa0733d97e379ffbff4b4348",
+    "tape_rel": "seed-5004/tape-8.json",
+    "tape_sha256": "26467bd2c0498c9304cf4befe37dfd1a128c774164540bdd4ac0f3b777a96c36",
+    "checkpoint": {
+      "seed": 5004,
+      "t": 8,
+      "snapshot_state_sha256": "2bd3ca27d01217bb4fec31f48c36ede7e50d416e6351cab3f8e4e1723244450f",
+      "pickle_sha256": "2bcc3db305b2a0fc65b7867c417d572d7be0bcdbfa0733d97e379ffbff4b4348",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "26467bd2c0498c9304cf4befe37dfd1a128c774164540bdd4ac0f3b777a96c36",
+      "native_replay_matches": true
+    }
+  },
+  {
+    "feature": {
+      "point_id": "5004:24",
+      "packet_id": "c2025ae7bf32ad64b4ec7a69456a51ca5dae4d6d783efae92502479ece8df493",
+      "seed": 5004,
+      "t": 24,
+      "sender": 0,
+      "kind": "INTENT",
+      "rate": 0.25,
+      "bits": 18,
+      "symbols": 72,
+      "tom": 0.0024758366177716484,
+      "tom_clipped": 0.0024758366177716484,
+      "option_value": 0.0019765059018067455,
+      "ps": 0.7983183896785886,
+      "tv": 0.0,
+      "aoi": 1.0,
+      "sender_position": [
+        27,
+        5
+      ],
+      "sender_target": 930
+    },
+    "snapshot_rel": "seed-5004/snapshot-24.pkl",
+    "snapshot_sha256": "ac14076766b3f3851f83219e93570de787dd213e53538870f36feabc55ab0850",
+    "tape_rel": "seed-5004/tape-24.json",
+    "tape_sha256": "0e74bb09ddcf57c08ae7a5137b6356b35ded46d5d97302b25140fa80d2e92b45",
+    "checkpoint": {
+      "seed": 5004,
+      "t": 24,
+      "snapshot_state_sha256": "83f2ae4703d1354ad8abb4c9c7c340d934547faafc883dadfac24a05696d4aed",
+      "pickle_sha256": "ac14076766b3f3851f83219e93570de787dd213e53538870f36feabc55ab0850",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "0e74bb09ddcf57c08ae7a5137b6356b35ded46d5d97302b25140fa80d2e92b45",
+      "native_replay_matches": true
+    }
+  },
+  {
+    "feature": {
+      "point_id": "5005:8",
+      "packet_id": "d1c607884c1018e6d861dfed4dff03ac32a09db9795277303e95c0eb2d52b1ca",
+      "seed": 5005,
+      "t": 8,
+      "sender": 5,
+      "kind": "EVID",
+      "rate": 2.0,
+      "bits": 49,
+      "symbols": 25,
+      "tom": 0.003935114918680732,
+      "tom_clipped": 0.003935114918680732,
+      "option_value": 0.003763966208390002,
+      "ps": 0.9565073158401919,
+      "tv": 0.12346765720775926,
+      "aoi": 1.0,
+      "sender_position": [
+        18,
+        13
+      ],
+      "sender_target": 649
+    },
+    "snapshot_rel": "seed-5005/snapshot-8.pkl",
+    "snapshot_sha256": "362d7aa83e5687214a2ed3abe589b19a017f541c8cb0bb0a01a1a5415d36c805",
+    "tape_rel": "seed-5005/tape-8.json",
+    "tape_sha256": "ba8a3c8bd8d777191dd174e0064bea2bfd77acf789f4832353ed19aa21cc3da2",
+    "checkpoint": {
+      "seed": 5005,
+      "t": 8,
+      "snapshot_state_sha256": "f65ffb99c4ef0d97adb1cbb850dac5eca1dd8004cf778156609533adde9823ab",
+      "pickle_sha256": "362d7aa83e5687214a2ed3abe589b19a017f541c8cb0bb0a01a1a5415d36c805",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "ba8a3c8bd8d777191dd174e0064bea2bfd77acf789f4832353ed19aa21cc3da2",
+      "native_replay_matches": true
+    }
+  },
+  {
+    "feature": {
+      "point_id": "5005:24",
+      "packet_id": "765a53f2c340b2026fe93fd6a547e6cb50e6057f97996b1b01e25273da5d2908",
+      "seed": 5005,
+      "t": 24,
+      "sender": 5,
+      "kind": "EVID",
+      "rate": 1.5,
+      "bits": 118,
+      "symbols": 79,
+      "tom": 0.061426481901223726,
+      "tom_clipped": 0.061426481901223726,
+      "option_value": 0.010309588394890776,
+      "ps": 0.16783621779721997,
+      "tv": 1.1969549277165052,
+      "aoi": 15.0,
+      "sender_position": [
+        20,
+        2
+      ],
+      "sender_target": 642
+    },
+    "snapshot_rel": "seed-5005/snapshot-24.pkl",
+    "snapshot_sha256": "5373e20ad5cf83d43818d33e3668d9612d55038f86f1bad796d8bceb8fee6ccd",
+    "tape_rel": "seed-5005/tape-24.json",
+    "tape_sha256": "77b27caa912c8f7b602b0d0ea26bffedf4b0e9412619b1b121031310cb6ebee6",
+    "checkpoint": {
+      "seed": 5005,
+      "t": 24,
+      "snapshot_state_sha256": "8d0ab63adc7fea50f512bfe535d779dbcaaeac69f9775cef29124ec7617ab5f1",
+      "pickle_sha256": "5373e20ad5cf83d43818d33e3668d9612d55038f86f1bad796d8bceb8fee6ccd",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "77b27caa912c8f7b602b0d0ea26bffedf4b0e9412619b1b121031310cb6ebee6",
+      "native_replay_matches": true
+    }
+  },
+  {
+    "feature": {
+      "point_id": "5006:8",
+      "packet_id": "f25d5b3e6df353af1a6916af04481b8c0819314b4418df2245539916a99ef4f3",
+      "seed": 5006,
+      "t": 8,
+      "sender": 4,
+      "kind": "INTENT",
+      "rate": 0.5,
+      "bits": 18,
+      "symbols": 36,
+      "tom": 0.09897870666256167,
+      "tom_clipped": 0.09897870666256167,
+      "option_value": 0.09782586535742856,
+      "ps": 0.9883526331672187,
+      "tv": 0.0,
+      "aoi": 1.0,
+      "sender_position": [
+        12,
+        18
+      ],
+      "sender_target": 438
+    },
+    "snapshot_rel": "seed-5006/snapshot-8.pkl",
+    "snapshot_sha256": "c98b7d635aa2ccb616be618a2466e4d14017650b04704ba1872e00c01c85483d",
+    "tape_rel": "seed-5006/tape-8.json",
+    "tape_sha256": "e08007143642b266fe1b9ea5b933ae9cc2e3adc128f7ef55d32fd65a119e80ce",
+    "checkpoint": {
+      "seed": 5006,
+      "t": 8,
+      "snapshot_state_sha256": "d6a5b4bbc0105fcf0aa582a943eb8dd4a4174d7014491e25e0a6f652d845d300",
+      "pickle_sha256": "c98b7d635aa2ccb616be618a2466e4d14017650b04704ba1872e00c01c85483d",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "e08007143642b266fe1b9ea5b933ae9cc2e3adc128f7ef55d32fd65a119e80ce",
+      "native_replay_matches": true
+    }
+  },
+  {
+    "feature": {
+      "point_id": "5006:24",
+      "packet_id": "c4e1055313400aba667eafa78637d3e6e38b5228d0ae4f543ebfda7ef62b3677",
+      "seed": 5006,
+      "t": 24,
+      "sender": 1,
+      "kind": "EVID",
+      "rate": 1.0,
+      "bits": 92,
+      "symbols": 92,
+      "tom": 0.008374274844933763,
+      "tom_clipped": 0.008374274844933763,
+      "option_value": 0.0035868752461811052,
+      "ps": 0.42832069792300637,
+      "tv": 0.17987067751379265,
+      "aoi": 14.0,
+      "sender_position": [
+        28,
+        9
+      ],
+      "sender_target": 898
+    },
+    "snapshot_rel": "seed-5006/snapshot-24.pkl",
+    "snapshot_sha256": "c5c3086334aa207c474e35dc733e96e515182aa27ea2f8f8e27dfa0d3bd18830",
+    "tape_rel": "seed-5006/tape-24.json",
+    "tape_sha256": "e4d803eaac2e76e7641d793853eff936fa03452313e42ce8bd370d63ef9bc752",
+    "checkpoint": {
+      "seed": 5006,
+      "t": 24,
+      "snapshot_state_sha256": "010a9ffce0f347e06c156e2d1162d64371c2c63638cc59f863daad8aac67b222",
+      "pickle_sha256": "c5c3086334aa207c474e35dc733e96e515182aa27ea2f8f8e27dfa0d3bd18830",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "e4d803eaac2e76e7641d793853eff936fa03452313e42ce8bd370d63ef9bc752",
+      "native_replay_matches": true
+    }
+  },
+  {
+    "feature": {
+      "point_id": "5007:8",
+      "packet_id": "8490fdd0aeea65c1c9e8904f9f9c4cba1b1f3061fef281d2c7ef21a1fb977605",
+      "seed": 5007,
+      "t": 8,
+      "sender": 3,
+      "kind": "INTENT",
+      "rate": 1.0,
+      "bits": 18,
+      "symbols": 18,
+      "tom": 0.0011068867164284735,
+      "tom_clipped": 0.0011068867164284735,
+      "option_value": 0.000875236668599908,
+      "ps": 0.7907192810335487,
+      "tv": 0.0,
+      "aoi": 1.0,
+      "sender_position": [
+        7,
+        15
+      ],
+      "sender_target": 79
+    },
+    "snapshot_rel": "seed-5007/snapshot-8.pkl",
+    "snapshot_sha256": "f8aa8e16d0646d815cb168aee86e5f77d0439a46eb18bf75e43ae58b5437b5b6",
+    "tape_rel": "seed-5007/tape-8.json",
+    "tape_sha256": "0385323e607bb985512c4ab9af48ea5541ead75600fb681f161a82ecc0794b57",
+    "checkpoint": {
+      "seed": 5007,
+      "t": 8,
+      "snapshot_state_sha256": "2ea79601dabd0eb5ee0bde83933bd0af0141a5dcaed1399b967a17da5361b534",
+      "pickle_sha256": "f8aa8e16d0646d815cb168aee86e5f77d0439a46eb18bf75e43ae58b5437b5b6",
+      "trusted_self_generated_pickle_only": true,
+      "tape_sha256": "0385323e607bb985512c4ab9af48ea5541ead75600fb681f161a82ecc0794b57",
+      "native_replay_matches": true
+    }
+  }
+]
