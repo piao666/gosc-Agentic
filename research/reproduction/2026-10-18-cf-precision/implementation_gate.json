@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "client_date": "2026-10-18",
+  "full_test_count": 134,
+  "full_test_seconds": 56.74,
+  "new_contract_count": 8,
+  "new_contract_seconds": 0.41,
+  "source_sha256": {
+    "experiments_ext/run_receiver_cf_precision.py": "56213bc6668aa7e65e77265a272db46c19b03dd8c1c22019a7859b6664572dc5",
+    "experiments_ext/analyze_receiver_cf_precision.py": "530f3c27c80ebd042ee8e453b5c7893715bfa66b0ccd1eaf36bff393392690b2",
+    "tests_ext/test_receiver_cf_precision.py": "97faa161fb6945cb0f4691c5865cca14acfa2eefccb5125a2a2c5aff4ac8cc41"
+  },
+  "full_test_command": ".\\.venv\\Scripts\\python.exe -m pytest tests tests_ext -q",
+  "full_test_log_sha256": "bf634dcbf24aa038a7e30b4785598e3878e4e60254d04e1b17e311f6dfd9bcd1",
+  "checkpoint_preflight_sha256": "850646dfa98bb347b591f41a2f8edb1202b7dcf9127870c6d67657b015ed4ee9",
+  "R4_analysis_golden_sha256": "0aff98f65f3b1a83f3278fe95c418ceaafcf4586b955635f231a627a6cdebab8",
+  "help_and_write_paths_reviewed": true
+}
