@@ -36,6 +36,10 @@ SOURCE_PATHS = ["experiments_ext/run_receiver_cf_precision.py",
 NEW_REPLICATES = tuple(range(4,32))
 
 
+def read_json(path):
+    return json.loads(Path(path).read_text(encoding="utf-8"))
+
+
 def verified_unpickle(path, expected_sha256):
     # Read once, hash those exact bytes BEFORE executing any pickle deserialization.
     data = Path(path).read_bytes()
@@ -52,17 +56,17 @@ def normalized_files(index):
 
 
 def validate_prior():
-    index = json.loads((PRIOR_DOC/"raw_artifact_index.json").read_text(encoding="utf-8"))
+    index = read_json(PRIOR_DOC/"raw_artifact_index.json")
     index["files"]=normalized_files(index)
     for rel, meta in index["files"].items():
         path = (PRIOR/rel).resolve()
         if not path.is_relative_to(PRIOR.resolve()) or sha(path) != meta["sha256"]:
             raise ValueError(f"Prior artifact mismatch: {rel}")
-    manifest = json.loads((PRIOR/"experiment_manifest.json").read_text(encoding="utf-8"))
+    manifest = read_json(PRIOR/"experiment_manifest.json")
     if sys.version != manifest["python_version"] or sha(ROOT/"requirements-windows.lock.txt") != manifest["dependencies_lock_sha256"]:
         raise ValueError("Python/lock mismatch with original snapshots")
     installed = {}
-    for line in (ROOT/"requirements-windows.lock.txt").read_text().splitlines():
+    for line in (ROOT/"requirements-windows.lock.txt").read_text(encoding="utf-8").splitlines():
         if "==" in line and not line.startswith("#"):
             name, version = line.split("==")
             installed[name] = importlib.metadata.version(name)
@@ -87,7 +91,7 @@ def validate_prior():
                      "snapshot_sha256":index["files"][f"{folder}/snapshot-{t}.pkl"]["sha256"],
                      "tape_rel":f"{folder}/tape-{t}.json",
                      "tape_sha256":index["files"][f"{folder}/tape-{t}.json"]["sha256"],
-                     "checkpoint":json.loads((PRIOR/folder/f"checkpoint-{t}.json").read_text())})
+                     "checkpoint":read_json(PRIOR/folder/f"checkpoint-{t}.json")})
     return plan,manifest,installed,index
 
 
@@ -100,9 +104,9 @@ def load_point(point):
     if sha(tape_path)!=point["tape_sha256"]:
         raise ValueError("Tape hash mismatch")
     sim=verified_unpickle(path,point["snapshot_sha256"])
-    tape=json.loads(tape_path.read_text())
+    tape=read_json(tape_path)
     assert sim.t==f["t"] and sim.channel is sim.scheme.channel
-    assert digest(asdict(sim.cfg))==digest(json.loads((PRIOR/"configs.json").read_text()))
+    assert digest(asdict(sim.cfg))==digest(read_json(PRIOR/"configs.json"))
     assert digest(sim)==point["checkpoint"]["snapshot_state_sha256"]==tape["before_state_sha256"]
     selected=select_packet(tape,f["seed"],f["t"])
     assert selected is not None and selected["packet_id"]==f["packet_id"]
@@ -148,9 +152,9 @@ def main():
         raise SystemExit("Use a NEW child of .local/reproduction")
     if subprocess.check_output(["git","status","--short"],cwd=ROOT,text=True).strip():
         raise SystemExit("Commit tested sources first; dirty checkout rejected")
-    approval=json.loads((DOC/"approval.json").read_text())
+    approval=read_json(DOC/"approval.json")
     assert approval["approved"] and approval["proposal_sha256"]==sha(PRIOR_DOC/"next_stage_plan.md")
-    gate=json.loads(args.gate_file.read_text())
+    gate=read_json(args.gate_file)
     hashes={p:sha(ROOT/p) for p in SOURCE_PATHS}
     assert gate["passed"] and gate["source_sha256"]==hashes
     plan,prior_manifest,installed,index=validate_prior()

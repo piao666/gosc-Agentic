@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "client_date": "2026-10-18",
+  "full_test_count": 135,
+  "full_test_seconds": 65.81,
+  "new_contract_count": 9,
+  "new_contract_seconds": 0.26,
+  "source_sha256": {
+    "experiments_ext/run_receiver_cf_precision.py": "145f899d1847933acef51c9aa90a60197990fc439942031740866be460895430",
+    "experiments_ext/analyze_receiver_cf_precision.py": "45255c4330eaa014524a32fffd225a4e3009e42c256b6ae19053eba5a8635a28",
+    "tests_ext/test_receiver_cf_precision.py": "19a8ef52be1be17c76afec140f701cec069d9ec31836099275223f9fc8165583"
+  },
+  "full_test_log_sha256": "acd1518c12634fb654c52e13b152c14c81b9bb96a0a0678e72565b0a2a201270",
+  "postfix_checkpoint_preflight_sha256": "56ffeba9e329a41eb2bf391c46fc781a01dea38246e588f5ee210e42ef474bc2",
+  "prior_R4_golden_sha256": "0aff98f65f3b1a83f3278fe95c418ceaafcf4586b955635f231a627a6cdebab8",
+  "hardware_current_sha256": "c0f9d53c8461da7b326fe59a94c72615675ddac0e49592bb19cf202b5d4fb900",
+  "notes": "Supersedes initial gate for source fixes; earlier failed launcher executed zero continuations."
+}

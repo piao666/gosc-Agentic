@@ -1,0 +1,27 @@
+{
+  "client_date": "2026-10-18",
+  "pre_data_failures": [
+    {
+      "stage": "checkpoint preflight",
+      "error": "KeyError on forward-slash lookup in prior Windows-backslash index",
+      "resolution": "normalize in-memory keys, preserve original index hashes"
+    },
+    {
+      "stage": "first launcher attempt at commit36909b1",
+      "error": "UnicodeDecodeError gbk reading UTF8 Chinese approval JSON",
+      "resolution": "explicit UTF8 JSON loader; added Chinese-approval regression contract"
+    }
+  ],
+  "original_data_modified": false,
+  "new_continuations_before_fixes": 0,
+  "first_launcher_log": ".local/reproduction/2026-10-18-cf-precision-implementation-v1/execution.log",
+  "postfix_preflight": {
+    "status": "passed",
+    "client_date": "2026-10-18",
+    "fixed_points": 14,
+    "prior_indexed_files_verified": 94,
+    "explicit_UTF8_approval_read": true,
+    "checkpoint_state_config_tape_feature_native_replay_verified": true,
+    "new_continuations": 0
+  }
+}

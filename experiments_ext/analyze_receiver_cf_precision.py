@@ -7,6 +7,7 @@ from pathlib import Path
 
 import numpy as np
 from experiments_ext.analyze_receiver_cf import read_rows, summarize
+from experiments_ext.run_receiver_cf_precision import read_json
 
 LEVELS=(4,8,16,32)
 
@@ -72,9 +73,9 @@ def main():
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--run-dir",type=Path,required=True)
     args=ap.parse_args();root=args.run_dir
-    m=json.loads((root/"experiment_manifest.json").read_text())
+    m=read_json(root/"experiment_manifest.json")
     prior=Path(m["prior_run"])
-    plan=json.loads((root/"fixed_points.json").read_text());features=[p["feature"] for p in plan]
+    plan=read_json(root/"fixed_points.json");features=[p["feature"] for p in plan]
     old=read_rows(prior.glob("seed-*/branches.jsonl"));new=read_rows(root.glob("point-*/branches.jsonl"))
     lookup=merge_rows(old,new,features)
     out=root/"analysis";out.mkdir(exist_ok=False)
@@ -96,7 +97,7 @@ def main():
                 "nonzero_MC_SE_ge_abs_mean":sum(p["mc_se_delta_T"]>=abs(p["delta_T"]) for p in points if p["delta_T"]!=0),
                 "point_positive_zero_negative":[sum(p["delta_T"]>0 for p in points),sum(p["delta_T"]==0 for p in points),sum(p["delta_T"]<0 for p in points)]}}
     # Reproduce the original R4 statistics exactly before interpreting extensions.
-    prior_stats=json.loads((prior/"analysis/statistics.json").read_text())["statistics"]
+    prior_stats=read_json(prior/"analysis/statistics.json")["statistics"]
     assert levels["4"]["statistics"]==prior_stats,"Original R4 statistics did not rebuild exactly"
     for f in features:
         series=[p for p in all_points if p["point_id"]==f["point_id"]]

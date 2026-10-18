@@ -5,7 +5,7 @@ import pickle
 import numpy as np
 import pytest
 
-from experiments_ext.run_receiver_cf_precision import NEW_REPLICATES, normalized_files, verified_unpickle
+from experiments_ext.run_receiver_cf_precision import NEW_REPLICATES, normalized_files, verified_unpickle, read_json
 from experiments_ext.analyze_receiver_cf_precision import LEVELS, merge_rows, point_at_R
 
 
@@ -35,6 +35,12 @@ def test_snapshot_hash_checked_before_unpickle(tmp_path,monkeypatch):
     monkeypatch.setattr(pickle,"loads",forbidden)
     with pytest.raises(ValueError,match="hash mismatch"):
         verified_unpickle(p,"wrong")
+
+
+def test_chinese_approval_json_is_decoded_as_utf8(tmp_path):
+    p=tmp_path/"approval.json"
+    p.write_text('{"approved":true,"user_message":"批准执行"}',encoding="utf-8")
+    assert read_json(p)=={"approved":True,"user_message":"批准执行"}
 
 
 def test_known_self_generated_bytes_round_trip(tmp_path):
