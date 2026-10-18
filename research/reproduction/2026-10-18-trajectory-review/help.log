@@ -1,0 +1,12 @@
+usage: review_saved_receiver_trajectories.py [-h] --run-dir RUN_DIR
+                                             --output-dir OUTPUT_DIR
+
+Review saved receiver-CF logs only. Never import or run the simulator. Outputs
+a NEW local directory; input JSON/JSONL/CSV is read-only. All 14 points and
+448 paired repetitions are retained. Post-treatment strata are descriptive.
+
+options:
+  -h, --help            show this help message and exit
+  --run-dir RUN_DIR     Completed precision raw root, read-only
+  --output-dir OUTPUT_DIR
+                        NEW local review directory

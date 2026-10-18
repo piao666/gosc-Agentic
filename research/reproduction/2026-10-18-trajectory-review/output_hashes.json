@@ -1,0 +1,30 @@
+{
+  "cases.json": {
+    "bytes": 58013,
+    "sha256": "491d3977deab8539ddcb1ed08d36afb7de5a2c5d1f0a0a1ad4fcfedc5a201e94"
+  },
+  "completion.json": {
+    "bytes": 208,
+    "sha256": "22d69817ba93685e5cec320547ccd69e413bd3e307e9856f8c9fb963c9471354"
+  },
+  "experiment_manifest.json": {
+    "bytes": 43272,
+    "sha256": "417944675964a4d35df51324b59195dcb08d5a5fcf82579a67643fe4dc429dff"
+  },
+  "paired_chain.csv": {
+    "bytes": 716668,
+    "sha256": "73c33c5d2f8a51e958b7a707a61ae1697e731df948d8ed25e263d64d894f41ef"
+  },
+  "point_matrix.csv": {
+    "bytes": 4870,
+    "sha256": "d8410fc903a21d02450423efd9ab1fddccf99afc3de1e653a37788d2377f02d7"
+  },
+  "point_matrix.md": {
+    "bytes": 1319,
+    "sha256": "ae6b441514d468a6f77907aa5b2f16770d093575422a8d8b05c37d70194b1030"
+  },
+  "summary.json": {
+    "bytes": 2123,
+    "sha256": "2280ece1c6ef4deab746248773b51f38b98862fe6659f4dc8a5cbbc7566f459f"
+  }
+}

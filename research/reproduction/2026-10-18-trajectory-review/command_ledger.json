@@ -1,0 +1,65 @@
+{
+  "client_date": "2026-10-18",
+  "cwd": "E:\\gosc-agentic-teams",
+  "commands": [
+    {
+      "entry_points": [
+        "git status --short",
+        "git rev-parse HEAD",
+        "git remote -v",
+        "python --version"
+      ],
+      "outcome": "clean ef78565, Python3.12.10; remotes unchanged"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe -m pytest tests_ext/test_saved_receiver_trajectories.py -q",
+      "phase": "initial",
+      "result": "6 passed /.88s",
+      "log": "contracts-initial.log"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe -m experiments_ext.review_saved_receiver_trajectories --help",
+      "result": "read-only CLI reviewed",
+      "log": "help.log"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe -m experiments_ext.review_saved_receiver_trajectories --run-dir .local/reproduction/2026-10-18-cf-precision-v1 --output-dir .local/reproduction/2026-10-18-trajectory-review-v1",
+      "phase": "initial",
+      "result": "AssertionError on decode-dependent cost; no output directory/new simulation",
+      "log": "failed-review.log"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe -m pytest tests_ext/test_saved_receiver_trajectories.py -q",
+      "phase": "after correction",
+      "result": "7 passed /.04s",
+      "log": "contracts-v2.log"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe -m experiments_ext.review_saved_receiver_trajectories --run-dir .local/reproduction/2026-10-18-cf-precision-v1 --output-dir .local/reproduction/2026-10-18-trajectory-review-v1",
+      "phase": "after correction",
+      "result": "exit0;14points/448pairs;0new simulations",
+      "log": "review.log"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe .local/reproduction/2026-10-18-trajectory-review-implementation-v1/independent_check.py",
+      "result": "exit0;448pairs and14means independently verified",
+      "evidence": "independent_audit.json"
+    },
+    {
+      "entry_point": ".venv/Scripts/python.exe .local/reproduction/2026-10-18-trajectory-review-implementation-v1/archive_review.py",
+      "result": "See final_review.json; archive/hash/link validation only"
+    }
+  ],
+  "other_actual_read_only_commands": "Get-Content, rg, inline Python schema/case summaries, Get-ChildItem; no unrecorded rollouts",
+  "not_run": [
+    "full135 simulation suite this round",
+    "new continuations or replay",
+    "new models",
+    "newworld/seeds",
+    "causal mechanism ablations",
+    "API/Ollama/GPU",
+    "remote push"
+  ],
+  "runtime_source": "dirty=true recorded faithfully; exact SHA in experiment_manifest.json",
+  "local_archive_commit": "Resolved after commit; see local Git and ignored run closure.json."
+}

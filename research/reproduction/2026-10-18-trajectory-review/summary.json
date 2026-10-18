@@ -1,0 +1,50 @@
+{
+  "analysis": "descriptive_saved_trajectory_chain",
+  "points": 14,
+  "pairs": 448,
+  "worlds": 8,
+  "new_branches": 0,
+  "point_means_and_MC_SE_match_R32": true,
+  "shadow_actual_any_change_2x2": {
+    "shadow_False_actual_False": 275,
+    "shadow_False_actual_True": 45,
+    "shadow_True_actual_False": 27,
+    "shadow_True_actual_True": 101
+  },
+  "posttreatment_strata": {
+    "False": {
+      "pairs": 302,
+      "point_ids": 11,
+      "missions": 8,
+      "pair_weighted_mean_delta_T_descriptive": 1.3973509933774835,
+      "nonzero_delta_T_pairs": 118,
+      "receiver_path_divergence_pairs": 140,
+      "warning": "Post-treatment strata; not mediation effects, independent N or mission-equal causal contrasts."
+    },
+    "True": {
+      "pairs": 146,
+      "point_ids": 8,
+      "missions": 6,
+      "pair_weighted_mean_delta_T_descriptive": -1.3972602739726028,
+      "nonzero_delta_T_pairs": 126,
+      "receiver_path_divergence_pairs": 140,
+      "warning": "Post-treatment strata; not mediation effects, independent N or mission-equal causal contrasts."
+    }
+  },
+  "shadow_actual_changed_set_disagreement_pairs": 94,
+  "receiver_path_divergence_pairs": 280,
+  "no_observed_receiver_path_divergence_but_nonzero_delta_T": 0,
+  "actual_or_shadow_hysteresis_hold_not_causal_ablation": true,
+  "actual_next_context_hysteresis_compatible_hold_receiver_decisions": 1738,
+  "all_current_motion_prefixes_matched": true,
+  "all_current_attempt_costs_and_nonintervened_packets_matched": true,
+  "all_real_next_context_positions_match_saved_trajectories": true,
+  "first_path_divergence_mapping": "trajectory index k is after motion of slot k-1; unequal lengths alone never called divergence",
+  "limitations": [
+    "No full per-slot belief/target/sensing/transmission logs after next real plan",
+    "Hysteresis/private belief/time-order effects not isolated",
+    "Post-treatment stratification not mediator causality",
+    "8 development worlds; 448 pairs not independent worlds",
+    "Conditional decode effect not new scheduling policy or cost-matched gain"
+  ]
+}

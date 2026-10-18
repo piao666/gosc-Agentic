@@ -1,0 +1,33 @@
+{
+  "failure_stage": "first saved-data review before output directory creation",
+  "failed_assertion": "entire current_cost dictionaries required equal",
+  "root_cause": "delivered_bits and dl_bits are decode-dependent outcomes, not attempt cost",
+  "raw_example_5000_8_rep0": {
+    "failure": {
+      "bits": 238,
+      "symbols": 143,
+      "delivered_bits": 199,
+      "dl_bits": 199
+    },
+    "success": {
+      "bits": 238,
+      "symbols": 143,
+      "delivered_bits": 238,
+      "dl_bits": 238
+    }
+  },
+  "fix": "Only current attempt bits/symbols must match; retain delivery and broadcast differences as outcomes",
+  "regression_test": "test_current_attempt_cost_excludes_decode_dependent_delivery_and_DL",
+  "failed_review_log": "failed-review.log",
+  "new_simulations": 0,
+  "original_data_modified": false,
+  "tests_initial": {
+    "passed": 6,
+    "seconds": 0.88
+  },
+  "tests_after_fix": {
+    "passed": 7,
+    "seconds": 0.04
+  },
+  "full_simulation_tests_this_round": "not_run; targeted saved-log contracts only"
+}

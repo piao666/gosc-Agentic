@@ -1,0 +1,117 @@
+{
+  "files": {
+    "experiments_ext/review_saved_receiver_trajectories.py": {
+      "bytes": 19086,
+      "sha256": "7c6d1dac24c2bacaeaa735aca823717fdd09b29fac39130acaade4c5ea7e946d"
+    },
+    "research/logs/2026-10-18_saved_trajectory_task_brief.md": {
+      "bytes": 2612,
+      "sha256": "2b301e24840faf2c3898c339e11fccb81f4e86462bccb094a06c40962c6d12ac"
+    },
+    "research/logs/task_log_2026-10-18_saved_trajectory_review.md": {
+      "bytes": 2558,
+      "sha256": "35a6ddce71bee78fc1bbba9c3a71407348cb4869084308f8bf99c92c39669206"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/analysis_context.json": {
+      "bytes": 1542,
+      "sha256": "120ab6c3c80b4bd8687867cc1d32e87205f946d5631aa15d81fa3dce7d302357"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/approval.json": {
+      "bytes": 496,
+      "sha256": "01af85d3755374c6069495317fb3e456cb147949748614659b0507282b90817d"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/cases.json": {
+      "bytes": 58013,
+      "sha256": "491d3977deab8539ddcb1ed08d36afb7de5a2c5d1f0a0a1ad4fcfedc5a201e94"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/command_ledger.json": {
+      "bytes": 2773,
+      "sha256": "55a3de10cd5f3d5d34c7d6a56cc61b8166d77e1b3058cc2e64a9f8b8e291fe1a"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/completion.json": {
+      "bytes": 208,
+      "sha256": "22d69817ba93685e5cec320547ccd69e413bd3e307e9856f8c9fb963c9471354"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/contracts-initial.log": {
+      "bytes": 100,
+      "sha256": "a7aa2c588962644b82d9200a4b13490acfa1ff2f2a4457fcece7c7a37a8eef7a"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/contracts-v2.log": {
+      "bytes": 100,
+      "sha256": "b19038157e0b5d57b4957c851719673c246aee2d56ff8e9dc7ec0d93ac15a48b"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/evidence_index.md": {
+      "bytes": 3689,
+      "sha256": "453a0f58580780c9a3f5094867a3a20164d5f30552bc750334f894218e51b8e3"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/experiment_manifest.json": {
+      "bytes": 43272,
+      "sha256": "417944675964a4d35df51324b59195dcb08d5a5fcf82579a67643fe4dc429dff"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/failed-review.log": {
+      "bytes": 738,
+      "sha256": "f17dc33fb3e7ec7721a9bc784f0aa85b688712b8f6601149b487f419228b9ea7"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/final_review.json": {
+      "bytes": 583,
+      "sha256": "bcd9b8e47b6136160ee5ef90caa3a1880d6833884e1f762429792d3a26050bb8"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/help.log": {
+      "bytes": 588,
+      "sha256": "5c4cdfb58e6993710a68d5fa3e35c0a6ce1dc43a819f3cfe794bee595a33a034"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/implementation_repairs.json": {
+      "bytes": 1064,
+      "sha256": "7fdb423efd61edf47ff4b88c2a5ce7d58fda7f597dc0cdf12b95bf80bcf7648a"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/independent_audit.json": {
+      "bytes": 686,
+      "sha256": "a2342f6ddd6cabd8cca067c875e5a2eca1e47f36f3d196f2811238fc59bea376"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/independent_check.py": {
+      "bytes": 4049,
+      "sha256": "934ad9f35f1482c0f665b28b7ab64c7941f1538f7478d6c23e7abd8fc1140b04"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/next_stage_protocol.md": {
+      "bytes": 3146,
+      "sha256": "a97e66615f6278f756bdc869a4e20c24dff2636446049ed38437be707155e62c"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/observability_and_baselines.md": {
+      "bytes": 5211,
+      "sha256": "ab0621dd380f224a2f119afd413b2e786c60ef4ca7f4593f29fcf353ddef1612"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/output_hashes.json": {
+      "bytes": 933,
+      "sha256": "b5466fbea01648ba9207c85ffdcab35ea7c0064a046aab9847c27f138cc1887b"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/paired_chain.csv": {
+      "bytes": 716668,
+      "sha256": "73c33c5d2f8a51e958b7a707a61ae1697e731df948d8ed25e263d64d894f41ef"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/point_matrix.csv": {
+      "bytes": 4870,
+      "sha256": "d8410fc903a21d02450423efd9ab1fddccf99afc3de1e653a37788d2377f02d7"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/point_matrix.md": {
+      "bytes": 1319,
+      "sha256": "ae6b441514d468a6f77907aa5b2f16770d093575422a8d8b05c37d70194b1030"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/report.md": {
+      "bytes": 11500,
+      "sha256": "012d5593ff73f7c2b37502339ee41314fa3c34716cef890ddeb24458087f4a8c"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/review.log": {
+      "bytes": 2335,
+      "sha256": "a442448cd6ce7e2906baa6cb9bba7c2a900c8717929d627444639d470bffdd52"
+    },
+    "research/reproduction/2026-10-18-trajectory-review/summary.json": {
+      "bytes": 2123,
+      "sha256": "2280ece1c6ef4deab746248773b51f38b98862fe6659f4dc8a5cbbc7566f459f"
+    },
+    "tests_ext/test_saved_receiver_trajectories.py": {
+      "bytes": 2727,
+      "sha256": "ffcb31a1045e8ab2bb815d2947947cc50308c86811304671896e97de820dee9d"
+    }
+  },
+  "excludes": "This self-index. Runtime previous source/data hashes in immutable experiment_manifest."
+}

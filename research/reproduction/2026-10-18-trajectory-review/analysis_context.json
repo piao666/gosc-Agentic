@@ -1,0 +1,40 @@
+{
+  "client_date": "2026-10-18",
+  "analysis_kind": "saved data review, not experiment resimulation",
+  "config_file": "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-16-cf-pilot-v1\\configs.json",
+  "config_sha256": "210918d1b514c3ddfaaebee47a001d596307e50746907390d347da2a47fd7414",
+  "os_current": "Windows-11-10.0.26200-SP0",
+  "hardware_reference": "E:\\gosc-agentic-teams\\research\\reproduction\\2026-10-18-cf-precision\\hardware_current.json",
+  "hardware_reference_sha256": "c0f9d53c8461da7b326fe59a94c72615675ddac0e49592bb19cf202b5d4fb900",
+  "hardware_remeasured_this_round": false,
+  "scheme": "unchanged native GOSC offline decode branches; no new online strategy",
+  "wireless_channel": "saved native Rayleigh/outage/statistical CSI/ideal DL/orthogonal",
+  "bandwidth_or_channel_budget": "saved100 UL uses/agent/slot",
+  "seeds": [
+    5000,
+    5001,
+    5002,
+    5003,
+    5004,
+    5005,
+    5006,
+    5007
+  ],
+  "train_calib_eval_split": "exposed development worlds only; no training/tuning/final evaluation",
+  "agent_models": [
+    "saved Planner decisions"
+  ],
+  "llm_cache_mode": "not_used",
+  "new_branches": 0,
+  "status": "complete_saved_log_review; mechanism causality pending",
+  "logs": [
+    "review.log",
+    "failed-review.log",
+    "contracts-v2.log",
+    "independent_audit.json"
+  ],
+  "raw_output_paths": [
+    "E:\\gosc-agentic-teams\\.local\\reproduction\\2026-10-18-trajectory-review-v1"
+  ],
+  "notes": "Do not sum448 MC pairs as independent missions."
+}

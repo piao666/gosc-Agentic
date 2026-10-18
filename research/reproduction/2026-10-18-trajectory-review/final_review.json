@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "client_date": "2026-10-18",
+  "input_hashes_unchanged": 262,
+  "tested_source_hashes_unchanged": true,
+  "independent_raw_audit": "passed",
+  "all_markdown_link_targets_exist": true,
+  "all_archive_files_below_1MiB": true,
+  "no_pickle_or_PDF_or_raw_trajectory_files_exported": true,
+  "new_simulations": 0,
+  "new_worlds": 0,
+  "no_remote_push": true,
+  "current_conclusion": "Mechanism chains observable, but mediation/representativeness/repair benefit not established",
+  "next_stage_protocol": "not run; requires separate user approval"
+}

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\gosc-agentic-teams\experiments_ext\review_saved_receiver_trajectories.py", line 272, in <module>
+    main()
+  File "E:\gosc-agentic-teams\experiments_ext\review_saved_receiver_trajectories.py", line 189, in main
+    rows.append(pair_summary(a,b,f))
+                ^^^^^^^^^^^^^^^^^^^
+  File "E:\gosc-agentic-teams\experiments_ext\review_saved_receiver_trajectories.py", line 81, in pair_summary
+    assert f["current_slot"]["current_cost"] == s["current_slot"]["current_cost"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "branches": 896,
+  "pairs": 448,
+  "point_means_verified": 14,
+  "shadow_actual_2x2": {
+    "shadow_False_actual_False": 275,
+    "shadow_False_actual_True": 45,
+    "shadow_True_actual_False": 27,
+    "shadow_True_actual_True": 101
+  },
+  "changed_set_disagreements": 94,
+  "no_next_target_change_but_nonzero_task_delta": 118,
+  "no_next_target_change_but_later_receiver_path_difference": 140,
+  "receiver_path_difference_pairs": 280,
+  "receiver_path_difference_but_zero_task_delta": 36,
+  "input_hashes_unchanged": true,
+  "audit_script_sha256": "934ad9f35f1482c0f665b28b7ab64c7941f1538f7478d6c23e7abd8fc1140b04",
+  "new_simulations": 0
+}
