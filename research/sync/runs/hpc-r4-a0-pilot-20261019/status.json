@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-r4-a0-pilot-20261019",
+  "status": "failed",
+  "started_at": "2026-10-19T08:20:46.335923+00:00",
+  "finished_at": "2026-10-19T08:20:46.455876+00:00",
+  "exit_code": 1,
+  "pid": 15903,
+  "elapsed_seconds": 0.119982,
+  "resource_usage": {
+    "child_max_rss_kib": 28260,
+    "child_cpu_user_seconds": 0.094804,
+    "child_cpu_system_seconds": 0.036758,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,90 @@
+{
+  "run_id": "hpc-numpy-diagnosis-relay-20261020",
+  "files": [
+    {
+      "path": "outputs/numpy_environment_comparison.json",
+      "size": 13439,
+      "sha256": "014930ba935ed856474ad651347791f788b1f25801969b05f5cf429758d3eac2"
+    },
+    {
+      "path": "outputs/official_wheel_manifest.json",
+      "size": 864,
+      "sha256": "72d15f398f7cc38f924154af96ab36ddd020b1589d4cfbdb2364b5538821dc74"
+    },
+    {
+      "path": "outputs/probe-numpy-1.26.4.json",
+      "size": 5328,
+      "sha256": "6a867033bba5d22c78ff6c403e653e1a01492207ae54389668eb86d593d1c6c9"
+    },
+    {
+      "path": "outputs/probe-numpy-2.2.6.json",
+      "size": 4990,
+      "sha256": "c1099a970b7ebcc835129a54b805090e0d8e3916f634a473deace0e8acbbcf2d"
+    },
+    {
+      "path": "outputs/probe_plan.json",
+      "size": 16107,
+      "sha256": "90f839bac5b83dfd80ce2a5de75859df61d146243c4edf2ff8b262d80c827766"
+    },
+    {
+      "path": "outputs/trace-numpy-1.26.4-0.json",
+      "size": 823660,
+      "sha256": "269001704f5a65385665766028f81c29ed7a7defd79df4251cf43dff0756b8c8"
+    },
+    {
+      "path": "outputs/trace-numpy-1.26.4-1.json",
+      "size": 745771,
+      "sha256": "2042425e4097aab18a9e49d1830d2c619474ca64dbbcd94250123a93b0572bc6"
+    },
+    {
+      "path": "outputs/trace-numpy-1.26.4-2.json",
+      "size": 1013731,
+      "sha256": "f7d29e7f9234cd577aa84ab41b9c16249b1a94a19fa63d64e9c9b8faae70583d"
+    },
+    {
+      "path": "outputs/trace-numpy-1.26.4-3.json",
+      "size": 730003,
+      "sha256": "95f738149903c42552a409880d06bf54ca437079d485f43bd7ea46cdbba270a6"
+    },
+    {
+      "path": "outputs/trace-numpy-1.26.4-4.json",
+      "size": 991533,
+      "sha256": "d244bec30e4df2db108584a1eeac60e1a772e901e2b5c14ba410dc97036044eb"
+    },
+    {
+      "path": "outputs/trace-numpy-1.26.4-5.json",
+      "size": 992168,
+      "sha256": "2f4200cb413f0546267a16e18e32add209823a9394954f2b5381f8d593a707e3"
+    },
+    {
+      "path": "outputs/trace-numpy-2.2.6-0.json",
+      "size": 818271,
+      "sha256": "3afc69220e29e16480444b62e46f1efeb143bb67966000a3120a3b262b5c9344"
+    },
+    {
+      "path": "outputs/trace-numpy-2.2.6-1.json",
+      "size": 745771,
+      "sha256": "081db65ede78e8515b2f2dd6f3951b69e9c73a0c69adbc83cf34db4ce302ccaa"
+    },
+    {
+      "path": "outputs/trace-numpy-2.2.6-2.json",
+      "size": 1267945,
+      "sha256": "e8bea35aef58aac2d1dfef5dd84018a2033c2b4862cce43d55b0ebe5096125f4"
+    },
+    {
+      "path": "outputs/trace-numpy-2.2.6-3.json",
+      "size": 730003,
+      "sha256": "d3f4a1576eb4932f6a25a0a65fd84c7e8024bb72e3949a55a9901fa3ab1830e7"
+    },
+    {
+      "path": "outputs/trace-numpy-2.2.6-4.json",
+      "size": 991533,
+      "sha256": "6c73a004dd78b4fa57ad2f2868294a8b2774c89c854da0798d50b3db1eec3cd7"
+    },
+    {
+      "path": "outputs/trace-numpy-2.2.6-5.json",
+      "size": 992168,
+      "sha256": "56f1d9bfeef64493701f22b6350bd1cd38e8bd682c646211ba2ae8e17f15b643"
+    }
+  ]
+}

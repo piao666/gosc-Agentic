@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-receiver-independent-audit-20261022",
+  "status": "completed",
+  "started_at": "2026-10-22T04:20:08.079812+00:00",
+  "finished_at": "2026-10-22T04:20:08.412010+00:00",
+  "exit_code": 0,
+  "pid": 35994,
+  "elapsed_seconds": 0.332224,
+  "resource_usage": {
+    "child_max_rss_kib": 55668,
+    "child_cpu_user_seconds": 0.295508,
+    "child_cpu_system_seconds": 0.044711,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

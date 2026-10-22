@@ -1,0 +1,11 @@
+{
+  "verified_at_utc": "2026-10-22T03:15:02.230691+00:00",
+  "scope": "All registered run-store files listed by final pull; model weights/private PDFs excluded",
+  "receipt": "research/sync/receipts/20261022T030908Z-0946b2.json",
+  "receipt_sha256": "b656ac1c7a93e45eb5a2e6c06f68e3ce91725c084c777f8cda6532d20f74a535",
+  "files_verified": 1345,
+  "all_outputs_mirrored": true,
+  "local_sha256_mismatches": [],
+  "receipt_sha256_matches_hpc": true,
+  "new_live_response_snapshot_included": true
+}

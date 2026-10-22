@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-joint-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T14:40:53.616125+00:00",
+  "finished_at": "2026-10-20T15:03:28.141591+00:00",
+  "exit_code": 0,
+  "pid": 54798,
+  "elapsed_seconds": 1354.525496,
+  "resource_usage": {
+    "child_max_rss_kib": 85244,
+    "child_cpu_user_seconds": 2669.933604,
+    "child_cpu_system_seconds": 3.457925,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "run_id": null,
+  "kind": "test|train|simulation|analysis|infrastructure",
+  "stage": null,
+  "purpose": null,
+  "execution_host": "hpc",
+  "command": [],
+  "git_commit": null,
+  "source_sync_id": null,
+  "seeds": [],
+  "models": [],
+  "cache_mode": null,
+  "config_file": null,
+  "config_sha256": null,
+  "python_executable": "/home/u202520081000097/.local/share/uv/python/cpython-3.11-linux-x86_64-gnu/bin/python3.11",
+  "resource_limits": {},
+  "note": "Template only; no run is implied. Real records are created by scripts/hpc_runs.py."
+}

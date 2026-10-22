@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/tarfile.py", line 2564, in makefile
+    copyfileobj(source, target, tarinfo.size, ReadError, bufsize)
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/tarfile.py", line 255, in copyfileobj
+    dst.write(buf)
+OSError: [Errno 122] Disk quota exceeded
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/hpc_ollama.py", line 203, in <module>
+    main()
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/hpc_ollama.py", line 198, in main
+    if args.action == 'install':install(out,args.download_url_file)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/hpc_ollama.py", line 101, in install
+    bundle.extractall(staging, filter='data')
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/tarfile.py", line 2315, in extractall
+    self._extract_one(tarinfo, path, set_attrs=not tarinfo.isdir(),
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/tarfile.py", line 2424, in _extract_one
+    self._handle_fatal_error(e)
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/tarfile.py", line 2418, in _extract_one
+    self._extract_member(tarinfo, os.path.join(path, tarinfo.name),
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/tarfile.py", line 2507, in _extract_member
+    self.makefile(tarinfo, targetpath)
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/tarfile.py", line 2556, in makefile
+    with bltn_open(targetpath, "wb") as target:
+OSError: [Errno 122] Disk quota exceeded
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/.local/ollama/deployment_controller.py", line 16, in <module>
+    subprocess.run([sys.executable,str(root/'scripts/hpc_ollama.py'),action],cwd=root,check=True,timeout=13500)
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python', '/home/u202520081000097/jupyterlab/Paper/gosc/scripts/hpc_ollama.py', 'install']' returned non-zero exit status 1.

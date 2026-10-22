@@ -1,0 +1,35 @@
+{
+  "run_id": "hpc-summary-transport-audit-20261022",
+  "files": [
+    {
+      "path": "outputs/conclusion.json",
+      "size": 499,
+      "sha256": "5aff0cdc6f8d1b09a335ef1683e82e533dc9ca7cce3df3afeb7f4ed250772c2f"
+    },
+    {
+      "path": "outputs/evidence.json",
+      "size": 997,
+      "sha256": "7fa12aa016cbd7d31c943063f0321cc3aac54b3f556e5a87525ccb8fc89c2a8b"
+    },
+    {
+      "path": "outputs/observation_guards.json",
+      "size": 805,
+      "sha256": "803b184b1195ade03389e42eac0434723434b3097882bcd8c7c400316fbfaf4a"
+    },
+    {
+      "path": "outputs/payload_observations.jsonl",
+      "size": 1034246,
+      "sha256": "099aa18fb34d9b32a95fd6de69876b4bab876fdf7f53663b64aedcd677ecdf56"
+    },
+    {
+      "path": "outputs/transport_events.jsonl",
+      "size": 3832700,
+      "sha256": "ba261026dc472af01a1094fb1954b8c54cd28769ed26724c665210b2f44455eb"
+    },
+    {
+      "path": "outputs/transport_replay.json",
+      "size": 152444,
+      "sha256": "88a801dcbf263d3b9aa5afbedb39a5e68e5a29730f07efbf1437aae53396dff5"
+    }
+  ]
+}

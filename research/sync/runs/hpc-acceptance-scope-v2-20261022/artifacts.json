@@ -1,0 +1,30 @@
+{
+  "run_id": "hpc-acceptance-scope-v2-20261022",
+  "files": [
+    {
+      "path": "outputs/conclusion.json",
+      "size": 1201,
+      "sha256": "e80a2d078fa29ea6d413ed566bc83e7b494587409568f1b436020cf7e283b872"
+    },
+    {
+      "path": "outputs/noise_extra_impact.json",
+      "size": 12091,
+      "sha256": "b4c1fdf89431d9e547ffb3d9311f2bbc33ea08be05b5c8b220101110dc87dfe2"
+    },
+    {
+      "path": "outputs/noise_historical_extras.jsonl",
+      "size": 1450718,
+      "sha256": "496a673a4742eea84faf83c8545f7d1e495692f930b2a5cfb078624c7811a14a"
+    },
+    {
+      "path": "outputs/noise_scope.json",
+      "size": 22331,
+      "sha256": "58844f15bd3171bdf83ba456741ceef41178215a380ec154af018decf4276cb9"
+    },
+    {
+      "path": "outputs/paper_tables_current.json",
+      "size": 7108,
+      "sha256": "49e9148541d0282e27fe130013cdbfda2cb731e059f79394fe395a29a5902363"
+    }
+  ]
+}

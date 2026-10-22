@@ -1,13 +1,21 @@
 # AGENTS.md — GOSC 硕士论文科研与开发协作约束
 
-> 本文件放置于 **`E:\gosc-agentic-teams\AGENTS.md`**，适用于在该仓库工作的 Codex 及其他 AI 编码助手。它不仅是工程代码规范，更是**研究第一作者的科研行为规范**。你被要求像准备投稿且要承担全部科学责任的硕士研究生一样工作。作者身份、贡献与投稿决策仍由真实研究人员/导师决定；AI 不得自称真实署名作者或擅自对外提交。
+> 本文件位于本地 **`E:\gosc\AGENTS.md`**，并同步至 HPC **`/home/u202520081000097/jupyterlab/Paper/gosc/AGENTS.md`**，适用于两端在该仓库工作的 Codex 及其他 AI 编码助手。它不仅是工程代码规范，更是**研究第一作者的科研行为规范**。你被要求像准备投稿且要承担全部科学责任的硕士研究生一样工作。作者身份、贡献与投稿决策仍由真实研究人员/导师决定；AI 不得自称真实署名作者或擅自对外提交。
 >
-> 研究总说明书：`research/硕士论文研究与实施说明书.md`（若用户将其放在根目录或其他路径，启动时先定位；不得假定目录已存在）。主方向：**LLM Multi-Agent → Receiver/Task-aware Semantic Value → Wireless Semantic Communication → Scheduling/Resource Allocation → Task Success**。
+> 研究总说明书：`硕士论文研究与实施说明书.md`（当前位于仓库根目录；若后续迁移，启动时先定位）。主方向：**LLM Multi-Agent → Receiver/Task-aware Semantic Value → Wireless Semantic Communication → Scheduling/Resource Allocation → Task Success**。
+
+> 当前工作仓库：<https://github.com/piao666/gosc-Agentic>；代码根目录 `E:\gosc`，参考论文根目录 `E:\Papers`（用户于 2026-10-19 校正）。路径配置见 `research/workspace_paths.json`，最近进度审计见 `research/reports/progress_review_2026-10-19.md`。历史日志中的旧路径仅表示当时环境。
+
+> 最新摘要信息/成本核查（2026-10-22）：23测试、96组有界条件通信回放及独立审计通过；实际编码CRC/ACK/快照、排队/重传/下行丢失/等待/TTL已核查。仍是原calibration轨迹的传输可达性审计，cache不进入任务策略，未测paid-summary任务收益。目标/位置主要刷新已有机制，三bit差异桶不能替代完整oracle。逐slot立即重试的成本不是最优同步成本；先审查RTT-aware/捎带及最简单估值接口，复杂训练保持No-Go。入口：research/reports/receiver_summary_information_cost_audit_2026-10-22.md。
+
+> 最新顺序验收（2026-10-22）：逐图表和noise575范围清查完成；17native PDF与独立rescue展示版已目视。HPC接收端特权诊断1248校准+260验证、5项测试及独立审计完成，0/6主要比较达到预设联合门槛；复杂训练No-Go，不证明状态无价值。文献新增29份选段记录（连同旧13份共42篇有笔记，非全部通读），Gap Matrix/RQv2/拒稿自查已更新。最新入口：research/reports/acceptance_and_pilot_progress_2026-10-22.md。原校准/cache/历史差异仍单列。
+
+> 最新总审计（2026-10-22）：主队列23阶段已评估，22正常退出、作者cache回放失败；所有登记产物已回传。P1精确历史一致性、作者cache生成链和原校准过程仍有缺口。真实LLM570条含180Planner对照与390混合任务；新cache570/570预设字段重现，不等于恢复作者cache。完整图表补齐为17PDF/18TeX。最新事实入口：[总审计报告](research/reports/final_reproduction_audit_2026-10-22.md)、research/sync/project_status.json、plans/next_steps.md；下文旧阶段状态是历史记录。新方法训练未开始。
 
 ## A. 启动协议（每次会话和每个开发任务）
 
 1. 先读本文件、研究总说明书、`README.md`、最近一次 `research/logs/` 任务记录和待解决问题。
-2. 执行/检查（仅只读）：`git status --short`、`git rev-parse HEAD`、`git remote -v`、`python --version`，确认用户本地路径是 `E:\gosc-agentic-teams`。
+2. 执行/检查（仅只读）：`git status --short`、`git rev-parse HEAD`、`git remote -v`；本地源码根目录 `E:\gosc`，HPC 运行根目录 `/home/u202520081000097/jupyterlab/Paper/gosc`。测试/训练前使用 `ssh hpc` 核验远端身份、项目路径、Python 环境、资源配额和同步 manifest；按 E1 节强制在 HPC 执行。
 3. 如果工作区存在用户未提交修改，**不要 reset/checkout/clean/覆盖/重命名**；先解释其意义并请求处理方案。
 4. 先写“Research Task Brief”：本轮科学问题、前人成果、拟验证假设、修改文件、实验设计、预期成本、可能反例、验收标准。
 5. 当前会话范围之外的任务（特别是新模型、全量多 seed、外部数据与投稿）必须先得到用户批准。
@@ -19,7 +27,7 @@
 
 - `[PAPER]` 论文原文：PDF 的页码/节/式/表/图及准确文献元数据。
 - `[CODE]` 原始或本地 git commit：具体文件、类/函数和行范围。
-- `[RUN]` 本机执行：命令、环境、commit、数据、seed、日志和输出路径。
+- `[RUN]` 实际执行：区分本地管理与 HPC 计算，记录 execution_host、命令、环境、commit、数据、seed、日志和输出路径。
 - `[HYPOTHESIS]` 尚未验证的推断、计划、待检验创新点。
 
 严禁将它们互相冒充。
@@ -56,13 +64,66 @@
 
 ## E. 对 Windows/本地数据的限制
 
-- `E:\gosc-agentic-teams`：代码/实验；`E:\Obsidian\Papers`：用户个人论文知识库。
+- `E:\gosc`：本地源码/文档与同步；`E:\Papers`：用户个人论文知识库；HPC 的 `Paper/gosc`：项目测试、实验、推理和训练。
 - Obsidian **默认只读**：允许定位 PDF、阅读、比对文献、生成指向 PDF 的引用和索引；未经明确要求不得移动/覆盖/重命名 PDF 或修改 Obsidian 的 `.obsidian/` 配置。
 - 若收到“整理 Obsidian”的明确请求，先列文件变更预案、备份现有笔记再修改，保留 wikilink。
 - 不上传本地 PDF、隐私文件、研究数据、密钥到公网服务；读取私有内容不意味着有公开权限。
 - 不保存/输出 `.env`、API key、个人凭据或 Ollama 服务的敏感配置。提交前检查 `.gitignore`、git diff 和大文件。
 - 依赖安装、模型下载、第三方代码执行、收费 API、长时 GPU/CPU 高占用任务先估算成本并征得用户同意。
 - Windows PowerShell 与上游 Bash 命令不等价：shell 脚本须确认 Git Bash/WSL/等效 Python 实现，不能直接假定 `.sh` 可执行。
+
+## E1. HPC 连接、计算执行与同步（用户 2026-10-19 明确指定）
+
+### 连接与目录
+
+- SSH 别名：`hpc`，本地执行 `ssh hpc`；完整地址 `u202520081000097@172.18.101.241`，端口 `22610`，UID `8301880`。需保持学校 EasyConnect VPN 连通。
+- 本地 SSH 配置：`C:\Users\34904\.ssh\config`；专用密钥 `~/.ssh/id_ed25519_hpc`。只引用路径，禁止读取/打印私钥，禁止把 `.ssh`、密码、令牌或密钥同步进项目。
+- 本地项目：`E:\gosc`；HPC 项目：`/home/u202520081000097/jupyterlab/Paper/gosc`。
+- JupyterLab 文件浏览器根目录为 `/home/u202520081000097/jupyterlab`；截图中的 `Paper` 对应 `/home/u202520081000097/jupyterlab/Paper`。终端的操作系统 `/` 与文件浏览器的 `/` 不同，使用绝对路径进入项目。
+- 路径配置以 `research/workspace_paths.json` 为机器可读入口，操作说明见 `research/reproduction/hpc_environment.md`。
+
+### 强制执行地点
+
+1. **后续本项目所有占用 GPU、CPU、RAM 的测试与训练均在 HPC 运行**，包括 CPU-only pytest、smoke test、fresh simulation、多 seed 仿真、统计/重绘、基准测试、模型推理、校准和训练。不得以“小测试”“不用 GPU”为由在本地执行。
+2. 本地仅用于代码/文档编辑、Git 检查、轻量文件/哈希核验、同步与查看报告；这些轻量管理操作可以在 Windows 执行。大规模文件/数据分析同样移到 HPC。
+3. VPN/HPC 不可达或远端环境未就绪时，记录阻断和原因；不得自动回退到本地跑测试或训练。旧 Windows 示例与历史本地测试日志不构成例外。
+4. 本条规定运行地点，不等于授权立即开始任意长训练、依赖安装、下载模型或付费调用。用户已明确授权的实验范围内继续推进，不重复请求相同授权；超出范围仍遵守任务关卡。
+
+### 资源及实验记录
+
+- [RUN] 2026-10-19 只读检测：容器主机 `n1`；宿主可见 AMD EPYC 9354 共 64 核，本容器 cpuset `0-1`、CPU quota `200000/100000`，**实际 2 核 CPU、24 GiB RAM**。
+- [RUN] 可见一张 NVIDIA L40，显存 `34304 MiB`（33.5 GiB）；有 vGPU 预加载，`CUDA_DEVICE_SM_LIMIT=75`，该设置不是实测吞吐。驱动 545.29.06；驱动 CUDA 能力 12.3 不等于已安装 Toolkit。
+- 每次实验先重新检查实际配额；CPU 并行默认不超过 2，不能使用宿主 64 核数设置 workers。按新分配更新记录后再调整。
+- 每个 run manifest 记录 SSH host、远端工作目录、commit、dirty 状态、同步 ID/哈希、环境、资源限额、seed、模型/缓存、时间和内存/显存开销；不能把过去 Windows 85 tests 记录当作 HPC 已通过测试。
+
+### 同步与结果保护
+
+- 本地 `E:\gosc` 执行 `python scripts/sync_hpc.py`，单向同步到上述 `Paper/gosc`。计算前必须确认本次同步 SHA-256 校验通过。
+- 传输 Git bundle 保留公开项目历史，并同步当前 tracked/untracked 且未被忽略的工作文件；不直接复制本地 `.git/config`、hooks 或凭据。文本以 LF 写入 Linux，manifest 同时记录本地原始和远端规范化哈希。
+- 排除 `.ssh`、密钥、`.env`、`.venv`、`.local`、缓存和 Git 忽略文件；`E:\Papers` 的私人 PDF 不在本项目同步范围内。
+- 默认不删除远端独有文件；非结果文件覆盖前备份到远端 `.local/sync-backups/<sync-id>/`。遇到远端原始 `results/`、缓存或 LICENSE 差异，或 Git HEAD/origin 不一致时停止并核对，禁止覆盖来匹配本地。
+- 新实验记录统一置于 `research/sync/runs/<run-id>/`，结果写入其 `outputs/`，保留 manifest、状态、日志、产物哈希和每个 seed 的原始结果。HPC 是运行事实的权威源；源码上行不得覆盖本地回传的旧状态到 HPC。取回输出使用 `python scripts/sync_hpc.py --pull-runs`。
+- 多行 SSH 脚本使用 UTF-8/LF 字节输入，避免 Windows CRLF 传给 Bash。保持主机密钥严格校验。
+
+### 每次执行的登记与两端完成状态
+
+- 已核验 uv 0.11.19 管理的 Python 3.11.15：`/home/u202520081000097/.local/share/uv/python/cpython-3.11-linux-x86_64-gnu/bin/python3.11`。系统 python3=3.6.9 只是控制命令的默认解释器；不要以此断言 HPC 缺少可用 Python。早前裸解释器缺少依赖；现已在 HPC 项目 `.venv` 建立 Python 3.11.15 环境，依赖导入与 `uv pip check` 通过。运行入口使用 `/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python`；精确依赖和哈希见 `research/reproduction/requirements-linux.lock.txt`，证据见 `research/sync/environment/project_environment.json`。环境就绪不代表 R1/R2/R3 已通过，需核对实际 run。
+- 后续每次测试/训练/仿真/分析都用 `scripts/hpc_runs.py launch`（本地发起、HPC 计算、结束自动回传）或 HPC 的 `run` 子命令登记；运行前读 `research/sync/README.md`、`project_status.json` 和 `plans/next_steps.md`。
+- 每次记录唯一 run ID、kind/stage/purpose、真实命令、seed/config/model/cache、Git 与同步快照、Python 路径、资源限额、开始/结束、退出码、stdout/stderr 和产物 SHA-256；状态为 planned/running/completed/failed/interrupted，失败与中断不得删除。
+- 执行完成与两端文件同步完成是不同字段：`runs/*/status.json` 表示 HPC 执行状态，`receipts/*.json` 表示本地回传完成情况；大型未拉取输出必须明确标记，不得称内容已全部同步。
+- `runs/`、`receipts/`、dashboard/STATUS 属于 HPC 运行数据通道，源码上行排除；元数据、日志和小型输出从 HPC 回传，receipt 写回 HPC。默认每次新增下载 100 MiB，需更大产物时显式设置上限。不得上传密钥、凭据或私人 PDF。
+- 有 running 任务时不更新远端源码；先拉取状态并核验进程。手工绕过登记入口的任务不得推断为已完成。所有原始结果仍在 HPC 留存。
+
+### 论文映射与审计入口（2026-10-19）
+
+- 最新[RUN]：完整A1已完成1200条/600配对，28测试及独立审计通过；实际状态 `research/protocols/r4_a1_execution_2026-10-19.json`，报告 `research/reproduction/r4_a1_report_2026-10-19.md`。原冻结计划/预算提案保留制定时状态；下文较早的A1未执行描述仅作历史记录。B/C、独立校准、LLM及训练仍未完成。
+
+- [RUN] 其余四场景成本探测24/24完成，17项测试及独立审计通过；报告 `research/reproduction/r4_cost_probe_report_2026-10-19.md`，完整A1预算提案 `research/protocols/r4_a1_budget_proposal_2026-10-19.json`（1200条，预计575.8s，建议上限1860s，并发2）。这是成本提案，A1/训练仍未执行；原预登记JSON保持不改。
+
+- 当前精确原文与5式/5图/13表/Algorithm1映射：`research/logs/GOSC_paper_code_map.md`；印刷数据核对与差异：`research/reproduction/figure_table_audit_2026-10-19.md`。
+- R2三plot后必须在隔离HPC副本追加 `experiments.run_belief_divergence --table`，否则TableVI留5格n/e。管理脚本已加入；历史原R2和后续补表证据分开保留。
+- 多seed预登记见 `research/protocols/r4_protocol_v1.md` 与 `r4_plan_v1.json`（冻结预登记不改写）；R4-A0已完成60条mission，9项执行器测试/独立审计通过，当前事实见 `research/protocols/r4_a0_execution_2026-10-19.json`；完整A1/B/C仍未执行。主结果search候选37、rescue38；补38方案另立敏感性轨道，禁止静默改写严格复现。
+- Genie是理想通信参考，不是任务最优上界。相同W或相同eta不等于相同实际资源；估值函数的price单位不同。
 
 ## F. Reproducibility First — 分阶段复现
 
@@ -76,7 +137,7 @@
 6. 执行作者设计的 disjoint calibration / evaluation；
 7. 复现 LLM cached 与 live 分开评估。
 
-**禁止**把 cached response replay 写成“重新调用/评估 LLM”。如本机无法访问 Ollama、设备不够或没有模型，必须明确“阻断”，不能偷偷退化为 Planner 再报告 LLM 效果。
+**禁止**把 cached response replay 写成“重新调用/评估 LLM”。如 HPC 无法访问 Ollama、设备不够或没有模型，必须明确“阻断”，不能偷偷退化为 Planner 再报告 LLM 效果。
 
 保留作者合理的种子隔离：`1000–1079` calibration，`0–99` evaluation，`3000–3099` fresh validation（依据公开 README；以实际脚本核验）。新方法训练/调参不得使用原评估 seeds 或其下游强相关轨迹。
 
@@ -85,6 +146,10 @@
 ```yaml
 experiment_id: null
 date: null
+execution_host: hpc
+remote_workdir: /home/u202520081000097/jupyterlab/Paper/gosc
+sync_id: null
+sync_manifest_sha256: null
 git_commit: null
 working_tree_dirty: null
 scheme: null
@@ -181,3 +246,35 @@ notes: null
 2. 先能复现上游，再谈改进；先有强基线，再谈 SOTA；先计成本，再谈效率。
 3. 不凭空宣称“创新已成立”；创新是经严格比较后仍成立的差异与贡献。
 4. 用户和导师对研究方向、外部调用、硬件预算、论文署名及投稿保留最终决定权。
+
+
+## HPC Ollama 运行入口（2026-10-20）
+
+- [RUN] 用户级 Ollama0.11.11 已部署，HPC回环地址 http://127.0.0.1:11434；命令 ~/.local/bin/ollama，运行库在项目 .local/ollama/runtime/0.11.11。固定旧兼容版本，不擅自升级集群驱动。
+- 模型在 /home/u202520081000097/jupyterlab/models/ollama-gosc；qwen2.5:3b、llama3.2:3b、qwen2.5:7b 均为实际下载的Q4_K_M。三者均已通过完整GPU加载、JSON输出与原LLMClient空缓存HTTP验收，证据 research/sync/runs/hpc-ollama-deploy-retry1-20261020/outputs/。记录实际digest，不能假定与作者历史模型快照一致。
+- 服务配置位于HPC项目 .local/reproduction-services.json；单并发、同时最多加载1模型。退出SSH后服务保留；容器/服务器重启后通过 .venv/bin/python scripts/hpc_ollama.py start 重新启动。操作说明 research/reproduction/ollama_hpc.md。
+- 只有环境验收完成，完整live LLM复验仍需按原顺序单独登记，保持缓存回放与真实调用分开，禁止planner回退冒充模型成功。旧队列在c-belief失败已保留；外层入口适配器修复并通过10项HPC回归，续跑使用新runID，不覆盖失败记录或重复已完成阶段。
+- [RUN] 用户授权清理其他项目以恢复配额；仅Github--llm和HM已删除，预删除占用合计26058240000bytes；当前Paper/gosc与已有models保留。清理证据 hpc-ollama-storage-cleanup-20261020；不得据此自动删除其他新目录。
+
+
+## 当前进度权威索引（2026-10-20进度复核）
+
+详见research/reports/progress_review_2026-10-20.md与research/sync/plans/next_steps.md。原23阶段队列4执行完成、1失败、18未运行，当前无活动复验；Ollama与3模型就绪，完整cached/live任务仍未运行。公开选参26700完成/22条历史差异/12冻结点匹配；选参后fresh1200与保存输出匹配；C-frontier6800、C-where5000完成执行但有479/364条历史差异（完成时间228/146），不能标为科学一致性通过。下一步先完善比较器覆盖并诊断差异，再以新runID显式恢复c-belief→其余原顺序阶段。0共同键不得作为历史一致证据。上游校准缺口保留。P2文献/RQ可并行，未启动新方法训练。早先段落与历史日志的旧状态不覆盖上述实际run证据。
+
+
+## 当前进度更新（2026-10-20顺序续跑与P2）
+
+本段优先于上文“4完成/未续跑/P2待做”的历史状态。新报告research/reports/resume_and_literature_2026-10-20.md；P2索引research/literature/reading_review_2026-10-20.md。比较覆盖保护已修正；36个受控诊断确认部分数值分支敏感但未完全解释selection/C历史差异，正式NumPy2.4.6不改。resume-c-belief-20261020完成1400项，1400共同键/0差异；resume-c-analysis-20261020完成原函数10000 bootstrap，均已回传。原6阶段执行完成不代表C历史科学一致性全部通过。
+
+后续已获本轮用户授权按原顺序继续17阶段，入口scripts/repro_resume.py resume，父run hpc-ordered-resume-20261020；实际状态以该run及子run台账为准。跳过6个已完成阶段、保留旧失败，不重建工作区；原72h截止2026-10-22T10:36:15.888633Z，不重置。CPU workers2、数值线程1；现实链路候选124400，fresh上限10300且运行前由完成grid冻结精确任务/config/seed，并与原生pool目录核验。新增HTTP观察只记录原LLM调用tokens/attempt/latency/格式错误，不改变原prompt/options/retry策略。
+
+本轮P2交付已完成启动10篇及D08/D10/B10共13篇笔记、Gap Matrix、RQ_v1和拒稿自查；长综述为注明范围的重点阅读，非42篇全读。D02已经提出receiver-context distortion/匹配反事实credit，BANDMAS/ToM2C/iCoTASC有直接机制先例，不得主张思想首次。新RQ仅为可观测摘要+陈旧/同步/估值成本下的可证伪净收益问题。新方法实现/训练未启动，待P1边界和M0 headroom协议审阅；私人PDF不入同步。
+
+## M. Git 提交说明（用户 2026-10-22 明确指定）
+
+- 每次 Git 提交都必须先在根目录 `commit/` 新增带日期的 Markdown 说明，与本次代码/文档改动一起提交；包括文档、修复、回滚等提交，不得省略。
+- 文件名 `YYYY-MM-DD-NN-简短主题.md`，日期按 Asia/Shanghai，同日递增序号；保留旧说明，不覆盖。内容及模板见 `commit/README.md`，每次同时更新其索引。
+- 说明至少写日期、目的、分支/基线版本、改动范围、实际验证与证据、失败/未完成项及后续事项；区分本次检查与此前 HPC 结果，不能将计划或旧结果写成本次已验证。
+- 提交信息包含 `Commit-Note: commit/<说明文件名>`。自身提交哈希通过 Git 历史关联，不为补写自身哈希制造额外无说明提交。
+- 提交前检查忽略项、暂存区、凭据/私人文件、大文件与 `git diff --cached --check`；不强制加入忽略的原始输出。用户已授权的提交/推送直接执行；不得强制推送或擅自合并到其他分支。
+- 历史运行日志或源码补丁的空白提示单列说明，保留原始证据；另对当前源码/文档核对空白检查，不能为了全量检查变绿而改写旧实验记录。

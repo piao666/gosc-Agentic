@@ -1,0 +1,15 @@
+{
+  "run_id": "infra-ledger-ok-20261019T065522Z",
+  "status": "completed",
+  "started_at": "2026-10-19T06:55:22.713584+00:00",
+  "finished_at": "2026-10-19T06:55:22.762550+00:00",
+  "exit_code": 0,
+  "pid": 7586,
+  "elapsed_seconds": 0.048991,
+  "resource_usage": {
+    "child_max_rss_kib": 22300,
+    "child_cpu_user_seconds": 0.137023,
+    "child_cpu_system_seconds": 0.043424,
+    "peak_gpu_memory": null
+  }
+}

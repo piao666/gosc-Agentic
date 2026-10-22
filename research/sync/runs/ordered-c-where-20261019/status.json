@@ -1,0 +1,16 @@
+{
+  "run_id": "ordered-c-where-20261019",
+  "status": "completed",
+  "started_at": "2026-10-19T12:01:01.315757+00:00",
+  "finished_at": "2026-10-19T12:17:37.780155+00:00",
+  "exit_code": 0,
+  "pid": 33811,
+  "elapsed_seconds": 996.464425,
+  "resource_usage": {
+    "child_max_rss_kib": 48608,
+    "child_cpu_user_seconds": 1965.26152,
+    "child_cpu_system_seconds": 7.425806,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

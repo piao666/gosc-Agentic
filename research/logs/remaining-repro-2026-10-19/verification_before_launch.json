@@ -1,0 +1,13 @@
+{
+  "status": "verified_before_launch",
+  "hpc_tests": {
+    "tests": 35,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "test_seconds": 5.54,
+  "upstream_head": "387b49389385b51c275dc5a22ec1672087edda1d",
+  "original_sources_preserved": true,
+  "queue_not_yet_started_at_verification": true
+}

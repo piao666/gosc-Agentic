@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-r4-a1-audit-20261019",
+  "files": [
+    {
+      "path": "outputs/a1_audit.json",
+      "size": 506,
+      "sha256": "4c54218185f2cda5003e2012778fcbf292c3959ad5b0711ce55ecbcad7c2c70e"
+    }
+  ]
+}

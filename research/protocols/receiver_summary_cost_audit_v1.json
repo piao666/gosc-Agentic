@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "scope": "information/cost audit only; no learned or paid policy",
+  "seeds": [
+    12000000,
+    12000001
+  ],
+  "settings": [
+    100,
+    50
+  ],
+  "calibration_reuse": true,
+  "observed_missions": 4,
+  "control_missions": 4,
+  "test_worlds_used": 0,
+  "refresh_slots": [
+    1,
+    5,
+    10
+  ],
+  "shadow_overhead_bits": 16,
+  "table_overhead_bits": [
+    0,
+    16,
+    64
+  ],
+  "table_rates": [
+    0.25,
+    1,
+    2,
+    6
+  ],
+  "max_wall_seconds": 600,
+  "workers": 1,
+  "numeric_threads": 1,
+  "llm_calls": 0,
+  "training": false,
+  "limits": [
+    "Shadow transport does not compete or alter native policy",
+    "Original bare trace H0; added-summary H16 overlay is conditional and not an equal-overhead policy comparison",
+    "No real RF stack/PHY preamble measurement",
+    "No lossy DL/ACK/retry cost experiment; original catch-up path audited from source",
+    "No wall-clock-to-task-slot conversion without a physical slot duration"
+  ]
+}

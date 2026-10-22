@@ -1,0 +1,105 @@
+{
+  "run_id": "hpc-ordered-resume-20261020",
+  "files": [
+    {
+      "path": "outputs/cached-llm.launch.log",
+      "size": 483,
+      "sha256": "45e68c0395fbd77dca8378ed23e4ae1fef7b27e0a266953d37e52a442275fa6e"
+    },
+    {
+      "path": "outputs/fidelity-analysis.launch.log",
+      "size": 494,
+      "sha256": "d330e7a00ad46ef09853e92782d27698419f31fcc778951bc5c44f74846884d5"
+    },
+    {
+      "path": "outputs/final-replot.launch.log",
+      "size": 493,
+      "sha256": "f255efa4fb35f98dfa62e3eafebab21d047bfc5de29786cc190e5bed303c0208"
+    },
+    {
+      "path": "outputs/genie-fresh.launch.log",
+      "size": 490,
+      "sha256": "064fc7bd70362bd358defc384adeff24c22cad1401c42392bd5608360a3dc139"
+    },
+    {
+      "path": "outputs/joint.launch.log",
+      "size": 488,
+      "sha256": "f2af5831e0f76f68cf807e4f314d78da9e1e2e6a55dbb11d568c27abfc4a08d2"
+    },
+    {
+      "path": "outputs/live-llm.launch.log",
+      "size": 493,
+      "sha256": "165dc4fd1545ba963f928e97bdb7f606063ac4718c4eafb5e8b9cd90dcb25d0a"
+    },
+    {
+      "path": "outputs/main-sweeps.launch.log",
+      "size": 495,
+      "sha256": "4e43a59113959146c4cc091d047099e0d5dceeb278cd3e8727a5b9471d2f3955"
+    },
+    {
+      "path": "outputs/pipeline_status.json",
+      "size": 8439,
+      "sha256": "65b5243c56ca98e7fdd8592854bf18eefb2ffdbc6f9fd192d0f7b71be8288c40"
+    },
+    {
+      "path": "outputs/radio-fresh.launch.log",
+      "size": 495,
+      "sha256": "32957fe415d5eebcd93e16ac90764a5228224810e6578577e254af39f97625dc"
+    },
+    {
+      "path": "outputs/radio-noise.launch.log",
+      "size": 498,
+      "sha256": "34e088d1e5ecf98346adaa0558e6410bb9c0f81c6e055666f77fd1c15bb97335"
+    },
+    {
+      "path": "outputs/radio-overhead.launch.log",
+      "size": 502,
+      "sha256": "f74fc183a86dbd02815f040d66913bc8bafc7c5af1d48fead277c82dfc99678a"
+    },
+    {
+      "path": "outputs/radio-shared.launch.log",
+      "size": 496,
+      "sha256": "dff2f06e92662e61ce09147f7eb42f12712f599871c942f91e3f6517808d7713"
+    },
+    {
+      "path": "outputs/resume_manifest.json",
+      "size": 7721,
+      "sha256": "b2f7a5251d172203dced02d0d5bf61c965ccc751a536734c22a2e634d0f6f233"
+    },
+    {
+      "path": "outputs/revision-rest.launch.log",
+      "size": 498,
+      "sha256": "e5b52a7529a0d41da0a0a3672f031f7a53e4ef3f08b5b26686d764631f6a95b0"
+    },
+    {
+      "path": "outputs/scheduler.launch.log",
+      "size": 488,
+      "sha256": "0b61f576be35e4aa51e1deebd5dd4fcda7ac9333a44ba3389d266ed30253cb33"
+    },
+    {
+      "path": "outputs/sensitivity-fresh.launch.log",
+      "size": 497,
+      "sha256": "3fa7c93e95218ff8e6563ff0c6edffaf0a717daac338c83498afd48c49938579"
+    },
+    {
+      "path": "outputs/sensitivity.launch.log",
+      "size": 501,
+      "sha256": "4acc1665250fe3fe64946d7074d5afb24877de67f10c129c3c12aa79bf254b35"
+    },
+    {
+      "path": "outputs/theory.launch.log",
+      "size": 485,
+      "sha256": "a88ca13c4580e553f80377dd23c82d63340a8703eb5f418e7cc6cd5ab3e6ad8b"
+    },
+    {
+      "path": "outputs/trace_divergence.json",
+      "size": 37545,
+      "sha256": "9b20621bfd4e4db2b2657aa7165db02cb0c5904b6a717b8709498beebb336c94"
+    },
+    {
+      "path": "outputs/value-fidelity.launch.log",
+      "size": 497,
+      "sha256": "d5e1ba3158f2db24a23169282faf6ef2ada231dd4d188901bfab7255043b67f7"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-summary-cost-final-audit-20261022",
+  "files": [
+    {
+      "path": "outputs/cost_integrity_audit.json",
+      "size": 5135,
+      "sha256": "bcd457c7bea58da621bdd6700e56a7291ca68f9a9c943d05c9d7ec7e0dc3e1cd"
+    }
+  ]
+}

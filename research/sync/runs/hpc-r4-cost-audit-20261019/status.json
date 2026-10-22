@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-r4-cost-audit-20261019",
+  "status": "completed",
+  "started_at": "2026-10-19T08:50:52.829900+00:00",
+  "finished_at": "2026-10-19T08:50:53.166222+00:00",
+  "exit_code": 0,
+  "pid": 19424,
+  "elapsed_seconds": 0.336351,
+  "resource_usage": {
+    "child_max_rss_kib": 57976,
+    "child_cpu_user_seconds": 0.363691,
+    "child_cpu_system_seconds": 0.06707199999999999,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

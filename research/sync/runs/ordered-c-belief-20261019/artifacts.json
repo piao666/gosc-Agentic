@@ -1,0 +1,30 @@
+{
+  "run_id": "ordered-c-belief-20261019",
+  "files": [
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 69,
+      "sha256": "ec283f0f7a4132287768a6ec50041c8f035e53b525210d577c15b3a0697b8afe"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 1115,
+      "sha256": "b065444cfd5797783579c9dded9f532d1f48c6c4bfef15696d640a3fc4ad70de"
+    }
+  ]
+}

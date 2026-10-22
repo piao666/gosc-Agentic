@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-receiver-tests-20261022",
+  "status": "completed",
+  "started_at": "2026-10-22T03:59:13.780625+00:00",
+  "finished_at": "2026-10-22T03:59:16.352238+00:00",
+  "exit_code": 0,
+  "pid": 33843,
+  "elapsed_seconds": 2.57164,
+  "resource_usage": {
+    "child_max_rss_kib": 49164,
+    "child_cpu_user_seconds": 2.263998,
+    "child_cpu_system_seconds": 0.149106,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

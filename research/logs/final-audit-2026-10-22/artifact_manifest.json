@@ -1,0 +1,90 @@
+{
+  "scope": "Post-campaign research delivery, raw scientific outputs remain in registered run artifacts",
+  "files": [
+    {
+      "path": "research/reports/final_reproduction_audit_2026-10-22.md",
+      "bytes": 14515,
+      "sha256": "640b52208e3f63794698ec8946622dab9b3e01a7e2f974f7dcab8fb00d19dfca"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 25464,
+      "sha256": "85e32227913b58acb5eaeaf8e8a8aed70a7dfebd6d23406723862685602b3d8d"
+    },
+    {
+      "path": "research/sync/project_status.json",
+      "bytes": 9328,
+      "sha256": "149fe71be3940e445ec9c43077038c58665d8c23ba19dd5f973c3cbce8131088"
+    },
+    {
+      "path": "research/sync/plans/next_steps.md",
+      "bytes": 3438,
+      "sha256": "6dff680745690986c0f3548a497c8ef7977651b35277daea7a39c036c9cb0035"
+    },
+    {
+      "path": "research/literature/Open-Questions.md",
+      "bytes": 3048,
+      "sha256": "b147c6bfa9f41e0e9c9832c5ba23f20f59e56340caea28d12e169ef41f2fb004"
+    },
+    {
+      "path": "scripts/repro_post_audit.py",
+      "bytes": 17992,
+      "sha256": "293c17ed9ccc5949ab41fa21e1503357e9a37bfc439eda3af0c09d4a1986e587"
+    },
+    {
+      "path": "scripts/repro_cache_probe.py",
+      "bytes": 4542,
+      "sha256": "4cd1c7d692c9ed9774dbb611f64490d5f9c57f42b1678f0fe62e89b4a44d982d"
+    },
+    {
+      "path": "scripts/repro_coverage_audit.py",
+      "bytes": 7472,
+      "sha256": "f7a9b9262770b003f4aaddd6a4d1345ac0558e1cbef21948bfdfe4093b1d6a3c"
+    },
+    {
+      "path": "scripts/repro_llm_tables.py",
+      "bytes": 3392,
+      "sha256": "7b4a1deb1a7a5e2b9ebae685d5e928097a369a9c3f306be1ccd9e7a3d12af0ed"
+    },
+    {
+      "path": "research/logs/final-audit-2026-10-22/actual_commands.json",
+      "bytes": 2266,
+      "sha256": "662c0c541dc6bc3ebe7272b2a006441f527eadee574884c95f926e5ee9707b54"
+    },
+    {
+      "path": "research/logs/final-audit-2026-10-22/delivery.json",
+      "bytes": 506,
+      "sha256": "eefbe8d157c0723a3912ca261a9f6a65cdacd69a4fea61f0611c72dabaee1ac5"
+    },
+    {
+      "path": "research/logs/final-audit-2026-10-22/llm_source_history.txt",
+      "bytes": 235,
+      "sha256": "317a1863bd8c564eb0ba16636d886113b7d7dd9b8d0d03d481cf8bf6628a0f3a"
+    },
+    {
+      "path": "research/logs/final-audit-2026-10-22/preflight_observation.json",
+      "bytes": 18008,
+      "sha256": "442ed7d17b886ec0f8651df2a56e5c72ee4320610d53f339ca050a6cc210e33a"
+    },
+    {
+      "path": "research/logs/final-audit-2026-10-22/resource_preflight.json",
+      "bytes": 246,
+      "sha256": "021b4f9c1fec5377423010a34db12931c9818b3b5de8f588182a2f0258abe976"
+    },
+    {
+      "path": "research/logs/final-audit-2026-10-22/summary.json",
+      "bytes": 1242,
+      "sha256": "c02ef075e6561b9687a3f613037d86bc2184ebae270a7126b676328110e28373"
+    },
+    {
+      "path": "research/logs/final-audit-2026-10-22/task_brief.md",
+      "bytes": 1876,
+      "sha256": "3d1eb7801252d51f039a7e2c11463aabde1f37673f6f0a060b86b170aee20331"
+    },
+    {
+      "path": "research/logs/final-audit-2026-10-22/transfer_remaining_observation.json",
+      "bytes": 11808,
+      "sha256": "4d44181c17336bd3c9b37d71a6f6efe4072692da52f91fb7f567aa1a32e3796d"
+    }
+  ]
+}

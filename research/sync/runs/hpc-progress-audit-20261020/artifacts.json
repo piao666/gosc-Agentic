@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-progress-audit-20261020",
+  "files": [
+    {
+      "path": "outputs/progress_audit.json",
+      "size": 11602,
+      "sha256": "c42e89988c34cea766e38d2465b2f815f3be3e46f5d19babe9cbe25e76338a1b"
+    }
+  ]
+}

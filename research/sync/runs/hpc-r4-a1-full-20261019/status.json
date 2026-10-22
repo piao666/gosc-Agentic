@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-r4-a1-full-20261019",
+  "status": "completed",
+  "started_at": "2026-10-19T09:00:58.563022+00:00",
+  "finished_at": "2026-10-19T09:10:33.149667+00:00",
+  "exit_code": 0,
+  "pid": 20508,
+  "elapsed_seconds": 574.586676,
+  "resource_usage": {
+    "child_max_rss_kib": 141996,
+    "child_cpu_user_seconds": 1040.4643,
+    "child_cpu_system_seconds": 43.33109,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

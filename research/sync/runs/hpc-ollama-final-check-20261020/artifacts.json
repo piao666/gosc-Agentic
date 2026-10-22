@@ -1,0 +1,15 @@
+{
+  "run_id": "hpc-ollama-final-check-20261020",
+  "files": [
+    {
+      "path": "outputs/final_environment.json",
+      "size": 4370,
+      "sha256": "f5c58e0bee24686f9664107395c3dbcb6068d6ebd4300869331abc23ee2ef31d"
+    },
+    {
+      "path": "outputs/gpu_service_evidence.log",
+      "size": 624,
+      "sha256": "43646c72fd26e0ae8f13d6e6ed81ccd0db25d5d19a6b4b161aebb64b4ef18548"
+    }
+  ]
+}

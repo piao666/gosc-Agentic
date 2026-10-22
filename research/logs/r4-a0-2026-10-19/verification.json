@@ -1,0 +1,29 @@
+{
+  "status": "verified",
+  "run_checks": {
+    "hpc-r4-a0-executor-tests-v2-20261019": {
+      "status": "completed",
+      "artifacts_verified": 1
+    },
+    "hpc-r4-a0-pilot-retry1-20261019": {
+      "status": "completed",
+      "artifacts_verified": 12
+    },
+    "hpc-r4-a0-audit-20261019": {
+      "status": "completed",
+      "artifacts_verified": 1
+    }
+  },
+  "runtime_files_and_receipts_verified": 238,
+  "executor_tests_passed": 9,
+  "scientific_missions_completed": 60,
+  "complete_three_arm_pairs": 20,
+  "retained_prestart_failed_attempt_missions": 0,
+  "original_inputs_unchanged": true,
+  "pre_registration_unchanged": true,
+  "full_campaign_started": false,
+  "training_started": false,
+  "latest_pull_receipt": "research/sync/receipts/20261019T083627Z-24ae11.json",
+  "local_runtime_files_verified": 224,
+  "all_outputs_mirrored": true
+}

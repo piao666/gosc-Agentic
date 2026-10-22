@@ -1,0 +1,15 @@
+{
+  "run_id": "hpc-r4-preflight-20261019",
+  "files": [
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/r4_preflight.json",
+      "size": 10254,
+      "sha256": "08ee90d8137a7b64643a64c7439ef2eddffddb60362ac47ed5befdc79a230655"
+    }
+  ]
+}

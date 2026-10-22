@@ -1,0 +1,43 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_legacy.py", line 173, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_legacy.py", line 170, in main
+    invoke_entry(module)
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_legacy.py", line 137, in invoke_entry
+    return entry()
+           ^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_extra.py", line 125, in main
+    elif a.mode=='cached':cached(out,root,work)
+                          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_extra.py", line 63, in cached
+    result=run_episode(cfg,reference['scheme'],reference['seed']);result.pop('curve')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/.local/ordered-reproduction-20261019/gosc/simulator.py", line 353, in run_episode
+    return Simulation(cfg, scheme, seed, record_traj).run()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/.local/ordered-reproduction-20261019/gosc/simulator.py", line 203, in run
+    self.phase_decide(t)
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/.local/ordered-reproduction-20261019/gosc/simulator.py", line 250, in phase_decide
+    a.plan(p.reshape(n, n), vw.teammates(a.idx), self.plan_rng)
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/.local/ordered-reproduction-20261019/gosc/llm_agent.py", line 166, in plan
+    choice = self.client.choose(prompt, labels)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_extra.py", line 41, in choose
+    if key not in self.cache:raise LookupError('Published cache lacks prompt key '+key+'; no HTTP or planner fallback permitted')
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+LookupError: Published cache lacks prompt key 90af9f21348c1dbaff480093d30fb6f223dbad827a3427b0d12e9dd0c1c7c400; no HTTP or planner fallback permitted
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_ordered.py", line 214, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_ordered.py", line 211, in main
+    else:stage(args.name)
+         ^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_ordered.py", line 90, in stage
+    run_legacy(WORK,entry[1],entry[2],entry[4],entry[3]);succeeded=True
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_ordered.py", line 59, in run_legacy
+    if code:raise RuntimeError(f'Original entry point exit {code}')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Original entry point exit 1

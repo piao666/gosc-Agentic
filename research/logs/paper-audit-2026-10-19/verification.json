@@ -1,0 +1,24 @@
+{
+  "status": "verified",
+  "run_checks": {
+    "hpc-paper-audit-20261019": {
+      "status": "completed",
+      "artifacts_checked": 10,
+      "protected_inputs_unchanged": true
+    },
+    "hpc-r4-preflight-20261019": {
+      "status": "completed",
+      "artifacts_checked": 2,
+      "protected_inputs_unchanged": true
+    }
+  },
+  "runtime_files_and_receipts_verified": 178,
+  "original_core_unchanged": true,
+  "new_missions_run": 0,
+  "training_runs": 0,
+  "local_mirrored_files": 169,
+  "latest_receipt": "research/sync/receipts/20261019T073941Z-a0f97f.json",
+  "all_outputs_mirrored": true,
+  "local_pdf_unchanged": true,
+  "r4_plan_status": "planned_not_executed"
+}

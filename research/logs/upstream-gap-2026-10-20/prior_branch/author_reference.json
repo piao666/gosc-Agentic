@@ -1,0 +1,19 @@
+{
+  "reference": {
+    "scheme": "gosc_bits",
+    "param": "W100/eta0.0",
+    "seed": 0,
+    "completion_time": 83,
+    "completed": true,
+    "found": 8,
+    "bits": 23468,
+    "symbols": 31011,
+    "delivered_bits": 12426,
+    "dl_symbols": 6253,
+    "false_declarations": 0,
+    "confirm_latency": 0.125
+  },
+  "baseline_commit": "387b49389385b51c275dc5a22ec1672087edda1d",
+  "file": "results/rev_frontier.json",
+  "file_sha256": "4c16e142322e66dd69ad22daa2121378e78de40bc0023294e6c2570150ef4302"
+}

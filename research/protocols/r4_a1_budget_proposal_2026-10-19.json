@@ -1,0 +1,42 @@
+{
+  "main_missions": 1200,
+  "settings": 6,
+  "arms_per_setting": 2,
+  "seeds": [
+    3000,
+    3099
+  ],
+  "workers_max": 2,
+  "worker_threads": 1,
+  "scheduling_factor": 1.071039162610879,
+  "estimated_worker_cpu_seconds": 1024.74503,
+  "estimated_campaign_wall_seconds": 575.8240286591023,
+  "observed_per_group_max_scenario_wall_seconds": 760.89786070979,
+  "recommended_campaign_cap_seconds": 1860,
+  "per_episode_timeout_seconds": 120,
+  "budget_rule": "Round up to minutes: max(3 x group-mean wall estimate, group-max scenario) + 120s; heuristic, not confidence bound.",
+  "estimated_raw_episodes_bytes": 12387143.333333334,
+  "raw_output_budget_bytes": 37161430,
+  "largest_observed_worker_rss_kib": 56588,
+  "memory_limit_bytes": 25769803776,
+  "gpu_required": false,
+  "genie_missions_included": false,
+  "scope_exclusions": [
+    "optional 600 Genie",
+    "candidate search B",
+    "frontier C",
+    "calibration",
+    "LLM",
+    "training",
+    "sync and audit time"
+  ],
+  "limitations": "N=3 in four settings and N=10 in two; host contention/other seeds may change costs. Worker RSS is not whole-container peak.",
+  "full_campaign_status": "not_started",
+  "training_status": "not_started",
+  "proposal_status": "estimated_not_executed",
+  "budget_source_run": "hpc-r4-cost-probe-20261019",
+  "audit_run": "hpc-r4-cost-audit-20261019",
+  "original_preregistration": "research/protocols/r4_plan_v1.json",
+  "cost_preregistration_sha256": "b97c7d042f077080e2ff392ba21a1dfaa2021c6faa1a7aa3304d0baa29ceb857",
+  "command_status": "A1 runner not implemented by this task; this file is a budget proposal, not an execution record"
+}

@@ -1,0 +1,30 @@
+{
+  "run_id": "hpc-cache-gap-probe-20261022",
+  "files": [
+    {
+      "path": "outputs/cache_sort_probe.json",
+      "size": 15307,
+      "sha256": "29b583ff0e7fea923d7eed5bb39fdf237474044887ec5fc6d5c771fe4ee0fe47"
+    },
+    {
+      "path": "outputs/new_live_cache_snapshot/llama3.2_3b.jsonl",
+      "size": 968223,
+      "sha256": "214f94f1f53021b5b038919100c4e4f990683c710554660cef4f1b94aaf76f35"
+    },
+    {
+      "path": "outputs/new_live_cache_snapshot/qwen2.5_3b.jsonl",
+      "size": 1219788,
+      "sha256": "c077d9536772dafa796afe638ea08d3d9ee0e47e021bae50b2aa2ccd897350cc"
+    },
+    {
+      "path": "outputs/new_live_cache_snapshot/qwen2.5_7b.jsonl",
+      "size": 443889,
+      "sha256": "7441e64f89f497c89cf6aa2b5432f54bab008565f71c05b5fa1ef1ca66a72eac"
+    },
+    {
+      "path": "outputs/new_live_cache_snapshot.json",
+      "size": 698,
+      "sha256": "6457635166459f5b25e9f9f7504a79e897ef8c6c577fab42e03fc3df06d915f1"
+    }
+  ]
+}

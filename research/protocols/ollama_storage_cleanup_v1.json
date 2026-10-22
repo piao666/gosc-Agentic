@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "authorization": "User explicitly permits deletion of any projects other than current project2026-10-20",
+  "protected_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "allowed_parent": "/home/u202520081000097/jupyterlab",
+  "expected_uid": 8301880,
+  "targets": [
+    {
+      "name": "Github--llm",
+      "size_before_bytes": 18602799104
+    },
+    {
+      "name": "HM",
+      "size_before_bytes": 7455440896
+    }
+  ],
+  "expected_freed_bytes": 26058240000,
+  "scope": "Only these two unrelated project directories; do not delete shared models, Paper ancestors, SSH, credentials, system dirs or local papers"
+}

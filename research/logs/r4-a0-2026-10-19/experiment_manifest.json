@@ -1,0 +1,24 @@
+{
+  "execution_host": "hpc/n1",
+  "head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "phase": "R4-A0",
+  "plan": "research/protocols/r4_plan_v1.json",
+  "plan_sha256": "313e55d9a9d30218b4a6088e74299d130727f4546908bd2c53a4edd015aad455",
+  "seed_range": [
+    9000,
+    9009
+  ],
+  "settings": [
+    "search-W100",
+    "rescue-W100"
+  ],
+  "arms_per_setting": 3,
+  "planned_and_actual_missions": 60,
+  "pilot_run": "hpc-r4-a0-pilot-retry1-20261019",
+  "previous_failed_prestart_run": "hpc-r4-a0-pilot-20261019",
+  "test_run": "hpc-r4-a0-executor-tests-v2-20261019",
+  "audit_run": "hpc-r4-a0-audit-20261019",
+  "parameter_selection_or_training": false,
+  "raw_outputs": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/outputs",
+  "scientific_scope": "N10 workflow and cost pilot; not a new-method performance claim"
+}

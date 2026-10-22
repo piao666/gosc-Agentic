@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "run_id": "hpc-summary-cost-final-audit-20261022",
+  "kind": "analysis",
+  "stage": "P2-summary-cost-integrity",
+  "purpose": "Independently reconcile96 encoded transport cases with raw attempt events,DL bytes,TTL and unchanged original sources; no simulation or training",
+  "created_at": "2026-10-22T08:49:01.085777+00:00",
+  "execution_host": "n1",
+  "ssh_alias": "hpc",
+  "project_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "cwd": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "command": [
+    "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+    "-c",
+    "import json,os,math,hashlib,collections\nfrom pathlib import Path\nroot=Path('/home/u202520081000097/jupyterlab/Paper/gosc')\nbase=root/'research/sync/runs/hpc-summary-transport-audit-20261022/outputs'\nrows=json.loads((base/'transport_replay.json').read_text())\nassert len(rows)==96\nkeys={(r['seed'],r['W'],r['refresh_slots'],r['with_pose'],r['dl_loss'],r['dl_delay_extra_slots']) for r in rows}\nassert len(keys)==96\nexpected={(s,w,i,p,l,d) for s in [12000000,12000001] for w in [100,50] for i in [1,5,10] for p in [False,True] for l in [0.,.1] for d in [0,2]}\nassert keys==expected\nevents=collections.defaultdict(list)\nfor line in (base/'transport_events.jsonl').read_text().splitlines():\n e=json.loads(line);events[e['scenario_id']].append(e)\nfor r in rows:\n c=r['counts'];es=events[r['scenario_id']]\n assert len(es)==c['uplink_attempts']\n assert sum(e['used'] for e in es)==c['uplink_symbols']\n assert sum(e['wire_bytes'] for e in es)==c['uplink_bytes']\n assert sum(e['decoded'] for e in es)==c['uplink_decoded']\n assert all(e['used']<=e['residual_before'] and e['used']==e['wire_bytes']*8 for e in es)\n assert c['downlink_feedback_symbols']==4*c['downlink_feedback_bytes']\n assert c['downlink_snapshot_symbols']==4*c['downlink_snapshot_bytes']\n assert c['total_added_channel_uses']==c['uplink_symbols']+c['downlink_feedback_symbols']+c['downlink_snapshot_symbols']\n assert c['usable_fraction']==c['usable_receiver_sender_slot_pairs']/c['possible_receiver_sender_slot_pairs']\n if r['age_summary']['n']:\n  assert r['age_summary']['min']>=1+r['dl_delay_extra_slots']\n  assert r['age_summary']['p95']<=20\n assert 0<=c['right_censored_pending_summaries']<=6\np=json.loads((root/'research/sync/runs/hpc-receiver-protocol-20261022/outputs/protocol.json').read_text())\nassert all(hashlib.sha256((root/n).read_bytes()).hexdigest()==h for n,h in p['source_sha256'].items())\ndisplay=[]\nfor r in rows:\n if r['refresh_slots']==5 and r['dl_loss']==.1 and r['dl_delay_extra_slots']==2:\n  c=r['counts'];display.append({k:r[k] for k in ['seed','W','with_pose','age_summary']})\n  display[-1]['counts']={k:c[k] for k in ['generated_summaries','uplink_attempts','retransmission_attempts','total_added_channel_uses','usable_fraction','budget_deferred_sender_slots','right_censored_pending_summaries']}\nfrom extensions.receiver_summary_audit import encode,crc_frame\nfrom extensions.receiver_transport_replay import feedback,batch\nexample=[]\nfor pose in [False,True]:\n apps=[encode(k,0,0,k if pose else None) for k in range(6)]\n ul=sum(len(crc_frame(a))*8 for a in apps)\n ack=len(feedback([(k,0,True) for k in range(6)]))*8//2\n dl=len(batch(apps))*8//2\n example.append({'with_pose':pose,'UL':ul,'ACK_DL':ack,'snapshot_DL':dl,'total':ul+ack+dl,'scope':'six successful simultaneous samples,RUL1,RDL2,separate explicit CRC frames,no real PHY'})\nout=Path(os.environ['GOSC_OUTPUT_DIR'])\nreport={'status':'passed','scenario_count':96,'checks':['complete frozen grid','raw UL counts/bytes/decoded/capacity','explicit DL byte-to-symbol accounting','nonzero earliest availability','TTL','original frozen sources unchanged'],'display_condition':'refresh5,DLloss.1,extraDLdelay2; all96 retained','display_rows':display,'six_agent_frame_examples':example,'min_usable_fraction_all':min(r['counts']['usable_fraction'] for r in rows),'max_usable_fraction_all':max(r['counts']['usable_fraction'] for r in rows),'complex_training_go':False,'task_effect_tested':False,'scope':'Independent arithmetic/integrity audit, not independent radio validation'}\n(out/'cost_integrity_audit.json').write_text(json.dumps(report,indent=2)+'\\n')\nprint(json.dumps({'status':'passed','scenarios':96,'display_rows':len(display)}))\n"
+  ],
+  "seeds": [],
+  "models": [],
+  "cache_mode": "not_applicable",
+  "config_file": "research/protocols/receiver_summary_transport_audit_v1.json",
+  "git_commit": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "working_tree_status": "M .gitignore\n M AGENTS.md\n M README.md\n M research/logs/environment-2026-10-12/import-smoke.log\n M research/logs/environment-2026-10-12/pip-check.log\n M research/logs/environment-2026-10-12/pytest-collection.log\n M research/logs/environment-2026-10-12/pytest.log\n M research/reproduction/windows_environment.md\n M 硕士论文研究与实施说明书.md\n?? extensions/\n?? research/ideas/\n?? research/literature/\n?? research/logs/GOSC_paper_code_map.md\n?? research/logs/acceptance-pilot-2026-10-22/\n?? research/logs/final-audit-2026-10-22/\n?? research/logs/hpc-r1-r3-2026-10-19/\n?? research/logs/hpc-sync-2026-10-19/\n?? research/logs/ollama-2026-10-20/\n?? research/logs/paper-audit-2026-10-19/\n?? research/logs/progress-2026-10-19/\n?? research/logs/progress-2026-10-20/\n?? research/logs/r4-a0-2026-10-19/\n?? research/logs/r4-a1-2026-10-19/\n?? research/logs/r4-cost-probe-2026-10-19/\n?? research/logs/remaining-repro-2026-10-19/\n?? research/logs/resume-and-rq-2026-10-20/\n?? research/logs/run-sync-2026-10-19/\n?? research/logs/summary-cost-2026-10-22/\n?? research/logs/upstream-gap-2026-10-20/\n?? research/protocols/\n?? research/reports/\n?? research/reproduction/figure_table_audit_2026-10-19.md\n?? research/reproduction/hpc_environment.md\n?? research/reproduction/ollama_hpc.md\n?? research/reproduction/paper_table_references.json\n?? research/reproduction/r4_a0_report_2026-10-19.md\n?? research/reproduction/r4_a1_report_2026-10-19.md\n?? research/reproduction/r4_cost_probe_report_2026-10-19.md\n?? research/reproduction/repro_protocol.md\n?? research/reproduction/repro_report.md\n?? research/reproduction/requirements-linux.freeze.txt\n?? research/reproduction/requirements-linux.lock.txt\n?? research/sync/\n?? research/workspace_paths.json\n?? scripts/hpc_ollama.py\n?? scripts/hpc_ollama_cleanup.py\n?? scripts/hpc_reproduce.py\n?? scripts/hpc_runs.py\n?? scripts/paper_audit.py\n?? scripts/r4_a1.py\n?? scripts/r4_cost_probe.py\n?? scripts/r4_pilot.py\n?? scripts/r4_pilot_audit.py\n?? scripts/r4_preflight.py\n?? scripts/repro_acceptance.py\n?? scripts/repro_cache_probe.py\n?? scripts/repro_compare.py\n?? scripts/repro_coverage_audit.py\n?? scripts/repro_differences.py\n?? scripts/repro_display.py\n?? scripts/repro_extra.py\n?? scripts/repro_fresh_plan.py\n?? scripts/repro_legacy.py\n?? scripts/repro_llm_tables.py\n?? scripts/repro_llm_transport.py\n?? scripts/repro_ordered.py\n?? scripts/repro_post_audit.py\n?? scripts/repro_receiver_audit.py\n?? scripts/repro_receiver_pilot.py\n?? scripts/repro_remaining_inventory.py\n?? scripts/repro_resume.py\n?? scripts/repro_selection.py\n?? scripts/repro_summary_audit.py\n?? scripts/repro_summary_transport_audit.py\n?? scripts/sync_hpc.py\n?? tests_ext/",
+  "source_sync_id": "20261022T083902Z",
+  "source_manifest_sha256": "79cf8a31aa838baad6e7b4007606ce96e783a694d3f714fc46d4f4484febbda0",
+  "python_executable": "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+  "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+  "resource_limits": {
+    "cpu_quota": "200000",
+    "cpu_period": "100000",
+    "cpuset": "0-1",
+    "memory_bytes": "25769803776",
+    "gpu_settings": {
+      "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+      "CUDA_DEVICE_SM_LIMIT": "75"
+    }
+  },
+  "metrics_not_measured": [
+    "peak_gpu_memory",
+    "tokens",
+    "channel_uses"
+  ],
+  "config_sha256": "5df69e46453732224a037258dec9fa3b87815ad9efdbf288624d375756bdcab0"
+}

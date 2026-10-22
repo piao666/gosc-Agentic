@@ -1,0 +1,655 @@
+{
+  "observed_at": "2026-10-22T02:47:30.232145Z",
+  "uid": 8301880,
+  "active": [],
+  "run_sizes": [
+    {
+      "run_id": "ordered-selection-20261019",
+      "artifact_files": 21,
+      "artifact_bytes": 50708907,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 14605112
+        },
+        {
+          "path": "outputs/selection_episodes.jsonl",
+          "size": 11222094
+        }
+      ]
+    },
+    {
+      "run_id": "ordered-selection-fresh-20261019",
+      "artifact_files": 17,
+      "artifact_bytes": 1933374,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 650610
+        },
+        {
+          "path": "outputs/selection_episodes.jsonl",
+          "size": 501221
+        }
+      ]
+    },
+    {
+      "run_id": "ordered-c-frontier-20261019",
+      "artifact_files": 14,
+      "artifact_bytes": 7251332,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 2566073
+        },
+        {
+          "path": "outputs/pool-001-events.jsonl",
+          "size": 1966194
+        }
+      ]
+    },
+    {
+      "run_id": "ordered-c-where-20261019",
+      "artifact_files": 14,
+      "artifact_bytes": 5394249,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 1896057
+        },
+        {
+          "path": "outputs/pool-001-events.jsonl",
+          "size": 1445136
+        }
+      ]
+    },
+    {
+      "run_id": "resume-c-belief-20261020",
+      "artifact_files": 14,
+      "artifact_bytes": 1534394,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 532989
+        },
+        {
+          "path": "outputs/pool-001-events.jsonl",
+          "size": 415643
+        }
+      ]
+    },
+    {
+      "run_id": "resume-c-analysis-20261020",
+      "artifact_files": 9,
+      "artifact_bytes": 99277,
+      "largest": [
+        {
+          "path": "outputs/requirements-linux.lock.txt",
+          "size": 43313
+        },
+        {
+          "path": "outputs/mplconfig/fontlist-v3.11.0.json",
+          "size": 28696
+        }
+      ]
+    },
+    {
+      "run_id": "resume-radio-noise-20261020",
+      "artifact_files": 14,
+      "artifact_bytes": 123453980,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 55971326
+        },
+        {
+          "path": "outputs/legacy_results/noise.jsonl",
+          "size": 55899295
+        }
+      ]
+    },
+    {
+      "run_id": "resume-radio-overhead-20261020",
+      "artifact_files": 14,
+      "artifact_bytes": 125130252,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 47187332
+        },
+        {
+          "path": "outputs/legacy_results/overhead.jsonl",
+          "size": 37527862
+        }
+      ]
+    },
+    {
+      "run_id": "resume-radio-shared-20261020",
+      "artifact_files": 14,
+      "artifact_bytes": 26977096,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 10165340
+        },
+        {
+          "path": "outputs/legacy_results/shared.jsonl",
+          "size": 7958626
+        }
+      ]
+    },
+    {
+      "run_id": "resume-radio-fresh-20261020",
+      "artifact_files": 18,
+      "artifact_bytes": 8339366,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 3595431
+        },
+        {
+          "path": "outputs/pool-001-events.jsonl",
+          "size": 2952453
+        }
+      ]
+    },
+    {
+      "run_id": "resume-main-sweeps-20261020",
+      "artifact_files": 35,
+      "artifact_bytes": 14431904,
+      "largest": [
+        {
+          "path": "outputs/pool-002-jobs.jsonl",
+          "size": 1555219
+        },
+        {
+          "path": "outputs/pool-plans.jsonl",
+          "size": 1363177
+        }
+      ]
+    },
+    {
+      "run_id": "resume-revision-rest-20261020",
+      "artifact_files": 46,
+      "artifact_bytes": 46622728,
+      "largest": [
+        {
+          "path": "outputs/pool-007-jobs.jsonl",
+          "size": 7907755
+        },
+        {
+          "path": "outputs/pool-007-events.jsonl",
+          "size": 5690522
+        }
+      ]
+    },
+    {
+      "run_id": "resume-joint-20261020",
+      "artifact_files": 14,
+      "artifact_bytes": 1920121,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 682961
+        },
+        {
+          "path": "outputs/pool-001-events.jsonl",
+          "size": 513471
+        }
+      ]
+    },
+    {
+      "run_id": "resume-scheduler-20261020",
+      "artifact_files": 15,
+      "artifact_bytes": 1739494,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 1231368
+        },
+        {
+          "path": "outputs/legacy_results/rev_additivity_W50.npy",
+          "size": 224792
+        }
+      ]
+    },
+    {
+      "run_id": "resume-theory-20261020",
+      "artifact_files": 13,
+      "artifact_bytes": 2569006,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 2485152
+        },
+        {
+          "path": "outputs/requirements-linux.lock.txt",
+          "size": 43313
+        }
+      ]
+    },
+    {
+      "run_id": "resume-value-fidelity-20261020",
+      "artifact_files": 13,
+      "artifact_bytes": 924212,
+      "largest": [
+        {
+          "path": "outputs/original_comparison.json",
+          "size": 311849
+        },
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 240855
+        }
+      ]
+    },
+    {
+      "run_id": "resume-fidelity-analysis-20261020",
+      "artifact_files": 8,
+      "artifact_bytes": 67523,
+      "largest": [
+        {
+          "path": "outputs/requirements-linux.lock.txt",
+          "size": 43313
+        },
+        {
+          "path": "outputs/input_integrity.json",
+          "size": 15423
+        }
+      ]
+    },
+    {
+      "run_id": "resume-cached-llm-20261020",
+      "artifact_files": 6,
+      "artifact_bytes": 65405,
+      "largest": [
+        {
+          "path": "outputs/requirements-linux.lock.txt",
+          "size": 43313
+        },
+        {
+          "path": "outputs/input_integrity.json",
+          "size": 15423
+        }
+      ]
+    },
+    {
+      "run_id": "resume-live-llm-20261020",
+      "artifact_files": 11,
+      "artifact_bytes": 34226831,
+      "largest": [
+        {
+          "path": "outputs/live_episodes.jsonl",
+          "size": 17260346
+        },
+        {
+          "path": "outputs/http_attempts.jsonl",
+          "size": 16836204
+        }
+      ]
+    },
+    {
+      "run_id": "resume-sensitivity-20261020",
+      "artifact_files": 18,
+      "artifact_bytes": 604483,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 155212
+        },
+        {
+          "path": "outputs/selection_episodes.jsonl",
+          "size": 116846
+        }
+      ]
+    },
+    {
+      "run_id": "resume-sensitivity-fresh-20261020",
+      "artifact_files": 16,
+      "artifact_bytes": 1895875,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 650714
+        },
+        {
+          "path": "outputs/selection_episodes.jsonl",
+          "size": 501221
+        }
+      ]
+    },
+    {
+      "run_id": "resume-genie-fresh-20261020",
+      "artifact_files": 15,
+      "artifact_bytes": 959252,
+      "largest": [
+        {
+          "path": "outputs/pool-001-jobs.jsonl",
+          "size": 324201
+        },
+        {
+          "path": "outputs/selection_episodes.jsonl",
+          "size": 249058
+        }
+      ]
+    },
+    {
+      "run_id": "resume-final-replot-20261020",
+      "artifact_files": 44,
+      "artifact_bytes": 1343928,
+      "largest": [
+        {
+          "path": "outputs/legacy_results/summary_realistic.json",
+          "size": 701257
+        },
+        {
+          "path": "outputs/legacy_results/summary_revision.json",
+          "size": 61061
+        }
+      ]
+    }
+  ],
+  "cache_files": [
+    {
+      "path": "results/llm_cache/qwen2.5_3b.jsonl",
+      "size": 1183239
+    },
+    {
+      "path": "results/llm_cache/qwen2.5_7b.jsonl",
+      "size": 446121
+    },
+    {
+      "path": "results/llm_cache/llama3.2_3b.jsonl",
+      "size": 949716
+    }
+  ],
+  "parent": {
+    "status": "completed_available_procedures_with_documented_gaps",
+    "skipped_completed": [
+      {
+        "stage": "selection",
+        "run_id": "ordered-selection-20261019",
+        "status_sha256": "75cf34f4ea5a8a32d18812851f82e223ae51e2331d02b8146bc035d7ba5258b0",
+        "artifacts_sha256": "18bd66fe0465cc5b918d06ccdd5177b682065be4e2d3a9711fbd229968ecd892"
+      },
+      {
+        "stage": "selection-fresh",
+        "run_id": "ordered-selection-fresh-20261019",
+        "status_sha256": "f8da9846993817a75f81801ed4faa42962713bd70e6a897ddc64f1380c501da9",
+        "artifacts_sha256": "a1d37ec6e557273d6ab4135888594d6cf2dc468804856ad20e8768003b710da8"
+      },
+      {
+        "stage": "c-frontier",
+        "run_id": "ordered-c-frontier-20261019",
+        "status_sha256": "c06a178619992718a7f9ea041a8edf509136e156da44aa53494e8d7f32455297",
+        "artifacts_sha256": "0cef6c04e5d826932dab1bd889258f9cb2564d5b08d7e7c4ca8db46f9592f836"
+      },
+      {
+        "stage": "c-where",
+        "run_id": "ordered-c-where-20261019",
+        "status_sha256": "e5587d4024183d691bae5f0b08bb0d5ef1554081d79d60a79f1f1bc5623abece",
+        "artifacts_sha256": "5f468be94bba83addc86a30c77b2a77fbd23c49d878a54168453bda901f3674e"
+      },
+      {
+        "stage": "c-belief",
+        "run_id": "resume-c-belief-20261020",
+        "status_sha256": "fc8339e98c3c293e991872877a0f3f9e319a0b99cef88c7e4333c46680c55d6d",
+        "artifacts_sha256": "37b9d789aa5341f798f6836c97e9dfd71779d20a1fa6736a65d3d7cbe64acb28"
+      },
+      {
+        "stage": "c-analysis",
+        "run_id": "resume-c-analysis-20261020",
+        "status_sha256": "1ac2110beaf6abaeeead16e993fb34e9522cd8d2a055deb05f4151ddc0f48de3",
+        "artifacts_sha256": "e559dfe261cc8966809ebb41c210838e372a82d75c2e4630d55a2f69803e8830"
+      }
+    ],
+    "stages": [
+      {
+        "stage": "radio-noise",
+        "run_id": "resume-radio-noise-20261020",
+        "status": "completed",
+        "started_at": 1792467369.3318083,
+        "updated_at": 1792480790.3923442,
+        "progress": {
+          "pool": 1,
+          "planned": 23400,
+          "completed": 23400,
+          "elapsed_seconds": 13415.521941125393,
+          "workers": 2
+        },
+        "exit_code": 0,
+        "finished_at": 1792480793.3969145
+      },
+      {
+        "stage": "radio-overhead",
+        "run_id": "resume-radio-overhead-20261020",
+        "status": "completed",
+        "started_at": 1792480793.4011323,
+        "updated_at": 1792493097.2176187,
+        "progress": {
+          "pool": 1,
+          "planned": 82600,
+          "completed": 82600,
+          "elapsed_seconds": 12294.926155529916,
+          "workers": 2
+        },
+        "exit_code": 0,
+        "finished_at": 1792493100.2238276
+      },
+      {
+        "stage": "radio-shared",
+        "run_id": "resume-radio-shared-20261020",
+        "status": "completed",
+        "started_at": 1792493100.2275462,
+        "updated_at": 1792495606.6538768,
+        "progress": {
+          "pool": 1,
+          "planned": 18400,
+          "completed": 18375,
+          "elapsed_seconds": 2502.8818090707064,
+          "workers": 2
+        },
+        "exit_code": 0,
+        "finished_at": 1792495609.665296
+      },
+      {
+        "stage": "radio-fresh",
+        "run_id": "resume-radio-fresh-20261020",
+        "status": "completed",
+        "started_at": 1792495609.6777966,
+        "updated_at": 1792499786.7989764,
+        "progress": {
+          "pool": 1,
+          "planned": 10000,
+          "completed": 9975,
+          "elapsed_seconds": 4169.825600340962,
+          "workers": 2
+        },
+        "exit_code": 0,
+        "finished_at": 1792499789.802915
+      },
+      {
+        "stage": "main-sweeps",
+        "run_id": "resume-main-sweeps-20261020",
+        "status": "completed",
+        "started_at": 1792499789.807324,
+        "updated_at": 1792501701.0833504,
+        "progress": {
+          "pool": 6,
+          "planned": 700,
+          "completed": 700,
+          "elapsed_seconds": 84.54225128144026,
+          "workers": 2
+        },
+        "exit_code": 0,
+        "finished_at": 1792501704.0874698
+      },
+      {
+        "stage": "revision-rest",
+        "run_id": "resume-revision-rest-20261020",
+        "status": "completed",
+        "started_at": 1792501704.0939255,
+        "updated_at": 1792507249.0585043,
+        "progress": {
+          "pool": 9,
+          "planned": 1600,
+          "completed": 1600,
+          "elapsed_seconds": 79.58379779756069,
+          "workers": 2
+        },
+        "exit_code": 0,
+        "finished_at": 1792507252.0623977
+      },
+      {
+        "stage": "joint",
+        "run_id": "resume-joint-20261020",
+        "status": "completed",
+        "started_at": 1792507252.0662851,
+        "updated_at": 1792508607.4436123,
+        "progress": {
+          "pool": 1,
+          "planned": 1800,
+          "completed": 1775,
+          "elapsed_seconds": 1323.0952566191554,
+          "workers": 2
+        },
+        "exit_code": 0,
+        "finished_at": 1792508610.4483323
+      },
+      {
+        "stage": "scheduler",
+        "run_id": "resume-scheduler-20261020",
+        "status": "completed",
+        "started_at": 1792508610.4524872,
+        "updated_at": 1792508646.5121694,
+        "progress": {
+          "pool": 1,
+          "planned": 60,
+          "completed": 50,
+          "elapsed_seconds": 31.386103197932243,
+          "workers": 2
+        },
+        "exit_code": 0,
+        "finished_at": 1792508649.5156522
+      },
+      {
+        "stage": "theory",
+        "run_id": "resume-theory-20261020",
+        "status": "completed",
+        "started_at": 1792508649.5199897,
+        "updated_at": 1792508673.5645075,
+        "progress": {
+          "pool": 1,
+          "planned": 60,
+          "completed": 50,
+          "elapsed_seconds": 20.257541730999947,
+          "workers": 2
+        },
+        "exit_code": 0,
+        "finished_at": 1792508676.5706959
+      },
+      {
+        "stage": "value-fidelity",
+        "run_id": "resume-value-fidelity-20261020",
+        "status": "completed",
+        "started_at": 1792508676.5751138,
+        "updated_at": 1792512035.7294586,
+        "progress": {
+          "pool": 1,
+          "planned": 300,
+          "completed": 275,
+          "elapsed_seconds": 3084.0876076370478,
+          "workers": 2
+        },
+        "exit_code": 0,
+        "finished_at": 1792512038.734582
+      },
+      {
+        "stage": "fidelity-analysis",
+        "run_id": "resume-fidelity-analysis-20261020",
+        "status": "completed",
+        "started_at": 1792512038.738409,
+        "updated_at": 1792512047.757553,
+        "exit_code": 0,
+        "finished_at": 1792512050.7645435
+      },
+      {
+        "stage": "cached-llm",
+        "run_id": "resume-cached-llm-20261020",
+        "status": "failed",
+        "started_at": 1792512050.7722938,
+        "updated_at": 1792512050.776876,
+        "exit_code": 1,
+        "finished_at": 1792512053.7800896
+      },
+      {
+        "stage": "live-llm",
+        "run_id": "resume-live-llm-20261020",
+        "status": "completed",
+        "started_at": 1792512053.7842631,
+        "updated_at": 1792547113.5779748,
+        "exit_code": 0,
+        "finished_at": 1792547116.582748
+      },
+      {
+        "stage": "sensitivity",
+        "run_id": "resume-sensitivity-20261020",
+        "status": "completed",
+        "started_at": 1792547116.589333,
+        "updated_at": 1792547137.6424856,
+        "progress": {
+          "pool": 1,
+          "planned": 300,
+          "completed": 275,
+          "elapsed_seconds": 17.255666449666023,
+          "workers": 2
+        },
+        "exit_code": 0,
+        "finished_at": 1792547140.6473505
+      },
+      {
+        "stage": "sensitivity-fresh",
+        "run_id": "resume-sensitivity-fresh-20261020",
+        "status": "completed",
+        "started_at": 1792547140.6536286,
+        "updated_at": 1792547519.3537326,
+        "progress": {
+          "pool": 1,
+          "planned": 1200,
+          "completed": 1175,
+          "elapsed_seconds": 369.2603456750512,
+          "workers": 2
+        },
+        "exit_code": 0,
+        "finished_at": 1792547522.3580341
+      },
+      {
+        "stage": "genie-fresh",
+        "run_id": "resume-genie-fresh-20261020",
+        "status": "completed",
+        "started_at": 1792547522.363404,
+        "updated_at": 1792547552.4252183,
+        "progress": {
+          "pool": 1,
+          "planned": 600,
+          "completed": 575,
+          "elapsed_seconds": 28.08102072775364,
+          "workers": 2
+        },
+        "exit_code": 0,
+        "finished_at": 1792547555.429952
+      },
+      {
+        "stage": "final-replot",
+        "run_id": "resume-final-replot-20261020",
+        "status": "completed",
+        "started_at": 1792547555.4359086,
+        "updated_at": 1792547883.0373852,
+        "exit_code": 0,
+        "finished_at": 1792547886.0419714
+      }
+    ],
+    "original_deadline_epoch": 1792665375.888633,
+    "finished_at": 1792547886.0528004
+  }
+}

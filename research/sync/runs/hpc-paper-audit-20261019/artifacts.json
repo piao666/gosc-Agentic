@@ -1,0 +1,55 @@
+{
+  "run_id": "hpc-paper-audit-20261019",
+  "files": [
+    {
+      "path": "outputs/audit_summary.json",
+      "size": 876,
+      "sha256": "1646f20984deec6b8435e847a139e4d22a9915afe7a9dc5a7a9542af16f02839"
+    },
+    {
+      "path": "outputs/commands.json",
+      "size": 378,
+      "sha256": "4120adfdd4f11640ac11ad27d87ea881938d8b75f93760e79974d22d69037e03"
+    },
+    {
+      "path": "outputs/completed_table_vi_comparison.json",
+      "size": 176,
+      "sha256": "e146b3207d6610ebc902a364bebd3a42b5fa5c1fc9e62c4b6cd73013cf40a7c8"
+    },
+    {
+      "path": "outputs/fill-table-vi.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fill-table-vi.stdout.log",
+      "size": 793,
+      "sha256": "318a5f4023c7f152f74d0f677236b40218bc5625852c2057bac7b73ada1190d3"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/mplconfig/fontlist-v3.11.0.json",
+      "size": 28696,
+      "sha256": "c8784accf3c75aacbacf90f02539e44a4035ac33910ee957c606f789908b9ba4"
+    },
+    {
+      "path": "outputs/original_table_comparison.json",
+      "size": 2153,
+      "sha256": "1117f640119e1f4b7f719ff2e9e9c56ffbc470e960b07ce8215ce17e308a1ae4"
+    },
+    {
+      "path": "outputs/static_and_frozen_checks.json",
+      "size": 5327,
+      "sha256": "d9278f0345d5a703e220091d06cfa1d75537f031c804db6d5a15e7887220d2d6"
+    },
+    {
+      "path": "outputs/supplements/table_values.tex",
+      "size": 793,
+      "sha256": "318a5f4023c7f152f74d0f677236b40218bc5625852c2057bac7b73ada1190d3"
+    }
+  ]
+}

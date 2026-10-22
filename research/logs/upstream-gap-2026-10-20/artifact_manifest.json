@@ -1,0 +1,115 @@
+{
+  "created_at_utc": "2026-10-20T06:49:58.472456+00:00",
+  "role": "local static inquiry evidence; not HPC science artifacts",
+  "protected_tracked_paths_modified": false,
+  "new_scientific_tests": 0,
+  "new_simulations": 0,
+  "hpc_source_uploaded": false,
+  "files": [
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/config_history.diff",
+      "bytes": 2028,
+      "sha256": "e3d0b21d0637fc29381f2cc6520da0e5b5dd92487c766752e826cfca982036da"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/existing_hpc_trace_excerpt.json",
+      "bytes": 7849,
+      "sha256": "bb1f61563199a73fdc15458e74d2ff061aeb158bb5a4ca24c0df4df7ed918377"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/findings.json",
+      "bytes": 2523,
+      "sha256": "6c1c38c15a52bc695f541562ef2cc46488164ca2477623875e930033656b013b"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/github_public_api.json",
+      "bytes": 33844,
+      "sha256": "30e448c41682689192a873213b2bddedb72459b69205fd4031e1be5c61018f4b"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/mirror_recovered_observation.json",
+      "bytes": 2529,
+      "sha256": "13d31f2e391c6587b7300b4a9f8aa8b51a22f1f92db60ec5c22bcff87c1ada44"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/prior_branch_provenance.json",
+      "bytes": 2727,
+      "sha256": "f2dba3f4103bedb3066612c0e59e5486c9119d7ae3a1b10e75e52d4386149b05"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/prior_statistical_provenance.json",
+      "bytes": 835,
+      "sha256": "881bdf32fe4f6fe8e3933a9fafd74bd0a2fe736665700040a36f3d03c9482ef8"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/public_refs.txt",
+      "bytes": 58,
+      "sha256": "ecb0af92808baa3474ccf7e4f7699e0d9b1b0f5e70a47f04950e18a5be526a3c"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/queue_observation.json",
+      "bytes": 2954,
+      "sha256": "99a842a4c12bbaa6024ad87759ba21e8feabbf0b7beb27b7cd1cf6d358b4baf6"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/source_history_audit.json",
+      "bytes": 18531,
+      "sha256": "7680fb9d052720a2b10fa5413e391497633363ebc18a76c383440982d0bb5907"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/task_brief.md",
+      "bytes": 1416,
+      "sha256": "d49f3c2fd5d86cbf0cb3e06b2964a8fc128dd718b6c71ce63b35f5ab73588eef"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/web_primary_sources.json",
+      "bytes": 1956,
+      "sha256": "036415e365958e6953fca21eedc48008b86d2ffc398c36f17cc1268a426660a3"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/prior_branch/author_reference.json",
+      "bytes": 502,
+      "sha256": "01bd568a857a021d2e8b09c5630306d2ea3f55b161667c480e41a0cb1de2de59"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/prior_branch/compatibility_matrix.csv",
+      "bytes": 3133,
+      "sha256": "37f54d8db477a3bd9e0587ca8b8d825479d45241ac3e96b577037570514c382c"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/prior_branch/diagnosis_report.md",
+      "bytes": 6962,
+      "sha256": "75128d3fc9369667a239e06ea797e0ff5d56a91eacb194d4dca76111ad9a7ef4"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/prior_branch/experiment_manifest.json",
+      "bytes": 16516,
+      "sha256": "51f2c2e384c0a10683aeac32839fa262f41f555880a4c95a9fa834010b7d5ebe"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/prior_branch/first_scheduler_divergence.json",
+      "bytes": 6981,
+      "sha256": "09923417928c5cc3ed2d4bdcc2ba2eeca9bf129fe0df379215a2e9148e0e454e"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/prior_branch/statistical_final_review.json",
+      "bytes": 788,
+      "sha256": "e29f5e697a6e84dab2cb15ef49d54f85882a9f63ee5aacde001346eae047345d"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/prior_branch/statistical_report.md",
+      "bytes": 8595,
+      "sha256": "60b4efa5d59fa06c52c5dad0f541c74f1110f9a5303b7f9fcbf2cc69ba51b767"
+    },
+    {
+      "path": "research/logs/upstream-gap-2026-10-20/prior_branch/upstream_reproduction_question_draft.md",
+      "bytes": 2994,
+      "sha256": "9dd54c72b76550ebdbe9495acc5e18f0e0a6ca6ef7be11bfcc7257f564a8a978"
+    },
+    {
+      "path": "research/reports/upstream_gap_investigation_2026-10-20.md",
+      "bytes": 9955,
+      "sha256": "e41b5f598fafe9a93e7dbe325747b1fe5b4c22ccdb12b6260021239643c20607"
+    }
+  ]
+}

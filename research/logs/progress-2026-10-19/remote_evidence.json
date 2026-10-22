@@ -1,0 +1,386 @@
+{
+  "repository": "https://github.com/piao666/gosc-Agentic",
+  "head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "commits": [
+    {
+      "sha": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+      "date": "2026-10-12T06:27:47Z",
+      "message": "Configure Windows reproduction environment and initialize research working copy",
+      "stats": {
+        "total": 65431,
+        "additions": 1529,
+        "deletions": 63902
+      },
+      "files": [
+        {
+          "path": ".gitignore",
+          "status": "modified"
+        },
+        {
+          "path": "AGENTS.md",
+          "status": "added"
+        },
+        {
+          "path": "README.md",
+          "status": "modified"
+        },
+        {
+          "path": "requirements-windows.lock.txt",
+          "status": "added"
+        },
+        {
+          "path": "research/logs/2026-10-12_environment_task_brief.md",
+          "status": "added"
+        },
+        {
+          "path": "research/logs/environment-2026-10-12/baseline-input-sha256.json",
+          "status": "added"
+        },
+        {
+          "path": "research/logs/environment-2026-10-12/environment_manifest.json",
+          "status": "added"
+        },
+        {
+          "path": "research/logs/environment-2026-10-12/hardware.json",
+          "status": "added"
+        },
+        {
+          "path": "research/logs/environment-2026-10-12/import-smoke.log",
+          "status": "added"
+        },
+        {
+          "path": "research/logs/environment-2026-10-12/pip-check.log",
+          "status": "added"
+        },
+        {
+          "path": "research/logs/environment-2026-10-12/publication_audit.json",
+          "status": "added"
+        },
+        {
+          "path": "research/logs/environment-2026-10-12/pytest-collection.log",
+          "status": "added"
+        },
+        {
+          "path": "research/logs/environment-2026-10-12/pytest.log",
+          "status": "added"
+        },
+        {
+          "path": "research/logs/environment-2026-10-12/validation_commands.json",
+          "status": "added"
+        },
+        {
+          "path": "research/logs/task_log_2026-10-12.md",
+          "status": "added"
+        },
+        {
+          "path": "research/reproduction/windows_environment.md",
+          "status": "added"
+        },
+        {
+          "path": "results/summary_realistic.json",
+          "status": "removed"
+        },
+        {
+          "path": "results/summary_revision.json",
+          "status": "removed"
+        },
+        {
+          "path": "scripts/bootstrap_windows.ps1",
+          "status": "added"
+        },
+        {
+          "path": "硕士论文研究与实施说明书.md",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "sha": "387b49389385b51c275dc5a22ec1672087edda1d",
+      "date": "2026-09-30T08:03:38Z",
+      "message": "Merge extensions into one package and one results folder",
+      "stats": {
+        "total": 28100,
+        "additions": 4453,
+        "deletions": 23647
+      },
+      "files": [
+        {
+          "path": ".gitignore",
+          "status": "modified"
+        },
+        {
+          "path": "README.md",
+          "status": "modified"
+        },
+        {
+          "path": "experiments/analyze_theory.py",
+          "status": "renamed",
+          "previous_filename": "gosc_ext/analyze_theory.py"
+        },
+        {
+          "path": "experiments/plot_realistic.py",
+          "status": "renamed",
+          "previous_filename": "gosc_ext/report.py"
+        },
+        {
+          "path": "experiments/run_belief_divergence.py",
+          "status": "renamed",
+          "previous_filename": "gosc_ext/run_tv_where.py"
+        },
+        {
+          "path": "experiments/run_llm_extended.py",
+          "status": "renamed",
+          "previous_filename": "gosc_ext/run_llm.py"
+        },
+        {
+          "path": "experiments/run_realistic.py",
+          "status": "renamed",
+          "previous_filename": "gosc_ext/run.py"
+        },
+        {
+          "path": "experiments/validate_realistic.py",
+          "status": "renamed",
+          "previous_filename": "gosc_ext/validate.py"
+        },
+        {
+          "path": "gosc/__init__.py",
+          "status": "modified"
+        },
+        {
+          "path": "gosc/config.py",
+          "status": "modified"
+        },
+        {
+          "path": "gosc/realistic.py",
+          "status": "added"
+        },
+        {
+          "path": "gosc_ext/__init__.py",
+          "status": "removed"
+        },
+        {
+          "path": "gosc_ext/config.py",
+          "status": "removed"
+        },
+        {
+          "path": "gosc_ext/schemes.py",
+          "status": "removed"
+        },
+        {
+          "path": "gosc_ext/sim.py",
+          "status": "removed"
+        },
+        {
+          "path": "results/belief_divergence.jsonl",
+          "status": "renamed",
+          "previous_filename": "results_r2/where_tom_tv.jsonl"
+        },
+        {
+          "path": "results/llm_cache/llama3.2_3b.jsonl",
+          "status": "modified"
+        },
+        {
+          "path": "results/llm_cache/qwen2.5_7b.jsonl",
+          "status": "renamed",
+          "previous_filename": "results_r2/llm_cache/qwen2.5_7b.jsonl"
+        },
+        {
+          "path": "results/llm_extended.jsonl",
+          "status": "renamed",
+          "previous_filename": "results_r2/llm_r2.jsonl"
+        },
+        {
+          "path": "results/noise.jsonl.gz",
+          "status": "renamed",
+          "previous_filename": "results_r2/noise.jsonl.gz"
+        },
+        {
+          "path": "results/overhead.jsonl.gz",
+          "status": "renamed",
+          "previous_filename": "results_r2/overhead.jsonl.gz"
+        },
+        {
+          "path": "results/shared.jsonl.gz",
+          "status": "renamed",
+          "previous_filename": "results_r2/shared.jsonl.gz"
+        },
+        {
+          "path": "results/summary_realistic.json",
+          "status": "renamed",
+          "previous_filename": "results_r2/summary_r2.json"
+        },
+        {
+          "path": "results/theory.json",
+          "status": "renamed",
+          "previous_filename": "results_r2/theory.json"
+        },
+        {
+          "path": "results/validate_noise.json",
+          "status": "renamed",
+          "previous_filename": "results_r2/validate_noise.json"
+        },
+        {
+          "path": "results/validate_overhead.json",
+          "status": "renamed",
+          "previous_filename": "results_r2/validate_overhead.json"
+        },
+        {
+          "path": "results/validate_shared.json",
+          "status": "renamed",
+          "previous_filename": "results_r2/validate_shared.json"
+        },
+        {
+          "path": "results_r2/llm_cache/llama3.2_3b.jsonl",
+          "status": "removed"
+        },
+        {
+          "path": "results_r2/llm_cache/qwen2.5_3b.jsonl",
+          "status": "removed"
+        },
+        {
+          "path": "scripts/unpack_results.sh",
+          "status": "modified"
+        },
+        {
+          "path": "tests/test_realistic.py",
+          "status": "renamed",
+          "previous_filename": "tests_ext/test_ext.py"
+        }
+      ]
+    },
+    {
+      "sha": "9440859d376d6e343e673f3c1d6478fdc0c3ff95",
+      "date": "2026-09-30T07:59:31Z",
+      "message": "Write generated figures and tables to figures/",
+      "stats": {
+        "total": 14,
+        "additions": 7,
+        "deletions": 7
+      },
+      "files": [
+        {
+          "path": ".gitignore",
+          "status": "modified"
+        },
+        {
+          "path": "README.md",
+          "status": "modified"
+        },
+        {
+          "path": "experiments/plot.py",
+          "status": "modified"
+        },
+        {
+          "path": "gosc_ext/report.py",
+          "status": "modified"
+        },
+        {
+          "path": "gosc_ext/run_tv_where.py",
+          "status": "modified"
+        },
+        {
+          "path": "manuscript/figures/.gitkeep",
+          "status": "removed"
+        }
+      ]
+    }
+  ],
+  "researchFiles": [
+    {
+      "path": "research/logs/2026-10-12_environment_task_brief.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5aacbe1c5c73077fc066d4a6cef9202e0584ab7a",
+      "size": 2306,
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/git/blobs/5aacbe1c5c73077fc066d4a6cef9202e0584ab7a"
+    },
+    {
+      "path": "research/logs/environment-2026-10-12/baseline-input-sha256.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99e2f59411fd78b75d2d5cc6d95d5575399a1f69",
+      "size": 7621,
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/git/blobs/99e2f59411fd78b75d2d5cc6d95d5575399a1f69"
+    },
+    {
+      "path": "research/logs/environment-2026-10-12/environment_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb4f557675b41071a933afaf719572f68c84826e",
+      "size": 4894,
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/git/blobs/fb4f557675b41071a933afaf719572f68c84826e"
+    },
+    {
+      "path": "research/logs/environment-2026-10-12/hardware.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57ed94aa33c5642317103254f75b15d9ce25c6cf",
+      "size": 404,
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/git/blobs/57ed94aa33c5642317103254f75b15d9ce25c6cf"
+    },
+    {
+      "path": "research/logs/environment-2026-10-12/import-smoke.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c29f21b72d825036e7ca012b4e4654707fe9efb7",
+      "size": 60,
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/git/blobs/c29f21b72d825036e7ca012b4e4654707fe9efb7"
+    },
+    {
+      "path": "research/logs/environment-2026-10-12/pip-check.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c688d8ccdad82420475fc31cb40020cccfeeef2b",
+      "size": 30,
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/git/blobs/c688d8ccdad82420475fc31cb40020cccfeeef2b"
+    },
+    {
+      "path": "research/logs/environment-2026-10-12/publication_audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "535538d77f3b2e5744e3c95f2c55bbd7f7bfacf6",
+      "size": 1518,
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/git/blobs/535538d77f3b2e5744e3c95f2c55bbd7f7bfacf6"
+    },
+    {
+      "path": "research/logs/environment-2026-10-12/pytest-collection.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b506043e41c25a997d69b8c9a1e862db1af0727e",
+      "size": 5189,
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/git/blobs/b506043e41c25a997d69b8c9a1e862db1af0727e"
+    },
+    {
+      "path": "research/logs/environment-2026-10-12/pytest.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82f69bf1feea65cbd54c81b6d2b5d385cabc5c74",
+      "size": 180,
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/git/blobs/82f69bf1feea65cbd54c81b6d2b5d385cabc5c74"
+    },
+    {
+      "path": "research/logs/environment-2026-10-12/validation_commands.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1cb2e1560d6ca8ce9e1b64de9b46116dabc04f4",
+      "size": 1892,
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/git/blobs/b1cb2e1560d6ca8ce9e1b64de9b46116dabc04f4"
+    },
+    {
+      "path": "research/logs/task_log_2026-10-12.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c27e6bb91e3466d4a6e1e646c6ba5149b3bc8258",
+      "size": 4778,
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/git/blobs/c27e6bb91e3466d4a6e1e646c6ba5149b3bc8258"
+    },
+    {
+      "path": "research/reproduction/windows_environment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e65ad59d147f596fe5a9b8c88d1a5839f6c4b3f",
+      "size": 3927,
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/git/blobs/6e65ad59d147f596fe5a9b8c88d1a5839f6c4b3f"
+    }
+  ]
+}

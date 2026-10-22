@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_conditional_transport_replay",
+  "scope": "post-v1 descriptive cost/availability diagnostic; no paid task policy, no new independent test",
+  "input_cost_audit": "hpc-summary-cost-audit-20261022",
+  "calibration_seeds": [
+    12000000,
+    12000001
+  ],
+  "W": [
+    100,
+    50
+  ],
+  "baseline_replays": 4,
+  "refresh_slots": [
+    1,
+    5,
+    10
+  ],
+  "with_pose": [
+    false,
+    true
+  ],
+  "dl_loss": [
+    0,
+    0.1
+  ],
+  "extra_dl_delay_slots": [
+    0,
+    2
+  ],
+  "scenarios": 96,
+  "ttl_slots": 20,
+  "UL_rate": 1,
+  "DL_rate": 2,
+  "CRC_bits": 16,
+  "UL_rule": "native task first, at most one pending latest-summary attempt per agent per slot and only within original residual budget; retransmission costs paid; expiry/supersession explicit",
+  "DL_rule": "encoded ACK broadcast contains(sender,tx_slot,success) and CRC; encoded complete latest snapshot has count/header/CRC; separate per-recipient erasure; ACK not free; earliest receiver use=t+1+delay",
+  "information_rule": "cache never used by task policy; cache age/decode depends only on delivered frames; world/eval leakage prohibited",
+  "clock": "fixed native H0 task traces, original mission end censors pending/flight, no fictitious post-mission radio opportunities",
+  "excludes": [
+    "new task gain",
+    "shared-UL request/grant transport",
+    "full matched-H rerun of native task packets",
+    "PHY preamble/guard/modem implementation",
+    "CPU-to-task-slot conversion without slot duration",
+    "session/restart protocol beyond fixed mission namespace"
+  ],
+  "max_wall_seconds": 600,
+  "workers": 1,
+  "numeric_threads": 1,
+  "training": false,
+  "llm_calls": 0
+}

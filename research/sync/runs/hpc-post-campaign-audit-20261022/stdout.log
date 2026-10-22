@@ -1,0 +1,38 @@
+published 30 {'completed': 15, 'blocked_missing_key': 15}
+published 60 {'completed': 30, 'blocked_missing_key': 30}
+published 90 {'completed': 45, 'blocked_missing_key': 45}
+published 120 {'completed': 60, 'blocked_missing_key': 60}
+published 150 {'completed': 75, 'blocked_missing_key': 75}
+published 180 {'completed': 90, 'blocked_missing_key': 90}
+published 210 {'completed': 105, 'blocked_missing_key': 105}
+published 240 {'completed': 120, 'blocked_missing_key': 120}
+published 270 {'completed': 135, 'blocked_missing_key': 135}
+published 300 {'completed': 150, 'blocked_missing_key': 150}
+published 330 {'completed': 165, 'blocked_missing_key': 165}
+published 360 {'completed': 180, 'blocked_missing_key': 180}
+published 390 {'completed': 180, 'blocked_missing_key': 210}
+published 420 {'completed': 180, 'blocked_missing_key': 240}
+published 450 {'completed': 180, 'blocked_missing_key': 270}
+published 480 {'completed': 180, 'blocked_missing_key': 300}
+published 510 {'completed': 180, 'blocked_missing_key': 330}
+published 540 {'completed': 180, 'blocked_missing_key': 360}
+published 570 {'completed': 180, 'blocked_missing_key': 390}
+new_live 30 {'completed': 30}
+new_live 60 {'completed': 60}
+new_live 90 {'completed': 90}
+new_live 120 {'completed': 120}
+new_live 150 {'completed': 150}
+new_live 180 {'completed': 180}
+new_live 210 {'completed': 210}
+new_live 240 {'completed': 240}
+new_live 270 {'completed': 270}
+new_live 300 {'completed': 300}
+new_live 330 {'completed': 330}
+new_live 360 {'completed': 360}
+new_live 390 {'completed': 390}
+new_live 420 {'completed': 420}
+new_live 450 {'completed': 450}
+new_live 480 {'completed': 480}
+new_live 510 {'completed': 510}
+new_live 540 {'completed': 540}
+new_live 570 {'completed': 570}

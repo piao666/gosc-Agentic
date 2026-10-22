@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-numpy-diagnosis-20261020",
+  "files": [
+    {
+      "path": "outputs/probe_plan.json",
+      "size": 16107,
+      "sha256": "90f839bac5b83dfd80ce2a5de75859df61d146243c4edf2ff8b262d80c827766"
+    }
+  ]
+}

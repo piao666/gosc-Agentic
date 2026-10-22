@@ -1,0 +1,28 @@
+{
+  "status": "completed_analyzed_audited",
+  "date": "2026-10-19",
+  "planned_missions": 1200,
+  "completed_missions": 1200,
+  "complete_pairs": 600,
+  "seed_range": [
+    3000,
+    3099
+  ],
+  "frozen_plan_sha256": "eba3d5b79dabf7fe665e659b815af0a7c3acd615bb54fc83867e347d68f09a40",
+  "test_run": "hpc-r4-a1-tests-20261019",
+  "simulation_run": "hpc-r4-a1-full-20261019",
+  "analysis_run": "hpc-r4-a1-analysis-20261019",
+  "audit_run": "hpc-r4-a1-audit-20261019",
+  "tests": {
+    "tests": 28,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "historical_matched_records": 1200,
+  "historical_mismatched_records": 0,
+  "runtime_seconds": 574.586676,
+  "original_inputs_unchanged": true,
+  "new_method_training_started": false,
+  "optional_genie_B_C_calibration_LLM_executed": false
+}

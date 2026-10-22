@@ -1,0 +1,11 @@
+{
+  "run_id": "hpc-ollama-deploy-20261020",
+  "status": "failed",
+  "started_at": "2026-10-20T01:53:34.547086+00:00",
+  "finished_at": null,
+  "exit_code": 1,
+  "pid": 7747,
+  "failure_reason": "EDQUOT during extraction; runner could not write final state",
+  "reconciled_at": "2026-10-20T01:59:13.583599+00:00",
+  "state_recovery": "Original observed start/PID retained; exit1 from traceback; exact finish unavailable. Metadata write retried only after quota permitted."
+}

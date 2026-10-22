@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-resume-freeze-tests-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T03:31:36.906261+00:00",
+  "finished_at": "2026-10-20T03:31:40.482552+00:00",
+  "exit_code": 0,
+  "pid": 17911,
+  "elapsed_seconds": 3.576321,
+  "resource_usage": {
+    "child_max_rss_kib": 51724,
+    "child_cpu_user_seconds": 2.176344,
+    "child_cpu_system_seconds": 0.21856899999999999,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

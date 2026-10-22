@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-revision-rest-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T13:08:24.325838+00:00",
+  "finished_at": "2026-10-20T14:40:49.188949+00:00",
+  "exit_code": 0,
+  "pid": 50318,
+  "elapsed_seconds": 5544.863139,
+  "resource_usage": {
+    "child_max_rss_kib": 85316,
+    "child_cpu_user_seconds": 10807.108628,
+    "child_cpu_system_seconds": 64.542077,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

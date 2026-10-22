@@ -1,0 +1,62 @@
+[
+  {
+    "run_id": "hpc-post-campaign-audit-20261022",
+    "command": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/repro_post_audit.py"
+    ],
+    "source_sync_id": "20261022T025120Z",
+    "source_manifest_sha256": "4060bbe69acb2ebae7b9a05d0261e8bfefd127ceb663de0fe443ad342f56d1ca",
+    "finished_at": "2026-10-22T02:57:47.816378+00:00",
+    "elapsed_seconds": 238.368941,
+    "note": ""
+  },
+  {
+    "run_id": "hpc-cache-gap-probe-20261022",
+    "command": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/repro_cache_probe.py"
+    ],
+    "source_sync_id": "20261022T025817Z",
+    "source_manifest_sha256": "3f60a29b9e07fcea260fe541e13ca8205ac73b3ca2d545fe2f6536a5658830f2",
+    "finished_at": "2026-10-22T02:59:44.736485+00:00",
+    "elapsed_seconds": 6.703202,
+    "note": ""
+  },
+  {
+    "run_id": "hpc-final-coverage-audit-20261022",
+    "command": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/repro_coverage_audit.py"
+    ],
+    "source_sync_id": "20261022T030231Z",
+    "source_manifest_sha256": "fe116d7300a34678367479e4fb6e9eb63bcba5e9c779b3e8a28a5d0f4959d836",
+    "finished_at": "2026-10-22T03:03:38.237561+00:00",
+    "elapsed_seconds": 6.90783,
+    "note": "coverage v1 superseded by v2"
+  },
+  {
+    "run_id": "hpc-final-coverage-audit-v2-20261022",
+    "command": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/repro_coverage_audit.py"
+    ],
+    "source_sync_id": "20261022T030635Z",
+    "source_manifest_sha256": "a9d848462c4716884c39bc1a5c831017f635260c4ee70684ab1c458e64c5f3ef",
+    "finished_at": "2026-10-22T03:07:54.793879+00:00",
+    "elapsed_seconds": 16.143177,
+    "note": ""
+  },
+  {
+    "run_id": "hpc-live-llm-tables-20261022",
+    "command": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/repro_llm_tables.py"
+    ],
+    "source_sync_id": "20261022T030635Z",
+    "source_manifest_sha256": "a9d848462c4716884c39bc1a5c831017f635260c4ee70684ab1c458e64c5f3ef",
+    "finished_at": "2026-10-22T03:07:58.494557+00:00",
+    "elapsed_seconds": 2.902549,
+    "note": ""
+  }
+]

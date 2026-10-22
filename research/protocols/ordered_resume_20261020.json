@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "status": "authorized_frozen_before_full_resume",
+  "source_head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "parent_run_id": "hpc-ordered-resume-20261020",
+  "original_plan_sha256": "5c815468e8616e40f8d5e6c0cd9af6751626bc91f79132603602bd5c72a02c2b",
+  "original_deadline_epoch": 1792665375.888633,
+  "original_deadline_utc": "2026-10-22T10:36:15.888633+00:00",
+  "preflight_run": "hpc-resume-evidence-20261020",
+  "verified_completed_prefix": [
+    {
+      "stage": "selection",
+      "run_id": "ordered-selection-20261019",
+      "status_sha256": "75cf34f4ea5a8a32d18812851f82e223ae51e2331d02b8146bc035d7ba5258b0",
+      "artifacts_sha256": "18bd66fe0465cc5b918d06ccdd5177b682065be4e2d3a9711fbd229968ecd892"
+    },
+    {
+      "stage": "selection-fresh",
+      "run_id": "ordered-selection-fresh-20261019",
+      "status_sha256": "f8da9846993817a75f81801ed4faa42962713bd70e6a897ddc64f1380c501da9",
+      "artifacts_sha256": "a1d37ec6e557273d6ab4135888594d6cf2dc468804856ad20e8768003b710da8"
+    },
+    {
+      "stage": "c-frontier",
+      "run_id": "ordered-c-frontier-20261019",
+      "status_sha256": "c06a178619992718a7f9ea041a8edf509136e156da44aa53494e8d7f32455297",
+      "artifacts_sha256": "0cef6c04e5d826932dab1bd889258f9cb2564d5b08d7e7c4ca8db46f9592f836"
+    },
+    {
+      "stage": "c-where",
+      "run_id": "ordered-c-where-20261019",
+      "status_sha256": "e5587d4024183d691bae5f0b08bb0d5ef1554081d79d60a79f1f1bc5623abece",
+      "artifacts_sha256": "5f468be94bba83addc86a30c77b2a77fbd23c49d878a54168453bda901f3674e"
+    },
+    {
+      "stage": "c-belief",
+      "run_id": "resume-c-belief-20261020",
+      "status_sha256": "fc8339e98c3c293e991872877a0f3f9e319a0b99cef88c7e4333c46680c55d6d",
+      "artifacts_sha256": "37b9d789aa5341f798f6836c97e9dfd71779d20a1fa6736a65d3d7cbe64acb28"
+    },
+    {
+      "stage": "c-analysis",
+      "run_id": "resume-c-analysis-20261020",
+      "status_sha256": "1ac2110beaf6abaeeead16e993fb34e9522cd8d2a055deb05f4151ddc0f48de3",
+      "artifacts_sha256": "e559dfe261cc8966809ebb41c210838e372a82d75c2e4630d55a2f69803e8830"
+    }
+  ],
+  "remaining_in_original_order": [
+    {
+      "stage": "radio-noise",
+      "run_id": "resume-radio-noise-20261020"
+    },
+    {
+      "stage": "radio-overhead",
+      "run_id": "resume-radio-overhead-20261020"
+    },
+    {
+      "stage": "radio-shared",
+      "run_id": "resume-radio-shared-20261020"
+    },
+    {
+      "stage": "radio-fresh",
+      "run_id": "resume-radio-fresh-20261020"
+    },
+    {
+      "stage": "main-sweeps",
+      "run_id": "resume-main-sweeps-20261020"
+    },
+    {
+      "stage": "revision-rest",
+      "run_id": "resume-revision-rest-20261020"
+    },
+    {
+      "stage": "joint",
+      "run_id": "resume-joint-20261020"
+    },
+    {
+      "stage": "scheduler",
+      "run_id": "resume-scheduler-20261020"
+    },
+    {
+      "stage": "theory",
+      "run_id": "resume-theory-20261020"
+    },
+    {
+      "stage": "value-fidelity",
+      "run_id": "resume-value-fidelity-20261020"
+    },
+    {
+      "stage": "fidelity-analysis",
+      "run_id": "resume-fidelity-analysis-20261020"
+    },
+    {
+      "stage": "cached-llm",
+      "run_id": "resume-cached-llm-20261020"
+    },
+    {
+      "stage": "live-llm",
+      "run_id": "resume-live-llm-20261020"
+    },
+    {
+      "stage": "sensitivity",
+      "run_id": "resume-sensitivity-20261020"
+    },
+    {
+      "stage": "sensitivity-fresh",
+      "run_id": "resume-sensitivity-fresh-20261020"
+    },
+    {
+      "stage": "genie-fresh",
+      "run_id": "resume-genie-fresh-20261020"
+    },
+    {
+      "stage": "final-replot",
+      "run_id": "resume-final-replot-20261020"
+    }
+  ],
+  "realistic_candidate_missions": {
+    "noise": 23400,
+    "shared": 18400,
+    "overhead": 82600
+  },
+  "realistic_fresh_maximum": 10300,
+  "fresh_plan": "scripts/repro_fresh_plan.py: freeze actual native-selected config/scheme/seeds before simulation; audit actual pool catalog; infeasible targets omitted with native rules, no fresh selection",
+  "workers": 2,
+  "numeric_threads": 1,
+  "official_environment": "Python3.11.15 NumPy2.4.6; isolated diagnostic versions never replace official",
+  "historical_scientific_differences": "selection22/frontier479/where364 unresolved in full; not an equivalence pass, negative evidence retained",
+  "failed_attempts_preserved": [
+    "hpc-ordered-queue-20261019",
+    "ordered-c-belief-20261019",
+    "hpc-numpy-diagnosis-20261020"
+  ],
+  "no_new_method_training": true,
+  "no_paid_api": true,
+  "literature_assets": "research/literature/reading_review_2026-10-20.md",
+  "local_mirror": ".local/resume-follow/resume_follow.py",
+  "limits": "Original stage caps and original global deadline apply. Source frozen during active run. No completed-stage reruns. Stop dependent stages on errors, original cached/live external-gap exceptions retained."
+}

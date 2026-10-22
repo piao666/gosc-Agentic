@@ -1,0 +1,30 @@
+{
+  "run_id": "hpc-c-resume-20261020",
+  "files": [
+    {
+      "path": "outputs/c-analysis.launch.log",
+      "size": 491,
+      "sha256": "e01c0e0253c2e90fbdb510ee49229b33b4187e1c36157a896512ab2ae011c2f6"
+    },
+    {
+      "path": "outputs/c-belief.launch.log",
+      "size": 489,
+      "sha256": "ac7a2c1695537aae32a510e1cb27c1f54ab90c04ba2ca525e4bb952bb010ec9a"
+    },
+    {
+      "path": "outputs/pipeline_status.json",
+      "size": 1949,
+      "sha256": "9255a576aba385b27741c4b299b07ed85f8c82be3b70100d329bbcab28db3957"
+    },
+    {
+      "path": "outputs/resume_manifest.json",
+      "size": 7252,
+      "sha256": "f84b9fcbd70694d6b63ad1224880b701abab0aef2359768533508efce02e40ff"
+    },
+    {
+      "path": "outputs/trace_divergence.json",
+      "size": 37545,
+      "sha256": "9b20621bfd4e4db2b2657aa7165db02cb0c5904b6a717b8709498beebb336c94"
+    }
+  ]
+}

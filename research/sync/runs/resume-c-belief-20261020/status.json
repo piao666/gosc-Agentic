@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-c-belief-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T03:12:10.479835+00:00",
+  "finished_at": "2026-10-20T03:14:47.110043+00:00",
+  "exit_code": 0,
+  "pid": 15815,
+  "elapsed_seconds": 156.630237,
+  "resource_usage": {
+    "child_max_rss_kib": 40988,
+    "child_cpu_user_seconds": 303.959908,
+    "child_cpu_system_seconds": 2.076257,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

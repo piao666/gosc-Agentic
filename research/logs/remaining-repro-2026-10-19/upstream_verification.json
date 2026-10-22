@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-19",
+  "repository": "https://github.com/frezazadeh/gosc-agentic-teams",
+  "remote_head": "387b49389385b51c275dc5a22ec1672087edda1d",
+  "matches_local_upstream_tag": true,
+  "checks": [
+    "git ls-remote upstream HEAD refs/heads/main",
+    "git log --all --oneline -- *calib* (no matches)",
+    "rg calibration/1000/1079 in experiments,gosc,README (declarations only)"
+  ],
+  "finding": "No executable calibration search procedure or historical calibration record in the currently verified original source; treat as unavailable upstream material, not a request for user files."
+}

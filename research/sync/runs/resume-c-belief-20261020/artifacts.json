@@ -1,0 +1,75 @@
+{
+  "run_id": "resume-c-belief-20261020",
+  "files": [
+    {
+      "path": "outputs/active_pool.json",
+      "size": 100,
+      "sha256": "229b020745e4ab74fc02f0c3a9b73aed667100a4c29eec0bf130122e64ac4dba"
+    },
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 207,
+      "sha256": "03e19f00652724c88e52ca82182444c83e9f9f122acf9b2aa854fb461ae8974b"
+    },
+    {
+      "path": "outputs/legacy_results/belief_divergence.jsonl",
+      "size": 342282,
+      "sha256": "1b51f569ff8cb714cbb642e35955c4d09ee8bfa8442cd24516b4a02a4d40bb3f"
+    },
+    {
+      "path": "outputs/original_comparison.json",
+      "size": 712,
+      "sha256": "d15f2873430b7d199fbc16ff327455f2f702af4435e18b683ab6195a7cd55c19"
+    },
+    {
+      "path": "outputs/pool-001-configs.jsonl",
+      "size": 16495,
+      "sha256": "7537f5b8e08f25e8a934b37dbacb66fe2d981b757fca551c1504f4b8a59579c2"
+    },
+    {
+      "path": "outputs/pool-001-events.jsonl",
+      "size": 415643,
+      "sha256": "72455c01559c054cb722a03572a6188d873acfda0d52f7d58f1c0bf9723cb1ad"
+    },
+    {
+      "path": "outputs/pool-001-jobs.jsonl",
+      "size": 532989,
+      "sha256": "aacb4d441acfc45b3bfa01e334166d76ad9c0e553c7d77a06f6daaeb16c37587"
+    },
+    {
+      "path": "outputs/pool-plans.jsonl",
+      "size": 164779,
+      "sha256": "d0da363daa1c3a8812cf78cab956ba9342610c300058673cd774a768de5975ad"
+    },
+    {
+      "path": "outputs/pool-summary.jsonl",
+      "size": 111,
+      "sha256": "986bcddedbfa1da3f25145116db97e3433c5ff289b0c70683ebef60a25fc699a"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/stage_audit.json",
+      "size": 277,
+      "sha256": "89b0faa711f8f97523f86d57864dfcda638dab2a035b250c3c703b0217de49f7"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 1115,
+      "sha256": "447fa80da6271b1a5ce8446c73d4f2bff80d36553dc4333876d9c7b5cb2b295c"
+    }
+  ]
+}

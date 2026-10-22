@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-20",
+  "scope": "Startup10 plus D08,D10,B10; not all42 or exhaustive SOTA search",
+  "sources": [
+    {
+      "id": "A01",
+      "expected_title": "JTCM — Agent-Native Task-Oriented Communication with Joint Token Compression Coding and Modulation",
+      "local_path": "E:\\Papers\\99-附件\\论文原文\\1-Agent-Native Task-Oriented Communication with Joint Token Compression Coding and Modulation.pdf",
+      "pdf_sha256": "5fd34ff51746f663f1a9a7af1a8c73a30c0fc66f3e042ef54562929fc85103b5",
+      "pages": "6",
+      "expected_url": "https://arxiv.org/abs/2608.00368",
+      "read_scope": "p.1–6正文",
+      "visually_verified_pdf_pages": [
+        3,
+        6
+      ],
+      "note": "research/literature/reading_notes/A01.md",
+      "official_code_execution": "not_run_this_task",
+      "publication_status": "local_PDF_metadata_only_not_independently_verified",
+      "private_pdf_synced": false
+    },
+    {
+      "id": "A02",
+      "expected_title": "BANDMAS — Causality-Inspired Semantic Packet Scheduling for Bandwidth-Efficient Multi-Agent Collaboration",
+      "local_path": "E:\\Papers\\99-附件\\论文原文\\2-Causality-Inspired Semantic Packet Scheduling for Bandwidth-Efficient Multi-Agent Collaboration.pdf",
+      "pdf_sha256": "f21bc0cb4d1521f33adf6ab38b56f36f4ce2d8009a6e733cf4ae130d79a6ead3",
+      "pages": "11",
+      "expected_url": "https://arxiv.org/abs/2608.00458",
+      "read_scope": "p.1–10正文/补充实验",
+      "visually_verified_pdf_pages": [
+        6,
+        9
+      ],
+      "note": "research/literature/reading_notes/A02.md",
+      "official_code_execution": "not_run_this_task",
+      "publication_status": "local_PDF_metadata_only_not_independently_verified",
+      "private_pdf_synced": false
+    },
+    {
+      "id": "B01",
+      "expected_title": "Deep Learning Enabled Semantic Communication Systems（DeepSC）",
+      "local_path": "E:\\Papers\\99-附件\\论文原文\\B1-Deep Learning Enabled Semantic Communication Systems.pdf",
+      "pdf_sha256": "55e9532aa8d375164ae6bed6a688a30695b5e9ff5a46de768eaadf9cc69303d6",
+      "pages": "13",
+      "expected_url": "https://arxiv.org/abs/2006.10685",
+      "read_scope": "p.1,3–6,8–12",
+      "visually_verified_pdf_pages": [
+        9
+      ],
+      "note": "research/literature/reading_notes/B01.md",
+      "official_code_execution": "not_run_this_task",
+      "publication_status": "local_PDF_metadata_only_not_independently_verified",
+      "private_pdf_synced": false
+    },
+    {
+      "id": "C02",
+      "expected_title": "Towards Semantic-based Agent Communication Networks: Vision, Technologies, and Challenges",
+      "local_path": "E:\\Papers\\99-附件\\论文原文\\C2-Towards Semantic-based Agent Communication Networks Vision, Technologies, and Challenges.pdf",
+      "pdf_sha256": "32feb1a2b8e21503372941edbcf7ae299568c5054cfd06f9576779d4235bee7b",
+      "pages": "46",
+      "expected_url": "https://arxiv.org/abs/2603.24328",
+      "read_scope": "p.1,5–9,17–18,25–28,38–39重点章节",
+      "visually_verified_pdf_pages": [
+        6
+      ],
+      "note": "research/literature/reading_notes/C02.md",
+      "official_code_execution": "not_run_this_task",
+      "publication_status": "local_PDF_metadata_only_not_independently_verified",
+      "private_pdf_synced": false
+    },
+    {
+      "id": "D01",
+      "expected_title": "GOSC — Resource-Efficient Semantic Communication for Heterogeneous Agentic Teams",
+      "local_path": "E:\\Papers\\99-附件\\论文原文\\D01-Resource-Efficient Semantic Communication for Heterogeneous Agentic Teams.pdf",
+      "pdf_sha256": "e99130b27965bc4b6c06ccca8fc2dd9a3fd8b2dd5f6880964b6e0a4003c01923",
+      "pages": "13",
+      "expected_url": "https://arxiv.org/abs/2609.39477",
+      "read_scope": "p.3–11及既有逐式图表代码映射",
+      "visually_verified_pdf_pages": [],
+      "note": "research/literature/reading_notes/D01.md",
+      "official_code_execution": "partial_reproduction_with_explicit_gaps",
+      "publication_status": "local_PDF_metadata_only_not_independently_verified",
+      "private_pdf_synced": false
+    },
+    {
+      "id": "D02",
+      "expected_title": "LLM-Based Multi-Agent Systems over Wireless Networks: A Joint Agent–Network Design Perspective",
+      "local_path": "E:\\Papers\\99-附件\\论文原文\\D02.pdf",
+      "pdf_sha256": "fab56dd6eda23456b936fae133db7c510b76583e5ecf9a8dca44e7dd8589af15",
+      "pages": "8",
+      "expected_url": "https://arxiv.org/abs/2609.37094",
+      "read_scope": "p.1–7正文",
+      "visually_verified_pdf_pages": [
+        7
+      ],
+      "note": "research/literature/reading_notes/D02.md",
+      "official_code_execution": "not_run_this_task",
+      "publication_status": "local_PDF_metadata_only_not_independently_verified",
+      "private_pdf_synced": false
+    },
+    {
+      "id": "D03",
+      "expected_title": "Agentic Semantic Communication: Concepts, Architectures, and Visions",
+      "local_path": "E:\\Papers\\99-附件\\论文原文\\D03.pdf",
+      "pdf_sha256": "2ed040650fef0117563f940688df40a0c41687c519dc73a25bd72f2beef7f79f",
+      "pages": "37",
+      "expected_url": "https://doi.org/10.1109/COMST.2026.3735868",
+      "read_scope": "p.1–2,7–8,13–15,20–21,25–26,28–30重点章节",
+      "visually_verified_pdf_pages": [
+        26
+      ],
+      "note": "research/literature/reading_notes/D03.md",
+      "official_code_execution": "not_run_this_task",
+      "publication_status": "local_PDF_metadata_only_not_independently_verified",
+      "private_pdf_synced": false
+    },
+    {
+      "id": "D04",
+      "expected_title": "Reasoning-Native Agentic Communication for 6G",
+      "local_path": "E:\\Papers\\99-附件\\论文原文\\D04-Reasoning-Native Agentic Communication for 6G.pdf",
+      "pdf_sha256": "2464ee9c4e109a84fc2c1416e9164f6b2a9e67f39b2dcfcc98de6d0ad32b5940",
+      "pages": "8",
+      "expected_url": "https://arxiv.org/abs/2602.17738",
+      "read_scope": "p.1–7正文",
+      "visually_verified_pdf_pages": [
+        7
+      ],
+      "note": "research/literature/reading_notes/D04.md",
+      "official_code_execution": "not_run_this_task",
+      "publication_status": "local_PDF_metadata_only_not_independently_verified",
+      "private_pdf_synced": false
+    },
+    {
+      "id": "D08",
+      "expected_title": "ToM2C — Target-oriented Multi-agent Communication and Cooperation with Theory of Mind",
+      "local_path": "E:\\Papers\\99-附件\\论文原文\\D08.pdf",
+      "pdf_sha256": "baee633fcc46d4d61749d3fad62d3f86850aee9fe2d02690a0cc61e8ddfebfc8",
+      "pages": "17",
+      "expected_url": "https://arxiv.org/abs/2111.09189",
+      "read_scope": "p.1–9,14–16；其余未逐段",
+      "visually_verified_pdf_pages": [
+        16
+      ],
+      "note": "research/literature/reading_notes/D08.md",
+      "official_code_execution": "not_run_this_task",
+      "publication_status": "local_PDF_metadata_only_not_independently_verified",
+      "private_pdf_synced": false
+    },
+    {
+      "id": "D10",
+      "expected_title": "Value of Communication in Goal-Oriented Semantic Communications: A Pareto Analysis",
+      "local_path": "E:\\Papers\\99-附件\\论文原文\\D10.pdf",
+      "pdf_sha256": "f50cb9cb616c132cea40164094c179527db2b3d7bec863cf0a7d64184a773d3b",
+      "pages": "16",
+      "expected_url": "https://arxiv.org/abs/2512.01454",
+      "read_scope": "p.1–7,11–14；证明仅结构核验",
+      "visually_verified_pdf_pages": [
+        7,
+        13
+      ],
+      "note": "research/literature/reading_notes/D10.md",
+      "official_code_execution": "not_run_this_task",
+      "publication_status": "local_PDF_metadata_only_not_independently_verified",
+      "private_pdf_synced": false
+    },
+    {
+      "id": "A03",
+      "expected_title": "AgentComm — Semantic Communication for Embodied Agents",
+      "local_path": "E:\\Papers\\99-附件\\论文原文\\3-AgentComm Semantic Communication for Embodied Agents.pdf",
+      "pdf_sha256": "6c812bb91a2a8b4741930638c76cf3bb5fd9fed745bb96588c2c724a44c0ef77",
+      "pages": "13",
+      "expected_url": "https://arxiv.org/abs/2604.13558",
+      "read_scope": "p.1,3–4,6,8–12重点章节",
+      "visually_verified_pdf_pages": [
+        11
+      ],
+      "note": "research/literature/reading_notes/A03.md",
+      "official_code_execution": "not_run_this_task",
+      "publication_status": "local_PDF_metadata_only_not_independently_verified",
+      "private_pdf_synced": false
+    },
+    {
+      "id": "B04",
+      "expected_title": "Adaptable Semantic Compression and Resource Allocation for Task-Oriented Communications",
+      "local_path": "E:\\Papers\\99-附件\\论文原文\\B4-Adaptable Semantic Compression and Resource Allocation for Task-Oriented Communications.pdf",
+      "pdf_sha256": "81c791232f33d34d0e46407705a24df7049696696e2addc4ba19b0d151b5f84e",
+      "pages": "14",
+      "expected_url": "https://arxiv.org/abs/2204.08910",
+      "read_scope": "p.1,3–4,6–10,13重点章节；附录未独立重证",
+      "visually_verified_pdf_pages": [
+        7
+      ],
+      "note": "research/literature/reading_notes/B04.md",
+      "official_code_execution": "not_run_this_task",
+      "publication_status": "local_PDF_metadata_only_not_independently_verified",
+      "private_pdf_synced": false
+    },
+    {
+      "id": "B10",
+      "expected_title": "iCoTASC — Importance-Aware Resource Allocation for Collaborative Task-Oriented Semantic Communication",
+      "local_path": "E:\\Papers\\99-附件\\论文原文\\B10-Importance-Aware Resource Allocation for Collaborative Task-Oriented Semantic Communication.pdf",
+      "pdf_sha256": "e835417c2539ed304a5b38d46bb09a5de01ae6fe256b68420473a4532ec174cc",
+      "pages": "6",
+      "expected_url": "https://arxiv.org/abs/2606.29052",
+      "read_scope": "p.1–6正文/算法/表",
+      "visually_verified_pdf_pages": [
+        6
+      ],
+      "note": "research/literature/reading_notes/B10.md",
+      "official_code_execution": "not_run_this_task",
+      "publication_status": "local_PDF_metadata_only_not_independently_verified",
+      "private_pdf_synced": false
+    }
+  ]
+}

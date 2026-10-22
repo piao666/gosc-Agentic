@@ -1,0 +1,245 @@
+{
+  "as_of": "2026-10-22 receiver summary information and encoded conditional transport cost audited",
+  "authority": "local research evidence assessment; not a run ledger",
+  "P0": "inventory, GOSC exact-PDF metadata, full numbered paper-code map and reproduction protocol present; full 42-paper metadata/publication audit remains partial",
+  "P1": "23 planned stages assessed:22 execution-completed,1 published-cache replay failed; run artifacts/234420 job ledgers verified; exact historical scientific consistency remains partial. Live570 completed, new-cache replay570 exact selected metrics,390 original mixed missions blocked by missing key. Full figure/table collection repaired to17PDF/18TeX. Calibration process still unavailable.",
+  "P2": "13 existing focused notes plus29 targeted excerpt notes; all42 have scoped notes, not exhaustive reading. Updated42-paper Gap Matrix, official-material audit, RQv2 and reviewer objections. Novelty not established.",
+  "P3_to_P5": "P3 bounded privileged receiver-state diagnostic completed1248 calibration+260 validation on HPC;5 tests and independent audit passed;0/6 primary task gates met. No paid-summary method, training, deployment claim or manuscript acceptance.",
+  "next_compute_location": "hpc",
+  "next_compute_action": "No automatic computation. Review RTT-aware retry/piggyback controls and define a minimal nonlearned value interface before a separate matched-H paid task-effect protocol. Full training remains No-Go.",
+  "local_parallel_action": "Review nearest-neighbor proofs/implementation for mechanisms actually adopted; global novelty and all publication/code execution audits remain partial.",
+  "training_status": "not_started; complex-training No-Go. Software encoding/transport availability audited, task gain not tested.",
+  "completed_hpc_runs": [
+    "hpc-env-20261019",
+    "hpc-r1-20261019",
+    "hpc-r2-20261019",
+    "hpc-r3-20261019",
+    "hpc-paper-audit-20261019",
+    "hpc-r4-preflight-20261019",
+    "hpc-r4-a0-executor-tests-20261019",
+    "hpc-r4-a0-executor-tests-v2-20261019",
+    "hpc-r4-a0-pilot-retry1-20261019",
+    "hpc-r4-a0-audit-20261019",
+    "hpc-r4-cost-tests-20261019",
+    "hpc-r4-cost-probe-20261019",
+    "hpc-r4-cost-audit-20261019",
+    "hpc-r4-a1-tests-20261019",
+    "hpc-r4-a1-full-20261019",
+    "hpc-r4-a1-analysis-20261019",
+    "hpc-r4-a1-audit-20261019",
+    "ordered-selection-20261019",
+    "ordered-selection-fresh-20261019",
+    "ordered-c-frontier-20261019",
+    "ordered-c-where-20261019",
+    "hpc-ollama-adapter-tests-20261020",
+    "hpc-ollama-storage-cleanup-20261020",
+    "hpc-ollama-deploy-retry1-20261020",
+    "hpc-ollama-final-check-20261020",
+    "hpc-progress-audit-20261020",
+    "hpc-compare-tests-20261020",
+    "hpc-difference-probe-20261020",
+    "hpc-numpy-diagnosis-relay-20261020",
+    "hpc-resume-tests-20261020",
+    "hpc-c-resume-20261020",
+    "resume-c-belief-20261020",
+    "resume-c-analysis-20261020",
+    "hpc-resume-final-tests-20261020",
+    "hpc-resume-freeze-tests-20261020",
+    "hpc-resume-evidence-20261020",
+    "resume-radio-noise-20261020",
+    "resume-radio-overhead-20261020",
+    "resume-radio-shared-20261020",
+    "resume-radio-fresh-20261020",
+    "resume-main-sweeps-20261020",
+    "resume-revision-rest-20261020",
+    "resume-joint-20261020",
+    "resume-scheduler-20261020",
+    "resume-theory-20261020",
+    "resume-value-fidelity-20261020",
+    "resume-fidelity-analysis-20261020",
+    "resume-live-llm-20261020",
+    "resume-sensitivity-20261020",
+    "resume-sensitivity-fresh-20261020",
+    "resume-genie-fresh-20261020",
+    "resume-final-replot-20261020",
+    "hpc-post-campaign-audit-20261022",
+    "hpc-cache-gap-probe-20261022",
+    "hpc-final-coverage-audit-20261022",
+    "hpc-final-coverage-audit-v2-20261022",
+    "hpc-live-llm-tables-20261022",
+    "hpc-ordered-resume-20261020",
+    "hpc-acceptance-scope-v2-20261022",
+    "hpc-rescue-display-20261022",
+    "hpc-receiver-protocol-20261022",
+    "hpc-receiver-tests-20261022",
+    "hpc-receiver-headroom-pilot-20261022",
+    "hpc-receiver-independent-audit-20261022",
+    "hpc-summary-cost-tests-20261022",
+    "hpc-summary-cost-audit-20261022",
+    "hpc-summary-transport-tests-20261022",
+    "hpc-summary-transport-audit-20261022",
+    "hpc-summary-cost-final-audit-20261022"
+  ],
+  "failed_r4_attempts": [
+    {
+      "run_id": "hpc-r4-a0-pilot-20261019",
+      "reason": "absolute script import path; fixed and retained",
+      "scientific_missions_started": 0
+    }
+  ],
+  "r4_a1_budget_proposal": "research/protocols/r4_a1_budget_proposal_2026-10-19.json",
+  "r4_a1_actual_state": "research/protocols/r4_a1_execution_2026-10-19.json",
+  "ordered_reproduction": {
+    "status": "all23_stages_assessed_22_exit0_1_cached_failed_scientific_partial",
+    "plan": "research/protocols/ordered_reproduction_v1.json",
+    "calibration": "upstream verified387b493 has declarations only; procedure not provided",
+    "selection_missions": 26700,
+    "realistic_candidate_missions": 124400,
+    "workers": 2,
+    "stages": 23,
+    "global_safety_cap_hours": 72,
+    "original_tests_and_adapter_tests": "35passed (see hpc-ordered-tests-20261019)",
+    "live_llm": "570missions=180planner+390mixed;28300HTTP;412historical-mismatch records. Full actual-call and response-cache audit completed; no fallback.",
+    "runtime_progress": "research/sync/runs/hpc-ordered-resume-20261020/outputs/pipeline_status.json",
+    "local_mirror_state": ".local/resume-follow/status.json",
+    "source_freeze_note": "Prelaunch snapshot; full continuation uses new IDs, skips six completed original stages, old failure retained; source frozen during active queue.",
+    "failure": "Original belief script has no main(); outside dispatcher fixed2026-10-20, actual-parser/Pool regression10passed in3.71s onHPC (hpc-ollama-adapter-tests-20261020). Failed run preserved; no automatic restart or completed-stage rerun.",
+    "phase_counts": {
+      "completed_execution": 6,
+      "pending_continuation": 17,
+      "old_failed_attempt_retained": 1,
+      "total_original_stages": 23
+    },
+    "completed_stages": [
+      {
+        "stage": "selection",
+        "missions": 26700
+      },
+      {
+        "stage": "selection-fresh",
+        "missions": 1200
+      },
+      {
+        "stage": "c-frontier",
+        "missions": 6800
+      },
+      {
+        "stage": "c-where",
+        "missions": 5000
+      },
+      {
+        "stage": "c-belief",
+        "missions": 1400,
+        "historical_comparison": "1400/1400 keys;0 differing metrics"
+      },
+      {
+        "stage": "c-analysis",
+        "missions": null,
+        "scope": "Native10000 bootstrap matched analysis; no claim historical C reconciled"
+      }
+    ],
+    "historical_difference_records": {
+      "selection": 22,
+      "c-frontier": 479,
+      "c-where": 364
+    },
+    "primary_completion_time_differences": {
+      "c-frontier": 228,
+      "c-where": 146
+    },
+    "comparison_coverage_gap": "Corrected explicit keys/duplicates/missing IDs; Genie300 full match; selection rescue3300 common18 differing with partial coverage (dedicated full catalog22 differs); zero common or zero scientific metrics is not_compared.",
+    "resume_guards": "HPC final25 regression checks passed (hpc-resume-freeze-tests-20261020); original deadline2026-10-22T10:36:15.888633Z, not reset",
+    "numeric_diagnosis": "24 repeat/scalar-exp/no-SIMD +12 isolated NumPy cases; partial numerical decision sensitivity, not full historical root cause; official2.4.6 unchanged",
+    "resume_protocol": "research/protocols/ordered_resume_20261020.json",
+    "post_campaign_audit_runs": [
+      "hpc-post-campaign-audit-20261022",
+      "hpc-cache-gap-probe-20261022",
+      "hpc-final-coverage-audit-20261022",
+      "hpc-final-coverage-audit-v2-20261022",
+      "hpc-live-llm-tables-20261022"
+    ],
+    "compressed_reference_audit_final_run": "hpc-final-coverage-audit-v2-20261022",
+    "complete_figures": "research/sync/runs/hpc-live-llm-tables-20261022/outputs/figures"
+  },
+  "ollama_deployment": {
+    "status": "completed_real_gpu_and_http_checks",
+    "config": "research/protocols/ollama_hpc_v1.json",
+    "docs": "research/reproduction/ollama_hpc.md",
+    "models": [
+      "qwen2.5:3b",
+      "llama3.2:3b",
+      "qwen2.5:7b"
+    ],
+    "inference_completed": true,
+    "run_id": "hpc-ollama-deploy-retry1-20261020",
+    "scientific_live_reproduction_completed": false,
+    "service": "http://127.0.0.1:11434",
+    "service_config_hpc": ".local/reproduction-services.json",
+    "user_authorized_cleanup_run": "hpc-ollama-storage-cleanup-20261020",
+    "scientific_live_execution_status": "570 completed identities:180 Planner control+390 mixed; original historical cache still unrecovered",
+    "scientific_live_reproduction_completed_scope": "Existing false refers to strict historical scientific acceptance, not execution completion"
+  },
+  "current_progress_report": "research/reports/receiver_summary_information_cost_audit_2026-10-22.md",
+  "progress_review_run": "hpc-progress-audit-20261020",
+  "P2_assets": {
+    "index": "research/literature/reading_review_2026-10-22.md",
+    "gap": "research/literature/Research-Gap-Matrix-2026-10-22.md",
+    "rq": "research/ideas/RQ_v2.md",
+    "review": "research/ideas/reviewer_objections_2026-10-22.md",
+    "official_material": "research/literature/official_material_audit_2026-10-22.md"
+  },
+  "previous_as_of": "2026-10-20 pre-continuation snapshot",
+  "final_audit_report": "research/reports/final_reproduction_audit_2026-10-22.md",
+  "delivery_receipt": "research/sync/receipts/20261022T084926Z-5f62ef.json",
+  "delivery_verified_at_utc": "2026-10-22T04:20:37.002025+00:00",
+  "published_cache_recovery_status": "not_recovered;390 mixed missions/130 first keys missing;15 existing-environment variants also blocked",
+  "current_live_cache_status": "570/570 original identities replayed with no selected metric differences and zero HTTP; snapshot preserved in registered outputs",
+  "retained_failures": [
+    {
+      "run_id": "resume-cached-llm-20261020",
+      "reason": "Published cache lacks current prompt key; no HTTP or planner substitution",
+      "restored": false
+    },
+    {
+      "run_id": "hpc-acceptance-scope-20261022",
+      "reason": "Initial new analysis entry omitted repository import path; fixed in v2; failed run retained",
+      "restored": false
+    }
+  ],
+  "acceptance_pilot": {
+    "protocol": "research/protocols/receiver_headroom_pilot_v1.md",
+    "run_id": "hpc-receiver-headroom-pilot-20261022",
+    "audit_run": "hpc-receiver-independent-audit-20261022",
+    "calibration_missions": 1248,
+    "validation_missions": 260,
+    "calibration_goal_uncompleted_kept": 5,
+    "validation_goal_uncompleted": 0,
+    "tests_passed": 5,
+    "primary_comparisons": 6,
+    "passed_joint_gate": 0,
+    "complex_training_go": false,
+    "report": "research/reports/receiver_headroom_pilot_2026-10-22.md",
+    "claim_matrix": "research/reports/claim_acceptance_matrix_2026-10-22.md",
+    "original_reproduction_acceptance": "partial; historical/cache/calibration gaps retained"
+  },
+  "summary_information_cost_audit": {
+    "status": "completed_with_limits",
+    "cost_run": "hpc-summary-cost-audit-20261022",
+    "transport_run": "hpc-summary-transport-audit-20261022",
+    "independent_audit": "hpc-summary-cost-final-audit-20261022",
+    "final_tests": 23,
+    "calibration_observations": 2274,
+    "conditional_transport_cases": 96,
+    "new_test_worlds": 0,
+    "native_task_policy_unchanged": true,
+    "paid_task_effect_tested": false,
+    "training": false,
+    "limits": [
+      "fixedH0 native task traces vs explicitly framed summaries",
+      "immediate retry lacks RTT-aware timer",
+      "conditional DL erasure and extra delay; no real RF measurement",
+      "no learning or value-interface implementation"
+    ],
+    "report": "research/reports/receiver_summary_information_cost_audit_2026-10-22.md"
+  }
+}

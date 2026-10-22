@@ -1,0 +1,29 @@
+pool 1: 500/900
+default: 900 episodes in 118s
+pool 2: 500/4200
+pool 2: 1000/4200
+pool 2: 1500/4200
+pool 2: 2000/4200
+pool 2: 2500/4200
+pool 2: 3000/4200
+pool 2: 3500/4200
+pool 2: 4000/4200
+snr: 4200 episodes in 607s
+pool 3: 500/3000
+pool 3: 1000/3000
+pool 3: 1500/3000
+pool 3: 2000/3000
+pool 3: 2500/3000
+pool 3: 3000/3000
+budget: 3000 episodes in 379s
+pool 4: 500/3000
+pool 4: 1000/3000
+pool 4: 1500/3000
+pool 4: 2000/3000
+pool 4: 2500/3000
+pool 4: 3000/3000
+agents: 3000 episodes in 384s
+pool 5: 500/700
+pareto: 700 episodes in 335s
+pool 6: 500/700
+pareto_tv: 700 episodes in 85s

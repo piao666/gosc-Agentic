@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-live-llm-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T16:00:53.969347+00:00",
+  "finished_at": "2026-10-21T01:45:14.874781+00:00",
+  "exit_code": 0,
+  "pid": 58402,
+  "elapsed_seconds": 35060.909463,
+  "resource_usage": {
+    "child_max_rss_kib": 128716,
+    "child_cpu_user_seconds": 301.541857,
+    "child_cpu_system_seconds": 41.948833,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

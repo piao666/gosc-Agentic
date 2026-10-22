@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/ollama/ollama/releases/download/v0.11.11/ollama-linux-amd64.tgz",
+  "download_method": "official URL, Windows temporary relay, resumed after TLS interruption",
+  "size_bytes": 1908755362,
+  "sha256": "1d2988c29346e6af0216c847db20f7df7794412ae56674eeec21e0917113843f",
+  "matches_official_release": true,
+  "local_execution_of_linux_binary": false
+}

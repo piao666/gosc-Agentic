@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-final-replot-20261020",
+  "status": "completed",
+  "started_at": "2026-10-21T01:52:35.636586+00:00",
+  "finished_at": "2026-10-21T01:58:03.183755+00:00",
+  "exit_code": 0,
+  "pid": 19445,
+  "elapsed_seconds": 327.547196,
+  "resource_usage": {
+    "child_max_rss_kib": 442268,
+    "child_cpu_user_seconds": 324.64136,
+    "child_cpu_system_seconds": 1.143761,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,35 @@
+{
+  "run_id": "hpc-ordered-queue-20261019",
+  "files": [
+    {
+      "path": "outputs/c-belief.launch.log",
+      "size": 494,
+      "sha256": "df13d4925254989cc1d495ccb29bd1493704bdbf2aafc841cf36367fd9ec31a2"
+    },
+    {
+      "path": "outputs/c-frontier.launch.log",
+      "size": 495,
+      "sha256": "326e814b5eb157f095ef857f72878537a7f36614491afc3a42adebe68212c65c"
+    },
+    {
+      "path": "outputs/c-where.launch.log",
+      "size": 489,
+      "sha256": "551af32530e68537aba758c2ba3150c29831799c6a55770cccdb2984046f4015"
+    },
+    {
+      "path": "outputs/pipeline_status.json",
+      "size": 3553,
+      "sha256": "b0553785488ec5f15d36b1784756f1a37f80a05fca068c199000effd061b8838"
+    },
+    {
+      "path": "outputs/selection-fresh.launch.log",
+      "size": 497,
+      "sha256": "cb312b5954803d39ec7c26de323efce5ddf44060b808b3c75d1a07c766de0a09"
+    },
+    {
+      "path": "outputs/selection.launch.log",
+      "size": 495,
+      "sha256": "33fa3c6b510cd2bc37e2e9dcf521ec1e5fd11f32a94acede9d55ab66ad461757"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "run_id": "hpc-difference-probe-20261020",
+  "files": [
+    {
+      "path": "outputs/coverage_comparison.json",
+      "size": 592160,
+      "sha256": "a55ea5a1ec217dc411224a19128d4799b138657990a5ed361a7332b3def1e172"
+    },
+    {
+      "path": "outputs/diagnostic_summary.json",
+      "size": 21772,
+      "sha256": "2d508caa7de034edb2cd9af8dad9e64944c63baca51f26946595d932bc6b9b99"
+    },
+    {
+      "path": "outputs/probe-default-repeat1.json",
+      "size": 5016,
+      "sha256": "92053c3d0d4307f1599854eb10bf9784a3bc9038fa9cd30e79370a7451e76a85"
+    },
+    {
+      "path": "outputs/probe-default-repeat2.json",
+      "size": 5016,
+      "sha256": "04abe48e75b4e27176e0ff510c58cce19eb6be58a0c6ccc476b949764a904250"
+    },
+    {
+      "path": "outputs/probe-no-simd.json",
+      "size": 5057,
+      "sha256": "fdfbb0059e04f580e4f4ed8ee001805a4029896e76fd36386f83c4f504c35737"
+    },
+    {
+      "path": "outputs/probe-scalar-exp.json",
+      "size": 5065,
+      "sha256": "d621ed85b25e623537f06d3ed23652464c379577ce022b474f5403bbbd657df7"
+    },
+    {
+      "path": "outputs/probe_plan.json",
+      "size": 16107,
+      "sha256": "90f839bac5b83dfd80ce2a5de75859df61d146243c4edf2ff8b262d80c827766"
+    },
+    {
+      "path": "outputs/selection_difference_details.json",
+      "size": 6853,
+      "sha256": "f872e791cebe03068a659806e26ab4a1471e9c6cc92937eff2f5e0a3c9f930b8"
+    },
+    {
+      "path": "outputs/trace-default-repeat1-0.json",
+      "size": 818271,
+      "sha256": "3afc69220e29e16480444b62e46f1efeb143bb67966000a3120a3b262b5c9344"
+    },
+    {
+      "path": "outputs/trace-default-repeat1-1.json",
+      "size": 745771,
+      "sha256": "081db65ede78e8515b2f2dd6f3951b69e9c73a0c69adbc83cf34db4ce302ccaa"
+    },
+    {
+      "path": "outputs/trace-default-repeat1-2.json",
+      "size": 1267945,
+      "sha256": "e8bea35aef58aac2d1dfef5dd84018a2033c2b4862cce43d55b0ebe5096125f4"
+    },
+    {
+      "path": "outputs/trace-default-repeat1-3.json",
+      "size": 730003,
+      "sha256": "d3f4a1576eb4932f6a25a0a65fd84c7e8024bb72e3949a55a9901fa3ab1830e7"
+    },
+    {
+      "path": "outputs/trace-default-repeat1-4.json",
+      "size": 991533,
+      "sha256": "6c73a004dd78b4fa57ad2f2868294a8b2774c89c854da0798d50b3db1eec3cd7"
+    },
+    {
+      "path": "outputs/trace-default-repeat1-5.json",
+      "size": 992168,
+      "sha256": "56f1d9bfeef64493701f22b6350bd1cd38e8bd682c646211ba2ae8e17f15b643"
+    },
+    {
+      "path": "outputs/trace-default-repeat2-0.json",
+      "size": 818271,
+      "sha256": "3afc69220e29e16480444b62e46f1efeb143bb67966000a3120a3b262b5c9344"
+    },
+    {
+      "path": "outputs/trace-default-repeat2-1.json",
+      "size": 745771,
+      "sha256": "081db65ede78e8515b2f2dd6f3951b69e9c73a0c69adbc83cf34db4ce302ccaa"
+    },
+    {
+      "path": "outputs/trace-default-repeat2-2.json",
+      "size": 1267945,
+      "sha256": "e8bea35aef58aac2d1dfef5dd84018a2033c2b4862cce43d55b0ebe5096125f4"
+    },
+    {
+      "path": "outputs/trace-default-repeat2-3.json",
+      "size": 730003,
+      "sha256": "d3f4a1576eb4932f6a25a0a65fd84c7e8024bb72e3949a55a9901fa3ab1830e7"
+    },
+    {
+      "path": "outputs/trace-default-repeat2-4.json",
+      "size": 991533,
+      "sha256": "6c73a004dd78b4fa57ad2f2868294a8b2774c89c854da0798d50b3db1eec3cd7"
+    },
+    {
+      "path": "outputs/trace-default-repeat2-5.json",
+      "size": 992168,
+      "sha256": "56f1d9bfeef64493701f22b6350bd1cd38e8bd682c646211ba2ae8e17f15b643"
+    },
+    {
+      "path": "outputs/trace-no-simd-0.json",
+      "size": 818271,
+      "sha256": "3afc69220e29e16480444b62e46f1efeb143bb67966000a3120a3b262b5c9344"
+    },
+    {
+      "path": "outputs/trace-no-simd-1.json",
+      "size": 745771,
+      "sha256": "081db65ede78e8515b2f2dd6f3951b69e9c73a0c69adbc83cf34db4ce302ccaa"
+    },
+    {
+      "path": "outputs/trace-no-simd-2.json",
+      "size": 1267945,
+      "sha256": "e8bea35aef58aac2d1dfef5dd84018a2033c2b4862cce43d55b0ebe5096125f4"
+    },
+    {
+      "path": "outputs/trace-no-simd-3.json",
+      "size": 730003,
+      "sha256": "d3f4a1576eb4932f6a25a0a65fd84c7e8024bb72e3949a55a9901fa3ab1830e7"
+    },
+    {
+      "path": "outputs/trace-no-simd-4.json",
+      "size": 991533,
+      "sha256": "6c73a004dd78b4fa57ad2f2868294a8b2774c89c854da0798d50b3db1eec3cd7"
+    },
+    {
+      "path": "outputs/trace-no-simd-5.json",
+      "size": 992168,
+      "sha256": "56f1d9bfeef64493701f22b6350bd1cd38e8bd682c646211ba2ae8e17f15b643"
+    },
+    {
+      "path": "outputs/trace-scalar-exp-0.json",
+      "size": 816490,
+      "sha256": "dc4cae0e8eb2f8245e5de5750221b47f4c21d9cfbc85a705787cf5669f16037a"
+    },
+    {
+      "path": "outputs/trace-scalar-exp-1.json",
+      "size": 745771,
+      "sha256": "de8680691b1fc28f01e9bb79046002076bade95a66678da0ad06c703b217815f"
+    },
+    {
+      "path": "outputs/trace-scalar-exp-2.json",
+      "size": 1267945,
+      "sha256": "d5567c23e4e9497a3e9fc1835a8a7c788c8d5731d505f2d56a47179f10f0c46c"
+    },
+    {
+      "path": "outputs/trace-scalar-exp-3.json",
+      "size": 729928,
+      "sha256": "72879992644ccd516440669ac3052610cd463f5778f2f3e95644376631e94a6e"
+    },
+    {
+      "path": "outputs/trace-scalar-exp-4.json",
+      "size": 991533,
+      "sha256": "e25dee962388e4aa4d750c3d8cca483781c11ccc0f1fc8e9d188b284fbff9659"
+    },
+    {
+      "path": "outputs/trace-scalar-exp-5.json",
+      "size": 992168,
+      "sha256": "617494f5a589d09f19bcbfd5254269707ad054ea9f4b1d96a86b3277d78b3d1e"
+    }
+  ]
+}

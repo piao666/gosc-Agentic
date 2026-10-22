@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "phase": "R4-A0",
+  "pre_registration_file": "research/protocols/r4_plan_v1.json",
+  "pre_registration_sha256": "313e55d9a9d30218b4a6088e74299d130727f4546908bd2c53a4edd015aad455",
+  "pilot_run": "hpc-r4-a0-pilot-retry1-20261019",
+  "prior_failed_run": "hpc-r4-a0-pilot-20261019",
+  "prior_failed_run_scientific_missions_started": 0,
+  "executor_validation_run": "hpc-r4-a0-executor-tests-v2-20261019",
+  "executor_tests_passed": 9,
+  "audit_run": "hpc-r4-a0-audit-20261019",
+  "scientific_missions": 60,
+  "complete_three_arm_pairs": 20,
+  "execution_failed_missions": 0,
+  "timed_out_missions": 0,
+  "interrupted_missions": 0,
+  "seeds": [
+    9000,
+    9009
+  ],
+  "workers_max_observed": 2,
+  "worker_numeric_threads": 1,
+  "run_elapsed_seconds": 20.110284,
+  "campaign_elapsed_seconds": 19.59533242881298,
+  "full_A1_status": "not_started",
+  "training_status": "not_started",
+  "report": "research/reproduction/r4_a0_report_2026-10-19.md",
+  "note": "Original v1 plan remains historically immutable and may still say planned/not implemented; this file records actual execution."
+}

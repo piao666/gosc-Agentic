@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "run_id": "hpc-r4-a0-audit-20261019",
+  "kind": "analysis",
+  "stage": "R4-A0-raw-audit",
+  "purpose": "Independently verify 60 raw keys, full configs, common worlds, means, process lifecycle and retained zero-mission predecessor; no new simulations",
+  "created_at": "2026-10-19T08:36:25.879975+00:00",
+  "execution_host": "n1",
+  "ssh_alias": "hpc",
+  "project_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "cwd": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "command": [
+    "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+    "scripts/r4_pilot_audit.py",
+    "--pilot-run",
+    "hpc-r4-a0-pilot-retry1-20261019"
+  ],
+  "seeds": [],
+  "models": [],
+  "cache_mode": "not_applicable",
+  "config_file": null,
+  "git_commit": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "working_tree_status": "M .gitignore\n M AGENTS.md\n M README.md\n M research/logs/environment-2026-10-12/import-smoke.log\n M research/logs/environment-2026-10-12/pip-check.log\n M research/logs/environment-2026-10-12/pytest-collection.log\n M research/logs/environment-2026-10-12/pytest.log\n M research/reproduction/windows_environment.md\n M 硕士论文研究与实施说明书.md\n?? research/literature/\n?? research/logs/GOSC_paper_code_map.md\n?? research/logs/hpc-r1-r3-2026-10-19/\n?? research/logs/hpc-sync-2026-10-19/\n?? research/logs/paper-audit-2026-10-19/\n?? research/logs/progress-2026-10-19/\n?? research/logs/r4-a0-2026-10-19/\n?? research/logs/run-sync-2026-10-19/\n?? research/protocols/\n?? research/reports/\n?? research/reproduction/figure_table_audit_2026-10-19.md\n?? research/reproduction/hpc_environment.md\n?? research/reproduction/paper_table_references.json\n?? research/reproduction/repro_protocol.md\n?? research/reproduction/repro_report.md\n?? research/reproduction/requirements-linux.freeze.txt\n?? research/reproduction/requirements-linux.lock.txt\n?? research/sync/\n?? research/workspace_paths.json\n?? scripts/hpc_reproduce.py\n?? scripts/hpc_runs.py\n?? scripts/paper_audit.py\n?? scripts/r4_pilot.py\n?? scripts/r4_pilot_audit.py\n?? scripts/r4_preflight.py\n?? scripts/sync_hpc.py\n?? tests_ext/",
+  "source_sync_id": "20261019T083552Z",
+  "source_manifest_sha256": "d860d06e4068da20d16da9d323d6e7d8ad2f9d9d637a615f713ec1123719b7b4",
+  "python_executable": "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+  "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+  "resource_limits": {
+    "cpu_quota": "200000",
+    "cpu_period": "100000",
+    "cpuset": "0-1",
+    "memory_bytes": "25769803776",
+    "gpu_settings": {
+      "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+      "CUDA_DEVICE_SM_LIMIT": "75"
+    }
+  },
+  "metrics_not_measured": [
+    "peak_gpu_memory",
+    "tokens",
+    "channel_uses"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-radio-overhead-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T07:19:55.043701+00:00",
+  "finished_at": "2026-10-20T10:44:57.704714+00:00",
+  "exit_code": 0,
+  "pid": 30851,
+  "elapsed_seconds": 12302.666509,
+  "resource_usage": {
+    "child_max_rss_kib": 484452,
+    "child_cpu_user_seconds": 24002.178796,
+    "child_cpu_system_seconds": 126.879534,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-ollama-storage-cleanup-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T02:02:37.449377+00:00",
+  "finished_at": "2026-10-20T02:03:15.131991+00:00",
+  "exit_code": 0,
+  "pid": 8400,
+  "elapsed_seconds": 37.682647,
+  "resource_usage": {
+    "child_max_rss_kib": 25052,
+    "child_cpu_user_seconds": 1.852852,
+    "child_cpu_system_seconds": 15.941232,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

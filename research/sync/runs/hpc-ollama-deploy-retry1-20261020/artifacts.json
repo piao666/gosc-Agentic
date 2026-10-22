@@ -1,0 +1,100 @@
+{
+  "run_id": "hpc-ollama-deploy-retry1-20261020",
+  "files": [
+    {
+      "path": "outputs/archive_verification.json",
+      "size": 318,
+      "sha256": "11ccc8281181f4943630c5c25d13464a9c6d1ac313a8e8e66c9e19e8b7ec3fa9"
+    },
+    {
+      "path": "outputs/deployment.json",
+      "size": 873,
+      "sha256": "81b0e2cda9ff88f16a634573806813855a0f77db4649d1fa3dd457e3b494ac06"
+    },
+    {
+      "path": "outputs/deployment_controller.py",
+      "size": 915,
+      "sha256": "3198ae6d245fe9dda54261412ac20de2c86cd5ae1eed59e912b8fa9ded2f8f41"
+    },
+    {
+      "path": "outputs/integration-cache/llama3.2_3b.jsonl",
+      "size": 93,
+      "sha256": "e354da4195bcff8b3c0c1c6ac0661ff04b85f13001e80ae60283ff3fb2b6e2ab"
+    },
+    {
+      "path": "outputs/integration-cache/qwen2.5_3b.jsonl",
+      "size": 93,
+      "sha256": "30cd8df1b8711df21ad5689af2c5f46c00bdb0b727ca8cd4e01d93a8e5a023c2"
+    },
+    {
+      "path": "outputs/integration-cache/qwen2.5_7b.jsonl",
+      "size": 93,
+      "sha256": "fac23312b760230cef3d48a33706533c9661ba9169665d8ec9ffd11113d5ee06"
+    },
+    {
+      "path": "outputs/llama3.2_3b-integration.json",
+      "size": 85,
+      "sha256": "aa91da2db52e43c2fa875e66be67f96958add2f15e6e96901f5b25bddfb79dce"
+    },
+    {
+      "path": "outputs/llama3.2_3b-pull.jsonl",
+      "size": 5010,
+      "sha256": "16f900702dae7f7dc8577a791210298786bcf71c3c5b42974fba64605ab852e7"
+    },
+    {
+      "path": "outputs/llama3.2_3b-smoke.json",
+      "size": 70541,
+      "sha256": "5481415493d91c61778ce08e660d86035ac15352f914e1ec8d8ddc31805f667a"
+    },
+    {
+      "path": "outputs/model_progress.json",
+      "size": 1657,
+      "sha256": "0853a25d0b94382430a2a5581310f8ccbf0984bce7eb68ad68fb1b8111fa515a"
+    },
+    {
+      "path": "outputs/partial_extraction_before_retry.json",
+      "size": 871,
+      "sha256": "60397c29d164d88d361b2ca930532513eb46e675916ba8dbb7e75c7c3846db49"
+    },
+    {
+      "path": "outputs/qwen2.5_3b-integration.json",
+      "size": 85,
+      "sha256": "aeb31ce215fadf25a32b19e92e309c6c802a979ae8f57b70ce111e3161f22b72"
+    },
+    {
+      "path": "outputs/qwen2.5_3b-pull.jsonl",
+      "size": 4719,
+      "sha256": "bfd966dd6598d95a2d3964c8c6433359011a43c401d66ad94a7ea9bcd5506640"
+    },
+    {
+      "path": "outputs/qwen2.5_3b-smoke.json",
+      "size": 81109,
+      "sha256": "ba0fd839a0054e7f4d77b6be048d182c6f7a3fbc1c58307fb046c6bd5bf51c81"
+    },
+    {
+      "path": "outputs/qwen2.5_7b-integration.json",
+      "size": 85,
+      "sha256": "dd8eb19389462c3df501f30aa149836b303ee343d5d0080e9f2bbc5fec7b3f67"
+    },
+    {
+      "path": "outputs/qwen2.5_7b-pull.jsonl",
+      "size": 4461,
+      "sha256": "27b13ce4a15bb0c13255b4738e16f4d0ae7cb6692736d176957d83522c24dd04"
+    },
+    {
+      "path": "outputs/qwen2.5_7b-smoke.json",
+      "size": 76486,
+      "sha256": "d8a0100ee8e9b8cc0e95ea2c17febaababf5959a756753e30a2fd3558d41f36d"
+    },
+    {
+      "path": "outputs/readiness.json",
+      "size": 1775,
+      "sha256": "59b563b2f9743c4889add302fba2ebb4c8a2b83c2e9ce3333d4cfba8c001da5d"
+    },
+    {
+      "path": "outputs/tags.json",
+      "size": 1409,
+      "sha256": "be74eed0f9b191572940f6f26e894c23a11aa43a67935f8f09a96b391fd4f8fb"
+    }
+  ]
+}

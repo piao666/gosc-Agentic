@@ -1,0 +1,35 @@
+{
+  "run_id": "resume-cached-llm-20261020",
+  "files": [
+    {
+      "path": "outputs/cached_episodes.jsonl",
+      "size": 1978,
+      "sha256": "ea6efbdd5e7239c60527eede54c0a0e98747135e8da36e14a443929588841bfc"
+    },
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 69,
+      "sha256": "ec283f0f7a4132287768a6ec50041c8f035e53b525210d577c15b3a0697b8afe"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 3674,
+      "sha256": "6a204b03d6c03f92b6a9ae15f413710a1d3880709d7356bffc0a4fc87df6aa5e"
+    }
+  ]
+}

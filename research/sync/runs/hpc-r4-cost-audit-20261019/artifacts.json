@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-r4-cost-audit-20261019",
+  "files": [
+    {
+      "path": "outputs/cost_probe_audit.json",
+      "size": 432,
+      "sha256": "4db569e09a60bfb4785340b9536af9b89afa0faf9b8ac3f77570d3853c6a5a49"
+    }
+  ]
+}

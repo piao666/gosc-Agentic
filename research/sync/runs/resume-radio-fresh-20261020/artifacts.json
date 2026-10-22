@@ -1,0 +1,95 @@
+{
+  "run_id": "resume-radio-fresh-20261020",
+  "files": [
+    {
+      "path": "outputs/active_pool.json",
+      "size": 101,
+      "sha256": "17a5b3beab99a0661321347be9d8d3ccf29401b8ca8d6b499ea63977f297126a"
+    },
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/fresh_job_plan.json",
+      "size": 33395,
+      "sha256": "eb2ec988a46da1bf74d89c72607c14e8001a16667f4117400fc1490317e3a697"
+    },
+    {
+      "path": "outputs/fresh_plan_audit.json",
+      "size": 114,
+      "sha256": "bf3ed80a8604f7a2b1b04b4b40acbdd207b22f5f950e75eedde4135c151c8350"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 473,
+      "sha256": "fb27f275690d6bfce61ea308fe00252c17af9f7c84d6265cd9134d9c0131209c"
+    },
+    {
+      "path": "outputs/legacy_results/validate_noise.json",
+      "size": 216508,
+      "sha256": "1a0541fa36cea7ed21da32305300228cd0e0c280001bdcd13cbd5591b464a206"
+    },
+    {
+      "path": "outputs/legacy_results/validate_overhead.json",
+      "size": 325659,
+      "sha256": "37c6ea367e38659ad838001370fa61f7ae7ee2846f1400a40480a40736961400"
+    },
+    {
+      "path": "outputs/legacy_results/validate_shared.json",
+      "size": 36180,
+      "sha256": "facc1fd92dceb1cdf53a4061d7d013b7ea8812c2cc8f997dfb1db3d193b1b618"
+    },
+    {
+      "path": "outputs/original_comparison.json",
+      "size": 552,
+      "sha256": "a17edd15af2a0b4d2348a7b4f30b101287222efa9040d5ab0195b3270498c4d2"
+    },
+    {
+      "path": "outputs/pool-001-configs.jsonl",
+      "size": 102526,
+      "sha256": "d89406af2783d14e33beef98ded5347fb6ca92bfc7129dafe85fa24cc2ec3dd2"
+    },
+    {
+      "path": "outputs/pool-001-events.jsonl",
+      "size": 2952453,
+      "sha256": "021fa77c073647f98f3faa3b8171bb334b5eb527e58d0ebfa288919322d23410"
+    },
+    {
+      "path": "outputs/pool-001-jobs.jsonl",
+      "size": 3595431,
+      "sha256": "560a770c049d8aa70e6c5a00bf61a351923ad8bb3b0183e6cbbb8892888406b0"
+    },
+    {
+      "path": "outputs/pool-plans.jsonl",
+      "size": 1014388,
+      "sha256": "8373d42cacab36eaf64a0004ee3db38aa91663493c964c6d6b997c5cc72ffa2f"
+    },
+    {
+      "path": "outputs/pool-summary.jsonl",
+      "size": 112,
+      "sha256": "f56cea281e8ecaaf7d67ea615cc434d7197ee8b384405b1d5b77af4c5948c7fe"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/stage_audit.json",
+      "size": 280,
+      "sha256": "566a955dc2cc074deeab27318a7054d52941a3babc9e5ed90fb8fdedbd219e87"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 1510,
+      "sha256": "c5d923a673ef27e46ce3fb00fbb9d576adba2339522dc8e532fe266955e053be"
+    }
+  ]
+}

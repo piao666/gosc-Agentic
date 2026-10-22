@@ -1,0 +1,156 @@
+{
+  "status": "verified",
+  "service": {
+    "pid": 8964,
+    "binary": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/ollama/runtime/0.11.11/bin/ollama",
+    "bind": "127.0.0.1:11434",
+    "models": "/home/u202520081000097/jupyterlab/models/ollama-gosc",
+    "version": "0.11.11",
+    "started_at_unix": 1792461864.997424,
+    "log": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/ollama/service.log",
+    "auto_restart_after_container_reboot": false
+  },
+  "api_version": {
+    "version": "0.11.11"
+  },
+  "tags": {
+    "models": [
+      {
+        "name": "qwen2.5:7b",
+        "model": "qwen2.5:7b",
+        "modified_at": "2026-10-20T10:12:26+08:00",
+        "size": 4683087332,
+        "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "7.6B",
+          "quantization_level": "Q4_K_M"
+        }
+      },
+      {
+        "name": "llama3.2:3b",
+        "model": "llama3.2:3b",
+        "modified_at": "2026-10-20T10:08:31+08:00",
+        "size": 2019393189,
+        "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "3.2B",
+          "quantization_level": "Q4_K_M"
+        }
+      },
+      {
+        "name": "qwen2.5:3b",
+        "model": "qwen2.5:3b",
+        "modified_at": "2026-10-20T10:06:20+08:00",
+        "size": 1929912432,
+        "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "3.1B",
+          "quantization_level": "Q4_K_M"
+        }
+      }
+    ]
+  },
+  "currently_loaded": {
+    "models": []
+  },
+  "model_checks": [
+    {
+      "model": "qwen2.5:3b",
+      "full_gpu": true,
+      "integration": {
+        "choice": "A",
+        "calls": 1,
+        "cache_hits": 0,
+        "seconds": 6.937629699707031
+      },
+      "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "3.1B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    {
+      "model": "llama3.2:3b",
+      "full_gpu": true,
+      "integration": {
+        "choice": "A",
+        "calls": 1,
+        "cache_hits": 0,
+        "seconds": 4.225199222564697
+      },
+      "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "3.2B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    {
+      "model": "qwen2.5:7b",
+      "full_gpu": true,
+      "integration": {
+        "choice": "A",
+        "calls": 1,
+        "cache_hits": 0,
+        "seconds": 4.082387685775757
+      },
+      "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "7.6B",
+        "quantization_level": "Q4_K_M"
+      }
+    }
+  ],
+  "resources": {
+    "cpu_quota": "200000",
+    "cpu_period": "100000",
+    "cpuset": "0-1",
+    "memory_bytes": "25769803776",
+    "gpu_settings": {
+      "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+      "CUDA_DEVICE_SM_LIMIT": "75"
+    }
+  },
+  "protected_upstream_diff": "",
+  "user_authorized_deletions_absent": true,
+  "current_project_and_shared_models_preserved": true,
+  "disk_allocations": "5505720320\t/home/u202520081000097/jupyterlab/Paper/gosc/.local/ollama\n8632483840\t/home/u202520081000097/jupyterlab/models/ollama-gosc\n",
+  "scientific_missions_in_this_deployment": 0,
+  "training_started": false,
+  "scope": "Readiness and protection checks; no full live-LLM reproduction claim"
+}

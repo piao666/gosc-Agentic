@@ -1,0 +1,70 @@
+{
+  "run_id": "resume-theory-20261020",
+  "files": [
+    {
+      "path": "outputs/active_pool.json",
+      "size": 95,
+      "sha256": "f591cf232b031fd33f8e29752f6e510dcb7b9cbf29a4f6f2c7bf45015a02bc27"
+    },
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 195,
+      "sha256": "ffa5b3af6a707b82950626d27fc5fe0258457961ae8ee988b00c5c4230e897ac"
+    },
+    {
+      "path": "outputs/legacy_results/theory.json",
+      "size": 2076,
+      "sha256": "4e413ebd169b73b26b10250062c309ff3ddc9d788e5f7dd69d42c638dd8e0792"
+    },
+    {
+      "path": "outputs/original_comparison.json",
+      "size": 234,
+      "sha256": "5ccebb0030e621a55e0c9ecb282f73e5f51e71520b5d74c1bf5f5465500b55f9"
+    },
+    {
+      "path": "outputs/pool-001-events.jsonl",
+      "size": 17172,
+      "sha256": "02cb0b4d7aa33245d92ae00eb06aa47c096de26b47fddc9e21f900335c204103"
+    },
+    {
+      "path": "outputs/pool-001-jobs.jsonl",
+      "size": 2485152,
+      "sha256": "28196b0de4e5e64ba5b6a65abf71c6826d32ee4cd8bad344919ca810f8923136"
+    },
+    {
+      "path": "outputs/pool-plans.jsonl",
+      "size": 599,
+      "sha256": "004bfee7e85375b1a876192d548102fefa11ec790a7ff77fa282551c8c8fa51c"
+    },
+    {
+      "path": "outputs/pool-summary.jsonl",
+      "size": 107,
+      "sha256": "14993a8278695620fd4334641186cddaae077f72acd3546f7f072fcd77432648"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/stage_audit.json",
+      "size": 271,
+      "sha256": "8eb451463660d09190eb7177bc8dc24f37f883b0e66b29a8d6a6cdff013621f9"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 3421,
+      "sha256": "f50897d1055cd7633c07f8e82652e36aad447a25ec66c50e312a64343044712b"
+    }
+  ]
+}

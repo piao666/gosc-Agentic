@@ -25,12 +25,16 @@ Python settings used for validation: `PYTHONUTF8=1`, `PYTHONDONTWRITEBYTECODE=1`
 `MPLBACKEND=Agg`. UTF-8 is an environment setting; no source or test encoding
 assumptions are patched. Agg permits plotting without a desktop window.
 
+## Current workspace location
+
+[CODE] On 2026-10-19 the user relocated the working checkout to `E:\gosc` and confirmed the paper library is `E:\Papers`. Commands below use the current checkout path. The recorded 2026-10-12 environment/test evidence is historical; the new checkout has no `.venv` yet and has not rerun those checks.
+
 ## Setup from PowerShell
 
 Install/use CPython 3.12 (the recorded patch version is 3.12.10), then run:
 
 ```powershell
-Set-Location 'E:\gosc-agentic-teams'
+Set-Location 'E:\gosc'
 & .\scripts\bootstrap_windows.ps1
 ```
 

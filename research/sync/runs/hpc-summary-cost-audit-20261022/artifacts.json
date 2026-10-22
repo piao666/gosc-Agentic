@@ -1,0 +1,45 @@
+{
+  "run_id": "hpc-summary-cost-audit-20261022",
+  "files": [
+    {
+      "path": "outputs/codec_benchmark.json",
+      "size": 101946,
+      "sha256": "300f18c21d5ec11d73a1b69f61ecd2b37259bd6955dfc23d8f04346a66ba2c83"
+    },
+    {
+      "path": "outputs/conclusion.json",
+      "size": 834,
+      "sha256": "05cd97512c3c38b340a6b3194d010af74f891915656ff8e19dcb7eb03b65f101"
+    },
+    {
+      "path": "outputs/cost_tables.json",
+      "size": 8727,
+      "sha256": "68923fe3fce135505cc134bd10e23feec911f1d6474e19058b19c5a93d272498"
+    },
+    {
+      "path": "outputs/evidence.json",
+      "size": 10047,
+      "sha256": "e6cd525f4518f5b1142ba890f966e11eabb0ea5a17f9bc0b769daaed5e7ace77"
+    },
+    {
+      "path": "outputs/guard_replays.json",
+      "size": 2875,
+      "sha256": "413967d87c17734e5d720a2a95ddc10bbabb8082c5e5b4c7987fb3cfe3e756b2"
+    },
+    {
+      "path": "outputs/observability_summary.json",
+      "size": 1921,
+      "sha256": "3877a45fd1f4e03d9e666e40a37dda33290ea2448867807da2f73cbd1256011e"
+    },
+    {
+      "path": "outputs/observations.jsonl",
+      "size": 993533,
+      "sha256": "8765891308921b74e86d3f0c08640ea42f799ef14e849514cb9d7f1e77f417b6"
+    },
+    {
+      "path": "outputs/shadow_cost.json",
+      "size": 30886,
+      "sha256": "6ef75414d0b739ccb170ea90a01ec9b64dde4ca2adcdf28ff6613b5491440282"
+    }
+  ]
+}

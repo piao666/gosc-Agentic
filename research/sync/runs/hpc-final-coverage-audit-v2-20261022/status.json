@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-final-coverage-audit-v2-20261022",
+  "status": "completed",
+  "started_at": "2026-10-22T03:07:38.650728+00:00",
+  "finished_at": "2026-10-22T03:07:54.793879+00:00",
+  "exit_code": 0,
+  "pid": 29832,
+  "elapsed_seconds": 16.143177,
+  "resource_usage": {
+    "child_max_rss_kib": 627752,
+    "child_cpu_user_seconds": 15.62775,
+    "child_cpu_system_seconds": 0.457829,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

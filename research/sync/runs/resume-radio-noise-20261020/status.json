@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-radio-noise-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T03:36:09.526704+00:00",
+  "finished_at": "2026-10-20T07:19:51.754420+00:00",
+  "exit_code": 0,
+  "pid": 18697,
+  "elapsed_seconds": 13422.234445,
+  "resource_usage": {
+    "child_max_rss_kib": 619060,
+    "child_cpu_user_seconds": 26460.639224,
+    "child_cpu_system_seconds": 41.042599,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

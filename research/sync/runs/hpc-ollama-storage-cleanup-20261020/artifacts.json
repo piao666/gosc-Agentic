@@ -1,0 +1,25 @@
+{
+  "run_id": "hpc-ollama-storage-cleanup-20261020",
+  "files": [
+    {
+      "path": "outputs/archive_restored.json",
+      "size": 265,
+      "sha256": "3bfe0f7c90d89c5e074ea586e2757b088a63ad4f9c4f573048b1eaf3255bbc2d"
+    },
+    {
+      "path": "outputs/cleanup_plan_verified.json",
+      "size": 562,
+      "sha256": "8f22fb97643c243c81b8b8091f361bf1bb87d6174ce2ec7f402784553d4785ad"
+    },
+    {
+      "path": "outputs/cleanup_progress.json",
+      "size": 332,
+      "sha256": "bd5a88988834ebfcea5f768cada1e63d855d4aa87697539aaa5d147c8b0a5e4b"
+    },
+    {
+      "path": "outputs/cleanup_result.json",
+      "size": 581,
+      "sha256": "b14bd87d03fe98ebd5d7e753b7f5e24db9e2904edb639c286b3f298d0b959cb1"
+    }
+  ]
+}

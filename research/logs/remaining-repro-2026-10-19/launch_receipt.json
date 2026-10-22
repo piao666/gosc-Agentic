@@ -1,0 +1,24 @@
+{
+  "run_id": "hpc-ordered-queue-20261019",
+  "launcher_pid": 27756,
+  "detached_from_ssh": true,
+  "command": [
+    "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/hpc_runs.py",
+    "run",
+    "--run-id",
+    "hpc-ordered-queue-20261019",
+    "--kind",
+    "infrastructure",
+    "--stage",
+    "ordered-reproduction-queue",
+    "--purpose",
+    "User-authorized sequential completion of remaining original reproduction; 23 stages, two workers, explicit upstream-calibration and live-runtime gaps",
+    "--config",
+    "research/protocols/ordered_reproduction_v1.json",
+    "--",
+    "{python}",
+    "scripts/repro_ordered.py",
+    "pipeline"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "run_id": "hpc-resume-evidence-20261020",
+  "files": [
+    {
+      "path": "outputs/c_simple_value_summary.json",
+      "size": 5399,
+      "sha256": "26d6807a8272e12ff2d4f691c34c52dac8df7a264caee79598ea1f481c479248"
+    },
+    {
+      "path": "outputs/campaign_preflight.json",
+      "size": 8765,
+      "sha256": "ff5f6d764ff34a42e7b2c8f9c6dbb4c952840ea63f7af6d670ca430f42566431"
+    },
+    {
+      "path": "outputs/trace_summary.json",
+      "size": 6759,
+      "sha256": "10776f1fe329b10d7c7e49a3af2b4863e45f56fb10038108019e569946eeaca7"
+    }
+  ]
+}

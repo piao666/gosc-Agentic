@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "ssh_alias": "hpc",
+  "remote_uid": 8301880,
+  "local_project_root": "E:\\gosc",
+  "remote_project_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "runtime_python": "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+  "runtime_status": "project_venv_ready",
+  "default_cpu_workers": 2,
+  "default_pull_max_bytes": 104857600,
+  "execution_authority": "hpc",
+  "source_authority": "local",
+  "large_outputs": "Remain on HPC with hashes/index; increase pull limit explicitly when needed.",
+  "managed_base_python": "/home/u202520081000097/.local/share/uv/python/cpython-3.11-linux-x86_64-gnu/bin/python3.11"
+}

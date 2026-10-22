@@ -1,0 +1,70 @@
+{
+  "run_id": "hpc-r4-cost-probe-20261019",
+  "files": [
+    {
+      "path": "outputs/a1_budget.json",
+      "size": 1206,
+      "sha256": "0a51f423203dbd1f5883b8c5febad5263c1f0383b29bc58ed7158caf0d12df92"
+    },
+    {
+      "path": "outputs/cost_groups.csv",
+      "size": 1645,
+      "sha256": "10b03a9c15f8ae00c18eee4f7581e25bd4a8f9a468c9923116e3cbce8b56979e"
+    },
+    {
+      "path": "outputs/cost_probe_summary.json",
+      "size": 7437,
+      "sha256": "b780044e6af5bde84edb5c3303f11af6ffe264e4f5437b1fdc89184c2993288e"
+    },
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/episodes.jsonl",
+      "size": 250003,
+      "sha256": "a474c0f56980df8708144daacfdebaa6a2694ff368408ed26a53f069aa7d44f7"
+    },
+    {
+      "path": "outputs/events.jsonl",
+      "size": 5916,
+      "sha256": "aab7ed50ce3cf54897b18989b6f755d7b6686412e637d9633cd3e0dc7fbb0693"
+    },
+    {
+      "path": "outputs/execution_context.json",
+      "size": 485,
+      "sha256": "e73278f16cb2fc373c63e1c104d7eea2a59cdb6f5395151b6a8eddb187718bb7"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/jobs.json",
+      "size": 44757,
+      "sha256": "4c8288809613782af2b0b4844429ceec5760f72eb7575e8a4a0e8e66c37be18c"
+    },
+    {
+      "path": "outputs/mission_status.json",
+      "size": 5142,
+      "sha256": "78d4b97b9808ea80f60c0c47a2d1346a9b4e1c9c29440a8561ab42cd233d01fd"
+    },
+    {
+      "path": "outputs/plan_snapshot.json",
+      "size": 3127,
+      "sha256": "b97c7d042f077080e2ff392ba21a1dfaa2021c6faa1a7aa3304d0baa29ceb857"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/worker_logs.jsonl",
+      "size": 1596,
+      "sha256": "203e2aa1294a98fdd2014cfc1ad59b151cb4aa7bc891f75c9ed79501b697043a"
+    }
+  ]
+}

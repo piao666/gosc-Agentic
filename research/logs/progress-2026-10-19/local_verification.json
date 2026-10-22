@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-19T11:22:30.685577+08:00",
+  "code_root": "E:/gosc",
+  "head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "branch": "research/progress-audit-2026-10-19",
+  "remotes": [
+    "origin\thttps://github.com/piao666/gosc-Agentic.git (fetch)",
+    "origin\thttps://github.com/piao666/gosc-Agentic.git (push)"
+  ],
+  "commit_count": 4,
+  "baseline_tag": "387b49389385b51c275dc5a22ec1672087edda1d",
+  "status_before_changes": "clean",
+  "status_after_changes": [
+    "M AGENTS.md",
+    " M README.md",
+    " M research/reproduction/windows_environment.md",
+    " M \"\\347\\241\\225\\345\\243\\253\\350\\256\\272\\346\\226\\207\\347\\240\\224\\347\\251\\266\\344\\270\\216\\345\\256\\236\\346\\226\\275\\350\\257\\264\\346\\230\\216\\344\\271\\246.md\"",
+    "?? research/literature/",
+    "?? research/logs/progress-2026-10-19/",
+    "?? research/reports/",
+    "?? research/workspace_paths.json"
+  ],
+  "core_vs_baseline": "unchanged",
+  "core_tests_results_license_this_turn": "unchanged",
+  "protected_files_checked": 78,
+  "hash_normalization": "none; compare original bytes, historical Windows snapshot uses CRLF text",
+  "protected_hash_mismatches": [],
+  "historical_logs_unchanged": true,
+  "pdf_count": 42,
+  "unique_ids": 42,
+  "identifier_matches": 42,
+  "first_page_errors": [],
+  "existing_note_ids": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "C02"
+  ],
+  "python_version": "Python 3.12.10",
+  "venv_present": false,
+  "tests_this_turn": "not_run",
+  "simulations_this_turn": "not_run",
+  "models_or_paid_api": "not_used",
+  "diff_check": "passed",
+  "historical_r1_result": "85 passed in 41.84s on 2026-10-12",
+  "app_project": {
+    "id": "84ed3656-dbd6-4248-ab48-bcaf9c739011",
+    "label": "Gosc",
+    "path": "E:\\gosc",
+    "chat_moved_to_project": false,
+    "move_tool_returned_success": true,
+    "verified_chat_project_id": null,
+    "verified_chat_cwd": "E:\\Papers",
+    "status": "Tool returned success twice; list_threads still reports projectId=null and cwd=E:\\Papers. App-level move not confirmed."
+  },
+  "app_process_cwd_changed": false,
+  "verification_correction": "Initial audit wrongly normalized text to LF. Raw-byte SHA-256 matches historical files; no protected files were changed."
+}

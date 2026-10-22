@@ -1,0 +1,50 @@
+{
+  "run_id": "resume-c-analysis-20261020",
+  "files": [
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 68,
+      "sha256": "7f858ade31dd1729206f0a92324e065ac01e2d24290cb54e632855f5379672ee"
+    },
+    {
+      "path": "outputs/matched_statistics.json",
+      "size": 9281,
+      "sha256": "2fe9558e1e043c39be2270a5098b4d168f1b01a67835cfe97209e797d31d17a9"
+    },
+    {
+      "path": "outputs/mplconfig/fontlist-v3.11.0.json",
+      "size": 28696,
+      "sha256": "9937c8eec6a71fd956b8e3cbd26303468e073ceffb0b3dba7b1de1972ef36bc1"
+    },
+    {
+      "path": "outputs/original_comparison.json",
+      "size": 110,
+      "sha256": "91dcec0cb13be0c3b61a244147d04b7813fb7dab345a8baf1aca98e1870332bf"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/stage_audit.json",
+      "size": 268,
+      "sha256": "1ce993a35715bccf4b7881be98250ff5bca33d44f0fbb1e91b435564173367cd"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 1170,
+      "sha256": "7321629429539b74f54d6c69e5c0474b25f2517504d631242d951ac607fb6bdd"
+    }
+  ]
+}

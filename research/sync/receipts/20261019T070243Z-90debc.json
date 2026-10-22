@@ -1,0 +1,218 @@
+{
+  "sync_id": "20261019T070243Z-90debc",
+  "created_at": "2026-10-19T07:02:45.124021+00:00",
+  "direction": "hpc_to_local",
+  "source_host": "hpc",
+  "files": [
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/stdout.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/stdout.log",
+      "size": 23,
+      "sha256": "4df528fd52cc203dd3d6dcb8cdd29fb8005cad6ff801bdb97cdf85298567300b",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/stderr.log",
+      "size": 28,
+      "sha256": "4de49593b2780c78f94e5d1f3f0301c7b657a61109da085766249546497142a4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/stdout.log",
+      "size": 47,
+      "sha256": "4a4adad6d1c445548a235113fa59e52d2b23414c75e8f74f60c74f2ca3e669e7",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/artifacts.json",
+      "size": 218,
+      "sha256": "a521b2659dcfbdcc6062e00652944ff0c14749a8efbc77e3ca40c82a235247cd",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/artifacts.json",
+      "size": 230,
+      "sha256": "194e1a2bcfca8fe5f85936f9bfacc85a5213bfa7f0d253fb4a7eeb62bfbf9ef2",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/artifacts.json",
+      "size": 232,
+      "sha256": "559fef78f5ffdd226fda8273199072dec4ec0bc0b375139eab6fa6ef3b9eb73d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/status.json",
+      "size": 414,
+      "sha256": "9d4011320c07d032fbb828462d5c8be0ba09aaa3140bbfcc70d2a55f2ad5cb25",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/STATUS.md",
+      "size": 415,
+      "sha256": "e1529edcc709a5f067ae717e4b3c6d16d93d540afcc83a53f5d796254f845500",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/status.json",
+      "size": 428,
+      "sha256": "359024d070b3c692b0a4a3d7a9e24b5b52937091f3b7b7dcc98ecaa2aa4ab216",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/status.json",
+      "size": 539,
+      "sha256": "676f2cba7af4b4958f4f8f0eff92e35fa1370b5efa4b3a79e88f02f7bdd77ae4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/dashboard.json",
+      "size": 2259,
+      "sha256": "63bdc47757581f6f0b8f9afdc5c343a3939847686c57a871ecd690bb68614151",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/manifest.json",
+      "size": 2307,
+      "sha256": "848b9ce892fd98f1f058057d0a5f48e0c3474dbe44281e45d9e2367243a8af29",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/manifest.json",
+      "size": 2324,
+      "sha256": "a3e4205b53bc855c05bdaa8bdbec57203b664c1a80e4de25168e40012ba94d39",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/manifest.json",
+      "size": 2393,
+      "sha256": "0dd5a051f765ba7c7f0e6e0db41a9c9c4fe39fdd23d0e90a1dda7f5c7103ba38",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/source_changes.patch",
+      "size": 32142,
+      "sha256": "688a6e969a33232450cfd6a1e25a233b574d0eabc1f0d277dfd34ee5c112b313",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/source_snapshot.json",
+      "size": 37428,
+      "sha256": "e45d44d4b5624448acb1c6f0e21e1d273f1b6f323b0c74ddb88ce6e2b487b2a8",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/source_snapshot.json",
+      "size": 37428,
+      "sha256": "e45d44d4b5624448acb1c6f0e21e1d273f1b6f323b0c74ddb88ce6e2b487b2a8",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/source_snapshot.json",
+      "size": 38084,
+      "sha256": "b0e0cb357df86a5f4b7c29c5f426e363641c50fd84c90325957bff1aa8a37278",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/source_untracked.tar.gz",
+      "size": 43144,
+      "sha256": "20dc21c2a1d64b676fd4abbd896d6ca9b53d8b902bd1247fd636de6b6a549cd6",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/outputs/negative_probe.json",
+      "size": 26,
+      "sha256": "fc407afcb1e6663456bb9dd4d16b079bcc4624576536042647ac0d89fc405278",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/outputs/probe.json",
+      "size": 58,
+      "sha256": "a1db81510f79d49f08525e29400c1d7bd3b55e614493e12bc3580597c4798e1f",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/outputs/roundtrip.json",
+      "size": 118,
+      "sha256": "260dc18eda660e8cd82cae2916f83eb9e2c050911adfc2836dad31541bc33f47",
+      "transfer_status": "unchanged"
+    }
+  ],
+  "bytes_downloaded": 2674,
+  "all_outputs_mirrored": true,
+  "execution_runs": [
+    {
+      "run_id": "infra-launch-roundtrip-20261019T065811Z",
+      "status": "completed",
+      "started_at": "2026-10-19T06:58:32.577638+00:00",
+      "finished_at": "2026-10-19T06:58:32.616520+00:00",
+      "exit_code": 0,
+      "pid": 8074,
+      "elapsed_seconds": 0.038902,
+      "resource_usage": {
+        "child_max_rss_kib": 21060,
+        "child_cpu_user_seconds": 0.024727,
+        "child_cpu_system_seconds": 0.035247,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "sync-infrastructure",
+      "purpose": "Validate local dispatch, immutable source snapshot and automatic verified pull; not GOSC R1"
+    },
+    {
+      "run_id": "infra-ledger-failure-20261019T065522Z",
+      "status": "failed",
+      "started_at": "2026-10-19T06:55:22.884177+00:00",
+      "finished_at": "2026-10-19T06:55:22.921164+00:00",
+      "exit_code": 3,
+      "pid": 7591,
+      "elapsed_seconds": 0.037005,
+      "resource_usage": {
+        "child_max_rss_kib": 19840,
+        "child_cpu_user_seconds": 0.022751999999999998,
+        "child_cpu_system_seconds": 0.020502,
+        "peak_gpu_memory": null
+      },
+      "kind": "infrastructure",
+      "stage": "sync-infrastructure",
+      "purpose": "Expected exit 3 fixture; validates ledger, not GOSC research"
+    },
+    {
+      "run_id": "infra-ledger-ok-20261019T065522Z",
+      "status": "completed",
+      "started_at": "2026-10-19T06:55:22.713584+00:00",
+      "finished_at": "2026-10-19T06:55:22.762550+00:00",
+      "exit_code": 0,
+      "pid": 7586,
+      "elapsed_seconds": 0.048991,
+      "resource_usage": {
+        "child_max_rss_kib": 22300,
+        "child_cpu_user_seconds": 0.137023,
+        "child_cpu_system_seconds": 0.043424,
+        "peak_gpu_memory": null
+      },
+      "kind": "infrastructure",
+      "stage": "sync-infrastructure",
+      "purpose": "Expected exit 0 fixture; validates ledger, not GOSC research"
+    }
+  ],
+  "note": "Execution completion and file-mirror completion are independent."
+}

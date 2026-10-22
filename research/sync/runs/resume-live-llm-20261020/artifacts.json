@@ -1,0 +1,60 @@
+{
+  "run_id": "resume-live-llm-20261020",
+  "files": [
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/http_attempts.jsonl",
+      "size": 16836204,
+      "sha256": "cdaef0e7667b0c91d9b95256e8911f136e1f860ce016683b8f997ff2c3f4259a"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 68,
+      "sha256": "7f858ade31dd1729206f0a92324e065ac01e2d24290cb54e632855f5379672ee"
+    },
+    {
+      "path": "outputs/live_episodes.jsonl",
+      "size": 17260346,
+      "sha256": "f1c18a2edbc6cd955a84a59425775dd41b98cf3d83e06127ef362ca872261e6f"
+    },
+    {
+      "path": "outputs/live_inference_summary.json",
+      "size": 64856,
+      "sha256": "0f13df05a5c2899c6c501cd8c3586634bed56c0aaf6597a47226a5b1a69f3230"
+    },
+    {
+      "path": "outputs/live_readiness.json",
+      "size": 1624,
+      "sha256": "34aefd5d01489b7f113bbaf7ecff112c1adefb43863b055c6afbbfe9d2aec557"
+    },
+    {
+      "path": "outputs/original_comparison.json",
+      "size": 110,
+      "sha256": "91dcec0cb13be0c3b61a244147d04b7813fb7dab345a8baf1aca98e1870332bf"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/stage_audit.json",
+      "size": 268,
+      "sha256": "1ce993a35715bccf4b7881be98250ff5bca33d44f0fbb1e91b435564173367cd"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 3671,
+      "sha256": "92e75bcbbdaa50cf3dbd973a6456206977f6e74929fe1d4cf616b886e4d36823"
+    }
+  ]
+}

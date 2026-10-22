@@ -1,0 +1,365 @@
+{
+  "files": 624,
+  "missing": [
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/stdout.log",
+      "size": 35
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/source_untracked.tar.gz",
+      "size": 258796
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/stderr.log",
+      "size": 0
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/pool-summary.jsonl",
+      "size": 111
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/environment.json",
+      "size": 948
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/stage_audit.json",
+      "size": 277
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/pool-plans.jsonl",
+      "size": 270300
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/original_comparison.json",
+      "size": 110
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/input_integrity.json",
+      "size": 15423
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/stage_plan.json",
+      "size": 3797
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/legacy_outputs.json",
+      "size": 68
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/fresh_validation.json",
+      "size": 40398
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/pool-001-events.jsonl",
+      "size": 333135
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/active_pool.json",
+      "size": 99
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/pool-001-configs.jsonl",
+      "size": 14120
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/selection_episodes.jsonl",
+      "size": 501221
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/requirements-linux.lock.txt",
+      "size": 43313
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/candidate_configs.json",
+      "size": 21841
+    },
+    {
+      "path": "research/sync/runs/resume-sensitivity-fresh-20261020/outputs/pool-001-jobs.jsonl",
+      "size": 650714
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/source_changes.patch",
+      "size": 41678
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/artifacts.json",
+      "size": 2491
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/source_snapshot.json",
+      "size": 80704
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/stdout.log",
+      "size": 16
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/source_untracked.tar.gz",
+      "size": 258796
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/stderr.log",
+      "size": 0
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/pool-summary.jsonl",
+      "size": 109
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/environment.json",
+      "size": 948
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/stage_audit.json",
+      "size": 274
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/pool-plans.jsonl",
+      "size": 137399
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/original_comparison.json",
+      "size": 110
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/input_integrity.json",
+      "size": 15423
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/stage_plan.json",
+      "size": 3779
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/legacy_outputs.json",
+      "size": 68
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/pool-001-events.jsonl",
+      "size": 166272
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/active_pool.json",
+      "size": 96
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/pool-001-configs.jsonl",
+      "size": 7060
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/selection_episodes.jsonl",
+      "size": 249058
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/requirements-linux.lock.txt",
+      "size": 43313
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/candidate_configs.json",
+      "size": 11142
+    },
+    {
+      "path": "research/sync/runs/resume-genie-fresh-20261020/outputs/pool-001-jobs.jsonl",
+      "size": 324201
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/source_changes.patch",
+      "size": 41678
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/artifacts.json",
+      "size": 7370
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/source_snapshot.json",
+      "size": 80704
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/stdout.log",
+      "size": 7110
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/source_untracked.tar.gz",
+      "size": 258796
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/stderr.log",
+      "size": 0
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/environment.json",
+      "size": 948
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/stage_audit.json",
+      "size": 268
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/original_comparison.json",
+      "size": 483
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/input_integrity.json",
+      "size": 15423
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/stage_plan.json",
+      "size": 3778
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/legacy_outputs.json",
+      "size": 467
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/requirements-linux.lock.txt",
+      "size": 43313
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/legacy_results/summary_realistic.json",
+      "size": 701257
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/legacy_results/summary_revision.json",
+      "size": 61061
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/legacy_results/summary.json",
+      "size": 31795
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/mplconfig/fontlist-v3.11.0.json",
+      "size": 28696
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_efficiency.pdf",
+      "size": 29429
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_snr.pdf",
+      "size": 20192
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_noise.tex",
+      "size": 1747
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_where_tom.pdf",
+      "size": 26494
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_curve.pdf",
+      "size": 21381
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_agents.pdf",
+      "size": 20087
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_values.tex",
+      "size": 795
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_private.tex",
+      "size": 246
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/numbers.tex",
+      "size": 352
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_downlink.pdf",
+      "size": 23762
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_shared_col.pdf",
+      "size": 29267
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_overhead.tex",
+      "size": 2157
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_noise.pdf",
+      "size": 33762
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_fidelity.tex",
+      "size": 362
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_efficiency.tex",
+      "size": 1419
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_rescue.pdf",
+      "size": 40589
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_where_tom.tex",
+      "size": 284
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_fbl.pdf",
+      "size": 29252
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_validation.tex",
+      "size": 797
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_snr_sym.pdf",
+      "size": 23398
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_budget.pdf",
+      "size": 19734
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_traj.pdf",
+      "size": 14103
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_cost.tex",
+      "size": 934
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_ablation.tex",
+      "size": 793
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_default.tex",
+      "size": 562
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_rate_aware.tex",
+      "size": 344
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_frontier.tex",
+      "size": 389
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_shared.pdf",
+      "size": 32746
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_pareto.pdf",
+      "size": 24563
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_frontier.pdf",
+      "size": 28263
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/fig_snr_pair.pdf",
+      "size": 27254
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_frozen.tex",
+      "size": 442
+    },
+    {
+      "path": "research/sync/runs/resume-final-replot-20261020/outputs/figures/table_shared.tex",
+      "size": 540
+    }
+  ]
+}

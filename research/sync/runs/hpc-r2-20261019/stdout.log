@@ -1,0 +1,4 @@
+plot exit 0
+plot_revision exit 0
+plot_realistic exit 0
+{"pdf_count": 17, "tex_count": 18, "summary_comparisons": {"summary.json": {"reference": "current tracked input", "numerically_equal_at_1e-10": true}, "summary_revision.json": {"reference": "upstream-gosc-387b493 Git object (read only)", "numerically_equal_at_1e-10": true}, "summary_realistic.json": {"reference": "upstream-gosc-387b493 Git object (read only)", "numerically_equal_at_1e-10": true}}}

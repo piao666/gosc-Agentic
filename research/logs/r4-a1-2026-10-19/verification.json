@@ -1,0 +1,38 @@
+{
+  "status": "verified",
+  "runtime_files_and_receipts_verified": 331,
+  "running_tasks": 0,
+  "protected_inputs_unchanged": true,
+  "preregistrations_unchanged": true,
+  "local_runtime_files_verified": 311,
+  "latest_pull_receipt": "research/sync/receipts/20261019T091314Z-36922a.json",
+  "all_outputs_mirrored": true,
+  "run_checks": {
+    "hpc-r4-a1-tests-20261019": {
+      "status": "completed",
+      "artifacts_verified": 1
+    },
+    "hpc-r4-a1-full-20261019": {
+      "status": "completed",
+      "artifacts_verified": 11
+    },
+    "hpc-r4-a1-analysis-20261019": {
+      "status": "completed",
+      "artifacts_verified": 3
+    },
+    "hpc-r4-a1-audit-20261019": {
+      "status": "completed",
+      "artifacts_verified": 1
+    }
+  },
+  "hpc_tests_passed": 28,
+  "scientific_missions_completed": 1200,
+  "complete_pairs": 600,
+  "historical_primary_outcome_and_ul_matched_records": 1200,
+  "historical_mismatched_records": 0,
+  "training_started": false,
+  "executed_worker_and_a1_source_unchanged": true,
+  "original_budget_proposal_unchanged": true,
+  "local_management_issue": "Initial verification used Windows default GBK and failed reading UTF-8 metadata; corrected explicit UTF-8 and verification rerun passed. No science reruns.",
+  "source_sync_note": "Final verification-document upload follows; source receipt separate from runtime transfer receipt."
+}

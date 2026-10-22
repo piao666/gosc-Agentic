@@ -1,0 +1,65 @@
+{
+  "run_id": "hpc-post-campaign-audit-20261022",
+  "files": [
+    {
+      "path": "outputs/artifact_integrity.json",
+      "size": 195,
+      "sha256": "2c17984ee31a84511d4d806461f559a23c8f8ce4cc66ac7542bda72e32a32d78"
+    },
+    {
+      "path": "outputs/audit_conclusion.json",
+      "size": 446,
+      "sha256": "5157b805bd492eb680f04a8924f0527d91a17975ed8306056049d9f235693a43"
+    },
+    {
+      "path": "outputs/cache_inventory.json",
+      "size": 4014,
+      "sha256": "78b0aa1d9c6ef35ea2a400240df00d51cbbe96a762d2773e1805b5bdb7f665df"
+    },
+    {
+      "path": "outputs/comparison_inventory.json",
+      "size": 19433,
+      "sha256": "c5c6f9904122d04e252dbaf5de5f98ea9f3a0b26eb3d9801ea18d03f067e76e2"
+    },
+    {
+      "path": "outputs/llm_audit_summary.json",
+      "size": 994,
+      "sha256": "b890996bf783744f8a03519a55f9d4c06aadcf84f859cc3b274979ae30dc2be4"
+    },
+    {
+      "path": "outputs/llm_http_by_model.json",
+      "size": 2006,
+      "sha256": "556fd4c1a80170c99f86b789abe71fed5f18b75505b526776dc8d49cdabe0fab"
+    },
+    {
+      "path": "outputs/llm_mission_groups.json",
+      "size": 46883,
+      "sha256": "7d5a7a941f98d90de877786899df4c5e23afaee44bf040cd84d863ff1fb2e294"
+    },
+    {
+      "path": "outputs/new_live_replay.jsonl",
+      "size": 273615,
+      "sha256": "6a08adeb1058bd82fe06ea2b0ff1a0e22d62b5e59034c1b40c4bc5cc924b5109"
+    },
+    {
+      "path": "outputs/published_first_missing_prompt.json",
+      "size": 1537,
+      "sha256": "576475df8e34005cade99ad53ab14b20a510a58484b0e3e6473c07ed82f4e855"
+    },
+    {
+      "path": "outputs/published_replay.jsonl",
+      "size": 249339,
+      "sha256": "caa05abbdf9bd796466b858cf95e93fdc2a864debb70cfb765c457fc22eac735"
+    },
+    {
+      "path": "outputs/replay_coverage_summary.json",
+      "size": 1020,
+      "sha256": "9b9d2056fc541d1cde0625aa8224f4bc3d58c169f16a1e799cc7e4ecd2b5f9f6"
+    },
+    {
+      "path": "outputs/stage_inventory.json",
+      "size": 19679,
+      "sha256": "9e70f6e14fd8d734fed84c511aa0c05faeb9b6413c2c7971cb4c2455881775d7"
+    }
+  ]
+}

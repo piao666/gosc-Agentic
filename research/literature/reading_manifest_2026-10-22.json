@@ -1,0 +1,525 @@
+{
+  "date": "2026-10-22",
+  "new_targeted_notes": 29,
+  "previous_notes": 13,
+  "all_42_have_notes": true,
+  "all_42_exhaustively_read": false,
+  "papers": [
+    {
+      "id": "A04",
+      "title_from_pdf_first_page": "A Token/KV-Cache Communication Media Selection and Resource Allocation Strategy for Multi-Agent Collaboration",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\4-Token&KV-Cache Communication Media Selection and Resource Allocation.pdf",
+      "sha256": "3b904c7531e2f02658a21a8114ef1ffd8e7f29a878c104730769b9dc8d060f97",
+      "pdf_pages": 21,
+      "selected_pages": [
+        1,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        20
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/A04.md",
+      "primary_url": "https://arxiv.org/abs/2605.25422",
+      "independent_reproduction": false
+    },
+    {
+      "id": "A05",
+      "title_from_pdf_first_page": "Wireless Agentic AI with Retrieval-Augmented Multimodal Semantic Perception",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\5-Wireless Agentic AI.pdf",
+      "sha256": "1adf14b7c5a1c6fd649a62767aed6e9e1b58d59c7e1d034f6ca78efa1443cfcd",
+      "pdf_pages": 7,
+      "selected_pages": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/A05.md",
+      "primary_url": "https://arxiv.org/abs/2505.23275",
+      "independent_reproduction": false
+    },
+    {
+      "id": "A06",
+      "title_from_pdf_first_page": "Transmission With Machine Language Tokens: A Paradigm for Task-Oriented Agent Communication",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\6-Transmission With Machine Language Tokens A Paradigm for Task-Oriented Agent Communication.pdf",
+      "sha256": "0b6e3a91e13f166607d81730d069c5dfda9b954fcedb630d16579f28bc40d883",
+      "pdf_pages": 6,
+      "selected_pages": [
+        1,
+        3,
+        4
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/A06.md",
+      "primary_url": "https://arxiv.org/abs/2507.21454",
+      "independent_reproduction": false
+    },
+    {
+      "id": "A07",
+      "title_from_pdf_first_page": "Joint Semantic-Channel Coding and Modulation for Token Communications",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\7-Joint Semantic-Channel Coding and Modulation for Token Communications.pdf",
+      "sha256": "221ae00b4cc8259b15679e23ea9bdbedf6ca6cbffe35b8d258884b782c2670bd",
+      "pdf_pages": 14,
+      "selected_pages": [
+        1,
+        4,
+        11
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/A07.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "A08",
+      "title_from_pdf_first_page": "Heterogeneity-Aware Belief Synchronization for Semantic Communication in AI-Native 6G Networks",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\8-Heterogeneity-Aware Belief Synchronization for Semantic Communication in AI-Native 6G Networks.pdf",
+      "sha256": "b62da96bd6f49d7354e376202da634c6a3e4f39971dfd3f5cc6a76845d2ba47c",
+      "pdf_pages": 8,
+      "selected_pages": [
+        1,
+        5,
+        6,
+        7,
+        8
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/A08.md",
+      "primary_url": "https://arxiv.org/abs/2608.13394",
+      "independent_reproduction": false
+    },
+    {
+      "id": "A09",
+      "title_from_pdf_first_page": "Intention-Aware Semantic Agent Communications for AI Glasses",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\9-Intention-Aware Semantic Agent Communications for AI Glasses.pdf",
+      "sha256": "fa0f69f0c441db6128eabba3dc728bd5803a43d0daa68cc832600855e395cbad",
+      "pdf_pages": 16,
+      "selected_pages": [
+        1,
+        10,
+        14
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/A09.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "A10",
+      "title_from_pdf_first_page": "Goal-Oriented Semantic Communication for Logical Decision Making",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\10-Goal-Oriented Semantic Communication for Logical Decision Making.pdf",
+      "sha256": "139d661cd2ea3540b9f5ff803fc8ffe4ce8593f9b9b2ceae1d357a162f0c2b33",
+      "pdf_pages": 14,
+      "selected_pages": [
+        1,
+        5,
+        6,
+        9
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/A10.md",
+      "primary_url": "https://arxiv.org/abs/2604.19614",
+      "independent_reproduction": false
+    },
+    {
+      "id": "A11",
+      "title_from_pdf_first_page": "AgentComm-Bench: Stress-Testing Cooperative Embodied AI Under Latency, Packet Loss, and Bandwidth Collapse",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\11-AgentComm-Bench.pdf",
+      "sha256": "0f687cadc0cea5c586798b33e43a3aa1dee1fd2d1e2011242b01513b0f79a28b",
+      "pdf_pages": 14,
+      "selected_pages": [
+        1,
+        3,
+        4,
+        5,
+        8
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/A11.md",
+      "primary_url": "https://arxiv.org/abs/2603.20285",
+      "independent_reproduction": false
+    },
+    {
+      "id": "B02",
+      "title_from_pdf_first_page": "Task-Oriented Multi-User Semantic Communications",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\B2-Task-Oriented Multi-User Semantic Communications.pdf",
+      "sha256": "862f63c02955e3f75967217015539c56cafa5e374e02fe83849d3b79a70b2392",
+      "pdf_pages": 14,
+      "selected_pages": [
+        1,
+        3,
+        7,
+        10
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/B02.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "B03",
+      "title_from_pdf_first_page": "Task-Oriented Multi-User Semantic Communications for VQA Task",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\B3-Task-Oriented Multi-User Semantic Communications for VQA Task.pdf",
+      "sha256": "6879aebc966752f510c2ac039963717a49e3e33a28ba42a349192bccf06e1378",
+      "pdf_pages": 5,
+      "selected_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/B03.md",
+      "primary_url": "https://arxiv.org/abs/2108.07357",
+      "independent_reproduction": false
+    },
+    {
+      "id": "B05",
+      "title_from_pdf_first_page": "Semantic Importance-Aware Communications Using Pre-trained Language Models",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\B5-Semantic Importance-Aware Communications Using Pre-trained Language Models.pdf",
+      "sha256": "87c3a50ba8ed752c068275a8972f7e0aafb67e5bacc667ba76e3fa53ab21f5f8",
+      "pdf_pages": 5,
+      "selected_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/B05.md",
+      "primary_url": "https://arxiv.org/abs/2302.07142",
+      "independent_reproduction": false
+    },
+    {
+      "id": "B06",
+      "title_from_pdf_first_page": "Semantic Importance-Aware Communications with Semantic Correction Using Large Language Models",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\B6-Semantic Importance-Aware Communications with Semantic Correction Using LLMs.pdf",
+      "sha256": "31eb95a50b32c810f9753904b53476fe851b38513b7dd7f6e9a11230c7e07c35",
+      "pdf_pages": 12,
+      "selected_pages": [
+        1,
+        4,
+        8,
+        10
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/B06.md",
+      "primary_url": "https://arxiv.org/abs/2405.16011",
+      "independent_reproduction": false
+    },
+    {
+      "id": "B07",
+      "title_from_pdf_first_page": "OFDM-Based Digital Semantic Communication with Importance Awareness",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\B7-OFDM-Based Digital Semantic Communication with Importance Awareness.pdf",
+      "sha256": "5bab12af4917f885bfcedcb607d25eedfb2361c31caa862a86e1764575d77c3e",
+      "pdf_pages": 13,
+      "selected_pages": [
+        1,
+        3,
+        5,
+        8
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/B07.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "B08",
+      "title_from_pdf_first_page": "Large-Language-Model-Enabled Text Semantic Communication Systems",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\B8-Large Language Model Enabled Semantic Communication Systems.pdf",
+      "sha256": "3465f70ac0a21daec34a0e1901d06d34ea1a99de52d7677f7d2525f4f0562b6b",
+      "pdf_pages": 23,
+      "selected_pages": [
+        1,
+        5,
+        12,
+        16
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/B08.md",
+      "primary_url": "https://doi.org/10.3390/app15137227",
+      "independent_reproduction": false
+    },
+    {
+      "id": "B09",
+      "title_from_pdf_first_page": "Task-Oriented Semantic Communication with Importance-Aware Rate Control",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\B9-Task-Oriented Semantic Communication with Importance-Aware Rate Control.pdf",
+      "sha256": "82aa7048a706ac0f454b16d4bde74f913e200b7f75a525bc055d79a9110e7392",
+      "pdf_pages": 5,
+      "selected_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/B09.md",
+      "primary_url": "https://arxiv.org/abs/2504.20441",
+      "independent_reproduction": false
+    },
+    {
+      "id": "B11",
+      "title_from_pdf_first_page": "Bandwidth-Efficient Multi-Agent Communication through Information Bottleneck and Vector Quantization",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\B11-Bandwidth-Efficient Multi-Agent Communication through Information Bottleneck and Vector Quantization.pdf",
+      "sha256": "b3142ffbf0cf1ecd6957d564bceb7276368a3a2b3822ca313984bbd1cc27bd76",
+      "pdf_pages": 8,
+      "selected_pages": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/B11.md",
+      "primary_url": "https://arxiv.org/abs/2602.02035v2",
+      "independent_reproduction": false
+    },
+    {
+      "id": "C01",
+      "title_from_pdf_first_page": "Goal-Oriented Multi-Agent Semantic Networking: Unifying Intents, Semantics, and Intelligence",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\C1-Goal-Oriented Multi-Agent Semantic Networking.pdf",
+      "sha256": "f545055ef9bee73a3bc34896f567f888446f19bc9a408d7321458cc6bdf4c193",
+      "pdf_pages": 7,
+      "selected_pages": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/C01.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "C03",
+      "title_from_pdf_first_page": "On the Rate-Distortion-Complexity Tradeoff for Semantic Communication",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\C3-Rate-Distortion-Complexity Tradeoff for Semantic Communication.pdf",
+      "sha256": "67edec9eedd9384c7d0f12d22a0ad3a3999149c181c1d05f7f62c6dbe044d52c",
+      "pdf_pages": 14,
+      "selected_pages": [
+        1,
+        5,
+        10,
+        12
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/C03.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "C04",
+      "title_from_pdf_first_page": "WirelessAgent++: Automated Agentic Workflow Design and Benchmarking for Wireless Networks",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\C4-Automated Agentic Workflow Design and Benchmarking for Wireless Networks.pdf",
+      "sha256": "d30ea05d2cd9ce2a8af0abd02cf5a7aeadf872422e93728250d6491681a5e9dd",
+      "pdf_pages": 18,
+      "selected_pages": [
+        1,
+        5,
+        10,
+        13
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/C04.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "C05",
+      "title_from_pdf_first_page": "HMS-SCP: Task-Oriented Multi-Scale Semantic Communication for V2X Cooperative Perception",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\C5-Extend the Safety Horizon for Intelligent Transportation Systems through Semantic-Aware Cooperative Perception.pdf",
+      "sha256": "650e86c4fa51ece7b7e962cc0305989801c707cba90ebfc3fd7935d9e6637124",
+      "pdf_pages": 15,
+      "selected_pages": [
+        1,
+        3,
+        6,
+        11
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/C05.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "D05",
+      "title_from_pdf_first_page": "Agentic AI-Empowered Wireless Agent Networks With Semantic-Aware Collaboration via ILAC",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\D05-Agentic AI-Empowered Wireless Agent Networks With Semantic-Aware Collaboration via ILAC.pdf",
+      "sha256": "1aaba3c19a5da69d1fb79afacad9302aae611aadcc142085b2fa7d752dac5fc7",
+      "pdf_pages": 14,
+      "selected_pages": [
+        1,
+        5,
+        10,
+        12
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/D05.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "D06",
+      "title_from_pdf_first_page": "Pragmatic Communication in Multi-Agent Collaborative Perception",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\D06-Pragmatic Communication in Multi-Agent Collaborative Perception（PragComm）.pdf",
+      "sha256": "ce5490ab0ab6a193dbab83726584b2db9c7a605a09f4e832caf53d8b4b630cb2",
+      "pdf_pages": 18,
+      "selected_pages": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/D06.md",
+      "primary_url": "https://arxiv.org/abs/2401.12694",
+      "independent_reproduction": false
+    },
+    {
+      "id": "D07",
+      "title_from_pdf_first_page": "Logic-Driven Semantic Communication for Resilient Multi-Agent Systems",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\D07-Logic-Driven Semantic Communication for Resilient Multi-Agent Systems.pdf",
+      "sha256": "d4c53f2f09474e3953f651769e0264fcdf5a0239c648641c5d18eedc2909fead",
+      "pdf_pages": 23,
+      "selected_pages": [
+        1,
+        5,
+        10,
+        16
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/D07.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "D09",
+      "title_from_pdf_first_page": "Embodied Semantic Communication for Collective Autonomous Agents: A Tutorial on Representation, Wireless Delivery, and Closed-Loop Coordination",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\D09.pdf",
+      "sha256": "c36de40d1ab51ac53f55be0e0de06e2320caad165bad82c58e5fbe93eff7680c",
+      "pdf_pages": 21,
+      "selected_pages": [
+        1,
+        9,
+        14,
+        17
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/D09.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "D11",
+      "title_from_pdf_first_page": "From Information Freshness to Semantics of Information and Goal-oriented Communications",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\D11.pdf",
+      "sha256": "2283e32cbbfc74aab6bf7e9749714ca7a6965a664d97b00ddc3add9576175bff",
+      "pdf_pages": 26,
+      "selected_pages": [
+        1,
+        5,
+        12,
+        19
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/D11.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "D12",
+      "title_from_pdf_first_page": "Generative Semantic HARQ: Latent-Space Text Retransmission and Combining",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\D12.pdf",
+      "sha256": "ed8f3d0918fc79a0256a892bfe786e0278252ea23a5a2c7d7e76e2a70353d4cd",
+      "pdf_pages": 6,
+      "selected_pages": [
+        1,
+        4,
+        5
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/D12.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "D13",
+      "title_from_pdf_first_page": "Proxifield: Decentralized Multi-Agent Communication through Semantic Proximity",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\D13.pdf",
+      "sha256": "068e816f49e1428efffb2663c92c97e6b6f8514c78c611c11b3091313defc750",
+      "pdf_pages": 34,
+      "selected_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/D13.md",
+      "primary_url": "https://arxiv.org/abs/2609.20889",
+      "independent_reproduction": false
+    },
+    {
+      "id": "D14",
+      "title_from_pdf_first_page": "Learning to Communicate with Deep Multi-Agent Reinforcement Learning",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\D14.pdf",
+      "sha256": "d1c7ee75963e04c9530feb21f287f39a2e81cc2ed0acbd6ec2089e939fbfcf81",
+      "pdf_pages": 13,
+      "selected_pages": [
+        1,
+        3,
+        6,
+        9
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/D14.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    },
+    {
+      "id": "D15",
+      "title_from_pdf_first_page": "Semantic Communication and Control Co-Design for Multi-Objective Distinct Systems",
+      "source_path": "E:\\Papers\\99-附件\\论文原文\\D15.pdf",
+      "sha256": "abff4aeb119c97b68fd45cd132e132c8633395a130472b5a3fa7e5f6fb1de4a5",
+      "pdf_pages": 6,
+      "selected_pages": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "scope": "targeted text excerpts, not exhaustive full reading",
+      "note": "research/literature/reading_notes/D15.md",
+      "primary_url": null,
+      "independent_reproduction": false
+    }
+  ]
+}

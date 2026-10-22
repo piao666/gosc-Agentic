@@ -1,0 +1,145 @@
+{
+  "paper": "D01",
+  "items": [
+    {
+      "item": "Fig1",
+      "page": "2",
+      "claim": "Q1/Q2/Q3和公共知识闭环",
+      "assessment": "结构映射通过；非性能结论",
+      "evidence": "gosc/{simulator,schemes,voi}.py"
+    },
+    {
+      "item": "Fig2",
+      "page": "7",
+      "claim": "救援任务资源—效果前沿",
+      "assessment": "定性可比较；历史逐点不完全一致；原图第三面板刻度重叠，展示派生版待核验",
+      "evidence": "resume-revision-rest-20261020/outputs/legacy_results/rev_rescue.json"
+    },
+    {
+      "item": "Fig3",
+      "page": "9",
+      "claim": "粗略估值误差下的资源效率",
+      "assessment": "TableVII印刷49单元匹配；575网格外记录不改变选点/两位相关性",
+      "evidence": "hpc-acceptance-scope-v2-20261022/outputs/noise_extra_impact.json"
+    },
+    {
+      "item": "Fig4",
+      "page": "9",
+      "claim": "SNR完成时间/资源双面板",
+      "assessment": "4200条SNR保存指标匹配；不声称全部SNR都任务占优",
+      "evidence": "resume-main-sweeps-20261020/outputs/legacy_results/snr.json"
+    },
+    {
+      "item": "Fig5",
+      "page": "11",
+      "claim": "共享上行预算",
+      "assessment": "18400条保存指标匹配，TableXI印刷值匹配；B150两者均未达目标",
+      "evidence": "resume-radio-shared-20261020/outputs/legacy_results/shared.jsonl"
+    },
+    {
+      "item": "TableI",
+      "page": "4",
+      "claim": "相关工作定位",
+      "assessment": "GOSC机制列源码映射；跨论文定位待本轮近邻审查，不称完整新颖性验证",
+      "evidence": "research/literature/Research-Gap-Matrix.md"
+    },
+    {
+      "item": "TableII",
+      "page": "4",
+      "claim": "消息比特长度",
+      "assessment": "复用已核验相同源码：raw218/confirm18/intent18/semantic33+5P；NL1480是示例",
+      "evidence": "hpc-paper-audit-20261019/outputs/static_and_frozen_checks.json"
+    },
+    {
+      "item": "TableIII",
+      "page": "7",
+      "claim": "默认配置",
+      "assessment": "复用25字段核验；rescue60–180为实验显式覆盖，通用Config100–300",
+      "evidence": "hpc-paper-audit-20261019/outputs/static_and_frozen_checks.json"
+    },
+    {
+      "item": "TableIV",
+      "page": "8",
+      "claim": "冻结点fresh任务/资源结果",
+      "assessment": "54个印刷单元匹配；periodic两search条件略未达目标，保留而不改阈值",
+      "evidence": "hpc-acceptance-scope-v2-20261022/outputs/paper_tables_current.json"
+    },
+    {
+      "item": "TableV",
+      "page": "8",
+      "claim": "表示方式对比",
+      "assessment": "36个印刷单元匹配；default完整900记录中其他scheme仍83条历史差异",
+      "evidence": "hpc-acceptance-scope-v2-20261022/outputs/paper_tables_current.json"
+    },
+    {
+      "item": "TableVI",
+      "page": "8",
+      "claim": "实际预算匹配的估值比较",
+      "assessment": "40单元中11有差异，主要throughput；未确证复杂ToM普遍优于简单值；Bonferroni与未校正分别记录",
+      "evidence": "hpc-acceptance-scope-v2-20261022/outputs/paper_tables_current.json"
+    },
+    {
+      "item": "TableVII",
+      "page": "9",
+      "claim": "估值精度鲁棒性",
+      "assessment": "49个印刷单元匹配；未达目标标记和低相关反例均保留",
+      "evidence": "hpc-acceptance-scope-v2-20261022/outputs/paper_tables_current.json"
+    },
+    {
+      "item": "TableVIII",
+      "page": "10",
+      "claim": "消融",
+      "assessment": "30单元中11有差异；多数差值CI跨零，不把同价消融当等成本因果实验",
+      "evidence": "hpc-acceptance-scope-v2-20261022/outputs/paper_tables_current.json"
+    },
+    {
+      "item": "TableIX",
+      "page": "10",
+      "claim": "计入头开销后的资源比",
+      "assessment": "48单元中2个CI上端差0.01；保持原未达标/优势反转条件，不升级全部数值一致",
+      "evidence": "hpc-acceptance-scope-v2-20261022/outputs/paper_tables_current.json"
+    },
+    {
+      "item": "TableX",
+      "page": "10",
+      "claim": "UL和DL总成本",
+      "assessment": "72个印刷单元匹配；控制/反馈/广播需纳入，不只看payload",
+      "evidence": "hpc-acceptance-scope-v2-20261022/outputs/paper_tables_current.json"
+    },
+    {
+      "item": "TableXI",
+      "page": "12",
+      "claim": "共享预算fresh",
+      "assessment": "32个印刷单元匹配；完整精度summary另有差异，不声称全文字节一致",
+      "evidence": "hpc-acceptance-scope-v2-20261022/outputs/paper_tables_current.json"
+    },
+    {
+      "item": "TableXII",
+      "page": "12",
+      "claim": "异构LLM概念验证",
+      "assessment": "44单元中20有差异；Qwen3B任务收益未确证，Llama/7B分别披露，资源节省仍需成本边界",
+      "evidence": "hpc-live-llm-tables-20261022/outputs/llm_native_statistics.json"
+    },
+    {
+      "item": "TableXIII",
+      "page": "12",
+      "claim": "冻结参数点",
+      "assessment": "12个选点与原保存选择一致；search37/后续38敏感性分轨，校准生成过程仍缺失",
+      "evidence": "ordered-selection-20261019/outputs/selection_audit.json"
+    },
+    {
+      "item": "Eq1–5/Algorithm1",
+      "page": "4–6",
+      "claim": "任务、AoI/ToM估值和无线调度",
+      "assessment": "源码映射保持；条件值估计非真实任务因果效用，平局严格>与论文最大maximizer边界保留",
+      "evidence": "research/logs/GOSC_paper_code_map.md"
+    },
+    {
+      "item": "Prop1/Thm1–2/Prop2",
+      "page": "4–6",
+      "claim": "belief账本、阈值/保护、松弛精确/代理误差",
+      "assessment": "既有测试与theory/scheduler数据支持其实现口径；未独立形式化重证、不宣称启发式任务全局最优",
+      "evidence": "resume-theory-20261020/outputs/original_comparison.json"
+    }
+  ]
+}

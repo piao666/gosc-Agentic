@@ -1,0 +1,40 @@
+{
+  "run_id": "hpc-receiver-headroom-pilot-20261022",
+  "files": [
+    {
+      "path": "outputs/calibration.jsonl",
+      "size": 1165776,
+      "sha256": "7f4bca9c381ef64cd179e5a45f54cadfc4ec0ee1b92a3e47023e208aaed30696"
+    },
+    {
+      "path": "outputs/calibration_candidate_summary.json",
+      "size": 319459,
+      "sha256": "9fa9698321fe151367dafe22cb1b9bf5b40c4cb82627aa883ad981cd7002e871"
+    },
+    {
+      "path": "outputs/conclusion.json",
+      "size": 389,
+      "sha256": "5d6784f31d4c9f0839329bae43a2d027268a1d250d7bc80c56ecacecef113baa"
+    },
+    {
+      "path": "outputs/frozen_operating_points.json",
+      "size": 36014,
+      "sha256": "1c48e1cd63eed86ac57811be9acc6589fba296fce04fcce3fa32c4fbd3579811"
+    },
+    {
+      "path": "outputs/paired_effects.json",
+      "size": 2894,
+      "sha256": "96a9f5c827aa8832e0d078d5a1e0120c0b5fcaca1bafbdb4a92d5d51c6f19af9"
+    },
+    {
+      "path": "outputs/validation.jsonl",
+      "size": 242322,
+      "sha256": "a0ac81b734b4e421a4bb033729d758edc3184db930378966645b5d9bcff6995a"
+    },
+    {
+      "path": "outputs/validation_group_statistics.json",
+      "size": 3159,
+      "sha256": "b92ba8d931a617e2e899880622afd4ed6d47f1d0147f9b975c5d0980f4924549"
+    }
+  ]
+}

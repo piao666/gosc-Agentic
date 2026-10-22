@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "phase": "R4-A1",
+  "status": "preregistered_before_execution",
+  "head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "authorization": "User explicitly requested on 2026-10-19: 启动完整实验; approved six-setting 1200-mission budget proposal",
+  "execution_target": "hpc",
+  "settings": [
+    {
+      "name": "search-W100",
+      "base_config": {},
+      "arms": [
+        {
+          "scheme": "gosc",
+          "overrides": {
+            "energy_price": 1e-05
+          },
+          "point": "W100/eta1e-05"
+        },
+        {
+          "scheme": "sem_raf",
+          "overrides": {
+            "sem_interval": 4,
+            "filter_eps": 0.02
+          },
+          "point": "W100/k4"
+        }
+      ]
+    },
+    {
+      "name": "search-K10",
+      "base_config": {
+        "n_agents": 10
+      },
+      "arms": [
+        {
+          "scheme": "gosc",
+          "point": "K10/eta0.0003",
+          "overrides": {
+            "energy_price": 0.0003
+          }
+        },
+        {
+          "scheme": "sem_ras",
+          "point": "K10/k4/th0.05",
+          "overrides": {
+            "sem_interval": 4,
+            "filter_eps": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "search-clustered",
+      "base_config": {
+        "victim_layout": "clustered"
+      },
+      "arms": [
+        {
+          "scheme": "gosc",
+          "point": "clustered/eta3e-05",
+          "overrides": {
+            "energy_price": 3e-05
+          }
+        },
+        {
+          "scheme": "sem_ras",
+          "point": "clustered/k4/th0.2",
+          "overrides": {
+            "sem_interval": 4,
+            "filter_eps": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "rescue-W100",
+      "base_config": {
+        "task": "rescue",
+        "deadline_min": 60,
+        "deadline_max": 180
+      },
+      "arms": [
+        {
+          "scheme": "gosc",
+          "overrides": {
+            "energy_price": 0.0001
+          },
+          "point": "W100/eta0.0001"
+        },
+        {
+          "scheme": "sem_ras",
+          "overrides": {
+            "sem_interval": 2,
+            "filter_eps": 1.0
+          },
+          "point": "rescue-W100/k2/th1.0"
+        }
+      ]
+    },
+    {
+      "name": "rescue-W50",
+      "base_config": {
+        "task": "rescue",
+        "deadline_min": 60,
+        "deadline_max": 180,
+        "symbols_per_slot": 50
+      },
+      "arms": [
+        {
+          "scheme": "gosc",
+          "point": "W50/eta0.0001",
+          "overrides": {
+            "energy_price": 0.0001
+          }
+        },
+        {
+          "scheme": "sem_ras",
+          "point": "rescue-W50/k2/th1.0",
+          "overrides": {
+            "sem_interval": 2,
+            "filter_eps": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "rescue-snr-5",
+      "base_config": {
+        "task": "rescue",
+        "deadline_min": 60,
+        "deadline_max": 180,
+        "snr_ref_db": -5
+      },
+      "arms": [
+        {
+          "scheme": "gosc",
+          "point": "snr-5/eta0.0001",
+          "overrides": {
+            "energy_price": 0.0001
+          }
+        },
+        {
+          "scheme": "sem_ras",
+          "point": "rescue-snr-5/k2/th1.0",
+          "overrides": {
+            "sem_interval": 2,
+            "filter_eps": 1.0
+          }
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    3000,
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020,
+    3021,
+    3022,
+    3023,
+    3024,
+    3025,
+    3026,
+    3027,
+    3028,
+    3029,
+    3030,
+    3031,
+    3032,
+    3033,
+    3034,
+    3035,
+    3036,
+    3037,
+    3038,
+    3039,
+    3040,
+    3041,
+    3042,
+    3043,
+    3044,
+    3045,
+    3046,
+    3047,
+    3048,
+    3049,
+    3050,
+    3051,
+    3052,
+    3053,
+    3054,
+    3055,
+    3056,
+    3057,
+    3058,
+    3059,
+    3060,
+    3061,
+    3062,
+    3063,
+    3064,
+    3065,
+    3066,
+    3067,
+    3068,
+    3069,
+    3070,
+    3071,
+    3072,
+    3073,
+    3074,
+    3075,
+    3076,
+    3077,
+    3078,
+    3079,
+    3080,
+    3081,
+    3082,
+    3083,
+    3084,
+    3085,
+    3086,
+    3087,
+    3088,
+    3089,
+    3090,
+    3091,
+    3092,
+    3093,
+    3094,
+    3095,
+    3096,
+    3097,
+    3098,
+    3099
+  ],
+  "planned_missions": 1200,
+  "workers_max": 2,
+  "worker_threads": 1,
+  "per_episode_timeout_seconds": 120,
+  "campaign_budget_seconds": 1860,
+  "bootstrap_resamples": 4000,
+  "analysis_seed": 0,
+  "ci_policy": "95% pointwise paired percentile bootstrap; separate author-style mean +/-1.96 sd/sqrt(N); no familywise inference",
+  "selection_policy": "Original frozen points only; no refit/calibration/selection on any pilot or fresh seed",
+  "seed_policy": "Known author-validation seeds; R3 seed3000 explicitly re-executed and retained; no automatic retry of prior A1 attempts",
+  "expected_cost_seconds": 575.8240286591023,
+  "expected_raw_episodes_bytes": 12387143.333333334,
+  "raw_output_budget_bytes": 37161430,
+  "genie_included": false,
+  "training_authorized": false,
+  "excluded": [
+    "optional600Genie",
+    "B",
+    "C",
+    "independent calibration",
+    "LLM",
+    "training"
+  ],
+  "original_plan": "research/protocols/r4_plan_v1.json",
+  "cost_budget": "research/protocols/r4_a1_budget_proposal_2026-10-19.json"
+}

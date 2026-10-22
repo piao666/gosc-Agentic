@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "status": "preregistered_not_executed",
+  "phase": "R4-cost-probe",
+  "head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "execution_target": "hpc",
+  "purpose": "Cost only; no performance inference or parameter selection",
+  "seeds": [
+    9010,
+    9011,
+    9012
+  ],
+  "seed_role": "management only, disjoint from A0 9000-9009 and author calibration/eval/fresh",
+  "settings": [
+    {
+      "name": "search-K10",
+      "base_config": {
+        "n_agents": 10
+      },
+      "arms": [
+        {
+          "scheme": "gosc",
+          "point": "K10/eta0.0003",
+          "overrides": {
+            "energy_price": 0.0003
+          }
+        },
+        {
+          "scheme": "sem_ras",
+          "point": "K10/k4/th0.05",
+          "overrides": {
+            "sem_interval": 4,
+            "filter_eps": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "search-clustered",
+      "base_config": {
+        "victim_layout": "clustered"
+      },
+      "arms": [
+        {
+          "scheme": "gosc",
+          "point": "clustered/eta3e-05",
+          "overrides": {
+            "energy_price": 3e-05
+          }
+        },
+        {
+          "scheme": "sem_ras",
+          "point": "clustered/k4/th0.2",
+          "overrides": {
+            "sem_interval": 4,
+            "filter_eps": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "rescue-W50",
+      "base_config": {
+        "task": "rescue",
+        "deadline_min": 60,
+        "deadline_max": 180,
+        "symbols_per_slot": 50
+      },
+      "arms": [
+        {
+          "scheme": "gosc",
+          "point": "W50/eta0.0001",
+          "overrides": {
+            "energy_price": 0.0001
+          }
+        },
+        {
+          "scheme": "sem_ras",
+          "point": "rescue-W50/k2/th1.0",
+          "overrides": {
+            "sem_interval": 2,
+            "filter_eps": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "rescue-snr-5",
+      "base_config": {
+        "task": "rescue",
+        "deadline_min": 60,
+        "deadline_max": 180,
+        "snr_ref_db": -5
+      },
+      "arms": [
+        {
+          "scheme": "gosc",
+          "point": "snr-5/eta0.0001",
+          "overrides": {
+            "energy_price": 0.0001
+          }
+        },
+        {
+          "scheme": "sem_ras",
+          "point": "rescue-snr-5/k2/th1.0",
+          "overrides": {
+            "sem_interval": 2,
+            "filter_eps": 1.0
+          }
+        }
+      ]
+    }
+  ],
+  "workers_max": 2,
+  "worker_threads": 1,
+  "per_episode_timeout_seconds": 120,
+  "campaign_budget_seconds": 600,
+  "planned_missions": 24,
+  "prior_pilot_run": "hpc-r4-a0-pilot-retry1-20261019",
+  "full_campaign_authorized": false,
+  "training_authorized": false,
+  "optional_genie_included": false,
+  "budget_method": "100 jobs per each of 12 setting/arm cost groups, using prior W100 N10 and new four-setting N3; divide summed worker wall by 2, multiply observed scheduling factor >=1. Recommend max(3x mean estimate, per-group observed max scenario)+120 seconds rounded up to minutes. This is a heuristic, not a statistical bound."
+}

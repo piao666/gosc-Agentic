@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-scheduler-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T15:03:30.682410+00:00",
+  "finished_at": "2026-10-20T15:04:08.312546+00:00",
+  "exit_code": 0,
+  "pid": 55810,
+  "elapsed_seconds": 37.630162,
+  "resource_usage": {
+    "child_max_rss_kib": 85148,
+    "child_cpu_user_seconds": 71.912278,
+    "child_cpu_system_seconds": 0.506096,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-cache-gap-probe-20261022",
+  "status": "completed",
+  "started_at": "2026-10-22T02:59:38.033306+00:00",
+  "finished_at": "2026-10-22T02:59:44.736485+00:00",
+  "exit_code": 0,
+  "pid": 28134,
+  "elapsed_seconds": 6.703202,
+  "resource_usage": {
+    "child_max_rss_kib": 45668,
+    "child_cpu_user_seconds": 4.371477,
+    "child_cpu_system_seconds": 0.955847,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

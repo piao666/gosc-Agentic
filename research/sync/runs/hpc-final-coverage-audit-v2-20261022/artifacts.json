@@ -1,0 +1,150 @@
+{
+  "run_id": "hpc-final-coverage-audit-v2-20261022",
+  "files": [
+    {
+      "path": "outputs/comparisons/ordered-c-frontier-20261019.json",
+      "size": 311761,
+      "sha256": "a48e5c747f23cb26a19d846ebd90141f84a1e2b7ec1f97f819b94b1f0ea5fed9"
+    },
+    {
+      "path": "outputs/comparisons/ordered-c-where-20261019.json",
+      "size": 223151,
+      "sha256": "04834acbe2238af115e5808a57660189b30776111832373be7dd745a19926ad5"
+    },
+    {
+      "path": "outputs/comparisons/ordered-selection-20261019.json",
+      "size": 9645,
+      "sha256": "cea3f26e5bcf50edef8e13d7e228b26a400ece4c241fb54a08d819af5f542417"
+    },
+    {
+      "path": "outputs/comparisons/ordered-selection-fresh-20261019.json",
+      "size": 173,
+      "sha256": "315cce32c3fb9ade9836750346d94269585a2ab33fa777ef41651f247a50ea72"
+    },
+    {
+      "path": "outputs/comparisons/resume-c-analysis-20261020.json",
+      "size": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "outputs/comparisons/resume-c-belief-20261020.json",
+      "size": 688,
+      "sha256": "5f24248e53d80247624d32a573735b8628137fc3eac8c4888f326f167867dddc"
+    },
+    {
+      "path": "outputs/comparisons/resume-cached-llm-20261020.json",
+      "size": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "outputs/comparisons/resume-fidelity-analysis-20261020.json",
+      "size": 204,
+      "sha256": "6e15283248fe1fee3ad3ecaff2ec2dcb6ff0c74f7011a4ff2e0cf709028b60e8"
+    },
+    {
+      "path": "outputs/comparisons/resume-final-replot-20261020.json",
+      "size": 486,
+      "sha256": "df8b942211c61540a6e752629bb4eaccad0590f287a012b609e80a85d85b3680"
+    },
+    {
+      "path": "outputs/comparisons/resume-genie-fresh-20261020.json",
+      "size": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "outputs/comparisons/resume-joint-20261020.json",
+      "size": 676,
+      "sha256": "da4c71a62fe976790861d69dabd3379b49b66a17c689bb409b5a8b5c948e37f0"
+    },
+    {
+      "path": "outputs/comparisons/resume-live-llm-20261020.json",
+      "size": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "outputs/comparisons/resume-main-sweeps-20261020.json",
+      "size": 62656,
+      "sha256": "7ae9ce1d1df8af3e8dc621ea61e402b55b88abea0dd5cfd6b534bbcb52495d82"
+    },
+    {
+      "path": "outputs/comparisons/resume-radio-fresh-20261020.json",
+      "size": 548,
+      "sha256": "c423ddc342117606e0a8839d655256036a431ea136b31e6209c34815249f2894"
+    },
+    {
+      "path": "outputs/comparisons/resume-radio-noise-20261020.json",
+      "size": 32645,
+      "sha256": "04f3376e4c7d2e8021d471c9e33ea5475560b84147f73e4c2b812287f3e9a0ef"
+    },
+    {
+      "path": "outputs/comparisons/resume-radio-overhead-20261020.json",
+      "size": 163991,
+      "sha256": "4b15fb814c70ab88ee4e5432abb48fd4725b4f6a989c8a6fe3d448c4939a96e9"
+    },
+    {
+      "path": "outputs/comparisons/resume-radio-shared-20261020.json",
+      "size": 728,
+      "sha256": "d1520c4063f863b7df10ff6ad6347723b59d77b24d895c93c5af9a61ea0ddb96"
+    },
+    {
+      "path": "outputs/comparisons/resume-revision-rest-20261020.json",
+      "size": 566958,
+      "sha256": "f25623ba8eef889d788cc28c3d02258f800477a64a6b5166525e8fea9551f587"
+    },
+    {
+      "path": "outputs/comparisons/resume-scheduler-20261020.json",
+      "size": 165,
+      "sha256": "63434824e0ef25e390a7ef8592fb449b3231abbfb8316a604dcd62a42153e96c"
+    },
+    {
+      "path": "outputs/comparisons/resume-sensitivity-20261020.json",
+      "size": 157,
+      "sha256": "f65cfb400006812de1d9d7152bda34f7d959c9c98a916f03cb17037630ce49b2"
+    },
+    {
+      "path": "outputs/comparisons/resume-sensitivity-fresh-20261020.json",
+      "size": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "outputs/comparisons/resume-theory-20261020.json",
+      "size": 155,
+      "sha256": "e6214347d46080722ed16161b1e2252480f88bc6e0e55e6080ba4d4cc621fddb"
+    },
+    {
+      "path": "outputs/comparisons/resume-value-fidelity-20261020.json",
+      "size": 285286,
+      "sha256": "733d537e84fc0f8b613148b16030a9fe28f091352acbc055364625c6ba27767a"
+    },
+    {
+      "path": "outputs/conclusion.json",
+      "size": 205,
+      "sha256": "ab43047c93841db34708793daf51383df46f1834430fb91438b8b1a3ae76da40"
+    },
+    {
+      "path": "outputs/figure_table_inventory.json",
+      "size": 6014,
+      "sha256": "fc80b1d387ba8ac6743beae7de98c6e28ebc35c6be0ada986c0b4afe5feef46e"
+    },
+    {
+      "path": "outputs/job_ledger_audit.json",
+      "size": 10296,
+      "sha256": "b6ecf2cda4b546106bc3962504d9b07832acc8ee6a4b5fbcbb07cce357439a04"
+    },
+    {
+      "path": "outputs/legacy_comparison_warnings.json",
+      "size": 477,
+      "sha256": "96a8237e700b0f1e10299d7f9bd7c13c7402d9222aab4aea16c55dc8ddcc5ce6"
+    },
+    {
+      "path": "outputs/recomputed_comparison_inventory.json",
+      "size": 21225,
+      "sha256": "5ed826dcfbeece51fb46a8b80a6d22a3b6f5235c8b801a82407fb4daef83b31f"
+    },
+    {
+      "path": "outputs/selection_and_fresh_scope.json",
+      "size": 4812,
+      "sha256": "5cf25a78f987b1a6bfd305feb4701a5329540c86ca572fd701f6b5e8e62cb698"
+    }
+  ]
+}

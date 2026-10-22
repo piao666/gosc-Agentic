@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-theory-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T15:04:09.718563+00:00",
+  "finished_at": "2026-10-20T15:04:34.203179+00:00",
+  "exit_code": 0,
+  "pid": 55845,
+  "elapsed_seconds": 24.484645,
+  "resource_usage": {
+    "child_max_rss_kib": 85168,
+    "child_cpu_user_seconds": 46.669449,
+    "child_cpu_system_seconds": 0.426257,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

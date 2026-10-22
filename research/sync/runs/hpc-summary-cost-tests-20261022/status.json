@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-summary-cost-tests-20261022",
+  "status": "completed",
+  "started_at": "2026-10-22T08:21:23.826287+00:00",
+  "finished_at": "2026-10-22T08:21:27.431015+00:00",
+  "exit_code": 0,
+  "pid": 47027,
+  "elapsed_seconds": 3.604754,
+  "resource_usage": {
+    "child_max_rss_kib": 49656,
+    "child_cpu_user_seconds": 2.397477,
+    "child_cpu_system_seconds": 0.328872,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

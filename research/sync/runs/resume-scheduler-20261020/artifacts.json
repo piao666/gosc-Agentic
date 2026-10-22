@@ -1,0 +1,80 @@
+{
+  "run_id": "resume-scheduler-20261020",
+  "files": [
+    {
+      "path": "outputs/active_pool.json",
+      "size": 95,
+      "sha256": "d2974738bc2e02338a77c3db2a732d3dca7b5dba6e4a5cd45913967ccbbcc039"
+    },
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 475,
+      "sha256": "779a91fda8caf6ea9e810a8da73e676c80ef2407dcd14c80c31329cc0b187a8b"
+    },
+    {
+      "path": "outputs/legacy_results/rev_additivity_W100.npy",
+      "size": 200408,
+      "sha256": "77e0df9bcd81e3f18ca5bd4b8460f65ad6d71737ea2d7df85c1ae8cf60db8a28"
+    },
+    {
+      "path": "outputs/legacy_results/rev_additivity_W50.npy",
+      "size": 224792,
+      "sha256": "19c922900d47979f3ba695c047ff38074358c00e31871efe18e06e921c688a13"
+    },
+    {
+      "path": "outputs/legacy_results/rev_scheduler.json",
+      "size": 996,
+      "sha256": "36a581b8325ad0f1aac8715ff71dec4998ccc830cb79fb04a2deec0e61502f46"
+    },
+    {
+      "path": "outputs/original_comparison.json",
+      "size": 241,
+      "sha256": "3250962aa05705a28a4ada8a1730046a2978d98c38fd58c5d9e69833866a50bf"
+    },
+    {
+      "path": "outputs/pool-001-events.jsonl",
+      "size": 17345,
+      "sha256": "6f5afabff37c2678cf1c346ef986544660f1b09a78d5456e3ef4178380941e13"
+    },
+    {
+      "path": "outputs/pool-001-jobs.jsonl",
+      "size": 1231368,
+      "sha256": "f7df86a92d9c996f35b078e363b31e74636aeedc6ba2e100ee6db737e95d4318"
+    },
+    {
+      "path": "outputs/pool-plans.jsonl",
+      "size": 602,
+      "sha256": "591ff723acb260cc972d06db35d142f03c54cad96203de7b9ab08f4039922420"
+    },
+    {
+      "path": "outputs/pool-summary.jsonl",
+      "size": 107,
+      "sha256": "2cec9b3ccf761e7677874158c29d9d17b9314c59d8140788eb33bba4e7236ead"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/stage_audit.json",
+      "size": 271,
+      "sha256": "8eb451463660d09190eb7177bc8dc24f37f883b0e66b29a8d6a6cdff013621f9"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 3110,
+      "sha256": "ff71dc8e5bcb8e54c894197de59bb971af30cf05e3894c3b85ddcd41838f41b7"
+    }
+  ]
+}

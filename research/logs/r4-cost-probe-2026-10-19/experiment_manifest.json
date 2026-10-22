@@ -1,0 +1,46 @@
+{
+  "phase": "R4-cost-probe",
+  "execution_host": "hpc/n1",
+  "head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "preregistration_sha256": "b97c7d042f077080e2ff392ba21a1dfaa2021c6faa1a7aa3304d0baa29ceb857",
+  "seed_range": [
+    9010,
+    9012
+  ],
+  "planned_and_actual_missions": 24,
+  "test_run": "hpc-r4-cost-tests-20261019",
+  "simulation_run": "hpc-r4-cost-probe-20261019",
+  "audit_run": "hpc-r4-cost-audit-20261019",
+  "commands": {
+    "hpc-r4-cost-tests-20261019": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests_ext/test_r4_pilot_executor.py",
+      "tests_ext/test_r4_cost_probe.py",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-r4-cost-tests-20261019/pytest-tmp",
+      "--junitxml",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-r4-cost-tests-20261019/outputs/pytest.xml"
+    ],
+    "hpc-r4-cost-probe-20261019": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/r4_cost_probe.py",
+      "execute"
+    ],
+    "hpc-r4-cost-audit-20261019": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/r4_cost_probe.py",
+      "audit",
+      "--probe-run",
+      "hpc-r4-cost-probe-20261019"
+    ]
+  },
+  "frozen_parameters_refit": false,
+  "full_campaign_started": false,
+  "training_started": false,
+  "raw_outputs": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs"
+}

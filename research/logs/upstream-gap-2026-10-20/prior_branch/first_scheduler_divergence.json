@@ -1,0 +1,317 @@
+{
+  "index": 243,
+  "windows": {
+    "t": 40,
+    "agent": 3,
+    "pos": [
+      25,
+      28
+    ],
+    "snr_mean": 0.9369711585684085,
+    "snr_inst": 1.0780891353045032,
+    "price": 0.0,
+    "budget": 100,
+    "groups": [
+      {
+        "kind": "INTENT",
+        "options": [
+          {
+            "rate": 0.25,
+            "bits": 18,
+            "symbols": 72,
+            "value": 14.708667182474091,
+            "n_records": 0
+          },
+          {
+            "rate": 0.5,
+            "bits": 18,
+            "symbols": 36,
+            "value": 11.568600602716746,
+            "n_records": 0
+          },
+          {
+            "rate": 1.0,
+            "bits": 18,
+            "symbols": 18,
+            "value": 6.191039765244135,
+            "n_records": 0
+          },
+          {
+            "rate": 1.5,
+            "bits": 18,
+            "symbols": 12,
+            "value": 2.5572915204190907,
+            "n_records": 0
+          },
+          {
+            "rate": 2.0,
+            "bits": 18,
+            "symbols": 9,
+            "value": 0.7323956738413018,
+            "n_records": 0
+          },
+          {
+            "rate": 3.0,
+            "bits": 18,
+            "symbols": 6,
+            "value": 0.010249675686378195,
+            "n_records": 0
+          },
+          {
+            "rate": 4.0,
+            "bits": 18,
+            "symbols": 5,
+            "value": 2.007422701534837e-06,
+            "n_records": 0
+          },
+          {
+            "rate": 5.0,
+            "bits": 18,
+            "symbols": 4,
+            "value": 7.700097878721585e-14,
+            "n_records": 0
+          },
+          {
+            "rate": 6.0,
+            "bits": 18,
+            "symbols": 3,
+            "value": 1.132950863255925e-28,
+            "n_records": 0
+          }
+        ],
+        "cell": null
+      },
+      {
+        "kind": "EVID",
+        "options": [
+          {
+            "rate": 1.0,
+            "bits": 99,
+            "symbols": 99,
+            "value": 34.05071870884274,
+            "n_records": 4
+          },
+          {
+            "rate": 1.5,
+            "bits": 99,
+            "symbols": 66,
+            "value": 14.065103362304999,
+            "n_records": 4
+          },
+          {
+            "rate": 2.0,
+            "bits": 171,
+            "symbols": 86,
+            "value": 6.957758901492367,
+            "n_records": 6
+          },
+          {
+            "rate": 3.0,
+            "bits": 171,
+            "symbols": 57,
+            "value": 0.09737191902059285,
+            "n_records": 6
+          },
+          {
+            "rate": 4.0,
+            "bits": 171,
+            "symbols": 43,
+            "value": 1.9070515664580953e-05,
+            "n_records": 6
+          },
+          {
+            "rate": 5.0,
+            "bits": 171,
+            "symbols": 35,
+            "value": 7.315092984785506e-13,
+            "n_records": 6
+          },
+          {
+            "rate": 6.0,
+            "bits": 171,
+            "symbols": 29,
+            "value": 1.0763033200931289e-27,
+            "n_records": 6
+          }
+        ],
+        "cell": null
+      }
+    ],
+    "chosen": [
+      {
+        "group": 0,
+        "kind": "INTENT",
+        "cell": null,
+        "option": {
+          "rate": 0.25,
+          "bits": 18,
+          "symbols": 72,
+          "value": 14.708667182474091,
+          "n_records": 0
+        }
+      }
+    ],
+    "tx_bits": 18,
+    "tx_symbols": 72,
+    "delivered": [
+      "INTENT"
+    ]
+  },
+  "linux": {
+    "t": 40,
+    "agent": 3,
+    "pos": [
+      25,
+      28
+    ],
+    "snr_mean": 0.9369711585684085,
+    "snr_inst": 1.0780891353045032,
+    "price": 0.0,
+    "budget": 100,
+    "groups": [
+      {
+        "kind": "INTENT",
+        "options": [
+          {
+            "rate": 0.25,
+            "bits": 18,
+            "symbols": 72,
+            "value": 14.708667182474091,
+            "n_records": 0
+          },
+          {
+            "rate": 0.5,
+            "bits": 18,
+            "symbols": 36,
+            "value": 11.568600602716746,
+            "n_records": 0
+          },
+          {
+            "rate": 1.0,
+            "bits": 18,
+            "symbols": 18,
+            "value": 6.191039765244134,
+            "n_records": 0
+          },
+          {
+            "rate": 1.5,
+            "bits": 18,
+            "symbols": 12,
+            "value": 2.5572915204190907,
+            "n_records": 0
+          },
+          {
+            "rate": 2.0,
+            "bits": 18,
+            "symbols": 9,
+            "value": 0.7323956738413018,
+            "n_records": 0
+          },
+          {
+            "rate": 3.0,
+            "bits": 18,
+            "symbols": 6,
+            "value": 0.010249675686378195,
+            "n_records": 0
+          },
+          {
+            "rate": 4.0,
+            "bits": 18,
+            "symbols": 5,
+            "value": 2.007422701534837e-06,
+            "n_records": 0
+          },
+          {
+            "rate": 5.0,
+            "bits": 18,
+            "symbols": 4,
+            "value": 7.700097878721585e-14,
+            "n_records": 0
+          },
+          {
+            "rate": 6.0,
+            "bits": 18,
+            "symbols": 3,
+            "value": 1.132950863255925e-28,
+            "n_records": 0
+          }
+        ],
+        "cell": null
+      },
+      {
+        "kind": "EVID",
+        "options": [
+          {
+            "rate": 1.0,
+            "bits": 99,
+            "symbols": 99,
+            "value": 34.05071870884274,
+            "n_records": 4
+          },
+          {
+            "rate": 1.5,
+            "bits": 99,
+            "symbols": 66,
+            "value": 14.065103362304999,
+            "n_records": 4
+          },
+          {
+            "rate": 2.0,
+            "bits": 171,
+            "symbols": 86,
+            "value": 6.957758901492367,
+            "n_records": 6
+          },
+          {
+            "rate": 3.0,
+            "bits": 171,
+            "symbols": 57,
+            "value": 0.09737191902059285,
+            "n_records": 6
+          },
+          {
+            "rate": 4.0,
+            "bits": 171,
+            "symbols": 43,
+            "value": 1.9070515664580953e-05,
+            "n_records": 6
+          },
+          {
+            "rate": 5.0,
+            "bits": 171,
+            "symbols": 35,
+            "value": 7.315092984785506e-13,
+            "n_records": 6
+          },
+          {
+            "rate": 6.0,
+            "bits": 171,
+            "symbols": 29,
+            "value": 1.0763033200931289e-27,
+            "n_records": 6
+          }
+        ],
+        "cell": null
+      }
+    ],
+    "chosen": [
+      {
+        "group": 1,
+        "kind": "EVID",
+        "cell": null,
+        "option": {
+          "rate": 1.0,
+          "bits": 99,
+          "symbols": 99,
+          "value": 34.05071870884274,
+          "n_records": 4
+        }
+      }
+    ],
+    "tx_bits": 99,
+    "tx_symbols": 99,
+    "delivered": [
+      "EVID"
+    ]
+  }
+}

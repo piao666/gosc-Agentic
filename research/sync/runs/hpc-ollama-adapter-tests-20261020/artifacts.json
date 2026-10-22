@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-ollama-adapter-tests-20261020",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 1527,
+      "sha256": "11b589d0365dc1885e771a318fdb3860ff8ad3435988120f04ab19e9927309d5"
+    }
+  ]
+}

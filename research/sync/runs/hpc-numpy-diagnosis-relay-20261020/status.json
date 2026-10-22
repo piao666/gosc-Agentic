@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-numpy-diagnosis-relay-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T03:04:03.801237+00:00",
+  "finished_at": "2026-10-20T03:04:11.700981+00:00",
+  "exit_code": 0,
+  "pid": 14637,
+  "elapsed_seconds": 7.899767,
+  "resource_usage": {
+    "child_max_rss_kib": 55468,
+    "child_cpu_user_seconds": 5.866894,
+    "child_cpu_system_seconds": 1.338963,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

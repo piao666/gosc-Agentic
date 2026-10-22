@@ -1,0 +1,137 @@
+{
+  "created_at_utc": "2026-10-22T09:01:10.793285+00:00",
+  "status": "completed",
+  "scope": "Information and conditional encoded-transport cost audit, no trained/paid task policy or realRF measurement",
+  "source_receipt": {
+    "status": "verified",
+    "remote_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+    "file_count": 344,
+    "changed_count": 8,
+    "sha256_mismatches": [],
+    "sync_id": "20261022T085808Z",
+    "remote_only_files": "preserved",
+    "text_line_endings": "LF"
+  },
+  "source_manifest_sha256": "73206cf97e4ea994ecc5550f968e18353f7423ad90b7f9adb41d53670e120fcd",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "source_sha256": "41558be92daab6ca3a057ceb81aca4529538d6ba227fa332778b7a54ea791c2a",
+      "remote_sha256": "41558be92daab6ca3a057ceb81aca4529538d6ba227fa332778b7a54ea791c2a",
+      "normalized_lf": false
+    },
+    {
+      "path": "extensions/receiver_summary_audit.py",
+      "source_sha256": "336de539d3ec151b7cf9f7b6707e7e9aeacd8ad6f2ab6e968e218553152c1d0f",
+      "remote_sha256": "336de539d3ec151b7cf9f7b6707e7e9aeacd8ad6f2ab6e968e218553152c1d0f",
+      "normalized_lf": false
+    },
+    {
+      "path": "extensions/receiver_transport_replay.py",
+      "source_sha256": "b856bf909b3797dacdbe489bf5a779a0aa2c6f374bc569bc2a5e3bfb220bb957",
+      "remote_sha256": "b856bf909b3797dacdbe489bf5a779a0aa2c6f374bc569bc2a5e3bfb220bb957",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/ideas/RQ_v2.md",
+      "source_sha256": "77ea76685a485743a3e616ac50d0ba144b84f12d3e74fa88913a58001caefde3",
+      "remote_sha256": "77ea76685a485743a3e616ac50d0ba144b84f12d3e74fa88913a58001caefde3",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/ideas/reviewer_objections_2026-10-22.md",
+      "source_sha256": "870eb562b8868ee86763718f4362fab8a7571c7617c9b33c5ccd717844f4dd73",
+      "remote_sha256": "870eb562b8868ee86763718f4362fab8a7571c7617c9b33c5ccd717844f4dd73",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/logs/summary-cost-2026-10-22/field_ledger.json",
+      "source_sha256": "40e2ba6878db1baf5e5d155d431dc25675bec479bb7037b0b19830b285733805",
+      "remote_sha256": "40e2ba6878db1baf5e5d155d431dc25675bec479bb7037b0b19830b285733805",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/logs/summary-cost-2026-10-22/task_brief.md",
+      "source_sha256": "108c627b8406447d8afd2437cfe6eccc0926b76ccbf789aa3ce1708e7f9a6a91",
+      "remote_sha256": "108c627b8406447d8afd2437cfe6eccc0926b76ccbf789aa3ce1708e7f9a6a91",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/protocols/receiver_summary_cost_audit_v1.json",
+      "source_sha256": "f9376680f12134775c8d81ede10339bf119921075ae94242dd80c217df337e87",
+      "remote_sha256": "f9376680f12134775c8d81ede10339bf119921075ae94242dd80c217df337e87",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/protocols/receiver_summary_transport_audit_v1.json",
+      "source_sha256": "5df69e46453732224a037258dec9fa3b87815ad9efdbf288624d375756bdcab0",
+      "remote_sha256": "5df69e46453732224a037258dec9fa3b87815ad9efdbf288624d375756bdcab0",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/reports/receiver_summary_information_cost_audit_2026-10-22.md",
+      "source_sha256": "dfd6204c0d0d7bd1e82ac982a917ef2c1ebb85e2b4b2d72009cb700997aa7f70",
+      "remote_sha256": "dfd6204c0d0d7bd1e82ac982a917ef2c1ebb85e2b4b2d72009cb700997aa7f70",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/sync/plans/next_steps.md",
+      "source_sha256": "632dde3af170a7149868335a2794c21cb06f70493fad70a2db112db24a639dba",
+      "remote_sha256": "632dde3af170a7149868335a2794c21cb06f70493fad70a2db112db24a639dba",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/sync/project_status.json",
+      "source_sha256": "296805879d1ca04a36ee28d8104c3bb92bd55eff6978281fdcdfa449f24110b7",
+      "remote_sha256": "296805879d1ca04a36ee28d8104c3bb92bd55eff6978281fdcdfa449f24110b7",
+      "normalized_lf": false
+    },
+    {
+      "path": "scripts/repro_summary_audit.py",
+      "source_sha256": "6d893d52d9f98c906bb233f829f56a250af63cd758ca14ff2ea268f16d7cd87e",
+      "remote_sha256": "6d893d52d9f98c906bb233f829f56a250af63cd758ca14ff2ea268f16d7cd87e",
+      "normalized_lf": false
+    },
+    {
+      "path": "scripts/repro_summary_transport_audit.py",
+      "source_sha256": "57fb7cf2d111fcf74c8e1e6fe44e880a6fddf859d357f7d001a56b7a17f6957d",
+      "remote_sha256": "57fb7cf2d111fcf74c8e1e6fe44e880a6fddf859d357f7d001a56b7a17f6957d",
+      "normalized_lf": false
+    },
+    {
+      "path": "tests_ext/test_receiver_summary_audit.py",
+      "source_sha256": "b65fe468f7c42dcdecaa97653640701f77acf9a256a0e79fea4b7d696dd79eed",
+      "remote_sha256": "b65fe468f7c42dcdecaa97653640701f77acf9a256a0e79fea4b7d696dd79eed",
+      "normalized_lf": false
+    },
+    {
+      "path": "tests_ext/test_receiver_transport_replay.py",
+      "source_sha256": "ad032a1394811f872783523d500e479ff9e1e71fd5fa210e26af5c8f006de460",
+      "remote_sha256": "ad032a1394811f872783523d500e479ff9e1e71fd5fa210e26af5c8f006de460",
+      "normalized_lf": false
+    }
+  ],
+  "run_output_receipt": "research/sync/receipts/20261022T084926Z-5f62ef.json",
+  "run_output_receipt_sha256": "02e0fd79e4cf8f44b53366adcdf5dfb7b79603527cc590b7045be7cc1269db20",
+  "registered_output_files": 1477,
+  "all_outputs_mirrored": true,
+  "runs": [
+    "hpc-summary-cost-tests-20261022",
+    "hpc-summary-cost-audit-20261022",
+    "hpc-summary-transport-tests-20261022",
+    "hpc-summary-transport-audit-20261022",
+    "hpc-summary-cost-final-audit-20261022"
+  ],
+  "final_tests": 23,
+  "conditional_transport_cases": 96,
+  "original_frozen_sources_unchanged": true,
+  "complex_training_go": false,
+  "report": "research/reports/receiver_summary_information_cost_audit_2026-10-22.md",
+  "limits": [
+    "Immediate per-slot retries not RTT-optimized",
+    "Task load is fixed nativeH0, not complete matched-overhead task comparison",
+    "No new test worlds or task-value test"
+  ],
+  "delivery_channel": "Separate administrative attestation after344-file source snapshot; this record is mirrored directly and excluded from that snapshot count"
+}

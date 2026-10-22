@@ -1,0 +1,20 @@
+{
+  "run_id": "hpc-r4-a1-analysis-20261019",
+  "files": [
+    {
+      "path": "outputs/a1_analysis.json",
+      "size": 15545,
+      "sha256": "52ea7782813e22a991b93ccea37e402f6dfcba0b21484cb029a0178d776a1e79"
+    },
+    {
+      "path": "outputs/group_metrics.csv",
+      "size": 2381,
+      "sha256": "dc28393050a26a7ab1e1752ee9d5a3bc37157ac15d1f35617cb234b692be764a"
+    },
+    {
+      "path": "outputs/mission_metrics.csv",
+      "size": 121161,
+      "sha256": "28edc77bfbd3a1c955336f2b8290bd503bf736111e2be8c7afd87b056afb4030"
+    }
+  ]
+}

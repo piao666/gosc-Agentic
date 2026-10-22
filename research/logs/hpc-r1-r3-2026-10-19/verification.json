@@ -1,0 +1,35 @@
+{
+  "status": "verified",
+  "ssh_host": "hpc",
+  "uid": 8301880,
+  "run_checks": {
+    "hpc-env-20261019": {
+      "status": "completed",
+      "artifacts_verified": 17,
+      "protected_inputs_unchanged": true
+    },
+    "hpc-r1-20261019": {
+      "status": "completed",
+      "artifacts_verified": 10,
+      "protected_inputs_unchanged": true
+    },
+    "hpc-r2-20261019": {
+      "status": "completed",
+      "artifacts_verified": 50,
+      "protected_inputs_unchanged": true
+    },
+    "hpc-r3-20261019": {
+      "status": "completed",
+      "artifacts_verified": 7,
+      "protected_inputs_unchanged": true
+    }
+  },
+  "mirrored_files_and_receipts": 148,
+  "formal_runs": 3,
+  "training_runs": 0,
+  "original_core_unchanged": true,
+  "note": "File integrity and actual execution evidence verification; not an additional scientific experiment or paper PDF visual review.",
+  "latest_pull_receipt": "research/sync/receipts/20261019T072303Z-f3916e.json",
+  "latest_pull_all_outputs_mirrored": true,
+  "local_file_hashes_verified": 141
+}

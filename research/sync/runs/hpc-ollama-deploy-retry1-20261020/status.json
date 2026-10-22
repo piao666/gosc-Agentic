@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-ollama-deploy-retry1-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T02:04:06.691327+00:00",
+  "finished_at": "2026-10-20T02:12:42.795825+00:00",
+  "exit_code": 0,
+  "pid": 8943,
+  "elapsed_seconds": 516.104521,
+  "resource_usage": {
+    "child_max_rss_kib": 41532,
+    "child_cpu_user_seconds": 17.034856,
+    "child_cpu_system_seconds": 3.29241,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

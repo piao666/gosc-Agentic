@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-remaining-inventory-20261019",
+  "status": "completed",
+  "started_at": "2026-10-19T10:14:10.057075+00:00",
+  "finished_at": "2026-10-19T10:14:13.175749+00:00",
+  "exit_code": 0,
+  "pid": 26146,
+  "elapsed_seconds": 3.1187,
+  "resource_usage": {
+    "child_max_rss_kib": 113176,
+    "child_cpu_user_seconds": 2.199194,
+    "child_cpu_system_seconds": 0.32011999999999996,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

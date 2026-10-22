@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-compare-tests-20261020",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 2234,
+      "sha256": "d3058f3d5480cb345fefdb4252c7934be42bcdb7aed36dcb9e12573129351b9e"
+    }
+  ]
+}

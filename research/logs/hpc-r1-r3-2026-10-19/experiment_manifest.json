@@ -1,0 +1,26 @@
+{
+  "head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "execution_host": "n1",
+  "ssh_alias": "hpc",
+  "local_root": "E:\\gosc",
+  "remote_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "cpu_limit": 2,
+  "ram_limit_gib": 24,
+  "gpu_workload": false,
+  "run_ids": [
+    "hpc-env-20261019",
+    "hpc-r1-20261019",
+    "hpc-r2-20261019",
+    "hpc-r3-20261019"
+  ],
+  "r3": {
+    "seed": 3000,
+    "scheme": "gosc",
+    "agents": "default non-LLM planners",
+    "single_seed_no_ci": true
+  },
+  "environment_evidence": "research/sync/environment/project_environment.json",
+  "dependency_lock": "research/reproduction/requirements-linux.lock.txt",
+  "run_facts_authority": "research/sync/runs/<run-id>/{manifest,status,artifacts}.json",
+  "source_changes": "Per-run source_snapshot.json, source_changes.patch and source_untracked.tar.gz"
+}

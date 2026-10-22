@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-fidelity-analysis-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T16:00:38.941881+00:00",
+  "finished_at": "2026-10-20T16:00:48.225206+00:00",
+  "exit_code": 0,
+  "pid": 58373,
+  "elapsed_seconds": 9.283343,
+  "resource_usage": {
+    "child_max_rss_kib": 85208,
+    "child_cpu_user_seconds": 8.981669,
+    "child_cpu_system_seconds": 0.226289,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

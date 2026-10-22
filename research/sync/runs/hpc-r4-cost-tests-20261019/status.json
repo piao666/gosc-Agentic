@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-r4-cost-tests-20261019",
+  "status": "completed",
+  "started_at": "2026-10-19T08:48:24.550110+00:00",
+  "finished_at": "2026-10-19T08:48:27.056519+00:00",
+  "exit_code": 0,
+  "pid": 18575,
+  "elapsed_seconds": 2.506438,
+  "resource_usage": {
+    "child_max_rss_kib": 49272,
+    "child_cpu_user_seconds": 1.460347,
+    "child_cpu_system_seconds": 0.36887,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

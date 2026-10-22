@@ -1,0 +1,55 @@
+{
+  "run_id": "hpc-r1-20261019",
+  "files": [
+    {
+      "path": "outputs/collect.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/collect.stdout.log",
+      "size": 5189,
+      "sha256": "c756af928340727c733ce5686f4ad7ff32f0188982996c48257e8e1ad50ed5c6"
+    },
+    {
+      "path": "outputs/commands.json",
+      "size": 958,
+      "sha256": "80c4ffa1e11804c674dee869d27201409361f64272b03c5a058447e2b562e300"
+    },
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/pytest.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/pytest.stdout.log",
+      "size": 180,
+      "sha256": "cfc9bbfe716e30776c67cb3d0c6e382c646b54bc73e44e4ada44fe83aaa3e680"
+    },
+    {
+      "path": "outputs/pytest.xml",
+      "size": 8800,
+      "sha256": "7790679dbdabba9eae229accad922ba84c30c959724983573a14ca07e06ca06a"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/test_summary.json",
+      "size": 88,
+      "sha256": "271989e98d58a2e2de62bad7b5674e1e5af679ed7faf6cceb53704e513598cb2"
+    }
+  ]
+}

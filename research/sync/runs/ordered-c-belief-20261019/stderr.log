@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_legacy.py", line 149, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_legacy.py", line 146, in main
+    module.main()
+    ^^^^^^^^^^^
+AttributeError: module 'experiments.run_belief_divergence' has no attribute 'main'
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_ordered.py", line 222, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_ordered.py", line 219, in main
+    else:stage(args.name)
+         ^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_ordered.py", line 83, in stage
+    run_legacy(WORK,entry[1],entry[2],entry[4],entry[3]);succeeded=True
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_ordered.py", line 59, in run_legacy
+    if code:raise RuntimeError(f'Original entry point exit {code}')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Original entry point exit 1

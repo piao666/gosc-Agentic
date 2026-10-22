@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-ollama-install-20261020",
+  "status": "failed",
+  "started_at": "2026-10-20T01:40:07.531549+00:00",
+  "finished_at": "2026-10-20T01:43:00.404842+00:00",
+  "exit_code": -15,
+  "pid": 6371,
+  "elapsed_seconds": 172.873322,
+  "resource_usage": {
+    "child_max_rss_kib": 21884,
+    "child_cpu_user_seconds": 0.183337,
+    "child_cpu_system_seconds": 0.12428099999999999,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

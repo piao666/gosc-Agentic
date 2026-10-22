@@ -1,0 +1,495 @@
+diff --git a/.gitignore b/.gitignore
+index 0e30b3a..e4ac0e4 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -17,3 +17,7 @@ figures/
+ # Regenerated summaries removed at the user's request; upstream copies remain in Git history
+ results/summary_realistic.json
+ results/summary_revision.json
++
++# HPC execution outputs and disposable pytest workspaces
++research/sync/runs/*/outputs/
++research/sync/runs/*/pytest-tmp/
+diff --git a/AGENTS.md b/AGENTS.md
+index 8d76530..43a8794 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -1,13 +1,15 @@
+ # AGENTS.md — GOSC 硕士论文科研与开发协作约束
+ 
+-> 本文件放置于 **`E:\gosc-agentic-teams\AGENTS.md`**，适用于在该仓库工作的 Codex 及其他 AI 编码助手。它不仅是工程代码规范，更是**研究第一作者的科研行为规范**。你被要求像准备投稿且要承担全部科学责任的硕士研究生一样工作。作者身份、贡献与投稿决策仍由真实研究人员/导师决定；AI 不得自称真实署名作者或擅自对外提交。
++> 本文件位于本地 **`E:\gosc\AGENTS.md`**，并同步至 HPC **`/home/u202520081000097/jupyterlab/Paper/gosc/AGENTS.md`**，适用于两端在该仓库工作的 Codex 及其他 AI 编码助手。它不仅是工程代码规范，更是**研究第一作者的科研行为规范**。你被要求像准备投稿且要承担全部科学责任的硕士研究生一样工作。作者身份、贡献与投稿决策仍由真实研究人员/导师决定；AI 不得自称真实署名作者或擅自对外提交。
+ >
+-> 研究总说明书：`research/硕士论文研究与实施说明书.md`（若用户将其放在根目录或其他路径，启动时先定位；不得假定目录已存在）。主方向：**LLM Multi-Agent → Receiver/Task-aware Semantic Value → Wireless Semantic Communication → Scheduling/Resource Allocation → Task Success**。
++> 研究总说明书：`硕士论文研究与实施说明书.md`（当前位于仓库根目录；若后续迁移，启动时先定位）。主方向：**LLM Multi-Agent → Receiver/Task-aware Semantic Value → Wireless Semantic Communication → Scheduling/Resource Allocation → Task Success**。
++
++> 当前工作仓库：<https://github.com/piao666/gosc-Agentic>；代码根目录 `E:\gosc`，参考论文根目录 `E:\Papers`（用户于 2026-10-19 校正）。路径配置见 `research/workspace_paths.json`，最近进度审计见 `research/reports/progress_review_2026-10-19.md`。历史日志中的旧路径仅表示当时环境。
+ 
+ ## A. 启动协议（每次会话和每个开发任务）
+ 
+ 1. 先读本文件、研究总说明书、`README.md`、最近一次 `research/logs/` 任务记录和待解决问题。
+-2. 执行/检查（仅只读）：`git status --short`、`git rev-parse HEAD`、`git remote -v`、`python --version`，确认用户本地路径是 `E:\gosc-agentic-teams`。
++2. 执行/检查（仅只读）：`git status --short`、`git rev-parse HEAD`、`git remote -v`；本地源码根目录 `E:\gosc`，HPC 运行根目录 `/home/u202520081000097/jupyterlab/Paper/gosc`。测试/训练前使用 `ssh hpc` 核验远端身份、项目路径、Python 环境、资源配额和同步 manifest；按 E1 节强制在 HPC 执行。
+ 3. 如果工作区存在用户未提交修改，**不要 reset/checkout/clean/覆盖/重命名**；先解释其意义并请求处理方案。
+ 4. 先写“Research Task Brief”：本轮科学问题、前人成果、拟验证假设、修改文件、实验设计、预期成本、可能反例、验收标准。
+ 5. 当前会话范围之外的任务（特别是新模型、全量多 seed、外部数据与投稿）必须先得到用户批准。
+@@ -19,7 +21,7 @@
+ 
+ - `[PAPER]` 论文原文：PDF 的页码/节/式/表/图及准确文献元数据。
+ - `[CODE]` 原始或本地 git commit：具体文件、类/函数和行范围。
+-- `[RUN]` 本机执行：命令、环境、commit、数据、seed、日志和输出路径。
++- `[RUN]` 实际执行：区分本地管理与 HPC 计算，记录 execution_host、命令、环境、commit、数据、seed、日志和输出路径。
+ - `[HYPOTHESIS]` 尚未验证的推断、计划、待检验创新点。
+ 
+ 严禁将它们互相冒充。
+@@ -56,7 +58,7 @@
+ 
+ ## E. 对 Windows/本地数据的限制
+ 
+-- `E:\gosc-agentic-teams`：代码/实验；`E:\Obsidian\Papers`：用户个人论文知识库。
++- `E:\gosc`：本地源码/文档与同步；`E:\Papers`：用户个人论文知识库；HPC 的 `Paper/gosc`：项目测试、实验、推理和训练。
+ - Obsidian **默认只读**：允许定位 PDF、阅读、比对文献、生成指向 PDF 的引用和索引；未经明确要求不得移动/覆盖/重命名 PDF 或修改 Obsidian 的 `.obsidian/` 配置。
+ - 若收到“整理 Obsidian”的明确请求，先列文件变更预案、备份现有笔记再修改，保留 wikilink。
+ - 不上传本地 PDF、隐私文件、研究数据、密钥到公网服务；读取私有内容不意味着有公开权限。
+@@ -64,6 +66,59 @@
+ - 依赖安装、模型下载、第三方代码执行、收费 API、长时 GPU/CPU 高占用任务先估算成本并征得用户同意。
+ - Windows PowerShell 与上游 Bash 命令不等价：shell 脚本须确认 Git Bash/WSL/等效 Python 实现，不能直接假定 `.sh` 可执行。
+ 
++## E1. HPC 连接、计算执行与同步（用户 2026-10-19 明确指定）
++
++### 连接与目录
++
++- SSH 别名：`hpc`，本地执行 `ssh hpc`；完整地址 `u202520081000097@172.18.101.241`，端口 `22610`，UID `8301880`。需保持学校 EasyConnect VPN 连通。
++- 本地 SSH 配置：`C:\Users\34904\.ssh\config`；专用密钥 `~/.ssh/id_ed25519_hpc`。只引用路径，禁止读取/打印私钥，禁止把 `.ssh`、密码、令牌或密钥同步进项目。
++- 本地项目：`E:\gosc`；HPC 项目：`/home/u202520081000097/jupyterlab/Paper/gosc`。
++- JupyterLab 文件浏览器根目录为 `/home/u202520081000097/jupyterlab`；截图中的 `Paper` 对应 `/home/u202520081000097/jupyterlab/Paper`。终端的操作系统 `/` 与文件浏览器的 `/` 不同，使用绝对路径进入项目。
++- 路径配置以 `research/workspace_paths.json` 为机器可读入口，操作说明见 `research/reproduction/hpc_environment.md`。
++
++### 强制执行地点
++
++1. **后续本项目所有占用 GPU、CPU、RAM 的测试与训练均在 HPC 运行**，包括 CPU-only pytest、smoke test、fresh simulation、多 seed 仿真、统计/重绘、基准测试、模型推理、校准和训练。不得以“小测试”“不用 GPU”为由在本地执行。
++2. 本地仅用于代码/文档编辑、Git 检查、轻量文件/哈希核验、同步与查看报告；这些轻量管理操作可以在 Windows 执行。大规模文件/数据分析同样移到 HPC。
++3. VPN/HPC 不可达或远端环境未就绪时，记录阻断和原因；不得自动回退到本地跑测试或训练。旧 Windows 示例与历史本地测试日志不构成例外。
++4. 本条规定运行地点，不等于授权立即开始任意长训练、依赖安装、下载模型或付费调用。用户已明确授权的实验范围内继续推进，不重复请求相同授权；超出范围仍遵守任务关卡。
++
++### 资源及实验记录
++
++- [RUN] 2026-10-19 只读检测：容器主机 `n1`；宿主可见 AMD EPYC 9354 共 64 核，本容器 cpuset `0-1`、CPU quota `200000/100000`，**实际 2 核 CPU、24 GiB RAM**。
++- [RUN] 可见一张 NVIDIA L40，显存 `34304 MiB`（33.5 GiB）；有 vGPU 预加载，`CUDA_DEVICE_SM_LIMIT=75`，该设置不是实测吞吐。驱动 545.29.06；驱动 CUDA 能力 12.3 不等于已安装 Toolkit。
++- 每次实验先重新检查实际配额；CPU 并行默认不超过 2，不能使用宿主 64 核数设置 workers。按新分配更新记录后再调整。
++- 每个 run manifest 记录 SSH host、远端工作目录、commit、dirty 状态、同步 ID/哈希、环境、资源限额、seed、模型/缓存、时间和内存/显存开销；不能把过去 Windows 85 tests 记录当作 HPC 已通过测试。
++
++### 同步与结果保护
++
++- 本地 `E:\gosc` 执行 `python scripts/sync_hpc.py`，单向同步到上述 `Paper/gosc`。计算前必须确认本次同步 SHA-256 校验通过。
++- 传输 Git bundle 保留公开项目历史，并同步当前 tracked/untracked 且未被忽略的工作文件；不直接复制本地 `.git/config`、hooks 或凭据。文本以 LF 写入 Linux，manifest 同时记录本地原始和远端规范化哈希。
++- 排除 `.ssh`、密钥、`.env`、`.venv`、`.local`、缓存和 Git 忽略文件；`E:\Papers` 的私人 PDF 不在本项目同步范围内。
++- 默认不删除远端独有文件；非结果文件覆盖前备份到远端 `.local/sync-backups/<sync-id>/`。遇到远端原始 `results/`、缓存或 LICENSE 差异，或 Git HEAD/origin 不一致时停止并核对，禁止覆盖来匹配本地。
++- 新实验记录统一置于 `research/sync/runs/<run-id>/`，结果写入其 `outputs/`，保留 manifest、状态、日志、产物哈希和每个 seed 的原始结果。HPC 是运行事实的权威源；源码上行不得覆盖本地回传的旧状态到 HPC。取回输出使用 `python scripts/sync_hpc.py --pull-runs`。
++- 多行 SSH 脚本使用 UTF-8/LF 字节输入，避免 Windows CRLF 传给 Bash。保持主机密钥严格校验。
++
++### 每次执行的登记与两端完成状态
++
++- 已核验 uv 0.11.19 管理的 Python 3.11.15：`/home/u202520081000097/.local/share/uv/python/cpython-3.11-linux-x86_64-gnu/bin/python3.11`。系统 python3=3.6.9 只是控制命令的默认解释器；不要以此断言 HPC 缺少可用 Python。早前裸解释器缺少依赖；现已在 HPC 项目 `.venv` 建立 Python 3.11.15 环境，依赖导入与 `uv pip check` 通过。运行入口使用 `/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python`；精确依赖和哈希见 `research/reproduction/requirements-linux.lock.txt`，证据见 `research/sync/environment/project_environment.json`。环境就绪不代表 R1/R2/R3 已通过，需核对实际 run。
++- 后续每次测试/训练/仿真/分析都用 `scripts/hpc_runs.py launch`（本地发起、HPC 计算、结束自动回传）或 HPC 的 `run` 子命令登记；运行前读 `research/sync/README.md`、`project_status.json` 和 `plans/next_steps.md`。
++- 每次记录唯一 run ID、kind/stage/purpose、真实命令、seed/config/model/cache、Git 与同步快照、Python 路径、资源限额、开始/结束、退出码、stdout/stderr 和产物 SHA-256；状态为 planned/running/completed/failed/interrupted，失败与中断不得删除。
++- 执行完成与两端文件同步完成是不同字段：`runs/*/status.json` 表示 HPC 执行状态，`receipts/*.json` 表示本地回传完成情况；大型未拉取输出必须明确标记，不得称内容已全部同步。
++- `runs/`、`receipts/`、dashboard/STATUS 属于 HPC 运行数据通道，源码上行排除；元数据、日志和小型输出从 HPC 回传，receipt 写回 HPC。默认每次新增下载 100 MiB，需更大产物时显式设置上限。不得上传密钥、凭据或私人 PDF。
++- 有 running 任务时不更新远端源码；先拉取状态并核验进程。手工绕过登记入口的任务不得推断为已完成。所有原始结果仍在 HPC 留存。
++
++### 论文映射与审计入口（2026-10-19）
++
++- 最新[RUN]：完整A1已完成1200条/600配对，28测试及独立审计通过；实际状态 `research/protocols/r4_a1_execution_2026-10-19.json`，报告 `research/reproduction/r4_a1_report_2026-10-19.md`。原冻结计划/预算提案保留制定时状态；下文较早的A1未执行描述仅作历史记录。B/C、独立校准、LLM及训练仍未完成。
++
++- [RUN] 其余四场景成本探测24/24完成，17项测试及独立审计通过；报告 `research/reproduction/r4_cost_probe_report_2026-10-19.md`，完整A1预算提案 `research/protocols/r4_a1_budget_proposal_2026-10-19.json`（1200条，预计575.8s，建议上限1860s，并发2）。这是成本提案，A1/训练仍未执行；原预登记JSON保持不改。
++
++- 当前精确原文与5式/5图/13表/Algorithm1映射：`research/logs/GOSC_paper_code_map.md`；印刷数据核对与差异：`research/reproduction/figure_table_audit_2026-10-19.md`。
++- R2三plot后必须在隔离HPC副本追加 `experiments.run_belief_divergence --table`，否则TableVI留5格n/e。管理脚本已加入；历史原R2和后续补表证据分开保留。
++- 多seed预登记见 `research/protocols/r4_protocol_v1.md` 与 `r4_plan_v1.json`（冻结预登记不改写）；R4-A0已完成60条mission，9项执行器测试/独立审计通过，当前事实见 `research/protocols/r4_a0_execution_2026-10-19.json`；完整A1/B/C仍未执行。主结果search候选37、rescue38；补38方案另立敏感性轨道，禁止静默改写严格复现。
++- Genie是理想通信参考，不是任务最优上界。相同W或相同eta不等于相同实际资源；估值函数的price单位不同。
++
+ ## F. Reproducibility First — 分阶段复现
+ 
+ **必须依序过关**：
+@@ -76,7 +131,7 @@
+ 6. 执行作者设计的 disjoint calibration / evaluation；
+ 7. 复现 LLM cached 与 live 分开评估。
+ 
+-**禁止**把 cached response replay 写成“重新调用/评估 LLM”。如本机无法访问 Ollama、设备不够或没有模型，必须明确“阻断”，不能偷偷退化为 Planner 再报告 LLM 效果。
++**禁止**把 cached response replay 写成“重新调用/评估 LLM”。如 HPC 无法访问 Ollama、设备不够或没有模型，必须明确“阻断”，不能偷偷退化为 Planner 再报告 LLM 效果。
+ 
+ 保留作者合理的种子隔离：`1000–1079` calibration，`0–99` evaluation，`3000–3099` fresh validation（依据公开 README；以实际脚本核验）。新方法训练/调参不得使用原评估 seeds 或其下游强相关轨迹。
+ 
+@@ -85,6 +140,10 @@
+ ```yaml
+ experiment_id: null
+ date: null
++execution_host: hpc
++remote_workdir: /home/u202520081000097/jupyterlab/Paper/gosc
++sync_id: null
++sync_manifest_sha256: null
+ git_commit: null
+ working_tree_dirty: null
+ scheme: null
+@@ -181,3 +240,17 @@ notes: null
+ 2. 先能复现上游，再谈改进；先有强基线，再谈 SOTA；先计成本，再谈效率。
+ 3. 不凭空宣称“创新已成立”；创新是经严格比较后仍成立的差异与贡献。
+ 4. 用户和导师对研究方向、外部调用、硬件预算、论文署名及投稿保留最终决定权。
++
++
++## HPC Ollama 运行入口（2026-10-20）
++
++- [RUN] 用户级 Ollama0.11.11 已部署，HPC回环地址 http://127.0.0.1:11434；命令 ~/.local/bin/ollama，运行库在项目 .local/ollama/runtime/0.11.11。固定旧兼容版本，不擅自升级集群驱动。
++- 模型在 /home/u202520081000097/jupyterlab/models/ollama-gosc；qwen2.5:3b、llama3.2:3b、qwen2.5:7b 均为实际下载的Q4_K_M。三者均已通过完整GPU加载、JSON输出与原LLMClient空缓存HTTP验收，证据 research/sync/runs/hpc-ollama-deploy-retry1-20261020/outputs/。记录实际digest，不能假定与作者历史模型快照一致。
++- 服务配置位于HPC项目 .local/reproduction-services.json；单并发、同时最多加载1模型。退出SSH后服务保留；容器/服务器重启后通过 .venv/bin/python scripts/hpc_ollama.py start 重新启动。操作说明 research/reproduction/ollama_hpc.md。
++- 只有环境验收完成，完整live LLM复验仍需按原顺序单独登记，保持缓存回放与真实调用分开，禁止planner回退冒充模型成功。旧队列在c-belief失败已保留；外层入口适配器修复并通过10项HPC回归，续跑使用新runID，不覆盖失败记录或重复已完成阶段。
++- [RUN] 用户授权清理其他项目以恢复配额；仅Github--llm和HM已删除，预删除占用合计26058240000bytes；当前Paper/gosc与已有models保留。清理证据 hpc-ollama-storage-cleanup-20261020；不得据此自动删除其他新目录。
++
++
++## 当前进度权威索引（2026-10-20进度复核）
++
++详见research/reports/progress_review_2026-10-20.md与research/sync/plans/next_steps.md。原23阶段队列4执行完成、1失败、18未运行，当前无活动复验；Ollama与3模型就绪，完整cached/live任务仍未运行。公开选参26700完成/22条历史差异/12冻结点匹配；选参后fresh1200与保存输出匹配；C-frontier6800、C-where5000完成执行但有479/364条历史差异（完成时间228/146），不能标为科学一致性通过。下一步先完善比较器覆盖并诊断差异，再以新runID显式恢复c-belief→其余原顺序阶段。0共同键不得作为历史一致证据。上游校准缺口保留。P2文献/RQ可并行，未启动新方法训练。早先段落与历史日志的旧状态不覆盖上述实际run证据。
+diff --git a/README.md b/README.md
+index 7e8ea7f..5cbac8f 100644
+--- a/README.md
++++ b/README.md
+@@ -2,6 +2,20 @@
+ 
+ ## Research working copy
+ 
++**HPC execution policy (2026-10-19):** all project tests, simulations, analysis,
++inference and training run on HPC via `ssh hpc`. Remote workspace:
++`/home/u202520081000097/jupyterlab/Paper/gosc`.
++From the local checkout run `python scripts/sync_hpc.py` to synchronize source.
++See [HPC environment and sync](research/reproduction/hpc_environment.md).
++
++HPC validation on 2026-10-19: Python 3.11.15 project environment ready; 85/85 upstream tests passed; all three stored-data replot modules completed (17 PDF / 18 TeX, summaries match baseline); one fresh GOSC mission at seed 3000 completed. See [HPC reproduction report](research/reproduction/repro_report.md) for exact scope and evidence. R4-A0 now completed 60 real pilot missions (two scenes, three arms, seeds 9000-9009), with nine executor checks and an independent raw-data audit; see [pilot report](research/reproduction/r4_a0_report_2026-10-19.md). The remaining four-setting cost probes also completed 24/24, with 17 tests and independent audit; see [cost/budget report](research/reproduction/r4_cost_probe_report_2026-10-19.md). A six-setting/1200-mission budget is proposed (estimated 9.6 min, recommended cap 31 min). Full frozen A1 has now completed all1200 missions/600 pairs in574.59s, with28 tests and independent audit passed; all per-seed primary outcomes and UL symbols match the author records. See [A1 report](research/reproduction/r4_a1_report_2026-10-19.md) for target misses and confidence intervals. Candidate sensitivity, matched-budget valuation, independent calibration and cached/live-LLM gates remain pending.
++
++Current local workspace (2026-10-19): code `E:\gosc`, reference papers `E:\Papers`.
++See [workspace paths](research/workspace_paths.json) and the
++[progress audit](research/reports/progress_review_2026-10-19.md).
++The fresh checkout does not include the old virtual environment; historical test
++results below do not constitute a test run in this new directory.
++
+ This working repository is maintained at
+ <https://github.com/piao666/gosc-Agentic>. It retains the history, MIT license,
+ attribution, simulator, tests, original mission results and public LLM caches from
+@@ -75,6 +89,9 @@ seconds without re-simulating; they are written to `figures/`.
+ .venv/bin/python -m experiments.plot_realistic        # Tables VII, IX-XII, Figures 3 and 5
+ ```
+ 
++Working-copy audit (2026-10-19): run the commands in an isolated HPC workspace.
++After the three plot modules, also run `.venv/bin/python -m experiments.run_belief_divergence --table` there to fill five missing belief-divergence cells of Table VI from saved data. The managed R2 helper now includes this step. See [paper/code map](research/logs/GOSC_paper_code_map.md) and [figure/table audit](research/reproduction/figure_table_audit_2026-10-19.md) for the reproduced numbers, the 37/38 periodic-candidate coverage difference and the Fig. 2 tick-label display issue.
++
+ To re-simulate from scratch (times on an 8-core Apple M1):
+ 
+ ```bash
+diff --git a/research/logs/environment-2026-10-12/import-smoke.log b/research/logs/environment-2026-10-12/import-smoke.log
+index c29f21b..db44459 100644
+--- a/research/logs/environment-2026-10-12/import-smoke.log
++++ b/research/logs/environment-2026-10-12/import-smoke.log
+@@ -1,2 +1,2 @@
+-Imports and in-memory Agg render OK
+-matplotlib backend: Agg
++Imports and in-memory Agg render OK
++matplotlib backend: Agg
+diff --git a/research/logs/environment-2026-10-12/pip-check.log b/research/logs/environment-2026-10-12/pip-check.log
+index c688d8c..5c7a95a 100644
+--- a/research/logs/environment-2026-10-12/pip-check.log
++++ b/research/logs/environment-2026-10-12/pip-check.log
+@@ -1 +1 @@
+-No broken requirements found.
++No broken requirements found.
+diff --git a/research/logs/environment-2026-10-12/pytest-collection.log b/research/logs/environment-2026-10-12/pytest-collection.log
+index b506043..0955b93 100644
+--- a/research/logs/environment-2026-10-12/pytest-collection.log
++++ b/research/logs/environment-2026-10-12/pytest-collection.log
+@@ -1,87 +1,87 @@
+-tests/test_gosc.py::test_box_sum_matches_bruteforce
+-tests/test_gosc.py::test_sensor_apply_is_reversible
+-tests/test_gosc.py::test_outage_probability_matches_monte_carlo
+-tests/test_gosc.py::test_fixed_rate_meets_bler_target
+-tests/test_gosc.py::test_evidence_sizes_monotone_and_jump_cost
+-tests/test_gosc.py::test_lagrangian_respects_budget_and_prefers_value
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[genie]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_aoi]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_bits]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_joint]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_joint_nb]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_nofilter]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_nouep]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_novoi]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_tv]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[nl]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[raw]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[report]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[sem]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[sem_agg]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[sem_ra]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[sem_raf]
+-tests/test_gosc.py::test_belief_bookkeeping_invariant[sem_ras]
+-tests/test_gosc.py::test_genie_delivers_everything
+-tests/test_gosc.py::test_episode_is_deterministic
+-tests/test_gosc.py::test_all_schemes_complete_easy_mission
+-tests/test_llm_agent.py::test_mixed_team_runs_and_uses_schema
+-tests/test_llm_agent.py::test_cache_makes_runs_deterministic_without_model
+-tests/test_llm_agent.py::test_invalid_output_falls_back_to_planner
+-tests/test_realistic.py::test_reproduces_journal[0-gosc]
+-tests/test_realistic.py::test_reproduces_journal[0-gosc_bits]
+-tests/test_realistic.py::test_reproduces_journal[0-sem]
+-tests/test_realistic.py::test_reproduces_journal[0-sem_ra]
+-tests/test_realistic.py::test_reproduces_journal[0-sem_raf]
+-tests/test_realistic.py::test_reproduces_journal[0-sem_ras]
+-tests/test_realistic.py::test_reproduces_journal[0-raw]
+-tests/test_realistic.py::test_reproduces_journal[0-nl]
+-tests/test_realistic.py::test_reproduces_journal[0-report]
+-tests/test_realistic.py::test_reproduces_journal[0-genie]
+-tests/test_realistic.py::test_reproduces_journal[1-gosc]
+-tests/test_realistic.py::test_reproduces_journal[1-gosc_bits]
+-tests/test_realistic.py::test_reproduces_journal[1-sem]
+-tests/test_realistic.py::test_reproduces_journal[1-sem_ra]
+-tests/test_realistic.py::test_reproduces_journal[1-sem_raf]
+-tests/test_realistic.py::test_reproduces_journal[1-sem_ras]
+-tests/test_realistic.py::test_reproduces_journal[1-raw]
+-tests/test_realistic.py::test_reproduces_journal[1-nl]
+-tests/test_realistic.py::test_reproduces_journal[1-report]
+-tests/test_realistic.py::test_reproduces_journal[1-genie]
+-tests/test_realistic.py::test_reproduces_journal[2-gosc]
+-tests/test_realistic.py::test_reproduces_journal[2-gosc_bits]
+-tests/test_realistic.py::test_reproduces_journal[2-sem]
+-tests/test_realistic.py::test_reproduces_journal[2-sem_ra]
+-tests/test_realistic.py::test_reproduces_journal[2-sem_raf]
+-tests/test_realistic.py::test_reproduces_journal[2-sem_ras]
+-tests/test_realistic.py::test_reproduces_journal[2-raw]
+-tests/test_realistic.py::test_reproduces_journal[2-nl]
+-tests/test_realistic.py::test_reproduces_journal[2-report]
+-tests/test_realistic.py::test_reproduces_journal[2-genie]
+-tests/test_realistic.py::test_reproduces_journal_rescue_w50[gosc]
+-tests/test_realistic.py::test_reproduces_journal_rescue_w50[sem_ra]
+-tests/test_realistic.py::test_journal_regression_episode
+-tests/test_realistic.py::test_overhead_is_charged
+-tests/test_realistic.py::test_zero_noise_equals_exact
+-tests/test_realistic.py::test_noise_changes_decisions_and_is_logged
+-tests/test_realistic.py::test_shared_budget_respected[gosc]
+-tests/test_realistic.py::test_shared_budget_respected[sem_ra]
+-tests/test_realistic.py::test_waterfill
+-tests/test_realistic.py::test_hull_size
+-tests/test_revision.py::test_fbl_error_behaves
+-tests/test_revision.py::test_fbl_matches_outage_for_long_packets_and_gap_hurts
+-tests/test_revision.py::test_fbl_mission_runs
+-tests/test_revision.py::test_lossy_downlink_bookkeeping[gosc]
+-tests/test_revision.py::test_lossy_downlink_bookkeeping[sem]
+-tests/test_revision.py::test_lossy_downlink_bookkeeping[genie]
+-tests/test_revision.py::test_delivered_messages_are_not_resent_under_delay
+-tests/test_revision.py::test_ideal_downlink_matches_default
+-tests/test_revision.py::test_downlink_delay_slows_or_equals_on_average
+-tests/test_revision.py::test_new_schemes_complete_easy_mission[gosc_nofilter]
+-tests/test_revision.py::test_new_schemes_complete_easy_mission[gosc_bits]
+-tests/test_revision.py::test_new_schemes_complete_easy_mission[gosc_aoi]
+-tests/test_revision.py::test_new_schemes_complete_easy_mission[sem_agg]
+-tests/test_revision.py::test_oracle_teammate_model_runs
+-tests/test_revision.py::test_lagrangian_close_to_exact_on_logged_instances
+-
+-85 tests collected in 0.61s
++tests/test_gosc.py::test_box_sum_matches_bruteforce
++tests/test_gosc.py::test_sensor_apply_is_reversible
++tests/test_gosc.py::test_outage_probability_matches_monte_carlo
++tests/test_gosc.py::test_fixed_rate_meets_bler_target
++tests/test_gosc.py::test_evidence_sizes_monotone_and_jump_cost
++tests/test_gosc.py::test_lagrangian_respects_budget_and_prefers_value
++tests/test_gosc.py::test_belief_bookkeeping_invariant[genie]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_aoi]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_bits]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_joint]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_joint_nb]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_nofilter]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_nouep]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_novoi]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[gosc_tv]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[nl]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[raw]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[report]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[sem]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[sem_agg]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[sem_ra]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[sem_raf]
++tests/test_gosc.py::test_belief_bookkeeping_invariant[sem_ras]
++tests/test_gosc.py::test_genie_delivers_everything
++tests/test_gosc.py::test_episode_is_deterministic
++tests/test_gosc.py::test_all_schemes_complete_easy_mission
++tests/test_llm_agent.py::test_mixed_team_runs_and_uses_schema
++tests/test_llm_agent.py::test_cache_makes_runs_deterministic_without_model
++tests/test_llm_agent.py::test_invalid_output_falls_back_to_planner
++tests/test_realistic.py::test_reproduces_journal[0-gosc]
++tests/test_realistic.py::test_reproduces_journal[0-gosc_bits]
++tests/test_realistic.py::test_reproduces_journal[0-sem]
++tests/test_realistic.py::test_reproduces_journal[0-sem_ra]
++tests/test_realistic.py::test_reproduces_journal[0-sem_raf]
++tests/test_realistic.py::test_reproduces_journal[0-sem_ras]
++tests/test_realistic.py::test_reproduces_journal[0-raw]
++tests/test_realistic.py::test_reproduces_journal[0-nl]
++tests/test_realistic.py::test_reproduces_journal[0-report]
++tests/test_realistic.py::test_reproduces_journal[0-genie]
++tests/test_realistic.py::test_reproduces_journal[1-gosc]
++tests/test_realistic.py::test_reproduces_journal[1-gosc_bits]
++tests/test_realistic.py::test_reproduces_journal[1-sem]
++tests/test_realistic.py::test_reproduces_journal[1-sem_ra]
++tests/test_realistic.py::test_reproduces_journal[1-sem_raf]
++tests/test_realistic.py::test_reproduces_journal[1-sem_ras]
++tests/test_realistic.py::test_reproduces_journal[1-raw]
++tests/test_realistic.py::test_reproduces_journal[1-nl]
++tests/test_realistic.py::test_reproduces_journal[1-report]
++tests/test_realistic.py::test_reproduces_journal[1-genie]
++tests/test_realistic.py::test_reproduces_journal[2-gosc]
++tests/test_realistic.py::test_reproduces_journal[2-gosc_bits]
++tests/test_realistic.py::test_reproduces_journal[2-sem]
++tests/test_realistic.py::test_reproduces_journal[2-sem_ra]
++tests/test_realistic.py::test_reproduces_journal[2-sem_raf]
++tests/test_realistic.py::test_reproduces_journal[2-sem_ras]
++tests/test_realistic.py::test_reproduces_journal[2-raw]
++tests/test_realistic.py::test_reproduces_journal[2-nl]
++tests/test_realistic.py::test_reproduces_journal[2-report]
++tests/test_realistic.py::test_reproduces_journal[2-genie]
++tests/test_realistic.py::test_reproduces_journal_rescue_w50[gosc]
++tests/test_realistic.py::test_reproduces_journal_rescue_w50[sem_ra]
++tests/test_realistic.py::test_journal_regression_episode
++tests/test_realistic.py::test_overhead_is_charged
++tests/test_realistic.py::test_zero_noise_equals_exact
++tests/test_realistic.py::test_noise_changes_decisions_and_is_logged
++tests/test_realistic.py::test_shared_budget_respected[gosc]
++tests/test_realistic.py::test_shared_budget_respected[sem_ra]
++tests/test_realistic.py::test_waterfill
++tests/test_realistic.py::test_hull_size
++tests/test_revision.py::test_fbl_error_behaves
++tests/test_revision.py::test_fbl_matches_outage_for_long_packets_and_gap_hurts
++tests/test_revision.py::test_fbl_mission_runs
++tests/test_revision.py::test_lossy_downlink_bookkeeping[gosc]
++tests/test_revision.py::test_lossy_downlink_bookkeeping[sem]
++tests/test_revision.py::test_lossy_downlink_bookkeeping[genie]
++tests/test_revision.py::test_delivered_messages_are_not_resent_under_delay
++tests/test_revision.py::test_ideal_downlink_matches_default
++tests/test_revision.py::test_downlink_delay_slows_or_equals_on_average
++tests/test_revision.py::test_new_schemes_complete_easy_mission[gosc_nofilter]
++tests/test_revision.py::test_new_schemes_complete_easy_mission[gosc_bits]
++tests/test_revision.py::test_new_schemes_complete_easy_mission[gosc_aoi]
++tests/test_revision.py::test_new_schemes_complete_easy_mission[sem_agg]
++tests/test_revision.py::test_oracle_teammate_model_runs
++tests/test_revision.py::test_lagrangian_close_to_exact_on_logged_instances
++
++85 tests collected in 0.61s
+diff --git a/research/logs/environment-2026-10-12/pytest.log b/research/logs/environment-2026-10-12/pytest.log
+index 82f69bf..de1cc47 100644
+--- a/research/logs/environment-2026-10-12/pytest.log
++++ b/research/logs/environment-2026-10-12/pytest.log
+@@ -1,3 +1,3 @@
+-........................................................................ [ 84%]
+-.............                                                            [100%]
+-85 passed in 41.84s
++........................................................................ [ 84%]
++.............                                                            [100%]
++85 passed in 41.84s
+diff --git a/research/reproduction/windows_environment.md b/research/reproduction/windows_environment.md
+index 6e65ad5..adf9714 100644
+--- a/research/reproduction/windows_environment.md
++++ b/research/reproduction/windows_environment.md
+@@ -25,12 +25,16 @@ Python settings used for validation: `PYTHONUTF8=1`, `PYTHONDONTWRITEBYTECODE=1`
+ `MPLBACKEND=Agg`. UTF-8 is an environment setting; no source or test encoding
+ assumptions are patched. Agg permits plotting without a desktop window.
+ 
++## Current workspace location
++
++[CODE] On 2026-10-19 the user relocated the working checkout to `E:\gosc` and confirmed the paper library is `E:\Papers`. Commands below use the current checkout path. The recorded 2026-10-12 environment/test evidence is historical; the new checkout has no `.venv` yet and has not rerun those checks.
++
+ ## Setup from PowerShell
+ 
+ Install/use CPython 3.12 (the recorded patch version is 3.12.10), then run:
+ 
+ ```powershell
+-Set-Location 'E:\gosc-agentic-teams'
++Set-Location 'E:\gosc'
+ & .\scripts\bootstrap_windows.ps1
+ ```
+ 
+diff --git "a/\347\241\225\345\243\253\350\256\272\346\226\207\347\240\224\347\251\266\344\270\216\345\256\236\346\226\275\350\257\264\346\230\216\344\271\246.md" "b/\347\241\225\345\243\253\350\256\272\346\226\207\347\240\224\347\251\266\344\270\216\345\256\236\346\226\275\350\257\264\346\230\216\344\271\246.md"
+index 6bc5db2..e7bdbce 100644
+--- "a/\347\241\225\345\243\253\350\256\272\346\226\207\347\240\224\347\251\266\344\270\216\345\256\236\346\226\275\350\257\264\346\230\216\344\271\246.md"
++++ "b/\347\241\225\345\243\253\350\256\272\346\226\207\347\240\224\347\251\266\344\270\216\345\256\236\346\226\275\350\257\264\346\230\216\344\271\246.md"
+@@ -4,8 +4,8 @@ version: 1.0
+ created: 2026-10-08
+ status: 研究计划（非已证实论文结论）
+ owner_role: 硕士论文第一作者（Codex辅助执行）
+-repo_root: 'E:\gosc-agentic-teams'
+-obsidian_vault: 'E:\Obsidian\Papers'
++repo_root: 'E:\gosc'
++obsidian_vault: 'E:\Papers'
+ primary_baseline: GOSC
+ ---
+ 
+@@ -19,11 +19,13 @@ primary_baseline: GOSC
+ 
+ ### 0.1 本地工作区
+ 
+-- GOSC 代码：`E:\gosc-agentic-teams`。**用户已克隆，但本说明书编写者尚未直接访问该 E 盘仓库、也没有在用户电脑运行测试**。Codex 启动后必须核验本地实际分支、commit、文件和依赖，不能把线上仓库结构盲当作本地结构。
+-- Obsidian 论文库：`E:\Obsidian\Papers`。用户称论文均已下载；**各 PDF 的实际文件名、完整性、是否均为所列 42 篇需要扫描确认**。Obsidian 不是代码仓库；未经明确授权不要大范围修改、移动或重命名 PDF/笔记。
++- GOSC 代码：`E:\gosc`；工作远端：<https://github.com/piao666/gosc-Agentic>。2026-10-19 已完整克隆并核验 `876fc52`；HPC Python3.11环境已就绪，R1 85/85通过，R2已重绘并完成纸码/图表审计（含显式差异），R3单mission与R4-A1六场景1200条冻结点复现已执行且审计通过（逐seed主指标/UL全部匹配）；B/C、独立校准与live LLM仍未完成。详见 `research/reports/progress_review_2026-10-19.md`。
++- Obsidian 论文库：`E:\Papers`；原文位于 `99-附件\论文原文`。2026-10-19 扫描到 42 个不同预期 ID，首页可读；C05/D15 题名存在差异，全文/发表状态仍须核验。未经授权不移动、重命名或覆盖 PDF/笔记。
+ - 参考代码仓库：<https://github.com/frezazadeh/gosc-agentic-teams>；原论文：<https://arxiv.org/abs/2609.39477>；HTML：<https://arxiv.org/html/2609.39477>。
+ - 时间基准：2026-10-08。未来新论文、投稿要求、开源仓库变动均须二次核验，严禁沿用过期信息。
+ 
++> 路径更新：2026-10-19；其余研究设计仍为候选计划，不能据此认为实验完成。路径配置见 `research/workspace_paths.json`。历史运行记录不回写。
++
+ ### 0.2 四种证据标签（所有研究文件必须区分）
+ 
+ - **[PAPER]**：从论文 PDF 的页/节/式/图/表查证的原作者事实；引用时附页码或章节锚点。
+@@ -285,7 +287,7 @@ GOSC 论文 *Resource-Efficient Semantic Communication for Heterogeneous Agentic
+ **Windows PowerShell**（仅推荐先做环境检测，依赖安装/写入由 Codex 在确认后执行）：
+ 
+ ```powershell
+-Set-Location 'E:\gosc-agentic-teams'
++Set-Location 'E:\gosc'
+ git status --short
+ git rev-parse HEAD
+ git remote -v
+@@ -387,7 +389,7 @@ $$
+ |---|---|---|
+ | 原论文 | GOSC-ToM | 原方法主线 |
+ | 原论文 | GOSC-Throughput、GOSC-AoI、GOSC-Belief-Divergence | 防止简单方案已经同样好 |
+-| 原论文 | Tuned semantic periodic、Genie/ideal communication（只作上界） | 完整速度/成本参照 |
++| 原论文 | Tuned semantic periodic、Genie/ideal communication（理想通信参考，非任务性能上界） | 完整速度/成本参照 |
+ | 消融 | Value-shuffle/random value、不使用 receiver state、无任务阶段、仅相似度 | 识别增益来源 |
+ | 评估上界 | 用离线未来标签的 Oracle value（**仅做上界，不参与真实在线比较**） | 衡量价值预测空间 |
+ | 调度公平性 | 成本匹配下“先估值后资源分配”的 tuned sequential scheduler | 区分估值与联合调度贡献 |
+@@ -597,7 +599,7 @@ Abstract / Conclusion（最后写）
+ 
+ ### 11.1 工作前读入顺序（每次新会话）
+ 
+-1. `E:\gosc-agentic-teams\AGENTS.md`；
++1. `E:\gosc\AGENTS.md`；
+ 2. 本说明书；
+ 3. `git status`/本轮任务报告；
+ 4. 当前阶段的源论文 PDF/研究笔记和对应源码；
+@@ -608,7 +610,7 @@ Abstract / Conclusion（最后写）
+ ### 11.2 推荐项目新增目录（不挪动上游源文件）
+ 
+ ```text
+-E:\gosc-agentic-teams\
++E:\gosc\
+   AGENTS.md
+   research\
+     literature\             # 索引/矩阵/笔记链接，不复制整个 Obsidian
+@@ -641,11 +643,11 @@ Codex **可以**读 E 盘项目和 PDF、生成研究报告、提出修改计划
+ 
+ ## 12. 首次向 Codex 发出的任务（推荐直接复制）
+ 
+-> 你现在是本课题的**硕士论文第一作者**，不是纯程序员。进入 `E:\gosc-agentic-teams`，先阅读仓库根 `AGENTS.md` 与本说明书。**本轮仅完成 P0 环境/代码/文献盘点，不得修改原始 GOSC 核心算法，不得运行可能覆盖 results 的长实验，不得使用收费 API。**
++> 你现在是本课题的**硕士论文第一作者**，不是纯程序员。进入 `E:\gosc`，先阅读仓库根 `AGENTS.md` 与本说明书。**本轮仅完成 P0 环境/代码/文献盘点，不得修改原始 GOSC 核心算法，不得运行可能覆盖 results 的长实验，不得使用收费 API。**
+ >
+ > 1. 记录 `git status --short`、`git rev-parse HEAD`、Python/依赖/硬件现状；
+ > 2. 全量检查 GOSC 文件树、README、`voi.py`、`schemes.py`、`realistic.py`、`channel.py`、`llm_agent.py`、`simulator.py`、`experiments/`、`tests/`，建立“论文公式→实际函数→实验文件”的索引；
+-> 3. 只读扫描 `E:\Obsidian\Papers` 下 PDF，匹配 A/B/C/D 共 42 个预期 ID，输出实际存在/缺失/冲突清单，保留原文件名/路径；
++> 3. 只读扫描 `E:\Papers` 下 PDF，匹配 A/B/C/D 共 42 个预期 ID，输出实际存在/缺失/冲突清单，保留原文件名/路径；
+ > 4. 创建 `research/logs/00_inventory.md`、`research/logs/GOSC_paper_code_map.md`、`research/literature/literature_inventory.csv`、`research/reproduction/repro_protocol.md`；
+ > 5. 制定 R1–R4 最小复现任务、预计时间/资源成本、输出文件与风险。**做到这里暂停等待我确认，禁止直接进入二次开发。**
+ >

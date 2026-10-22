@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_ordered.py", line 222, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_ordered.py", line 218, in main
+    if args.mode=='pipeline':pipeline()
+                             ^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_ordered.py", line 204, in pipeline
+    if child.returncode and name not in ['cached-llm','live-llm']:raise RuntimeError('Stage failed: '+name)
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Stage failed: c-belief

@@ -1,0 +1,87 @@
+noise search-W100 ln0.5 eta3e-05 74.09 8020.39
+noise search-W100 ln1 eta0.0 65.3 23120.92
+noise search-W100 ln2 eta3e-05 75.86 11085.97
+noise search-W100 quant eta1e-05 66.64 12213.3
+pool 1: 500/500
+noise search-W100 perm eta0.0 67.34 24696.0
+noise search-W100 perm_nofilter eta0.0 69.15 30717.59
+noise search-K10 ln0.5 eta0.0003 56.95 3028.74
+noise search-K10 ln1 eta0.0003 56.63 4398.76
+noise search-K10 ln2 eta0.001 56.66 4349.24
+pool 1: 1000/1000
+noise search-K10 quant eta0.001 64.74 1475.49
+noise search-K10 perm eta0.0001 52.31 10866.48
+noise search-K10 perm_nofilter eta3e-05 52.55 17752.24
+noise search-clustered ln0.5 eta3e-05 53.39 6413.68
+noise search-clustered ln1 eta3e-05 54.73 7423.03
+pool 1: 1500/1500
+noise search-clustered ln2 eta0.0001 56.91 6231.79
+noise search-clustered quant eta3e-05 56.24 7564.04
+noise search-clustered perm eta0.0001 61.68 6159.28
+noise search-clustered perm_nofilter eta0.0001 58.7 5924.69
+noise rescue-W100 exact eta0.001 0.8825 1250.41
+pool 1: 2000/2000
+noise rescue-W100 ln0.5 eta0.001 0.89375 1424.25
+noise rescue-W100 ln1 eta0.001 0.89625 2004.83
+noise rescue-W100 ln2 eta0.001 0.92875 4008.68
+noise rescue-W100 quant eta0.001 0.87375 1419.91
+noise rescue-W100 perm eta0.001 0.91375 3494.53
+pool 1: 2500/2500
+noise rescue-W100 perm_nofilter eta0.001 0.8975 3724.47
+noise rescue-W50 exact eta0.0003 0.905 1793.52
+noise rescue-W50 ln0.5 eta0.001 0.8775 1162.35
+noise rescue-W50 ln1 eta0.001 0.89125 1510.58
+noise rescue-W50 ln2 eta0.001 0.9275 2628.34
+pool 1: 3000/3000
+noise rescue-W50 quant eta0.0003 0.91375 1805.05
+noise rescue-W50 perm eta0.001 0.89375 2466.78
+noise rescue-W50 perm_nofilter eta0.001 0.91125 2453.34
+noise rescue-snr-5 exact eta0.001 0.8525 3373.85
+noise rescue-snr-5 ln0.5 eta0.001 0.8775 3449.87
+pool 1: 3500/3500
+noise rescue-snr-5 ln1 eta0.001 0.86875 3589.22
+noise rescue-snr-5 ln2 eta0.001 0.88375 4580.65
+noise rescue-snr-5 quant eta0.001 0.88625 3505.42
+noise rescue-snr-5 perm eta0.001 0.88625 6172.99
+noise rescue-snr-5 perm_nofilter eta0.001 0.88625 6081.38
+pool 1: 4000/4000
+overhead search-W100 0 {'gosc': ('eta1e-05', np.float64(70.93), np.float64(11825.18)), 'periodic': ('k4', np.float64(76.22), np.float64(14042.7))}
+overhead search-W100 16 {'gosc': ('eta0.0', np.float64(70.29), np.float64(24836.51)), 'periodic': ('k4', np.float64(69.55), np.float64(20845.17))}
+pool 1: 4500/4500
+overhead search-W100 32 {'gosc': ('eta1e-05', np.float64(79.79), np.float64(14772.71)), 'periodic': ('k2', np.float64(72.25), np.float64(23909.52))}
+overhead search-W100 64 {'gosc': ('eta0.0', np.float64(75.29), np.float64(33069.44)), 'periodic': None}
+overhead search-K10 0 {'gosc': ('eta0.0003', np.float64(54.94), np.float64(2443.19)), 'periodic': ('k4/th0.05', np.float64(57.84), np.float64(14450.64))}
+pool 1: 5000/5000
+overhead search-K10 16 {'gosc': ('eta3e-05', np.float64(53.13), np.float64(12253.69)), 'periodic': ('k2', np.float64(57.46), np.float64(22764.95))}
+overhead search-K10 32 {'gosc': ('eta0.0001', np.float64(57.75), np.float64(6629.85)), 'periodic': ('k2', np.float64(55.73), np.float64(26255.6))}
+overhead search-K10 64 {'gosc': ('eta3e-05', np.float64(57.14), np.float64(13375.02)), 'periodic': ('k2/th0.05', np.float64(57.63), np.float64(33341.22))}
+pool 1: 5500/5500
+overhead search-clustered 0 {'gosc': ('eta3e-05', np.float64(57.83), np.float64(6123.42)), 'periodic': ('k4/th0.2', np.float64(55.09), np.float64(7840.16))}
+overhead search-clustered 16 {'gosc': ('eta3e-05', np.float64(61.74), np.float64(6604.59)), 'periodic': ('k4/th0.2', np.float64(54.02), np.float64(9643.39))}
+pool 1: 6000/6000
+overhead search-clustered 32 {'gosc': ('eta1e-05', np.float64(57.72), np.float64(11810.7)), 'periodic': ('k8/th0.1', np.float64(60.72), np.float64(13244.9))}
+overhead search-clustered 64 {'gosc': ('eta3e-06', np.float64(54.92), np.float64(15731.29)), 'periodic': ('k4/th0.1', np.float64(58.5), np.float64(19194.12))}
+overhead rescue-W100 0 {'gosc': ('eta0.0001', np.float64(0.93625), np.float64(4140.28)), 'periodic': ('k2/th1.0', np.float64(0.9), np.float64(7359.89))}
+pool 1: 6500/6500
+overhead rescue-W100 16 {'gosc': ('eta0.0001', np.float64(0.935), np.float64(5117.19)), 'periodic': ('k2/th1.0', np.float64(0.895), np.float64(12759.28))}
+overhead rescue-W100 32 {'gosc': ('eta0.0001', np.float64(0.9175), np.float64(5731.72)), 'periodic': ('k2/th1.0', np.float64(0.88625), np.float64(17258.58))}
+pool 1: 7000/7000
+overhead rescue-W100 64 {'gosc': ('eta0.0001', np.float64(0.8825), np.float64(6225.3)), 'periodic': ('k8/th0.2', np.float64(0.89), np.float64(25798.28))}
+overhead rescue-W50 0 {'gosc': ('eta0.0001', np.float64(0.95125), np.float64(3058.8)), 'periodic': ('k2/th1.0', np.float64(0.87875), np.float64(7950.7))}
+overhead rescue-W50 16 {'gosc': ('eta0.0001', np.float64(0.9175), np.float64(3433.84)), 'periodic': ('k2/th1.0', np.float64(0.87125), np.float64(13268.23))}
+pool 1: 7500/7500
+overhead rescue-W50 32 {'gosc': ('eta0.0001', np.float64(0.93125), np.float64(4058.75)), 'periodic': ('k2/th2.0', np.float64(0.8725), np.float64(19147.19))}
+overhead rescue-W50 64 {'gosc': ('eta0.0001', np.float64(0.895), np.float64(3881.81)), 'periodic': ('k4/th1.0', np.float64(0.8725), np.float64(23438.19))}
+pool 1: 8000/8000
+overhead rescue-snr-5 0 {'gosc': ('eta0.0001', np.float64(0.8925), np.float64(5151.42)), 'periodic': ('k2/th1.0', np.float64(0.89), np.float64(43912.61))}
+overhead rescue-snr-5 16 {'gosc': ('eta0.0001', np.float64(0.905), np.float64(5003.21)), 'periodic': ('k4/th0.4', np.float64(0.845), np.float64(53702.89))}
+overhead rescue-snr-5 32 {'gosc': ('eta0.0001', np.float64(0.9075), np.float64(6643.45)), 'periodic': ('k1/th0.2', np.float64(0.9075), np.float64(55030.14))}
+pool 1: 8500/8500
+overhead rescue-snr-5 64 {'gosc': ('eta0.0001', np.float64(0.89625), np.float64(3684.88)), 'periodic': ('k1', np.float64(0.9), np.float64(61193.01))}
+pool 1: 9000/9000
+pool 1: 9500/9500
+shared search-B600 {'gosc': ('eta3e-05', np.float64(71.77), np.float64(11214.26)), 'periodic': ('k4', np.float64(74.68), np.float64(14500.32))}
+shared search-B300 {'gosc': ('eta0.0', np.float64(76.24), np.float64(12687.07)), 'periodic': ('k4', np.float64(71.33), np.float64(13206.61))}
+shared search-B150 {'gosc': None, 'periodic': None}
+pool 1: 10000/10000
+shared rescue-B300 {'gosc': ('eta0.001', np.float64(0.88375), np.float64(1481.9)), 'periodic': ('k2/th1.0', np.float64(0.9), np.float64(7426.62))}

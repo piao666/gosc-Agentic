@@ -1,0 +1,16 @@
+{
+  "source_commit": "ca0580aaabcd337193b4f96d4d613b372c9b6916",
+  "files": [
+    {
+      "source_path": "research/reproduction/2026-10-15-statistical/report.md",
+      "local_path": "research\\logs\\upstream-gap-2026-10-20\\prior_branch\\statistical_report.md",
+      "sha256": "60b4efa5d59fa06c52c5dad0f541c74f1110f9a5303b7f9fcbf2cc69ba51b767"
+    },
+    {
+      "source_path": "research/reproduction/2026-10-15-statistical/final_review.json",
+      "local_path": "research\\logs\\upstream-gap-2026-10-20\\prior_branch\\statistical_final_review.json",
+      "sha256": "e29f5e697a6e84dab2cb15ef49d54f85882a9f63ee5aacde001346eae047345d"
+    }
+  ],
+  "boundary": "Historical Windows study is not rerun this turn, raw directory absent; does not validate current HPC full frontier/where equivalence or author provenance."
+}

@@ -1,0 +1,290 @@
+{
+  "sync_id": "20261019T113732Z-ordered-2a5629",
+  "created_at": "2026-10-19T11:37:32.676872+00:00",
+  "direction": "hpc_to_local",
+  "source_host": "hpc",
+  "coverage": "Registered ordered queue finished runs only; active-run outputs deliberately excluded",
+  "files": [
+    {
+      "path": "research/sync/runs/hpc-ordered-tests-20261019/source_changes.patch",
+      "size": 37308,
+      "sha256": "f588ea655beec42cf70d28d301b3001b3ed943d2d0c2b3f88dfe73838c0e313f",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-ordered-tests-20261019/artifacts.json",
+      "size": 214,
+      "sha256": "8d282d0ec3f5740b9f9a97eab69d0430707bcc5a27a86d6944f4673937dfe02e",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-ordered-tests-20261019/source_snapshot.json",
+      "size": 61599,
+      "sha256": "e1faacdc87adf72648f520415d40bfd47df030a598c7191a8a440e886a48343d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-ordered-tests-20261019/manifest.json",
+      "size": 3694,
+      "sha256": "c7a2698bc929c5b1bae9ab40cdabdd2e929a3e28435ec54ea19467b8e8fec151",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-ordered-tests-20261019/status.json",
+      "size": 526,
+      "sha256": "f437036dc3dddb381959f7b2278560e82c4a718a5c77f0ab85e3b2698275d234",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-ordered-tests-20261019/stdout.log",
+      "size": 99,
+      "sha256": "de25a6f39bfe11bdfed586ed547031507c51c41354dbe34922d20e7ad86ec3e9",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-ordered-tests-20261019/source_untracked.tar.gz",
+      "size": 170577,
+      "sha256": "22bee28407cc4dbc9c5e21b04a3d3547af1c3b62513aa3b4acb7ea8fba68b24d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-ordered-tests-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-ordered-tests-20261019/outputs/pytest.xml",
+      "size": 4534,
+      "sha256": "11cbc812ab999b49566597e2af2b08921263c93eac9e9bfb3752b4ba9b13434d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/source_changes.patch",
+      "size": 37308,
+      "sha256": "f588ea655beec42cf70d28d301b3001b3ed943d2d0c2b3f88dfe73838c0e313f",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/artifacts.json",
+      "size": 3528,
+      "sha256": "18bd66fe0465cc5b918d06ccdd5177b682065be4e2d3a9711fbd229968ecd892",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/source_snapshot.json",
+      "size": 61951,
+      "sha256": "1334f5e540ff2775f1f834b31d78013ffb7ca60280c5414578578e746cd0d83b",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/manifest.json",
+      "size": 3396,
+      "sha256": "d363a7ed39d9144ccfa83372fb6d74b6307d890bb7382ca59318da9e07df09f8",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/status.json",
+      "size": 535,
+      "sha256": "75cf34f4ea5a8a32d18812851f82e223ae51e2331d02b8146bc035d7ba5258b0",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/stdout.log",
+      "size": 1040,
+      "sha256": "7dff30df77b81986c06ebe112a547dd9c8863496db30f41fa06abe99a753a2b1",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/source_untracked.tar.gz",
+      "size": 171562,
+      "sha256": "bf4b8f70274dd0429d67d8ea32b082df5aef41af4696aa236b05ea96cf57c56f",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/pool-summary.jsonl",
+      "size": 113,
+      "sha256": "dd553f5b241161ec0c623d8e6f7deedb31272559089d7e2fdb4fbaee6ddb0699",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/stage_audit.json",
+      "size": 280,
+      "sha256": "6bddcbca7b20273430cc03ec588d5beb98bc85d1469f7ffb5de1060707456b43",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/pool-plans.jsonl",
+      "size": 6056231,
+      "sha256": "f40d4821e673c5bd05974a743062ad311e02cbe934c0c099bf7c9c73673077a8",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/candidate_summary.json",
+      "size": 61824,
+      "sha256": "8f0e7656762f574bb7e5fb4952f9abfa522c6bc5596ff42165189cd445b61f0d",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/original_comparison.json",
+      "size": 711,
+      "sha256": "3b0d034a78547f5a90d3b140093569976f3870dfe105901d7fbbc14f839516bc",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/stage_plan.json",
+      "size": 503,
+      "sha256": "569c848bf9f6b55574c7cde33f86ce43837e1782a73d2c611c5398f244490f97",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/legacy_outputs.json",
+      "size": 471,
+      "sha256": "eeb1f02c71a9d295a1272829ca3fbf48dbe600f711076237f062e7ec2d9f67f7",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/pool-001-events.jsonl",
+      "size": 7493166,
+      "sha256": "b6803d98b525460fd3733ecb958eebd2c70a84e352e05bfacd8d2d23596a0f6f",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/active_pool.json",
+      "size": 102,
+      "sha256": "47cf1ad922c2b552383f8810c97d04980dfbaac1d917292bbeede9866bfad82c",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/frozen_selection.json",
+      "size": 23318,
+      "sha256": "8c71ef244502456ec4df02f042eb5c30e907089268fc78b7f555ec52bd27d5f3",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/pool-001-configs.jsonl",
+      "size": 239931,
+      "sha256": "bb82013c7f42483b5b285ba4423cfecc86120d5b87ce4f74e7d39e644b25ba7a",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/selection_episodes.jsonl",
+      "size": 11222094,
+      "sha256": "5e5213524f2d12ba3250516694a87df91095a865912b42f4672f289f1ddd6578",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/candidate_configs.json",
+      "size": 2732038,
+      "sha256": "6db936827415c9c08c09f30d902b4953cbfbd2adcf8e674ca6006920acd4165f",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/selection_audit.json",
+      "size": 1376,
+      "sha256": "f97fc788421246a45936a46a7742609053e7394d8e67eb029702f41692debb62",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/pool-001-jobs.jsonl",
+      "size": 14605112,
+      "sha256": "28df2e813896ece1e18060baec74e9c844c11d635d213f889aa86aedfd7958d2",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/legacy_results/rev_genie_ref.json",
+      "size": 156333,
+      "sha256": "6c60e209c98f3f9903d20de4efaa933c5d257873764624731c2ddcfe16dc7a30",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/legacy_results/independent_selection.json",
+      "size": 23318,
+      "sha256": "8c71ef244502456ec4df02f042eb5c30e907089268fc78b7f555ec52bd27d5f3",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/ordered-selection-20261019/outputs/legacy_results/rev_rescue.json",
+      "size": 8032302,
+      "sha256": "5b8d679170cd5f15ee0533e66db5969368a5cf09919645b407003afd69601587",
+      "transfer_status": "copied"
+    }
+  ],
+  "bytes_downloaded": 50984296,
+  "all_finished_outputs_mirrored": true,
+  "all_outputs_mirrored": false,
+  "execution_runs": [
+    {
+      "run_id": "hpc-ordered-queue-20261019",
+      "status": "running",
+      "started_at": "2026-10-19T10:36:15.888633+00:00",
+      "finished_at": null,
+      "exit_code": null,
+      "pid": 27762
+    },
+    {
+      "run_id": "hpc-ordered-tests-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T10:32:00.185460+00:00",
+      "finished_at": "2026-10-19T10:32:06.530961+00:00",
+      "exit_code": 0,
+      "pid": 27251,
+      "elapsed_seconds": 6.34553,
+      "resource_usage": {
+        "child_max_rss_kib": 62748,
+        "child_cpu_user_seconds": 3.668406,
+        "child_cpu_system_seconds": 0.514335,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+    },
+    {
+      "run_id": "ordered-selection-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T10:36:16.203650+00:00",
+      "finished_at": "2026-10-19T11:34:37.998722+00:00",
+      "exit_code": 0,
+      "pid": 27769,
+      "elapsed_seconds": 3501.795104,
+      "resource_usage": {
+        "child_max_rss_kib": 162436,
+        "child_cpu_user_seconds": 6863.856817,
+        "child_cpu_system_seconds": 43.460264,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+    },
+    {
+      "run_id": "ordered-selection-fresh-20261019",
+      "status": "running",
+      "started_at": "2026-10-19T11:34:40.552152+00:00",
+      "finished_at": null,
+      "exit_code": null,
+      "pid": 31430
+    }
+  ]
+}

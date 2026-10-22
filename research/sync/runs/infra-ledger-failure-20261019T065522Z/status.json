@@ -1,0 +1,15 @@
+{
+  "run_id": "infra-ledger-failure-20261019T065522Z",
+  "status": "failed",
+  "started_at": "2026-10-19T06:55:22.884177+00:00",
+  "finished_at": "2026-10-19T06:55:22.921164+00:00",
+  "exit_code": 3,
+  "pid": 7591,
+  "elapsed_seconds": 0.037005,
+  "resource_usage": {
+    "child_max_rss_kib": 19840,
+    "child_cpu_user_seconds": 0.022751999999999998,
+    "child_cpu_system_seconds": 0.020502,
+    "peak_gpu_memory": null
+  }
+}

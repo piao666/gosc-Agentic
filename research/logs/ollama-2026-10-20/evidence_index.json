@@ -1,0 +1,50 @@
+{
+  "report": "research/logs/ollama-2026-10-20/report.md",
+  "guide": "research/reproduction/ollama_hpc.md",
+  "config": "research/protocols/ollama_hpc_v1.json",
+  "source_commit": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "runs": [
+    {
+      "run_id": "hpc-ollama-install-20261020",
+      "status": "failed",
+      "exit_code": -15,
+      "status_sha256": "9b372890af495a78b34c5442e91c60e32d9446b95737f006133f01784c2bb23f"
+    },
+    {
+      "run_id": "hpc-ollama-deploy-20261020",
+      "status": "failed",
+      "exit_code": 1,
+      "status_sha256": "24c210f43ebf47021bf131a198b61d1c27c5f78cfd74d9702b5883699c90e677"
+    },
+    {
+      "run_id": "hpc-ollama-adapter-tests-20261020",
+      "status": "completed",
+      "exit_code": 0,
+      "status_sha256": "f5610f54b3b21f9f0feca95fa2aad3db8a5405a7df786f100f9fa0606465973f"
+    },
+    {
+      "run_id": "hpc-ollama-storage-cleanup-20261020",
+      "status": "completed",
+      "exit_code": 0,
+      "status_sha256": "6ace353e0024ab4666d22dd76aae8b62652e1ec8ccd861de0421e308b2ac794d"
+    },
+    {
+      "run_id": "hpc-ollama-deploy-retry1-20261020",
+      "status": "completed",
+      "exit_code": 0,
+      "status_sha256": "ea1fbd5098015c28e13c7e3ad72d7905f9cb6fc06df5c65ce23e87cda9cbaac9"
+    },
+    {
+      "run_id": "hpc-ollama-final-check-20261020",
+      "status": "completed",
+      "exit_code": 0,
+      "status_sha256": "195027b48a2c937509c34cd506b9b876e9c2ba8c922a6056e4ca0901177cff85"
+    }
+  ],
+  "output_mirror_receipt": "research/sync/receipts/20261020T021553Z-fadaa0.json",
+  "output_receipt_sha256": "df833d75af4357b65f4c76f40a3720c5b4da689045d09d6e726012f55f59b06d",
+  "all_outputs_mirrored": true,
+  "source_final_sync_receipt": ".local/hpc-sync/latest_receipt.json",
+  "scientific_live_missions_started": 0,
+  "remaining_queue": "failed at c-belief, adapter fixed and tests10passed, explicit resume pending"
+}

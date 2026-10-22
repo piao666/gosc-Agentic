@@ -17,3 +17,7 @@ figures/
 # Regenerated summaries removed at the user's request; upstream copies remain in Git history
 results/summary_realistic.json
 results/summary_revision.json
+
+# HPC execution outputs and disposable pytest workspaces
+research/sync/runs/*/outputs/
+research/sync/runs/*/pytest-tmp/

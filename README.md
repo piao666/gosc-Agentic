@@ -2,6 +2,30 @@
 
 ## Research working copy
 
+**Latest research status (2026-10-22):** the 23-stage reproduction campaign has
+been assessed (22 normal exits; author-cache replay failed and retained). Exact
+historical consistency remains partial. Receiver diagnostics and 96 conditional
+summary-transport replays are audited; paid-summary task gains and new-method
+training are not established. See the [final audit](research/reports/final_reproduction_audit_2026-10-22.md)
+and [summary information/cost audit](research/reports/receiver_summary_information_cost_audit_2026-10-22.md).
+
+Every commit must include a dated Markdown note in [`commit/`](commit/README.md),
+recording its changes, validation and remaining limitations.
+
+**HPC execution policy (2026-10-19):** all project tests, simulations, analysis,
+inference and training run on HPC via `ssh hpc`. Remote workspace:
+`/home/u202520081000097/jupyterlab/Paper/gosc`.
+From the local checkout run `python scripts/sync_hpc.py` to synchronize source.
+See [HPC environment and sync](research/reproduction/hpc_environment.md).
+
+HPC validation on 2026-10-19: Python 3.11.15 project environment ready; 85/85 upstream tests passed; all three stored-data replot modules completed (17 PDF / 18 TeX, summaries match baseline); one fresh GOSC mission at seed 3000 completed. See [HPC reproduction report](research/reproduction/repro_report.md) for exact scope and evidence. R4-A0 now completed 60 real pilot missions (two scenes, three arms, seeds 9000-9009), with nine executor checks and an independent raw-data audit; see [pilot report](research/reproduction/r4_a0_report_2026-10-19.md). The remaining four-setting cost probes also completed 24/24, with 17 tests and independent audit; see [cost/budget report](research/reproduction/r4_cost_probe_report_2026-10-19.md). A six-setting/1200-mission budget is proposed (estimated 9.6 min, recommended cap 31 min). Full frozen A1 has now completed all1200 missions/600 pairs in574.59s, with28 tests and independent audit passed; all per-seed primary outcomes and UL symbols match the author records. See [A1 report](research/reproduction/r4_a1_report_2026-10-19.md) for target misses and confidence intervals. Candidate sensitivity, matched-budget valuation, independent calibration and cached/live-LLM gates remain pending.
+
+Current local workspace (2026-10-19): code `E:\gosc`, reference papers `E:\Papers`.
+See [workspace paths](research/workspace_paths.json) and the
+[progress audit](research/reports/progress_review_2026-10-19.md).
+The fresh checkout does not include the old virtual environment; historical test
+results below do not constitute a test run in this new directory.
+
 This working repository is maintained at
 <https://github.com/piao666/gosc-Agentic>. It retains the history, MIT license,
 attribution, simulator, tests, original mission results and public LLM caches from
@@ -74,6 +98,9 @@ seconds without re-simulating; they are written to `figures/`.
 .venv/bin/python -m experiments.plot_revision         # value functions, rescue task, validation
 .venv/bin/python -m experiments.plot_realistic        # Tables VII, IX-XII, Figures 3 and 5
 ```
+
+Working-copy audit (2026-10-19): run the commands in an isolated HPC workspace.
+After the three plot modules, also run `.venv/bin/python -m experiments.run_belief_divergence --table` there to fill five missing belief-divergence cells of Table VI from saved data. The managed R2 helper now includes this step. See [paper/code map](research/logs/GOSC_paper_code_map.md) and [figure/table audit](research/reproduction/figure_table_audit_2026-10-19.md) for the reproduced numbers, the 37/38 periodic-candidate coverage difference and the Fig. 2 tick-label display issue.
 
 To re-simulate from scratch (times on an 8-core Apple M1):
 

@@ -1,0 +1,25 @@
+{
+  "status": "completed_and_audited",
+  "date": "2026-10-19",
+  "planned_missions": 24,
+  "completed_missions": 24,
+  "complete_pairs": 12,
+  "seeds": [
+    9010,
+    9011,
+    9012
+  ],
+  "test_run": "hpc-r4-cost-tests-20261019",
+  "tests": {
+    "tests": 17,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "simulation_run": "hpc-r4-cost-probe-20261019",
+  "audit_run": "hpc-r4-cost-audit-20261019",
+  "preregistration_sha256": "b97c7d042f077080e2ff392ba21a1dfaa2021c6faa1a7aa3304d0baa29ceb857",
+  "budget_proposal": "research/protocols/r4_a1_budget_proposal_2026-10-19.json",
+  "full_campaign_started": false,
+  "training_started": false
+}

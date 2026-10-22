@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-ordered-tests-20261019",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 4534,
+      "sha256": "11cbc812ab999b49566597e2af2b08921263c93eac9e9bfb3752b4ba9b13434d"
+    }
+  ]
+}

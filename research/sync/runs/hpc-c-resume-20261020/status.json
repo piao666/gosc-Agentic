@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-c-resume-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T03:12:09.660514+00:00",
+  "finished_at": "2026-10-20T03:16:49.825954+00:00",
+  "exit_code": 0,
+  "pid": 15808,
+  "elapsed_seconds": 280.165468,
+  "resource_usage": {
+    "child_max_rss_kib": 88352,
+    "child_cpu_user_seconds": 420.995899,
+    "child_cpu_system_seconds": 2.882095,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

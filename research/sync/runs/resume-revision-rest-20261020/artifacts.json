@@ -1,0 +1,235 @@
+{
+  "run_id": "resume-revision-rest-20261020",
+  "files": [
+    {
+      "path": "outputs/active_pool.json",
+      "size": 99,
+      "sha256": "d43f6704ac074d2ff9da758f4f117073a9c608906ddf9a824daf6341c00e0cc6"
+    },
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 1262,
+      "sha256": "016c1675ebcad4f6d8dd3c3401f5460c640a97c7cbf6b508c57b00320d78cd59"
+    },
+    {
+      "path": "outputs/legacy_results/rev_ablation.json",
+      "size": 237941,
+      "sha256": "7172841cd025ade82b56dfad7d3c956452a45927a2984dc2bad4edd39a0b2bf9"
+    },
+    {
+      "path": "outputs/legacy_results/rev_downlink.json",
+      "size": 561431,
+      "sha256": "1a955f72594b881615e5b293955ffc7224f3927a8dbc791470968e722d1b9e3d"
+    },
+    {
+      "path": "outputs/legacy_results/rev_fbl.json",
+      "size": 1344390,
+      "sha256": "f3e7235ae637e84f8932462a12c50ce1a282f1e8dbe19da98a05e78ff97a70bb"
+    },
+    {
+      "path": "outputs/legacy_results/rev_filtered_periodic.json",
+      "size": 923098,
+      "sha256": "527606f3558e2d251121f01a6ec3c58b48d67ec0ef8aac03cdf94ede520247e2"
+    },
+    {
+      "path": "outputs/legacy_results/rev_genie_ref.json",
+      "size": 68524,
+      "sha256": "2517cee5c856c53a06c61c6bdd3ec2ca327401ee8a8bd6295a26c3e47b6c1df1"
+    },
+    {
+      "path": "outputs/legacy_results/rev_private.json",
+      "size": 164737,
+      "sha256": "efed431fae9d81ea8461a8add783aeecab30d13b58c9bb4fa8dbac8a4c44d97e"
+    },
+    {
+      "path": "outputs/legacy_results/rev_rate_aware.json",
+      "size": 383381,
+      "sha256": "62f09384be0c07e77de6271da52cb17e66c92799e464e2b91f35645afc5a4f50"
+    },
+    {
+      "path": "outputs/legacy_results/rev_rescue.json",
+      "size": 2175084,
+      "sha256": "bd7b5869f5a34d7821328b6aecca0cbdd1117e3adafefa366f80d39cf6ac803c"
+    },
+    {
+      "path": "outputs/legacy_results/rev_suppress_periodic.json",
+      "size": 5278279,
+      "sha256": "48e865b0b508b912d4049992560c1bbf3ae9d0aa6f688720fdb2874b3983dd14"
+    },
+    {
+      "path": "outputs/original_comparison.json",
+      "size": 616536,
+      "sha256": "b995edbf9880444c315ae8fce16a01e1719dfece1fd42db4aef409cd39d19613"
+    },
+    {
+      "path": "outputs/pool-001-configs.jsonl",
+      "size": 2353,
+      "sha256": "8e8c54f5f3b6ea32c9849084192b20fa17e29fc38bb865230551de6e245c6126"
+    },
+    {
+      "path": "outputs/pool-001-events.jsonl",
+      "size": 287229,
+      "sha256": "d5dfe8414d11d47697923721427967f3931204c7bc69eda84498d5e1a8a2365a"
+    },
+    {
+      "path": "outputs/pool-001-jobs.jsonl",
+      "size": 372099,
+      "sha256": "1b20f81c99e8dc11b8c103787613551407e4b07b9b7ae76ebe0663a01a3ce3c1"
+    },
+    {
+      "path": "outputs/pool-002-configs.jsonl",
+      "size": 7049,
+      "sha256": "6ccf2f2d7cb50b97e11a3f5550768b35120c3dbcbeb7bf07dda3eac21186d897"
+    },
+    {
+      "path": "outputs/pool-002-events.jsonl",
+      "size": 172275,
+      "sha256": "2e84d4bdf6fbaeecd84d2795bb7dbf4b7d1180b538fc6ad87de5f05a65889103"
+    },
+    {
+      "path": "outputs/pool-002-jobs.jsonl",
+      "size": 243441,
+      "sha256": "824b3cfb0a467a1f0217b5b7c6bd9cc0d698f8798a36682eaee2f208dce862f7"
+    },
+    {
+      "path": "outputs/pool-003-configs.jsonl",
+      "size": 9417,
+      "sha256": "106edf200b52afa9cbf8110da7c177feb4d76e8708a88e3ff7c07bdf5eeb3fb1"
+    },
+    {
+      "path": "outputs/pool-003-events.jsonl",
+      "size": 692509,
+      "sha256": "6761ab0d746bbb97f65bbed48713d1e797594da71cf7d62ba2234ed65db8e036"
+    },
+    {
+      "path": "outputs/pool-003-jobs.jsonl",
+      "size": 886582,
+      "sha256": "f8ea2f6525369de7f703a4815875e6e12ffac60ee0b63cc149470d2f0599f89e"
+    },
+    {
+      "path": "outputs/pool-004-configs.jsonl",
+      "size": 16420,
+      "sha256": "fc1f293c3bf119219c7d7be628c56989bfe6ddf562e442bb7a3313e9d3d8d4a7"
+    },
+    {
+      "path": "outputs/pool-004-events.jsonl",
+      "size": 1618803,
+      "sha256": "60bfa4a6d3207085797b82bcd5a95b3d4f173ee91417792caceec4f7c94bc892"
+    },
+    {
+      "path": "outputs/pool-004-jobs.jsonl",
+      "size": 2103454,
+      "sha256": "8c3a27ab25232579873226feab5a948242331b3d16ea209bce80a0d21523783d"
+    },
+    {
+      "path": "outputs/pool-005-configs.jsonl",
+      "size": 52860,
+      "sha256": "5766647f47fd9af3776c112248e471fbc9a117983f0f62639f372c84e8968e25"
+    },
+    {
+      "path": "outputs/pool-005-events.jsonl",
+      "size": 2168857,
+      "sha256": "f42c239881f8422d66fd0e586740770f0470d672ba0611bd033f5ae6209f384a"
+    },
+    {
+      "path": "outputs/pool-005-jobs.jsonl",
+      "size": 3147145,
+      "sha256": "d985c521dad44761c0d3dc0ca2dca24776ecee7d0f9b45de939bc25c4ad4f61c"
+    },
+    {
+      "path": "outputs/pool-006-configs.jsonl",
+      "size": 41187,
+      "sha256": "a454e00799f8936cfcdb9ddbc8073ded646de17867d0c3a0047a9afa6745fff5"
+    },
+    {
+      "path": "outputs/pool-006-events.jsonl",
+      "size": 1010921,
+      "sha256": "f54207355ebbb63616b12d17a9e5bba5f086b3ccee4af562f10c409b38d5053a"
+    },
+    {
+      "path": "outputs/pool-006-jobs.jsonl",
+      "size": 1390249,
+      "sha256": "6c2fcabdc7d5e5e0f4a9cb66c24bc45cee9172701c5402a6f75af72e3a45c780"
+    },
+    {
+      "path": "outputs/pool-007-configs.jsonl",
+      "size": 230468,
+      "sha256": "9ec95ab2743caf935133d2fe8dfb1bf4f690535501d1fd2a77e5a9ab0787546c"
+    },
+    {
+      "path": "outputs/pool-007-events.jsonl",
+      "size": 5690522,
+      "sha256": "5b25584affc06e53223eaa02b82c84ae54d847893a9b379175121ca7ff643987"
+    },
+    {
+      "path": "outputs/pool-007-jobs.jsonl",
+      "size": 7907755,
+      "sha256": "d64934f3cd3e5b92c4e297a8e6f9abaa159c5752963b165c49f39712304bcb5f"
+    },
+    {
+      "path": "outputs/pool-008-configs.jsonl",
+      "size": 3534,
+      "sha256": "efd9d136f0d929884c119ab2ec98f2c618aeddc55a2c1994eaf4eb7864b6292a"
+    },
+    {
+      "path": "outputs/pool-008-events.jsonl",
+      "size": 86021,
+      "sha256": "aad5ee7de5cd9a6e4df0057bc10b44d2a5eb07d1ec688277ccb418a0b4152412"
+    },
+    {
+      "path": "outputs/pool-008-jobs.jsonl",
+      "size": 109052,
+      "sha256": "d44e8e0bf4d99648f0921ad7cab9cf5aeab18567e39b0a1ee4e48334c17c4ac9"
+    },
+    {
+      "path": "outputs/pool-009-configs.jsonl",
+      "size": 18840,
+      "sha256": "b03b9f5153b736442c5d514b8923fcf8d9cf37f86304a4944a2913125b0eb114"
+    },
+    {
+      "path": "outputs/pool-009-events.jsonl",
+      "size": 460939,
+      "sha256": "517ecb066692f4cb5ec54562f4a32d71a2568af451d8c3701ed9a95624881aa6"
+    },
+    {
+      "path": "outputs/pool-009-jobs.jsonl",
+      "size": 600796,
+      "sha256": "0aa59801dad338e7939f43be4038c560d9cb99344ce4a476fde59563b40f1b97"
+    },
+    {
+      "path": "outputs/pool-plans.jsonl",
+      "size": 5473679,
+      "sha256": "a390667c13e4459e289bd63360279553f551e106390cc7ab1d6eccf1618d79cc"
+    },
+    {
+      "path": "outputs/pool-summary.jsonl",
+      "size": 995,
+      "sha256": "b75641c7caa12d0a237c9e32338091a69da6803768ee60cf2117a2f6ab933d74"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/stage_audit.json",
+      "size": 280,
+      "sha256": "2fd7293760847ec8ed598b74d2c012a8274edd5b10ed988261fc9d00053a8d28"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 2551,
+      "sha256": "9e9474dd32c52cf4967ffc6e0cb9ac0b86ce34b45a497b25522f881893d8e9d0"
+    }
+  ]
+}

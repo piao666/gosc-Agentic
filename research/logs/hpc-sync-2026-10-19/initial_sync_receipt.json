@@ -1,0 +1,11 @@
+{
+  "status": "verified",
+  "remote_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "file_count": 108,
+  "changed_count": 19,
+  "sha256_mismatches": [],
+  "sync_id": "20261019T062013Z",
+  "remote_only_files": "preserved",
+  "text_line_endings": "LF"
+}

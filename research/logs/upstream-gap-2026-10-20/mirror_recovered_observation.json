@@ -1,0 +1,67 @@
+{
+  "status": "running",
+  "pid": 31796,
+  "last_update": "2026-10-20T06:49:38.909726+00:00",
+  "last_receipt": null,
+  "finished_run_files_seen": 146,
+  "last_download_bytes": 0,
+  "progress": {
+    "status": "running",
+    "skipped_completed": [
+      {
+        "stage": "selection",
+        "run_id": "ordered-selection-20261019",
+        "status_sha256": "75cf34f4ea5a8a32d18812851f82e223ae51e2331d02b8146bc035d7ba5258b0",
+        "artifacts_sha256": "18bd66fe0465cc5b918d06ccdd5177b682065be4e2d3a9711fbd229968ecd892"
+      },
+      {
+        "stage": "selection-fresh",
+        "run_id": "ordered-selection-fresh-20261019",
+        "status_sha256": "f8da9846993817a75f81801ed4faa42962713bd70e6a897ddc64f1380c501da9",
+        "artifacts_sha256": "a1d37ec6e557273d6ab4135888594d6cf2dc468804856ad20e8768003b710da8"
+      },
+      {
+        "stage": "c-frontier",
+        "run_id": "ordered-c-frontier-20261019",
+        "status_sha256": "c06a178619992718a7f9ea041a8edf509136e156da44aa53494e8d7f32455297",
+        "artifacts_sha256": "0cef6c04e5d826932dab1bd889258f9cb2564d5b08d7e7c4ca8db46f9592f836"
+      },
+      {
+        "stage": "c-where",
+        "run_id": "ordered-c-where-20261019",
+        "status_sha256": "e5587d4024183d691bae5f0b08bb0d5ef1554081d79d60a79f1f1bc5623abece",
+        "artifacts_sha256": "5f468be94bba83addc86a30c77b2a77fbd23c49d878a54168453bda901f3674e"
+      },
+      {
+        "stage": "c-belief",
+        "run_id": "resume-c-belief-20261020",
+        "status_sha256": "fc8339e98c3c293e991872877a0f3f9e319a0b99cef88c7e4333c46680c55d6d",
+        "artifacts_sha256": "37b9d789aa5341f798f6836c97e9dfd71779d20a1fa6736a65d3d7cbe64acb28"
+      },
+      {
+        "stage": "c-analysis",
+        "run_id": "resume-c-analysis-20261020",
+        "status_sha256": "1ac2110beaf6abaeeead16e993fb34e9522cd8d2a055deb05f4151ddc0f48de3",
+        "artifacts_sha256": "e559dfe261cc8966809ebb41c210838e372a82d75c2e4630d55a2f69803e8830"
+      }
+    ],
+    "stages": [
+      {
+        "stage": "radio-noise",
+        "run_id": "resume-radio-noise-20261020",
+        "status": "running",
+        "started_at": 1792467369.3318083,
+        "updated_at": 1792478978.153315,
+        "progress": {
+          "pool": 1,
+          "planned": 23400,
+          "completed": 20475,
+          "elapsed_seconds": 11598.05818144232,
+          "workers": 2
+        }
+      }
+    ],
+    "original_deadline_epoch": 1792665375.888633
+  },
+  "all_outputs_mirrored": false
+}

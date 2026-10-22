@@ -1,0 +1,15 @@
+﻿variant,mode,python,numpy,os,seed,completion_time,symbols,bits,delivered_bits,found,completed,elapsed_seconds,differing_reference_fields,raw_output
+initial,original,3.12.10,2.5.3,Windows-11-10.0.26200-SP0,0,76,29596,22109,11849,8,True,0.1990765999944415,6,.local\reproduction\2026-10-15-mismatch-v2\initial\original-output.json
+initial,power-math,3.12.10,2.5.3,Windows-11-10.0.26200-SP0,0,76,29596,22109,11849,8,True,0.18270390000543557,6,.local\reproduction\2026-10-15-mismatch-v2\initial\power-math-output.json
+initial,realistic,3.12.10,2.5.3,Windows-11-10.0.26200-SP0,0,76,29596,22109,11849,8,True,0.18930239998735487,6,.local\reproduction\2026-10-15-mismatch-v2\initial\realistic-output.json
+initial,scalar-math,3.12.10,2.5.3,Windows-11-10.0.26200-SP0,0,76,29596,22109,11849,8,True,0.17334109998773783,6,.local\reproduction\2026-10-15-mismatch-v2\initial\scalar-math-output.json
+windows246,original,3.12.10,2.4.6,Windows-11-10.0.26200-SP0,0,76,29596,22109,11849,8,True,0.19149040000047535,6,.local\reproduction\2026-10-15-mismatch-v2\windows246\original-output.json
+windows126,original,3.12.10,1.26.4,Windows-11-10.0.26200-SP0,0,76,29596,22109,11849,8,True,0.18102119999821298,6,.local\reproduction\2026-10-15-mismatch-v2\windows126\original-output.json
+linux/arithmetic,original,3.11.17,2.4.6,Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36,0,76,29565,22201,11860,8,True,0.34385450499939907,6,.local\reproduction\2026-10-15-mismatch-v2\linux\arithmetic\original-output.json
+linux/arithmetic,power-math,3.11.17,2.4.6,Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36,0,76,29565,22201,11860,8,True,0.36192039600064163,6,.local\reproduction\2026-10-15-mismatch-v2\linux\arithmetic\power-math-output.json
+linux/arithmetic,realistic,3.11.17,2.4.6,Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36,0,76,29565,22201,11860,8,True,0.47192086900031427,6,.local\reproduction\2026-10-15-mismatch-v2\linux\arithmetic\realistic-output.json
+linux/arithmetic,scalar-math,3.11.17,2.4.6,Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36,0,76,29596,22109,11849,8,True,0.3024154089998774,6,.local\reproduction\2026-10-15-mismatch-v2\linux\arithmetic\scalar-math-output.json
+linux/python314,original,3.14.8,2.4.6,Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36,0,76,29565,22201,11860,8,True,0.18809627999871736,6,.local\reproduction\2026-10-15-mismatch-v2\linux\python314\original-output.json
+linux/np124,original,3.11.17,1.24.4,Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36,0,72,29896,22228,12411,8,True,0.37636985200151685,6,.local\reproduction\2026-10-15-mismatch-v2\linux\np124\original-output.json
+linux/np126,original,3.11.17,1.26.4,Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36,0,72,29896,22228,12411,8,True,0.24567865100107156,6,.local\reproduction\2026-10-15-mismatch-v2\linux\np126\original-output.json
+linux/np126-noavx,original,3.11.17,1.26.4,Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36,0,76,29596,22109,11849,8,True,0.3838506159991084,6,.local\reproduction\2026-10-15-mismatch-v2\linux\np126-noavx\original-output.json

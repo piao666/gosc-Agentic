@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-summary-transport-tests-20261022",
+  "status": "completed",
+  "started_at": "2026-10-22T08:42:41.197789+00:00",
+  "finished_at": "2026-10-22T08:42:43.562777+00:00",
+  "exit_code": 0,
+  "pid": 48961,
+  "elapsed_seconds": 2.365008,
+  "resource_usage": {
+    "child_max_rss_kib": 56412,
+    "child_cpu_user_seconds": 2.285002,
+    "child_cpu_system_seconds": 0.121053,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

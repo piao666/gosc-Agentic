@@ -1,0 +1,45 @@
+{
+  "run_id": "resume-fidelity-analysis-20261020",
+  "files": [
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 210,
+      "sha256": "4f211ae75531debc468e1eef920a4c0e280d844d134346bab51e66717b36cf8d"
+    },
+    {
+      "path": "outputs/legacy_results/rev_fidelity_analysis.json",
+      "size": 3523,
+      "sha256": "f7bd75f2fac16b314afbf227144f5e1257121defe83e9d7473a1538da1a2c740"
+    },
+    {
+      "path": "outputs/original_comparison.json",
+      "size": 272,
+      "sha256": "62a7cfb58abb86a503a5ada5b814d3a83c84f575f687dfb32f1d3aedd43db608"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/stage_audit.json",
+      "size": 268,
+      "sha256": "1ce993a35715bccf4b7881be98250ff5bca33d44f0fbb1e91b435564173367cd"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 3566,
+      "sha256": "d9a207e3bea6c9d9233f90c5bd341c1be7f5080855a0e69be8941045724a167f"
+    }
+  ]
+}

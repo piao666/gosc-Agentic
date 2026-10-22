@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "purpose": "infrastructure only; no GOSC test/training/simulation executed",
+  "cases": [
+    {
+      "run_id": "infra-ledger-ok-20261019T065522Z",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "status": "completed",
+      "artifact_hashes_verified": true
+    },
+    {
+      "run_id": "infra-ledger-failure-20261019T065522Z",
+      "expected_exit": 3,
+      "actual_exit": 3,
+      "status": "failed",
+      "artifact_hashes_verified": true
+    }
+  ],
+  "original_core_results_unchanged": true,
+  "python": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]"
+}

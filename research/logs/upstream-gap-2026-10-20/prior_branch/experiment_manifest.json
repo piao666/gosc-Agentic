@@ -1,0 +1,394 @@
+{
+  "experiment_id": "2026-10-15-mismatch-v2",
+  "git_commit": "0f10fe7cbfb67d7c18102413483667d4c16d2977",
+  "upstream_commit": "387b49389385b51c275dc5a22ec1672087edda1d",
+  "working_tree_dirty": true,
+  "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "dependencies_lock": "requirements-windows.lock.txt",
+  "dependencies_lock_sha256": "6f95f953f6d83f04dcea0cefcfd0b5b83caa681141c2a0a8f7a864482ce5bd34",
+  "original_environment_lock_check": {
+    "colorama": {
+      "expected": "0.4.6",
+      "installed": "0.4.6"
+    },
+    "contourpy": {
+      "expected": "1.4.0",
+      "installed": "1.4.0"
+    },
+    "cycler": {
+      "expected": "0.12.1",
+      "installed": "0.12.1"
+    },
+    "fonttools": {
+      "expected": "4.66.1",
+      "installed": "4.66.1"
+    },
+    "iniconfig": {
+      "expected": "2.3.1",
+      "installed": "2.3.1"
+    },
+    "kiwisolver": {
+      "expected": "1.5.1",
+      "installed": "1.5.1"
+    },
+    "matplotlib": {
+      "expected": "3.11.2",
+      "installed": "3.11.2"
+    },
+    "numpy": {
+      "expected": "2.5.3",
+      "installed": "2.5.3"
+    },
+    "packaging": {
+      "expected": "26.3",
+      "installed": "26.3"
+    },
+    "pillow": {
+      "expected": "12.3.0",
+      "installed": "12.3.0"
+    },
+    "pluggy": {
+      "expected": "1.6.0",
+      "installed": "1.6.0"
+    },
+    "Pygments": {
+      "expected": "2.21.0",
+      "installed": "2.21.0"
+    },
+    "pyparsing": {
+      "expected": "3.3.3",
+      "installed": "3.3.3"
+    },
+    "pytest": {
+      "expected": "9.1.1",
+      "installed": "9.1.1"
+    },
+    "python-dateutil": {
+      "expected": "2.9.0.post0",
+      "installed": "2.9.0.post0"
+    },
+    "six": {
+      "expected": "1.17.0",
+      "installed": "1.17.0"
+    }
+  },
+  "protected_inputs": {
+    "checked": 76,
+    "differences": []
+  },
+  "seeds": [
+    0
+  ],
+  "agent_models": [
+    "Planner"
+  ],
+  "llm_cache_mode": "not_used",
+  "status": "diagnosis_completed_historical_provenance_unresolved",
+  "r4_status": "blocked_not_resumed",
+  "receiver_diagnostic_status": "not_run",
+  "missions": 14,
+  "matching_saved_records": 0,
+  "elapsed_mission_seconds_sum": 3.7910421779743046,
+  "independent_mission_seeds": 1,
+  "confidence_intervals": "not_estimated_single_seed_compatibility_probes",
+  "wheels": {
+    "numpy-1.24.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "bytes": 17278923,
+      "sha256": "7215847ce88a85ce39baf9e89070cb860c98fdddacbaa6c0da3ffb31b3350bd5"
+    },
+    "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "bytes": 18252005,
+      "sha256": "666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5"
+    },
+    "numpy-1.26.4-cp312-cp312-win_amd64.whl": {
+      "bytes": 15517754,
+      "sha256": "08beddf13648eb95f8d867350f6a018a4be2e5ad54c8d8caed89ebca558b2818"
+    }
+  },
+  "wheel_bytes_total": 51048682,
+  "observations": [
+    {
+      "variant": "initial",
+      "mode": "original",
+      "python": "3.12.10",
+      "numpy": "2.5.3",
+      "os": "Windows-11-10.0.26200-SP0",
+      "seed": 0,
+      "completion_time": 76,
+      "symbols": 29596,
+      "bits": 22109,
+      "delivered_bits": 11849,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.1990765999944415,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\original-output.json"
+    },
+    {
+      "variant": "initial",
+      "mode": "power-math",
+      "python": "3.12.10",
+      "numpy": "2.5.3",
+      "os": "Windows-11-10.0.26200-SP0",
+      "seed": 0,
+      "completion_time": 76,
+      "symbols": 29596,
+      "bits": 22109,
+      "delivered_bits": 11849,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.18270390000543557,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\power-math-output.json"
+    },
+    {
+      "variant": "initial",
+      "mode": "realistic",
+      "python": "3.12.10",
+      "numpy": "2.5.3",
+      "os": "Windows-11-10.0.26200-SP0",
+      "seed": 0,
+      "completion_time": 76,
+      "symbols": 29596,
+      "bits": 22109,
+      "delivered_bits": 11849,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.18930239998735487,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\realistic-output.json"
+    },
+    {
+      "variant": "initial",
+      "mode": "scalar-math",
+      "python": "3.12.10",
+      "numpy": "2.5.3",
+      "os": "Windows-11-10.0.26200-SP0",
+      "seed": 0,
+      "completion_time": 76,
+      "symbols": 29596,
+      "bits": 22109,
+      "delivered_bits": 11849,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.17334109998773783,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\scalar-math-output.json"
+    },
+    {
+      "variant": "windows246",
+      "mode": "original",
+      "python": "3.12.10",
+      "numpy": "2.4.6",
+      "os": "Windows-11-10.0.26200-SP0",
+      "seed": 0,
+      "completion_time": 76,
+      "symbols": 29596,
+      "bits": 22109,
+      "delivered_bits": 11849,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.19149040000047535,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\windows246\\original-output.json"
+    },
+    {
+      "variant": "windows126",
+      "mode": "original",
+      "python": "3.12.10",
+      "numpy": "1.26.4",
+      "os": "Windows-11-10.0.26200-SP0",
+      "seed": 0,
+      "completion_time": 76,
+      "symbols": 29596,
+      "bits": 22109,
+      "delivered_bits": 11849,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.18102119999821298,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\windows126\\original-output.json"
+    },
+    {
+      "variant": "linux/arithmetic",
+      "mode": "original",
+      "python": "3.11.17",
+      "numpy": "2.4.6",
+      "os": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+      "seed": 0,
+      "completion_time": 76,
+      "symbols": 29565,
+      "bits": 22201,
+      "delivered_bits": 11860,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.34385450499939907,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\original-output.json"
+    },
+    {
+      "variant": "linux/arithmetic",
+      "mode": "power-math",
+      "python": "3.11.17",
+      "numpy": "2.4.6",
+      "os": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+      "seed": 0,
+      "completion_time": 76,
+      "symbols": 29565,
+      "bits": 22201,
+      "delivered_bits": 11860,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.36192039600064163,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\power-math-output.json"
+    },
+    {
+      "variant": "linux/arithmetic",
+      "mode": "realistic",
+      "python": "3.11.17",
+      "numpy": "2.4.6",
+      "os": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+      "seed": 0,
+      "completion_time": 76,
+      "symbols": 29565,
+      "bits": 22201,
+      "delivered_bits": 11860,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.47192086900031427,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\realistic-output.json"
+    },
+    {
+      "variant": "linux/arithmetic",
+      "mode": "scalar-math",
+      "python": "3.11.17",
+      "numpy": "2.4.6",
+      "os": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+      "seed": 0,
+      "completion_time": 76,
+      "symbols": 29596,
+      "bits": 22109,
+      "delivered_bits": 11849,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.3024154089998774,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\scalar-math-output.json"
+    },
+    {
+      "variant": "linux/python314",
+      "mode": "original",
+      "python": "3.14.8",
+      "numpy": "2.4.6",
+      "os": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+      "seed": 0,
+      "completion_time": 76,
+      "symbols": 29565,
+      "bits": 22201,
+      "delivered_bits": 11860,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.18809627999871736,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\python314\\original-output.json"
+    },
+    {
+      "variant": "linux/np124",
+      "mode": "original",
+      "python": "3.11.17",
+      "numpy": "1.24.4",
+      "os": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+      "seed": 0,
+      "completion_time": 72,
+      "symbols": 29896,
+      "bits": 22228,
+      "delivered_bits": 12411,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.37636985200151685,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\np124\\original-output.json"
+    },
+    {
+      "variant": "linux/np126",
+      "mode": "original",
+      "python": "3.11.17",
+      "numpy": "1.26.4",
+      "os": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+      "seed": 0,
+      "completion_time": 72,
+      "symbols": 29896,
+      "bits": 22228,
+      "delivered_bits": 12411,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.24567865100107156,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\np126\\original-output.json"
+    },
+    {
+      "variant": "linux/np126-noavx",
+      "mode": "original",
+      "python": "3.11.17",
+      "numpy": "1.26.4",
+      "os": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+      "seed": 0,
+      "completion_time": 76,
+      "symbols": 29596,
+      "bits": 22109,
+      "delivered_bits": 11849,
+      "found": 8,
+      "completed": true,
+      "elapsed_seconds": 0.3838506159991084,
+      "differing_reference_fields": 6,
+      "raw_output": ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\np126-noavx\\original-output.json"
+    }
+  ],
+  "artifacts": {
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\manifest.json": "0a785a3e3fdaaae2b8b5c9609305f1d897c6bba38031594a60ad4922d51bbc2b",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\original-output.json": "1c4bd00810d5c97637b2df18a3a4c7d2fbbbfa3750d80a56309ac9877d2f4f62",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\original-trace.jsonl": "39bcda61693dc63f70ba13bdb3afa45a84e809754124fd1c69511592375ecf95",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\power-math-output.json": "9dc2a756cfa95900191966d41f0f6d4d9d79121a36d61e622319e04478522c47",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\power-math-trace.jsonl": "39bcda61693dc63f70ba13bdb3afa45a84e809754124fd1c69511592375ecf95",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\realistic-output.json": "0a6974d518a4884800ded8bbf28d33f1a07da5248508287311a00711d475acf0",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\realistic-trace.jsonl": "39bcda61693dc63f70ba13bdb3afa45a84e809754124fd1c69511592375ecf95",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\scalar-math-output.json": "072f5053f1435bcefc81623ac6d925e82dad1f30fc50e65f23b52a8d62154ad9",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\initial\\scalar-math-trace.jsonl": "39bcda61693dc63f70ba13bdb3afa45a84e809754124fd1c69511592375ecf95",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\windows246\\manifest.json": "e783f76a18c43e0899bb02fcdca28967480ae72ba3b05114be5139ade3b36e62",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\windows246\\original-output.json": "5d249e2f626d4c19a27b178a4f5b8ad4dc2de43a6f70443a38697390591b99d6",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\windows246\\original-trace.jsonl": "39bcda61693dc63f70ba13bdb3afa45a84e809754124fd1c69511592375ecf95",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\windows126\\manifest.json": "709f8766cb877bd3fc5e10cba13a844ab7d18332c3531fcf213a60a6d6391da8",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\windows126\\original-output.json": "8c7c2b3c9ff25aaf35b2a02a017f921b7ce1a5ee6de248108777bf8a38b2c480",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\windows126\\original-trace.jsonl": "39bcda61693dc63f70ba13bdb3afa45a84e809754124fd1c69511592375ecf95",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\manifest.json": "0e7b55f62a554be314f43fef13787879ea5afca79cad81701b105e40fa49bdc2",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\original-output.json": "7cf80cfef51d4c0d0737c92c0f761d688aa8080eae5faa0fb2df6f6e6198fdcb",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\original-trace.jsonl": "92275e9c17a8cb6a868b073fb079dc6d83f1684fec7c0decf9016e4a3b108eef",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\power-math-output.json": "76b0af3b5498ee7469c2562ae30a892cb76e4436671af6b913411f5d945f4965",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\power-math-trace.jsonl": "92275e9c17a8cb6a868b073fb079dc6d83f1684fec7c0decf9016e4a3b108eef",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\realistic-output.json": "d2ea873693d24694eab07b8d2b58e30b6260f311d9ce8fdab3d2b2ea58a9bef7",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\realistic-trace.jsonl": "92275e9c17a8cb6a868b073fb079dc6d83f1684fec7c0decf9016e4a3b108eef",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\scalar-math-output.json": "e34585727914f575c5fa2a9a871fe4df8903f6b557e2e542a3824129a58863bc",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\arithmetic\\scalar-math-trace.jsonl": "1ac4702cacd7c9cb261c48a373be9949fdcef4fe8400991b1b5c7a4d33e5a164",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\python314\\manifest.json": "f610b60f3e38ceaa6af90da6300e87cd5fb1059961110c0b3d1d9ce6f47976c0",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\python314\\original-output.json": "4cdb5d9addd30c2bbdedaf9ebe76df0afcf6c49689023e6c6f9d2e05e8064eeb",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\python314\\original-trace.jsonl": "92275e9c17a8cb6a868b073fb079dc6d83f1684fec7c0decf9016e4a3b108eef",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\np124\\manifest.json": "6201bc2cc738fa640ed366f6213bdb32f7e476c122a503c15914e255dd99526e",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\np124\\original-output.json": "662623fe78c9b2a17d1938c58dc96f252d972f4046f2794b73941fbb37942d1a",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\np124\\original-trace.jsonl": "772e42cde9d9fcf2efa34d1110eb882f6ece3338daaccd5020047d3be9d68e22",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\np126\\manifest.json": "d090f728ed111476e348c2fe36871324fe6ab2ba3fdf714296b6d3341fb33ae5",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\np126\\original-output.json": "e1a6ed0ebd41ef418222e4cd2d2006cf2c28876e8110c10afd982dc3e953e639",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\np126\\original-trace.jsonl": "772e42cde9d9fcf2efa34d1110eb882f6ece3338daaccd5020047d3be9d68e22",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\np126-noavx\\manifest.json": "5259e0207da0562ad803dccb64fb73db43483c4defa17469b901499f80d8f126",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\np126-noavx\\original-output.json": "a88d46ed5e3dedcec3cbf23cbbe54862be07178d0db3c2d1d10780c587cca76f",
+    ".local\\reproduction\\2026-10-15-mismatch-v2\\linux\\np126-noavx\\original-trace.jsonl": "1ac4702cacd7c9cb261c48a373be9949fdcef4fe8400991b1b5c7a4d33e5a164"
+  },
+  "notes": [
+    "No original algorithm/results/cache changes.",
+    "Arithmetic interventions are not original baseline runs.",
+    "Linux NumPy wheel installs were isolated and offline inside existing images.",
+    "Exact root cause of saved author 83-slot trajectory remains unverified.",
+    "No GPU, model download, paid API or messages to authors. CPU peaks/tokens not measured."
+  ]
+}

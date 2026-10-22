@@ -1,0 +1,17 @@
+# Research Task Brief - ordered remaining reproduction
+
+Authorization: user explicitly requested completion of all remaining reproduction in order on2026-10-19. Preserve previous dirty research/sync work; no reset/clean/commit/push or original results/cache/source modifications.
+
+Order: assess original calibration evidence; re-run disclosed evaluation/selection0-99 and compare frozen points; matched-radio-budget value comparisons; realistic radio noise/overhead/shared selection+fresh validation; remaining ablations/sweeps/diagnostics; cached then live LLM; final audit; separately labelled38-candidate sensitivity and optionalGenie. All computation HPC only, workers<=2, numerical threads1. No new-method training or paid API.
+
+Known evidence gap: current HEAD documents calibration1000-1079 but no executable procedure, search space/selection rule or calibration raw data located. Do not invent a faithful calibration reproduction. Record this separately; public0-99 parameter selection is executable and can proceed. Prior frozen fresh A1 remains immutable.
+
+First registered action: HPC remaining inventory, no scientific missions. Derive exact job counts and original candidate Config metadata in the existing isolated R2 copy; compare copied Python modules to original ROOT before import. Retain protected input hashes. Read-only resource probe confirms uid8301880,2cores/24GiB,no active runs,disk available. Ollama executable/service absent; live phase needs environment preparation and cannot silently fall back to planner.
+
+Resource/cost: prior A1 two workers1200jobs574.59s is a reference only. Remaining candidate/realistic grids can be much larger; count exact tasks and bounded probes before full queues. Every stage gets immutable plan, caps, original-output comparison, append-only raw records, failures/partial states and independent audit. Source sync must finish before scientific work; no source updates during active runs.
+
+Acceptance: distinguish data re-analysis, actual simulation, cache replay and live model calls; selection uses0-99 only, fresh3000-3099 never tunes parameters; retain coverage37search/38rescue in strict track;38-search extension separately labelled. Every artifact hashes, scientific results onHPC, outputs/local mirror receipts distinguish done vs running. Missing calibration/live assets prevent claiming full P1 completion but do not justify doing no independent authorized work.
+
+Queue preregistered in research/protocols/ordered_reproduction_v1.json. Original per-job code unmodified; outside adapter caps all Pool instances at2, times out and preserves jobs, records lifecycle/config-catalog/arguments and returned results before legacy final writes. New concurrency/timeout/seed-role/equivalence tests precede queue launch. Calibration absence confirmed at current upstream387b493 per user-provided URL; no further user files needed. Future live stage probes a runtime service config in ignored.local; no public-cache-as-live claim. Test equivalence uses management seed9022, not scientific selection or validation. No background science is claimed complete before per-stage status/artifacts/audit.
+
+Validation complete:35 tests passed in5.54s (actual stdout/JUnit authority if rounded duration differs). Queue logical stages23, stage caps registered, global72h safety cap not prediction. Source remains frozen throughout queue; runtime per-stage progress and outputs are authoritative. Do not overwrite or restart existing queue workspace/run IDs.

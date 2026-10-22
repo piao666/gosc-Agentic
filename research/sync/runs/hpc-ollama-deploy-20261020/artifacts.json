@@ -1,0 +1,20 @@
+{
+  "run_id": "hpc-ollama-deploy-20261020",
+  "files": [
+    {
+      "path": "outputs/archive_verification.json",
+      "size": 318,
+      "sha256": "11ccc8281181f4943630c5c25d13464a9c6d1ac313a8e8e66c9e19e8b7ec3fa9"
+    },
+    {
+      "path": "outputs/deployment_controller.py",
+      "size": 915,
+      "sha256": "3198ae6d245fe9dda54261412ac20de2c86cd5ae1eed59e912b8fa9ded2f8f41"
+    },
+    {
+      "path": "outputs/quota_failure.json",
+      "size": 279,
+      "sha256": "10ddec123bebcfa51e9ddfc7f9244808cab7cca81b968fe957e82453e83ffecd"
+    }
+  ]
+}

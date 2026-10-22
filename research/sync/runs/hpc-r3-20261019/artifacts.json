@@ -1,0 +1,40 @@
+{
+  "run_id": "hpc-r3-20261019",
+  "files": [
+    {
+      "path": "outputs/commands.json",
+      "size": 1120,
+      "sha256": "78721311f90aed7a4ad2c3e7e15d5bafcd00c829b186b7a37ab4dab726d0a564"
+    },
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/mission.json",
+      "size": 37857,
+      "sha256": "938d6345a0c3b7ef248522669f0197011bd5839b9fd2c34d4c3fad582c6e17fb"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/single-mission.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/single-mission.stdout.log",
+      "size": 114,
+      "sha256": "451a5a85bb487d4a4521a780eae58f031e1eec2ce8ce9415a06dd60f52973c9e"
+    }
+  ]
+}

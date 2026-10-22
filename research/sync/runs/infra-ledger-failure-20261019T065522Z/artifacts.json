@@ -1,0 +1,10 @@
+{
+  "run_id": "infra-ledger-failure-20261019T065522Z",
+  "files": [
+    {
+      "path": "outputs/negative_probe.json",
+      "size": 26,
+      "sha256": "fc407afcb1e6663456bb9dd4d16b079bcc4624576536042647ac0d89fc405278"
+    }
+  ]
+}

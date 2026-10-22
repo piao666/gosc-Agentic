@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-cached-llm-20261020",
+  "status": "failed",
+  "started_at": "2026-10-20T16:00:50.960189+00:00",
+  "finished_at": "2026-10-20T16:00:53.513344+00:00",
+  "exit_code": 1,
+  "pid": 58394,
+  "elapsed_seconds": 2.553182,
+  "resource_usage": {
+    "child_max_rss_kib": 85144,
+    "child_cpu_user_seconds": 2.16661,
+    "child_cpu_system_seconds": 0.228487,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-numpy-diagnosis-20261020",
+  "status": "failed",
+  "started_at": "2026-10-20T02:56:03.583250+00:00",
+  "finished_at": "2026-10-20T03:01:03.819771+00:00",
+  "exit_code": 1,
+  "pid": 13878,
+  "elapsed_seconds": 300.236544,
+  "resource_usage": {
+    "child_max_rss_kib": 43816,
+    "child_cpu_user_seconds": 1.122348,
+    "child_cpu_system_seconds": 1.454702,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,134 @@
+{
+  "stages": [
+    {
+      "stage": "selection",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 3501.795104,
+      "missions": 26700,
+      "protected_inputs_unchanged": true,
+      "comparisons": [
+        {
+          "file": "rev_genie_ref.json",
+          "actual_records": 300,
+          "original_records": 300,
+          "compared_common_keys": 0,
+          "mismatch_records": 0,
+          "status": "matching_common_keys",
+          "interpretation": "No comparable keys: cannot claim historical agreement from this generic comparator"
+        },
+        {
+          "file": "independent_selection.json",
+          "status": "no_original_file_for_this_derived_product"
+        },
+        {
+          "file": "rev_rescue.json",
+          "actual_records": 13200,
+          "original_records": 7500,
+          "compared_common_keys": 0,
+          "mismatch_records": 0,
+          "status": "matching_common_keys",
+          "interpretation": "No comparable keys: cannot claim historical agreement from this generic comparator"
+        }
+      ],
+      "dedicated_selection_audit": {
+        "status": "verified",
+        "missions": 26700,
+        "candidate_metrics_checked": 26100,
+        "historical_mismatches": 22,
+        "all12_frozen_points_match": true,
+        "calibration_status": "upstream_procedure_not_provided",
+        "selection_seeds": [
+          0,
+          99
+        ],
+        "fresh_seeds_used_for_selection": false
+      }
+    },
+    {
+      "stage": "selection-fresh",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 377.536863,
+      "missions": 1200,
+      "protected_inputs_unchanged": true,
+      "comparisons": [
+        {
+          "file": "rev_validation.json",
+          "status": "matching"
+        }
+      ]
+    },
+    {
+      "stage": "c-frontier",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 1200.641488,
+      "missions": 6800,
+      "protected_inputs_unchanged": true,
+      "comparisons": [
+        {
+          "file": "rev_frontier.json",
+          "actual_records": 6800,
+          "original_records": 6800,
+          "compared_common_keys": 6800,
+          "mismatch_records": 479,
+          "status": "scientific_differences_retained",
+          "field_mismatch_counts": {
+            "completion_time": 228,
+            "symbols": 476,
+            "bits": 470,
+            "delivered_bits": 378,
+            "dl_symbols": 378,
+            "confirm_latency": 128,
+            "false_declarations": 8
+          },
+          "scheme_mismatch_counts": {
+            "gosc_bits": 475,
+            "gosc_aoi": 4
+          },
+          "primary_outcome_mismatch_records": 228
+        }
+      ]
+    },
+    {
+      "stage": "c-where",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 996.464425,
+      "missions": 5000,
+      "protected_inputs_unchanged": true,
+      "comparisons": [
+        {
+          "file": "rev_where_tom.json",
+          "actual_records": 5000,
+          "original_records": 5000,
+          "compared_common_keys": 5000,
+          "mismatch_records": 364,
+          "status": "scientific_differences_retained",
+          "field_mismatch_counts": {
+            "symbols": 358,
+            "bits": 359,
+            "delivered_bits": 267,
+            "dl_symbols": 267,
+            "completion_time": 146,
+            "confirm_latency": 57,
+            "false_declarations": 3
+          },
+          "scheme_mismatch_counts": {
+            "gosc_bits": 362,
+            "gosc_aoi": 2
+          },
+          "primary_outcome_mismatch_records": 147
+        }
+      ]
+    },
+    {
+      "stage": "c-belief",
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 0.490159
+    }
+  ],
+  "parent_queue_status": "failed"
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-ollama-adapter-tests-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T01:49:32.237634+00:00",
+  "finished_at": "2026-10-20T01:49:37.016496+00:00",
+  "exit_code": 0,
+  "pid": 7103,
+  "elapsed_seconds": 4.778894,
+  "resource_usage": {
+    "child_max_rss_kib": 50588,
+    "child_cpu_user_seconds": 2.353551,
+    "child_cpu_system_seconds": 0.312621,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

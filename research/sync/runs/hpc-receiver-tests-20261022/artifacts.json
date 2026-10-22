@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-receiver-tests-20261022",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 894,
+      "sha256": "2babff5e4ca395723a6147ac495d6d631db98a9bbcb0720577a508715c69d73e"
+    }
+  ]
+}

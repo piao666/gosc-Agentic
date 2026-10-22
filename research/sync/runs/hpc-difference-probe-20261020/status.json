@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-difference-probe-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T02:54:15.356851+00:00",
+  "finished_at": "2026-10-20T02:54:27.715856+00:00",
+  "exit_code": 0,
+  "pid": 13045,
+  "elapsed_seconds": 12.359025,
+  "resource_usage": {
+    "child_max_rss_kib": 67216,
+    "child_cpu_user_seconds": 11.839343,
+    "child_cpu_system_seconds": 0.322561,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,40 @@
+{
+  "experiment_id": "progress-inventory-2026-10-19",
+  "operation": "progress audit; no experiment",
+  "git_commit": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "baseline_commit": "387b49389385b51c275dc5a22ec1672087edda1d",
+  "working_tree_dirty": true,
+  "config_file": null,
+  "seeds": [],
+  "agent_models": [],
+  "llm_cache_mode": "not_run",
+  "status": "completed",
+  "code_root": "E:\\gosc",
+  "papers_root": "E:\\Papers",
+  "commands": [
+    "git clone https://github.com/piao666/gosc-Agentic.git E:\\gosc (stalled; stopped)",
+    "git -c http.version=HTTP/1.1 -c http.lowSpeedLimit=1000 -c http.lowSpeedTime=60 clone --progress https://github.com/piao666/gosc-Agentic.git E:\\gosc (passed)",
+    "git status --short / rev-parse HEAD / remote -v / log -4 / tag --list",
+    "git diff 387b493 HEAD --name-only -- gosc experiments tests LICENSE",
+    "python --version; Test-Path .venv",
+    "bundled Python/pypdf: scan 42 PDF first pages and SHA-256 in read-only mode",
+    "python finalize_audit.py: scoped documentation updates; CSV identifiers and 78 protected-file hashes",
+    "git diff --check",
+    "finalize_audit.py initial integrity check: failed because audit normalized CRLF to LF; protected files unchanged",
+    "finalize_audit.py --verify-only first retry: NameError for audit directory variable; corrected in temporary helper",
+    "finalize_audit.py --verify-only final retry: passed; raw-byte SHA-256 all 78 match"
+  ],
+  "raw_output_paths": [
+    "research/literature/literature_inventory_2026-10-19.csv"
+  ],
+  "logs": [
+    "research/logs/progress-2026-10-19/local_verification.json",
+    "research/logs/progress-2026-10-19/remote_evidence.json"
+  ],
+  "notes": [
+    "Original algorithm/results/cache/history unchanged. Private PDFs remain outside Git.",
+    "No dependency installation, tests, fresh simulation, LLM request or model download.",
+    "Audit helper errors were corrected; these were not upstream algorithm/test failures.",
+    "App move tool returned success but follow-up listing still has projectId=null and cwd=E:\\Papers. Gosc saved project correctly points to E:\\gosc and is detected as a Git repository. Current chat default cwd was not changed."
+  ]
+}

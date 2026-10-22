@@ -1,0 +1,15 @@
+Using Python 3.11.15 environment at: .local/diagnostic-numpy-1.26.4
+Resolved 1 package in 2ms
+Prepared 1 package in 502ms
+Installed 1 package in 312ms
+ + numpy==1.26.4 (from file:///home/u202520081000097/jupyterlab/Paper/gosc/.local/diagnostic-wheels/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+Using Python 3.11.15 environment at: .local/diagnostic-numpy-1.26.4
+Using CPython 3.11.15 interpreter at: .venv/bin/python
+Creating virtual environment at: .local/diagnostic-numpy-2.2.6
+Activate with: source .local/diagnostic-numpy-2.2.6/bin/activate
+Using Python 3.11.15 environment at: .local/diagnostic-numpy-2.2.6
+Resolved 1 package in 3ms
+Prepared 1 package in 571ms
+Installed 1 package in 343ms
+ + numpy==2.2.6 (from file:///home/u202520081000097/jupyterlab/Paper/gosc/.local/diagnostic-wheels/numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+Using Python 3.11.15 environment at: .local/diagnostic-numpy-2.2.6

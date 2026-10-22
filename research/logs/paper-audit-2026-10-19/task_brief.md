@@ -1,0 +1,9 @@
+# Research Task Brief — paper/code/figure audit and bounded R4 protocol
+
+- Authorization: user asked to continue the stated paper-code mapping, paper figure/table verification and definition of HPC multi-seed protocol. This does not start full campaigns or training.
+- Question: can every numbered equation, algorithm, figure and table in the exact local D01 PDF be traced to actual baseline code, inputs and the regenerated R2 outputs? Which paper claims match, differ, or remain not covered?
+- Source: D01-Resource-Efficient Semantic Communication for Heterogeneous Agentic Teams.pdf, SHA256 e99130b27965bc4b6c06ccca8fc2dd9a3fd8b2dd5f6880964b6e0a4003c01923, kept read-only in E:/Papers. Use the PDF version, not README numbering, as authority. Publication status is not inferred.
+- Baseline: 876fc523b113b3b65e19f0b730f1573ccc2ee17f, unmodified gosc/experiments/tests/results/LICENSE; existing dirty research files are prior authorized work.
+- Work: local PDF reading/rendering and source inspection; document maps and explicit paper-claim reference values; HPC ledger analysis for numerical checking of the already regenerated outputs, no new simulations; write a predeclared bounded R4 pilot/full-campaign protocol with cost, seed isolation, fair budget and failure gates.
+- Cost: local document reading only; HPC analysis expected seconds, CPU threads<=2, no GPU/model/download/paid calls. PDF is not uploaded; only sourced audit references and scripts are synchronized. No PDF authoring.
+- Acceptance: all paper-numbered items have page/code/data/output/status; quantitative checks use explicit paper rounding tolerances and raw evidence; figure visual checks are described accurately; unmatched references and non-generated diagrams are recorded; R4 protocol is concrete but not represented as executed; sync all research deliverables and HPC analysis evidence.

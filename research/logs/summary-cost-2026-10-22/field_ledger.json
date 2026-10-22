@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-22",
+  "head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "fields": [
+    {
+      "field": "target10",
+      "availability": "producer owns current target; others only delivered INTENT",
+      "increment": "freshness of existing INTENT mechanism, not inherently new semantic field",
+      "cost_boundary": "compare against native18bit application INTENT; add transport metadata/CRC consistently",
+      "source": [
+        "gosc/messages.py:64",
+        "gosc/simulator.py:140",
+        "gosc/schemes.py:425"
+      ]
+    },
+    {
+      "field": "pose10",
+      "availability": "producer actual pose vs edge last EVID record",
+      "increment": "freshness update to existing position",
+      "cost_boundary": "uplink plus sender-side downlink dissemination; estimator cache must not modify planner common state",
+      "source": [
+        "gosc/simulator.py:138",
+        "gosc/voi.py:47"
+      ]
+    },
+    {
+      "field": "novelty3",
+      "availability": "own delivered common view,own pending LLR,own declared mask",
+      "increment": "not determined by that common input; scalar not spatially sufficient",
+      "cost_boundary": "actual grid feature compute plus explicit transmitted field; not correctness/confidence/task utility",
+      "source": [
+        "extensions/receiver_summary_audit.py:5",
+        "gosc/voi.py:51"
+      ]
+    },
+    {
+      "field": "state_version8",
+      "availability": "protocol producer counter",
+      "increment": "dedup metadata,not task knowledge",
+      "cost_boundary": "can be replaced by generation slot in fixed single-mission audit; not general restart protocol",
+      "source": [
+        "research/protocols/receiver_headroom_pilot_v1.md",
+        "extensions/receiver_transport_replay.py"
+      ]
+    },
+    {
+      "field": "created_slot",
+      "availability": "assumed existing synchronized simulation clock",
+      "increment": "freshness metadata",
+      "cost_boundary": "old8bit wraps within400slot horizon; current9bit rejects>=512; clock/session acquisition not measured",
+      "source": [
+        "gosc/config.py:22",
+        "extensions/receiver_summary_audit.py:16"
+      ]
+    },
+    {
+      "field": "valid_padding",
+      "availability": "protocol fields",
+      "increment": "no task state",
+      "cost_boundary": "included in actual serialized bytes",
+      "source": [
+        "extensions/receiver_summary_audit.py:16"
+      ]
+    },
+    {
+      "field": "private_spatial_belief",
+      "availability": "producer private; excluded from public baseline",
+      "increment": "oracle has a1024-cell spatial map and pending confirmation structure",
+      "cost_boundary": "not representable by novelty3; no free read or unvalidated reconstruction in estimator",
+      "source": [
+        "gosc/voi.py:51",
+        "gosc/voi.py:95"
+      ]
+    }
+  ],
+  "policy_uses_summary": false,
+  "complex_training_go": false
+}

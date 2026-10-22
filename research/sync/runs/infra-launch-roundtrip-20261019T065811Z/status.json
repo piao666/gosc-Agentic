@@ -1,0 +1,16 @@
+{
+  "run_id": "infra-launch-roundtrip-20261019T065811Z",
+  "status": "completed",
+  "started_at": "2026-10-19T06:58:32.577638+00:00",
+  "finished_at": "2026-10-19T06:58:32.616520+00:00",
+  "exit_code": 0,
+  "pid": 8074,
+  "elapsed_seconds": 0.038902,
+  "resource_usage": {
+    "child_max_rss_kib": 21060,
+    "child_cpu_user_seconds": 0.024727,
+    "child_cpu_system_seconds": 0.035247,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

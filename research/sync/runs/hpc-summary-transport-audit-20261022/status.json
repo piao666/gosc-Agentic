@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-summary-transport-audit-20261022",
+  "status": "completed",
+  "started_at": "2026-10-22T08:44:29.503390+00:00",
+  "finished_at": "2026-10-22T08:44:37.080585+00:00",
+  "exit_code": 0,
+  "pid": 49059,
+  "elapsed_seconds": 7.577225,
+  "resource_usage": {
+    "child_max_rss_kib": 55992,
+    "child_cpu_user_seconds": 7.490817,
+    "child_cpu_system_seconds": 0.06139,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

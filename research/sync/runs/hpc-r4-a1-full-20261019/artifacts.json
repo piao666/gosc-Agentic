@@ -1,0 +1,60 @@
+{
+  "run_id": "hpc-r4-a1-full-20261019",
+  "files": [
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/episodes.jsonl",
+      "size": 12452218,
+      "sha256": "43679328eadd4209025a95ab6e19de0445be44d19dc520c86fb6b9cb1ac8001a"
+    },
+    {
+      "path": "outputs/events.jsonl",
+      "size": 295274,
+      "sha256": "df256d22e9872a9d95eeff0835a333ba48c1cb59b4f79d13ec3a70ef106a1558"
+    },
+    {
+      "path": "outputs/execution_context.json",
+      "size": 1052,
+      "sha256": "7ad16dfd4a634178cc07cf181c5d9eb4003fcca8af44c4c70a22580ce57f8240"
+    },
+    {
+      "path": "outputs/execution_summary.json",
+      "size": 497,
+      "sha256": "a6b5bf50bf5f1f7d0f0aec8b9895febb5cc0dd705ec4eac6360aad2a9b226cef"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/jobs.json",
+      "size": 2236803,
+      "sha256": "1408cc6a542d9774556aa6f9d6e5d56f3e00bb6816bef39f05b66aeb00e96f09"
+    },
+    {
+      "path": "outputs/mission_status.json",
+      "size": 253235,
+      "sha256": "6f234214fd77d61bfdc6870be7abd6f1c3434e487e62ada0c23296dd8d374260"
+    },
+    {
+      "path": "outputs/plan_snapshot.json",
+      "size": 5406,
+      "sha256": "eba3d5b79dabf7fe665e659b815af0a7c3acd615bb54fc83867e347d68f09a40"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/worker_logs.jsonl",
+      "size": 79400,
+      "sha256": "c971ea53db01a62961751a85eb6d8efef21e2fd2fbdbde44fb2ca4cc7e975e38"
+    }
+  ]
+}

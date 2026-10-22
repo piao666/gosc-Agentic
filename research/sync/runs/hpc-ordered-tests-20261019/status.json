@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-ordered-tests-20261019",
+  "status": "completed",
+  "started_at": "2026-10-19T10:32:00.185460+00:00",
+  "finished_at": "2026-10-19T10:32:06.530961+00:00",
+  "exit_code": 0,
+  "pid": 27251,
+  "elapsed_seconds": 6.34553,
+  "resource_usage": {
+    "child_max_rss_kib": 62748,
+    "child_cpu_user_seconds": 3.668406,
+    "child_cpu_system_seconds": 0.514335,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

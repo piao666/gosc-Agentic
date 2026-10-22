@@ -1,0 +1,16 @@
+{
+  "run_id": "ordered-c-belief-20261019",
+  "status": "failed",
+  "started_at": "2026-10-19T12:17:39.196907+00:00",
+  "finished_at": "2026-10-19T12:17:39.687035+00:00",
+  "exit_code": 1,
+  "pid": 35132,
+  "elapsed_seconds": 0.490159,
+  "resource_usage": {
+    "child_max_rss_kib": 39888,
+    "child_cpu_user_seconds": 0.375172,
+    "child_cpu_system_seconds": 0.11082399999999999,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

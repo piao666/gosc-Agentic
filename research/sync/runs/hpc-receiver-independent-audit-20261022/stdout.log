@@ -1,0 +1,1 @@
+{"status": "passed", "calibration_missions": 1248, "validation_missions": 260, "ineligible_families": [{"setting": "search-W50", "family": "m0_aoi", "reason": "No calibration candidate within declared mean UL cap"}], "test_worlds_unique_across_two_W": 20, "validation_uncompleted_missions": 0}

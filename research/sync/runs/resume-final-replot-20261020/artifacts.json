@@ -1,0 +1,225 @@
+{
+  "run_id": "resume-final-replot-20261020",
+  "files": [
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/figures/fig_agents.pdf",
+      "size": 20087,
+      "sha256": "d89e6cc257e4e7b2e3a55bcb85bce06eb269f7364d71a334bdc61ba2e0f3c4bf"
+    },
+    {
+      "path": "outputs/figures/fig_budget.pdf",
+      "size": 19734,
+      "sha256": "ad1e5e75801b1cfea21a61d81b02de56df7c0d6da51804e72034d68c8fc64df5"
+    },
+    {
+      "path": "outputs/figures/fig_curve.pdf",
+      "size": 21381,
+      "sha256": "01e1aa3e09644f1353cd44b7a83579ac9fe6b25e92467176606f75ad89f73159"
+    },
+    {
+      "path": "outputs/figures/fig_downlink.pdf",
+      "size": 23762,
+      "sha256": "3b62f214a2dbb5f8c3a0fc455236a64eb0266838a70171e7e556c92eed908898"
+    },
+    {
+      "path": "outputs/figures/fig_efficiency.pdf",
+      "size": 29429,
+      "sha256": "3cda9bf9f4f748728f9caca5f5e2976ce13065c52914f3635526df1bd658045f"
+    },
+    {
+      "path": "outputs/figures/fig_fbl.pdf",
+      "size": 29252,
+      "sha256": "e9fb4a5e03f85b6af0e5f97177056a88b4140a77f8682c4ead8eb738743f1c23"
+    },
+    {
+      "path": "outputs/figures/fig_frontier.pdf",
+      "size": 28263,
+      "sha256": "ffe1d0863143c161c268cb452ceb5aaaba5ca1940da523d5dc505a982ecea71c"
+    },
+    {
+      "path": "outputs/figures/fig_noise.pdf",
+      "size": 33762,
+      "sha256": "540f902a2dfc535cd91ae00773b9fc9fa7eaa373f84e5b88db2d92bce8b76f7b"
+    },
+    {
+      "path": "outputs/figures/fig_pareto.pdf",
+      "size": 24563,
+      "sha256": "2a5702cfb20cdf5d7645f6ab4b531e1dc3077de2143cc2eb85a1597de37072c7"
+    },
+    {
+      "path": "outputs/figures/fig_rescue.pdf",
+      "size": 40589,
+      "sha256": "471b4f90d564d4f2cf8a0efcfa129082d1a5033aa1dd82791899b446b9f05193"
+    },
+    {
+      "path": "outputs/figures/fig_shared.pdf",
+      "size": 32746,
+      "sha256": "70ae9d583160d55551dd2788dbf17742e529bb210f669f8b3580c45f0471ff96"
+    },
+    {
+      "path": "outputs/figures/fig_shared_col.pdf",
+      "size": 29267,
+      "sha256": "d9ef8df8c339ba0b278450276c00b4f2deb3faa9a24502489ac9d93dc2ab684c"
+    },
+    {
+      "path": "outputs/figures/fig_snr.pdf",
+      "size": 20192,
+      "sha256": "e89502a033c54630c5d8a6161468e54baf8971d6edee31cb5a1c24ff956fa2f9"
+    },
+    {
+      "path": "outputs/figures/fig_snr_pair.pdf",
+      "size": 27254,
+      "sha256": "ea11446dbd7ed8f0f6ed17aa0cf0a3d638b5f952d2293212ee2e087a969e5e35"
+    },
+    {
+      "path": "outputs/figures/fig_snr_sym.pdf",
+      "size": 23398,
+      "sha256": "9b3f30be7467edd1590b57b955fda7756c7487c040041a4df7ebab3ede097445"
+    },
+    {
+      "path": "outputs/figures/fig_traj.pdf",
+      "size": 14103,
+      "sha256": "304a750e3edb27f32d677ca0579736ec81ab000bccc720b933234997bc8cb570"
+    },
+    {
+      "path": "outputs/figures/fig_where_tom.pdf",
+      "size": 26494,
+      "sha256": "d6f1db16f41ab1698c4a088345ada712e38888d97ed766ef21d1fa79f639cf3e"
+    },
+    {
+      "path": "outputs/figures/numbers.tex",
+      "size": 352,
+      "sha256": "8328b2ad8f1d639a844dd01926b2c843dd2fdc24e8311c7f0dad6a9a87b3645d"
+    },
+    {
+      "path": "outputs/figures/table_ablation.tex",
+      "size": 793,
+      "sha256": "1508a6160dcd3703b27651718a15291efc9cc43dcda2632e7ce370e303062e40"
+    },
+    {
+      "path": "outputs/figures/table_cost.tex",
+      "size": 934,
+      "sha256": "897f2f95f9bea01aaf3547b12761ddb69d617555bf71838cf2a23ed2606088ea"
+    },
+    {
+      "path": "outputs/figures/table_default.tex",
+      "size": 562,
+      "sha256": "fbb65b0ded0b744c096150c837b0d5ff814e6e2f154e94bba42ee026e55d37b0"
+    },
+    {
+      "path": "outputs/figures/table_efficiency.tex",
+      "size": 1419,
+      "sha256": "fbbd5a5c8f05f3f6b6cbc5194b27f6c987029f5cf5a32c8adb2bae2cbb10cb53"
+    },
+    {
+      "path": "outputs/figures/table_fidelity.tex",
+      "size": 362,
+      "sha256": "3835979203c0db353f7be71955503919021a5758a23a798a81752fefdbf2c21b"
+    },
+    {
+      "path": "outputs/figures/table_frontier.tex",
+      "size": 389,
+      "sha256": "92a04395729c57d73f86f7f4dac7cc6dffefda9f8e8ac2060bf683239bdddd3e"
+    },
+    {
+      "path": "outputs/figures/table_frozen.tex",
+      "size": 442,
+      "sha256": "8db580c8e715a309a19f88b79b6d7cb08e6ba5ec4e55e5d66c11d8d1985abbf4"
+    },
+    {
+      "path": "outputs/figures/table_noise.tex",
+      "size": 1747,
+      "sha256": "18af52d831b53857a296dc27a3a408d2c42c59682fe19eb28d029595e1320bcc"
+    },
+    {
+      "path": "outputs/figures/table_overhead.tex",
+      "size": 2157,
+      "sha256": "062e1c079bbcb209bdcd4024c876447166e982e9e450f75cd9d074c08e22645d"
+    },
+    {
+      "path": "outputs/figures/table_private.tex",
+      "size": 246,
+      "sha256": "1f6f870f271af8233fa1c9187271f07340d994bd63ee7824f7f3c37843da0e78"
+    },
+    {
+      "path": "outputs/figures/table_rate_aware.tex",
+      "size": 344,
+      "sha256": "367abdc20ebf541a704c1929bae48e2a6ed28450a209d67e6d53e46fd2dd92b7"
+    },
+    {
+      "path": "outputs/figures/table_shared.tex",
+      "size": 540,
+      "sha256": "a43c3ad84bf67d13402318881e7c368cd8666bf56d108b278e13efe5e6e371fb"
+    },
+    {
+      "path": "outputs/figures/table_validation.tex",
+      "size": 797,
+      "sha256": "5c536c1ece815a7324df10de41e000f20e8888e606a4b0d535dd419f214ec59d"
+    },
+    {
+      "path": "outputs/figures/table_values.tex",
+      "size": 795,
+      "sha256": "9d686d00dd870808b11a7140e5e27b711936e37bd95d402594fb8d065c25156a"
+    },
+    {
+      "path": "outputs/figures/table_where_tom.tex",
+      "size": 284,
+      "sha256": "a6ec5663676444565e889fcc06e5e20a07de8361e56ba97c59be16a3c411b0cb"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 467,
+      "sha256": "67b63cd553413cf2ab073c2599bf17d4d408dcb943d7ad6dba316df6f313f5ec"
+    },
+    {
+      "path": "outputs/legacy_results/summary.json",
+      "size": 31795,
+      "sha256": "525311824a0e301ef79d33acbb8dd5cb5eb42ca910457f6af373719de7b3875f"
+    },
+    {
+      "path": "outputs/legacy_results/summary_realistic.json",
+      "size": 701257,
+      "sha256": "5db3ac60d548662d403c84891e3e0a7049b9a3edbe57fbd0cba1210b9fd22375"
+    },
+    {
+      "path": "outputs/legacy_results/summary_revision.json",
+      "size": 61061,
+      "sha256": "9db986ceb2cabd330497ee49a8bd8f7361bc069d318b693c0118c84ff2aa9f97"
+    },
+    {
+      "path": "outputs/mplconfig/fontlist-v3.11.0.json",
+      "size": 28696,
+      "sha256": "ae691441485d6c6a5da5dcc77d278345caa61339b98a8aa03a8e10185801eb5f"
+    },
+    {
+      "path": "outputs/original_comparison.json",
+      "size": 483,
+      "sha256": "28acf635e764846c83a1851228411d480612c8d5ea29553d68548ad40307f7a3"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/stage_audit.json",
+      "size": 268,
+      "sha256": "1ce993a35715bccf4b7881be98250ff5bca33d44f0fbb1e91b435564173367cd"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 3778,
+      "sha256": "d4ffe60eca9963f9c3d84997fc67d97fced10b2ba51628d1921e7777bbb846be"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "run_id": "hpc-r3-20261019",
+  "kind": "simulation",
+  "stage": "R3",
+  "purpose": "One fresh execution of upstream default GOSC mission at fixed author-validation seed 3000; no training or multi-seed claim",
+  "created_at": "2026-10-19T07:23:01.019735+00:00",
+  "execution_host": "n1",
+  "ssh_alias": "hpc",
+  "project_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "cwd": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "command": [
+    "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+    "scripts/hpc_reproduce.py",
+    "r3",
+    "--seed",
+    "3000"
+  ],
+  "seeds": [
+    3000
+  ],
+  "models": [],
+  "cache_mode": "no_llm_planner_agents",
+  "config_file": null,
+  "git_commit": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "working_tree_status": "M .gitignore\n M AGENTS.md\n M README.md\n M research/logs/environment-2026-10-12/import-smoke.log\n M research/logs/environment-2026-10-12/pip-check.log\n M research/logs/environment-2026-10-12/pytest-collection.log\n M research/logs/environment-2026-10-12/pytest.log\n M research/reproduction/windows_environment.md\n M 硕士论文研究与实施说明书.md\n?? research/literature/\n?? research/logs/hpc-r1-r3-2026-10-19/\n?? research/logs/hpc-sync-2026-10-19/\n?? research/logs/progress-2026-10-19/\n?? research/logs/run-sync-2026-10-19/\n?? research/reports/\n?? research/reproduction/hpc_environment.md\n?? research/reproduction/repro_protocol.md\n?? research/reproduction/requirements-linux.freeze.txt\n?? research/reproduction/requirements-linux.lock.txt\n?? research/sync/\n?? research/workspace_paths.json\n?? scripts/hpc_reproduce.py\n?? scripts/hpc_runs.py\n?? scripts/sync_hpc.py",
+  "source_sync_id": "20261019T072239Z",
+  "source_manifest_sha256": "06b043a41d7b854d7fc9ef2ccbd00c221e3d23eb146271f275b5db08877d0337",
+  "python_executable": "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+  "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+  "resource_limits": {
+    "cpu_quota": "200000",
+    "cpu_period": "100000",
+    "cpuset": "0-1",
+    "memory_bytes": "25769803776",
+    "gpu_settings": {
+      "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+      "CUDA_DEVICE_SM_LIMIT": "75"
+    }
+  },
+  "metrics_not_measured": [
+    "peak_gpu_memory",
+    "tokens",
+    "channel_uses"
+  ]
+}

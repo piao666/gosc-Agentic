@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-value-fidelity-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T15:04:36.765994+00:00",
+  "finished_at": "2026-10-20T16:00:36.383146+00:00",
+  "exit_code": 0,
+  "pid": 55880,
+  "elapsed_seconds": 3359.617181,
+  "resource_usage": {
+    "child_max_rss_kib": 85152,
+    "child_cpu_user_seconds": 6642.872912,
+    "child_cpu_system_seconds": 2.148606,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

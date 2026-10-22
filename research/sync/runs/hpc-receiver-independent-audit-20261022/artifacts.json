@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-receiver-independent-audit-20261022",
+  "files": [
+    {
+      "path": "outputs/independent_audit.json",
+      "size": 6623,
+      "sha256": "84a00303d7309483b3119b8e9fd14197f622a9320731736a3f822d71ddc23a11"
+    }
+  ]
+}

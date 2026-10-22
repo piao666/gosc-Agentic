@@ -1,0 +1,90 @@
+{
+  "run_id": "ordered-selection-fresh-20261019",
+  "files": [
+    {
+      "path": "outputs/active_pool.json",
+      "size": 99,
+      "sha256": "08eb076c7f6bb09c49c5dc1013962b4cce74254d593debd2380f8655c75a4182"
+    },
+    {
+      "path": "outputs/candidate_configs.json",
+      "size": 21841,
+      "sha256": "acc801a12b3b6e29093ac6d47525a0d9052832e14fcff67382e30a07f4768376"
+    },
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/fresh_validation.json",
+      "size": 40398,
+      "sha256": "d97b5f7b3099b49a19022c0a7cda427949aec128ea81999cfe9cb98eae310050"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 203,
+      "sha256": "b7e619e14640fff780d54ff42fce59bec8593a84b9db076d33d25798170939da"
+    },
+    {
+      "path": "outputs/legacy_results/rev_validation.json",
+      "size": 40398,
+      "sha256": "d97b5f7b3099b49a19022c0a7cda427949aec128ea81999cfe9cb98eae310050"
+    },
+    {
+      "path": "outputs/original_comparison.json",
+      "size": 203,
+      "sha256": "c3e08f09d631da989f7faad8d2a01836fa36f2b5a02b72f0216c3877df0bfe15"
+    },
+    {
+      "path": "outputs/pool-001-configs.jsonl",
+      "size": 14120,
+      "sha256": "ad56fd2eac64306accf7686f3fe37a209dd21532fa4e94170a6c4a1da5ece3b4"
+    },
+    {
+      "path": "outputs/pool-001-events.jsonl",
+      "size": 333114,
+      "sha256": "6e1652837708d33cf4b17a0aae2b6771e1f5912341a248bc9069f81b8a698628"
+    },
+    {
+      "path": "outputs/pool-001-jobs.jsonl",
+      "size": 650610,
+      "sha256": "e0311e10cf53952eb389fc3543ee85b814f07684cf87dbcb97403b0f3c9ddea4"
+    },
+    {
+      "path": "outputs/pool-plans.jsonl",
+      "size": 270300,
+      "sha256": "16a0a29b63d8ee2f2f5e70a28f8828e1468b8f2aa3766160df4968b8fdfb30b6"
+    },
+    {
+      "path": "outputs/pool-summary.jsonl",
+      "size": 110,
+      "sha256": "8d989994f4e0b778b61fed5db2a9b02133673df8a8b1cf46d90ccc4c93073a62"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/selection_episodes.jsonl",
+      "size": 501221,
+      "sha256": "889ccc662ee1e0552e2ab04c06e58f2515e95a0b87fb89ac4771943c81ad3967"
+    },
+    {
+      "path": "outputs/stage_audit.json",
+      "size": 277,
+      "sha256": "355b2ba6b701ff33bf06948d6cdca2b1985b7d6f8b49fcb132f8240a225ee199"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 796,
+      "sha256": "bfd8f2c4ae4c5d1195a6b8860da0c22f7f9ff62462add2f6135190f338dc851d"
+    }
+  ]
+}

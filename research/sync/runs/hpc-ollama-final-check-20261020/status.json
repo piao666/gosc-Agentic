@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-ollama-final-check-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T02:15:51.849234+00:00",
+  "finished_at": "2026-10-20T02:15:51.960831+00:00",
+  "exit_code": 0,
+  "pid": 10355,
+  "elapsed_seconds": 0.111619,
+  "resource_usage": {
+    "child_max_rss_kib": 22828,
+    "child_cpu_user_seconds": 0.083005,
+    "child_cpu_system_seconds": 0.039753,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

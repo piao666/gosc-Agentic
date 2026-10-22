@@ -1,0 +1,48 @@
+{
+  "ref": "ca0580aaabcd337193b4f96d4d613b372c9b6916",
+  "files": [
+    {
+      "source_ref": "origin/codex/baseline-reproduction",
+      "resolved_commit": "ca0580aaabcd337193b4f96d4d613b372c9b6916",
+      "source_path": "research/reproduction/2026-10-15-mismatch/diagnosis_report.md",
+      "git_blob": "d5d94e3973ee0cc7d4c907fa394af02c6155679c",
+      "local_path": "research/logs/upstream-gap-2026-10-20/prior_branch/diagnosis_report.md",
+      "sha256": "75128d3fc9369667a239e06ea797e0ff5d56a91eacb194d4dca76111ad9a7ef4"
+    },
+    {
+      "source_ref": "origin/codex/baseline-reproduction",
+      "resolved_commit": "ca0580aaabcd337193b4f96d4d613b372c9b6916",
+      "source_path": "research/reproduction/2026-10-15-mismatch/compatibility_matrix.csv",
+      "git_blob": "1ba87166eea7196185bedb7291fbd3c8bc7b5439",
+      "local_path": "research/logs/upstream-gap-2026-10-20/prior_branch/compatibility_matrix.csv",
+      "sha256": "37f54d8db477a3bd9e0587ca8b8d825479d45241ac3e96b577037570514c382c"
+    },
+    {
+      "source_ref": "origin/codex/baseline-reproduction",
+      "resolved_commit": "ca0580aaabcd337193b4f96d4d613b372c9b6916",
+      "source_path": "research/reproduction/2026-10-15-mismatch/first_scheduler_divergence.json",
+      "git_blob": "b661aadde9fa6d62e111ad1b7349410a8ce28425",
+      "local_path": "research/logs/upstream-gap-2026-10-20/prior_branch/first_scheduler_divergence.json",
+      "sha256": "09923417928c5cc3ed2d4bdcc2ba2eeca9bf129fe0df379215a2e9148e0e454e"
+    },
+    {
+      "source_ref": "origin/codex/baseline-reproduction",
+      "resolved_commit": "ca0580aaabcd337193b4f96d4d613b372c9b6916",
+      "source_path": "research/reproduction/2026-10-15-mismatch/experiment_manifest.json",
+      "git_blob": "659a509b9f0aff81a15f0a4cfd907bb419b40d12",
+      "local_path": "research/logs/upstream-gap-2026-10-20/prior_branch/experiment_manifest.json",
+      "sha256": "51f2c2e384c0a10683aeac32839fa262f41f555880a4c95a9fa834010b7d5ebe"
+    },
+    {
+      "source_ref": "origin/codex/baseline-reproduction",
+      "resolved_commit": "ca0580aaabcd337193b4f96d4d613b372c9b6916",
+      "source_path": "research/reproduction/upstream_reproduction_question_draft.md",
+      "git_blob": "b28ca4f22c5020939ce9ef80b132b7d3feafed32",
+      "local_path": "research/logs/upstream-gap-2026-10-20/prior_branch/upstream_reproduction_question_draft.md",
+      "sha256": "9dd54c72b76550ebdbe9495acc5e18f0e0a6ca6ef7be11bfcc7257f564a8a978"
+    }
+  ],
+  "protected_core_diff_paths": [],
+  "old_local_raw_directory_exists": false,
+  "interpretation": "Prior user-branch artifacts, not author provenance or a new HPC run; old raw directory unavailable; no checkout/merge"
+}

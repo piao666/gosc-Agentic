@@ -1,0 +1,90 @@
+{
+  "run_id": "hpc-env-20261019",
+  "files": [
+    {
+      "path": "outputs/commands.json",
+      "size": 2829,
+      "sha256": "dd244599462d804fda16deb4b03144cf118006a08bac75e980b4af5fff90d049"
+    },
+    {
+      "path": "outputs/create-venv.stderr.log",
+      "size": 209,
+      "sha256": "e4578091b4d2d3f0917e2e0aa21f0c601dfd5b7b4ff1fd0913433861bd0c03cf"
+    },
+    {
+      "path": "outputs/create-venv.stdout.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/dependency-check.stderr.log",
+      "size": 65,
+      "sha256": "601ecc3d90f3041e07268efcbae7ba0cf5a34383c96b3c7529a86905244276c0"
+    },
+    {
+      "path": "outputs/dependency-check.stdout.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/environment-probe.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/environment-probe.stdout.log",
+      "size": 548,
+      "sha256": "a2c1e49bdf1c7ebf60ea46eb11ce836c2fb34856b98476b51fccca53e59ccc87"
+    },
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/freeze.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/freeze.stdout.log",
+      "size": 251,
+      "sha256": "b24a3a1d5ac296318971c0218b1f298926fc10e01bf2ce1a037e71352a7ae478"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/install.stderr.log",
+      "size": 647,
+      "sha256": "221adbcb4b68499e1c1d95ebdb6b4efc5b815b5b1c42c3db9a904f4e5c5834a4"
+    },
+    {
+      "path": "outputs/install.stdout.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/requirements-linux.freeze.txt",
+      "size": 251,
+      "sha256": "b24a3a1d5ac296318971c0218b1f298926fc10e01bf2ce1a037e71352a7ae478"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/resolve.stderr.log",
+      "size": 30,
+      "sha256": "f67aa0bd0e5561261dbd1a74ec13b65da76d78cc40c6c8f110aa09eae9318afa"
+    },
+    {
+      "path": "outputs/resolve.stdout.log",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    }
+  ]
+}

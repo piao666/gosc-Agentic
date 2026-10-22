@@ -1,0 +1,80 @@
+{
+  "run_id": "resume-genie-fresh-20261020",
+  "files": [
+    {
+      "path": "outputs/active_pool.json",
+      "size": 96,
+      "sha256": "9299cff7dc552912f7baad0bf7d80d426b64f2096c145c60ae2e707badf545b9"
+    },
+    {
+      "path": "outputs/candidate_configs.json",
+      "size": 11142,
+      "sha256": "7605b18446c7d32690d2036de9e5488353b9247522bc6b7a50043b87732e9a9d"
+    },
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 68,
+      "sha256": "7f858ade31dd1729206f0a92324e065ac01e2d24290cb54e632855f5379672ee"
+    },
+    {
+      "path": "outputs/original_comparison.json",
+      "size": 110,
+      "sha256": "91dcec0cb13be0c3b61a244147d04b7813fb7dab345a8baf1aca98e1870332bf"
+    },
+    {
+      "path": "outputs/pool-001-configs.jsonl",
+      "size": 7060,
+      "sha256": "f2c9406481714ab6f40f1e502f8d60c91644123bf25dec5b583c9af6d20df84d"
+    },
+    {
+      "path": "outputs/pool-001-events.jsonl",
+      "size": 166272,
+      "sha256": "220787e393d69ff7bfbb0b7fde5dbf41343bfcfed20bdd9a79f4680105175c78"
+    },
+    {
+      "path": "outputs/pool-001-jobs.jsonl",
+      "size": 324201,
+      "sha256": "e26849b8c8f1c2d1026cb24b818df722c9b6fc0ec5ac382a42955123f26747f4"
+    },
+    {
+      "path": "outputs/pool-plans.jsonl",
+      "size": 137399,
+      "sha256": "ab0098af4f7db0545f620071bfb4dbd13015268ef06fb64ead439570f17574d5"
+    },
+    {
+      "path": "outputs/pool-summary.jsonl",
+      "size": 109,
+      "sha256": "e6031d4519d71962de649fcb6eaee029de771dba94c69aa16b1d519a966ddc9f"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/selection_episodes.jsonl",
+      "size": 249058,
+      "sha256": "2ff72471530d9f1cad8cce70784e1c5ed24bf8d9e3d86af8081faf1df08657ae"
+    },
+    {
+      "path": "outputs/stage_audit.json",
+      "size": 274,
+      "sha256": "f2624ca46e47f2360d5ad4b8292f1d03fca5e0a5678a7c646eddfbcd54924446"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 3779,
+      "sha256": "aa321b635df3c655b6edb33060e12a352d7780681b7808ce0e70adec99eaa753"
+    }
+  ]
+}

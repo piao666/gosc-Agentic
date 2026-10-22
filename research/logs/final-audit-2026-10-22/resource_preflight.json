@@ -1,0 +1,1 @@
+{"uid": 8301880, "python": "Python 3.11.15", "limits": {"quota": "200000", "period": "100000", "cpuset": "0-1", "memory": "25769803776"}, "isolated_envs": [".local/diagnostic-numpy-2.2.6/pyvenv.cfg", ".local/diagnostic-numpy-1.26.4/pyvenv.cfg"]}

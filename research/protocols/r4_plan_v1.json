@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "status": "planned_not_executed",
+  "head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "execution_target": "hpc",
+  "python": "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+  "dependency_lock": "research/reproduction/requirements-linux.lock.txt",
+  "pilot": {
+    "id": "R4-A0",
+    "purpose": "workflow_and_cost_only_not_main_inference",
+    "seeds": [
+      9000,
+      9001,
+      9002,
+      9003,
+      9004,
+      9005,
+      9006,
+      9007,
+      9008,
+      9009
+    ],
+    "workers_max": 2,
+    "thread_limit": 2,
+    "per_episode_timeout_seconds": 120,
+    "campaign_budget_seconds": 1200,
+    "planned_missions": 60,
+    "settings": [
+      {
+        "name": "search-W100",
+        "base_config": {},
+        "arms": [
+          {
+            "scheme": "gosc",
+            "overrides": {
+              "energy_price": 1e-05
+            }
+          },
+          {
+            "scheme": "sem_raf",
+            "overrides": {
+              "sem_interval": 4,
+              "filter_eps": 0.02
+            }
+          },
+          {
+            "scheme": "genie",
+            "overrides": {}
+          }
+        ]
+      },
+      {
+        "name": "rescue-W100",
+        "base_config": {
+          "task": "rescue",
+          "deadline_min": 60,
+          "deadline_max": 180
+        },
+        "arms": [
+          {
+            "scheme": "gosc",
+            "overrides": {
+              "energy_price": 0.0001
+            }
+          },
+          {
+            "scheme": "sem_ras",
+            "overrides": {
+              "sem_interval": 2,
+              "filter_eps": 1.0
+            }
+          },
+          {
+            "scheme": "genie",
+            "overrides": {}
+          }
+        ]
+      }
+    ]
+  },
+  "seed_roles": {
+    "author_calibration": [
+      1000,
+      1079
+    ],
+    "author_selection": [
+      0,
+      99
+    ],
+    "author_frozen_validation": [
+      3000,
+      3099
+    ],
+    "pilot_management": [
+      9000,
+      9009
+    ],
+    "proposed_future_new_method_test_reserved_not_used": [
+      4000,
+      4099
+    ]
+  },
+  "full_strict": {
+    "status": "not_run",
+    "settings": 6,
+    "seeds": [
+      3000,
+      3099
+    ],
+    "main_arms": [
+      "gosc",
+      "frozen_best_periodic"
+    ],
+    "main_missions": 1200,
+    "optional_genie_context_missions": 600,
+    "search_periodic_candidate_coverage": 37,
+    "rescue_periodic_candidate_coverage": 38,
+    "targets": "author frozen targets; never refit on fresh seeds"
+  },
+  "candidate_sensitivity": {
+    "status": "not_run",
+    "label": "38_candidates_separate_from_strict",
+    "additional_search_candidate": {
+      "scheme": "sem_ra",
+      "sem_interval": 16
+    }
+  },
+  "analysis": {
+    "headlines_bootstrap_resamples": 4000,
+    "matched_budget_bootstrap_resamples": 10000,
+    "analysis_seed": 0,
+    "paired": true,
+    "matched_radio_budgets": [
+      5000,
+      10000,
+      20000
+    ],
+    "simple_value_bonferroni_family": 15
+  },
+  "runner_status": "pilot executor not implemented; r4_preflight.py is inventory only",
+  "forbidden_automatic_actions": [
+    "full_campaign",
+    "training",
+    "live_llm",
+    "model_download",
+    "paid_api",
+    "overwrite_original_results"
+  ],
+  "provenance": "paper/code map, exact PDF table XIII, hpc-r4-preflight-20261019; see protocol for evidence limitations"
+}

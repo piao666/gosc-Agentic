@@ -1,0 +1,10 @@
+{
+  "run_id": "infra-ledger-ok-20261019T065522Z",
+  "files": [
+    {
+      "path": "outputs/probe.json",
+      "size": 58,
+      "sha256": "a1db81510f79d49f08525e29400c1d7bd3b55e614493e12bc3580597c4798e1f"
+    }
+  ]
+}

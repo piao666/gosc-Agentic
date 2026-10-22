@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-ordered-queue-20261019",
+  "status": "failed",
+  "started_at": "2026-10-19T10:36:15.888633+00:00",
+  "finished_at": "2026-10-19T12:17:42.073679+00:00",
+  "exit_code": 1,
+  "pid": 27762,
+  "elapsed_seconds": 6086.185073,
+  "resource_usage": {
+    "child_max_rss_kib": 162436,
+    "child_cpu_user_seconds": 11938.016907,
+    "child_cpu_system_seconds": 68.267132,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

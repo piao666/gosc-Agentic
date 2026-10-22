@@ -1,0 +1,124 @@
+{
+  "prepared_at_utc": "2026-10-22T08:05:11.683158+00:00",
+  "status": "source_documents_and_registered_outputs_verified",
+  "project_root": "E:/gosc",
+  "hpc_project_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "source_receipt": {
+    "status": "verified",
+    "remote_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+    "file_count": 332,
+    "changed_count": 15,
+    "sha256_mismatches": [],
+    "sync_id": "20261022T080159Z",
+    "remote_only_files": "preserved",
+    "text_line_endings": "LF"
+  },
+  "source_manifest_sha256": "2f4347fc3bc7d415966545d65565d1b65dfb7109b08a3b9bc9ea57cd9be01423",
+  "run_output_receipt": "research/sync/receipts/20261022T080403Z-c74bbc.json",
+  "run_output_receipt_sha256": "97ada55d47a8cc70b3420986b0b9d9d650fb071775881ce407406fdd767956de",
+  "run_output_file_count": 1420,
+  "all_registered_outputs_mirrored": true,
+  "active_run_ids": [],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "source_sha256": "efdbff4233a5e122afb812d48c1a4e8c3c67bacc3e7be87d11a9e910a406b2c6",
+      "remote_sha256": "efdbff4233a5e122afb812d48c1a4e8c3c67bacc3e7be87d11a9e910a406b2c6",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/ideas/RQ_v1.md",
+      "source_sha256": "1749bf258b67844eb837d8f3071bfab59afb788accdc5a92c7dab8dd203294b9",
+      "remote_sha256": "1749bf258b67844eb837d8f3071bfab59afb788accdc5a92c7dab8dd203294b9",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/ideas/RQ_v2.md",
+      "source_sha256": "f42ee1d3ff668bb926a9dc54a63319a1233265991caf171213f4e181db74147b",
+      "remote_sha256": "f42ee1d3ff668bb926a9dc54a63319a1233265991caf171213f4e181db74147b",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/ideas/reviewer_objections.md",
+      "source_sha256": "0c806fceac5398dc5ac63677a0c7e4458538d3e3ad1c2e7e12d4424358490c17",
+      "remote_sha256": "0c806fceac5398dc5ac63677a0c7e4458538d3e3ad1c2e7e12d4424358490c17",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/ideas/reviewer_objections_2026-10-22.md",
+      "source_sha256": "6996adf9fe6f150a493c4069180a568c3f9eba3229de9deb16843056b76f9661",
+      "remote_sha256": "6996adf9fe6f150a493c4069180a568c3f9eba3229de9deb16843056b76f9661",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/literature/Research-Gap-Matrix-2026-10-22.md",
+      "source_sha256": "62dec7c5153f51e624fdf3ffa49b869abaa7e1fbf1067b786edf95591e30cedf",
+      "remote_sha256": "62dec7c5153f51e624fdf3ffa49b869abaa7e1fbf1067b786edf95591e30cedf",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/literature/Research-Gap-Matrix.md",
+      "source_sha256": "c8e9c980197fec029e55974264d8a96324b207c3c55fbd73c3584f628118234c",
+      "remote_sha256": "c8e9c980197fec029e55974264d8a96324b207c3c55fbd73c3584f628118234c",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/literature/official_material_audit_2026-10-22.md",
+      "source_sha256": "942d8b6472577af901360584c3b04a65d38314ab0329c94eae82fdd835cbe256",
+      "remote_sha256": "942d8b6472577af901360584c3b04a65d38314ab0329c94eae82fdd835cbe256",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/literature/reading_review_2026-10-22.md",
+      "source_sha256": "e7b3e402c9a0648ec0cca0aceeac698d52943899d2cf5862edd62470fecf9893",
+      "remote_sha256": "e7b3e402c9a0648ec0cca0aceeac698d52943899d2cf5862edd62470fecf9893",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/logs/acceptance-pilot-2026-10-22/visual_review.json",
+      "source_sha256": "95ab4e6a163b7b728beb53056ed7e1bb1d8beae28644c0b5166d6645e356d50f",
+      "remote_sha256": "95ab4e6a163b7b728beb53056ed7e1bb1d8beae28644c0b5166d6645e356d50f",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/reports/acceptance_and_pilot_progress_2026-10-22.md",
+      "source_sha256": "a6678e0d08f3a93f939ab2f8436f3455b151a6dab2210ece25d0943d12c0d9d7",
+      "remote_sha256": "a6678e0d08f3a93f939ab2f8436f3455b151a6dab2210ece25d0943d12c0d9d7",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/reports/claim_acceptance_matrix_2026-10-22.md",
+      "source_sha256": "5de13d36fd90221196066c3b68b87b2c4cc60c3d0cfd7635db175937b6db15fa",
+      "remote_sha256": "5de13d36fd90221196066c3b68b87b2c4cc60c3d0cfd7635db175937b6db15fa",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/reports/receiver_headroom_pilot_2026-10-22.md",
+      "source_sha256": "e9294cc5ac3913a44aea4d2f0e4f1a878ed907fc772eb48d35331bbec6152a7f",
+      "remote_sha256": "e9294cc5ac3913a44aea4d2f0e4f1a878ed907fc772eb48d35331bbec6152a7f",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/sync/plans/next_steps.md",
+      "source_sha256": "2c9dd5dc52136dfb75694815310df7bb313a633ca9c91c32848e086153ec6b65",
+      "remote_sha256": "2c9dd5dc52136dfb75694815310df7bb313a633ca9c91c32848e086153ec6b65",
+      "normalized_lf": false
+    },
+    {
+      "path": "research/sync/project_status.json",
+      "source_sha256": "9ef3ff1a40d0c0995e9920665c4568c33a4475d5635cf1f1a5b803d6c6cb12eb",
+      "remote_sha256": "9ef3ff1a40d0c0995e9920665c4568c33a4475d5635cf1f1a5b803d6c6cb12eb",
+      "normalized_lf": false
+    }
+  ],
+  "frozen_sources_local_after_lf_normalization": "all18 unchanged",
+  "training": "not_started; complex-training No-Go",
+  "full_historical_reproduction": "partial; calibration/cache/seed differences retained",
+  "scientific_report": "research/reports/receiver_headroom_pilot_2026-10-22.md",
+  "progress_report": "research/reports/acceptance_and_pilot_progress_2026-10-22.md",
+  "local_previous_document_backups": "E:\\Papers\\gosc-delivery-2026-10-22\\previous-documents",
+  "approval_service": "Repeated timeouts resolved by explicit user approval and bounded retries; no blocked changes remain in the15-document update",
+  "local_hash_check_note": "Initial raw-byte comparison toHPC failed due toCRLF; all18 LF-normalized source hashes match. No source was edited to resolve it.",
+  "delivery_record_scope": "Separate lightweight administrative attestation after source sync; not part of the332-file source snapshot or a scientific run"
+}

@@ -1,0 +1,20 @@
+{
+  "run_id": "hpc-rescue-display-20261022",
+  "files": [
+    {
+      "path": "outputs/fig_rescue_display.pdf",
+      "size": 39699,
+      "sha256": "c78b98338f6a9f2b3f688757dbf0a59e53f44a828ae9afcf75d42342dabc2575"
+    },
+    {
+      "path": "outputs/fig_rescue_display.png",
+      "size": 104359,
+      "sha256": "d8e48b2653d7d9abcdff3889e09c5de3f1cb86a3fbb655bbe5e977f3d9507a27"
+    },
+    {
+      "path": "outputs/layout_provenance.json",
+      "size": 606,
+      "sha256": "99386775636e3995020a82db6a1a672371bd1cc234252a9ea49ff25877216b9e"
+    }
+  ]
+}

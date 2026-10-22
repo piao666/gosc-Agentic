@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "status": "preregistered_before_queue_execution",
+  "source_head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "verified_paper_upstream_head": "387b49389385b51c275dc5a22ec1672087edda1d",
+  "upstream_url": "https://github.com/frezazadeh/gosc-agentic-teams",
+  "authorization": "User2026-10-19 requested all remaining reproduction in order; confirmed original source repository is sole calibration-material source",
+  "stages": [
+    "selection",
+    "selection-fresh",
+    "c-frontier",
+    "c-where",
+    "c-belief",
+    "c-analysis",
+    "radio-noise",
+    "radio-overhead",
+    "radio-shared",
+    "radio-fresh",
+    "main-sweeps",
+    "revision-rest",
+    "joint",
+    "scheduler",
+    "theory",
+    "value-fidelity",
+    "fidelity-analysis",
+    "cached-llm",
+    "live-llm",
+    "sensitivity",
+    "sensitivity-fresh",
+    "genie-fresh",
+    "final-replot"
+  ],
+  "stage_specs": [
+    {
+      "name": "selection",
+      "module": "repro_selection",
+      "args": [
+        "--mode",
+        "select"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 21600
+    },
+    {
+      "name": "selection-fresh",
+      "module": "repro_selection",
+      "args": [
+        "--mode",
+        "fresh"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 3600
+    },
+    {
+      "name": "c-frontier",
+      "module": "experiments.run_revision",
+      "args": [
+        "--only",
+        "frontier",
+        "--seeds",
+        "100",
+        "--workers",
+        "2"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 21600
+    },
+    {
+      "name": "c-where",
+      "module": "experiments.run_revision",
+      "args": [
+        "--only",
+        "where_tom",
+        "--seeds",
+        "100",
+        "--workers",
+        "2"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 21600
+    },
+    {
+      "name": "c-belief",
+      "module": "experiments.run_belief_divergence",
+      "args": [
+        "--seeds",
+        "100",
+        "--workers",
+        "2"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 10800
+    },
+    {
+      "name": "c-analysis",
+      "module": "repro_extra",
+      "args": [
+        "--mode",
+        "matched"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 3600
+    },
+    {
+      "name": "radio-noise",
+      "module": "experiments.run_realistic",
+      "args": [
+        "--only",
+        "noise",
+        "--seeds",
+        "100",
+        "--workers",
+        "2"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 43200
+    },
+    {
+      "name": "radio-overhead",
+      "module": "experiments.run_realistic",
+      "args": [
+        "--only",
+        "overhead",
+        "--seeds",
+        "100",
+        "--workers",
+        "2"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 86400
+    },
+    {
+      "name": "radio-shared",
+      "module": "experiments.run_realistic",
+      "args": [
+        "--only",
+        "shared",
+        "--seeds",
+        "100",
+        "--workers",
+        "2"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 43200
+    },
+    {
+      "name": "radio-fresh",
+      "module": "experiments.validate_realistic",
+      "args": [
+        "--only",
+        "noise",
+        "overhead",
+        "shared",
+        "--workers",
+        "2"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 21600
+    },
+    {
+      "name": "main-sweeps",
+      "module": "experiments.run_all",
+      "args": [
+        "--seeds",
+        "100",
+        "--workers",
+        "2"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 21600
+    },
+    {
+      "name": "revision-rest",
+      "module": "experiments.run_revision",
+      "args": [
+        "--only",
+        "ablation",
+        "private",
+        "downlink",
+        "fbl",
+        "rescue",
+        "filtered_periodic",
+        "suppress_periodic",
+        "genie_ref",
+        "rate_aware",
+        "--seeds",
+        "100",
+        "--workers",
+        "2"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 43200
+    },
+    {
+      "name": "joint",
+      "module": "experiments.run_joint",
+      "args": [
+        "--seeds",
+        "100"
+      ],
+      "original_job_timeout_seconds": 1800,
+      "stage_cap_seconds": 21600
+    },
+    {
+      "name": "scheduler",
+      "module": "experiments.analyze_scheduler",
+      "args": [
+        "--seeds",
+        "30"
+      ],
+      "original_job_timeout_seconds": 1800,
+      "stage_cap_seconds": 14400
+    },
+    {
+      "name": "theory",
+      "module": "experiments.analyze_theory",
+      "args": [
+        "--seeds",
+        "30",
+        "--workers",
+        "2"
+      ],
+      "original_job_timeout_seconds": 1800,
+      "stage_cap_seconds": 14400
+    },
+    {
+      "name": "value-fidelity",
+      "module": "experiments.diagnose_value",
+      "args": [
+        "--missions",
+        "20",
+        "--every",
+        "8",
+        "--reps",
+        "12",
+        "--first_seed",
+        "2000"
+      ],
+      "original_job_timeout_seconds": 1800,
+      "stage_cap_seconds": 21600
+    },
+    {
+      "name": "fidelity-analysis",
+      "module": "experiments.analyze_fidelity",
+      "args": [],
+      "original_job_timeout_seconds": 1800,
+      "stage_cap_seconds": 3600
+    },
+    {
+      "name": "cached-llm",
+      "module": "repro_extra",
+      "args": [
+        "--mode",
+        "cached"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 10800
+    },
+    {
+      "name": "live-llm",
+      "module": "repro_extra",
+      "args": [
+        "--mode",
+        "live"
+      ],
+      "original_job_timeout_seconds": 1800,
+      "stage_cap_seconds": 86400
+    },
+    {
+      "name": "sensitivity",
+      "module": "repro_selection",
+      "args": [
+        "--mode",
+        "sensitivity"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 10800
+    },
+    {
+      "name": "sensitivity-fresh",
+      "module": "repro_selection",
+      "args": [
+        "--mode",
+        "sensitivity-fresh"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 3600
+    },
+    {
+      "name": "genie-fresh",
+      "module": "repro_selection",
+      "args": [
+        "--mode",
+        "genie"
+      ],
+      "original_job_timeout_seconds": 120,
+      "stage_cap_seconds": 3600
+    },
+    {
+      "name": "final-replot",
+      "module": "repro_extra",
+      "args": [
+        "--mode",
+        "replot"
+      ],
+      "original_job_timeout_seconds": 1800,
+      "stage_cap_seconds": 7200
+    }
+  ],
+  "workers": 2,
+  "numeric_threads": 1,
+  "global_timeout_seconds": 259200,
+  "selection_seeds": [
+    0,
+    99
+  ],
+  "calibration_declared_but_unavailable": [
+    1000,
+    1079
+  ],
+  "fresh_seeds": [
+    3000,
+    3099
+  ],
+  "diagnostic_seeds": [
+    2000,
+    2019
+  ],
+  "selection_missions": 26700,
+  "realistic_grid_missions": 124400,
+  "calibration_status": "upstream_current_commit_has_no_executable_procedure/search_record; do not invent",
+  "runtime_constraints": "2CPU24GiB; explicit phase caps are safety ceilings, not predicted costs. Legacy7-worker6.5h realistic reference is not a measurement on this HPC. Actual queue cost projections use completed job timings.",
+  "cache_mode": "Published cache-only replay forbids HTTP; live uses separate empty run cache and requires working service/model names",
+  "source_protection": [
+    "gosc",
+    "experiments",
+    "tests",
+    "results",
+    "LICENSE"
+  ],
+  "science_workspace": ".local/ordered-reproduction-20261019",
+  "no_new_method_training": true,
+  "no_paid_api": true,
+  "no_original_result_overwrite": true,
+  "on_failure": "stop dependent stages; cached/live missing assets remain explicit failures and independent sensitivity stages may proceed",
+  "sensitivity_track": "38 search candidates separate from strict37; optional600 Genie last",
+  "output_sync": "All stages registered with hpc_runs; immutable finished-stage results and receipts mirrored separately; in-progress output not called complete"
+}

@@ -1,0 +1,302 @@
+{
+  "role": "Existing closed HPC outputs, read-only excerpt; no new run",
+  "source_trace_summary": "research/sync/runs/hpc-c-resume-20261020/outputs/trace_divergence.json",
+  "case": {
+    "source": "c-frontier",
+    "scheme": "gosc_bits",
+    "param": "W100/eta0.0",
+    "seed": 0,
+    "variant": "default-repeat1",
+    "numpy": "2.4.6",
+    "disabled_cpu_features": null,
+    "world_sha256": "9c53aea57f1cdd78e2ea18508322e0ef4e8ff05802225968ac99c154310c77fe",
+    "result": {
+      "completion_time": 76,
+      "completed": true,
+      "found": 8,
+      "bits": 22201,
+      "symbols": 29565,
+      "delivered_bits": 11860,
+      "dl_symbols": 5970,
+      "false_declarations": 0,
+      "confirm_latency": 0.0
+    },
+    "different_from_current": [],
+    "different_from_published": [
+      "completion_time",
+      "symbols",
+      "bits",
+      "delivered_bits",
+      "dl_symbols",
+      "confirm_latency"
+    ],
+    "trace_sha256": "3afc69220e29e16480444b62e46f1efeb143bb67966000a3120a3b262b5c9344",
+    "trace_decisions": 456,
+    "wall_s": 0.20019204914569855
+  },
+  "first_scalar_exp_choice_difference": {
+    "variant": "scalar-exp",
+    "case_index": 0,
+    "current_decisions": 456,
+    "variant_decisions": 456,
+    "first_choice_difference": {
+      "decision_index": 243,
+      "current_choice": [
+        [
+          1,
+          1.0,
+          99,
+          99,
+          4
+        ]
+      ],
+      "variant_choice": [
+        [
+          0,
+          0.25,
+          18,
+          72,
+          0
+        ]
+      ],
+      "same_options_except_values": true,
+      "current_options": [
+        [
+          {
+            "rate": 0.25,
+            "bits": 18,
+            "symbols": 72,
+            "value_hex": "0x1.d6ad66cc8f30ap+3",
+            "n_records": 0
+          },
+          {
+            "rate": 0.5,
+            "bits": 18,
+            "symbols": 36,
+            "value_hex": "0x1.7231f9e424f02p+3",
+            "n_records": 0
+          },
+          {
+            "rate": 1.0,
+            "bits": 18,
+            "symbols": 18,
+            "value_hex": "0x1.8c39fed9fd617p+2",
+            "n_records": 0
+          },
+          {
+            "rate": 1.5,
+            "bits": 18,
+            "symbols": 12,
+            "value_hex": "0x1.4755541b44e0dp+1",
+            "n_records": 0
+          },
+          {
+            "rate": 2.0,
+            "bits": 18,
+            "symbols": 9,
+            "value_hex": "0x1.76fc90d5c2b34p-1",
+            "n_records": 0
+          },
+          {
+            "rate": 3.0,
+            "bits": 18,
+            "symbols": 6,
+            "value_hex": "0x1.4fdc82ef0d8a3p-7",
+            "n_records": 0
+          },
+          {
+            "rate": 4.0,
+            "bits": 18,
+            "symbols": 5,
+            "value_hex": "0x1.0d6e84d14dbe3p-19",
+            "n_records": 0
+          },
+          {
+            "rate": 5.0,
+            "bits": 18,
+            "symbols": 4,
+            "value_hex": "0x1.5ac81595f76aep-44",
+            "n_records": 0
+          },
+          {
+            "rate": 6.0,
+            "bits": 18,
+            "symbols": 3,
+            "value_hex": "0x1.1f3cb710ec4f3p-93",
+            "n_records": 0
+          }
+        ],
+        [
+          {
+            "rate": 1.0,
+            "bits": 99,
+            "symbols": 99,
+            "value_hex": "0x1.1067df35de330p+5",
+            "n_records": 4
+          },
+          {
+            "rate": 1.5,
+            "bits": 99,
+            "symbols": 66,
+            "value_hex": "0x1.c21553a57eb52p+3",
+            "n_records": 4
+          },
+          {
+            "rate": 2.0,
+            "bits": 171,
+            "symbols": 86,
+            "value_hex": "0x1.bd4bebfdd734ep+2",
+            "n_records": 6
+          },
+          {
+            "rate": 3.0,
+            "bits": 171,
+            "symbols": 57,
+            "value_hex": "0x1.8ed5db7be0141p-4",
+            "n_records": 6
+          },
+          {
+            "rate": 4.0,
+            "bits": 171,
+            "symbols": 43,
+            "value_hex": "0x1.3ff33db88c51ep-16",
+            "n_records": 6
+          },
+          {
+            "rate": 5.0,
+            "bits": 171,
+            "symbols": 35,
+            "value_hex": "0x1.9bcd99a215cefp-41",
+            "n_records": 6
+          },
+          {
+            "rate": 6.0,
+            "bits": 171,
+            "symbols": 29,
+            "value_hex": "0x1.55181964189e1p-90",
+            "n_records": 6
+          }
+        ]
+      ],
+      "variant_options": [
+        [
+          {
+            "rate": 0.25,
+            "bits": 18,
+            "symbols": 72,
+            "value_hex": "0x1.d6ad66cc8f30ap+3",
+            "n_records": 0
+          },
+          {
+            "rate": 0.5,
+            "bits": 18,
+            "symbols": 36,
+            "value_hex": "0x1.7231f9e424f02p+3",
+            "n_records": 0
+          },
+          {
+            "rate": 1.0,
+            "bits": 18,
+            "symbols": 18,
+            "value_hex": "0x1.8c39fed9fd618p+2",
+            "n_records": 0
+          },
+          {
+            "rate": 1.5,
+            "bits": 18,
+            "symbols": 12,
+            "value_hex": "0x1.4755541b44e0dp+1",
+            "n_records": 0
+          },
+          {
+            "rate": 2.0,
+            "bits": 18,
+            "symbols": 9,
+            "value_hex": "0x1.76fc90d5c2b34p-1",
+            "n_records": 0
+          },
+          {
+            "rate": 3.0,
+            "bits": 18,
+            "symbols": 6,
+            "value_hex": "0x1.4fdc82ef0d8a3p-7",
+            "n_records": 0
+          },
+          {
+            "rate": 4.0,
+            "bits": 18,
+            "symbols": 5,
+            "value_hex": "0x1.0d6e84d14dbe3p-19",
+            "n_records": 0
+          },
+          {
+            "rate": 5.0,
+            "bits": 18,
+            "symbols": 4,
+            "value_hex": "0x1.5ac81595f76aep-44",
+            "n_records": 0
+          },
+          {
+            "rate": 6.0,
+            "bits": 18,
+            "symbols": 3,
+            "value_hex": "0x1.1f3cb710ec4f3p-93",
+            "n_records": 0
+          }
+        ],
+        [
+          {
+            "rate": 1.0,
+            "bits": 99,
+            "symbols": 99,
+            "value_hex": "0x1.1067df35de330p+5",
+            "n_records": 4
+          },
+          {
+            "rate": 1.5,
+            "bits": 99,
+            "symbols": 66,
+            "value_hex": "0x1.c21553a57eb52p+3",
+            "n_records": 4
+          },
+          {
+            "rate": 2.0,
+            "bits": 171,
+            "symbols": 86,
+            "value_hex": "0x1.bd4bebfdd734ep+2",
+            "n_records": 6
+          },
+          {
+            "rate": 3.0,
+            "bits": 171,
+            "symbols": 57,
+            "value_hex": "0x1.8ed5db7be0141p-4",
+            "n_records": 6
+          },
+          {
+            "rate": 4.0,
+            "bits": 171,
+            "symbols": 43,
+            "value_hex": "0x1.3ff33db88c51ep-16",
+            "n_records": 6
+          },
+          {
+            "rate": 5.0,
+            "bits": 171,
+            "symbols": 35,
+            "value_hex": "0x1.9bcd99a215cefp-41",
+            "n_records": 6
+          },
+          {
+            "rate": 6.0,
+            "bits": 171,
+            "symbols": 29,
+            "value_hex": "0x1.55181964189e1p-90",
+            "n_records": 6
+          }
+        ]
+      ]
+    }
+  },
+  "historical_reference_source": "prior_branch/experiment_manifest.json and public results/rev_frontier.json; author seed0=83slots"
+}

@@ -1,0 +1,114 @@
+{
+  "review": "17 native PDFs via contact sheets and enlarged views; baseline physical pages2,4,7,8,9,10,11,12 reviewed",
+  "figures": [
+    {
+      "file": "fig_agents.pdf",
+      "sha256": "d89e6cc257e4e7b2e3a55bcb85bce06eb269f7364d71a334bdc61ba2e0f3c4bf",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_budget.pdf",
+      "sha256": "ad1e5e75801b1cfea21a61d81b02de56df7c0d6da51804e72034d68c8fc64df5",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_curve.pdf",
+      "sha256": "01e1aa3e09644f1353cd44b7a83579ac9fe6b25e92467176606f75ad89f73159",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_downlink.pdf",
+      "sha256": "3b62f214a2dbb5f8c3a0fc455236a64eb0266838a70171e7e556c92eed908898",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_efficiency.pdf",
+      "sha256": "3cda9bf9f4f748728f9caca5f5e2976ce13065c52914f3635526df1bd658045f",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_fbl.pdf",
+      "sha256": "e9fb4a5e03f85b6af0e5f97177056a88b4140a77f8682c4ead8eb738743f1c23",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_frontier.pdf",
+      "sha256": "ffe1d0863143c161c268cb452ceb5aaaba5ca1940da523d5dc505a982ecea71c",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_noise.pdf",
+      "sha256": "540f902a2dfc535cd91ae00773b9fc9fa7eaa373f84e5b88db2d92bce8b76f7b",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_pareto.pdf",
+      "sha256": "2a5702cfb20cdf5d7645f6ab4b531e1dc3077de2143cc2eb85a1597de37072c7",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_rescue.pdf",
+      "sha256": "471b4f90d564d4f2cf8a0efcfa129082d1a5033aa1dd82791899b446b9f05193",
+      "visual_status": "minor_tick_label_overlap_requires_display_derivative",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_shared.pdf",
+      "sha256": "70ae9d583160d55551dd2788dbf17742e529bb210f669f8b3580c45f0471ff96",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_shared_col.pdf",
+      "sha256": "d9ef8df8c339ba0b278450276c00b4f2deb3faa9a24502489ac9d93dc2ab684c",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_snr.pdf",
+      "sha256": "e89502a033c54630c5d8a6161468e54baf8971d6edee31cb5a1c24ff956fa2f9",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_snr_pair.pdf",
+      "sha256": "ea11446dbd7ed8f0f6ed17aa0cf0a3d638b5f952d2293212ee2e087a969e5e35",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_snr_sym.pdf",
+      "sha256": "9b3f30be7467edd1590b57b955fda7756c7487c040041a4df7ebab3ede097445",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_traj.pdf",
+      "sha256": "304a750e3edb27f32d677ca0579736ec81ab000bccc720b933234997bc8cb570",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    },
+    {
+      "file": "fig_where_tom.pdf",
+      "sha256": "d6f1db16f41ab1698c4a088345ada712e38888d97ed766ef21d1fa79f639cf3e",
+      "visual_status": "reviewed_legible",
+      "local_preview_only": true
+    }
+  ],
+  "paper_original_unchanged": true,
+  "display_derivative": {
+    "run": "hpc-rescue-display-20261022",
+    "status": "visually_reviewed_legible",
+    "curve_xy_unchanged": true,
+    "original_preserved": true
+  }
+}

@@ -1,0 +1,1 @@
+{"queue_status": "running", "active": [{"stage": "selection", "status": "running", "run_id": "ordered-selection-20261019", "started_at": 1792406176.0527537, "updated_at": 1792406344.3786602, "progress": {"pool": 1, "planned": 26700, "completed": 1225, "elapsed_seconds": 167.14156465232372, "workers": 2}}], "completed": [], "failed": []}

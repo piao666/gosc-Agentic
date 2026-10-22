@@ -1,0 +1,20 @@
+{
+  "run_id": "hpc-remaining-inventory-20261019",
+  "files": [
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/remaining_inventory.json",
+      "size": 2546,
+      "sha256": "e13b49a8c271684045f43e22c68832337c9d2a977cca8775f13abdbea52205d1"
+    },
+    {
+      "path": "outputs/selection_catalog.json",
+      "size": 2727609,
+      "sha256": "f682e5af71ce0c3f0cd38fb1d6d305ec0b13f314f1ae13f7dc220a58817b7951"
+    }
+  ]
+}

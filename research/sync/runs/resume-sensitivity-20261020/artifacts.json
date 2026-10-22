@@ -1,0 +1,95 @@
+{
+  "run_id": "resume-sensitivity-20261020",
+  "files": [
+    {
+      "path": "outputs/active_pool.json",
+      "size": 97,
+      "sha256": "eb9ce2a7847c0e2ba8d0f3309132e8e2f225779e8eb1a6db537fb9b98749d3b9"
+    },
+    {
+      "path": "outputs/candidate_configs.json",
+      "size": 5567,
+      "sha256": "c87f92f45ced212b352d186885733738e581df72e1bebf47922b944ad1771b81"
+    },
+    {
+      "path": "outputs/candidate_summary.json",
+      "size": 62518,
+      "sha256": "89cdb27f8cf9380b703384c3aeb3ed376290fe49c4d691f9be2211298a0834a8"
+    },
+    {
+      "path": "outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338"
+    },
+    {
+      "path": "outputs/frozen_selection.json",
+      "size": 23318,
+      "sha256": "8c71ef244502456ec4df02f042eb5c30e907089268fc78b7f555ec52bd27d5f3"
+    },
+    {
+      "path": "outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "outputs/legacy_outputs.json",
+      "size": 210,
+      "sha256": "c47683b78b477b43ea2f7ed19b18708a624ec106fcc7f0b3ab82953a783659ae"
+    },
+    {
+      "path": "outputs/legacy_results/sensitivity_selection.json",
+      "size": 23318,
+      "sha256": "8c71ef244502456ec4df02f042eb5c30e907089268fc78b7f555ec52bd27d5f3"
+    },
+    {
+      "path": "outputs/original_comparison.json",
+      "size": 229,
+      "sha256": "27733cdea0966438dc46f415a14d96c1deca0f81b04e40ce49038a64a2e76ca0"
+    },
+    {
+      "path": "outputs/pool-001-configs.jsonl",
+      "size": 3537,
+      "sha256": "d2efdbc04adcd945ba82b4572436b369e7c990ff207f8829a06ed91684abca79"
+    },
+    {
+      "path": "outputs/pool-001-events.jsonl",
+      "size": 83011,
+      "sha256": "702da1a473b3a2ef6190f68f8f6716ccbc75a62b779b610c0f7d20fd157837ad"
+    },
+    {
+      "path": "outputs/pool-001-jobs.jsonl",
+      "size": 155212,
+      "sha256": "000d81f044678f5a172048b8f7f45eb1ce9a8fb68914663778c5c470f4ce0f8f"
+    },
+    {
+      "path": "outputs/pool-plans.jsonl",
+      "size": 66869,
+      "sha256": "674f77a76456f6b91a600620d99791ed5676c7ad9a565f024b8aafdaca661b2f"
+    },
+    {
+      "path": "outputs/pool-summary.jsonl",
+      "size": 109,
+      "sha256": "fb26a48c18e96117a00c2b876395e2038b62795a09d399c406ff2db526d11f84"
+    },
+    {
+      "path": "outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44"
+    },
+    {
+      "path": "outputs/selection_episodes.jsonl",
+      "size": 116846,
+      "sha256": "7f1e60cc9253a31b0ac411f01c91693834601f6e02ff1dbbf952b04576f36613"
+    },
+    {
+      "path": "outputs/stage_audit.json",
+      "size": 274,
+      "sha256": "18120c965fdfb0fbe82a6462d682da4aff74ae8380d376ab63a14b49a80525f3"
+    },
+    {
+      "path": "outputs/stage_plan.json",
+      "size": 3684,
+      "sha256": "1f2bdae9b398f26e56ea1f1a0425c0beee0ef65d2c91f6ffdb5d280ca1ded3f5"
+    }
+  ]
+}

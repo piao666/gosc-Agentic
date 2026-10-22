@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-summary-cost-tests-20261022",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 2365,
+      "sha256": "db444331ad56251b1a6a6652105e24945bdaf12918814daaca84d384d24d756a"
+    }
+  ]
+}

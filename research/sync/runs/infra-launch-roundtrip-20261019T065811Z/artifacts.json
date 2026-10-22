@@ -1,0 +1,10 @@
+{
+  "run_id": "infra-launch-roundtrip-20261019T065811Z",
+  "files": [
+    {
+      "path": "outputs/roundtrip.json",
+      "size": 118,
+      "sha256": "260dc18eda660e8cd82cae2916f83eb9e2c050911adfc2836dad31541bc33f47"
+    }
+  ]
+}

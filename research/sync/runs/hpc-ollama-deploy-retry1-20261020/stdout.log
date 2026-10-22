@@ -1,0 +1,104 @@
+HPC official archive hash verified
+Deployment action: install
+{"version_command": "Warning: could not connect to a running Ollama instance\nWarning: client version is 0.11.11\n", "prefix": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/ollama/runtime/0.11.11", "binary": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/ollama/runtime/0.11.11/bin/ollama", "wrapper": "/home/u202520081000097/.local/bin/ollama", "models": "/home/u202520081000097/jupyterlab/models/ollama-gosc", "resources": {"cpu_quota": "200000", "cpu_period": "100000", "cpuset": "0-1", "memory_bytes": "25769803776", "gpu_settings": {"CUDA_DEVICE_MEMORY_LIMIT": "34304m", "CUDA_DEVICE_SM_LIMIT": "75"}}, "glibc": "glibc 2.27", "platform": "Linux-5.4.0-100-generic-x86_64-with-glibc2.27", "service": {"pid": 8964, "reused": false, "version": {"version": "0.11.11"}}}
+Deployment action: prepare
+qwen2.5:3b pulling manifest 0 %
+qwen2.5:3b pulling 5ee4f07cdb9b 0 %
+qwen2.5:3b pulling 5ee4f07cdb9b 5 %
+qwen2.5:3b pulling 5ee4f07cdb9b 10 %
+qwen2.5:3b pulling 5ee4f07cdb9b 15 %
+qwen2.5:3b pulling 5ee4f07cdb9b 20 %
+qwen2.5:3b pulling 5ee4f07cdb9b 25 %
+qwen2.5:3b pulling 5ee4f07cdb9b 30 %
+qwen2.5:3b pulling 5ee4f07cdb9b 35 %
+qwen2.5:3b pulling 5ee4f07cdb9b 40 %
+qwen2.5:3b pulling 5ee4f07cdb9b 45 %
+qwen2.5:3b pulling 5ee4f07cdb9b 50 %
+qwen2.5:3b pulling 5ee4f07cdb9b 55 %
+qwen2.5:3b pulling 5ee4f07cdb9b 60 %
+qwen2.5:3b pulling 5ee4f07cdb9b 65 %
+qwen2.5:3b pulling 5ee4f07cdb9b 70 %
+qwen2.5:3b pulling 5ee4f07cdb9b 75 %
+qwen2.5:3b pulling 5ee4f07cdb9b 80 %
+qwen2.5:3b pulling 5ee4f07cdb9b 85 %
+qwen2.5:3b pulling 5ee4f07cdb9b 90 %
+qwen2.5:3b pulling 5ee4f07cdb9b 95 %
+qwen2.5:3b pulling 5ee4f07cdb9b 100 %
+qwen2.5:3b pulling 66b9ea09bd5b 0 %
+qwen2.5:3b pulling 66b9ea09bd5b 100 %
+qwen2.5:3b pulling eb4402837c78 0 %
+qwen2.5:3b pulling eb4402837c78 100 %
+qwen2.5:3b pulling b5c0e5cf74cf 0 %
+qwen2.5:3b pulling b5c0e5cf74cf 100 %
+qwen2.5:3b pulling 161ddde4c9cd 0 %
+qwen2.5:3b pulling 161ddde4c9cd 100 %
+qwen2.5:3b verifying sha256 digest 0 %
+qwen2.5:3b writing manifest 0 %
+qwen2.5:3b success 0 %
+llama3.2:3b pulling manifest 0 %
+llama3.2:3b pulling dde5aa3fc5ff 0 %
+llama3.2:3b pulling dde5aa3fc5ff 5 %
+llama3.2:3b pulling dde5aa3fc5ff 10 %
+llama3.2:3b pulling dde5aa3fc5ff 15 %
+llama3.2:3b pulling dde5aa3fc5ff 20 %
+llama3.2:3b pulling dde5aa3fc5ff 25 %
+llama3.2:3b pulling dde5aa3fc5ff 30 %
+llama3.2:3b pulling dde5aa3fc5ff 35 %
+llama3.2:3b pulling dde5aa3fc5ff 40 %
+llama3.2:3b pulling dde5aa3fc5ff 45 %
+llama3.2:3b pulling dde5aa3fc5ff 50 %
+llama3.2:3b pulling dde5aa3fc5ff 55 %
+llama3.2:3b pulling dde5aa3fc5ff 60 %
+llama3.2:3b pulling dde5aa3fc5ff 65 %
+llama3.2:3b pulling dde5aa3fc5ff 70 %
+llama3.2:3b pulling dde5aa3fc5ff 75 %
+llama3.2:3b pulling dde5aa3fc5ff 80 %
+llama3.2:3b pulling dde5aa3fc5ff 85 %
+llama3.2:3b pulling dde5aa3fc5ff 90 %
+llama3.2:3b pulling dde5aa3fc5ff 95 %
+llama3.2:3b pulling dde5aa3fc5ff 100 %
+llama3.2:3b pulling 966de95ca8a6 0 %
+llama3.2:3b pulling 966de95ca8a6 100 %
+llama3.2:3b pulling fcc5a6bec9da 0 %
+llama3.2:3b pulling fcc5a6bec9da 100 %
+llama3.2:3b pulling a70ff7e570d9 0 %
+llama3.2:3b pulling a70ff7e570d9 100 %
+llama3.2:3b pulling 56bb8bd477a5 0 %
+llama3.2:3b pulling 56bb8bd477a5 100 %
+llama3.2:3b pulling 34bb5ab01051 0 %
+llama3.2:3b pulling 34bb5ab01051 100 %
+llama3.2:3b verifying sha256 digest 0 %
+llama3.2:3b writing manifest 0 %
+llama3.2:3b success 0 %
+qwen2.5:7b pulling manifest 0 %
+qwen2.5:7b pulling 2bada8a74506 0 %
+qwen2.5:7b pulling 2bada8a74506 5 %
+qwen2.5:7b pulling 2bada8a74506 10 %
+qwen2.5:7b pulling 2bada8a74506 15 %
+qwen2.5:7b pulling 2bada8a74506 20 %
+qwen2.5:7b pulling 2bada8a74506 25 %
+qwen2.5:7b pulling 2bada8a74506 30 %
+qwen2.5:7b pulling 2bada8a74506 35 %
+qwen2.5:7b pulling 2bada8a74506 40 %
+qwen2.5:7b pulling 2bada8a74506 45 %
+qwen2.5:7b pulling 2bada8a74506 50 %
+qwen2.5:7b pulling 2bada8a74506 55 %
+qwen2.5:7b pulling 2bada8a74506 60 %
+qwen2.5:7b pulling 2bada8a74506 65 %
+qwen2.5:7b pulling 2bada8a74506 70 %
+qwen2.5:7b pulling 2bada8a74506 75 %
+qwen2.5:7b pulling 2bada8a74506 80 %
+qwen2.5:7b pulling 2bada8a74506 85 %
+qwen2.5:7b pulling 2bada8a74506 90 %
+qwen2.5:7b pulling 2bada8a74506 95 %
+qwen2.5:7b pulling 2bada8a74506 100 %
+qwen2.5:7b pulling 66b9ea09bd5b 100 %
+qwen2.5:7b pulling eb4402837c78 100 %
+qwen2.5:7b pulling 832dd9e00a68 0 %
+qwen2.5:7b pulling 832dd9e00a68 100 %
+qwen2.5:7b pulling 2f15b3218f05 0 %
+qwen2.5:7b pulling 2f15b3218f05 100 %
+qwen2.5:7b verifying sha256 digest 0 %
+qwen2.5:7b writing manifest 0 %
+qwen2.5:7b success 0 %
+All three models passed real GPU inference and original HTTP client integration.

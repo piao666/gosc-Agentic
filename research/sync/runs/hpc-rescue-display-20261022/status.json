@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-rescue-display-20261022",
+  "status": "completed",
+  "started_at": "2026-10-22T03:54:05.640380+00:00",
+  "finished_at": "2026-10-22T03:55:18.412456+00:00",
+  "exit_code": 0,
+  "pid": 33568,
+  "elapsed_seconds": 72.772106,
+  "resource_usage": {
+    "child_max_rss_kib": 128108,
+    "child_cpu_user_seconds": 72.030455,
+    "child_cpu_system_seconds": 0.240831,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

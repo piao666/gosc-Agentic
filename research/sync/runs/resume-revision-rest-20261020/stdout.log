@@ -1,0 +1,91 @@
+pool 1: 500/1000
+pool 1: 1000/1000
+ablation: 1000 episodes in 259s
+pool 2: 500/600
+private: 600 episodes in 434s
+pool 3: 500/2400
+pool 3: 1000/2400
+pool 3: 1500/2400
+pool 3: 2000/2400
+downlink: 2400 episodes in 377s
+pool 4: 500/5600
+pool 4: 1000/5600
+pool 4: 1500/5600
+pool 4: 2000/5600
+pool 4: 2500/5600
+pool 4: 3000/5600
+pool 4: 3500/5600
+pool 4: 4000/5600
+pool 4: 4500/5600
+pool 4: 5000/5600
+pool 4: 5500/5600
+fbl: 5600 episodes in 1343s
+pool 5: 500/7500
+pool 5: 1000/7500
+pool 5: 1500/7500
+pool 5: 2000/7500
+pool 5: 2500/7500
+pool 5: 3000/7500
+pool 5: 3500/7500
+pool 5: 4000/7500
+pool 5: 4500/7500
+pool 5: 5000/7500
+pool 5: 5500/7500
+pool 5: 6000/7500
+pool 5: 6500/7500
+pool 5: 7000/7500
+pool 5: 7500/7500
+rescue: 7500 episodes in 1398s
+pool 6: 500/3500
+pool 6: 1000/3500
+pool 6: 1500/3500
+pool 6: 2000/3500
+pool 6: 2500/3500
+pool 6: 3000/3500
+pool 6: 3500/3500
+filtered_periodic: 3500 episodes in 229s
+pool 7: 500/19600
+pool 7: 1000/19600
+pool 7: 1500/19600
+pool 7: 2000/19600
+pool 7: 2500/19600
+pool 7: 3000/19600
+pool 7: 3500/19600
+pool 7: 4000/19600
+pool 7: 4500/19600
+pool 7: 5000/19600
+pool 7: 5500/19600
+pool 7: 6000/19600
+pool 7: 6500/19600
+pool 7: 7000/19600
+pool 7: 7500/19600
+pool 7: 8000/19600
+pool 7: 8500/19600
+pool 7: 9000/19600
+pool 7: 9500/19600
+pool 7: 10000/19600
+pool 7: 10500/19600
+pool 7: 11000/19600
+pool 7: 11500/19600
+pool 7: 12000/19600
+pool 7: 12500/19600
+pool 7: 13000/19600
+pool 7: 13500/19600
+pool 7: 14000/19600
+pool 7: 14500/19600
+pool 7: 15000/19600
+pool 7: 15500/19600
+pool 7: 16000/19600
+pool 7: 16500/19600
+pool 7: 17000/19600
+pool 7: 17500/19600
+pool 7: 18000/19600
+pool 7: 18500/19600
+pool 7: 19000/19600
+pool 7: 19500/19600
+suppress_periodic: 19600 episodes in 1408s
+genie_ref: 300 episodes in 13s
+pool 9: 500/1600
+pool 9: 1000/1600
+pool 9: 1500/1600
+rate_aware: 1600 episodes in 80s

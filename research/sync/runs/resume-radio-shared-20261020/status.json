@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-radio-shared-20261020",
+  "status": "completed",
+  "started_at": "2026-10-20T10:45:01.787635+00:00",
+  "finished_at": "2026-10-20T11:26:49.407935+00:00",
+  "exit_code": 0,
+  "pid": 43638,
+  "elapsed_seconds": 2507.62033,
+  "resource_usage": {
+    "child_max_rss_kib": 134160,
+    "child_cpu_user_seconds": 4890.982985,
+    "child_cpu_system_seconds": 28.188741,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

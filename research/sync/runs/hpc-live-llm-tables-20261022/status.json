@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-live-llm-tables-20261022",
+  "status": "completed",
+  "started_at": "2026-10-22T03:07:55.592041+00:00",
+  "finished_at": "2026-10-22T03:07:58.494557+00:00",
+  "exit_code": 0,
+  "pid": 29866,
+  "elapsed_seconds": 2.902549,
+  "resource_usage": {
+    "child_max_rss_kib": 150664,
+    "child_cpu_user_seconds": 1.829151,
+    "child_cpu_system_seconds": 0.28417899999999996,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

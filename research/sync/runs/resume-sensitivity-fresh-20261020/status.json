@@ -1,0 +1,16 @@
+{
+  "run_id": "resume-sensitivity-fresh-20261020",
+  "status": "completed",
+  "started_at": "2026-10-21T01:45:40.856007+00:00",
+  "finished_at": "2026-10-21T01:52:00.856552+00:00",
+  "exit_code": 0,
+  "pid": 19113,
+  "elapsed_seconds": 380.000573,
+  "resource_usage": {
+    "child_max_rss_kib": 85148,
+    "child_cpu_user_seconds": 740.792016,
+    "child_cpu_system_seconds": 2.37034,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

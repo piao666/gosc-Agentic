@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "version": "0.11.11",
+  "archive_url": "https://github.com/ollama/ollama/releases/download/v0.11.11/ollama-linux-amd64.tgz",
+  "archive_sha256": "1d2988c29346e6af0216c847db20f7df7794412ae56674eeec21e0917113843f",
+  "models": [
+    "qwen2.5:3b",
+    "llama3.2:3b",
+    "qwen2.5:7b"
+  ],
+  "bind": "127.0.0.1:11434",
+  "parallel": 1,
+  "max_loaded_models": 1,
+  "num_thread": 2,
+  "num_ctx": 1024,
+  "num_predict": 12,
+  "timeout_hours": 4,
+  "scope": "user-level installation and actual GPU/HTTP integration smoke; not full scientific reproduction"
+}

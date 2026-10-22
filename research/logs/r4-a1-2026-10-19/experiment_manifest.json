@@ -1,0 +1,56 @@
+{
+  "phase": "R4-A1",
+  "execution_host": "hpc/n1",
+  "head": "876fc523b113b3b65e19f0b730f1573ccc2ee17f",
+  "plan_sha256": "eba3d5b79dabf7fe665e659b815af0a7c3acd615bb54fc83867e347d68f09a40",
+  "seed_range": [
+    3000,
+    3099
+  ],
+  "actual_scientific_missions": 1200,
+  "test_run": "hpc-r4-a1-tests-20261019",
+  "simulation_run": "hpc-r4-a1-full-20261019",
+  "analysis_run": "hpc-r4-a1-analysis-20261019",
+  "audit_run": "hpc-r4-a1-audit-20261019",
+  "commands": {
+    "hpc-r4-a1-tests-20261019": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests_ext/test_r4_pilot_executor.py",
+      "tests_ext/test_r4_cost_probe.py",
+      "tests_ext/test_r4_a1.py",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-r4-a1-tests-20261019/pytest-tmp",
+      "--junitxml",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-r4-a1-tests-20261019/outputs/pytest.xml"
+    ],
+    "hpc-r4-a1-full-20261019": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/r4_a1.py",
+      "execute"
+    ],
+    "hpc-r4-a1-analysis-20261019": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/r4_a1.py",
+      "analyze",
+      "--campaign-run",
+      "hpc-r4-a1-full-20261019"
+    ],
+    "hpc-r4-a1-audit-20261019": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/r4_a1.py",
+      "audit",
+      "--campaign-run",
+      "hpc-r4-a1-full-20261019",
+      "--analysis-run",
+      "hpc-r4-a1-analysis-20261019"
+    ]
+  },
+  "raw_outputs": "research/sync/runs/hpc-r4-a1-full-20261019/outputs",
+  "parameter_selection_or_training": false,
+  "known_repeat": "R3 seed3000 explicitly re-executed within A1; both runs retained; no new unseen-test claim"
+}

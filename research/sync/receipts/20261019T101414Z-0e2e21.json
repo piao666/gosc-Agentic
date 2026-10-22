@@ -1,0 +1,2361 @@
+{
+  "sync_id": "20261019T101414Z-0e2e21",
+  "created_at": "2026-10-19T10:14:24.377253+00:00",
+  "direction": "hpc_to_local",
+  "source_host": "hpc",
+  "files": [
+    {
+      "path": "research/sync/runs/hpc-env-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-audit-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-v2-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-20261019/stdout.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-analysis-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-audit-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-tests-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-audit-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-tests-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-preflight-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-remaining-inventory-20261019/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/stdout.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/stdout.log",
+      "size": 22,
+      "sha256": "ddd398c7bff1aa82b4b47255b287fce47ab3bba92d518f8b155d67fadf8736bf",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/stdout.log",
+      "size": 23,
+      "sha256": "4df528fd52cc203dd3d6dcb8cdd29fb8005cad6ff801bdb97cdf85298567300b",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/stderr.log",
+      "size": 28,
+      "sha256": "4de49593b2780c78f94e5d1f3f0301c7b657a61109da085766249546497142a4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/stdout.log",
+      "size": 47,
+      "sha256": "4a4adad6d1c445548a235113fa59e52d2b23414c75e8f74f60c74f2ca3e669e7",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-20261019/artifacts.json",
+      "size": 58,
+      "sha256": "003dfac4ee7d0807b546513f77cfd31e322e0feee583e23e2d6acbc4a0ce36f9",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-20261019/stdout.log",
+      "size": 98,
+      "sha256": "66c24ece5a43d7404e31eab948ae0ceb2f6961611c948f59e37d81ca34910269",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-v2-20261019/stdout.log",
+      "size": 98,
+      "sha256": "60b8b4eace91f0548e420d2dfeec4468bd65caa954cbd16747b9069f0212f3cd",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-tests-20261019/stdout.log",
+      "size": 99,
+      "sha256": "d9a3cdac91cd92d50a68191da12a5505c75d254340521a9a4d37831400bfe2a9",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-tests-20261019/stdout.log",
+      "size": 99,
+      "sha256": "55edfb051af885d29d6effdc1ca16a8e16c94b753777bde4459d818077ea1e47",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/stdout.log",
+      "size": 105,
+      "sha256": "6ad85c5df02385667a36e94c9b0768ffb7d3d44d321bf7c91b059c115634f502",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/stdout.log",
+      "size": 112,
+      "sha256": "3578a78e0fe9894d71f93dbfa0802f3e79190886735eeff3185ce6c0184bc6e3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-tests-20261019/artifacts.json",
+      "size": 212,
+      "sha256": "6b12f8d5c6bb8d2c3639fe4a096795c37270ab0fce8144e621eecd0182543cb7",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-audit-20261019/artifacts.json",
+      "size": 214,
+      "sha256": "72a4d67defe474dbd0bd773d021e058dafea89eb718155600506c171420a960c",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-tests-20261019/artifacts.json",
+      "size": 214,
+      "sha256": "3e23a86dc1922dfac3abab2686abf285aa5db8484a2e684c1b3141dd94d07709",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-audit-20261019/artifacts.json",
+      "size": 218,
+      "sha256": "953fd004be71e7909b372b0fe4e2f25bfbf0c88c75842b121c1abae47877be1a",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/artifacts.json",
+      "size": 218,
+      "sha256": "a521b2659dcfbdcc6062e00652944ff0c14749a8efbc77e3ca40c82a235247cd",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-20261019/artifacts.json",
+      "size": 221,
+      "sha256": "6316cab094384ca661518883c741e299dc81820e1c073509ad9f60770aca89db",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-v2-20261019/artifacts.json",
+      "size": 224,
+      "sha256": "811d15c45ece02e5478e26ef4d636729e9db2a20ef98cc7ce7d0e2a606ef5b2a",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-audit-20261019/artifacts.json",
+      "size": 224,
+      "sha256": "0e9116ef5d5f627ac5b2af673645bca7366e8d6e42bb1a56ba43136bba195fc1",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/artifacts.json",
+      "size": 230,
+      "sha256": "194e1a2bcfca8fe5f85936f9bfacc85a5213bfa7f0d253fb4a7eeb62bfbf9ef2",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/artifacts.json",
+      "size": 232,
+      "sha256": "559fef78f5ffdd226fda8273199072dec4ec0bc0b375139eab6fa6ef3b9eb73d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-preflight-20261019/artifacts.json",
+      "size": 384,
+      "sha256": "0a8f18511b46531ac267134c9cbe4e759f14f4eb9211fab74e20c580b3addd19",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-audit-20261019/stdout.log",
+      "size": 402,
+      "sha256": "fa4479060a6392f82c75e0443c6951db5bb0aec7b8c480be6de3045f6edb1e46",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/status.json",
+      "size": 414,
+      "sha256": "9d4011320c07d032fbb828462d5c8be0ba09aaa3140bbfcc70d2a55f2ad5cb25",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/status.json",
+      "size": 428,
+      "sha256": "359024d070b3c692b0a4a3d7a9e24b5b52937091f3b7b7dcc98ecaa2aa4ab216",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/stdout.log",
+      "size": 456,
+      "sha256": "86f182ac33f37ae306821e6d67ddc5a12420807482d5b0cdae5185eb6d62b528",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-audit-20261019/stdout.log",
+      "size": 474,
+      "sha256": "eb365eb3192f01321cfd166bfe8cda9cc433de3344447c4d714462e0619b5916",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/status.json",
+      "size": 516,
+      "sha256": "705f7e56d4c437dc51a010de1da65709d0ad3c31d5a76822bc90d588b83adec9",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/status.json",
+      "size": 517,
+      "sha256": "bbded460f6fb389ec91af5ddb49ce70cd088c29cff19e89f1f8d725d9e244377",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-20261019/status.json",
+      "size": 522,
+      "sha256": "2ce9387f8865f1d9242a6a3fe8efe47ac084851a7d03bacdc97466e32f350d7d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/status.json",
+      "size": 526,
+      "sha256": "c544c4a47299514ea18f1bd5f826b4c2715cb9bcc7a1c5d7e23a6ae86cc39174",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/status.json",
+      "size": 526,
+      "sha256": "f829182779e8bb35a54ddd4d77e0a51d48245b319e921ea126c9dc8419f7b364",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-audit-20261019/status.json",
+      "size": 526,
+      "sha256": "87286c4b7e225d6388f08e4cc079cf0c8b6fb0c318b72a0efb5f536174447ab5",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-tests-20261019/status.json",
+      "size": 526,
+      "sha256": "a633fae3e8d67c53cf4e25b4c8b21ace3029771d630c0c0cbecbac240c157708",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/status.json",
+      "size": 528,
+      "sha256": "e19167bb47b248d7d237a033aedd269e8aa71529c9d4299298277f582f1d21ad",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-analysis-20261019/status.json",
+      "size": 529,
+      "sha256": "99c4540d7f094d98492542b36289e9a9dfe41ac72a74a73ec5493d1b95a1cb82",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/status.json",
+      "size": 529,
+      "sha256": "b8aec312710ee96e704206f46b98e768ef438096e53d03391afe3e2cb07e84de",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/status.json",
+      "size": 531,
+      "sha256": "c2d02bf33db26bda987ec5ff035f963b20bd0197ab2a079f8dc6f8468967ab59",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/status.json",
+      "size": 534,
+      "sha256": "beca32615515052b56152cb61ec8bd80b55613daecf4e7150b5f2daad9946bef",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-audit-20261019/status.json",
+      "size": 535,
+      "sha256": "0e75f830b24e4e3e680db5e40d38942fc7c284cae4a2a4a93cd403f09e8e6e3c",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-tests-20261019/status.json",
+      "size": 535,
+      "sha256": "518eefe375612af0269da3cbfedab9c9451acdb50ca5ecbce8f73f96239336e6",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-v2-20261019/status.json",
+      "size": 537,
+      "sha256": "ffbed53221db0643c9ecb32c07d30227b53f3bc79372b26e3cafb2042d94232e",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-preflight-20261019/status.json",
+      "size": 537,
+      "sha256": "1a6b514d14d94b15fcd37f9b55358fa854fe5aecab2838e462933fd6bc482697",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-audit-20261019/status.json",
+      "size": 538,
+      "sha256": "301625d8040f8a1195a79b476b591ed1dcc6cce5de3a6b53b500b86c84a7c050",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/status.json",
+      "size": 539,
+      "sha256": "676f2cba7af4b4958f4f8f0eff92e35fa1370b5efa4b3a79e88f02f7bdd77ae4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-20261019/status.json",
+      "size": 543,
+      "sha256": "1567ccdd03578f20266388c3a667bd3d0c55e25083e39812bb5820513124b179",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-remaining-inventory-20261019/status.json",
+      "size": 543,
+      "sha256": "f545e87469aa0836330455b07e1e78e2f8125f6207d75d66a0ecab50e78fd663",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-analysis-20261019/artifacts.json",
+      "size": 544,
+      "sha256": "ca3b233557250d779e907c4130217cfd60b7a69f9fb16ac82bb1c14778b8f34d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-remaining-inventory-20261019/artifacts.json",
+      "size": 564,
+      "sha256": "ac2620868c5c62241ca043837e4c8852c6bb31e685b5d054fe8bcd4917eb3d59",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-20261019/stderr.log",
+      "size": 611,
+      "sha256": "2fb861c9879feec5504cb8fda20cd0ebd101122c0676ddf468b81555f23ccdba",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/stdout.log",
+      "size": 871,
+      "sha256": "094b018712fee726ccee6b13da4747985f51efc94fa75c32f2f7d6c481f5e35e",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/artifacts.json",
+      "size": 1181,
+      "sha256": "fe2da6ccf754d332c0a01836ba5f35b89d87158c4cdd0564a47ab18c0e556090",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-audit-20261019/stdout.log",
+      "size": 1216,
+      "sha256": "17c1b6c6843a6af9081a6a16b2e9cde0bcf611a7043567769362758e69bb4064",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/artifacts.json",
+      "size": 1635,
+      "sha256": "804cc1c6d89368fd667ba057372b47877e3012c738893aa9494c1dc0b63dee02",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/artifacts.json",
+      "size": 1725,
+      "sha256": "b3fc083283a124bc41ff5b263736c9dc483687f76187df76c92f6a3c93f76885",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/STATUS.md",
+      "size": 1744,
+      "sha256": "ab680877d4c7db0d2b98ee37f4821e97d9a262aeff7b0173af9a6dbc54d96040",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/artifacts.json",
+      "size": 1829,
+      "sha256": "7d45a8d7721f72cf4e2cb931e56c1eeddae30d6c7f82511e04ec6855a0762cf7",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/artifacts.json",
+      "size": 1980,
+      "sha256": "4d329a617b60cebd87b33820e974c0952d97400d487358cfaac64460f19880c6",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-remaining-inventory-20261019/stdout.log",
+      "size": 2046,
+      "sha256": "11ce6cd276d9418d009dee76768d606300c47099d5955451599fab42dea4b1dc",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/artifacts.json",
+      "size": 2137,
+      "sha256": "dc28303cb1cdd9f18d7408da453ba1e26c6dd7c8fffb0318860c998a95a6a5bd",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/manifest.json",
+      "size": 2197,
+      "sha256": "39ab5b78d13376f7932e85b39464c5affea037bbfd9b12bb68fb9e034cd6d374",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/manifest.json",
+      "size": 2208,
+      "sha256": "0eb5b444f18ac7914e22b7ece8764af42c48b51a8ea1816267ac9220e4fbfe08",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/manifest.json",
+      "size": 2256,
+      "sha256": "5db8cedf3d34e47831a65426fd8ba90af845d9d9d94287a99942403ef5800e72",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/manifest.json",
+      "size": 2307,
+      "sha256": "848b9ce892fd98f1f058057d0a5f48e0c3474dbe44281e45d9e2367243a8af29",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/manifest.json",
+      "size": 2324,
+      "sha256": "a3e4205b53bc855c05bdaa8bdbec57203b664c1a80e4de25168e40012ba94d39",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/manifest.json",
+      "size": 2349,
+      "sha256": "3ba1216979c3e40919d8645191bdc0f5e20d5fcc3fd5e2e450beaba34a6c7850",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/manifest.json",
+      "size": 2393,
+      "sha256": "0dd5a051f765ba7c7f0e6e0db41a9c9c4fe39fdd23d0e90a1dda7f5c7103ba38",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/manifest.json",
+      "size": 2485,
+      "sha256": "1b0fc3f153e49ddc6e016a9840588c4d86ca4694703d74b4323d61b2bac9989f",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-preflight-20261019/manifest.json",
+      "size": 2495,
+      "sha256": "4502d80af12d34f44d237b11785949f40747c5ebfca27b1a8d0e8caa1f04ae3d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/artifacts.json",
+      "size": 2809,
+      "sha256": "1f380e416439008dca61249de4b3ac4052d350bdaec7dbf98ea71a5f6e91edab",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-audit-20261019/manifest.json",
+      "size": 2818,
+      "sha256": "7d728c55118f9bcec4ded2ec1e9f90605a50fd06a2b1c4089c0154d2d6c1069f",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-analysis-20261019/stdout.log",
+      "size": 2831,
+      "sha256": "fa12024dea66f2d7ac330c1912d75fecdb178d27174077c3940ce1b9054a5624",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-20261019/manifest.json",
+      "size": 2967,
+      "sha256": "c4e4d41e703dfd6cdd5145e506b4492d6b4d893c52f6c72491299a5e7ac78bc0",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/manifest.json",
+      "size": 3006,
+      "sha256": "f7f194102df268355e84f9191281612939cb0cd3e0acb7a90bfff358ccfef67b",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/manifest.json",
+      "size": 3030,
+      "sha256": "21fcff471e215d662af0d8623b7a0f489753be22c1266f1d899b01d9bc578d1b",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-audit-20261019/manifest.json",
+      "size": 3036,
+      "sha256": "be375977994d76899fba402dd27abc8a7a87fd1a8f9a6ee9318f584aac13c78a",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-v2-20261019/manifest.json",
+      "size": 3082,
+      "sha256": "cb00a9db4fd300e829dd872449199c8e42f246fa55f38686ea60d4796b7b6f69",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-20261019/manifest.json",
+      "size": 3088,
+      "sha256": "cf286326ac7cf9c562d9d271a2b7d7eda270960475c80ce761bf9dfc233f1d72",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-remaining-inventory-20261019/manifest.json",
+      "size": 3139,
+      "sha256": "6d6e52451cd3d9abb8202652064f97aebbb3a988b6024b8342e2af9a7ec73461",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-analysis-20261019/manifest.json",
+      "size": 3142,
+      "sha256": "95db2cc95264e42e9b52a8f45774b08d756a45cc4b5c259584b17f9d904502b3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-audit-20261019/manifest.json",
+      "size": 3214,
+      "sha256": "5a31a1fdbab231caa6d1b423bb7ab8bd679eb495b84e723b5b3c7b69696ed0e9",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-tests-20261019/manifest.json",
+      "size": 3343,
+      "sha256": "a408c750e57c123d701befc74bd9e58944ec65a542c0d2ca58d22729a1cb9114",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-tests-20261019/manifest.json",
+      "size": 3493,
+      "sha256": "63a740747a1ab65ef5b63debc8ed1e0192352231a028e7103e436826028d73f2",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/manifest.json",
+      "size": 4102,
+      "sha256": "94f9cbe8a96af1feed9b666cf593aad73a99786461811f17d2de9159e2d7ac7d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/stdout.log",
+      "size": 6593,
+      "sha256": "8d1162c975c42b0329253673f77724deca74607e9400d53bd098e15b8d539161",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-preflight-20261019/stdout.log",
+      "size": 6786,
+      "sha256": "a20de5767c2d1fd155647035e5c5a9c9eae8111faa2dea21474fc33528a1e7a5",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/stdout.log",
+      "size": 7286,
+      "sha256": "979d33accbaa915eb183f88c388ae10cd9d55969b9261a84fa7a74a114c853bf",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/artifacts.json",
+      "size": 8320,
+      "sha256": "104da556e19762a0d3c4aafc3d3e4b041afd53bd68dbe100801800ff8f13a128",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/dashboard.json",
+      "size": 17222,
+      "sha256": "3f310872c352fb5315d2cda73acf4d6b335f97e981068e2b268e8eb3f960110f",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/source_changes.patch",
+      "size": 32142,
+      "sha256": "688a6e969a33232450cfd6a1e25a233b574d0eabc1f0d277dfd34ee5c112b313",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/source_changes.patch",
+      "size": 32142,
+      "sha256": "688a6e969a33232450cfd6a1e25a233b574d0eabc1f0d277dfd34ee5c112b313",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/source_changes.patch",
+      "size": 32494,
+      "sha256": "129b9cc8e141c2ea68451341780ec0aae32b66fda7de261abe8111d62b2b16e6",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/source_changes.patch",
+      "size": 32494,
+      "sha256": "129b9cc8e141c2ea68451341780ec0aae32b66fda7de261abe8111d62b2b16e6",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/source_changes.patch",
+      "size": 32494,
+      "sha256": "129b9cc8e141c2ea68451341780ec0aae32b66fda7de261abe8111d62b2b16e6",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/source_changes.patch",
+      "size": 32895,
+      "sha256": "f42ca0bb2ec278e056ce6ca77ad8ba35b2df307462ed2933c30ef3d4fc234895",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-preflight-20261019/source_changes.patch",
+      "size": 32895,
+      "sha256": "f42ca0bb2ec278e056ce6ca77ad8ba35b2df307462ed2933c30ef3d4fc234895",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-audit-20261019/source_changes.patch",
+      "size": 35443,
+      "sha256": "86ec25e213bc9c5f19e768343c26ffc70d606af34607876457ed9b02b3ee72ce",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-20261019/source_changes.patch",
+      "size": 35443,
+      "sha256": "86ec25e213bc9c5f19e768343c26ffc70d606af34607876457ed9b02b3ee72ce",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-v2-20261019/source_changes.patch",
+      "size": 35443,
+      "sha256": "86ec25e213bc9c5f19e768343c26ffc70d606af34607876457ed9b02b3ee72ce",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-20261019/source_changes.patch",
+      "size": 35443,
+      "sha256": "86ec25e213bc9c5f19e768343c26ffc70d606af34607876457ed9b02b3ee72ce",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/source_changes.patch",
+      "size": 35443,
+      "sha256": "86ec25e213bc9c5f19e768343c26ffc70d606af34607876457ed9b02b3ee72ce",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-audit-20261019/source_changes.patch",
+      "size": 35850,
+      "sha256": "4440d127e39d2cd175f21a0abcd6c36889a18124be6c76891ea1387baf978819",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/source_changes.patch",
+      "size": 35850,
+      "sha256": "4440d127e39d2cd175f21a0abcd6c36889a18124be6c76891ea1387baf978819",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-tests-20261019/source_changes.patch",
+      "size": 35850,
+      "sha256": "4440d127e39d2cd175f21a0abcd6c36889a18124be6c76891ea1387baf978819",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-analysis-20261019/source_changes.patch",
+      "size": 36495,
+      "sha256": "9b60210a746f748e5686147664f87ba33588ea35060b5363d1356aeb1058d0a4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-audit-20261019/source_changes.patch",
+      "size": 36495,
+      "sha256": "9b60210a746f748e5686147664f87ba33588ea35060b5363d1356aeb1058d0a4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/source_changes.patch",
+      "size": 36495,
+      "sha256": "9b60210a746f748e5686147664f87ba33588ea35060b5363d1356aeb1058d0a4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-tests-20261019/source_changes.patch",
+      "size": 36495,
+      "sha256": "9b60210a746f748e5686147664f87ba33588ea35060b5363d1356aeb1058d0a4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-remaining-inventory-20261019/source_changes.patch",
+      "size": 37308,
+      "sha256": "f588ea655beec42cf70d28d301b3001b3ed943d2d0c2b3f88dfe73838c0e313f",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/source_snapshot.json",
+      "size": 37428,
+      "sha256": "e45d44d4b5624448acb1c6f0e21e1d273f1b6f323b0c74ddb88ce6e2b487b2a8",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/source_snapshot.json",
+      "size": 37428,
+      "sha256": "e45d44d4b5624448acb1c6f0e21e1d273f1b6f323b0c74ddb88ce6e2b487b2a8",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/source_snapshot.json",
+      "size": 38084,
+      "sha256": "b0e0cb357df86a5f4b7c29c5f426e363641c50fd84c90325957bff1aa8a37278",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/source_snapshot.json",
+      "size": 38790,
+      "sha256": "f65346b2dbf313add967bfd61a2e3cc7fd285c94009371155da9702c2fd99526",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/source_snapshot.json",
+      "size": 39894,
+      "sha256": "e7d2daa0babbc23c58c24060a5b2d5b01e1de1210d70fbf0a26f83d561a5be38",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/source_snapshot.json",
+      "size": 40219,
+      "sha256": "af64e45be41f0c1263e4952a441d77b8c8ec376d4392b0eaf13b9e31792cffc6",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/source_snapshot.json",
+      "size": 40583,
+      "sha256": "06b043a41d7b854d7fc9ef2ccbd00c221e3d23eb146271f275b5db08877d0337",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/source_untracked.tar.gz",
+      "size": 43144,
+      "sha256": "20dc21c2a1d64b676fd4abbd896d6ca9b53d8b902bd1247fd636de6b6a549cd6",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/source_snapshot.json",
+      "size": 43371,
+      "sha256": "329ef3df41bcee3eace0b2be3b79c86b19898efe818f465083181dc2f7eb0f9f",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-preflight-20261019/source_snapshot.json",
+      "size": 43703,
+      "sha256": "3237998003a15d582bfad5f09fd0af6d9cb6e23f48f0a83e80918e061bcd8d45",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-20261019/source_snapshot.json",
+      "size": 47131,
+      "sha256": "1a89f2174b7931a07cb9520c841dab91d065e2dddd85219ac026fa41a74da961",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-20261019/source_snapshot.json",
+      "size": 47131,
+      "sha256": "625d021ffb32c441600ddaa5f4b0d95747c5af646c60c6b224427611bccc4f8f",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-v2-20261019/source_snapshot.json",
+      "size": 47451,
+      "sha256": "e4f223b64717a56aace3434bc947ec209400360686a8c416a960d15730430332",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/source_snapshot.json",
+      "size": 47451,
+      "sha256": "3ad2f31531920067271b2cc487ce1b9d0890b189b1871c3fc848c5f7b59f48dd",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/source_untracked.tar.gz",
+      "size": 47481,
+      "sha256": "e2d0d7fa14e43d995d6ba43fca771ac5a925691e554744f2bd91e0b63f259ab5",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-audit-20261019/source_snapshot.json",
+      "size": 47787,
+      "sha256": "d860d06e4068da20d16da9d323d6e7d8ad2f9d9d637a615f713ec1123719b7b4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-audit-20261019/source_snapshot.json",
+      "size": 51799,
+      "sha256": "79bb50fd4942378b06c0f4339cb50a8d1c34034331defd303ce328ef64079b56",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/source_snapshot.json",
+      "size": 51799,
+      "sha256": "ce38d35a0f949256700e82e977e553e9271277c71b743d2c4abd79ba1cd8753d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-tests-20261019/source_snapshot.json",
+      "size": 51799,
+      "sha256": "b762f865428405f5c2443add1d60e75041616a5f6b9159b160dfa58ef8cb99bf",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/source_snapshot.json",
+      "size": 55844,
+      "sha256": "8dff06ba48f62d29e9e022c1dc91f7f603c0a47cfbecff631744c6f0a091b5b1",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-tests-20261019/source_snapshot.json",
+      "size": 55844,
+      "sha256": "8dff06ba48f62d29e9e022c1dc91f7f603c0a47cfbecff631744c6f0a091b5b1",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-analysis-20261019/source_snapshot.json",
+      "size": 56175,
+      "sha256": "f9079bf627c4d588f8657ef7e952cbbc3c395395fc98f1b4ba65d6c9af2ad804",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-audit-20261019/source_snapshot.json",
+      "size": 56175,
+      "sha256": "79686508adcea1e7323a091b054ead060e73bfebb151820f039df2221d78e962",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-remaining-inventory-20261019/source_snapshot.json",
+      "size": 59277,
+      "sha256": "51fc66dfb9649cf6a334d37c5fbddfc42cbd0050441020c5a4eb90c65a13e669",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/stdout.log",
+      "size": 63144,
+      "sha256": "2154ef83cee1d8e12c46d1507d135bc677e3b0e183c151207a7698940927fa5a",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/source_untracked.tar.gz",
+      "size": 71107,
+      "sha256": "d9e8176ec929cdab033e50ea6f17d815277f289279d05705748e9fd6fb954b5e",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/source_untracked.tar.gz",
+      "size": 71640,
+      "sha256": "ae43723252c0422b29157ce6ac042a7bbd123cb7be9681333a4060e2fadf4909",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/source_untracked.tar.gz",
+      "size": 73924,
+      "sha256": "9b328dfb27604f007d701f133d81cc9896e5258abb377c9bea348c8df8aa09d7",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/source_untracked.tar.gz",
+      "size": 86936,
+      "sha256": "3a8d7d1ff29d061a2eb3aef8c9e8a75b053ddf74b19baf7f634a987ef08988d2",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-preflight-20261019/source_untracked.tar.gz",
+      "size": 87844,
+      "sha256": "6548c6e4cdc441acfa4448da793f2d05a19aa1c57a98c6bf05e4594379fe46c7",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-20261019/source_untracked.tar.gz",
+      "size": 113763,
+      "sha256": "f7c940ea0ca4ce2bf708fe00e6e48d83fa9455c915a9f7c5ce02c3c4c2963aa7",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-20261019/source_untracked.tar.gz",
+      "size": 113763,
+      "sha256": "0ef120c79e1b5834083b48756b9c8cc18f67b350f324212230009090e3d3f219",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-v2-20261019/source_untracked.tar.gz",
+      "size": 114960,
+      "sha256": "3601a6a2bc2c467be1e1597f24aa61ce36b8fabbf0c7ab3819f6297257329e8c",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/source_untracked.tar.gz",
+      "size": 114960,
+      "sha256": "abb850ede1ad987188d95f9636d6fdbc71f1049fcb358412e8eba0d06833dad0",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-audit-20261019/source_untracked.tar.gz",
+      "size": 116298,
+      "sha256": "343156143c97a9c39524634bb7899876e879439a932df5385203bbda1b06c945",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-audit-20261019/source_untracked.tar.gz",
+      "size": 130130,
+      "sha256": "4da9847c9f9f6e8c6c64753b375841590a83b458d343590b9773cbd591c1a737",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/source_untracked.tar.gz",
+      "size": 130130,
+      "sha256": "86b390dbf7f60f8fcb201a1657852b65fbb99b8c413ca560a86a20a5813832ba",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-tests-20261019/source_untracked.tar.gz",
+      "size": 130130,
+      "sha256": "1945724e0875a3fb68b7483c82f29cc8dc120d85dafee21768220cb763953566",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/source_untracked.tar.gz",
+      "size": 144508,
+      "sha256": "739d11a2f5881b29292339fd0d450633fed26bc2d565e3cbb13820c2b9b3374b",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-tests-20261019/source_untracked.tar.gz",
+      "size": 144508,
+      "sha256": "a82efc9a9fcc410680c2a6edb45356e4d4663d16079ac6e098a8a9ca62f693be",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-analysis-20261019/source_untracked.tar.gz",
+      "size": 146196,
+      "sha256": "f0076db75541715f2aca0ec1ba66e15c44d4b95bdda02a5987408db4e5376d1e",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-audit-20261019/source_untracked.tar.gz",
+      "size": 146196,
+      "sha256": "bc8640353f15239f8b0944283b1c45747f79d5dae7191a01e5dda1a445da074b",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-remaining-inventory-20261019/source_untracked.tar.gz",
+      "size": 156264,
+      "sha256": "fc197f4568cdb3283367428162d6d1d86f6ed2872cfaf651202af73e668c0b08",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/create-venv.stdout.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/dependency-check.stdout.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/environment-probe.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/freeze.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/install.stdout.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/outputs/fill-table-vi.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/outputs/collect.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/outputs/pytest.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/plot.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/plot_realistic.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/plot_revision.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/outputs/single-mission.stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-failure-20261019T065522Z/outputs/negative_probe.json",
+      "size": 26,
+      "sha256": "fc407afcb1e6663456bb9dd4d16b079bcc4624576536042647ac0d89fc405278",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/resolve.stderr.log",
+      "size": 30,
+      "sha256": "f67aa0bd0e5561261dbd1a74ec13b65da76d78cc40c6c8f110aa09eae9318afa",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/plot_revision.stdout.log",
+      "size": 36,
+      "sha256": "3b3601d5b9acb1a0bf47e6bddae68de982cdee1a4686a7ebbd5557ccc517baee",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-ledger-ok-20261019T065522Z/outputs/probe.json",
+      "size": 58,
+      "sha256": "a1db81510f79d49f08525e29400c1d7bd3b55e614493e12bc3580597c4798e1f",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/dependency-check.stderr.log",
+      "size": 65,
+      "sha256": "601ecc3d90f3041e07268efcbae7ba0cf5a34383c96b3c7529a86905244276c0",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/outputs/test_summary.json",
+      "size": 88,
+      "sha256": "271989e98d58a2e2de62bad7b5674e1e5af679ed7faf6cceb53704e513598cb2",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/outputs/single-mission.stdout.log",
+      "size": 114,
+      "sha256": "451a5a85bb487d4a4521a780eae58f031e1eec2ce8ce9415a06dd60f52973c9e",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/infra-launch-roundtrip-20261019T065811Z/outputs/roundtrip.json",
+      "size": 118,
+      "sha256": "260dc18eda660e8cd82cae2916f83eb9e2c050911adfc2836dad31541bc33f47",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/plot.stdout.log",
+      "size": 119,
+      "sha256": "d0e9553dd2462498552e1e1498cf1d2db79bf4a45a1c1fd0408f4bd04d2d1cdb",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/outputs/completed_table_vi_comparison.json",
+      "size": 176,
+      "sha256": "e146b3207d6610ebc902a364bebd3a42b5fa5c1fc9e62c4b6cd73013cf40a7c8",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/outputs/pytest.stdout.log",
+      "size": 180,
+      "sha256": "cfc9bbfe716e30776c67cb3d0c6e382c646b54bc73e44e4ada44fe83aaa3e680",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/create-venv.stderr.log",
+      "size": 209,
+      "sha256": "e4578091b4d2d3f0917e2e0aa21f0c601dfd5b7b4ff1fd0913433861bd0c03cf",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_private.tex",
+      "size": 246,
+      "sha256": "1f6f870f271af8233fa1c9187271f07340d994bd63ee7824f7f3c37843da0e78",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/freeze.stdout.log",
+      "size": 251,
+      "sha256": "b24a3a1d5ac296318971c0218b1f298926fc10e01bf2ce1a037e71352a7ae478",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/requirements-linux.freeze.txt",
+      "size": 251,
+      "sha256": "b24a3a1d5ac296318971c0218b1f298926fc10e01bf2ce1a037e71352a7ae478",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_where_tom.tex",
+      "size": 284,
+      "sha256": "83d70879838494c17e08ba96cde54187c11a10f8143404a4c20ccdff896c27a2",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_rate_aware.tex",
+      "size": 344,
+      "sha256": "367abdc20ebf541a704c1929bae48e2a6ed28450a209d67e6d53e46fd2dd92b7",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_fidelity.tex",
+      "size": 362,
+      "sha256": "09b0cae40557d7689ebc3cf83ee41828a9e4b85867690a7363ab2268b67245ae",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/outputs/commands.json",
+      "size": 378,
+      "sha256": "4120adfdd4f11640ac11ad27d87ea881938d8b75f93760e79974d22d69037e03",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_frontier.tex",
+      "size": 387,
+      "sha256": "503664c520ec0886f45b98ee1d7403c6df733808b1ae29ae1924f5fa99e15eff",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-audit-20261019/outputs/cost_probe_audit.json",
+      "size": 432,
+      "sha256": "4db569e09a60bfb4785340b9536af9b89afa0faf9b8ac3f77570d3853c6a5a49",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_frozen.tex",
+      "size": 442,
+      "sha256": "8db580c8e715a309a19f88b79b6d7cb08e6ba5ec4e55e5d66c11d8d1985abbf4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_llm.tex",
+      "size": 465,
+      "sha256": "5bf122d2d4672f0133544f6c9a4701868683ee0fae73f7039628efafd65279b3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs/execution_context.json",
+      "size": 485,
+      "sha256": "e73278f16cb2fc373c63e1c104d7eea2a59cdb6f5395151b6a8eddb187718bb7",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/outputs/execution_summary.json",
+      "size": 497,
+      "sha256": "a6b5bf50bf5f1f7d0f0aec8b9895febb5cc0dd705ec4eac6360aad2a9b226cef",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-audit-20261019/outputs/a1_audit.json",
+      "size": 506,
+      "sha256": "4c54218185f2cda5003e2012778fcbf292c3959ad5b0711ce55ecbcad7c2c70e",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_shared.tex",
+      "size": 540,
+      "sha256": "a43c3ad84bf67d13402318881e7c368cd8666bf56d108b278e13efe5e6e371fb",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/environment-probe.stdout.log",
+      "size": 548,
+      "sha256": "a2c1e49bdf1c7ebf60ea46eb11ce836c2fb34856b98476b51fccca53e59ccc87",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_default.tex",
+      "size": 562,
+      "sha256": "fbb65b0ded0b744c096150c837b0d5ff814e6e2f154e94bba42ee026e55d37b0",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/outputs/execution_context.json",
+      "size": 636,
+      "sha256": "97ebae9433962f63c50245b6fe67f981d305bcfbfd7363c6c0361c21731172e9",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/install.stderr.log",
+      "size": 647,
+      "sha256": "221adbcb4b68499e1c1d95ebdb6b4efc5b815b5b1c42c3db9a904f4e5c5834a4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_values.tex",
+      "size": 717,
+      "sha256": "1d2995ffdfe2baaadf0b3a8de2b7d4bee8fcd2bc5cb407d5a554de8e9a655a4f",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/outputs/fill-table-vi.stdout.log",
+      "size": 793,
+      "sha256": "318a5f4023c7f152f74d0f677236b40218bc5625852c2057bac7b73ada1190d3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/outputs/supplements/table_values.tex",
+      "size": 793,
+      "sha256": "318a5f4023c7f152f74d0f677236b40218bc5625852c2057bac7b73ada1190d3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_ablation.tex",
+      "size": 793,
+      "sha256": "4e927097c992e685a0b9c20f0b777eabe6ce13b0358ae059b69a3f01377e9050",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_validation.tex",
+      "size": 797,
+      "sha256": "5c536c1ece815a7324df10de41e000f20e8888e606a4b0d535dd419f214ec59d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/numbers.tex",
+      "size": 802,
+      "sha256": "7a72dbed76fd3e1d6dd470d3eba179e6c983913690cae0b0f7a2b78a04824fb7",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_llm_extended.tex",
+      "size": 865,
+      "sha256": "3406470e7625db1e75b1e862e49548681ceab5fc19319686d4e37b4831289bfe",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/outputs/audit_summary.json",
+      "size": 876,
+      "sha256": "1646f20984deec6b8435e847a139e4d22a9915afe7a9dc5a7a9542af16f02839",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_cost.tex",
+      "size": 934,
+      "sha256": "897f2f95f9bea01aaf3547b12761ddb69d617555bf71838cf2a23ed2606088ea",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs/environment.json",
+      "size": 948,
+      "sha256": "1fcea9b940b71af3ad08990040a086298c9e8918e4b15f230468f09869c2b338",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/outputs/commands.json",
+      "size": 958,
+      "sha256": "80c4ffa1e11804c674dee869d27201409361f64272b03c5a058447e2b562e300",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/commands.json",
+      "size": 1023,
+      "sha256": "2ec5d17465712e7df732a08b773d5d1464c6199130b2cddc172bfbbf8a8b8b7d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/outputs/execution_context.json",
+      "size": 1052,
+      "sha256": "7ad16dfd4a634178cc07cf181c5d9eb4003fcca8af44c4c70a22580ce57f8240",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/outputs/commands.json",
+      "size": 1120,
+      "sha256": "78721311f90aed7a4ad2c3e7e15d5bafcd00c829b186b7a37ab4dab726d0a564",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs/a1_budget.json",
+      "size": 1206,
+      "sha256": "0a51f423203dbd1f5883b8c5febad5263c1f0383b29bc58ed7158caf0d12df92",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-20261019/outputs/pytest.xml",
+      "size": 1252,
+      "sha256": "dcb1bc11ac510626550a2bb9b5d8916046c2cfe999852a978b03b8b09f70a5af",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/replot_summary.json",
+      "size": 1300,
+      "sha256": "7af06491cc4763edf0ee99504d99307ea95d88464d0893dd57ec7bcd24ddba6d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-executor-tests-v2-20261019/outputs/pytest.xml",
+      "size": 1372,
+      "sha256": "1dec42d8935535e4051c0bde75de8d377f45905063c5852c397ea06e65ce2b0f",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_efficiency.tex",
+      "size": 1438,
+      "sha256": "e65eeb7e16b284d939d6732eba339d4cb3dd351d632108ce7532360dcc94bbff",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-audit-20261019/outputs/pilot_audit.json",
+      "size": 1490,
+      "sha256": "43a58710da563ae1a1d2ce58b40c9b68e8f637378bf97367d416226c08b5f03f",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs/worker_logs.jsonl",
+      "size": 1596,
+      "sha256": "203e2aa1294a98fdd2014cfc1ad59b151cb4aa7bc891f75c9ed79501b697043a",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs/cost_groups.csv",
+      "size": 1645,
+      "sha256": "10b03a9c15f8ae00c18eee4f7581e25bd4a8f9a468c9923116e3cbce8b56979e",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_noise.tex",
+      "size": 1747,
+      "sha256": "18af52d831b53857a296dc27a3a408d2c42c59682fe19eb28d029595e1320bcc",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/outputs/original_table_comparison.json",
+      "size": 2153,
+      "sha256": "1117f640119e1f4b7f719ff2e9e9c56ffbc470e960b07ce8215ce17e308a1ae4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_overhead.tex",
+      "size": 2157,
+      "sha256": "d09276b7a9125f066aa29bc495f024f47220c1aebdeb8bbdaed322cadc349a75",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-tests-20261019/outputs/pytest.xml",
+      "size": 2374,
+      "sha256": "5517282f85704cc11b0ea6f0c4a3ecd489707acfeae614b57f33cec53cd88f58",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-analysis-20261019/outputs/group_metrics.csv",
+      "size": 2381,
+      "sha256": "dc28393050a26a7ab1e1752ee9d5a3bc37157ac15d1f35617cb234b692be764a",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-remaining-inventory-20261019/outputs/remaining_inventory.json",
+      "size": 2546,
+      "sha256": "e13b49a8c271684045f43e22c68832337c9d2a977cca8775f13abdbea52205d1",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/commands.json",
+      "size": 2829,
+      "sha256": "dd244599462d804fda16deb4b03144cf118006a08bac75e980b4af5fff90d049",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs/plan_snapshot.json",
+      "size": 3127,
+      "sha256": "b97c7d042f077080e2ff392ba21a1dfaa2021c6faa1a7aa3304d0baa29ceb857",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/outputs/plan_snapshot.json",
+      "size": 3373,
+      "sha256": "313e55d9a9d30218b4a6088e74299d130727f4546908bd2c53a4edd015aad455",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-tests-20261019/outputs/pytest.xml",
+      "size": 3646,
+      "sha256": "dfd44e632cce291faea3460462034577e326d665cfe94550ebb04b8beee3a122",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/outputs/worker_logs.jsonl",
+      "size": 3920,
+      "sha256": "b82a9c9ad152b030dd522b821c2325c0ab7b1e2e099aaeee458ccd7907ba7d79",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/outputs/pilot_summary.json",
+      "size": 4720,
+      "sha256": "b4d44fec17c705e3c6c2ef79f734675773b12f70c9c631c0669994e43c46e6d7",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs/mission_status.json",
+      "size": 5142,
+      "sha256": "78d4b97b9808ea80f60c0c47a2d1346a9b4e1c9c29440a8561ab42cd233d01fd",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/outputs/collect.stdout.log",
+      "size": 5189,
+      "sha256": "c756af928340727c733ce5686f4ad7ff32f0188982996c48257e8e1ad50ed5c6",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/outputs/static_and_frozen_checks.json",
+      "size": 5327,
+      "sha256": "d9278f0345d5a703e220091d06cfa1d75537f031c804db6d5a15e7887220d2d6",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/outputs/plan_snapshot.json",
+      "size": 5406,
+      "sha256": "eba3d5b79dabf7fe665e659b815af0a7c3acd615bb54fc83867e347d68f09a40",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs/events.jsonl",
+      "size": 5916,
+      "sha256": "aab7ed50ce3cf54897b18989b6f755d7b6686412e637d9633cd3e0dc7fbb0693",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/plot_realistic.stdout.log",
+      "size": 6001,
+      "sha256": "dbc031c354ef1e964ac2205d6e3c22d02a92494b4c6fad518e7cfdf5f00e4f7c",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/outputs/metrics.csv",
+      "size": 6598,
+      "sha256": "db383dac641eb136c97d5df94f645dee94aff90d78dc1642fd335ef5fdf942fe",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs/cost_probe_summary.json",
+      "size": 7437,
+      "sha256": "b780044e6af5bde84edb5c3303f11af6ffe264e4f5437b1fdc89184c2993288e",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/outputs/pytest.xml",
+      "size": 8800,
+      "sha256": "7790679dbdabba9eae229accad922ba84c30c959724983573a14ca07e06ca06a",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-preflight-20261019/outputs/r4_preflight.json",
+      "size": 10254,
+      "sha256": "08ee90d8137a7b64643a64c7439ef2eddffddb60362ac47ed5befdc79a230655",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/outputs/mission_status.json",
+      "size": 12691,
+      "sha256": "a8c31244af03265780b11f24214f97c22a7cd69446373d809f34d69e2b8b9b62",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_traj.pdf",
+      "size": 14103,
+      "sha256": "73a7bcbfeacc46d7c2892b47928a46d87a23175761078c3614cb903bb3e3b329",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/outputs/events.jsonl",
+      "size": 14673,
+      "sha256": "acd12eeb5028b62989332fe44fa3f374ba57f1ad91c727ea7cbf820d3b1c785f",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-preflight-20261019/outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-remaining-inventory-20261019/outputs/input_integrity.json",
+      "size": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-analysis-20261019/outputs/a1_analysis.json",
+      "size": 15545,
+      "sha256": "52ea7782813e22a991b93ccea37e402f6dfcba0b21484cb029a0178d776a1e79",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_budget.pdf",
+      "size": 19734,
+      "sha256": "fca254af887a1eb66bdf58ab5a6a2bacf07ef964c11b29002f145dc1f44990a7",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_agents.pdf",
+      "size": 20087,
+      "sha256": "95821b98e5dcea63f04c33eefe74ec163c03584015eb02145224c84e8eec8d45",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_snr.pdf",
+      "size": 20192,
+      "sha256": "3a202d2840e1b41edd3c62421aca0e13551e10ab043416b0797176d7599fea8d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_curve.pdf",
+      "size": 21381,
+      "sha256": "cc2ddcd90f7fe38935a33005223a749748d433de607cd5bf5910d43814306b79",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_snr_sym.pdf",
+      "size": 23398,
+      "sha256": "26389cfd9dcf01b205d0edec2d5f8e49d5feef42db965da19daa1933d47addd2",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_downlink.pdf",
+      "size": 23762,
+      "sha256": "9ced58a65614f10c9094e243283c53b17a34d65560e55c7cb44defda619b2219",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_pareto.pdf",
+      "size": 24561,
+      "sha256": "7b0f9d53434f12682a1c4355a92037887fa14ace4311bba628bd7b104759bdf2",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_where_tom.pdf",
+      "size": 26353,
+      "sha256": "9115127e889fbb736e6e9e6001f6f996cbda63a16bb7cfb2216dabd14d47b3c4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_snr_pair.pdf",
+      "size": 27254,
+      "sha256": "b7811ee79a31d736ebc0a05d2d52b6fa8fc7b43cd9f859554e389f3c15373f79",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_frontier.pdf",
+      "size": 28248,
+      "sha256": "dd4530e4970d458cdb84c07832a27f039c76ed035b7c5006e7ab137e24ea2e2b",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-paper-audit-20261019/outputs/mplconfig/fontlist-v3.11.0.json",
+      "size": 28696,
+      "sha256": "c8784accf3c75aacbacf90f02539e44a4035ac33910ee957c606f789908b9ba4",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/mplconfig/fontlist-v3.11.0.json",
+      "size": 28696,
+      "sha256": "810fd251abc8e1935e97bce2ae1fde3b6202d4fae041e60fa435151180282fbe",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_fbl.pdf",
+      "size": 29252,
+      "sha256": "5fbb4cc0e7f5b8b92405ee71ebcea0e60628c622d72f81424e4a424dd520241b",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_shared_col.pdf",
+      "size": 29267,
+      "sha256": "938ecb75b8d1b57c3dbc48c894f5f74db010b8f49ac946f897d9362a09da6e2c",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_efficiency.pdf",
+      "size": 29428,
+      "sha256": "6eae0e21ed36308edd9b5355ccc1a32f1f7ff64b1452b5596d9b8b66ac27efa3",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_shared.pdf",
+      "size": 32746,
+      "sha256": "8feb99763a2a5355201bfa1d16c937f8714af184b06535014dc17ec0dc2d080f",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_noise.pdf",
+      "size": 33762,
+      "sha256": "639da3d5285d6128e432ac63758375ed4bf657c6f241acd36d4555179a260c41",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/summaries/summary.json",
+      "size": 36221,
+      "sha256": "7ec6c8de108af6a10f1c9bcbbb2ee7fe61ac994ff1816108b9a88caaef1a1382",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/outputs/mission.json",
+      "size": 37857,
+      "sha256": "938d6345a0c3b7ef248522669f0197011bd5839b9fd2c34d4c3fad582c6e17fb",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_rescue.pdf",
+      "size": 40610,
+      "sha256": "1ad887e8917ca921718df3151b021b878eb6cb2c7658271abdbe8f2aaea79887",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-env-20261019/outputs/resolve.stdout.log",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r1-20261019/outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r3-20261019/outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs/requirements-linux.lock.txt",
+      "size": 43313,
+      "sha256": "3a1c7cf59e805f3b8cedc719fe244897526d1c7d5e648c1fa0f6760d25af4d44",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs/jobs.json",
+      "size": 44757,
+      "sha256": "4c8288809613782af2b0b4844429ceec5760f72eb7575e8a4a0e8e66c37be18c",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/summaries/summary_revision.json",
+      "size": 61051,
+      "sha256": "b923a1fe5a2ddfd267409f79e2b7444787619d1760281a2bc876216e0c49b28d",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/outputs/worker_logs.jsonl",
+      "size": 79400,
+      "sha256": "c971ea53db01a62961751a85eb6d8efef21e2fd2fbdbde44fb2ca4cc7e975e38",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/outputs/jobs.json",
+      "size": 111733,
+      "sha256": "082ba6d35a1c9783c4595c79da2d433e3a10dfdd1349ee740985bec8b3cc827b",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-analysis-20261019/outputs/mission_metrics.csv",
+      "size": 121161,
+      "sha256": "28edc77bfbd3a1c955336f2b8290bd503bf736111e2be8c7afd87b056afb4030",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-cost-probe-20261019/outputs/episodes.jsonl",
+      "size": 250003,
+      "sha256": "a474c0f56980df8708144daacfdebaa6a2694ff368408ed26a53f069aa7d44f7",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/outputs/mission_status.json",
+      "size": 253235,
+      "sha256": "6f234214fd77d61bfdc6870be7abd6f1c3434e487e62ada0c23296dd8d374260",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/outputs/events.jsonl",
+      "size": 295274,
+      "sha256": "df256d22e9872a9d95eeff0835a333ba48c1cb59b4f79d13ec3a70ef106a1558",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/outputs/episodes.jsonl",
+      "size": 596681,
+      "sha256": "4e3550287beaf3b1c7751fe9e8f67d8baff50f5d8c19f87aefeae883fe8d1701",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r2-20261019/outputs/summaries/summary_realistic.json",
+      "size": 702535,
+      "sha256": "46fd5680e87e159937008a7e47d90c0c1e60a8d3e3d3bbdf41fcb708c456c0dc",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/outputs/jobs.json",
+      "size": 2236803,
+      "sha256": "1408cc6a542d9774556aa6f9d6e5d56f3e00bb6816bef39f05b66aeb00e96f09",
+      "transfer_status": "unchanged"
+    },
+    {
+      "path": "research/sync/runs/hpc-remaining-inventory-20261019/outputs/selection_catalog.json",
+      "size": 2727609,
+      "sha256": "f682e5af71ce0c3f0cd38fb1d6d305ec0b13f314f1ae13f7dc220a58817b7951",
+      "transfer_status": "copied"
+    },
+    {
+      "path": "research/sync/runs/hpc-r4-a1-full-20261019/outputs/episodes.jsonl",
+      "size": 12452218,
+      "sha256": "43679328eadd4209025a95ab6e19de0445be44d19dc520c86fb6b9cb1ac8001a",
+      "transfer_status": "unchanged"
+    }
+  ],
+  "bytes_downloaded": 3023685,
+  "all_outputs_mirrored": true,
+  "execution_runs": [
+    {
+      "run_id": "hpc-env-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T07:12:43.092676+00:00",
+      "finished_at": "2026-10-19T07:12:52.078051+00:00",
+      "exit_code": 0,
+      "pid": 9160,
+      "elapsed_seconds": 8.985402,
+      "resource_usage": {
+        "child_max_rss_kib": 61124,
+        "child_cpu_user_seconds": 2.056089,
+        "child_cpu_system_seconds": 1.7935699999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "environment",
+      "purpose": "Prepare isolated uv Python 3.11 project environment with binary-only hashed dependencies"
+    },
+    {
+      "run_id": "hpc-paper-audit-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T07:36:46.433590+00:00",
+      "finished_at": "2026-10-19T07:37:42.340389+00:00",
+      "exit_code": 0,
+      "pid": 12853,
+      "elapsed_seconds": 55.906823,
+      "resource_usage": {
+        "child_max_rss_kib": 80492,
+        "child_cpu_user_seconds": 55.48329,
+        "child_cpu_system_seconds": 0.375447,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "R2-R6-audit",
+      "purpose": "Audit paper printed numeric tables and restore five Table VI cells through upstream table-only helper; no fresh simulations"
+    },
+    {
+      "run_id": "hpc-r1-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T07:14:02.863146+00:00",
+      "finished_at": "2026-10-19T07:14:38.225468+00:00",
+      "exit_code": 0,
+      "pid": 9793,
+      "elapsed_seconds": 35.362349,
+      "resource_usage": {
+        "child_max_rss_kib": 57844,
+        "child_cpu_user_seconds": 34.550966,
+        "child_cpu_system_seconds": 0.417471,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "R1",
+      "purpose": "Collect and run unmodified upstream regression tests in HPC Python 3.11 venv"
+    },
+    {
+      "run_id": "hpc-r2-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T07:16:47.544041+00:00",
+      "finished_at": "2026-10-19T07:21:27.718051+00:00",
+      "exit_code": 0,
+      "pid": 10407,
+      "elapsed_seconds": 280.174039,
+      "resource_usage": {
+        "child_max_rss_kib": 454104,
+        "child_cpu_user_seconds": 278.089876,
+        "child_cpu_system_seconds": 1.4512909999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "R2",
+      "purpose": "Rebuild all three upstream figure and table modules in an isolated HPC copy without changing original results"
+    },
+    {
+      "run_id": "hpc-r3-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T07:23:01.083213+00:00",
+      "finished_at": "2026-10-19T07:23:02.624486+00:00",
+      "exit_code": 0,
+      "pid": 11807,
+      "elapsed_seconds": 1.541301,
+      "resource_usage": {
+        "child_max_rss_kib": 36872,
+        "child_cpu_user_seconds": 1.439141,
+        "child_cpu_system_seconds": 0.120139,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "simulation",
+      "stage": "R3",
+      "purpose": "One fresh execution of upstream default GOSC mission at fixed author-validation seed 3000; no training or multi-seed claim"
+    },
+    {
+      "run_id": "hpc-r4-a0-audit-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T08:36:25.967478+00:00",
+      "finished_at": "2026-10-19T08:36:26.289589+00:00",
+      "exit_code": 0,
+      "pid": 17676,
+      "elapsed_seconds": 0.32213,
+      "resource_usage": {
+        "child_max_rss_kib": 59368,
+        "child_cpu_user_seconds": 0.352001,
+        "child_cpu_system_seconds": 0.06865299999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "R4-A0-raw-audit",
+      "purpose": "Independently verify 60 raw keys, full configs, common worlds, means, process lifecycle and retained zero-mission predecessor; no new simulations"
+    },
+    {
+      "run_id": "hpc-r4-a0-executor-tests-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T08:19:12.529930+00:00",
+      "finished_at": "2026-10-19T08:19:14.800362+00:00",
+      "exit_code": 0,
+      "pid": 15547,
+      "elapsed_seconds": 2.27046,
+      "resource_usage": {
+        "child_max_rss_kib": 49328,
+        "child_cpu_user_seconds": 0.9247639999999999,
+        "child_cpu_system_seconds": 0.352498,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "R4-A0-executor-validation",
+      "purpose": "Validate bounded pilot scope, real subprocess timeouts, failures, corrupt output, cancellation and pairing without scientific missions"
+    },
+    {
+      "run_id": "hpc-r4-a0-executor-tests-v2-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T08:22:51.904651+00:00",
+      "finished_at": "2026-10-19T08:22:54.151078+00:00",
+      "exit_code": 0,
+      "pid": 16263,
+      "elapsed_seconds": 2.246454,
+      "resource_usage": {
+        "child_max_rss_kib": 49328,
+        "child_cpu_user_seconds": 1.111728,
+        "child_cpu_system_seconds": 0.376253,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "R4-A0-executor-validation",
+      "purpose": "Recheck executor faults and absolute CLI import path after diagnosed pre-mission import failure; no scientific missions"
+    },
+    {
+      "run_id": "hpc-r4-a0-pilot-20261019",
+      "status": "failed",
+      "started_at": "2026-10-19T08:20:46.335923+00:00",
+      "finished_at": "2026-10-19T08:20:46.455876+00:00",
+      "exit_code": 1,
+      "pid": 15903,
+      "elapsed_seconds": 0.119982,
+      "resource_usage": {
+        "child_max_rss_kib": 28260,
+        "child_cpu_user_seconds": 0.094804,
+        "child_cpu_system_seconds": 0.036758,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "simulation",
+      "stage": "R4-A0",
+      "purpose": "Predeclared 60-mission workflow/cost pilot, two frozen W100 scenes and three original arms, seeds9000-9009; no training or confirmatory superiority claim"
+    },
+    {
+      "run_id": "hpc-r4-a0-pilot-retry1-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T08:24:12.007103+00:00",
+      "finished_at": "2026-10-19T08:24:32.117358+00:00",
+      "exit_code": 0,
+      "pid": 16618,
+      "elapsed_seconds": 20.110284,
+      "resource_usage": {
+        "child_max_rss_kib": 57844,
+        "child_cpu_user_seconds": 34.352355,
+        "child_cpu_system_seconds": 2.311096,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "simulation",
+      "stage": "R4-A0",
+      "purpose": "Execute the same predeclared 60 pilot missions after verified zero-mission import failure; retain predecessor and do not change seeds/configs"
+    },
+    {
+      "run_id": "hpc-r4-a1-analysis-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T09:11:39.391228+00:00",
+      "finished_at": "2026-10-19T09:11:40.460244+00:00",
+      "exit_code": 0,
+      "pid": 22414,
+      "elapsed_seconds": 1.069044,
+      "resource_usage": {
+        "child_max_rss_kib": 148716,
+        "child_cpu_user_seconds": 1.081719,
+        "child_cpu_system_seconds": 0.079206,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "R4-A1",
+      "purpose": "Paired4000 bootstrap, task-target checks and per-seed historical comparison for completed1200 frozen missions"
+    },
+    {
+      "run_id": "hpc-r4-a1-audit-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T09:13:12.809201+00:00",
+      "finished_at": "2026-10-19T09:13:13.902886+00:00",
+      "exit_code": 0,
+      "pid": 23065,
+      "elapsed_seconds": 1.093714,
+      "resource_usage": {
+        "child_max_rss_kib": 164020,
+        "child_cpu_user_seconds": 1.094066,
+        "child_cpu_system_seconds": 0.088615,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "R4-A1",
+      "purpose": "Independent1200 raw-key/config/process-lifecycle/pairing and statistics audit, preserve historical mismatches; no new simulations"
+    },
+    {
+      "run_id": "hpc-r4-a1-full-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T09:00:58.563022+00:00",
+      "finished_at": "2026-10-19T09:10:33.149667+00:00",
+      "exit_code": 0,
+      "pid": 20508,
+      "elapsed_seconds": 574.586676,
+      "resource_usage": {
+        "child_max_rss_kib": 141996,
+        "child_cpu_user_seconds": 1040.4643,
+        "child_cpu_system_seconds": 43.33109,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "simulation",
+      "stage": "R4-A1",
+      "purpose": "Complete frozen original six-setting paired reproduction, 1200 missions; authorized cap1860s, workers2; no training"
+    },
+    {
+      "run_id": "hpc-r4-a1-tests-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T09:00:04.222654+00:00",
+      "finished_at": "2026-10-19T09:00:07.452345+00:00",
+      "exit_code": 0,
+      "pid": 20227,
+      "elapsed_seconds": 3.229718,
+      "resource_usage": {
+        "child_max_rss_kib": 62716,
+        "child_cpu_user_seconds": 2.3161519999999998,
+        "child_cpu_system_seconds": 0.369137,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "R4-A1",
+      "purpose": "Validate exact1200 frozen scope, disclosed seed overlap, paired inference, absolute entry and existing worker safeguards"
+    },
+    {
+      "run_id": "hpc-r4-cost-audit-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T08:50:52.829900+00:00",
+      "finished_at": "2026-10-19T08:50:53.166222+00:00",
+      "exit_code": 0,
+      "pid": 19424,
+      "elapsed_seconds": 0.336351,
+      "resource_usage": {
+        "child_max_rss_kib": 57976,
+        "child_cpu_user_seconds": 0.363691,
+        "child_cpu_system_seconds": 0.06707199999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "R4-cost-probe",
+      "purpose": "Independent raw record, frozen Config, lifecycle, integrity and equal-group budget audit; no new missions"
+    },
+    {
+      "run_id": "hpc-r4-cost-probe-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T08:49:34.127753+00:00",
+      "finished_at": "2026-10-19T08:49:46.947583+00:00",
+      "exit_code": 0,
+      "pid": 18900,
+      "elapsed_seconds": 12.819859,
+      "resource_usage": {
+        "child_max_rss_kib": 56188,
+        "child_cpu_user_seconds": 22.683343,
+        "child_cpu_system_seconds": 1.005573,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "simulation",
+      "stage": "R4-cost-probe",
+      "purpose": "24 cost-only missions across four previously unmeasured frozen A1 settings; no full campaign"
+    },
+    {
+      "run_id": "hpc-r4-cost-tests-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T08:48:24.550110+00:00",
+      "finished_at": "2026-10-19T08:48:27.056519+00:00",
+      "exit_code": 0,
+      "pid": 18575,
+      "elapsed_seconds": 2.506438,
+      "resource_usage": {
+        "child_max_rss_kib": 49272,
+        "child_cpu_user_seconds": 1.460347,
+        "child_cpu_system_seconds": 0.36887,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "R4-cost-probe",
+      "purpose": "Validate bounded four-setting cost scope, frozen provenance, budget weighting and executor regressions"
+    },
+    {
+      "run_id": "hpc-r4-preflight-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T07:39:38.892500+00:00",
+      "finished_at": "2026-10-19T07:39:41.054191+00:00",
+      "exit_code": 0,
+      "pid": 13391,
+      "elapsed_seconds": 2.161719,
+      "resource_usage": {
+        "child_max_rss_kib": 108056,
+        "child_cpu_user_seconds": 1.9249839999999998,
+        "child_cpu_system_seconds": 0.218194,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "R4-protocol-preflight",
+      "purpose": "Inventory actual paired seed sets and periodic candidate coverage for R4 planning; no new missions"
+    },
+    {
+      "run_id": "hpc-remaining-inventory-20261019",
+      "status": "completed",
+      "started_at": "2026-10-19T10:14:10.057075+00:00",
+      "finished_at": "2026-10-19T10:14:13.175749+00:00",
+      "exit_code": 0,
+      "pid": 26146,
+      "elapsed_seconds": 3.1187,
+      "resource_usage": {
+        "child_max_rss_kib": 113176,
+        "child_cpu_user_seconds": 2.199194,
+        "child_cpu_system_seconds": 0.32011999999999996,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "remaining-reproduction",
+      "purpose": "Count exact remaining original candidates/mission grids and document missing calibration procedure; no simulations"
+    },
+    {
+      "run_id": "infra-launch-roundtrip-20261019T065811Z",
+      "status": "completed",
+      "started_at": "2026-10-19T06:58:32.577638+00:00",
+      "finished_at": "2026-10-19T06:58:32.616520+00:00",
+      "exit_code": 0,
+      "pid": 8074,
+      "elapsed_seconds": 0.038902,
+      "resource_usage": {
+        "child_max_rss_kib": 21060,
+        "child_cpu_user_seconds": 0.024727,
+        "child_cpu_system_seconds": 0.035247,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "sync-infrastructure",
+      "purpose": "Validate local dispatch, immutable source snapshot and automatic verified pull; not GOSC R1"
+    },
+    {
+      "run_id": "infra-ledger-failure-20261019T065522Z",
+      "status": "failed",
+      "started_at": "2026-10-19T06:55:22.884177+00:00",
+      "finished_at": "2026-10-19T06:55:22.921164+00:00",
+      "exit_code": 3,
+      "pid": 7591,
+      "elapsed_seconds": 0.037005,
+      "resource_usage": {
+        "child_max_rss_kib": 19840,
+        "child_cpu_user_seconds": 0.022751999999999998,
+        "child_cpu_system_seconds": 0.020502,
+        "peak_gpu_memory": null
+      },
+      "kind": "infrastructure",
+      "stage": "sync-infrastructure",
+      "purpose": "Expected exit 3 fixture; validates ledger, not GOSC research"
+    },
+    {
+      "run_id": "infra-ledger-ok-20261019T065522Z",
+      "status": "completed",
+      "started_at": "2026-10-19T06:55:22.713584+00:00",
+      "finished_at": "2026-10-19T06:55:22.762550+00:00",
+      "exit_code": 0,
+      "pid": 7586,
+      "elapsed_seconds": 0.048991,
+      "resource_usage": {
+        "child_max_rss_kib": 22300,
+        "child_cpu_user_seconds": 0.137023,
+        "child_cpu_system_seconds": 0.043424,
+        "peak_gpu_memory": null
+      },
+      "kind": "infrastructure",
+      "stage": "sync-infrastructure",
+      "purpose": "Expected exit 0 fixture; validates ledger, not GOSC research"
+    }
+  ],
+  "note": "Execution completion and file-mirror completion are independent."
+}

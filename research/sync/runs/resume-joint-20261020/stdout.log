@@ -1,0 +1,4 @@
+pool 1: 500/1800
+pool 1: 1000/1800
+pool 1: 1500/1800
+joint: 1800 episodes in 1353s

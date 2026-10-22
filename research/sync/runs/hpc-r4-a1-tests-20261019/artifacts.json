@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-r4-a1-tests-20261019",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 3646,
+      "sha256": "dfd44e632cce291faea3460462034577e326d665cfe94550ebb04b8beee3a122"
+    }
+  ]
+}

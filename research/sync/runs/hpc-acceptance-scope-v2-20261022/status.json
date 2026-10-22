@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-acceptance-scope-v2-20261022",
+  "status": "completed",
+  "started_at": "2026-10-22T03:34:18.849727+00:00",
+  "finished_at": "2026-10-22T03:34:25.969609+00:00",
+  "exit_code": 0,
+  "pid": 32600,
+  "elapsed_seconds": 7.119913,
+  "resource_usage": {
+    "child_max_rss_kib": 679992,
+    "child_cpu_user_seconds": 6.724641,
+    "child_cpu_system_seconds": 0.33919099999999996,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

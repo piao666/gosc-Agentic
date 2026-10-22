@@ -1,0 +1,38 @@
+{
+  "checked_on": "2026-10-20",
+  "scope": "Primary sources only. Web search non-matches are not treated as proof of absence. API matching-refs confirms no public tags. Connector tag/fork endpoint restrictions are retained, not described as absent data.",
+  "sources": [
+    {
+      "url": "https://github.com/frezazadeh/gosc-agentic-teams",
+      "claim": "README declares1000-1079 calibration and minimum Python3.9; M1 is timing context only, not full provenance"
+    },
+    {
+      "url": "https://api.github.com/repos/frezazadeh/gosc-agentic-teams/commits?per_page=100",
+      "claim": "Three public reachable commits, latest387b493"
+    },
+    {
+      "url": "https://api.github.com/repos/frezazadeh/gosc-agentic-teams/git/matching-refs/tags/",
+      "claim": "Empty public tags namespace"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.39477#S5.SS1",
+      "claim": "V-A declares fixed calibration hyperparameters and disjoint seeds; no executable calibration search record recovered"
+    },
+    {
+      "url": "https://numpy.org/doc/2.4/reference/random/compatibility.html",
+      "claim": "Generator stream reproduction requires same call sequence/arguments, build, environment and machine; same seed alone is insufficient"
+    },
+    {
+      "url": "https://numpy.org/neps/nep-0038-SIMD-optimizations.html",
+      "claim": "SIMD implementation guidance permits limited ULP changes; not evidence of which build author used"
+    },
+    {
+      "url": "https://docs.python.org/3.11/library/functions.html#sorted",
+      "claim": "Built-in sorted stable for exactly equal keys; does not make adjacent floating keys equal"
+    },
+    {
+      "url": "https://numpy.org/doc/2.0/release/2.0.0-notes.html#minor-changes-in-behavior-of-sorting-functions",
+      "claim": "Unstable NumPy sorting changes do not identify this planner/scheduler case: residual ordering uses Python sorted, not np.argsort"
+    }
+  ]
+}

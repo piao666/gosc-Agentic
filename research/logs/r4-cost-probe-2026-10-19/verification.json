@@ -1,0 +1,30 @@
+{
+  "status": "verified",
+  "runtime_files_and_receipts_verified": 280,
+  "running_tasks": 0,
+  "protected_inputs_unchanged": true,
+  "both_preregistrations_unchanged": true,
+  "local_runtime_files_verified": 263,
+  "all_outputs_mirrored": true,
+  "latest_pull_receipt": "research/sync/receipts/20261019T085053Z-2cb4bb.json",
+  "run_checks": {
+    "hpc-r4-cost-tests-20261019": {
+      "status": "completed",
+      "artifacts_verified": 1
+    },
+    "hpc-r4-cost-probe-20261019": {
+      "status": "completed",
+      "artifacts_verified": 13
+    },
+    "hpc-r4-cost-audit-20261019": {
+      "status": "completed",
+      "artifacts_verified": 1
+    }
+  },
+  "hpc_tests_passed": 17,
+  "scientific_missions_completed": 24,
+  "complete_pairs": 12,
+  "full_campaign_started": false,
+  "training_started": false,
+  "source_sync_note": "Final documentation upload follows this runtime verification; see .local/hpc-sync/latest_receipt.json for source digest verification."
+}

@@ -1,0 +1,30 @@
+{
+  "as_of_utc": "2026-10-22T03:15:02.230691+00:00",
+  "report": "research/reports/final_reproduction_audit_2026-10-22.md",
+  "delivery": {
+    "verified_at_utc": "2026-10-22T03:15:02.230691+00:00",
+    "scope": "All registered run-store files listed by final pull; model weights/private PDFs excluded",
+    "receipt": "research/sync/receipts/20261022T030908Z-0946b2.json",
+    "receipt_sha256": "b656ac1c7a93e45eb5a2e6c06f68e3ce91725c084c777f8cda6532d20f74a535",
+    "files_verified": 1345,
+    "all_outputs_mirrored": true,
+    "local_sha256_mismatches": [],
+    "receipt_sha256_matches_hpc": true,
+    "new_live_response_snapshot_included": true
+  },
+  "integrity": "verified",
+  "historical_consistency": "partial",
+  "author_cached_replay": "blocked_missing_keys",
+  "new_live_replay": "570_of570_selected_metrics_match",
+  "training": "not_started",
+  "audit_runs": [
+    "hpc-post-campaign-audit-20261022",
+    "hpc-cache-gap-probe-20261022",
+    "hpc-final-coverage-audit-20261022",
+    "hpc-final-coverage-audit-v2-20261022",
+    "hpc-live-llm-tables-20261022"
+  ],
+  "coverage_v1": "retained_superseded_compressed_reference_mapping",
+  "protected_git_diff": [],
+  "visual_pdf_audit": "not_performed"
+}

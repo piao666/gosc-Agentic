@@ -1,0 +1,15 @@
+{
+  "run_id": "hpc-receiver-protocol-20261022",
+  "files": [
+    {
+      "path": "outputs/preflight.json",
+      "size": 163,
+      "sha256": "34a8a7d7c81bc8b30025ace137e26a41359fa0c4e4640785ac0774741cffc527"
+    },
+    {
+      "path": "outputs/protocol.json",
+      "size": 314571,
+      "sha256": "ce6c12e4f46abf4c7f427bf869e15897205a0fbd60e5810fe80d5ed142c467fc"
+    }
+  ]
+}
