@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-sync-cost-review-contract-v2-20261023",
+  "status": "completed",
+  "started_at": "2026-10-23T07:39:19.232201+00:00",
+  "finished_at": "2026-10-23T07:39:20.354266+00:00",
+  "exit_code": 0,
+  "pid": 54258,
+  "elapsed_seconds": 1.122086,
+  "resource_usage": {
+    "child_max_rss_kib": 52648,
+    "child_cpu_user_seconds": 1.003366,
+    "child_cpu_system_seconds": 0.124626,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

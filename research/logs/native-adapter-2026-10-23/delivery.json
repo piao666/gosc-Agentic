@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-23",
+  "git_commit_push": "not_performed",
+  "N_power_budget_frozen": false,
+  "pull_receipt": "research/sync/receipts/20261023T063704Z-c51c41.json",
+  "remaining": "Strong periodic baseline, event-indexed paired noise, independent cost/calibration budget and world/N/power freezing",
+  "trace_max_slots": 4,
+  "tests_run": "hpc-native-adapter-contract-20261023",
+  "paid_task_effect_tested": false,
+  "trace_cases": 3,
+  "trace_run": "hpc-native-adapter-trace-20261023",
+  "scope": "Native semantic codec/wire-size options/local receipt short-loop contracts",
+  "source_manifest_sha256": "779db192570194d9e40898d54f04be96fdb56e7ac144c34ba202df8b41d2e5ca",
+  "new_independent_N": 0,
+  "receipt_note": "Summary transmitted separately after source sync; self hash checked externally",
+  "source_sync": {
+    "status": "verified",
+    "remote_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "head": "4ff4147654c07781d77a42acee3f31c0b8792f38",
+    "file_count": 430,
+    "changed_count": 7,
+    "sha256_mismatches": [],
+    "sync_id": "20261023T064025Z",
+    "remote_only_files": "preserved",
+    "text_line_endings": "LF"
+  },
+  "status": "completed_supported_adapter_contract_stage",
+  "test_wall_seconds": 34.196541,
+  "all_outputs_mirrored": true,
+  "passed": 145
+}

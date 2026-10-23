@@ -1,0 +1,25 @@
+{"seed": 19000000, "case": "public_tom", "matched": true, "seconds": 0.9508184194564819}
+{"seed": 19000000, "case": "paid_pose", "matched": true, "seconds": 2.5392373874783516}
+{"seed": 19000001, "case": "public_tom", "matched": true, "seconds": 7.397744916379452}
+{"seed": 19000001, "case": "paid_pose", "matched": true, "seconds": 10.022509783506393}
+{"seed": 19000002, "case": "public_tom", "matched": true, "seconds": 3.4919436797499657}
+{"seed": 19000002, "case": "paid_pose", "matched": true, "seconds": 12.26236042380333}
+{"seed": 19000003, "case": "public_tom", "matched": true, "seconds": 1.3120154216885567}
+{"seed": 19000003, "case": "paid_pose", "matched": true, "seconds": 1.5494354590773582}
+{"seed": 19000004, "case": "public_tom", "matched": true, "seconds": 1.8502157106995583}
+{"seed": 19000004, "case": "paid_pose", "matched": true, "seconds": 2.41424959897995}
+{"seed": 19000005, "case": "public_tom", "matched": true, "seconds": 17.555489525198936}
+{"seed": 19000005, "case": "paid_pose", "matched": true, "seconds": 18.783824130892754}
+{"seed": 19000006, "case": "public_tom", "matched": true, "seconds": 2.259633347392082}
+{"seed": 19000006, "case": "paid_pose", "matched": true, "seconds": 2.749471753835678}
+{"seed": 19000007, "case": "public_tom", "matched": true, "seconds": 0.5772399008274078}
+{"seed": 19000007, "case": "paid_pose", "matched": true, "seconds": 1.452277585864067}
+{"seed": 19000008, "case": "public_tom", "matched": true, "seconds": 1.1163908764719963}
+{"seed": 19000008, "case": "paid_pose", "matched": true, "seconds": 12.182730600237846}
+{"seed": 19000009, "case": "public_tom", "matched": true, "seconds": 6.667620420455933}
+{"seed": 19000009, "case": "paid_pose", "matched": true, "seconds": 3.534497119486332}
+{"seed": 19000010, "case": "public_tom", "matched": true, "seconds": 1.8199635297060013}
+{"seed": 19000010, "case": "paid_pose", "matched": true, "seconds": 2.024719439446926}
+{"seed": 19000011, "case": "public_tom", "matched": true, "seconds": 2.1603624373674393}
+{"seed": 19000011, "case": "paid_pose", "matched": true, "seconds": 7.197621785104275}
+{"status": "review_completed_original_results_exact", "matches": 24, "counts": {"valuation_decisions": 3927, "peer_opportunities": 19635, "peer_reasons": {"absent": 435, "newer_same_position": 258, "newer_changed_position": 13259, "expired_or_not_arrived": 5633, "not_newer": 50}, "decisions_with_changed_pose": 3789, "decisions_with_exact_value_change": 3351, "decisions_with_material_value_change": 3116, "decisions_with_selection_change": 414, "decisions_with_payload_choice_change": 411, "decisions_with_no_options": 0, "value_options_by_kind": {"EVID": {"options": 15708, "exact_changed": 9854, "material_changed": 5950, "both_zero": 5444}, "INTENT": {"options": 18395, "exact_changed": 6825, "material_changed": 4677, "both_zero": 10690}, "CONF": {"options": 665, "exact_changed": 0, "material_changed": 0, "both_zero": 0}}, "stored_peer_age_slots": {"N_events": 19200, "mean": 23.876041666666666, "p50": 8.0, "p90": 70.0, "max": 195.0}, "changed_peer_age_slots": {"N_events": 13259, "mean": 7.543630741383211, "p50": 6.0, "p90": 14.0, "max": 20.0}, "replaced_native_age_slots": {"N_events": 13259, "mean": 89.65789275209292, "p50": 84.0, "p90": 170.0, "max": 231.0}, "decisions_with_changed_pose_fraction": 0.9648586707410237, "decisions_with_material_value_change_fraction": 0.7934810287751464, "decisions_with_selection_change_fraction": 0.10542398777692895, "decisions_with_payload_choice_change_fraction": 0.10466004583651642}, "accounting_mean": {"direct_summary_UL": 19308.0, "direct_summary_DL": 16087.333333333334, "task_UL_difference": 1274.25, "task_DL_difference": 5830.333333333333, "total_uses_difference": 42499.916666666664, "completion_time_difference": 1.5}}

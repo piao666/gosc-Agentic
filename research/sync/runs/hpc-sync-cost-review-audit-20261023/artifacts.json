@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-sync-cost-review-audit-20261023",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 13952,
+      "sha256": "ba43896b4ef425fbf828c1c260e6a29471812ec9c03c201cfb50612d1f562d41"
+    }
+  ]
+}

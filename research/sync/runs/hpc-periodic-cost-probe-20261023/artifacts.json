@@ -1,0 +1,135 @@
+{
+  "run_id": "hpc-periodic-cost-probe-20261023",
+  "files": [
+    {
+      "path": "outputs/18000000-aoi.json",
+      "size": 2404,
+      "sha256": "ddf6cc043daedf615347e80aad2440b17633dd8acec76328ae35accad9987fc6"
+    },
+    {
+      "path": "outputs/18000000-bits.json",
+      "size": 2416,
+      "sha256": "135f31454476aa600d6f00c07a00703405cd38afdb089f6f549bcec070fb33a0"
+    },
+    {
+      "path": "outputs/18000000-paid_pose.json",
+      "size": 2426,
+      "sha256": "7349c83024c6893f3b179da9d2447ab43b9786977596e4e48574883b88391907"
+    },
+    {
+      "path": "outputs/18000000-periodic_k1_eps0.0.json",
+      "size": 2443,
+      "sha256": "31f75bae7ca44ab1e2be68fd255614490b0be3ea5d341cd883fef78d9f1751a8"
+    },
+    {
+      "path": "outputs/18000000-periodic_k1_eps0.02.json",
+      "size": 2454,
+      "sha256": "da1a8fd5edd50e75c4a297f65b197c49e8ca2d0a6169b966a614f21eebf4d5db"
+    },
+    {
+      "path": "outputs/18000000-periodic_k2_eps0.0.json",
+      "size": 2451,
+      "sha256": "55863a2d09a02919d395691fe0c179aa5843aa1920b33b35d6e0fb1d81be453b"
+    },
+    {
+      "path": "outputs/18000000-periodic_k2_eps0.02.json",
+      "size": 2446,
+      "sha256": "ab631bc0b41d069e07d1f86ad213d09d8609003f564ece0f4b595c44aeea1986"
+    },
+    {
+      "path": "outputs/18000000-periodic_k4_eps0.0.json",
+      "size": 2450,
+      "sha256": "aec2bc715ea385df87b3dca95cc7548da0df7dfbb4f638633b87c2cd30136862"
+    },
+    {
+      "path": "outputs/18000000-periodic_k4_eps0.02.json",
+      "size": 2453,
+      "sha256": "525ea3e23d440cf6c45f184a05733635a61e4305dcf41699aa12af57c1a409ab"
+    },
+    {
+      "path": "outputs/18000000-periodic_k8_eps0.0.json",
+      "size": 2441,
+      "sha256": "7e6de7f0fbf8e287214b7424c7762ca0c95d43a5209d6b76280a4de27c0b25f9"
+    },
+    {
+      "path": "outputs/18000000-periodic_k8_eps0.02.json",
+      "size": 2453,
+      "sha256": "89f03987578fee80ba2acf7435217fa0a2ca1712026e2b71139b256fe83bbbc3"
+    },
+    {
+      "path": "outputs/18000000-public_tom.json",
+      "size": 2427,
+      "sha256": "7a2664691b71082a4950e7852abaf863ab34f95208e13f015f0802c35bc1e4f8"
+    },
+    {
+      "path": "outputs/18000001-aoi.json",
+      "size": 2411,
+      "sha256": "2561b6519d7c07aebed20ae8afcef3290b532458c60c88471ee6bdf23c8714ff"
+    },
+    {
+      "path": "outputs/18000001-bits.json",
+      "size": 2417,
+      "sha256": "c63722bb71d9c9b37e3c0d2fc53ff51f1edf51f963efc28970ea6485b531e88e"
+    },
+    {
+      "path": "outputs/18000001-paid_pose.json",
+      "size": 2427,
+      "sha256": "e34df4d007ac1178dd9a9e183d39c2ae86800cce683a52585e2cdd564aa9211d"
+    },
+    {
+      "path": "outputs/18000001-periodic_k1_eps0.0.json",
+      "size": 2450,
+      "sha256": "e58d41701440561f69ad4735e1d63fc54935445df9c4870d6c958d3e2932822d"
+    },
+    {
+      "path": "outputs/18000001-periodic_k1_eps0.02.json",
+      "size": 2454,
+      "sha256": "9e71690a9adbc593adafd73ae39698d2f5d9ad9c107e8565ce5ad89560d358e2"
+    },
+    {
+      "path": "outputs/18000001-periodic_k2_eps0.0.json",
+      "size": 2448,
+      "sha256": "feb8803b7dc1f3cdba1518a73f98758319dddce9c45fb9dee90e312f4f090ec5"
+    },
+    {
+      "path": "outputs/18000001-periodic_k2_eps0.02.json",
+      "size": 2453,
+      "sha256": "ab084335166a09963fdf7cdae58bcaa23956ad9cdf0b6e624e3d49b0f09fb220"
+    },
+    {
+      "path": "outputs/18000001-periodic_k4_eps0.0.json",
+      "size": 2451,
+      "sha256": "315885ca8d3779cf2139644549021460af3e3301e3dec1c178b4bd28687113ce"
+    },
+    {
+      "path": "outputs/18000001-periodic_k4_eps0.02.json",
+      "size": 2454,
+      "sha256": "8729a30b5aa7fe3e00f57d92d0d71444bb91e575b6961cfa17b5ee9ebe7fd2af"
+    },
+    {
+      "path": "outputs/18000001-periodic_k8_eps0.0.json",
+      "size": 2450,
+      "sha256": "ffbdac2bc899848e15ba3a41faa00614bb1c32a4fd1903cafb52a138a53eefc2"
+    },
+    {
+      "path": "outputs/18000001-periodic_k8_eps0.02.json",
+      "size": 2453,
+      "sha256": "d0fd750cc8d074de69b75815ab365cf694c2a5664d47307f7f6de139d24aa158"
+    },
+    {
+      "path": "outputs/18000001-public_tom.json",
+      "size": 2428,
+      "sha256": "b0f00868a3d08b55f7a4dfbb349858fb7133df1cca45933a28d2d8f49f7e804b"
+    },
+    {
+      "path": "outputs/budget.json",
+      "size": 877,
+      "sha256": "0a073d6922a7a08b22c4745e5c9132129e437298c5f3ac7126bddd172addf51f"
+    },
+    {
+      "path": "outputs/results.json",
+      "size": 63051,
+      "sha256": "4560f049bd96f87762c907fb8da6cc53cb19e1d57b9275c0487ced7192fe109b"
+    }
+  ]
+}

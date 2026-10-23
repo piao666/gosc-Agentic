@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-pose-contract-tests-20261023",
+  "status": "completed",
+  "started_at": "2026-10-23T02:07:39.719539+00:00",
+  "finished_at": "2026-10-23T02:08:14.556950+00:00",
+  "exit_code": 0,
+  "pid": 31544,
+  "elapsed_seconds": 34.837434,
+  "resource_usage": {
+    "child_max_rss_kib": 62260,
+    "child_cpu_user_seconds": 34.223326,
+    "child_cpu_system_seconds": 0.529393,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

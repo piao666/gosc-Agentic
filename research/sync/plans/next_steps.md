@@ -1,3 +1,85 @@
+# 下一步（2026-10-23同步成本/估值改变率审查后）
+
+归档更新：实现/文档/运行元数据及R2/R3白名单包随[当日本地提交说明](../../../commit/2026-10-23-01-paid-pose-calibration-and-cost-review.md)归档，未push；下方前序任务中的“未提交”保留历史时点含义。当前No-Go不变。
+
+[RUN] [最新审查](../../reports/sync_cost_value_review_2026-10-23.md)：最终51合同通过，24/24观察回放原结果完全匹配，独立审计及主统计版本一致性通过。观察两版共48条重复记录，只用v2统计，新独立N=0。辅助同slot接收计数修正、v1记录保留。
+
+1. 摘要不是未接入：3927次估值中96.49%改变pose投影、79.35%改变超过诊断容差的期望价值、10.54%改变选包。该漏斗不代表真实reward或因果任务净收益。
+2. 下一优先为统一task/summary反馈时钟与CPU可见边界：4503条summary反馈实际2slot而RTO1slot。不得用未来实际ACK设置超时；协议变更所有对照一致。
+3. 再审查有界catchup：盲目task历史重播占paid DL77.46%，重复task接收94.55%；但DL排队p90=1slot/max3，不能声称严重排队致退化。若需receiver反馈须真实计费，禁止免费窥探接收者状态。
+4. 这些是待实施建议；当前正式test、扩N、训练仍No-Go。原校准/样本/price/服务未改，R2/R3包及本轮资产未Git提交/推送。实施服务协议修订需另立有界关卡，不自动启动效果实验。
+
+---
+
+以下保留前一任务快照：
+
+# 下一步（2026-10-23同格式periodic/CRN独立校准后）
+
+[RUN] [最新报告](../../reports/periodic_crn_calibration_2026-10-23.md)：156HPC测试、24成本probe、144校准任务（独立N12）与独立产物审计已完成并回传。10个简单候选选中periodic k8/eps0；付费pose相对其平均多3.8333slot、成本比1.426004，相对public-ToM多1.5slot、成本比1.357991。探索性小样本，不能宣称普遍无效。
+
+1. **当前No-Go**：任务均值无改善且成本超阈值，规划N15419也超事前200world上限。未冻结可执行test N/预算，预留test未运行，不追加样本、训练或切任务。
+2. 先向用户报告负结果，后续优先审查已有账本：摘要新鲜覆盖/估值实际改变率、UL重试与DL历史catchup/等待成本。当前数据不支持单一机制归因；不以终点cache非空推断有效估值改变。
+3. 价格/DL/CPU/协议修改或新增消融需明确为何能解释问题并另立有界方案；完整成本前沿、age/shuffle/paid-ignore等消融及部署时钟仍未验收。当前不自动启动。
+4. R2/R3包及本轮源/报告未Git提交/推送；0新增LLM/API/下载/训练。
+
+---
+
+以下为前序任务快照：
+
+# 下一步（2026-10-23原生适配验收后）
+
+[RUN] [原生适配](../../reports/native_adapter_progress_2026-10-23.md)已通过HPC145测试及3份重复短fixture原始账本。原生语义→GP-v1 wire→真实长度选包→付费服务→局部接收→下一slot规划闭环已在支持范围内接通；不是作者旧wire精确复现或收益实验。
+
+1. 下一步在相同wire/服务/任务下补强periodic基线和事件索引配对噪声，不能只拿已有bits/AoI就宣称最强M0已齐。
+2. 再准备有上限的成本探测/独立calibration预算，查重新world并排除已曝光合同seed16000000–16000002等；以方差/功效冻结N、比较族、成本前沿和一次test。
+3. 目前未运行收益campaign、LLM或训练，复杂训练No-Go，Git未提交/推送。新wire、自描述记录与stop-and-wait/历史重播的代价和拥塞须披露。
+
+---
+
+以下保留上一任务完成时快照：
+
+# 下一步（2026-10-23字节服务合同验收后）
+
+[RUN] 付费UL→edge→共享容量DL→接收CPU→pose cache已在显式bytes服务内核接通，HPC128测试通过；首轮账本缺零值字段失败保留。见[报告](../../reports/paid_service_progress_2026-10-23.md)。不将此阶段称为原GOSC任务完整闭环。
+
+1. 下一步完成原生CONF/INTENT/EVID wire适配、真实长度下的options/prefix和接收后View/ledger更新；不能只给bit账本加CRC。
+2. 服务模型已有可配置UL/DL/CPU队列与时钟；实际部署参数未校准。DL分slot账本不等于真实分片PHY。
+3. 对照与停止规则见[效果设计](../../protocols/paid_service_effect_design_v1.md)。新world先查重，N按独立calibration方差/功效确定，不复用旧test救结果；精确样本与预算未冻结。
+4. 当前无任务收益campaign、LLM或训练；复杂训练No-Go；Git未提交/推送。
+
+---
+
+以下保留上一步完成时快照：
+
+# 下一步（2026-10-23最小接口HPC合同验收后）
+
+[RUN] 交付包、最小接口和合同验收已完成；详见[报告](../../reports/minimal_interface_delivery_2026-10-23.md)。HPC129测试通过（85原生+26新增+18既有codec），独立stdlib入口核验源码/47份交付哈希通过。两个run均退出0并已完整回传；无LLM/训练/效果campaign。
+
+1. R2/R3白名单包已准备（47文件/1,330,880bytes，原TableVI补件单列），尚未Git提交/推送；原run outputs不强制入Git。
+2. 已实现：每observer送达pose cache、原生EVID可见时间ledger、两条估值路径的只读投影、RTT未决attempt/新代/旧ACK/TTL/预算状态机。仅默认exact/H0合同范围，尚无完整paid任务系统。
+3. 下一工程任务是将付费UL→edge→有容量/延迟/丢失的DL→本地cache接成统一服务链，给原task与summary相同H/CRC与服务规则。还需事件/合并/捎带对照，不能把现有单lane合同冒充完整传输验证。
+4. 再冻结age/direct-refresh规则、M0和shuffle对照、新world排除清单（含合同seed15000000–15000002）、N/功效/比较族、成本前沿与HPC预算。DL/CPU时钟和这些设计未完成前，效果实验不启动。
+5. 复杂训练No-Go；P1原校准/cache/历史差异继续保留。不会根据旧test追加样本救结果。
+
+---
+
+以下为上一步静态审查完成时快照：
+
+# 下一步（2026-10-23静态协议审查后）
+
+[CODE] 当前入口：[研究导航](../../README.md)；[协议审阅稿](../../protocols/receiver_summary_minimal_protocol_v1.md)。本轮未新增科学运行、同步或Git提交；HPC实时进程未重新核验。
+
+1. 已完成文档工作：统一入口、分离23阶段当前计数与续跑前快照，标明说明书/README的旧状态和本地计算示例。
+2. 已完成静态审查：RTT未决attempt与latest pending分离；事件生成不重置timer；快照合并与catch-up单列；捎带改变packet尺寸/率/成功概率，暂不纳入首个task主比较。
+3. 最小候选只用已送达、TTL内且比本地EVID位置更鲜的pose更新估值副本；不改Planner、不开oracle、不消费三bit桶。原生EVID的本地时间ledger是前置条件。
+4. 待实施合同：权限、无cache回退、两条build_groups、乱序/旧ACK/expiry/右截断和完整字节账本。后续测试只能在HPC运行；本轮未实现策略。
+5. 执行前仍须冻结DL容量/等待与计算时钟、age/direct-refresh对照、新world/seed、N/功效/比较族、成本前沿、源码SHA和HPC预算。review_candidate不等于可执行预登记或实验授权。
+6. 复杂训练No-Go；P1原校准/cache/历史差异独立保留，不盲目重跑或追加样本。
+
+---
+
+以下保留2026-10-22制定时快照，非当前待办完成状态：
+
 # 下一步（2026-10-22摘要信息与条件同步成本核查后）
 
 [RUN] 本轮核查已完成；23测试、4对原策略/观测完整轨迹、4条补payload观测、96组通信回放及独立审计通过。复杂训练No-Go；当前没有自动排程。

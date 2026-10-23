@@ -14,6 +14,18 @@
 
 ## A. 启动协议（每次会话和每个开发任务）
 
+本地Git归档（2026-10-23）：用户授权一次本地提交，归档当日实现/报告/运行元数据及47份R2/R3白名单副本，说明commit/2026-10-23-01-paid-pose-calibration-and-cost-review.md。未push，不新增HPC计算；旧日志“未提交”保留当时含义。实际提交身份通过Git历史关联，不回填历史run或自身说明哈希。下一步研究关卡仍是反馈/CPU时钟及有界catchup，非扩N/训练。
+
+最新同步成本/估值审查（2026-10-23）：最终51合同通过；v2观察24/24完整result精确匹配原校准，两版主要统计一致，辅助同slot重复计数已修正、旧记录保留。3927次估值中96.49%改变投影、79.35%改变超过诊断容差的候选价值、10.54%改变选包；直接摘要账本占额外资源83.28%，实际反馈2slot而RTO1slot，task盲目历史重播占paid DL77.46%。两版48条均是原12world重复，新独立N0。原No-Go维持，未改服务/price/原结果/样本；下一步先审查统一反馈/CPU时钟与有界catchup，非扩N/训练。入口：[sync_cost_value_review_2026-10-23.md](research/reports/sync_cost_value_review_2026-10-23.md)。
+
+最新periodic/CRN校准（2026-10-23）：HPC156测试、24成本probe、144校准任务（独立N12）和独立产物审计完成并回传；两个合同失败run保留。选中periodic k8/eps0；paid-pose相对其平均多3.8333slots、UL+DL成本比1.426004，相对public-ToM多1.5slots、成本比1.357991。探索性结果触发预设No-Go，规划N15419>200上限；未冻结可执行test N/预算，预留test任务0次。不得扩N救结果或自动训练。入口：[periodic_crn_calibration_2026-10-23.md](research/reports/periodic_crn_calibration_2026-10-23.md)。下方是前序快照。
+
+最新原生适配（2026-10-23）：GP-v1原生任务语义编码、实际帧长候选和局部接收短闭环通过HPC145测试，3份同世界4slot原始trace已保存；非作者旧wire精确复现，未运行收益campaign/训练。下一步强periodic基线、事件索引CRN，再预算化独立校准与新world/N/功效冻结。[报告](research/reports/native_adapter_progress_2026-10-23.md)。旧段落保留各阶段历史含义。
+
+最新实现验收（2026-10-23）：R2/R3交付包47份SHA一致副本已准备、未Git提交/推送；最小pose/ledger/双路径估值与单lane RTT合同已实现，HPC129测试及独立文件审计通过。未运行paid任务效果或训练；下一步先完成统一UL/DL/CPU服务成本与对照/样本/预算冻结。报告：[minimal_interface_delivery_2026-10-23.md](research/reports/minimal_interface_delivery_2026-10-23.md)。下方“本轮只做静态”指上一任务快照。
+
+当前统一入口（2026-10-23文档/静态审查）：[research/README.md](research/README.md)；[协议审阅稿](research/protocols/receiver_summary_minimal_protocol_v1.md)。科学证据仍截至2026-10-22，本轮未启动实验、训练或远端同步。review_candidate不是已冻结可执行预登记；旧状态段落保留历史含义。
+
 1. 先读本文件、研究总说明书、`README.md`、最近一次 `research/logs/` 任务记录和待解决问题。
 2. 执行/检查（仅只读）：`git status --short`、`git rev-parse HEAD`、`git remote -v`；本地源码根目录 `E:\gosc`，HPC 运行根目录 `/home/u202520081000097/jupyterlab/Paper/gosc`。测试/训练前使用 `ssh hpc` 核验远端身份、项目路径、Python 环境、资源配额和同步 manifest；按 E1 节强制在 HPC 执行。
 3. 如果工作区存在用户未提交修改，**不要 reset/checkout/clean/覆盖/重命名**；先解释其意义并请求处理方案。

@@ -1,0 +1,18 @@
+{
+  "status": "frozen_before_contract_tests",
+  "date": "2026-10-23",
+  "base_commit": "4ff4147654c07781d77a42acee3f31c0b8792f38",
+  "scope": "Byte-service kernel and inherited pose/RTT contracts, not native task outcome",
+  "execution_host": "hpc",
+  "timeout_seconds": 300,
+  "workers": 1,
+  "numeric_threads": 1,
+  "new_llm_calls": 0,
+  "training": false,
+  "fixtures": "Synthetic byte traffic only; no new task campaign or independent N",
+  "clock": "Explicit slot_seconds and encode/decode_seconds are test scenario assumptions, not measured hardware latency",
+  "tests": ["tests", "tests_ext/test_receiver_pose_interface.py", "tests_ext/test_receiver_rtt_contract.py", "tests_ext/test_paid_receiver_service.py"],
+  "go": "All contracts pass; source/input protection; finite budget, timestamp and right-censor invariants",
+  "stop": "Failure preserves run and halts task effects; no local fallback",
+  "unresolved": ["Native task wire adapter", "Native task/summary service integration", "Calibrated deployment clocks and DL scenario", "New world deduplication", "Calibration variance for N/power", "Cost-matched operating points"]
+}

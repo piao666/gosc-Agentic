@@ -1,0 +1,15 @@
+[
+  {
+    "argv": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-c",
+      "from pathlib import Path\nimport dataclasses,json,sys,time\nfrom gosc import Config,run_episode\nout=Path(sys.argv[1]);seed=int(sys.argv[2]);cfg=Config()\nassert not cfg.llm_agents\nt=time.monotonic();result=run_episode(cfg,'gosc',seed,record_traj=True)\nassert len(result['curve'])==cfg.max_steps\nassert 0<result['completion_time']<=cfg.max_steps\nassert 0<=result['found']<=cfg.n_victims\nassert result['symbols']>=0 and result['bits']>=0\n(out/'mission.json').write_text(json.dumps({'scheme':'gosc','seed':seed,'config':dataclasses.asdict(cfg),'elapsed_seconds':time.monotonic()-t,'result':result},indent=2))\nprint(json.dumps({k:result[k] for k in ['completed','completion_time','found','symbols','bits','false_declarations']}))\n",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-r3-20261019/outputs",
+      "3000"
+    ],
+    "cwd": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "exit_code": 0,
+    "elapsed_seconds": 1.3740044459700584,
+    "timeout_seconds": 180
+  }
+]

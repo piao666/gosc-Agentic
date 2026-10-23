@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-sync-cost-review-contract-20261023",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 7122,
+      "sha256": "e8aa6457d5df4168cbb378992eac3cd9a8088967b9974dfaddea5f5f37269c27"
+    }
+  ]
+}

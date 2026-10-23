@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-23",
+  "task": "Synchronization cost and actual value/selection-change review",
+  "git_head": "4ff4147654c07781d77a42acee3f31c0b8792f38",
+  "report": "research/reports/sync_cost_value_review_2026-10-23.md",
+  "final_source_sync_id": "20261023T075400Z",
+  "final_source_files": 447,
+  "final_source_sha256_mismatches": 0,
+  "runs": [
+    {
+      "run_id": "hpc-sync-cost-review-contract-20261023",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 1.274556
+    },
+    {
+      "run_id": "hpc-sync-cost-review-replay-20261023",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 125.882817
+    },
+    {
+      "run_id": "hpc-sync-cost-review-audit-20261023",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.504926
+    },
+    {
+      "run_id": "hpc-sync-cost-review-contract-v2-20261023",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 1.122086
+    },
+    {
+      "run_id": "hpc-sync-cost-review-replay-v2-20261023",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 124.881263
+    },
+    {
+      "run_id": "hpc-sync-cost-review-audit-v2-20261023",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.483015
+    }
+  ],
+  "receipt": "research/sync/receipts/20261023T075044Z-1372cc.json",
+  "all_outputs_mirrored": true,
+  "outputs_bytes_downloaded": 29327947,
+  "new_independent_N": 0,
+  "repeated_original_worlds": 12,
+  "final_original_result_matches": 24,
+  "total_replays_both_observer_versions": 48,
+  "principal_metrics_equal_between_observer_versions": true,
+  "auxiliary_counter_correction_recorded": true,
+  "original_policy_and_calibration_unchanged": true,
+  "NoGo_retained": true,
+  "reserved_test_run": false,
+  "training": false,
+  "new_llm_calls": 0,
+  "github_commit_or_push": false,
+  "file_sha256": {
+    "extensions/sync_cost_diagnostic.py": "a5954634fc048165b9ed3d05ce244f840a200c79a81dc31f78b85d598194f136",
+    "scripts/review_sync_cost.py": "657a179ef44a597c4a0eeb1e8f71237e4906a44887be9ac928d1e4e39f448043",
+    "scripts/audit_sync_cost_review.py": "4dc152f93fbb04baa9bfd64dd82b94e51bd445c8a5ebce3f82ed8247afde2937",
+    "tests_ext/test_sync_cost_diagnostic.py": "97bda2f7947ffc953640a31ab39def5c58dc9474eec3761a3b2984f102ae3748",
+    "research/protocols/sync_cost_review_v1.json": "e2e5a593373378c967f32437a573ef95d6dc2dcfc395d413390ff9574ec15d69",
+    "research/logs/sync-cost-review-2026-10-23/task_brief.md": "f8b474cf1334b9d628715241386a97d584c7691d0be1aa6d259a3f182317041d",
+    "research/reports/sync_cost_value_review_2026-10-23.md": "803817e026e04a278574448e5219acb81ecde6277a267b75c282720dc4da6559"
+  },
+  "note": "Source/report sync verified. This delivery summary is copied separately and checked with sha256sum. Both observer versions and raw outputs retained; final statistics use v2 only. Scientific tests/replay/analysis ran solely in registered HPC runs."
+}

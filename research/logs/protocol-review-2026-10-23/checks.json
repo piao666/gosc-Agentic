@@ -1,0 +1,225 @@
+{
+  "date": "2026-10-23 Asia/Shanghai",
+  "scope": "Local lightweight document/JSON/link/Git checks; not scientific tests or HPC validation",
+  "base_commit": "4ff4147654c07781d77a42acee3f31c0b8792f38",
+  "initial_worktree_clean": true,
+  "commands": [
+    "git status --short",
+    "git rev-parse HEAD",
+    "git remote -v",
+    "Get-Content / rg static source reads",
+    "ConvertFrom-Json research/sync/project_status.json",
+    "Test-Path local links in four new Markdown files",
+    "git -c core.autocrlf=false diff --check",
+    "git diff --name-only -- protected paths",
+    "rg summary-field consumers in scripts/tests_ext",
+    "trailing-whitespace scan of four new Markdown files",
+    "git diff --check with repository line-ending configuration (final authoritative check)"
+  ],
+  "json_parse": "passed",
+  "phase_counts": {
+    "assessed": 23,
+    "completed_execution": 22,
+    "failed_execution": 1,
+    "pending_continuation": 0,
+    "total_original_stages": 23,
+    "note": "Final stage outcomes; retained earlier failed attempts are not additional stages."
+  },
+  "protocol_status": "review_candidate_not_implemented_not_run",
+  "diff_check_exit": 0,
+  "diff_check_output": [
+    "warning: in the working copy of 'AGENTS.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/ideas/RQ_v2.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/literature/Open-Questions.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/protocols/README.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/plans/next_steps.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/project_status.json', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of '硕士论文研究与实施说明书.md', LF will be replaced by CRLF the next time Git touches it"
+  ],
+  "protected_tracked_changes": [],
+  "summary_field_consumers": [],
+  "consumer_search_exit": 1,
+  "consumer_search_scope": "scripts/ and tests_ext/ only; exit1 means no matches, no external consumer guarantee",
+  "markdown_links": [
+    {
+      "source": "research/README.md",
+      "target": "protocols/receiver_summary_minimal_protocol_v1.md",
+      "exists": true
+    },
+    {
+      "source": "research/README.md",
+      "target": "reports/final_reproduction_audit_2026-10-22.md",
+      "exists": true
+    },
+    {
+      "source": "research/README.md",
+      "target": "reports/claim_acceptance_matrix_2026-10-22.md",
+      "exists": true
+    },
+    {
+      "source": "research/README.md",
+      "target": "logs/GOSC_paper_code_map.md",
+      "exists": true
+    },
+    {
+      "source": "research/README.md",
+      "target": "reports/receiver_headroom_pilot_2026-10-22.md",
+      "exists": true
+    },
+    {
+      "source": "research/README.md",
+      "target": "reports/receiver_summary_information_cost_audit_2026-10-22.md",
+      "exists": true
+    },
+    {
+      "source": "research/README.md",
+      "target": "literature/reading_review_2026-10-22.md",
+      "exists": true
+    },
+    {
+      "source": "research/README.md",
+      "target": "literature/Research-Gap-Matrix-2026-10-22.md",
+      "exists": true
+    },
+    {
+      "source": "research/README.md",
+      "target": "ideas/RQ_v2.md",
+      "exists": true
+    },
+    {
+      "source": "research/README.md",
+      "target": "sync/plans/next_steps.md",
+      "exists": true
+    },
+    {
+      "source": "research/README.md",
+      "target": "sync/project_status.json",
+      "exists": true
+    },
+    {
+      "source": "research/README.md",
+      "target": "logs/protocol-review-2026-10-23/task_brief.md",
+      "exists": true
+    },
+    {
+      "source": "research/README.md",
+      "target": "reports/status_and_protocol_review_2026-10-23.md",
+      "exists": true
+    },
+    {
+      "source": "research/protocols/receiver_summary_minimal_protocol_v1.md",
+      "target": "../reports/receiver_headroom_pilot_2026-10-22.md",
+      "exists": true
+    },
+    {
+      "source": "research/protocols/receiver_summary_minimal_protocol_v1.md",
+      "target": "../reports/receiver_summary_information_cost_audit_2026-10-22.md",
+      "exists": true
+    },
+    {
+      "source": "research/protocols/receiver_summary_minimal_protocol_v1.md",
+      "target": "../literature/reading_notes/D08.md",
+      "exists": true
+    },
+    {
+      "source": "research/reports/status_and_protocol_review_2026-10-23.md",
+      "target": "../protocols/receiver_summary_minimal_protocol_v1.md",
+      "exists": true
+    },
+    {
+      "source": "research/reports/status_and_protocol_review_2026-10-23.md",
+      "target": "../logs/protocol-review-2026-10-23/checks.json",
+      "exists": true
+    },
+    {
+      "source": "research/reports/status_and_protocol_review_2026-10-23.md",
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "source": "research/reports/status_and_protocol_review_2026-10-23.md",
+      "target": "../protocols/receiver_summary_minimal_protocol_v1.md",
+      "exists": true
+    },
+    {
+      "source": "research/reports/status_and_protocol_review_2026-10-23.md",
+      "target": "../logs/protocol-review-2026-10-23/task_brief.md",
+      "exists": true
+    }
+  ],
+  "missing_links": [],
+  "new_markdown_trailing_whitespace": [],
+  "scientific_tests": "not_run",
+  "hpc_connection": "not_attempted",
+  "hpc_sync": "not_attempted",
+  "git_commit_push_merge": "not_attempted",
+  "line_ending_override_diagnostic": {
+    "command": "git -c core.autocrlf=false diff --check",
+    "exit_code": 2,
+    "output": [
+      "research/literature/Open-Questions.md:1: trailing whitespace.",
+      "+# 开放问题与下一行动",
+      "research/literature/Open-Questions.md:2: trailing whitespace.",
+      "+",
+      "research/literature/Open-Questions.md:3: trailing whitespace.",
+      "+## 当前更新（2026-10-23静态审查）",
+      "research/literature/Open-Questions.md:4: trailing whitespace.",
+      "+",
+      "research/literature/Open-Questions.md:5: trailing whitespace.",
+      "+[CODE] 入口：[研究导航](../README.md)和[协议审阅稿](../protocols/receiver_summary_minimal_protocol_v1.md)。旧表的“未运行/继续队列”保留制定时含义。",
+      "research/literature/Open-Questions.md:6: trailing whitespace.",
+      "+",
+      "research/literature/Open-Questions.md:7: trailing whitespace.",
+      "+- [RUN] 既有免费特权诊断0/6过门槛；96条件传输回放已完成，但cache未进入任务策略。真实LLM已执行，作者cache/原校准/历史差异仍未闭环。",
+      "research/literature/Open-Questions.md:8: trailing whitespace.",
+      "+- [HYPOTHESIS] 最小候选为已送达pose的估值专用投影，三bit桶不进入估值；先实现本地EVID时间ledger，防止旧摘要覆盖新信息。",
+      "research/literature/Open-Questions.md:9: trailing whitespace.",
+      "+- [HYPOTHESIS] RTT未决attempt、最新pending、事件生成和快照catch-up分别验收；捎带须重算组合帧尺寸和成功概率。",
+      "research/literature/Open-Questions.md:10: trailing whitespace.",
+      "+- 待决：DL容量/等待、计算时钟、同成本前沿、age/direct-refresh规则、新world、N/功效/预算。本轮未新增实验、标签或训练。",
+      "research/literature/Open-Questions.md:11: trailing whitespace.",
+      "+",
+      "research/literature/Open-Questions.md:12: trailing whitespace.",
+      "+## 2026-10-20原问题快照",
+      "research/literature/Open-Questions.md:13: trailing whitespace.",
+      "+",
+      "research/literature/Open-Questions.md:14: trailing whitespace.",
+      "+| 问题 | 检验方法 | 预期反例/否定 | 下一行动 |",
+      "research/literature/Open-Questions.md:15: trailing whitespace.",
+      "+|---|---|---|---|",
+      "research/literature/Open-Questions.md:16: trailing whitespace.",
+      "+| 历史C差异从何而来？ | 现有输出覆盖/配置/trace＋版本受控诊断 | 两版本均不恢复历史，单一原因不足 | 保留当前环境独立结果与未知；原顺序继续，不强行拟合历史 |",
+      "research/literature/Open-Questions.md:17: trailing whitespace.",
+      "+| 新receiver摘要是否比现有common belief/intent多信息？ | 同容量M0/M1、去摘要/shuffle/oracle headroom | 全状态oracle也无收益，或shuffle同样好 | P1后先冻结feature ledger和低成本pilot，未运行 |",
+      "research/literature/Open-Questions.md:18: trailing whitespace.",
+      "+| 克隆反事实是否可比？ | event-index外生随机数、状态/事件hash、跨mission split | 相同seed但分支随机消费错位 | 先写协议/校验，标签采集未开始 |",
+      "research/literature/Open-Questions.md:19: trailing whitespace.",
+      "+| 更好value预测是否改变阈值/任务？ | threshold错误、mission paired质量和成本前沿 | MSE下降但任务没变 | M0优先，复杂训练No-Go直到headroom证据 |",
+      "research/literature/Open-Questions.md:20: trailing whitespace.",
+      "+| 同步更新应多频繁？ | 全bit/control/latency计费的age/loss/刷新网格 | 频繁开销和过期错误抹平增益 | 在独立calib中冻结协议与预算，未运行 |",
+      "research/literature/Open-Questions.md:21: trailing whitespace.",
+      "+| 跨模型/任务是否成立？ | 同任务真实LLM与后续独立迁移协议 | 只有更强LLM/更多tokens有效 | 完成原cached/live，不能用smoke代替；新任务另立协议 |",
+      "research/literature/Open-Questions.md:22: trailing whitespace.",
+      "+| 创新是否超出D02/BANDMAS/ToM2C/iCoTASC？ | 近邻机制/信息权限/可执行代码审查 | 只落实现有建议或不胜简单对照 | 当前不宣称首次或SOTA；继续定向文献与代码核验 |",
+      "research/literature/Open-Questions.md:23: trailing whitespace.",
+      "+",
+      "research/literature/Open-Questions.md:24: trailing whitespace.",
+      "+独立1000–1079上游材料缺口不再向用户重复索要；依据用户给出的唯一源仓库如实登记。参见[RQ](../ideas/RQ_v1.md)和[拒稿自查](../ideas/reviewer_objections.md)。",
+      "research/literature/Open-Questions.md:31: trailing whitespace.",
+      "+",
+      "research/literature/Open-Questions.md:32: trailing whitespace.",
+      "+## 2026-10-22总审计更新",
+      "research/literature/Open-Questions.md:33: trailing whitespace.",
+      "+",
+      "research/literature/Open-Questions.md:34: trailing whitespace.",
+      "+[RUN] [结案报告](../reports/final_reproduction_audit_2026-10-22.md)：作者cache在390个含LLM任务中不覆盖当前首prompt；15个受限排序/已有NumPy变体未恢复。新live cache可重现570/570预设字段。412条历史差异含22条Planner/bits，不能全部归因模型随机性。P1精确一致性与原校准缺口继续单列，创新/训练仍未开始。",
+      "research/literature/Open-Questions.md:35: trailing whitespace.",
+      "+",
+      "research/literature/Open-Questions.md:36: trailing whitespace.",
+      "+[RUN] 补齐了两张被原最终重绘跳过的LLM表，完整产物为17PDF/18TeX。修正旧零共同key成功标签，v2覆盖审计识别.gz参考。没有覆盖旧失败或原作者数据。"
+    ],
+    "interpretation": "Overriding repository line-ending normalization reports CRLF carriage returns as whitespace in two existing documents; diagnostic retained, not a scientific test failure."
+  },
+  "final_result": "JSON and 21 local document links passed; protected tracked changes zero; final repository-config diff check passed; no scientific tests run"
+}

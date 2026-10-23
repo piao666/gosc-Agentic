@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-periodic-calibration-artifact-audit-20261023",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 6499,
+      "sha256": "5f30823a8b4acb192590de3e09525060498e19f1c7e21b8d01b6a8eeb4a7ba36"
+    }
+  ]
+}

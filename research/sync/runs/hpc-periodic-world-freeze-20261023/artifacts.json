@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-periodic-world-freeze-20261023",
+  "files": [
+    {
+      "path": "outputs/frozen.json",
+      "size": 51998,
+      "sha256": "ccd0c1ad3aa6f225c421f0335287c9e5a437e4ba5213f09f281e2031819ada2d"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-sync-cost-review-replay-20261023",
+  "status": "completed",
+  "started_at": "2026-10-23T07:27:06.689333+00:00",
+  "finished_at": "2026-10-23T07:29:12.572129+00:00",
+  "exit_code": 0,
+  "pid": 52671,
+  "elapsed_seconds": 125.882817,
+  "resource_usage": {
+    "child_max_rss_kib": 91740,
+    "child_cpu_user_seconds": 125.618466,
+    "child_cpu_system_seconds": 0.199316,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "hpc-native-adapter-trace-20261023",
+  "files": [
+    {
+      "path": "outputs/finite_dl_bits.json",
+      "size": 9175,
+      "sha256": "7acc8f4427ee994fc61527ff404a6a67a6398941fad47cb45dd41513770e045c"
+    },
+    {
+      "path": "outputs/finite_dl_tom.json",
+      "size": 7783,
+      "sha256": "720a8beb1ed501f3314d6bd7b8d18142a48f0dcc95f9ed81ad958ceb7aefac2b"
+    },
+    {
+      "path": "outputs/index.json",
+      "size": 591,
+      "sha256": "dca861a3a5009d9f1ff1d2acddb73be244d7ea7128f88bcec4ba3662029c70b1"
+    },
+    {
+      "path": "outputs/zero_dl_bits.json",
+      "size": 5179,
+      "sha256": "7d8cac314233a1d89d14ab4d115d1168918b8453c39892ff4698ac20dc68e779"
+    }
+  ]
+}

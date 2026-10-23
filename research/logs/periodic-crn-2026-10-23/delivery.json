@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-23",
+  "task": "Common-wire periodic, event-index CRN, bounded probe and independent calibration",
+  "git_head": "4ff4147654c07781d77a42acee3f31c0b8792f38",
+  "report": "research/reports/periodic_crn_calibration_2026-10-23.md",
+  "final_source_sync_id": "20261023T071434Z",
+  "final_source_files": 439,
+  "final_source_sha256_mismatches": 0,
+  "runs": [
+    {
+      "run_id": "hpc-periodic-crn-contract-20261023",
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 34.227558
+    },
+    {
+      "run_id": "hpc-periodic-crn-contract-v2-20261023",
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 34.256282
+    },
+    {
+      "run_id": "hpc-periodic-crn-contract-v3-20261023",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 34.309335
+    },
+    {
+      "run_id": "hpc-periodic-world-freeze-20261023",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 2.236653
+    },
+    {
+      "run_id": "hpc-periodic-cost-probe-20261023",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 2.132627
+    },
+    {
+      "run_id": "hpc-periodic-independent-calibration-20261023",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 160.674965
+    },
+    {
+      "run_id": "hpc-periodic-calibration-artifact-audit-20261023",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.286694
+    }
+  ],
+  "receipt": "research/sync/receipts/20261023T070802Z-44cd7f.json",
+  "all_outputs_mirrored": true,
+  "outputs_bytes_downloaded": 15015591,
+  "decision": "No-Go",
+  "executable_test_N": null,
+  "test_missions_run": 0,
+  "training": false,
+  "new_llm_calls": 0,
+  "github_commit_or_push": false,
+  "file_sha256": {
+    "extensions/native_paid_adapter.py": "5f2c3dd8b08c531a3cc62d437d88439265fe973ba287a45ac2b2807041d00471",
+    "extensions/wire_periodic.py": "08a90cba993629202f16151eda92e0bbc126bccf396335e9514d5c9c111384b2",
+    "extensions/paired_paid_simulation.py": "19d5c1d141aa82be0b60b57e152c817fac2512a3470af81013a23aa17f57f407",
+    "scripts/repro_periodic_calibration.py": "15b098e1aa0ce73155cc394de2edf639d263c2c4e65d31d9984a0e406644acb6",
+    "scripts/audit_periodic_calibration.py": "a5837e0f1243234cd496b9c5af84e80fc022c2592e12ad97cbf50c51d0f9e16c",
+    "tests_ext/test_paired_paid_simulation.py": "a4ec50cf64f579529248f1b2d83362c2b8d52ce0f5093c7305ca80d76e53eb7e",
+    "research/protocols/periodic_crn_stage_v1.json": "e9f1879b95fe5ca817ce1e04da4959d079567f30fd63536da0b6ae63065a11ac",
+    "research/reports/periodic_crn_calibration_2026-10-23.md": "889513dad79c0929ecefdeef7236a044e0d0acc7b4d660b013e00eb8eab45fa1"
+  },
+  "note": "Report and source synchronized; delivery summary copied separately and checked with sha256sum. Scientific computations ran only on registered HPC runs. Raw data remain on both ends; negative and failed records preserved."
+}

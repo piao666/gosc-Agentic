@@ -1,0 +1,21 @@
+{
+  "status": "frozen_before_trace_repeats",
+  "date": "2026-10-23",
+  "purpose": "Raw result/event preservation of existing implementation fixtures; no new independent sample or effect statistics",
+  "seed": 16000002,
+  "max_steps": 4,
+  "cases": ["finite_dl_bits", "zero_dl_bits", "finite_dl_tom"],
+  "ul_capacity": 100,
+  "dl_capacity": [2000, 0],
+  "slot_seconds": 1,
+  "encode_seconds": 0,
+  "decode_seconds": 0,
+  "energy_price": 0,
+  "use_pose": true,
+  "max_wall_seconds": 60,
+  "numeric_threads": 1,
+  "new_independent_N": 0,
+  "new_llm_calls": 0,
+  "training": false,
+  "note": "Explicit synthetic clock/capacity assumptions; not calibrated deployment settings or a cost-matched frontier"
+}

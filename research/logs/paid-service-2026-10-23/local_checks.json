@@ -1,0 +1,43 @@
+{
+  "diff_check_exit": 0,
+  "paid_task_effect": "not_run",
+  "source_hashes": [
+    {
+      "sha256": "8890b7dedfd54765035a87f3f998b6fb6c08ff924af51cb3d6e291a313de0099",
+      "path": "extensions/paid_receiver_service.py"
+    },
+    {
+      "sha256": "5a196d58bb7485115c4a9336f3ff981bf2dee6b74271617dc9b7055013f89f76",
+      "path": "extensions/receiver_rtt_contract.py"
+    },
+    {
+      "sha256": "d9bb4e49030fc28de9e059c2daa8bf61a421fee3434e2e936dbe7805e17004bb",
+      "path": "tests_ext/test_paid_receiver_service.py"
+    },
+    {
+      "sha256": "f1dc223c30bfdf77a2873d051fa8a162f5c43f48e001ce881db1bc75a552ebf7",
+      "path": "research/protocols/paid_service_contract_v1.json"
+    }
+  ],
+  "json_parse": "passed",
+  "world_N_budget": "not_frozen",
+  "pull_receipt": "research/sync/receipts/20261023T062048Z-201ec7.json",
+  "github_commit_push": "not_performed",
+  "all_outputs_mirrored": true,
+  "successful_run": "hpc-paid-service-contract-v2-20261023",
+  "diff_check_output": [
+    "warning: in the working copy of 'AGENTS.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/ideas/RQ_v2.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/literature/Open-Questions.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/protocols/README.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/STATUS.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/dashboard.json', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/plans/next_steps.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/project_status.json', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of '硕士论文研究与实施说明书.md', LF will be replaced by CRLF the next time Git touches it"
+  ],
+  "failed_run": "hpc-paid-service-contract-20261023",
+  "protected_changes": [],
+  "scope": "Local lightweight metadata checks only"
+}

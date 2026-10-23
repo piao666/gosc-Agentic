@@ -1,0 +1,51 @@
+{
+  "scope": "Local lightweight source/document checks, not scientific tests",
+  "date": "2026-10-23",
+  "git_head": "4ff4147654c07781d77a42acee3f31c0b8792f38",
+  "diff_check_exit": 0,
+  "diff_check_output": [
+    "warning: in the working copy of 'AGENTS.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/ideas/RQ_v2.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/literature/Open-Questions.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/protocols/README.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/STATUS.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/dashboard.json', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/plans/next_steps.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/project_status.json', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of '硕士论文研究与实施说明书.md', LF will be replaced by CRLF the next time Git touches it"
+  ],
+  "protected_changes": [],
+  "new_source_trailing_whitespace": [],
+  "checked_markdown_links": 28,
+  "missing_links": [],
+  "json_parse": "passed",
+  "source_files": [
+    {
+      "path": "extensions/receiver_pose_interface.py",
+      "sha256": "32aa65d7498e8c044b488edf615b7c96586093a0e552b1ee33335a38464d4316"
+    },
+    {
+      "path": "extensions/receiver_rtt_contract.py",
+      "sha256": "c02d781a957c70c7290cd0d6dea74ce075078c5f2d0319df24a12c9f9cf43474"
+    },
+    {
+      "path": "scripts/repro_pose_contract_audit.py",
+      "sha256": "16476cef04fcdd262e30848b3b8b3cd0c1038853f887a227389fcf28f74b2796"
+    },
+    {
+      "path": "tests_ext/test_receiver_pose_interface.py",
+      "sha256": "05d5493dd63eb773f4d848f42c0c16cff6293dd4d8a7d6e1ab3143426541d877"
+    },
+    {
+      "path": "tests_ext/test_receiver_rtt_contract.py",
+      "sha256": "51fdd2d64b8593bf0dd37af18783fa8d56e9c51546d8d7af466da5c5daff96fb"
+    },
+    {
+      "path": "research/protocols/receiver_pose_contract_tests_v1.json",
+      "sha256": "d61a9d80985cf8e908607679b51c93bdd730b1924c7802369e4de0c29363888f"
+    }
+  ],
+  "tests": "129 on HPC, not locally",
+  "github_commit_push": "not_performed"
+}

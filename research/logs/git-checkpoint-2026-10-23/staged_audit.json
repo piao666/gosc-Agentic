@@ -1,0 +1,59 @@
+{
+  "staged_files": 277,
+  "staged_r2_r3_files_verified": 47,
+  "staged_blob_sha_mismatches": [],
+  "ignored_forbidden_paths": [],
+  "protected_upstream_paths": [],
+  "whitespace": {
+    "default": {
+      "issues": 700,
+      "files": [
+        "research/artifacts/r2-r3-20261019/manifest.json",
+        "research/sync/runs/hpc-native-adapter-contract-20261023/source_changes.patch",
+        "research/sync/runs/hpc-native-adapter-trace-20261023/source_changes.patch",
+        "research/sync/runs/hpc-paid-service-contract-20261023/source_changes.patch",
+        "research/sync/runs/hpc-paid-service-contract-v2-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-calibration-artifact-audit-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-cost-probe-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-crn-contract-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-crn-contract-v2-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-crn-contract-v3-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-independent-calibration-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-world-freeze-20261023/source_changes.patch",
+        "research/sync/runs/hpc-pose-contract-tests-20261023/source_changes.patch",
+        "research/sync/runs/hpc-pose-delivery-audit-20261023/source_changes.patch",
+        "research/sync/runs/hpc-sync-cost-review-audit-20261023/source_changes.patch",
+        "research/sync/runs/hpc-sync-cost-review-audit-v2-20261023/source_changes.patch",
+        "research/sync/runs/hpc-sync-cost-review-contract-20261023/source_changes.patch",
+        "research/sync/runs/hpc-sync-cost-review-contract-v2-20261023/source_changes.patch",
+        "research/sync/runs/hpc-sync-cost-review-replay-20261023/source_changes.patch",
+        "research/sync/runs/hpc-sync-cost-review-replay-v2-20261023/source_changes.patch"
+      ]
+    },
+    "cr_at_eol": {
+      "issues": 359,
+      "files": [
+        "research/sync/runs/hpc-native-adapter-contract-20261023/source_changes.patch",
+        "research/sync/runs/hpc-native-adapter-trace-20261023/source_changes.patch",
+        "research/sync/runs/hpc-paid-service-contract-20261023/source_changes.patch",
+        "research/sync/runs/hpc-paid-service-contract-v2-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-calibration-artifact-audit-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-cost-probe-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-crn-contract-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-crn-contract-v2-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-crn-contract-v3-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-independent-calibration-20261023/source_changes.patch",
+        "research/sync/runs/hpc-periodic-world-freeze-20261023/source_changes.patch",
+        "research/sync/runs/hpc-pose-contract-tests-20261023/source_changes.patch",
+        "research/sync/runs/hpc-pose-delivery-audit-20261023/source_changes.patch",
+        "research/sync/runs/hpc-sync-cost-review-audit-20261023/source_changes.patch",
+        "research/sync/runs/hpc-sync-cost-review-audit-v2-20261023/source_changes.patch",
+        "research/sync/runs/hpc-sync-cost-review-contract-20261023/source_changes.patch",
+        "research/sync/runs/hpc-sync-cost-review-contract-v2-20261023/source_changes.patch",
+        "research/sync/runs/hpc-sync-cost-review-replay-20261023/source_changes.patch",
+        "research/sync/runs/hpc-sync-cost-review-replay-v2-20261023/source_changes.patch"
+      ]
+    }
+  },
+  "note": "Git index/file management only; no project tests or scientific computation. CRLF byte-preserved metadata and historical patch whitespace retained."
+}

@@ -1,0 +1,20 @@
+{
+  "status": "frozen_before_contract_tests",
+  "date": "2026-10-23",
+  "base_commit": "4ff4147654c07781d77a42acee3f31c0b8792f38",
+  "scope": "GP-v1 lossless CONF/INTENT/EVID semantics, actual service frame sizes, native-value scheduler and local receipt adapter; not author-wire reproduction or task-effect evidence",
+  "execution_host": "hpc",
+  "max_wall_seconds": 300,
+  "numeric_threads": 1,
+  "workers": 1,
+  "test_targets": ["tests", "tests_ext/test_receiver_pose_interface.py", "tests_ext/test_receiver_rtt_contract.py", "tests_ext/test_paid_receiver_service.py", "tests_ext/test_native_paid_adapter.py"],
+  "contract_fixture_seeds": [16000000,16000001,16000002],
+  "seed_scope": "Short implementation fixtures only, not independent evaluation N; exclude from later datasets",
+  "new_llm_calls": 0,
+  "training": false,
+  "wire": "Explicit record timestamps/positions/detections; outer service overhead10bytes including CRC16. Different from upstream bit formulas.",
+  "pacing": "Stop-and-wait per selected batch, actual per-task selected rate, all historical task bytes rebroadcast at fixed refresh for catch-up, charged and per-recipient deduplicated",
+  "clock": "Native planning precedes same-slot service completion, new receipts affect next planning decision; explicit service CPU assumptions",
+  "stop": "Failed contract preserved under unique run ID; fix before effects; no local fallback",
+  "remaining_effect_gates": ["Independent source/trace review", "Strong baseline integration including periodic", "Event-indexed noise for paired effects", "World deduplication", "Calibration variance and N/power", "Matched-cost frontier and budget"]
+}

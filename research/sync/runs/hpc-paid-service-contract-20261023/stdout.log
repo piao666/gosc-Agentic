@@ -1,0 +1,17 @@
+........................................................................ [ 56%]
+..........................................F............                  [100%]
+=================================== FAILURES ===================================
+____________ test_zero_dl_never_makes_edge_cache_public_or_ack_free ____________
+
+    def test_zero_dl_never_makes_edge_cache_public_or_ack_free():
+        s=service(dl_capacity=0);s.submit_pose(1,0,0)
+        for t in range(5):s.tick(t)
+        assert not s.knowledge.cache[0] and s.cost['ul_summary_bytes']==30
+>       assert s.finish()['pending_dl_frames']>0 and s.finish()['cost']['dl_uses']==0
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'dl_uses'
+
+tests_ext/test_paid_receiver_service.py:35: KeyError
+=========================== short test summary info ============================
+FAILED tests_ext/test_paid_receiver_service.py::test_zero_dl_never_makes_edge_cache_public_or_ack_free
+1 failed, 126 passed in 34.32s

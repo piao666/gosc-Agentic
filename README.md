@@ -2,7 +2,22 @@
 
 ## Research working copy
 
-**Latest research status (2026-10-22):** the 23-stage reproduction campaign has
+**Research entry point (updated 2026-10-23):** [research/README.md](research/README.md)
+links current judgments and the [minimal summary protocol review](research/protocols/receiver_summary_minimal_protocol_v1.md).
+Latest: [common-wire periodic/CRN and independent calibration](research/reports/periodic_crn_calibration_2026-10-23.md):
+156 HPC tests passed; 144 calibration missions on 12 independent worlds triggered the prespecified No-Go.
+The reserved confirmatory test set has not run; no paid-summary benefit is established.
+Earlier [native adapter](research/reports/native_adapter_progress_2026-10-23.md) contracts and traces remain preserved.
+The Oct 23 [implementation/acceptance report](research/reports/minimal_interface_delivery_2026-10-23.md)
+records 129 passing HPC contracts/regressions and an audited R2/R3 delivery package.
+No confirmatory paid-summary campaign or new-method training has run.
+
+Follow-up [synchronization cost/value review](research/reports/sync_cost_value_review_2026-10-23.md):
+51 final contracts passed; observational replay exactly preserves all24 original results.
+Pose changes values frequently but selection in10.54% of valuation decisions; service clock/replay costs need review.
+No new independent sample or change to the calibration No-Go.
+
+**Latest scientific evidence (2026-10-22):** the 23-stage reproduction campaign has
 been assessed (22 normal exits; author-cache replay failed and retained). Exact
 historical consistency remains partial. Receiver diagnostics and 96 conditional
 summary-transport replays are audited; paid-summary task gains and new-method
@@ -20,7 +35,12 @@ See [HPC environment and sync](research/reproduction/hpc_environment.md).
 
 HPC validation on 2026-10-19: Python 3.11.15 project environment ready; 85/85 upstream tests passed; all three stored-data replot modules completed (17 PDF / 18 TeX, summaries match baseline); one fresh GOSC mission at seed 3000 completed. See [HPC reproduction report](research/reproduction/repro_report.md) for exact scope and evidence. R4-A0 now completed 60 real pilot missions (two scenes, three arms, seeds 9000-9009), with nine executor checks and an independent raw-data audit; see [pilot report](research/reproduction/r4_a0_report_2026-10-19.md). The remaining four-setting cost probes also completed 24/24, with 17 tests and independent audit; see [cost/budget report](research/reproduction/r4_cost_probe_report_2026-10-19.md). A six-setting/1200-mission budget is proposed (estimated 9.6 min, recommended cap 31 min). Full frozen A1 has now completed all1200 missions/600 pairs in574.59s, with28 tests and independent audit passed; all per-seed primary outcomes and UL symbols match the author records. See [A1 report](research/reproduction/r4_a1_report_2026-10-19.md) for target misses and confidence intervals. Candidate sensitivity, matched-budget valuation, independent calibration and cached/live-LLM gates remain pending.
 
-Current local workspace (2026-10-19): code `E:\gosc`, reference papers `E:\Papers`.
+The preceding Oct 19 checkpoint retains its original context. Subsequent sensitivity,
+valuation and live-LLM procedures have executed; historical consistency, original
+calibration and author-cache recovery remain partial. Its pending statements do
+not describe a current queue. Use the research entry above.
+
+Current local workspace: code `E:\gosc`, reference papers `E:\Papers`.
 See [workspace paths](research/workspace_paths.json) and the
 [progress audit](research/reports/progress_review_2026-10-19.md).
 The fresh checkout does not include the old virtual environment; historical test

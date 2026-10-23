@@ -1,0 +1,2 @@
+# Keep the byte-identical R2/R3 delivery package verifiable after Windows checkout.
+/research/artifacts/r2-r3-20261019/** -text

@@ -1,0 +1,27 @@
+{
+  "passed_run": "hpc-paid-service-contract-v2-20261023",
+  "failed_run_retained": "hpc-paid-service-contract-20261023",
+  "date": "2026-10-23",
+  "receipt_note": "Summary uploaded separately as a receipt after source sync; no recursive self hash",
+  "git_commit_push": "not_performed",
+  "new_worlds_N_budget_frozen": false,
+  "all_outputs_mirrored": true,
+  "source_sync": {
+    "status": "verified",
+    "remote_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "head": "4ff4147654c07781d77a42acee3f31c0b8792f38",
+    "file_count": 420,
+    "changed_count": 5,
+    "sha256_mismatches": [],
+    "sync_id": "20261023T062300Z",
+    "remote_only_files": "preserved",
+    "text_line_endings": "LF"
+  },
+  "test_wall_seconds": 33.894144,
+  "scope": "Byte-service kernel contracts, native task adapter/effect experiment pending",
+  "status": "contract_stage_completed",
+  "paid_task_effect_tested": false,
+  "pull_receipt": "research/sync/receipts/20261023T062048Z-201ec7.json",
+  "source_manifest_sha256": "2287146a01afb8a85aa6c8389143d2581b7b4044eed79ad2b2666743a6f4e410",
+  "passed_tests": 128
+}

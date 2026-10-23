@@ -1,0 +1,135 @@
+{
+  "run_id": "hpc-sync-cost-review-replay-20261023",
+  "files": [
+    {
+      "path": "outputs/19000000-paid_pose.json",
+      "size": 1103804,
+      "sha256": "b82d845288871ad5dc7e6e838c02f510cbcf5552d53cb265156518a95fb92d89"
+    },
+    {
+      "path": "outputs/19000000-public_tom.json",
+      "size": 235263,
+      "sha256": "2b4da2e49e07265d7c5d16b51d58bccaeda0061debbff0ca61556ab903f64846"
+    },
+    {
+      "path": "outputs/19000001-paid_pose.json",
+      "size": 2076397,
+      "sha256": "af400b2fd2d22b327adc9a52f3b23e77bedeca9229722b45d7e5ab7bc2df9bb7"
+    },
+    {
+      "path": "outputs/19000001-public_tom.json",
+      "size": 634238,
+      "sha256": "6a8ee103b0cfd90a2892b996de3a463eccb65987a2157ffa4dc12178705d73cf"
+    },
+    {
+      "path": "outputs/19000002-paid_pose.json",
+      "size": 2547261,
+      "sha256": "19f56560c4c761c1454a52292c7cbea2c7388599f04d4d0ae377f3cf66795a27"
+    },
+    {
+      "path": "outputs/19000002-public_tom.json",
+      "size": 452047,
+      "sha256": "50268420353ebce065b26fafd4d919bff711cae5794065d6bb52d685adf745df"
+    },
+    {
+      "path": "outputs/19000003-paid_pose.json",
+      "size": 815510,
+      "sha256": "41fc2888c96c8b0a09383550be9581c7c481bdd2cbbf03837cdf230f333f0ff0"
+    },
+    {
+      "path": "outputs/19000003-public_tom.json",
+      "size": 227990,
+      "sha256": "a0f22f8367379c041639113b7ffdedeb5659657fd4aee16890122eb0df28b558"
+    },
+    {
+      "path": "outputs/19000004-paid_pose.json",
+      "size": 1095304,
+      "sha256": "17cb8a0b61154bfa6fa661cbf17c4e253e7ea6a410ec6f664717431332b8c066"
+    },
+    {
+      "path": "outputs/19000004-public_tom.json",
+      "size": 202705,
+      "sha256": "23e2d273ff40b4a13b830f8c0bd36ec407951603f5de89b7e4e02d3d1bc7986a"
+    },
+    {
+      "path": "outputs/19000005-paid_pose.json",
+      "size": 2959642,
+      "sha256": "619837ba561b09d0979c3827dde90b286b6f53df9bbf352bd4d5d394c25ada0a"
+    },
+    {
+      "path": "outputs/19000005-public_tom.json",
+      "size": 752604,
+      "sha256": "739934e46d9beff0982582e3b5f6e7f91d1a3914bafdf34356989790ce4ed761"
+    },
+    {
+      "path": "outputs/19000006-paid_pose.json",
+      "size": 1061794,
+      "sha256": "6ec7415971a59820cf44e1896cd807693e1c94763b5fbcd87436b6620bd3ca17"
+    },
+    {
+      "path": "outputs/19000006-public_tom.json",
+      "size": 403974,
+      "sha256": "86dc7d17be549f63199c48ae5c5eb5cefc06b2037505a8fca8ef8a888f938065"
+    },
+    {
+      "path": "outputs/19000007-paid_pose.json",
+      "size": 923172,
+      "sha256": "b07d7344515fe968a879f6c6054068b64abbfb46520b12b971b942292f693cfd"
+    },
+    {
+      "path": "outputs/19000007-public_tom.json",
+      "size": 119645,
+      "sha256": "45bc10ecf5595eb7d7e00285934cf3e0a25e0f7bd86c14c0255eb1773bf463ec"
+    },
+    {
+      "path": "outputs/19000008-paid_pose.json",
+      "size": 2629706,
+      "sha256": "e01e73552f3942a63cbc21e39e1364fd35a2b0b91c6af25e91e83e2e43fd5d06"
+    },
+    {
+      "path": "outputs/19000008-public_tom.json",
+      "size": 183335,
+      "sha256": "435461ec2957c9eeb27cdf2fa36ec9d3c2ed3c26cf88d916ee0f73300f212c29"
+    },
+    {
+      "path": "outputs/19000009-paid_pose.json",
+      "size": 1268016,
+      "sha256": "080b6f2cf152a8f9b910f42f9d8a03fd5b2d1a0af6cb1b4d0635e636d6487620"
+    },
+    {
+      "path": "outputs/19000009-public_tom.json",
+      "size": 396062,
+      "sha256": "b13e5c7009e1940189031c06b3a55d746f31bc5963c2293cfadb8452833c0500"
+    },
+    {
+      "path": "outputs/19000010-paid_pose.json",
+      "size": 921799,
+      "sha256": "92bbc73c513b3a9191a75f6505b45122c29f626981298f1f2242c7ba4e8552ec"
+    },
+    {
+      "path": "outputs/19000010-public_tom.json",
+      "size": 348066,
+      "sha256": "2586f53ff2423eb7cc8ea99b023bda81bf10c3d2ddae6c7bdfd79d51ce12450b"
+    },
+    {
+      "path": "outputs/19000011-paid_pose.json",
+      "size": 1905112,
+      "sha256": "09be131c775af81e3fe5573a8bb038ad958814d6e3b76768e8e1923edd686995"
+    },
+    {
+      "path": "outputs/19000011-public_tom.json",
+      "size": 308987,
+      "sha256": "4e9cc0c8b24ac7fe36f50d4caa133951711c002c618c3919c7def72c0caa7611"
+    },
+    {
+      "path": "outputs/preflight.json",
+      "size": 2897,
+      "sha256": "b50bf8388a2f4e82268fd060c8ccc13aaaa4bb2108c0461bd93a923d43016d9a"
+    },
+    {
+      "path": "outputs/summary.json",
+      "size": 14266,
+      "sha256": "ecf6e800ed6a81e79a464298ab79068adaaf50f28e3d8eb9dfdcfec7a994dbc6"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # HPC execution status
 
-Generated: 2026-10-22T08:49:24.855262+00:00
+Generated: 2026-10-23T07:50:43.377097+00:00
 
 | Run | Kind | Stage | Status | Exit |
 |---|---|---|---|---|
@@ -14,6 +14,8 @@ Generated: 2026-10-22T08:49:24.855262+00:00
 | hpc-final-coverage-audit-20261022 | analysis | P1-final-coverage | completed | 0 |
 | hpc-final-coverage-audit-v2-20261022 | analysis | P1-final-coverage-v2 | completed | 0 |
 | hpc-live-llm-tables-20261022 | analysis | P1-live-llm-tables | completed | 0 |
+| hpc-native-adapter-contract-20261023 | test | native-task-adapter | completed | 0 |
+| hpc-native-adapter-trace-20261023 | simulation | native-adapter-trace | completed | 0 |
 | hpc-numpy-diagnosis-20261020 | analysis | numerical-environment-diagnosis | failed | 1 |
 | hpc-numpy-diagnosis-relay-20261020 | analysis | numerical-environment-diagnosis | completed | 0 |
 | hpc-ollama-adapter-tests-20261020 | test | runtime-and-adapter | completed | 0 |
@@ -25,7 +27,18 @@ Generated: 2026-10-22T08:49:24.855262+00:00
 | hpc-ordered-queue-20261019 | infrastructure | ordered-reproduction-queue | failed | 1 |
 | hpc-ordered-resume-20261020 | simulation | ordered-resume-remaining17 | completed | 0 |
 | hpc-ordered-tests-20261019 | test | ordered-reproduction | completed | 0 |
+| hpc-paid-service-contract-20261023 | test | paid-service-contract | failed | 1 |
+| hpc-paid-service-contract-v2-20261023 | test | paid-service-contract | completed | 0 |
 | hpc-paper-audit-20261019 | analysis | R2-R6-audit | completed | 0 |
+| hpc-periodic-calibration-artifact-audit-20261023 | analysis | periodic-artifact-audit | completed | 0 |
+| hpc-periodic-cost-probe-20261023 | simulation | periodic-cost-probe | completed | 0 |
+| hpc-periodic-crn-contract-20261023 | test | periodic-crn | failed | 1 |
+| hpc-periodic-crn-contract-v2-20261023 | test | periodic-crn | failed | 1 |
+| hpc-periodic-crn-contract-v3-20261023 | test | periodic-crn | completed | 0 |
+| hpc-periodic-independent-calibration-20261023 | simulation | periodic-independent-calibration | completed | 0 |
+| hpc-periodic-world-freeze-20261023 | analysis | periodic-calibration-preflight | completed | 0 |
+| hpc-pose-contract-tests-20261023 | test | pose-interface-contract | completed | 0 |
+| hpc-pose-delivery-audit-20261023 | analysis | pose-interface-integrity | completed | 0 |
 | hpc-post-campaign-audit-20261022 | analysis | P1-final-audit | completed | 0 |
 | hpc-progress-audit-20261020 | analysis | progress-review | completed | 0 |
 | hpc-r1-20261019 | test | R1 | completed | 0 |
@@ -59,6 +72,12 @@ Generated: 2026-10-22T08:49:24.855262+00:00
 | hpc-summary-cost-tests-20261022 | test | P2-information-cost-guards | completed | 0 |
 | hpc-summary-transport-audit-20261022 | analysis | P2-encoded-transport-cost | completed | 0 |
 | hpc-summary-transport-tests-20261022 | test | P2-transport-cost-guards | completed | 0 |
+| hpc-sync-cost-review-audit-20261023 | analysis | sync-cost-review | completed | 0 |
+| hpc-sync-cost-review-audit-v2-20261023 | analysis | sync-cost-review | completed | 0 |
+| hpc-sync-cost-review-contract-20261023 | test | sync-cost-review | completed | 0 |
+| hpc-sync-cost-review-contract-v2-20261023 | test | sync-cost-review | completed | 0 |
+| hpc-sync-cost-review-replay-20261023 | simulation | sync-cost-review | completed | 0 |
+| hpc-sync-cost-review-replay-v2-20261023 | simulation | sync-cost-review | completed | 0 |
 | infra-launch-roundtrip-20261019T065811Z | infrastructure | sync-infrastructure | completed | 0 |
 | infra-ledger-failure-20261019T065522Z | infrastructure | sync-infrastructure | failed | 3 |
 | infra-ledger-ok-20261019T065522Z | infrastructure | sync-infrastructure | completed | 0 |

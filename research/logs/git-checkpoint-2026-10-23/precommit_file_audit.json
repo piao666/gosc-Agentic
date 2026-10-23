@@ -1,0 +1,107 @@
+{
+  "scope": "Local lightweight Git/file/archive/security management only; no project tests, simulation or scientific analysis",
+  "candidate_file_count": 273,
+  "content_files_checked": 1891,
+  "source_archives": [
+    {
+      "path": "research/sync/runs/hpc-native-adapter-contract-20261023/source_untracked.tar.gz",
+      "members": 79,
+      "sha256": "2e5ef8d63abce954078ceb12d99ccb4e52618d98fc4caa8899835396c68ef7a0"
+    },
+    {
+      "path": "research/sync/runs/hpc-native-adapter-trace-20261023/source_untracked.tar.gz",
+      "members": 81,
+      "sha256": "654499e62fc9c7e28fa59d8025eb11c287c6111170126a1e62e4791b31824f8e"
+    },
+    {
+      "path": "research/sync/runs/hpc-paid-service-contract-20261023/source_untracked.tar.gz",
+      "members": 70,
+      "sha256": "a294325d6b626cd639a9eca376e3d01422dce02e40dc3312b41b51992e76a921"
+    },
+    {
+      "path": "research/sync/runs/hpc-paid-service-contract-v2-20261023/source_untracked.tar.gz",
+      "members": 71,
+      "sha256": "7e61999b2ac4c956f79b6d1c9d350093c753853d990632847576d5f137936de6"
+    },
+    {
+      "path": "research/sync/runs/hpc-periodic-calibration-artifact-audit-20261023/source_untracked.tar.gz",
+      "members": 91,
+      "sha256": "50c727228df9b06ffdca6ecab3202e5c3997cbe09e13f672a81a833524b29fc0"
+    },
+    {
+      "path": "research/sync/runs/hpc-periodic-cost-probe-20261023/source_untracked.tar.gz",
+      "members": 91,
+      "sha256": "6790189c65728b6bc62ccf81c73952dfec36cf222a442856e11d1d2f7641013f"
+    },
+    {
+      "path": "research/sync/runs/hpc-periodic-crn-contract-20261023/source_untracked.tar.gz",
+      "members": 89,
+      "sha256": "de7640d3bda39dac2d77b570408ff29a60741709943b485c9ab67b0d81502b4a"
+    },
+    {
+      "path": "research/sync/runs/hpc-periodic-crn-contract-v2-20261023/source_untracked.tar.gz",
+      "members": 90,
+      "sha256": "8a711b612fedd47e0795519ad4418e6e7ad0d270cb9b1f5e3bac669181182c63"
+    },
+    {
+      "path": "research/sync/runs/hpc-periodic-crn-contract-v3-20261023/source_untracked.tar.gz",
+      "members": 90,
+      "sha256": "6ba909fa6b308c8952572ce6d208cfb327db6cb87bfd30528061707efaf24433"
+    },
+    {
+      "path": "research/sync/runs/hpc-periodic-independent-calibration-20261023/source_untracked.tar.gz",
+      "members": 91,
+      "sha256": "fe87eab6b1b74c12b92e402c03f0dcc6ed2f485df7b749d63001a66b5e547087"
+    },
+    {
+      "path": "research/sync/runs/hpc-periodic-world-freeze-20261023/source_untracked.tar.gz",
+      "members": 91,
+      "sha256": "6dd733f64bda49da5d838e1dc875a1b379cca4197b3fce7c10babc05b91b8bc8"
+    },
+    {
+      "path": "research/sync/runs/hpc-pose-contract-tests-20261023/source_untracked.tar.gz",
+      "members": 62,
+      "sha256": "8f834bc894729ccb1df82bb894d619d6be526bd92c0297743e689bd4f8f7c6fe"
+    },
+    {
+      "path": "research/sync/runs/hpc-pose-delivery-audit-20261023/source_untracked.tar.gz",
+      "members": 63,
+      "sha256": "2321d229e1ff3250a4e4acaac3447782d41afe19b4515bf870bd5032cdf8a3c4"
+    },
+    {
+      "path": "research/sync/runs/hpc-sync-cost-review-audit-20261023/source_untracked.tar.gz",
+      "members": 99,
+      "sha256": "d859b3c190ace9cdefc0b8b7610cb2d1298cb4a0935b9e2bda67be8d2cadd189"
+    },
+    {
+      "path": "research/sync/runs/hpc-sync-cost-review-audit-v2-20261023/source_untracked.tar.gz",
+      "members": 100,
+      "sha256": "835a1ec48bdae6cb70bda7860fb73b81b26360b00f69b359913a7f6951e4de26"
+    },
+    {
+      "path": "research/sync/runs/hpc-sync-cost-review-contract-20261023/source_untracked.tar.gz",
+      "members": 98,
+      "sha256": "d62aadedcb861e18d4acc08c03f7e9369fe4442f4a83bec8879e4ea9dbf72ee8"
+    },
+    {
+      "path": "research/sync/runs/hpc-sync-cost-review-contract-v2-20261023/source_untracked.tar.gz",
+      "members": 100,
+      "sha256": "44bf6f5988925333af4b970922b588f40d8a8e0b425c6ecb761c6fc6a93540c9"
+    },
+    {
+      "path": "research/sync/runs/hpc-sync-cost-review-replay-20261023/source_untracked.tar.gz",
+      "members": 98,
+      "sha256": "bebab6e8cb34a41b904828a7e029c82fe8bc41a9cbfcb5cf0ef72ea96333608b"
+    },
+    {
+      "path": "research/sync/runs/hpc-sync-cost-review-replay-v2-20261023/source_untracked.tar.gz",
+      "members": 100,
+      "sha256": "9d17073e58f3bf70fcd44960dd4739195463deaae50381e904b0948ae8f9e897"
+    }
+  ],
+  "archive_member_count": 1654,
+  "sensitive_candidates": [],
+  "r2_r3_registered_files": 47,
+  "r2_r3_mismatches": [],
+  "limitation": "High-confidence pattern/path checks, not proof of absence of every possible sensitive item"
+}

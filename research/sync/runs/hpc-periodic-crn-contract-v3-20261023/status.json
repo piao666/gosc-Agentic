@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-periodic-crn-contract-v3-20261023",
+  "status": "completed",
+  "started_at": "2026-10-23T07:00:31.079992+00:00",
+  "finished_at": "2026-10-23T07:01:05.389308+00:00",
+  "exit_code": 0,
+  "pid": 47725,
+  "elapsed_seconds": 34.309335,
+  "resource_usage": {
+    "child_max_rss_kib": 58484,
+    "child_cpu_user_seconds": 34.023691,
+    "child_cpu_system_seconds": 0.21759499999999998,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

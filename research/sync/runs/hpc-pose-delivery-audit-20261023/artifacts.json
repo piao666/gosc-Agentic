@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-pose-delivery-audit-20261023",
+  "files": [
+    {
+      "path": "outputs/pose_delivery_integrity_audit.json",
+      "size": 958,
+      "sha256": "59982803f34d89d45eccab7732fde5e0edca188c26920f42a070322053228204"
+    }
+  ]
+}

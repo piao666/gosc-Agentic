@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-sync-cost-review-audit-20261023",
+  "status": "completed",
+  "started_at": "2026-10-23T07:31:43.111697+00:00",
+  "finished_at": "2026-10-23T07:31:43.616601+00:00",
+  "exit_code": 0,
+  "pid": 53045,
+  "elapsed_seconds": 0.504926,
+  "resource_usage": {
+    "child_max_rss_kib": 83048,
+    "child_cpu_user_seconds": 0.403412,
+    "child_cpu_system_seconds": 0.138783,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

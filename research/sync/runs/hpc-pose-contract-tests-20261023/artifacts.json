@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-pose-contract-tests-20261023",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 14975,
+      "sha256": "1aa0fa23cfd8e6b3483d7ad332bb4396fe80883498ee3028d7cf210a7d5e8718"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-paid-service-contract-20261023",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 15223,
+      "sha256": "c614f64d3d45f2922d9adc9b96da906e3fcd766b81b825617c93a8135b84b4f9"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-23",
+  "status": "completed_authorized_delivery_and_contract_stage",
+  "scope": "R2/R3 ready-to-commit package, minimal pose/RTT contracts, HPC test and file audit; no task-effect campaign",
+  "source_sync_receipt": {
+    "status": "verified",
+    "remote_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "head": "4ff4147654c07781d77a42acee3f31c0b8792f38",
+    "file_count": 412,
+    "changed_count": 11,
+    "sha256_mismatches": [],
+    "sync_id": "20261023T021638Z",
+    "remote_only_files": "preserved",
+    "text_line_endings": "LF"
+  },
+  "source_manifest_sha256": "0e84bb44cc1424dd9202e511325d7ba5b60d4d449959e973bedbe6d8fc4e6bfd",
+  "test_run": "hpc-pose-contract-tests-20261023",
+  "test_status": "completed",
+  "test_count": 129,
+  "new_contract_tests": 26,
+  "test_wall_seconds": 34.837434,
+  "audit_run": "hpc-pose-delivery-audit-20261023",
+  "audit_status": "passed",
+  "pull_receipts": [
+    "research/sync/receipts/20261023T020835Z-79c06a.json",
+    "research/sync/receipts/20261023T021132Z-361dfd.json"
+  ],
+  "all_registered_outputs_mirrored": true,
+  "delivery_package_files": 47,
+  "delivery_package_bytes": 1330880,
+  "package_manifest_sha256": "5b2fa6e054c67ed3c9c1a1f87fd20720f6dfcea3a5b66aa1f500950ebf30c3fd",
+  "local_checks": "research/logs/minimal-interface-2026-10-23/local_checks.json",
+  "github_commit_push": "not_performed",
+  "training": "not_started",
+  "paid_task_effect": "not_run",
+  "remaining": "Full paid service/clock integration, event/merge/piggyback comparisons, new worlds and N/power/budget freezing",
+  "summary_transfer_note": "This receipt is copied separately after source sync; its own hash is verified externally, not recursively embedded."
+}

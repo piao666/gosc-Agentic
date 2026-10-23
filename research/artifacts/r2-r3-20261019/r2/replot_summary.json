@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "modules": [
+    "plot",
+    "plot_revision",
+    "plot_realistic"
+  ],
+  "pdf_count": 17,
+  "tex_count": 18,
+  "decompressed_inputs": [
+    {
+      "path": "noise.jsonl",
+      "size": 57350391,
+      "sha256": "131ca5e5b34246c2e2a1810983ac6d36a31306688455b0d1cf4d84382ff27457"
+    },
+    {
+      "path": "overhead.jsonl",
+      "size": 37527895,
+      "sha256": "e8fd9f6fa5d3fd2c4987a7c81b00b2af7679dffca3abee18ab44dfe763365ea5"
+    },
+    {
+      "path": "shared.jsonl",
+      "size": 7958626,
+      "sha256": "ae7c6a32d3a735ed2dfbb7e93cb77287d959ef3558576f5c963147e61ad1e25f"
+    }
+  ],
+  "summary_comparisons": {
+    "summary.json": {
+      "reference": "current tracked input",
+      "numerically_equal_at_1e-10": true
+    },
+    "summary_revision.json": {
+      "reference": "upstream-gosc-387b493 Git object (read only)",
+      "numerically_equal_at_1e-10": true
+    },
+    "summary_realistic.json": {
+      "reference": "upstream-gosc-387b493 Git object (read only)",
+      "numerically_equal_at_1e-10": true
+    }
+  },
+  "workspace": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/reproduction-workspaces/hpc-r2-20261019",
+  "scope": "Stored upstream results reanalysis only; no new simulations, model calls or paper-PDF visual/numerical verification."
+}

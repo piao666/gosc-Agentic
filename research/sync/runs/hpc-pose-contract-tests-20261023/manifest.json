@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "run_id": "hpc-pose-contract-tests-20261023",
+  "kind": "test",
+  "stage": "pose-interface-contract",
+  "purpose": "received-pose-interface-and-rtt-contract-regression",
+  "created_at": "2026-10-23T02:07:38.737779+00:00",
+  "execution_host": "n1",
+  "ssh_alias": "hpc",
+  "project_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "cwd": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "command": [
+    "env",
+    "OMP_NUM_THREADS=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "MKL_NUM_THREADS=1",
+    "NUMEXPR_NUM_THREADS=1",
+    "timeout",
+    "300",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "tests",
+    "tests_ext/test_receiver_pose_interface.py",
+    "tests_ext/test_receiver_rtt_contract.py",
+    "tests_ext/test_receiver_summary_audit.py",
+    "tests_ext/test_receiver_transport_replay.py",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-pose-contract-tests-20261023/pytest-tmp",
+    "--junitxml",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-pose-contract-tests-20261023/outputs/pytest.xml"
+  ],
+  "seeds": [
+    15000000,
+    15000001,
+    15000002
+  ],
+  "models": [],
+  "cache_mode": "not_applicable",
+  "config_file": "research/protocols/receiver_pose_contract_tests_v1.json",
+  "git_commit": "4ff4147654c07781d77a42acee3f31c0b8792f38",
+  "working_tree_status": "M AGENTS.md\n M README.md\n M research/ideas/RQ_v2.md\n M research/literature/Open-Questions.md\n M research/logs/environment-2026-10-12/import-smoke.log\n M research/logs/environment-2026-10-12/pip-check.log\n M research/logs/environment-2026-10-12/pytest-collection.log\n M research/logs/environment-2026-10-12/pytest.log\n M research/protocols/README.md\n M research/sync/plans/next_steps.md\n M research/sync/project_status.json\n D research/sync/receipts/.gitkeep\n D research/sync/runs/.gitkeep\n M research/sync/runs/hpc-acceptance-scope-20261022/source_changes.patch\n M research/sync/runs/hpc-acceptance-scope-v2-20261022/source_changes.patch\n M research/sync/runs/hpc-c-resume-20261020/source_changes.patch\n M research/sync/runs/hpc-cache-gap-probe-20261022/source_changes.patch\n M research/sync/runs/hpc-compare-tests-20261020/source_changes.patch\n M research/sync/runs/hpc-difference-probe-20261020/source_changes.patch\n M research/sync/runs/hpc-env-20261019/source_changes.patch\n M research/sync/runs/hpc-final-coverage-audit-20261022/source_changes.patch\n M research/sync/runs/hpc-final-coverage-audit-v2-20261022/source_changes.patch\n M research/sync/runs/hpc-live-llm-tables-20261022/source_changes.patch\n M research/sync/runs/hpc-numpy-diagnosis-20261020/source_changes.patch\n M research/sync/runs/hpc-numpy-diagnosis-relay-20261020/source_changes.patch\n M research/sync/runs/hpc-ollama-adapter-tests-20261020/source_changes.patch\n M research/sync/runs/hpc-ollama-deploy-20261020/source_changes.patch\n M research/sync/runs/hpc-ollama-deploy-retry1-20261020/source_changes.patch\n M research/sync/runs/hpc-ollama-final-check-20261020/source_changes.patch\n M research/sync/runs/hpc-ollama-install-20261020/source_changes.patch\n M research/sync/runs/hpc-ollama-storage-cleanup-20261020/source_changes.patch\n M research/sync/runs/hpc-ordered-queue-20261019/source_changes.patch\n M research/sync/runs/hpc-ordered-resume-20261020/source_changes.patch\n M research/sync/runs/hpc-ordered-tests-20261019/source_changes.patch\n M research/sync/runs/hpc-paper-audit-20261019/source_changes.patch\n M research/sync/runs/hpc-post-campaign-audit-20261022/source_changes.patch\n M research/sync/runs/hpc-progress-audit-20261020/source_changes.patch\n M research/sync/runs/hpc-r1-20261019/source_changes.patch\n M research/sync/runs/hpc-r2-20261019/source_changes.patch\n M research/sync/runs/hpc-r3-20261019/source_changes.patch\n M research/sync/runs/hpc-r4-a0-audit-20261019/source_changes.patch\n M research/sync/runs/hpc-r4-a0-executor-tests-20261019/source_changes.patch\n M research/sync/runs/hpc-r4-a0-executor-tests-v2-20261019/source_changes.patch\n M research/sync/runs/hpc-r4-a0-pilot-20261019/source_changes.patch\n M research/sync/runs/hpc-r4-a0-pilot-retry1-20261019/source_changes.patch\n M research/sync/runs/hpc-r4-a1-analysis-20261019/source_changes.patch\n M research/sync/runs/hpc-r4-a1-audit-20261019/source_changes.patch\n M research/sync/runs/hpc-r4-a1-full-20261019/source_changes.patch\n M research/sync/runs/hpc-r4-a1-tests-20261019/source_changes.patch\n M research/sync/runs/hpc-r4-cost-audit-20261019/source_changes.patch\n M research/sync/runs/hpc-r4-cost-probe-20261019/source_changes.patch\n M research/sync/runs/hpc-r4-cost-tests-20261019/source_changes.patch\n M research/sync/runs/hpc-r4-preflight-20261019/source_changes.patch\n M research/sync/runs/hpc-receiver-headroom-pilot-20261022/source_changes.patch\n D research/sync/runs/hpc-receiver-headroom-pilot-20261022/stdout.log.partial-f75b373dcda64923894710a55297d2d8\n M research/sync/runs/hpc-receiver-independent-audit-20261022/source_changes.patch\n M research/sync/runs/hpc-receiver-protocol-20261022/source_changes.patch\n M research/sync/runs/hpc-receiver-tests-20261022/source_changes.patch\n M research/sync/runs/hpc-remaining-inventory-20261019/source_changes.patch\n M research/sync/runs/hpc-rescue-display-20261022/source_changes.patch\n M research/sync/runs/hpc-resume-evidence-20261020/source_changes.patch\n M research/sync/runs/hpc-resume-final-tests-20261020/source_changes.patch\n M research/sync/runs/hpc-resume-freeze-tests-20261020/source_changes.patch\n M research/sync/runs/hpc-resume-tests-20261020/source_changes.patch\n M research/sync/runs/hpc-summary-cost-audit-20261022/source_changes.patch\n M research/sync/runs/hpc-summary-cost-final-audit-20261022/source_changes.patch\n M research/sync/runs/hpc-summary-cost-tests-20261022/source_changes.patch\n M research/sync/runs/hpc-summary-transport-audit-20261022/source_changes.patch\n M research/sync/runs/hpc-summary-transport-tests-20261022/source_changes.patch\n M research/sync/runs/infra-launch-roundtrip-20261019T065811Z/source_changes.patch\n M research/sync/runs/ordered-c-belief-20261019/source_changes.patch\n M research/sync/runs/ordered-c-frontier-20261019/source_changes.patch\n M research/sync/runs/ordered-c-where-20261019/source_changes.patch\n M research/sync/runs/ordered-selection-20261019/source_changes.patch\n M research/sync/runs/ordered-selection-fresh-20261019/source_changes.patch\n M research/sync/runs/resume-c-analysis-20261020/source_changes.patch\n M research/sync/runs/resume-c-belief-20261020/source_changes.patch\n M research/sync/runs/resume-cached-llm-20261020/source_changes.patch\n M research/sync/runs/resume-fidelity-analysis-20261020/source_changes.patch\n M research/sync/runs/resume-final-replot-20261020/source_changes.patch\n M research/sync/runs/resume-genie-fresh-20261020/source_changes.patch\n M research/sync/runs/resume-joint-20261020/source_changes.patch\n M research/sync/runs/resume-live-llm-20261020/source_changes.patch\n M research/sync/runs/resume-main-sweeps-20261020/source_changes.patch\n M research/sync/runs/resume-radio-fresh-20261020/source_changes.patch\n M research/sync/runs/resume-radio-noise-20261020/source_changes.patch\n M research/sync/runs/resume-radio-overhead-20261020/source_changes.patch\n M research/sync/runs/resume-radio-shared-20261020/source_changes.patch\n M research/sync/runs/resume-revision-rest-20261020/source_changes.patch\n M research/sync/runs/resume-scheduler-20261020/source_changes.patch\n M research/sync/runs/resume-sensitivity-20261020/source_changes.patch\n M research/sync/runs/resume-sensitivity-fresh-20261020/source_changes.patch\n M research/sync/runs/resume-theory-20261020/source_changes.patch\n M research/sync/runs/resume-value-fidelity-20261020/source_changes.patch\n M 硕士论文研究与实施说明书.md\n?? extensions/receiver_pose_interface.py\n?? extensions/receiver_rtt_contract.py\n?? research/README.md\n?? research/artifacts/\n?? research/logs/minimal-interface-2026-10-23/\n?? research/logs/protocol-review-2026-10-23/\n?? research/protocols/receiver_pose_contract_tests_v1.json\n?? research/protocols/receiver_summary_minimal_protocol_v1.md\n?? research/reports/status_and_protocol_review_2026-10-23.md\n?? research/sync/runs/hpc-ollama-deploy-20261020/artifacts.json.tmp-efb9ad0e25f541a9af59162e330a78ff\n?? tests_ext/test_receiver_pose_interface.py\n?? tests_ext/test_receiver_rtt_contract.py",
+  "source_sync_id": "20261023T020638Z",
+  "source_manifest_sha256": "d6352340abd004e68959635a8c735a499ee0d78747b82b6e95af303113e9e243",
+  "python_executable": "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+  "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+  "resource_limits": {
+    "cpu_quota": "200000",
+    "cpu_period": "100000",
+    "cpuset": "0-1",
+    "memory_bytes": "25769803776",
+    "gpu_settings": {
+      "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+      "CUDA_DEVICE_SM_LIMIT": "75"
+    }
+  },
+  "metrics_not_measured": [
+    "peak_gpu_memory",
+    "tokens",
+    "channel_uses"
+  ],
+  "config_sha256": "d61a9d80985cf8e908607679b51c93bdd730b1924c7802369e4de0c29363888f"
+}

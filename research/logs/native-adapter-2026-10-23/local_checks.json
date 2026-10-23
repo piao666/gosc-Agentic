@@ -1,0 +1,54 @@
+{
+  "pull_receipt": "research/sync/receipts/20261023T063704Z-c51c41.json",
+  "json_parse": "passed",
+  "protected_changes": [],
+  "diff_output": [
+    "warning: in the working copy of 'AGENTS.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/ideas/RQ_v2.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/literature/Open-Questions.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/protocols/README.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/STATUS.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/dashboard.json', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/plans/next_steps.md', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'research/sync/project_status.json', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of '硕士论文研究与实施说明书.md', LF will be replaced by CRLF the next time Git touches it"
+  ],
+  "scope": "Local file/hash/Git metadata verification, not scientific tests",
+  "base_commit": "4ff4147654c07781d77a42acee3f31c0b8792f38",
+  "paid_task_effect": "not_run",
+  "trace_run": "hpc-native-adapter-trace-20261023",
+  "test_count": 145,
+  "github_commit_push": "not_performed",
+  "tested_sources": [
+    {
+      "matches_test_snapshot": true,
+      "sha256": "bb4ca6a06ba111effb7f3a451ee60b8b01702f98863ac3341c2b40b5b3310e0f",
+      "path": "extensions/native_task_wire.py"
+    },
+    {
+      "matches_test_snapshot": true,
+      "sha256": "3d36b6b4945b1340578e83a637ad8448a7cdce9ca6ef5f18565efb7282178d10",
+      "path": "extensions/native_paid_adapter.py"
+    },
+    {
+      "matches_test_snapshot": true,
+      "sha256": "003bf37676118aa26a11507272320a0c5f4b43f4650582d82ab0d29e89870f7f",
+      "path": "extensions/paid_receiver_service.py"
+    },
+    {
+      "matches_test_snapshot": true,
+      "sha256": "60d0ead9a7c5571a7593ddff85c28689589d20b8b00764efbd7d54129af36580",
+      "path": "tests_ext/test_native_paid_adapter.py"
+    },
+    {
+      "matches_test_snapshot": true,
+      "sha256": "379bc6bb79f1e5bf3c9697404f82a85c31aed325649969883b05be3477d3e2ae",
+      "path": "research/protocols/native_adapter_contract_v1.json"
+    }
+  ],
+  "diff_exit": 0,
+  "all_outputs_mirrored": true,
+  "new_independent_N": 0,
+  "test_run": "hpc-native-adapter-contract-20261023"
+}

@@ -1,0 +1,20 @@
+........................................................................ [ 46%]
+........................................................................ [ 92%]
+.F..........                                                             [100%]
+=================================== FAILURES ===================================
+_____________ test_periodic_gates_admission_but_conf_is_immediate ______________
+
+    def test_periodic_gates_admission_but_conf_is_immediate():
+        s=sim();s.phase_decide(0);a=s.agents[0]
+        assert not s.select(a,10.,s.local[0])
+        a.confirmed_pending.add(7)
+        selected=s.select(a,10.,s.local[0]);assert selected and all(g.kind=='CONF' for g,o in selected)
+        a.confirmed_pending.clear();s.local[0].t=3
+>       assert any(g.kind=='EVID' for g,o in s.select(a,10.,s.local[0]))
+E       assert False
+E        +  where False = any(<generator object test_periodic_gates_admission_but_conf_is_immediate.<locals>.<genexpr> at 0x149d6d868ac0>)
+
+tests_ext/test_paired_paid_simulation.py:22: AssertionError
+=========================== short test summary info ============================
+FAILED tests_ext/test_paired_paid_simulation.py::test_periodic_gates_admission_but_conf_is_immediate
+1 failed, 155 passed in 33.77s

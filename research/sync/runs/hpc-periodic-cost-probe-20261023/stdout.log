@@ -1,0 +1,25 @@
+{"seed": 18000000, "case": "bits", "seconds": 0.07515743374824524}
+{"seed": 18000000, "case": "aoi", "seconds": 0.0734415352344513}
+{"seed": 18000000, "case": "periodic_k1_eps0.0", "seconds": 0.06387202441692352}
+{"seed": 18000000, "case": "periodic_k1_eps0.02", "seconds": 0.06372307240962982}
+{"seed": 18000000, "case": "periodic_k2_eps0.0", "seconds": 0.060511305928230286}
+{"seed": 18000000, "case": "periodic_k2_eps0.02", "seconds": 0.059334054589271545}
+{"seed": 18000000, "case": "periodic_k4_eps0.0", "seconds": 0.06807218492031097}
+{"seed": 18000000, "case": "periodic_k4_eps0.02", "seconds": 0.06807421892881393}
+{"seed": 18000000, "case": "periodic_k8_eps0.0", "seconds": 0.05353061109781265}
+{"seed": 18000000, "case": "periodic_k8_eps0.02", "seconds": 0.053517915308475494}
+{"seed": 18000000, "case": "public_tom", "seconds": 0.09069079905748367}
+{"seed": 18000000, "case": "paid_pose", "seconds": 0.12331816554069519}
+{"seed": 18000001, "case": "bits", "seconds": 0.07507556676864624}
+{"seed": 18000001, "case": "aoi", "seconds": 0.07622765004634857}
+{"seed": 18000001, "case": "periodic_k1_eps0.0", "seconds": 0.0658983588218689}
+{"seed": 18000001, "case": "periodic_k1_eps0.02", "seconds": 0.07001732289791107}
+{"seed": 18000001, "case": "periodic_k2_eps0.0", "seconds": 0.05276970565319061}
+{"seed": 18000001, "case": "periodic_k2_eps0.02", "seconds": 0.053251974284648895}
+{"seed": 18000001, "case": "periodic_k4_eps0.0", "seconds": 0.05959273874759674}
+{"seed": 18000001, "case": "periodic_k4_eps0.02", "seconds": 0.05964422971010208}
+{"seed": 18000001, "case": "periodic_k8_eps0.0", "seconds": 0.051663629710674286}
+{"seed": 18000001, "case": "periodic_k8_eps0.02", "seconds": 0.05354800820350647}
+{"seed": 18000001, "case": "public_tom", "seconds": 0.11593876034021378}
+{"seed": 18000001, "case": "paid_pose", "seconds": 0.13026608526706696}
+{"status": "calibration_budget_passed", "case_max_seconds": {"bits": 0.07515743374824524, "aoi": 0.07622765004634857, "periodic_k1_eps0.0": 0.0658983588218689, "periodic_k1_eps0.02": 0.07001732289791107, "periodic_k2_eps0.0": 0.060511305928230286, "periodic_k2_eps0.02": 0.059334054589271545, "periodic_k4_eps0.0": 0.06807218492031097, "periodic_k4_eps0.02": 0.06807421892881393, "periodic_k8_eps0.0": 0.05353061109781265, "periodic_k8_eps0.02": 0.05354800820350647, "public_tom": 0.11593876034021378, "paid_pose": 0.13026608526706696}, "projected_calibration_seconds_with_2x_margin": 358.63039791584015, "projection_limit_seconds": 480, "hard_timeout_seconds": 600, "caveat": "24-slot linear extrapolation can underestimate growing queues; hard timeout remains binding", "effect_statistics_computed": false}

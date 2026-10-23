@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-periodic-crn-contract-v3-20261023",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 18677,
+      "sha256": "a2d4553ff6a8a01d932d4a921308c6776d085e6eeec9ce6376d6c5552b441ff7"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-periodic-cost-probe-20261023",
+  "status": "completed",
+  "started_at": "2026-10-23T07:02:52.652655+00:00",
+  "finished_at": "2026-10-23T07:02:54.785262+00:00",
+  "exit_code": 0,
+  "pid": 47925,
+  "elapsed_seconds": 2.132627,
+  "resource_usage": {
+    "child_max_rss_kib": 39964,
+    "child_cpu_user_seconds": 2.017958,
+    "child_cpu_system_seconds": 0.116271,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-periodic-crn-contract-20261023",
+  "status": "failed",
+  "started_at": "2026-10-23T06:53:54.487852+00:00",
+  "finished_at": "2026-10-23T06:54:28.715389+00:00",
+  "exit_code": 1,
+  "pid": 47227,
+  "elapsed_seconds": 34.227558,
+  "resource_usage": {
+    "child_max_rss_kib": 58420,
+    "child_cpu_user_seconds": 33.955611,
+    "child_cpu_system_seconds": 0.22247299999999998,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

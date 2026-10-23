@@ -1,0 +1,342 @@
+{
+  "packaged_date": "2026-10-23",
+  "scope": "Byte-identical public simulator products from R2 stored-data reanalysis and R3 fresh Planner mission; not a new experiment",
+  "base_commit": "4ff4147654c07781d77a42acee3f31c0b8792f38",
+  "file_count": 47,
+  "total_bytes": 1330880.0,
+  "files": [
+    {
+      "path": "r2/commands.json",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/commands.json",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 1023,
+      "sha256": "2ec5d17465712e7df732a08b773d5d1464c6199130b2cddc172bfbbf8a8b8b7d"
+    },
+    {
+      "path": "r2/plots/fig_agents.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_agents.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 20087,
+      "sha256": "95821b98e5dcea63f04c33eefe74ec163c03584015eb02145224c84e8eec8d45"
+    },
+    {
+      "path": "r2/plots/fig_budget.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_budget.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 19734,
+      "sha256": "fca254af887a1eb66bdf58ab5a6a2bacf07ef964c11b29002f145dc1f44990a7"
+    },
+    {
+      "path": "r2/plots/fig_curve.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_curve.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 21381,
+      "sha256": "cc2ddcd90f7fe38935a33005223a749748d433de607cd5bf5910d43814306b79"
+    },
+    {
+      "path": "r2/plots/fig_downlink.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_downlink.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 23762,
+      "sha256": "9ced58a65614f10c9094e243283c53b17a34d65560e55c7cb44defda619b2219"
+    },
+    {
+      "path": "r2/plots/fig_efficiency.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_efficiency.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 29428,
+      "sha256": "6eae0e21ed36308edd9b5355ccc1a32f1f7ff64b1452b5596d9b8b66ac27efa3"
+    },
+    {
+      "path": "r2/plots/fig_fbl.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_fbl.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 29252,
+      "sha256": "5fbb4cc0e7f5b8b92405ee71ebcea0e60628c622d72f81424e4a424dd520241b"
+    },
+    {
+      "path": "r2/plots/fig_frontier.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_frontier.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 28248,
+      "sha256": "dd4530e4970d458cdb84c07832a27f039c76ed035b7c5006e7ab137e24ea2e2b"
+    },
+    {
+      "path": "r2/plots/fig_noise.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_noise.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 33762,
+      "sha256": "639da3d5285d6128e432ac63758375ed4bf657c6f241acd36d4555179a260c41"
+    },
+    {
+      "path": "r2/plots/fig_pareto.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_pareto.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 24561,
+      "sha256": "7b0f9d53434f12682a1c4355a92037887fa14ace4311bba628bd7b104759bdf2"
+    },
+    {
+      "path": "r2/plots/fig_rescue.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_rescue.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 40610,
+      "sha256": "1ad887e8917ca921718df3151b021b878eb6cb2c7658271abdbe8f2aaea79887"
+    },
+    {
+      "path": "r2/plots/fig_shared.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_shared.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 32746,
+      "sha256": "8feb99763a2a5355201bfa1d16c937f8714af184b06535014dc17ec0dc2d080f"
+    },
+    {
+      "path": "r2/plots/fig_shared_col.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_shared_col.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 29267,
+      "sha256": "938ecb75b8d1b57c3dbc48c894f5f74db010b8f49ac946f897d9362a09da6e2c"
+    },
+    {
+      "path": "r2/plots/fig_snr.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_snr.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 20192,
+      "sha256": "3a202d2840e1b41edd3c62421aca0e13551e10ab043416b0797176d7599fea8d"
+    },
+    {
+      "path": "r2/plots/fig_snr_pair.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_snr_pair.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 27254,
+      "sha256": "b7811ee79a31d736ebc0a05d2d52b6fa8fc7b43cd9f859554e389f3c15373f79"
+    },
+    {
+      "path": "r2/plots/fig_snr_sym.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_snr_sym.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 23398,
+      "sha256": "26389cfd9dcf01b205d0edec2d5f8e49d5feef42db965da19daa1933d47addd2"
+    },
+    {
+      "path": "r2/plots/fig_traj.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_traj.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 14103,
+      "sha256": "73a7bcbfeacc46d7c2892b47928a46d87a23175761078c3614cb903bb3e3b329"
+    },
+    {
+      "path": "r2/plots/fig_where_tom.pdf",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/fig_where_tom.pdf",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 26353,
+      "sha256": "9115127e889fbb736e6e9e6001f6f996cbda63a16bb7cfb2216dabd14d47b3c4"
+    },
+    {
+      "path": "r2/plots/numbers.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/numbers.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 802,
+      "sha256": "7a72dbed76fd3e1d6dd470d3eba179e6c983913690cae0b0f7a2b78a04824fb7"
+    },
+    {
+      "path": "r2/plots/table_ablation.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_ablation.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 793,
+      "sha256": "4e927097c992e685a0b9c20f0b777eabe6ce13b0358ae059b69a3f01377e9050"
+    },
+    {
+      "path": "r2/plots/table_cost.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_cost.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 934,
+      "sha256": "897f2f95f9bea01aaf3547b12761ddb69d617555bf71838cf2a23ed2606088ea"
+    },
+    {
+      "path": "r2/plots/table_default.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_default.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 562,
+      "sha256": "fbb65b0ded0b744c096150c837b0d5ff814e6e2f154e94bba42ee026e55d37b0"
+    },
+    {
+      "path": "r2/plots/table_efficiency.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_efficiency.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 1438,
+      "sha256": "e65eeb7e16b284d939d6732eba339d4cb3dd351d632108ce7532360dcc94bbff"
+    },
+    {
+      "path": "r2/plots/table_fidelity.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_fidelity.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 362,
+      "sha256": "09b0cae40557d7689ebc3cf83ee41828a9e4b85867690a7363ab2268b67245ae"
+    },
+    {
+      "path": "r2/plots/table_frontier.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_frontier.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 387,
+      "sha256": "503664c520ec0886f45b98ee1d7403c6df733808b1ae29ae1924f5fa99e15eff"
+    },
+    {
+      "path": "r2/plots/table_frozen.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_frozen.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 442,
+      "sha256": "8db580c8e715a309a19f88b79b6d7cb08e6ba5ec4e55e5d66c11d8d1985abbf4"
+    },
+    {
+      "path": "r2/plots/table_llm.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_llm.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 465,
+      "sha256": "5bf122d2d4672f0133544f6c9a4701868683ee0fae73f7039628efafd65279b3"
+    },
+    {
+      "path": "r2/plots/table_llm_extended.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_llm_extended.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 865,
+      "sha256": "3406470e7625db1e75b1e862e49548681ceab5fc19319686d4e37b4831289bfe"
+    },
+    {
+      "path": "r2/plots/table_noise.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_noise.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 1747,
+      "sha256": "18af52d831b53857a296dc27a3a408d2c42c59682fe19eb28d029595e1320bcc"
+    },
+    {
+      "path": "r2/plots/table_overhead.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_overhead.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 2157,
+      "sha256": "d09276b7a9125f066aa29bc495f024f47220c1aebdeb8bbdaed322cadc349a75"
+    },
+    {
+      "path": "r2/plots/table_private.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_private.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 246,
+      "sha256": "1f6f870f271af8233fa1c9187271f07340d994bd63ee7824f7f3c37843da0e78"
+    },
+    {
+      "path": "r2/plots/table_rate_aware.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_rate_aware.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 344,
+      "sha256": "367abdc20ebf541a704c1929bae48e2a6ed28450a209d67e6d53e46fd2dd92b7"
+    },
+    {
+      "path": "r2/plots/table_shared.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_shared.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 540,
+      "sha256": "a43c3ad84bf67d13402318881e7c368cd8666bf56d108b278e13efe5e6e371fb"
+    },
+    {
+      "path": "r2/plots/table_validation.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_validation.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 797,
+      "sha256": "5c536c1ece815a7324df10de41e000f20e8888e606a4b0d535dd419f214ec59d"
+    },
+    {
+      "path": "r2/plots/table_values.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_values.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 717,
+      "sha256": "1d2995ffdfe2baaadf0b3a8de2b7d4bee8fcd2bc5cb407d5a554de8e9a655a4f"
+    },
+    {
+      "path": "r2/plots/table_where_tom.tex",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/figures/table_where_tom.tex",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 284,
+      "sha256": "83d70879838494c17e08ba96cde54187c11a10f8143404a4c20ccdff896c27a2"
+    },
+    {
+      "path": "r2/input_integrity.json",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/input_integrity.json",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "r2/replot_summary.json",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/replot_summary.json",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 1300,
+      "sha256": "7af06491cc4763edf0ee99504d99307ea95d88464d0893dd57ec7bcd24ddba6d"
+    },
+    {
+      "path": "r2/summaries/summary.json",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/summaries/summary.json",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 36221,
+      "sha256": "7ec6c8de108af6a10f1c9bcbbb2ee7fe61ac994ff1816108b9a88caaef1a1382"
+    },
+    {
+      "path": "r2/summaries/summary_realistic.json",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/summaries/summary_realistic.json",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 702535,
+      "sha256": "46fd5680e87e159937008a7e47d90c0c1e60a8d3e3d3bbdf41fcb708c456c0dc"
+    },
+    {
+      "path": "r2/summaries/summary_revision.json",
+      "source": "research/sync/runs/hpc-r2-20261019/outputs/summaries/summary_revision.json",
+      "run_id": "hpc-r2-20261019",
+      "bytes": 61051,
+      "sha256": "b923a1fe5a2ddfd267409f79e2b7444787619d1760281a2bc876216e0c49b28d"
+    },
+    {
+      "path": "r3/commands.json",
+      "source": "research/sync/runs/hpc-r3-20261019/outputs/commands.json",
+      "run_id": "hpc-r3-20261019",
+      "bytes": 1120,
+      "sha256": "78721311f90aed7a4ad2c3e7e15d5bafcd00c829b186b7a37ab4dab726d0a564"
+    },
+    {
+      "path": "r3/input_integrity.json",
+      "source": "research/sync/runs/hpc-r3-20261019/outputs/input_integrity.json",
+      "run_id": "hpc-r3-20261019",
+      "bytes": 15423,
+      "sha256": "d0af82524f7d95f65c9b95ca8d96bfadbf36746ece3afd7b6680edfbd877f0e3"
+    },
+    {
+      "path": "r3/mission.json",
+      "source": "research/sync/runs/hpc-r3-20261019/outputs/mission.json",
+      "run_id": "hpc-r3-20261019",
+      "bytes": 37857,
+      "sha256": "938d6345a0c3b7ef248522669f0197011bd5839b9fd2c34d4c3fad582c6e17fb"
+    },
+    {
+      "path": "r3/single-mission.stderr.log",
+      "source": "research/sync/runs/hpc-r3-20261019/outputs/single-mission.stderr.log",
+      "run_id": "hpc-r3-20261019",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "r3/single-mission.stdout.log",
+      "source": "research/sync/runs/hpc-r3-20261019/outputs/single-mission.stdout.log",
+      "run_id": "hpc-r3-20261019",
+      "bytes": 114,
+      "sha256": "451a5a85bb487d4a4521a780eae58f031e1eec2ce8ce9415a06dd60f52973c9e"
+    },
+    {
+      "path": "r2/supplements/table_values.tex",
+      "source": "research/sync/runs/hpc-paper-audit-20261019/outputs/supplements/table_values.tex",
+      "run_id": "hpc-paper-audit-20261019",
+      "bytes": 793,
+      "sha256": "318a5f4023c7f152f74d0f677236b40218bc5625852c2057bac7b73ada1190d3"
+    }
+  ],
+  "excluded": "private papers, credentials, models, LLM prompts/cache, mplconfig and unrelated run outputs",
+  "github_status": "prepared_locally_not_committed_or_pushed",
+  "license_attribution": "Upstream GOSC MIT LICENSE and citation retained at repository root",
+  "table_vi_note": "Original R2 table_values.tex retained verbatim, including five n/e cells; later registered table-only supplement is separate and must be used for complete Table VI."
+}

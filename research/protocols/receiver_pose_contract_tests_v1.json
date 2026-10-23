@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-23",
+  "status": "frozen_before_contract_tests",
+  "base_commit": "4ff4147654c07781d77a42acee3f31c0b8792f38",
+  "purpose": "Implementation contracts only; no task benefit estimation or training",
+  "execution_host": "hpc",
+  "max_wall_seconds": 300,
+  "workers": 1,
+  "numeric_threads": 1,
+  "gpu_jobs": 0,
+  "llm_calls": 0,
+  "train": false,
+  "contract_fixture_seeds": [15000000, 15000001, 15000002],
+  "seed_scope": "Synthetic unit/short-trajectory fixtures only; not independent evaluation N; exclude from future calibration/test",
+  "test_targets": [
+    "tests",
+    "tests_ext/test_receiver_pose_interface.py",
+    "tests_ext/test_receiver_rtt_contract.py",
+    "tests_ext/test_receiver_summary_audit.py",
+    "tests_ext/test_receiver_transport_replay.py"
+  ],
+  "acceptance": [
+    "All collected contracts and upstream regressions pass",
+    "Native core and baseline input files unchanged",
+    "R2/R3 delivery copy hashes match registered artifacts",
+    "Recorded source sync hashes and actual HPC quota verified",
+    "No claim of paid-summary task gains or shared-UL integration"
+  ],
+  "stop": "Any failed contract stops dependent effectiveness experiments; fix with a new run ID, preserve failed run. No local fallback.",
+  "remaining_method_gates": [
+    "Paid transport and task clocks are not integrated",
+    "DL capacity/service and CPU waiting model unresolved",
+    "Piggyback and event/merge replay not implemented by this contract stage",
+    "Task-world split, N/power, cost frontier and effect budget not frozen"
+  ]
+}

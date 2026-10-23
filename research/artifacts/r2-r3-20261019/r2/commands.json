@@ -1,0 +1,35 @@
+[
+  {
+    "argv": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "experiments.plot"
+    ],
+    "cwd": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/reproduction-workspaces/hpc-r2-20261019",
+    "exit_code": 0,
+    "elapsed_seconds": 4.829770848155022,
+    "timeout_seconds": 600
+  },
+  {
+    "argv": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "experiments.plot_revision"
+    ],
+    "cwd": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/reproduction-workspaces/hpc-r2-20261019",
+    "exit_code": 0,
+    "elapsed_seconds": 267.24685088545084,
+    "timeout_seconds": 600
+  },
+  {
+    "argv": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "experiments.plot_realistic"
+    ],
+    "cwd": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/reproduction-workspaces/hpc-r2-20261019",
+    "exit_code": 0,
+    "elapsed_seconds": 7.0348891615867615,
+    "timeout_seconds": 600
+  }
+]

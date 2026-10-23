@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:49:24.855262+00:00",
+  "generated_at": "2026-10-23T07:50:43.377097+00:00",
   "authority": "hpc",
   "runs": [
     {
@@ -191,6 +191,44 @@
       "kind": "analysis",
       "stage": "P1-live-llm-tables",
       "purpose": "Fill skipped LLM tables using original native statistics and verified new-live rows; preserve old figures"
+    },
+    {
+      "run_id": "hpc-native-adapter-contract-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T06:32:50.397908+00:00",
+      "finished_at": "2026-10-23T06:33:24.594429+00:00",
+      "exit_code": 0,
+      "pid": 45665,
+      "elapsed_seconds": 34.196541,
+      "resource_usage": {
+        "child_max_rss_kib": 58184,
+        "child_cpu_user_seconds": 33.934074,
+        "child_cpu_system_seconds": 0.20254799999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "native-task-adapter",
+      "purpose": "lossless-native-semantics-wire-options-local-receipt"
+    },
+    {
+      "run_id": "hpc-native-adapter-trace-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T06:36:46.249036+00:00",
+      "finished_at": "2026-10-23T06:36:46.628263+00:00",
+      "exit_code": 0,
+      "pid": 46109,
+      "elapsed_seconds": 0.379255,
+      "resource_usage": {
+        "child_max_rss_kib": 37148,
+        "child_cpu_user_seconds": 0.324998,
+        "child_cpu_system_seconds": 0.098758,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "simulation",
+      "stage": "native-adapter-trace",
+      "purpose": "bounded-repeat-of-existing-contract-fixtures"
     },
     {
       "run_id": "hpc-numpy-diagnosis-20261020",
@@ -397,6 +435,44 @@
       "purpose": "Validate capped legacy Pool semantics, timeouts/cleanup, original-simulator equivalence, no-fresh-selection leakage and queue order"
     },
     {
+      "run_id": "hpc-paid-service-contract-20261023",
+      "status": "failed",
+      "started_at": "2026-10-23T06:15:50.309587+00:00",
+      "finished_at": "2026-10-23T06:16:25.711081+00:00",
+      "exit_code": 1,
+      "pid": 44274,
+      "elapsed_seconds": 35.401516,
+      "resource_usage": {
+        "child_max_rss_kib": 58052,
+        "child_cpu_user_seconds": 33.996647,
+        "child_cpu_system_seconds": 0.5450969999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "paid-service-contract",
+      "purpose": "byte-service-ul-dl-cpu-contract"
+    },
+    {
+      "run_id": "hpc-paid-service-contract-v2-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T06:19:39.140613+00:00",
+      "finished_at": "2026-10-23T06:20:13.034736+00:00",
+      "exit_code": 0,
+      "pid": 44706,
+      "elapsed_seconds": 33.894144,
+      "resource_usage": {
+        "child_max_rss_kib": 58108,
+        "child_cpu_user_seconds": 33.585106,
+        "child_cpu_system_seconds": 0.259727,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "paid-service-contract",
+      "purpose": "zero-ledger-fix-and-budget-regression"
+    },
+    {
       "run_id": "hpc-paper-audit-20261019",
       "status": "completed",
       "started_at": "2026-10-19T07:36:46.433590+00:00",
@@ -414,6 +490,177 @@
       "kind": "analysis",
       "stage": "R2-R6-audit",
       "purpose": "Audit paper printed numeric tables and restore five Table VI cells through upstream table-only helper; no fresh simulations"
+    },
+    {
+      "run_id": "hpc-periodic-calibration-artifact-audit-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T07:07:49.878067+00:00",
+      "finished_at": "2026-10-23T07:07:50.164742+00:00",
+      "exit_code": 0,
+      "pid": 48289,
+      "elapsed_seconds": 0.286694,
+      "resource_usage": {
+        "child_max_rss_kib": 37940,
+        "child_cpu_user_seconds": 0.253447,
+        "child_cpu_system_seconds": 0.09074499999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "periodic-artifact-audit",
+      "purpose": "independent-result-arithmetic-pairing-and-negative-gate-audit"
+    },
+    {
+      "run_id": "hpc-periodic-cost-probe-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T07:02:52.652655+00:00",
+      "finished_at": "2026-10-23T07:02:54.785262+00:00",
+      "exit_code": 0,
+      "pid": 47925,
+      "elapsed_seconds": 2.132627,
+      "resource_usage": {
+        "child_max_rss_kib": 39964,
+        "child_cpu_user_seconds": 2.017958,
+        "child_cpu_system_seconds": 0.116271,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "simulation",
+      "stage": "periodic-cost-probe",
+      "purpose": "two-disjoint-worlds-12-candidates-24-slot-cost-only"
+    },
+    {
+      "run_id": "hpc-periodic-crn-contract-20261023",
+      "status": "failed",
+      "started_at": "2026-10-23T06:53:54.487852+00:00",
+      "finished_at": "2026-10-23T06:54:28.715389+00:00",
+      "exit_code": 1,
+      "pid": 47227,
+      "elapsed_seconds": 34.227558,
+      "resource_usage": {
+        "child_max_rss_kib": 58420,
+        "child_cpu_user_seconds": 33.955611,
+        "child_cpu_system_seconds": 0.22247299999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "periodic-crn",
+      "purpose": "common-wire-periodic-and-policy-independent-noise-contracts"
+    },
+    {
+      "run_id": "hpc-periodic-crn-contract-v2-20261023",
+      "status": "failed",
+      "started_at": "2026-10-23T06:57:16.224573+00:00",
+      "finished_at": "2026-10-23T06:57:50.480834+00:00",
+      "exit_code": 1,
+      "pid": 47461,
+      "elapsed_seconds": 34.256282,
+      "resource_usage": {
+        "child_max_rss_kib": 58380,
+        "child_cpu_user_seconds": 33.963361,
+        "child_cpu_system_seconds": 0.244226,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "periodic-crn",
+      "purpose": "explicit-filtered-queue-fixture-and-full-regression"
+    },
+    {
+      "run_id": "hpc-periodic-crn-contract-v3-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T07:00:31.079992+00:00",
+      "finished_at": "2026-10-23T07:01:05.389308+00:00",
+      "exit_code": 0,
+      "pid": 47725,
+      "elapsed_seconds": 34.309335,
+      "resource_usage": {
+        "child_max_rss_kib": 58484,
+        "child_cpu_user_seconds": 34.023691,
+        "child_cpu_system_seconds": 0.21759499999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "periodic-crn",
+      "purpose": "actual-length-goodput-rate-contracts-and-full-regression"
+    },
+    {
+      "run_id": "hpc-periodic-independent-calibration-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T07:03:26.426811+00:00",
+      "finished_at": "2026-10-23T07:06:07.101754+00:00",
+      "exit_code": 0,
+      "pid": 47994,
+      "elapsed_seconds": 160.674965,
+      "resource_usage": {
+        "child_max_rss_kib": 68288,
+        "child_cpu_user_seconds": 160.069341,
+        "child_cpu_system_seconds": 0.30356,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "simulation",
+      "stage": "periodic-independent-calibration",
+      "purpose": "12-new-worlds-12-frozen-candidates-calibration-not-test"
+    },
+    {
+      "run_id": "hpc-periodic-world-freeze-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T07:02:37.364286+00:00",
+      "finished_at": "2026-10-23T07:02:39.600919+00:00",
+      "exit_code": 0,
+      "pid": 47889,
+      "elapsed_seconds": 2.236653,
+      "resource_usage": {
+        "child_max_rss_kib": 149476,
+        "child_cpu_user_seconds": 1.959787,
+        "child_cpu_system_seconds": 0.268434,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "periodic-calibration-preflight",
+      "purpose": "registered-seed-catalog-dedup-and-prospective-world-freeze"
+    },
+    {
+      "run_id": "hpc-pose-contract-tests-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T02:07:39.719539+00:00",
+      "finished_at": "2026-10-23T02:08:14.556950+00:00",
+      "exit_code": 0,
+      "pid": 31544,
+      "elapsed_seconds": 34.837434,
+      "resource_usage": {
+        "child_max_rss_kib": 62260,
+        "child_cpu_user_seconds": 34.223326,
+        "child_cpu_system_seconds": 0.529393,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "pose-interface-contract",
+      "purpose": "received-pose-interface-and-rtt-contract-regression"
+    },
+    {
+      "run_id": "hpc-pose-delivery-audit-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T02:11:11.955861+00:00",
+      "finished_at": "2026-10-23T02:11:12.154551+00:00",
+      "exit_code": 0,
+      "pid": 31950,
+      "elapsed_seconds": 0.198714,
+      "resource_usage": {
+        "child_max_rss_kib": 36656,
+        "child_cpu_user_seconds": 0.118131,
+        "child_cpu_system_seconds": 0.122635,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "pose-interface-integrity",
+      "purpose": "independent-file-junit-delivery-hash-audit"
     },
     {
       "run_id": "hpc-post-campaign-audit-20261022",
@@ -1043,6 +1290,120 @@
       "purpose": "Verify encoded feedback,snapshot,CRC,budget,ACK generation,delay and existing isolation"
     },
     {
+      "run_id": "hpc-sync-cost-review-audit-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T07:31:43.111697+00:00",
+      "finished_at": "2026-10-23T07:31:43.616601+00:00",
+      "exit_code": 0,
+      "pid": 53045,
+      "elapsed_seconds": 0.504926,
+      "resource_usage": {
+        "child_max_rss_kib": 83048,
+        "child_cpu_user_seconds": 0.403412,
+        "child_cpu_system_seconds": 0.138783,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "sync-cost-review",
+      "purpose": "independent-original-result-and-cost-conversion-funnel-audit"
+    },
+    {
+      "run_id": "hpc-sync-cost-review-audit-v2-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T07:50:39.008821+00:00",
+      "finished_at": "2026-10-23T07:50:39.491815+00:00",
+      "exit_code": 0,
+      "pid": 54854,
+      "elapsed_seconds": 0.483015,
+      "resource_usage": {
+        "child_max_rss_kib": 83048,
+        "child_cpu_user_seconds": 0.418369,
+        "child_cpu_system_seconds": 0.110507,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "sync-cost-review",
+      "purpose": "final-original-result-ledger-and-principal-metric-version-equality-audit"
+    },
+    {
+      "run_id": "hpc-sync-cost-review-contract-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T07:26:51.136202+00:00",
+      "finished_at": "2026-10-23T07:26:52.410737+00:00",
+      "exit_code": 0,
+      "pid": 52635,
+      "elapsed_seconds": 1.274556,
+      "resource_usage": {
+        "child_max_rss_kib": 52564,
+        "child_cpu_user_seconds": 1.042291,
+        "child_cpu_system_seconds": 0.16902599999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "sync-cost-review",
+      "purpose": "observational-wrapper-equality-cost-and-ACK-latency-contracts"
+    },
+    {
+      "run_id": "hpc-sync-cost-review-contract-v2-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T07:39:19.232201+00:00",
+      "finished_at": "2026-10-23T07:39:20.354266+00:00",
+      "exit_code": 0,
+      "pid": 54258,
+      "elapsed_seconds": 1.122086,
+      "resource_usage": {
+        "child_max_rss_kib": 52648,
+        "child_cpu_user_seconds": 1.003366,
+        "child_cpu_system_seconds": 0.124626,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "sync-cost-review",
+      "purpose": "same-slot-observer-counter-regression-and-related-contracts"
+    },
+    {
+      "run_id": "hpc-sync-cost-review-replay-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T07:27:06.689333+00:00",
+      "finished_at": "2026-10-23T07:29:12.572129+00:00",
+      "exit_code": 0,
+      "pid": 52671,
+      "elapsed_seconds": 125.882817,
+      "resource_usage": {
+        "child_max_rss_kib": 91740,
+        "child_cpu_user_seconds": 125.618466,
+        "child_cpu_system_seconds": 0.199316,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "simulation",
+      "stage": "sync-cost-review",
+      "purpose": "same-12-calibration-worlds-observational-replay-no-new-N"
+    },
+    {
+      "run_id": "hpc-sync-cost-review-replay-v2-20261023",
+      "status": "completed",
+      "started_at": "2026-10-23T07:47:30.178503+00:00",
+      "finished_at": "2026-10-23T07:49:35.059744+00:00",
+      "exit_code": 0,
+      "pid": 54678,
+      "elapsed_seconds": 124.881263,
+      "resource_usage": {
+        "child_max_rss_kib": 91676,
+        "child_cpu_user_seconds": 124.668939,
+        "child_cpu_system_seconds": 0.16430799999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "simulation",
+      "stage": "sync-cost-review",
+      "purpose": "corrected-auxiliary-observer-same-original-worlds-remaining-budget"
+    },
+    {
       "run_id": "infra-launch-roundtrip-20261019T065811Z",
       "status": "completed",
       "started_at": "2026-10-19T06:58:32.577638+00:00",
@@ -1554,6 +1915,6 @@
       "purpose": "User-authorized continuation; retain historical differences: value-fidelity"
     }
   ],
-  "research_runs": 72,
+  "research_runs": 91,
   "note": "Execution status only. Local transfer completeness is recorded in receipts/."
 }
