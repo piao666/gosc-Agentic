@@ -1,0 +1,18 @@
+{
+  "date":"2026-10-25",
+  "scope":"Existing GP-v2 calibration accounting and age/price mechanism review; no new mission or tuning",
+  "frozen":"research/sync/runs/hpc-causal-world-freeze-20261024/outputs/frozen.json",
+  "calibration":"research/sync/runs/hpc-causal-independent-calibration-20261024/outputs",
+  "frontier_audit":"research/sync/runs/hpc-causal-frontier-ablation-audit-v2-20261025/outputs/frontier_audit.json",
+  "contract_timeout_seconds":60,"analysis_timeout_seconds":120,"audit_timeout_seconds":120,
+  "selector_diagnostic_seed":25000103,
+  "selector_random_catalogs":128,
+  "selector_factors":[1.0,0.5,0.1,0.01],
+  "selector_prices":[0.0,0.00001,0.0001],
+  "selector_budget":100,
+  "interpretation":"Exact ideal-objective scaling is distinct from finite precision selector signature and full-mission equivalence. Synthetic catalog seed is not a task/world seed; no policies rerun.",
+  "accounting":"Summary UL at frozen rate1 is exact from ul_summary_bytes; summary ACK offered lower bound = 8*M+16*ceil(M/n_agents) at DLrate2; subtract all unserved DL work for conservative consumed lower bound. DL type/factor histories unlogged, no invented exact split.",
+  "focus":["public_p0.0001","pose_p0.0001","periodic_k8_eps0.0","public_p1e-05","pose_p1e-05","ignore_p1e-05","age_p1e-05","age_p0","public_p0"],
+  "workers":1,"numeric_threads":1,"new_missions":0,"new_llm_calls":0,"training":false,
+  "test_execution_authorized":false,"new_protocol_status":"review_candidate_not_executable"
+}

@@ -123,6 +123,25 @@ class PaidReceiverService:
                 assert tag==192
                 self.task_received.append((t,receiver,source,ident,payload[5:]))
 
+    def _job(self, action, observer, data, t):
+        """Extension point; legacy job order and semantics are unchanged."""
+        if action=='task_ready':self.tasks[observer].append(data)
+        elif action=='pose_ready':
+            if t-decode(data,t,max_age=511)['created']<=self.c.ttl:
+                self.lanes[observer].offer_ready(data,t)
+            else:self.cost['cpu_expired_summaries']+=1
+        else:self._receive(data[0],observer,data[1],t)
+
+    def _task_allowed(self, sender, ident, t):return True
+
+    def _task_attempted(self, sender, ident, t):pass
+
+    def _task_accepted(self, sender, ident, t):pass
+
+    def _replay(self, t):
+        if self.replay_tasks and t>0 and t%self.c.refresh==0:
+            for wire in self.task_history.values():self._enqueue_dl(2,'task',wire)
+
     def tick(self, t, ul_ok=lambda source,kind,wire:True,
              dl_ok=lambda receiver,kind,wire:True):
         if type(t) is not int or t!=self.next_t or not 0<=t<512:
@@ -135,19 +154,15 @@ class PaidReceiverService:
                 else:self.cost['dl_recipient_erasures']+=1
         while self.jobs and self.jobs[0][0]<=t:
             _,_,action,observer,data=heapq.heappop(self.jobs)
-            if action=='task_ready':self.tasks[observer].append(data)
-            elif action=='pose_ready':
-                # Computation delay must not regenerate/refresh the timestamp.
-                if t-decode(data,t,max_age=511)['created']<=self.c.ttl:
-                    self.lanes[observer].offer_ready(data,t)
-                else:self.cost['cpu_expired_summaries']+=1
-            else:self._receive(data[0],observer,data[1],t)
+            self._job(action,observer,data,t)
         acks=[];changed=False
         for sender in range(self.n):
             used=0
             for ident,wire,rate in list(self.tasks[sender])[:self.task_window]:
+                if not self._task_allowed(sender,ident,t):continue
                 need=math.ceil(len(wire)*8/rate)
                 if need<=self.c.ul_capacity-used:
+                    self._task_attempted(sender,ident,t)
                     used+=need;good=bool(ul_ok(sender,'task',wire))
                     self.cost['ul_task_bytes']+=len(wire)
                     if good:
@@ -155,6 +170,7 @@ class PaidReceiverService:
                     if good and (sender,ident) not in self.seen:
                         self.seen.add((sender,ident));self._enqueue_dl(2,'task',wire)
                         self.task_history[sender,ident]=wire
+                        self._task_accepted(sender,ident,t)
             tx=self.lanes[sender].attempt(t,self.c.ul_capacity,used)
             if tx:
                 good=bool(ul_ok(sender,'summary',tx.frame));used+=tx.ul_uses
@@ -168,8 +184,7 @@ class PaidReceiverService:
             self.cost['ul_uses']+=used
             self.events.append({'kind':'ul','t':t,'sender':sender,'ul_uses':used})
         if acks:self._enqueue_dl(1,'summary_ack',feedback(acks))
-        if self.replay_tasks and t>0 and t%self.c.refresh==0:
-            for wire in self.task_history.values():self._enqueue_dl(2,'task',wire)
+        self._replay(t)
         if changed or (t%self.c.refresh==0 and self.edge):
             apps=[v[1] for _,v in sorted(self.edge.items()) if t-v[0]<=self.c.ttl]
             if apps:self._enqueue_dl(3,'summary_snapshot',batch(apps))

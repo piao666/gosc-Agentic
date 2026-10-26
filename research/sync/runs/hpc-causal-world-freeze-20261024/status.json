@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-causal-world-freeze-20261024",
+  "status": "completed",
+  "started_at": "2026-10-24T03:02:28.657167+00:00",
+  "finished_at": "2026-10-24T03:02:30.925240+00:00",
+  "exit_code": 0,
+  "pid": 40394,
+  "elapsed_seconds": 2.268093,
+  "resource_usage": {
+    "child_max_rss_kib": 149652,
+    "child_cpu_user_seconds": 2.229461,
+    "child_cpu_system_seconds": 0.279472,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

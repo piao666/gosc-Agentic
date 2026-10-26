@@ -1,0 +1,2208 @@
+{
+  "status": "passed",
+  "scope": "Local publication file/hash/security management; not project tests, statistical analysis, or absolute secret-free guarantee",
+  "candidate_files": 183,
+  "candidate_bytes": 348498834,
+  "unchanged_file_content_scans_reused_after_hash_check": 180,
+  "audit_self_file_excluded": true,
+  "largest_file": {
+    "path": "research/sync/runs/hpc-summary-age-review-audit-v2-20261025/source_changes.patch",
+    "bytes": 21260683,
+    "sha256": "7b7acaf218f29af3096b24602e84b7dd11c65f1500fe662cadc338abc0a5ba6c"
+  },
+  "archive_count": 16,
+  "archive_member_count": 298,
+  "protected_upstream_paths": [],
+  "flags": [],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 384,
+      "sha256": "83da0099b53406cc446d29a468ed6a9aff75d858604e3563e9b167581eabc02e"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 33496,
+      "sha256": "7ee4aa767bcaae3aaf38524c53e4b4cbd9731e913f8ce0d8668368553f1877f6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12885,
+      "sha256": "ff7e030ad2b74b6638085cc361531a4bf10597edcf9078a8e553559f28064c9e"
+    },
+    {
+      "path": "commit/2026-10-26-01-causal-service-and-age-review.md",
+      "bytes": 7624,
+      "sha256": "8f4ece65d9b952100a21f509b6edbce0f152ad6619be685a22afc660645b3e4b"
+    },
+    {
+      "path": "commit/README.md",
+      "bytes": 1872,
+      "sha256": "4c3e19cf419ff590b486d61cc1f5a2f2f3e514bee405a3904e3a4750bb17b9d5"
+    },
+    {
+      "path": "extensions/causal_paid_service.py",
+      "bytes": 4805,
+      "sha256": "11900b07e39d8871c2213dcf6ab2520f33a06e0a44d5e0661771aa2274cd0978"
+    },
+    {
+      "path": "extensions/causal_paid_simulation.py",
+      "bytes": 3877,
+      "sha256": "253d23c20e4eb7532eee990927a4d5f7ad1febc952d2b011995c2061d575483f"
+    },
+    {
+      "path": "extensions/native_paid_adapter.py",
+      "bytes": 7726,
+      "sha256": "1678d6b89e6271ece22e0d26c2912d7d610453deadb14ba087f96678a825f2c9"
+    },
+    {
+      "path": "extensions/paid_receiver_service.py",
+      "bytes": 10382,
+      "sha256": "fcf2c86ba3d32305235396e0226f0d18d847a97b4377b2d64c1f878bf39ce234"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 8290,
+      "sha256": "b2ccbe593979da385f6a8aa5a070a88f46c5317f8118ae924da4167a6ad18f98"
+    },
+    {
+      "path": "research/logs/causal-calibration-2026-10-24/task_brief.md",
+      "bytes": 2771,
+      "sha256": "5ced7d078b240b8a98d76ab60a8e1ccc6b631fa10d00d2d4ddb7ca150b0db9bc"
+    },
+    {
+      "path": "research/logs/causal-calibration-audit-2026-10-25/actual_commands.json",
+      "bytes": 7026,
+      "sha256": "3dfc0a2693e20aba22b65e8a05fb99006b0fee1455b263202da571d0146c613c"
+    },
+    {
+      "path": "research/logs/causal-calibration-audit-2026-10-25/audit_version_comparison.json",
+      "bytes": 287,
+      "sha256": "8bbb131de87890e61cf70d1be74e1e8f44b28c73acf99c994e08cd66425d275d"
+    },
+    {
+      "path": "research/logs/causal-calibration-audit-2026-10-25/delivery.json",
+      "bytes": 6330,
+      "sha256": "58bea9808829d00cd322953406545e02d57e3468849f0b8006b1dbf94a42d909"
+    },
+    {
+      "path": "research/logs/causal-calibration-audit-2026-10-25/task_brief.md",
+      "bytes": 3132,
+      "sha256": "16f11eec2eb8c417e8fe7bbc646efb49d69e58b332c853b2eefd6fc1d5693912"
+    },
+    {
+      "path": "research/logs/causal-service-2026-10-24/actual_commands.json",
+      "bytes": 4849,
+      "sha256": "18099084bd5fc688337c66b90f4252df983a9bbc18ae0a65b0157473bebbdc3b"
+    },
+    {
+      "path": "research/logs/causal-service-2026-10-24/delivery.json",
+      "bytes": 6593,
+      "sha256": "0d3cd73d85bfcd010dd08e9f05712d4b630e3aba3270692b695496fbc3b6ef90"
+    },
+    {
+      "path": "research/logs/causal-service-2026-10-24/git_fast_forward_proof.json",
+      "bytes": 420,
+      "sha256": "643ef7f7d7ce0eff9ea1312bdefbe83ca2c0a59401161f07cce5cc0a34cf13c0"
+    },
+    {
+      "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+      "bytes": 3107,
+      "sha256": "28fd9ee966118e097484df52a9fc2377e3ff9c66adadb2f5aa382423ff4ebd6d"
+    },
+    {
+      "path": "research/logs/git-publish-2026-10-26/staged_audit.json",
+      "bytes": 3904,
+      "sha256": "c755cfb35eb24fd0804d01782aa5e3d9e8a6d026ac9ac5fdd59bad6c673f8aac"
+    },
+    {
+      "path": "research/logs/git-publish-2026-10-26/task_brief.md",
+      "bytes": 3146,
+      "sha256": "bfb29e9e143277815c4530ac2eb6e97b4033a73cb46afbc89d56d3de22979133"
+    },
+    {
+      "path": "research/logs/summary-age-review-2026-10-25/actual_commands.json",
+      "bytes": 5578,
+      "sha256": "fa08112c59409d958ea094f2e0c6295cfdbcfb1417fbb4cc4164cfc40987a2f4"
+    },
+    {
+      "path": "research/logs/summary-age-review-2026-10-25/delivery.json",
+      "bytes": 4683,
+      "sha256": "062d1c4fb3af1e57f494087854da34b7098c8cb61c78edcd40a0a01ad99bbb03"
+    },
+    {
+      "path": "research/logs/summary-age-review-2026-10-25/task_brief.md",
+      "bytes": 3478,
+      "sha256": "5b9cbb03557ceb462f85ed95c163025051a11d00869a6a161f1e8298badf4750"
+    },
+    {
+      "path": "research/protocols/causal_budget_amendment_2026-10-24.json",
+      "bytes": 1314,
+      "sha256": "35711c3d981ad92327e808089127b53ff49716525e01cb57ae031bc6353355bd"
+    },
+    {
+      "path": "research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+      "bytes": 2045,
+      "sha256": "834a79aa19388fda1b356b0f60198e2bf7b6dd2a1b23a6a2d3c551bb400b0263"
+    },
+    {
+      "path": "research/protocols/causal_service_stage_v2.json",
+      "bytes": 3557,
+      "sha256": "fae53e9c1229a0a9da00bfb158604e3dc25ee4acea9fb8c7b4701653e637c0d2"
+    },
+    {
+      "path": "research/protocols/summary_age_review_v1.json",
+      "bytes": 1504,
+      "sha256": "7ddff8ee82c5557525e73e0601ca956b4128d837dd15b62bd3f6f78a8d6590ce"
+    },
+    {
+      "path": "research/protocols/summary_age_revision_review_2026-10-25.md",
+      "bytes": 3563,
+      "sha256": "3146985af85824135936e996d6ed558da5af5e38bb1af4d1f01f399bf3f04c18"
+    },
+    {
+      "path": "research/reports/causal_calibration_audit_2026-10-25.md",
+      "bytes": 11840,
+      "sha256": "a7a03e8df94cf697dfcbab8368c029357f2fd24b40c849123959cb5da4340516"
+    },
+    {
+      "path": "research/reports/causal_service_progress_2026-10-24.md",
+      "bytes": 8970,
+      "sha256": "a8504acdb8c234f569619f28cb0632ca86791d4494874fd82d08d8ed9749a392"
+    },
+    {
+      "path": "research/reports/summary_age_mechanism_review_2026-10-25.md",
+      "bytes": 11681,
+      "sha256": "d0fee04f15751affdcfcc9250fe5c93731be905035234e306865601cc36df59f"
+    },
+    {
+      "path": "research/sync/STATUS.md",
+      "bytes": 10069,
+      "sha256": "ec8d42bc73035b64cf8cf7f9694e5d090bc231b5971c21459b20f939e581f831"
+    },
+    {
+      "path": "research/sync/dashboard.json",
+      "bytes": 89958,
+      "sha256": "ff252c849ca4b91ac4e2710142b3ad18a89f8177e6462aef0eec0c7e638bd931"
+    },
+    {
+      "path": "research/sync/plans/next_steps.md",
+      "bytes": 18429,
+      "sha256": "1abab7ed5c04107022072fa12b34ce42de71c0f0c100e5932d05c7cad5794add"
+    },
+    {
+      "path": "research/sync/project_status.json",
+      "bytes": 26040,
+      "sha256": "dda5d5164f529b15d208f6c8983f6a996cf381e5986fefb08cde836bab6911b2"
+    },
+    {
+      "path": "research/sync/receipts/20261024T030046Z-627efa.json",
+      "bytes": 542366,
+      "sha256": "eac61797d2029f3f39a3df51ca0d92f144a1c4098f43f61d72550b6c267a6f72"
+    },
+    {
+      "path": "research/sync/receipts/20261024T030434Z-c4580b.json",
+      "bytes": 575810,
+      "sha256": "d80b0bd1548edbfaf7ac9a74fe4824796a46602bf7cd8f4c92e28cf34b930399"
+    },
+    {
+      "path": "research/sync/receipts/20261025T132602Z-2b3032.json",
+      "bytes": 726318,
+      "sha256": "4866a9a89f529e3c9e55b770799b64389bf304736c06fb980c3f471aa9dffb93"
+    },
+    {
+      "path": "research/sync/receipts/20261025T133147Z-0fd5a1.json",
+      "bytes": 731792,
+      "sha256": "18eb8799a5d8593c16ee0fa9777385e5bf8d5c7f8e17cc887e051b63f31a1d38"
+    },
+    {
+      "path": "research/sync/receipts/20261025T133502Z-8fa9fc.json",
+      "bytes": 735259,
+      "sha256": "7aceb6093c344a8f515a4bd30d1dd786191016596cd38f2fe3a92fcb40c5e6e2"
+    },
+    {
+      "path": "research/sync/receipts/20261025T135627Z-be20bd.json",
+      "bytes": 748300,
+      "sha256": "bd541ac7f76a5b8e2b269e8d296600a215fa0b790596fb67ea619729e04f7ea7"
+    },
+    {
+      "path": "research/sync/receipts/20261025T140226Z-a6af80.json",
+      "bytes": 751408,
+      "sha256": "863fdee17e2539e7b4cb4607a1c34cd20105c196e15ab0a531dfac2d5c0dc827"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-budget-amendment-20261024/artifacts.json",
+      "bytes": 234,
+      "sha256": "ab879128941dc9241348790dee4466c6a4772978156a07248828beb883136f7d"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-budget-amendment-20261024/manifest.json",
+      "bytes": 10974,
+      "sha256": "903378a394d2ec07284604de679489c9658fcb5db68f12c479fd1e5211a8ce8d"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-budget-amendment-20261024/source_changes.patch",
+      "bytes": 21240614,
+      "sha256": "1189c16e894bf3f3cbb590c05b620bdcfada2f49dc1a8d4aa48075f370011831"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-budget-amendment-20261024/source_snapshot.json",
+      "bytes": 153905,
+      "sha256": "a41a90760a04cfb4c8cef0751f5cfaf42fe11ce5078cc3a5fc279f5bd6658be3"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-budget-amendment-20261024/source_untracked.tar.gz",
+      "bytes": 26336,
+      "sha256": "4e97c2ff3655309e65cb2005f169b10653d2857815d407275fec6f4a54ca966e"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-budget-amendment-20261024/status.json",
+      "bytes": 537,
+      "sha256": "dab90867710b113c2f437923f6e4c1d9b3c15bf2fbe1d9c1a23bd041a68f234e"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-budget-amendment-20261024/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-budget-amendment-20261024/stdout.log",
+      "bytes": 1236,
+      "sha256": "864d05fdf1161d8f778b99817ad6577e88f3e614774d7d58ecce10babfa912a9"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-calibration-ledger-audit-20261025/artifacts.json",
+      "bytes": 231,
+      "sha256": "da92878e1c4b9c5c898aa9a8ae33a64ffb17e21fc271727cfd7be63e22d7cfc0"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-calibration-ledger-audit-20261025/manifest.json",
+      "bytes": 11319,
+      "sha256": "b5e87a1f03a921dfc2721f52836f5dae836192985bd4eeba10511bf5720c19f7"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-calibration-ledger-audit-20261025/source_changes.patch",
+      "bytes": 21242390,
+      "sha256": "0ef9003f8d93995db857021dddf0556b933d1aabcb42ed28741aff941739e746"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-calibration-ledger-audit-20261025/source_snapshot.json",
+      "bytes": 154655,
+      "sha256": "b4a0eb408a2d495b94ebecc08353dd777e80589b832fa5ddb971b43b5f2e2b6f"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-calibration-ledger-audit-20261025/source_untracked.tar.gz",
+      "bytes": 30442,
+      "sha256": "f10423b1834145a35f0ca080ce2f53b10d63f3011993bdab6ceabbb083c62e14"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-calibration-ledger-audit-20261025/status.json",
+      "bytes": 554,
+      "sha256": "d72441dd38235a36515440c4f9abc92df13c53b279be6340a2d9516793bff3a5"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-calibration-ledger-audit-20261025/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-calibration-ledger-audit-20261025/stdout.log",
+      "bytes": 405,
+      "sha256": "1e20380a543f1a8636b843ef3e674617542316a86f9689a0ea27a0de79406a60"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-contract-20261024/artifacts.json",
+      "bytes": 217,
+      "sha256": "33231c546cb7f3a2ba164fa81062f870c9cd7172765d10344f555192bf7a0167"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-contract-20261024/manifest.json",
+      "bytes": 10522,
+      "sha256": "1aa9492a70e584e09f4f96051052de336ca10258fe21984e14a58d161e9f23da"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-contract-20261024/source_changes.patch",
+      "bytes": 21227319,
+      "sha256": "3bf9e6b1f03af22043d1034ba8a1ed8b4fb277224aa7a653ce49e1e33fb11c96"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-contract-20261024/source_snapshot.json",
+      "bytes": 148910,
+      "sha256": "30dcdadb5b622854bddfe8e1071511d2c46b86d490709c5314a8c7715ce4134d"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-contract-20261024/source_untracked.tar.gz",
+      "bytes": 7567,
+      "sha256": "df9f76a82ccca63f9338987441ef17a889d2f600b3f91c9f31b617a4faa03aa4"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-contract-20261024/status.json",
+      "bytes": 531,
+      "sha256": "5ad72378e528e2b7012f7beec6f7063d978d54dfeddda0f020d4343d2cb42e8c"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-contract-20261024/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-contract-20261024/stdout.log",
+      "bytes": 261,
+      "sha256": "57475b69361a220ed53a89a71ca2c2228ebe340a4789ee28b36e31fac5367bf5"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-cost-probe-20261024/artifacts.json",
+      "bytes": 14956,
+      "sha256": "0169d1759d17438caf67d3335d78676c4d6d7fe0506ef0436b95a83db41545f8"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-cost-probe-20261024/manifest.json",
+      "bytes": 10426,
+      "sha256": "ab76ec9dadf206ac0ebbe151a59d9a9a9605d5a8562e667c6d0b9a0e06014b8c"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-cost-probe-20261024/source_changes.patch",
+      "bytes": 21231594,
+      "sha256": "520031c60aebfaf759d7d8b6feea412f3c3a6e4beb63039e2e8ab626b4c85758"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-cost-probe-20261024/source_snapshot.json",
+      "bytes": 150533,
+      "sha256": "ecafaef37549c80a9fde7bade54534125e2a0e88697e8c71f03a967ba2a57b78"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-cost-probe-20261024/source_untracked.tar.gz",
+      "bytes": 15533,
+      "sha256": "790988ef072e8d17e17135efe0e86ec854f29598d98eded395f032db72fc6c3b"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-cost-probe-20261024/status.json",
+      "bytes": 542,
+      "sha256": "1dc70fe3ca61828323fbcfdbe46077c4a682b9094fc2c42db4ad8b521828ceac"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-cost-probe-20261024/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-cost-probe-20261024/stdout.log",
+      "bytes": 3262,
+      "sha256": "6c5d94845069a60aff8d270da7ffe3a8e4b3f70755285ec69e262a0a0af63a2f"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-20261025/artifacts.json",
+      "bytes": 731,
+      "sha256": "84dd73c7fe018c7610cf38f56704c35260bc68152518285478b7e8f2568a900f"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-20261025/manifest.json",
+      "bytes": 11523,
+      "sha256": "4ff12152e9fc4496d3d6110645c9791ea967f5524f58f73e4284e7a1fb2c74b0"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-20261025/source_changes.patch",
+      "bytes": 21243298,
+      "sha256": "e3dac6d4c2a3b4376863d347c1c74a83d7ef500feb3baf18771b96a3f6686684"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-20261025/source_snapshot.json",
+      "bytes": 154655,
+      "sha256": "b4a0eb408a2d495b94ebecc08353dd777e80589b832fa5ddb971b43b5f2e2b6f"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-20261025/source_untracked.tar.gz",
+      "bytes": 30442,
+      "sha256": "df7f4fb07019a881a87c5c09bafd3a509cea21f379f03bd87e7ccb515de69445"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-20261025/status.json",
+      "bytes": 543,
+      "sha256": "7b41c5cb010d9e90340cf9ed8a43c1d87ce43bd091491b2a2d10f159f633ca62"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-20261025/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-20261025/stdout.log",
+      "bytes": 1322,
+      "sha256": "79b937527b3584146425c3fc6ec5c619fad2a4a29da2f2da262df13fbca4ed07"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-v2-20261025/artifacts.json",
+      "bytes": 734,
+      "sha256": "617d9f76026b044ee20309227ff3673f813200ce05ddfc25ae50817643ba0a3d"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-v2-20261025/manifest.json",
+      "bytes": 11594,
+      "sha256": "67c580a9f4dfcb6e81bc7541edc49328c5a87f399b348271d65059e191b38b71"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-v2-20261025/source_changes.patch",
+      "bytes": 21244211,
+      "sha256": "020f079c0912aa7632812e8ab5977d6098307f1ca02eab19fda9afaee33ddb25"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-v2-20261025/source_snapshot.json",
+      "bytes": 154921,
+      "sha256": "d5fe20faaac98103801e1ced840a0d4400a7148303591a9fb58a7dc8d704dc89"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-v2-20261025/source_untracked.tar.gz",
+      "bytes": 30544,
+      "sha256": "1fa399c6f11cef063b0145f71c7098217152e134263d1f89dd7a11445e5f99cc"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-v2-20261025/status.json",
+      "bytes": 546,
+      "sha256": "2afcc52a33a32be4c13eb010c0acb94f9cd87ca2eb7657efe631e11c9d0f276a"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-v2-20261025/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-v2-20261025/stdout.log",
+      "bytes": 1451,
+      "sha256": "caefb7d9cb4881c948a773ae763e38ebf1bb18a4d58bb6f8184336024b64c7e1"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-figure-20261025/artifacts.json",
+      "bytes": 564,
+      "sha256": "1b67162cfc93eb218bf022c7c2d2ccd17e95dc9bb62674dc3c5db19c829c9001"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-figure-20261025/manifest.json",
+      "bytes": 11704,
+      "sha256": "53294ddbffa2f57c36ed324039124ccb0aa7e6cd529dd9cd1e2b8a744296d2f1"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-figure-20261025/source_changes.patch",
+      "bytes": 21252947,
+      "sha256": "cd8dbc817f296e384f3242e663479e0bcfa8326922943a624a5282d909d1de07"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-figure-20261025/source_snapshot.json",
+      "bytes": 155907,
+      "sha256": "b64b4254d160cdf3008ca0d8c597237fb6f577768411e4ca6ea3e63b12354d2e"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-figure-20261025/source_untracked.tar.gz",
+      "bytes": 35704,
+      "sha256": "6debbeb8fe24e3b0248a952eb5b0ead467843b7b496778c962075544f2f07683"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-figure-20261025/status.json",
+      "bytes": 536,
+      "sha256": "869fb8bf919fe295a842c0bfec0c722d6c953173daf528752b852a7457826d0e"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-figure-20261025/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-figure-20261025/stdout.log",
+      "bytes": 344,
+      "sha256": "e22107af5df60d16981ec6c98ad334bd81b37aacc6b2be7dd56b5e7fe76ae976"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-independent-calibration-20261024/artifacts.json",
+      "bytes": 88134,
+      "sha256": "83bb13d36dbd53da7e7827b6a1881b6b4a65620a0dd800c7ec2f6b0a60096348"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-independent-calibration-20261024/manifest.json",
+      "bytes": 11368,
+      "sha256": "87ce92014c9e619ea5f400641d7835a78404d8248210c030d0d753675757853b"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-independent-calibration-20261024/source_changes.patch",
+      "bytes": 21241484,
+      "sha256": "366cd130828a20761fe10e611677195d5c9c9dd99f2543b00e10a7a0ebae8c32"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-independent-calibration-20261024/source_snapshot.json",
+      "bytes": 153905,
+      "sha256": "a41a90760a04cfb4c8cef0751f5cfaf42fe11ce5078cc3a5fc279f5bd6658be3"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-independent-calibration-20261024/source_untracked.tar.gz",
+      "bytes": 26336,
+      "sha256": "891ad2bbc36c95f998715c5a1c2280c6dee2db38870d3ed1ba79cc38e5a3132d"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-independent-calibration-20261024/status.json",
+      "bytes": 558,
+      "sha256": "e29f5558010b6cb88cf8a922ec46181c8c7a2c98849e3933e9698ace9b77e8c7"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-independent-calibration-20261024/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-independent-calibration-20261024/stdout.log",
+      "bytes": 29923,
+      "sha256": "dae049145855bde5f59ab0ae2f5b55e5594182ab16718bae02570b02d4746b74"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-probe-audit-20261024/artifacts.json",
+      "bytes": 218,
+      "sha256": "30934355249648efe32b4bf99cbbba33dfa9df81cd10ebc06364e83f91e9da8e"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-probe-audit-20261024/manifest.json",
+      "bytes": 10566,
+      "sha256": "14a8a5f658204690c13ff321793ea17f06cb50d4344be41f0f8ddefdee34bf15"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-probe-audit-20261024/source_changes.patch",
+      "bytes": 21232414,
+      "sha256": "11075ed9b111898e9104f892a2a6e0a732025bdc2dd4e643438f2b315d945dfd"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-probe-audit-20261024/source_snapshot.json",
+      "bytes": 150533,
+      "sha256": "e2a178d4099aad9fee8a425c24625901f9271b247c7f9ef6808efa7c62331f25"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-probe-audit-20261024/source_untracked.tar.gz",
+      "bytes": 15862,
+      "sha256": "ed9a578372dc45cd66e4f3783aa88f87afc61af79a92378a3a7065de6748fd46"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-probe-audit-20261024/status.json",
+      "bytes": 532,
+      "sha256": "44973176adeb211b79868980d5b4cb3502cd34fcded7f315801863c115831f1d"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-probe-audit-20261024/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-probe-audit-20261024/stdout.log",
+      "bytes": 583,
+      "sha256": "2ebf7128b20a836f9001de977e150d736e9dbabccc5c2ba9abcabe64c7f78939"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-protocol-contract-20261024/artifacts.json",
+      "bytes": 225,
+      "sha256": "13848c16460e438f23349a4bc29e23f7742504feb1b74609a206f8e908447b4f"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-protocol-contract-20261024/manifest.json",
+      "bytes": 10681,
+      "sha256": "1847765ca532680d3f9298138099e40490b3a4dbb9299f6463bbff9141ed2b42"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-protocol-contract-20261024/source_changes.patch",
+      "bytes": 21229902,
+      "sha256": "e3bbdc775ec8f11575b8461004f443306537f6e5fbeacb2899eb646f9271fe57"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-protocol-contract-20261024/source_snapshot.json",
+      "bytes": 150533,
+      "sha256": "ecafaef37549c80a9fde7bade54534125e2a0e88697e8c71f03a967ba2a57b78"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-protocol-contract-20261024/source_untracked.tar.gz",
+      "bytes": 15533,
+      "sha256": "fce64afd713c17afbeeb31b1eb42fd933afdd25019f6583516fc6f902fb215c2"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-protocol-contract-20261024/status.json",
+      "bytes": 538,
+      "sha256": "00ce8ee9a573d58c704ddeef77f51aa1ba5bb486bdff37fc9bbe835cb19db03a"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-protocol-contract-20261024/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-protocol-contract-20261024/stdout.log",
+      "bytes": 99,
+      "sha256": "26ae9459c1a9f1fdb938ecf753c56aa25e348481366972815be97bca5429518e"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-world-freeze-20261024/artifacts.json",
+      "bytes": 222,
+      "sha256": "a1d91a413701f68e8c3815ebfadf7c4fe20cc33f8fbb5cb84533380055638450"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-world-freeze-20261024/manifest.json",
+      "bytes": 10267,
+      "sha256": "3e14e1ec37312165fbc99422015d0f550d1af8cf086421582fd20306edc46e3b"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-world-freeze-20261024/source_changes.patch",
+      "bytes": 21230762,
+      "sha256": "f66baf2cfb3fdb25440a1f90b13a05c40cd995e4b2025ce408bcb588d2984cac"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-world-freeze-20261024/source_snapshot.json",
+      "bytes": 150533,
+      "sha256": "ecafaef37549c80a9fde7bade54534125e2a0e88697e8c71f03a967ba2a57b78"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-world-freeze-20261024/source_untracked.tar.gz",
+      "bytes": 15533,
+      "sha256": "0461f60e23e493010fc9b4f5d7d256101df2c50a3b24c03c0de538aa8fe73207"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-world-freeze-20261024/status.json",
+      "bytes": 534,
+      "sha256": "f0d9be4e6ca3bc1c39f60248318160dfde798dec039ce039fd9faf29aefaede7"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-world-freeze-20261024/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-world-freeze-20261024/stdout.log",
+      "bytes": 63,
+      "sha256": "afeb7b78ba4be026640f0925932fb44b0496907b15e45c0efa5892fdedaecbe9"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-contract-20261025/artifacts.json",
+      "bytes": 221,
+      "sha256": "26a8e65d2d9978ae15800bd0a099dca1cc75168e38676c7067d1aac33e393a3b"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-contract-20261025/manifest.json",
+      "bytes": 12205,
+      "sha256": "2427104fc8d129c4056970be80f60d5eac4c6a65e2a3023c117dcbe5265b1b62"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-contract-20261025/source_changes.patch",
+      "bytes": 21256231,
+      "sha256": "4ea8f38208c710d7af4a9fe5ca615a137423f2b393135b69693b735674061e47"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-contract-20261025/source_snapshot.json",
+      "bytes": 158543,
+      "sha256": "ecb5ba42237ac79c40b737985f95948725974d4c850a39022db9059b282b1a7c"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-contract-20261025/source_untracked.tar.gz",
+      "bytes": 44846,
+      "sha256": "4c01c18e8648e2150e78e79ec5c1abbefd3d9bace768474ce328bb5f1c116ca1"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-contract-20261025/status.json",
+      "bytes": 544,
+      "sha256": "86f5aa62bcf71c9b60447d90a65a3339f970fdcfddbd822efe54fc7b054274dd"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-contract-20261025/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-contract-20261025/stdout.log",
+      "bytes": 99,
+      "sha256": "4fbfe0b2c326209cdd318cb4bc315f4ff4bc437d80e9898c1ae537c63f35375d"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-20261025/artifacts.json",
+      "bytes": 567,
+      "sha256": "13f1c7bb59d21b0bfa4be037804afc81c7ca9483d75ea6902f8644407f1771cd"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-20261025/manifest.json",
+      "bytes": 12013,
+      "sha256": "0c4da7aa6c8abd582c2c15c251ae9d7c54b81bff08eb4caa4bdb40e35ee67618"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-20261025/source_changes.patch",
+      "bytes": 21257942,
+      "sha256": "23a5c689fab050018644efec94cf7631ba4d1d6e73d4dd232d7801b7377ae64a"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-20261025/source_snapshot.json",
+      "bytes": 158543,
+      "sha256": "ecb5ba42237ac79c40b737985f95948725974d4c850a39022db9059b282b1a7c"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-20261025/source_untracked.tar.gz",
+      "bytes": 44846,
+      "sha256": "658f8ce34889ee6c5a83bd245bfdda1ac21a55ab750cf41118f95440ebb2f4bd"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-20261025/status.json",
+      "bytes": 547,
+      "sha256": "0a4048f3211df114e37972ab399ccc5fcb4874b6cce7123da95f3006685bb569"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-20261025/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-20261025/stdout.log",
+      "bytes": 11645,
+      "sha256": "0618e47e7bb9eef30a91aacdadae06f055e28071a2ca840ae737a1e4df579832"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-v2-20261025/artifacts.json",
+      "bytes": 570,
+      "sha256": "b46d3290bb78d35e9f10d5fb842ad2f8a365933ed5cf4d83dc7264deb1116584"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-v2-20261025/manifest.json",
+      "bytes": 12128,
+      "sha256": "8f039fb494dbb60dbc8baf37c41235f226863b31dd454f43e038663191f71ec8"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-v2-20261025/source_changes.patch",
+      "bytes": 21258851,
+      "sha256": "4a5e6593a0d2378c9849f2a37ce5e8cf9998408ec97ac608c35cb9783bf7422b"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-v2-20261025/source_snapshot.json",
+      "bytes": 158899,
+      "sha256": "79a9076386202320796f2f8b2fafad47691a9ebb2f29d469889c1a59cccbb23d"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-v2-20261025/source_untracked.tar.gz",
+      "bytes": 46066,
+      "sha256": "9119354b87aa6fdf67c2a8ebdc0a8c7b0df0b0a7fa8e4b4f6abae3ab981386dc"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-v2-20261025/status.json",
+      "bytes": 561,
+      "sha256": "9114cecc3651b128267fbb4f36554d20b27836a4c24a7692dd75d0338d965d50"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-v2-20261025/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-v2-20261025/stdout.log",
+      "bytes": 12065,
+      "sha256": "aafa9a0a7bde4c697a5470a3c3322f821b7375d50d74f627c3827919d313f73e"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-20261025/artifacts.json",
+      "bytes": 224,
+      "sha256": "eedc5611523dbb253393859a85b52da6ad7a947e37254e6ddc27059ff7eb9faf"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-20261025/manifest.json",
+      "bytes": 12217,
+      "sha256": "0cec32b7c280ecf149f64ae01d855eec5ac1554828721a213cbb5009eb36d646"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-20261025/source_changes.patch",
+      "bytes": 21259782,
+      "sha256": "5aaef9b8251e738ba86dae58b0260c4f48e2a6b9235d07cdee25da6dba430800"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-20261025/source_snapshot.json",
+      "bytes": 158899,
+      "sha256": "79a9076386202320796f2f8b2fafad47691a9ebb2f29d469889c1a59cccbb23d"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-20261025/source_untracked.tar.gz",
+      "bytes": 46066,
+      "sha256": "c138d00e9f7fe959cf8f6544f0ea37862be86a785937f73f9f93734f6e32b2b6"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-20261025/status.json",
+      "bytes": 549,
+      "sha256": "3855e4402fb6f33df4d2ceffac5c43cfc10b267a0180743fc0728f8c3ebb524c"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-20261025/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-20261025/stdout.log",
+      "bytes": 415,
+      "sha256": "0c92f6aa999e84b844d8ed3648b847ab85c15c3d78437ed8e2bdc8d700e6dafe"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-v2-20261025/artifacts.json",
+      "bytes": 227,
+      "sha256": "a232d4bfae9ecadbc39000647e64283031c41e558650caf44ff186a2dcf31ec0"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-v2-20261025/manifest.json",
+      "bytes": 12478,
+      "sha256": "0af43afea9dd3a0fe751aaf0f2e593c1728b706e6eba8dce1226b857cda78801"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-v2-20261025/source_changes.patch",
+      "bytes": 21260683,
+      "sha256": "7b7acaf218f29af3096b24602e84b7dd11c65f1500fe662cadc338abc0a5ba6c"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-v2-20261025/source_snapshot.json",
+      "bytes": 160029,
+      "sha256": "ae176e3425162ab2a6c58b69c7dceb614b364d85add51f3c921514e1c68ff31a"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-v2-20261025/source_untracked.tar.gz",
+      "bytes": 52817,
+      "sha256": "db0329b87e5ed21d92d373a404c05dcf6a6fe0e8f77c2dae551858cdaec538e2"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-v2-20261025/status.json",
+      "bytes": 552,
+      "sha256": "552e271fe383b046b99730c915d63ef67356c0da177e838b99d231463f998456"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-v2-20261025/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-v2-20261025/stdout.log",
+      "bytes": 444,
+      "sha256": "e850cfa65d1539789b799901fc95e18ce0d69528c03e7b358740e1815ddb881b"
+    },
+    {
+      "path": "scripts/accept_causal_budget.py",
+      "bytes": 3451,
+      "sha256": "17acb08a1ca6b94b0c3575f41e200597df7defdbf4869c666e58eaa5545f8916"
+    },
+    {
+      "path": "scripts/audit_causal_frontier.py",
+      "bytes": 12414,
+      "sha256": "934f02b418ffd6586a2d4fb603e82c9e19e8965f62a3b440a2f10798f3c8a245"
+    },
+    {
+      "path": "scripts/audit_causal_service.py",
+      "bytes": 7301,
+      "sha256": "edd6a8077e350bd429711c2ee276f3123470d2c1410aa91877b8100a6be70f1a"
+    },
+    {
+      "path": "scripts/audit_summary_age_review.py",
+      "bytes": 5561,
+      "sha256": "2bd75e0b19c046af3644f4377336c9d57ef6bfcddb87c3847f03e3d62c2153c4"
+    },
+    {
+      "path": "scripts/plot_causal_frontier.py",
+      "bytes": 2871,
+      "sha256": "5d5f8dcfb6218f7a836a01962a877366d25a28ab8245c221dc928cf7bb95b3f7"
+    },
+    {
+      "path": "scripts/repro_causal_service.py",
+      "bytes": 12886,
+      "sha256": "eb546231fc5f69446bd8ccad37eec0f69849ea485b47c0f676e2be83d76e78b2"
+    },
+    {
+      "path": "scripts/review_summary_age.py",
+      "bytes": 12556,
+      "sha256": "82924c81e29aabb94ff1880e5d0cca12cd02f90dd59517b99b3d26037214244f"
+    },
+    {
+      "path": "tests_ext/test_causal_calibration_protocol.py",
+      "bytes": 2126,
+      "sha256": "51c8a620e4c01176a04ffe14bd08a1758909374d28b658a4049931a601949639"
+    },
+    {
+      "path": "tests_ext/test_causal_paid_service.py",
+      "bytes": 4586,
+      "sha256": "8c4c9c6fd2a8ce24d150e9e8b4f08114f4178df62817c0e7efa4642f52167476"
+    },
+    {
+      "path": "tests_ext/test_causal_paid_simulation.py",
+      "bytes": 2628,
+      "sha256": "4a6bb28b49daa820f06666d5dc90f6f6336f1e1d942ce9d59fdd822a95c0ad3e"
+    },
+    {
+      "path": "tests_ext/test_summary_age_review.py",
+      "bytes": 1906,
+      "sha256": "344a021af95f8923e7d868e7e3c739a96eda7f887a9edd7cb47b2529b13ecf79"
+    },
+    {
+      "path": "硕士论文研究与实施说明书.md",
+      "bytes": 52299,
+      "sha256": "2ee0dfdadfe46c4fd7443c9f84dc0bbd4fdac75ae6dc00ee569ed44c8238f122"
+    }
+  ],
+  "archives": [
+    {
+      "path": "research/sync/runs/hpc-causal-budget-amendment-20261024/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-calibration-2026-10-24/task_brief.md",
+          "bytes": 2277
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/actual_commands.json",
+          "bytes": 4849
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/delivery.json",
+          "bytes": 6593
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/git_fast_forward_proof.json",
+          "bytes": 420
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 3107
+        },
+        {
+          "path": "research/protocols/causal_budget_amendment_2026-10-24.json",
+          "bytes": 1314
+        },
+        {
+          "path": "research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+          "bytes": 2045
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "research/reports/causal_service_progress_2026-10-24.md",
+          "bytes": 8970
+        },
+        {
+          "path": "scripts/accept_causal_budget.py",
+          "bytes": 3451
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 7301
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-calibration-ledger-audit-20261025/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-calibration-2026-10-24/task_brief.md",
+          "bytes": 2277
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/task_brief.md",
+          "bytes": 2325
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/actual_commands.json",
+          "bytes": 4849
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/delivery.json",
+          "bytes": 6593
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/git_fast_forward_proof.json",
+          "bytes": 420
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 3107
+        },
+        {
+          "path": "research/protocols/causal_budget_amendment_2026-10-24.json",
+          "bytes": 1314
+        },
+        {
+          "path": "research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+          "bytes": 2045
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "research/reports/causal_service_progress_2026-10-24.md",
+          "bytes": 8970
+        },
+        {
+          "path": "scripts/accept_causal_budget.py",
+          "bytes": 3451
+        },
+        {
+          "path": "scripts/audit_causal_frontier.py",
+          "bytes": 12140
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 7301
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-contract-20261024/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 2650
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-cost-probe-20261024/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 2650
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 6076
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-20261025/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-calibration-2026-10-24/task_brief.md",
+          "bytes": 2277
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/task_brief.md",
+          "bytes": 2325
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/actual_commands.json",
+          "bytes": 4849
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/delivery.json",
+          "bytes": 6593
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/git_fast_forward_proof.json",
+          "bytes": 420
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 3107
+        },
+        {
+          "path": "research/protocols/causal_budget_amendment_2026-10-24.json",
+          "bytes": 1314
+        },
+        {
+          "path": "research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+          "bytes": 2045
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "research/reports/causal_service_progress_2026-10-24.md",
+          "bytes": 8970
+        },
+        {
+          "path": "scripts/accept_causal_budget.py",
+          "bytes": 3451
+        },
+        {
+          "path": "scripts/audit_causal_frontier.py",
+          "bytes": 12140
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 7301
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-ablation-audit-v2-20261025/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-calibration-2026-10-24/task_brief.md",
+          "bytes": 2277
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/task_brief.md",
+          "bytes": 2325
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/actual_commands.json",
+          "bytes": 4849
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/delivery.json",
+          "bytes": 6593
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/git_fast_forward_proof.json",
+          "bytes": 420
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 3107
+        },
+        {
+          "path": "research/protocols/causal_budget_amendment_2026-10-24.json",
+          "bytes": 1314
+        },
+        {
+          "path": "research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+          "bytes": 2045
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "research/reports/causal_service_progress_2026-10-24.md",
+          "bytes": 8970
+        },
+        {
+          "path": "scripts/accept_causal_budget.py",
+          "bytes": 3451
+        },
+        {
+          "path": "scripts/audit_causal_frontier.py",
+          "bytes": 12414
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 7301
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-frontier-figure-20261025/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-calibration-2026-10-24/task_brief.md",
+          "bytes": 2277
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/task_brief.md",
+          "bytes": 2325
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/actual_commands.json",
+          "bytes": 4849
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/delivery.json",
+          "bytes": 6593
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/git_fast_forward_proof.json",
+          "bytes": 420
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 3107
+        },
+        {
+          "path": "research/protocols/causal_budget_amendment_2026-10-24.json",
+          "bytes": 1314
+        },
+        {
+          "path": "research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+          "bytes": 2045
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "research/reports/causal_calibration_audit_2026-10-25.md",
+          "bytes": 11223
+        },
+        {
+          "path": "research/reports/causal_service_progress_2026-10-24.md",
+          "bytes": 8970
+        },
+        {
+          "path": "scripts/accept_causal_budget.py",
+          "bytes": 3451
+        },
+        {
+          "path": "scripts/audit_causal_frontier.py",
+          "bytes": 12414
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 7301
+        },
+        {
+          "path": "scripts/plot_causal_frontier.py",
+          "bytes": 2871
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-independent-calibration-20261024/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-calibration-2026-10-24/task_brief.md",
+          "bytes": 2277
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/actual_commands.json",
+          "bytes": 4849
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/delivery.json",
+          "bytes": 6593
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/git_fast_forward_proof.json",
+          "bytes": 420
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 3107
+        },
+        {
+          "path": "research/protocols/causal_budget_amendment_2026-10-24.json",
+          "bytes": 1314
+        },
+        {
+          "path": "research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+          "bytes": 2045
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "research/reports/causal_service_progress_2026-10-24.md",
+          "bytes": 8970
+        },
+        {
+          "path": "scripts/accept_causal_budget.py",
+          "bytes": 3451
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 7301
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-probe-audit-20261024/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 2650
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 7301
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-protocol-contract-20261024/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 2650
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 6076
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-causal-world-freeze-20261024/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 2650
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 6076
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-contract-20261025/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-calibration-2026-10-24/task_brief.md",
+          "bytes": 2771
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/actual_commands.json",
+          "bytes": 7026
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/audit_version_comparison.json",
+          "bytes": 287
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/delivery.json",
+          "bytes": 6330
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/task_brief.md",
+          "bytes": 3132
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/actual_commands.json",
+          "bytes": 4849
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/delivery.json",
+          "bytes": 6593
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/git_fast_forward_proof.json",
+          "bytes": 420
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 3107
+        },
+        {
+          "path": "research/logs/summary-age-review-2026-10-25/task_brief.md",
+          "bytes": 2356
+        },
+        {
+          "path": "research/protocols/causal_budget_amendment_2026-10-24.json",
+          "bytes": 1314
+        },
+        {
+          "path": "research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+          "bytes": 2045
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "research/protocols/summary_age_review_v1.json",
+          "bytes": 1504
+        },
+        {
+          "path": "research/reports/causal_calibration_audit_2026-10-25.md",
+          "bytes": 11840
+        },
+        {
+          "path": "research/reports/causal_service_progress_2026-10-24.md",
+          "bytes": 8970
+        },
+        {
+          "path": "scripts/accept_causal_budget.py",
+          "bytes": 3451
+        },
+        {
+          "path": "scripts/audit_causal_frontier.py",
+          "bytes": 12414
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 7301
+        },
+        {
+          "path": "scripts/plot_causal_frontier.py",
+          "bytes": 2871
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "scripts/review_summary_age.py",
+          "bytes": 12235
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        },
+        {
+          "path": "tests_ext/test_summary_age_review.py",
+          "bytes": 1906
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-20261025/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-calibration-2026-10-24/task_brief.md",
+          "bytes": 2771
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/actual_commands.json",
+          "bytes": 7026
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/audit_version_comparison.json",
+          "bytes": 287
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/delivery.json",
+          "bytes": 6330
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/task_brief.md",
+          "bytes": 3132
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/actual_commands.json",
+          "bytes": 4849
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/delivery.json",
+          "bytes": 6593
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/git_fast_forward_proof.json",
+          "bytes": 420
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 3107
+        },
+        {
+          "path": "research/logs/summary-age-review-2026-10-25/task_brief.md",
+          "bytes": 2356
+        },
+        {
+          "path": "research/protocols/causal_budget_amendment_2026-10-24.json",
+          "bytes": 1314
+        },
+        {
+          "path": "research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+          "bytes": 2045
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "research/protocols/summary_age_review_v1.json",
+          "bytes": 1504
+        },
+        {
+          "path": "research/reports/causal_calibration_audit_2026-10-25.md",
+          "bytes": 11840
+        },
+        {
+          "path": "research/reports/causal_service_progress_2026-10-24.md",
+          "bytes": 8970
+        },
+        {
+          "path": "scripts/accept_causal_budget.py",
+          "bytes": 3451
+        },
+        {
+          "path": "scripts/audit_causal_frontier.py",
+          "bytes": 12414
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 7301
+        },
+        {
+          "path": "scripts/plot_causal_frontier.py",
+          "bytes": 2871
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "scripts/review_summary_age.py",
+          "bytes": 12235
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        },
+        {
+          "path": "tests_ext/test_summary_age_review.py",
+          "bytes": 1906
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-existing-data-review-v2-20261025/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-calibration-2026-10-24/task_brief.md",
+          "bytes": 2771
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/actual_commands.json",
+          "bytes": 7026
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/audit_version_comparison.json",
+          "bytes": 287
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/delivery.json",
+          "bytes": 6330
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/task_brief.md",
+          "bytes": 3132
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/actual_commands.json",
+          "bytes": 4849
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/delivery.json",
+          "bytes": 6593
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/git_fast_forward_proof.json",
+          "bytes": 420
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 3107
+        },
+        {
+          "path": "research/logs/summary-age-review-2026-10-25/task_brief.md",
+          "bytes": 2356
+        },
+        {
+          "path": "research/protocols/causal_budget_amendment_2026-10-24.json",
+          "bytes": 1314
+        },
+        {
+          "path": "research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+          "bytes": 2045
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "research/protocols/summary_age_review_v1.json",
+          "bytes": 1504
+        },
+        {
+          "path": "research/reports/causal_calibration_audit_2026-10-25.md",
+          "bytes": 11840
+        },
+        {
+          "path": "research/reports/causal_service_progress_2026-10-24.md",
+          "bytes": 8970
+        },
+        {
+          "path": "scripts/accept_causal_budget.py",
+          "bytes": 3451
+        },
+        {
+          "path": "scripts/audit_causal_frontier.py",
+          "bytes": 12414
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 7301
+        },
+        {
+          "path": "scripts/audit_summary_age_review.py",
+          "bytes": 4240
+        },
+        {
+          "path": "scripts/plot_causal_frontier.py",
+          "bytes": 2871
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "scripts/review_summary_age.py",
+          "bytes": 12556
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        },
+        {
+          "path": "tests_ext/test_summary_age_review.py",
+          "bytes": 1906
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-20261025/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-calibration-2026-10-24/task_brief.md",
+          "bytes": 2771
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/actual_commands.json",
+          "bytes": 7026
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/audit_version_comparison.json",
+          "bytes": 287
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/delivery.json",
+          "bytes": 6330
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/task_brief.md",
+          "bytes": 3132
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/actual_commands.json",
+          "bytes": 4849
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/delivery.json",
+          "bytes": 6593
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/git_fast_forward_proof.json",
+          "bytes": 420
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 3107
+        },
+        {
+          "path": "research/logs/summary-age-review-2026-10-25/task_brief.md",
+          "bytes": 2356
+        },
+        {
+          "path": "research/protocols/causal_budget_amendment_2026-10-24.json",
+          "bytes": 1314
+        },
+        {
+          "path": "research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+          "bytes": 2045
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "research/protocols/summary_age_review_v1.json",
+          "bytes": 1504
+        },
+        {
+          "path": "research/reports/causal_calibration_audit_2026-10-25.md",
+          "bytes": 11840
+        },
+        {
+          "path": "research/reports/causal_service_progress_2026-10-24.md",
+          "bytes": 8970
+        },
+        {
+          "path": "scripts/accept_causal_budget.py",
+          "bytes": 3451
+        },
+        {
+          "path": "scripts/audit_causal_frontier.py",
+          "bytes": 12414
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 7301
+        },
+        {
+          "path": "scripts/audit_summary_age_review.py",
+          "bytes": 4240
+        },
+        {
+          "path": "scripts/plot_causal_frontier.py",
+          "bytes": 2871
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "scripts/review_summary_age.py",
+          "bytes": 12556
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        },
+        {
+          "path": "tests_ext/test_summary_age_review.py",
+          "bytes": 1906
+        }
+      ]
+    },
+    {
+      "path": "research/sync/runs/hpc-summary-age-review-audit-v2-20261025/source_untracked.tar.gz",
+      "members": [
+        {
+          "path": "extensions/causal_paid_service.py",
+          "bytes": 4805
+        },
+        {
+          "path": "extensions/causal_paid_simulation.py",
+          "bytes": 3877
+        },
+        {
+          "path": "research/logs/causal-calibration-2026-10-24/task_brief.md",
+          "bytes": 2771
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/actual_commands.json",
+          "bytes": 7026
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/audit_version_comparison.json",
+          "bytes": 287
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/delivery.json",
+          "bytes": 6330
+        },
+        {
+          "path": "research/logs/causal-calibration-audit-2026-10-25/task_brief.md",
+          "bytes": 3132
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/actual_commands.json",
+          "bytes": 4849
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/delivery.json",
+          "bytes": 6593
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/git_fast_forward_proof.json",
+          "bytes": 420
+        },
+        {
+          "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+          "bytes": 3107
+        },
+        {
+          "path": "research/logs/summary-age-review-2026-10-25/task_brief.md",
+          "bytes": 2356
+        },
+        {
+          "path": "research/protocols/causal_budget_amendment_2026-10-24.json",
+          "bytes": 1314
+        },
+        {
+          "path": "research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+          "bytes": 2045
+        },
+        {
+          "path": "research/protocols/causal_service_stage_v2.json",
+          "bytes": 3557
+        },
+        {
+          "path": "research/protocols/summary_age_review_v1.json",
+          "bytes": 1504
+        },
+        {
+          "path": "research/protocols/summary_age_revision_review_2026-10-25.md",
+          "bytes": 3563
+        },
+        {
+          "path": "research/reports/causal_calibration_audit_2026-10-25.md",
+          "bytes": 11840
+        },
+        {
+          "path": "research/reports/causal_service_progress_2026-10-24.md",
+          "bytes": 8970
+        },
+        {
+          "path": "research/reports/summary_age_mechanism_review_2026-10-25.md",
+          "bytes": 11077
+        },
+        {
+          "path": "scripts/accept_causal_budget.py",
+          "bytes": 3451
+        },
+        {
+          "path": "scripts/audit_causal_frontier.py",
+          "bytes": 12414
+        },
+        {
+          "path": "scripts/audit_causal_service.py",
+          "bytes": 7301
+        },
+        {
+          "path": "scripts/audit_summary_age_review.py",
+          "bytes": 5561
+        },
+        {
+          "path": "scripts/plot_causal_frontier.py",
+          "bytes": 2871
+        },
+        {
+          "path": "scripts/repro_causal_service.py",
+          "bytes": 12886
+        },
+        {
+          "path": "scripts/review_summary_age.py",
+          "bytes": 12556
+        },
+        {
+          "path": "tests_ext/test_causal_calibration_protocol.py",
+          "bytes": 2126
+        },
+        {
+          "path": "tests_ext/test_causal_paid_service.py",
+          "bytes": 4586
+        },
+        {
+          "path": "tests_ext/test_causal_paid_simulation.py",
+          "bytes": 2628
+        },
+        {
+          "path": "tests_ext/test_summary_age_review.py",
+          "bytes": 1906
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-causal-frontier-ablation-audit-v2-20261025",
+  "status": "completed",
+  "started_at": "2026-10-25T13:27:46.610089+00:00",
+  "finished_at": "2026-10-25T13:27:48.682226+00:00",
+  "exit_code": 0,
+  "pid": 7104,
+  "elapsed_seconds": 2.072158,
+  "resource_usage": {
+    "child_max_rss_kib": 88012,
+    "child_cpu_user_seconds": 2.021483,
+    "child_cpu_system_seconds": 0.290691,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

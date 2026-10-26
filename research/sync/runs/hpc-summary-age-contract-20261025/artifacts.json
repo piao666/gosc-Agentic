@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-summary-age-contract-20261025",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 2673,
+      "sha256": "05de83fcc98fc9e94d6a01347ad84894d38718028ecbb99af3f74687bbbe413e"
+    }
+  ]
+}

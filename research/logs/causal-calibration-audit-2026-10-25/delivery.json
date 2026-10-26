@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-25",
+  "status": "completed_delivered_scientific_No-Go",
+  "git_head": "47389eba9c6e2838139df3aa47863ab88634e97a",
+  "working_tree_dirty": true,
+  "new_git_commit_or_push": false,
+  "source_sync_id": "20261025T133730Z",
+  "verified_sync_file_count": 476,
+  "sha256_mismatches": [],
+  "frozen_source_SHA_matches_latest_sync": true,
+  "run_receipt": "research/sync/receipts/20261025T133502Z-8fa9fc.json",
+  "all_outputs_mirrored": true,
+  "calibration_missions": 252,
+  "independent_calibration_N": 12,
+  "audited_events": 950281,
+  "candidate_test_N_not_authorized": 21907,
+  "executable_test_N": null,
+  "test_missions": 0,
+  "training": false,
+  "final_report": "research/reports/causal_calibration_audit_2026-10-25.md",
+  "final_figure": "research/sync/runs/hpc-causal-frontier-figure-20261025/outputs/discrete_frontier.png",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "source_sha256": "d8b7e54f43a06f9f8e55bc5e736cd9bf46189a9f2f9c84f5f61d4f8c78fb77d3",
+      "remote_sha256": "d8b7e54f43a06f9f8e55bc5e736cd9bf46189a9f2f9c84f5f61d4f8c78fb77d3",
+      "size": 32209,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "ff7e030ad2b74b6638085cc361531a4bf10597edcf9078a8e553559f28064c9e",
+      "remote_sha256": "ff7e030ad2b74b6638085cc361531a4bf10597edcf9078a8e553559f28064c9e",
+      "size": 12885,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/README.md",
+      "source_sha256": "c6d9b0647d74654167b0f7c03e874944822b06d748c32e726155f322ec2604f5",
+      "remote_sha256": "c6d9b0647d74654167b0f7c03e874944822b06d748c32e726155f322ec2604f5",
+      "size": 7224,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/logs/causal-calibration-2026-10-24/task_brief.md",
+      "source_sha256": "5ced7d078b240b8a98d76ab60a8e1ccc6b631fa10d00d2d4ddb7ca150b0db9bc",
+      "remote_sha256": "5ced7d078b240b8a98d76ab60a8e1ccc6b631fa10d00d2d4ddb7ca150b0db9bc",
+      "size": 2771,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/logs/causal-calibration-audit-2026-10-25/actual_commands.json",
+      "source_sha256": "3dfc0a2693e20aba22b65e8a05fb99006b0fee1455b263202da571d0146c613c",
+      "remote_sha256": "3dfc0a2693e20aba22b65e8a05fb99006b0fee1455b263202da571d0146c613c",
+      "size": 7026,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/logs/causal-calibration-audit-2026-10-25/audit_version_comparison.json",
+      "source_sha256": "8bbb131de87890e61cf70d1be74e1e8f44b28c73acf99c994e08cd66425d275d",
+      "remote_sha256": "8bbb131de87890e61cf70d1be74e1e8f44b28c73acf99c994e08cd66425d275d",
+      "size": 287,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/logs/causal-calibration-audit-2026-10-25/task_brief.md",
+      "source_sha256": "16f11eec2eb8c417e8fe7bbc646efb49d69e58b332c853b2eefd6fc1d5693912",
+      "remote_sha256": "16f11eec2eb8c417e8fe7bbc646efb49d69e58b332c853b2eefd6fc1d5693912",
+      "size": 3132,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/protocols/causal_budget_amendment_2026-10-24.json",
+      "source_sha256": "35711c3d981ad92327e808089127b53ff49716525e01cb57ae031bc6353355bd",
+      "remote_sha256": "35711c3d981ad92327e808089127b53ff49716525e01cb57ae031bc6353355bd",
+      "size": 1314,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/reports/causal_calibration_audit_2026-10-25.md",
+      "source_sha256": "a7a03e8df94cf697dfcbab8368c029357f2fd24b40c849123959cb5da4340516",
+      "remote_sha256": "a7a03e8df94cf697dfcbab8368c029357f2fd24b40c849123959cb5da4340516",
+      "size": 11840,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/sync/plans/next_steps.md",
+      "source_sha256": "8aed926802e98276f73dbdaa128c0fc119deb203333a8e93b1e72aafa3153b31",
+      "remote_sha256": "8aed926802e98276f73dbdaa128c0fc119deb203333a8e93b1e72aafa3153b31",
+      "size": 17004,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/sync/project_status.json",
+      "source_sha256": "4ce5703316df2e5c8926435d50ac13415d851763c001800605961a9bf7d1e3ca",
+      "remote_sha256": "4ce5703316df2e5c8926435d50ac13415d851763c001800605961a9bf7d1e3ca",
+      "size": 23733,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "scripts/accept_causal_budget.py",
+      "source_sha256": "17acb08a1ca6b94b0c3575f41e200597df7defdbf4869c666e58eaa5545f8916",
+      "remote_sha256": "17acb08a1ca6b94b0c3575f41e200597df7defdbf4869c666e58eaa5545f8916",
+      "size": 3451,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "scripts/audit_causal_frontier.py",
+      "source_sha256": "934f02b418ffd6586a2d4fb603e82c9e19e8965f62a3b440a2f10798f3c8a245",
+      "remote_sha256": "934f02b418ffd6586a2d4fb603e82c9e19e8965f62a3b440a2f10798f3c8a245",
+      "size": 12414,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "scripts/audit_causal_service.py",
+      "source_sha256": "edd6a8077e350bd429711c2ee276f3123470d2c1410aa91877b8100a6be70f1a",
+      "remote_sha256": "edd6a8077e350bd429711c2ee276f3123470d2c1410aa91877b8100a6be70f1a",
+      "size": 7301,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "scripts/plot_causal_frontier.py",
+      "source_sha256": "5d5f8dcfb6218f7a836a01962a877366d25a28ab8245c221dc928cf7bb95b3f7",
+      "remote_sha256": "5d5f8dcfb6218f7a836a01962a877366d25a28ab8245c221dc928cf7bb95b3f7",
+      "size": 2871,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "scripts/repro_causal_service.py",
+      "source_sha256": "eb546231fc5f69446bd8ccad37eec0f69849ea485b47c0f676e2be83d76e78b2",
+      "remote_sha256": "eb546231fc5f69446bd8ccad37eec0f69849ea485b47c0f676e2be83d76e78b2",
+      "size": 12886,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "硕士论文研究与实施说明书.md",
+      "source_sha256": "2ee0dfdadfe46c4fd7443c9f84dc0bbd4fdac75ae6dc00ee569ed44c8238f122",
+      "remote_sha256": "2ee0dfdadfe46c4fd7443c9f84dc0bbd4fdac75ae6dc00ee569ed44c8238f122",
+      "size": 52299,
+      "mode": 420,
+      "normalized_lf": false
+    }
+  ]
+}

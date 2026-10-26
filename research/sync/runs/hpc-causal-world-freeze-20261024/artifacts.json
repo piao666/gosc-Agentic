@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-causal-world-freeze-20261024",
+  "files": [
+    {
+      "path": "outputs/frozen.json",
+      "size": 55292,
+      "sha256": "4acd18b105ecd2ca9fd41e0f7bc5213eb87728586970c846416547ea2bb5a0ee"
+    }
+  ]
+}

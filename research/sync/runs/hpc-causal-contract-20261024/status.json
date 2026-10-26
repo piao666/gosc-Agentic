@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-causal-contract-20261024",
+  "status": "completed",
+  "started_at": "2026-10-24T02:57:32.961834+00:00",
+  "finished_at": "2026-10-24T02:58:09.559709+00:00",
+  "exit_code": 0,
+  "pid": 39874,
+  "elapsed_seconds": 36.597898,
+  "resource_usage": {
+    "child_max_rss_kib": 59332,
+    "child_cpu_user_seconds": 35.815068,
+    "child_cpu_system_seconds": 0.826155,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

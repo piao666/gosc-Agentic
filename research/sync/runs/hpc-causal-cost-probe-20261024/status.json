@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-causal-cost-probe-20261024",
+  "status": "completed",
+  "started_at": "2026-10-24T03:02:41.225232+00:00",
+  "finished_at": "2026-10-24T03:02:46.094068+00:00",
+  "exit_code": 0,
+  "pid": 40433,
+  "elapsed_seconds": 4.868857,
+  "resource_usage": {
+    "child_max_rss_kib": 47788,
+    "child_cpu_user_seconds": 4.829368,
+    "child_cpu_system_seconds": 0.22511699999999998,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

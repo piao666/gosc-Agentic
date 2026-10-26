@@ -1,3 +1,43 @@
+# 下一步（2026-10-25 摘要成本/age机制审查后）
+
+[RUN/CODE] [机制审查](../../reports/summary_age_mechanism_review_2026-10-25.md)：18合同、原252任务950281事件分析与独立复算完成，新mission/N0；1536合成选择器比较0不一致，但不证明普遍闭环逐位等价。age同次全部价值统一缩放，理想目标等价p_eff=p*(1+mean_age)。选中pose精确摘要UL20516uses，固定账本全部免去仍超两个主要对照的1.05通信上限，不能只靠UL免单宣称过关。
+
+1. 原协议正式test/扩N/训练仍No-Go，不事后更换age为主方法。新协议仅[review_candidate](../../protocols/summary_age_revision_review_2026-10-25.md)，无可执行world/N/预算。
+2. 优先审阅native-age/显式动态price（只用已收到native EVID、不购买摘要）与paid-age/paid-ignore/paid-pose最小机制对照；买来的时间戳价值尚未识别，不能直接说age不需要信息。
+3. 前瞻补观测：DL frame kind/bytes/入队服务、CPU received kind、每次factor/时间戳来源/候选值/选择signature。旧日志没有的字段不重仿真冒充历史观测。
+4. 再审阅可计价的延后编码/合并/捎带/ACK接收路径，保留CRC/TTL/时延/失败。尚未实施或运行新服务实验。P1原作者复现缺口继续单列。
+5. 本轮只读分析；0新LLM/GPU/正式test/训练，未Git提交/push。
+
+---
+
+以下为前序快照：
+
+# 下一步（2026-10-25 GP-v2独立校准与审计后）
+
+[RUN] [最新报告](../../reports/causal_calibration_audit_2026-10-25.md)：21候选×12新world=252任务已完成（447.37s）；950,281事件账本、探索性CI/六端点规划N、离散成本前沿、固定price消融及No-Go独立复算通过。用户已批准的预算修订完成验收，原480s blocked记录保留。
+
+1. **当前协议No-Go**：pose平均快于选中periodic/public，但通信/逻辑CPU成本更高，0对不付费基线点达到联合成本支持，规划N21907>200上限。没有可执行test N/预算，不扩N或训练。
+2. 固定price消融中paid-ignore成本支持成立，但gain 1.8333slots的95%探索性CI跨0；age候选给pose施加更强简单机制压力，不事后改主方法。当前不运行更多扫参或“最佳age正式验证”。
+3. 建议先静态审查age统一价值缩放与动态price的关系、摘要成本是否有可证伪降低路径；若要新协议/实验，先形成具体方案再决定，不自动执行。
+4. 作者原校准/cache生成链/历史数值差异仍单列，不能以本次Planner新服务校准冒充解决。0新LLM/GPU/正式test/训练；本轮未Git提交或push。
+
+---
+
+以下为前序快照：
+
+# 下一步（2026-10-24因果时钟/有界catchup验收后）
+
+[RUN] [最新报告](../../reports/causal_service_progress_2026-10-24.md)：187主回归、28补充合同（含重复）通过；GP-v2服务、paid-ignore/age/shuffle和21候选网格完成，42短probe及独立账本审计通过。原GP-v1两个短fixture与47389eb归档源码全部字段相等。
+
+1. **预算Pending**：probe投影895.50s>事前480s门槛；252校准任务0次。审阅[预算修订提案](../../protocols/causal_calibration_budget_proposal_2026-10-24.md)再决定是否允许1200s上限，不擅改原blocked协议。
+2. 若预算获批，沿用已冻结21候选和23000000–23000011新world，完成独立校准/离散通信+CPU前沿/消融与六端点功效审计。不得更换候选、删失败或扩旧N。
+3. 正式test/训练未授权且没有可执行N/预算。新服务收益未知；旧GP-v1科学No-Go及原作者复现缺口分别保留。
+4. 本轮源码/报告未提交、未push；本轮0GPU/0新LLM/0训练。
+
+---
+
+以下为前序快照：
+
 # 下一步（2026-10-23同步成本/估值改变率审查后）
 
 归档更新：实现/文档/运行元数据及R2/R3白名单包随[当日本地提交说明](../../../commit/2026-10-23-01-paid-pose-calibration-and-cost-review.md)归档，未push；下方前序任务中的“未提交”保留历史时点含义。当前No-Go不变。

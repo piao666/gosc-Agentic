@@ -1,0 +1,150 @@
+[
+  {
+    "run_id": "hpc-causal-contract-20261024",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "timeout",
+      "300",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests",
+      "tests_ext/test_receiver_pose_interface.py",
+      "tests_ext/test_receiver_rtt_contract.py",
+      "tests_ext/test_paid_receiver_service.py",
+      "tests_ext/test_native_paid_adapter.py",
+      "tests_ext/test_paired_paid_simulation.py",
+      "tests_ext/test_sync_cost_diagnostic.py",
+      "tests_ext/test_causal_paid_service.py",
+      "tests_ext/test_causal_paid_simulation.py",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-causal-contract-20261024/pytest-tmp",
+      "--junitxml",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-causal-contract-20261024/outputs/pytest.xml"
+    ],
+    "seeds": [
+      21000000
+    ],
+    "config": "research/protocols/periodic_crn_stage_v1.json",
+    "source_sync_id": "20261024T025704Z",
+    "source_manifest_sha256": "30dcdadb5b622854bddfe8e1071511d2c46b86d490709c5314a8c7715ce4134d",
+    "status": "completed",
+    "elapsed_seconds": 36.597898
+  },
+  {
+    "run_id": "hpc-causal-protocol-contract-20261024",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "timeout",
+      "120",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests_ext/test_causal_calibration_protocol.py",
+      "tests_ext/test_causal_paid_service.py",
+      "tests_ext/test_causal_paid_simulation.py",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-causal-protocol-contract-20261024/pytest-tmp",
+      "--junitxml",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-causal-protocol-contract-20261024/outputs/pytest.xml"
+    ],
+    "seeds": [
+      21000000,
+      21000001
+    ],
+    "config": "research/protocols/causal_service_stage_v2.json",
+    "source_sync_id": "20261024T030147Z",
+    "source_manifest_sha256": "ecafaef37549c80a9fde7bade54534125e2a0e88697e8c71f03a967ba2a57b78",
+    "status": "completed",
+    "elapsed_seconds": 2.932952
+  },
+  {
+    "run_id": "hpc-causal-world-freeze-20261024",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "timeout",
+      "120",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/repro_causal_service.py",
+      "--mode",
+      "prepare"
+    ],
+    "seeds": [],
+    "config": "research/protocols/causal_service_stage_v2.json",
+    "source_sync_id": "20261024T030147Z",
+    "source_manifest_sha256": "ecafaef37549c80a9fde7bade54534125e2a0e88697e8c71f03a967ba2a57b78",
+    "status": "completed",
+    "elapsed_seconds": 2.268093
+  },
+  {
+    "run_id": "hpc-causal-cost-probe-20261024",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "timeout",
+      "120",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/repro_causal_service.py",
+      "--mode",
+      "probe",
+      "--frozen",
+      "research/sync/runs/hpc-causal-world-freeze-20261024/outputs/frozen.json"
+    ],
+    "seeds": [
+      22000000,
+      22000001
+    ],
+    "config": "research/protocols/causal_service_stage_v2.json",
+    "source_sync_id": "20261024T030147Z",
+    "source_manifest_sha256": "ecafaef37549c80a9fde7bade54534125e2a0e88697e8c71f03a967ba2a57b78",
+    "status": "completed",
+    "elapsed_seconds": 4.868857
+  },
+  {
+    "run_id": "hpc-causal-probe-audit-20261024",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "timeout",
+      "120",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/audit_causal_service.py",
+      "--phase",
+      "probe",
+      "--frozen",
+      "research/sync/runs/hpc-causal-world-freeze-20261024/outputs/frozen.json",
+      "--calibration",
+      "research/sync/runs/hpc-causal-cost-probe-20261024/outputs"
+    ],
+    "seeds": [],
+    "config": "research/protocols/causal_service_stage_v2.json",
+    "source_sync_id": "20261024T030345Z",
+    "source_manifest_sha256": "e2a178d4099aad9fee8a425c24625901f9271b247c7f9ef6808efa7c62331f25",
+    "status": "completed",
+    "elapsed_seconds": 0.330482
+  }
+]

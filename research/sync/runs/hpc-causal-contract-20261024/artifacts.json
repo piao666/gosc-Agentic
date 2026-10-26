@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-causal-contract-20261024",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 23099,
+      "sha256": "f61217d7172e1d7b60a29ce7595afd48459d1e9d3e832aa19199daa59d24cc90"
+    }
+  ]
+}

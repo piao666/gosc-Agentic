@@ -1,0 +1,14 @@
+{
+  "status": "identical",
+  "checked_fields": [
+    "summary",
+    "ablations",
+    "frontier",
+    "supported_pairs",
+    "candidate_test_N",
+    "selected",
+    "decision",
+    "reasons"
+  ],
+  "scope": "Lightweight JSON content comparison only; scientific computations ran on HPC"
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-causal-probe-audit-20261024",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 609,
+      "sha256": "79e2deef0ec647d300f894dabd5d98ffe6c3b1efaff58d7fd3782c9c7a9bce50"
+    }
+  ]
+}

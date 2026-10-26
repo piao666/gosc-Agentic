@@ -1,6 +1,6 @@
 # HPC execution status
 
-Generated: 2026-10-23T07:50:43.377097+00:00
+Generated: 2026-10-25T14:02:23.582861+00:00
 
 | Run | Kind | Stage | Status | Exit |
 |---|---|---|---|---|
@@ -8,6 +8,17 @@ Generated: 2026-10-23T07:50:43.377097+00:00
 | hpc-acceptance-scope-v2-20261022 | analysis | P1-acceptance | completed | 0 |
 | hpc-c-resume-20261020 | simulation | ordered-c-resume | completed | 0 |
 | hpc-cache-gap-probe-20261022 | analysis | P1-cache-gap | completed | 0 |
+| hpc-causal-budget-amendment-20261024 | infrastructure | causal_approved_budget | completed | 0 |
+| hpc-causal-calibration-ledger-audit-20261025 | analysis | causal_independent_ledger_statistics | completed | 0 |
+| hpc-causal-contract-20261024 | test | causal_clock_bounded_replay | completed | 0 |
+| hpc-causal-cost-probe-20261024 | simulation | causal_cost_probe | completed | 0 |
+| hpc-causal-frontier-ablation-audit-20261025 | analysis | causal_frontier_ablation_stop_audit | completed | 0 |
+| hpc-causal-frontier-ablation-audit-v2-20261025 | analysis | causal_frontier_ablation_scope_clarification | completed | 0 |
+| hpc-causal-frontier-figure-20261025 | analysis | causal_frontier_visual_verification | completed | 0 |
+| hpc-causal-independent-calibration-20261024 | simulation | causal_independent_calibration | completed | 0 |
+| hpc-causal-probe-audit-20261024 | analysis | causal_independent_probe_audit | completed | 0 |
+| hpc-causal-protocol-contract-20261024 | test | causal_fair_comparison_contract | completed | 0 |
+| hpc-causal-world-freeze-20261024 | analysis | causal_world_freeze | completed | 0 |
 | hpc-compare-tests-20261020 | test | comparison-coverage | completed | 0 |
 | hpc-difference-probe-20261020 | analysis | historical-diagnosis | completed | 0 |
 | hpc-env-20261019 | infrastructure | environment | completed | 0 |
@@ -67,6 +78,11 @@ Generated: 2026-10-23T07:50:43.377097+00:00
 | hpc-resume-final-tests-20261020 | test | resume-and-llm-observation | completed | 0 |
 | hpc-resume-freeze-tests-20261020 | test | final-campaign-guards | completed | 0 |
 | hpc-resume-tests-20261020 | test | resume-guards | completed | 0 |
+| hpc-summary-age-contract-20261025 | test | summary_age_review_contracts | completed | 0 |
+| hpc-summary-age-existing-data-review-20261025 | analysis | summary_age_existing_data_review | completed | 0 |
+| hpc-summary-age-existing-data-review-v2-20261025 | analysis | summary_age_existing_data_review_v2 | completed | 0 |
+| hpc-summary-age-review-audit-20261025 | analysis | summary_age_review_independent_audit | completed | 0 |
+| hpc-summary-age-review-audit-v2-20261025 | analysis | summary_age_review_raw_event_audit | completed | 0 |
 | hpc-summary-cost-audit-20261022 | analysis | P2-information-cost-audit | completed | 0 |
 | hpc-summary-cost-final-audit-20261022 | analysis | P2-summary-cost-integrity | completed | 0 |
 | hpc-summary-cost-tests-20261022 | test | P2-information-cost-guards | completed | 0 |

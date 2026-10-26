@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-25",
+  "status": "review_completed_delivered_No-Go_retained",
+  "git_head": "47389eba9c6e2838139df3aa47863ab88634e97a",
+  "working_tree_dirty": true,
+  "new_git_commit_or_push": false,
+  "source_sync_id": "20261025T140426Z",
+  "verified_sync_file_count": 485,
+  "sha256_mismatches": [],
+  "frozen_method_source_unchanged": true,
+  "receipt": "research/sync/receipts/20261025T140226Z-a6af80.json",
+  "all_outputs_mirrored": true,
+  "contract_tests_passed": 18,
+  "selector_synthetic_comparisons": 1536,
+  "selector_synthetic_mismatches": 0,
+  "existing_missions_read": 252,
+  "new_missions": 0,
+  "new_independent_N": 0,
+  "training": false,
+  "next_protocol_status": "review_candidate_not_executable",
+  "review_sha256": "a122753ac569de2283d08e352846f10ad8ca09bf3b572057609d2635c77a80ec",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "source_sha256": "9358905fbf5079d4b3f7660b69fd4a0cd0b12f9d89029d98e16ea961bc2ada46",
+      "remote_sha256": "9358905fbf5079d4b3f7660b69fd4a0cd0b12f9d89029d98e16ea961bc2ada46",
+      "size": 32917,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/README.md",
+      "source_sha256": "63d5ab77f3fe82023df3f596321d14b94ea0f60a10017d35e0b2657492dc0b7c",
+      "remote_sha256": "63d5ab77f3fe82023df3f596321d14b94ea0f60a10017d35e0b2657492dc0b7c",
+      "size": 7890,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/logs/summary-age-review-2026-10-25/actual_commands.json",
+      "source_sha256": "fa08112c59409d958ea094f2e0c6295cfdbcfb1417fbb4cc4164cfc40987a2f4",
+      "remote_sha256": "fa08112c59409d958ea094f2e0c6295cfdbcfb1417fbb4cc4164cfc40987a2f4",
+      "size": 5578,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/logs/summary-age-review-2026-10-25/task_brief.md",
+      "source_sha256": "5b9cbb03557ceb462f85ed95c163025051a11d00869a6a161f1e8298badf4750",
+      "remote_sha256": "5b9cbb03557ceb462f85ed95c163025051a11d00869a6a161f1e8298badf4750",
+      "size": 3478,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/protocols/summary_age_review_v1.json",
+      "source_sha256": "7ddff8ee82c5557525e73e0601ca956b4128d837dd15b62bd3f6f78a8d6590ce",
+      "remote_sha256": "7ddff8ee82c5557525e73e0601ca956b4128d837dd15b62bd3f6f78a8d6590ce",
+      "size": 1504,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/protocols/summary_age_revision_review_2026-10-25.md",
+      "source_sha256": "3146985af85824135936e996d6ed558da5af5e38bb1af4d1f01f399bf3f04c18",
+      "remote_sha256": "3146985af85824135936e996d6ed558da5af5e38bb1af4d1f01f399bf3f04c18",
+      "size": 3563,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/reports/summary_age_mechanism_review_2026-10-25.md",
+      "source_sha256": "d0fee04f15751affdcfcc9250fe5c93731be905035234e306865601cc36df59f",
+      "remote_sha256": "d0fee04f15751affdcfcc9250fe5c93731be905035234e306865601cc36df59f",
+      "size": 11681,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/sync/plans/next_steps.md",
+      "source_sha256": "1abab7ed5c04107022072fa12b34ce42de71c0f0c100e5932d05c7cad5794add",
+      "remote_sha256": "1abab7ed5c04107022072fa12b34ce42de71c0f0c100e5932d05c7cad5794add",
+      "size": 18429,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/sync/project_status.json",
+      "source_sha256": "9fb10eaec1d2f5b2b9f44703c3d75d1e2980a4a5ab4c10f5ce5ff9fce29c910c",
+      "remote_sha256": "9fb10eaec1d2f5b2b9f44703c3d75d1e2980a4a5ab4c10f5ce5ff9fce29c910c",
+      "size": 25474,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "scripts/audit_summary_age_review.py",
+      "source_sha256": "2bd75e0b19c046af3644f4377336c9d57ef6bfcddb87c3847f03e3d62c2153c4",
+      "remote_sha256": "2bd75e0b19c046af3644f4377336c9d57ef6bfcddb87c3847f03e3d62c2153c4",
+      "size": 5561,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "scripts/review_summary_age.py",
+      "source_sha256": "82924c81e29aabb94ff1880e5d0cca12cd02f90dd59517b99b3d26037214244f",
+      "remote_sha256": "82924c81e29aabb94ff1880e5d0cca12cd02f90dd59517b99b3d26037214244f",
+      "size": 12556,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "tests_ext/test_summary_age_review.py",
+      "source_sha256": "344a021af95f8923e7d868e7e3c739a96eda7f887a9edd7cb47b2529b13ecf79",
+      "remote_sha256": "344a021af95f8923e7d868e7e3c739a96eda7f887a9edd7cb47b2529b13ecf79",
+      "size": 1906,
+      "mode": 420,
+      "normalized_lf": false
+    }
+  ]
+}

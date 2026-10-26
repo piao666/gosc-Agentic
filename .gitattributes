@@ -1,2 +1,7 @@
 # Keep the byte-identical R2/R3 delivery package verifiable after Windows checkout.
 /research/artifacts/r2-r3-20261019/** -text
+# Preserve newly archived HPC evidence bytes; do not normalize older runs.
+/research/sync/runs/hpc-causal-*/** -text
+/research/sync/runs/hpc-summary-age-*/** -text
+/research/sync/receipts/20261024T*.json -text
+/research/sync/receipts/20261025T*.json -text

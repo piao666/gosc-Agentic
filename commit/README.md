@@ -12,6 +12,8 @@
 
 ## 索引（最新在前）
 
+- [2026-10-26 / 01：因果服务、独立校准及age机制审查归档并推送](2026-10-26-01-causal-service-and-age-review.md)
+
 - [2026-10-23 / 01：付费pose实现、独立校准与成本审查归档](2026-10-23-01-paid-pose-calibration-and-cost-review.md)
 - [2026-10-22 / 01：HPC 复验、文献与接收端审计归档](2026-10-22-01-hpc-reproduction-and-receiver-audits.md)
 

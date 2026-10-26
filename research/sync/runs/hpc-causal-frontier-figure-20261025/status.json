@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-causal-frontier-figure-20261025",
+  "status": "completed",
+  "started_at": "2026-10-25T13:34:13.263644+00:00",
+  "finished_at": "2026-10-25T13:34:15.365144+00:00",
+  "exit_code": 0,
+  "pid": 12276,
+  "elapsed_seconds": 2.101523,
+  "resource_usage": {
+    "child_max_rss_kib": 83872,
+    "child_cpu_user_seconds": 2.118783,
+    "child_cpu_system_seconds": 0.266266,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

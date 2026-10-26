@@ -1,0 +1,1 @@
+{"status": "rendered", "source_audit": "research/sync/runs/hpc-causal-frontier-ablation-audit-v2-20261025/outputs/frontier_audit.json", "source_audit_sha256": "0394a65c2753b8d7c13445f4e4188bd0f306e9216e03ad2b0285aceb76879240", "data_modified": false, "change": "Label offsets and compact numeric ticks only; audited observed points unchanged"}

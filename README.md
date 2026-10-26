@@ -2,6 +2,11 @@
 
 ## Research working copy
 
+**Latest (2026-10-25):** [GP-v2 calibration and independent frontier audit](research/reports/causal_calibration_audit_2026-10-25.md):
+252 missions on 12 new worlds completed within the approved 1200s budget (447.37s actual).
+Independent accounting/statistics/frontier audits passed; scientific decision remains **No-Go** because joint resource support fails and planning N=21907 exceeds the 200-world cap.
+No confirmatory test, sample expansion or training. Earlier dated progress below is retained as history.
+
 **Research entry point (updated 2026-10-23):** [research/README.md](research/README.md)
 links current judgments and the [minimal summary protocol review](research/protocols/receiver_summary_minimal_protocol_v1.md).
 Latest: [common-wire periodic/CRN and independent calibration](research/reports/periodic_crn_calibration_2026-10-23.md):

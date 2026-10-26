@@ -1,0 +1,154 @@
+[
+  {
+    "run_id": "hpc-summary-age-contract-20261025",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "timeout",
+      "60",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests_ext/test_summary_age_review.py",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-summary-age-contract-20261025/pytest-tmp",
+      "--junitxml",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-summary-age-contract-20261025/outputs/pytest.xml"
+    ],
+    "config_file": "research/protocols/summary_age_review_v1.json",
+    "config_sha256": "7ddff8ee82c5557525e73e0601ca956b4128d837dd15b62bd3f6f78a8d6590ce",
+    "git_commit": "47389eba9c6e2838139df3aa47863ab88634e97a",
+    "source_sync_id": "20261025T135025Z",
+    "source_manifest_sha256": "ecb5ba42237ac79c40b737985f95948725974d4c850a39022db9059b282b1a7c",
+    "status": "completed",
+    "elapsed_seconds": 1.167857,
+    "resource_usage": {
+      "child_max_rss_kib": 48780,
+      "child_cpu_user_seconds": 0.9424969999999999,
+      "child_cpu_system_seconds": 0.225715,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-summary-age-existing-data-review-20261025",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "timeout",
+      "120",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/review_summary_age.py",
+      "--config",
+      "research/protocols/summary_age_review_v1.json"
+    ],
+    "config_file": "research/protocols/summary_age_review_v1.json",
+    "config_sha256": "7ddff8ee82c5557525e73e0601ca956b4128d837dd15b62bd3f6f78a8d6590ce",
+    "git_commit": "47389eba9c6e2838139df3aa47863ab88634e97a",
+    "source_sync_id": "20261025T135025Z",
+    "source_manifest_sha256": "ecb5ba42237ac79c40b737985f95948725974d4c850a39022db9059b282b1a7c",
+    "status": "completed",
+    "elapsed_seconds": 3.516355,
+    "resource_usage": {
+      "child_max_rss_kib": 116312,
+      "child_cpu_user_seconds": 3.414716,
+      "child_cpu_system_seconds": 0.295925,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-summary-age-existing-data-review-v2-20261025",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "timeout",
+      "120",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/review_summary_age.py",
+      "--config",
+      "research/protocols/summary_age_review_v1.json"
+    ],
+    "config_file": "research/protocols/summary_age_review_v1.json",
+    "config_sha256": "7ddff8ee82c5557525e73e0601ca956b4128d837dd15b62bd3f6f78a8d6590ce",
+    "git_commit": "47389eba9c6e2838139df3aa47863ab88634e97a",
+    "source_sync_id": "20261025T135358Z",
+    "source_manifest_sha256": "79a9076386202320796f2f8b2fafad47691a9ebb2f29d469889c1a59cccbb23d",
+    "status": "completed",
+    "elapsed_seconds": 3.316556,
+    "resource_usage": {
+      "child_max_rss_kib": 116228,
+      "child_cpu_user_seconds": 3.381482,
+      "child_cpu_system_seconds": 0.24556599999999998,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-summary-age-review-audit-20261025",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "timeout",
+      "120",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/audit_summary_age_review.py",
+      "--review",
+      "research/sync/runs/hpc-summary-age-existing-data-review-v2-20261025/outputs"
+    ],
+    "config_file": "research/protocols/summary_age_review_v1.json",
+    "config_sha256": "7ddff8ee82c5557525e73e0601ca956b4128d837dd15b62bd3f6f78a8d6590ce",
+    "git_commit": "47389eba9c6e2838139df3aa47863ab88634e97a",
+    "source_sync_id": "20261025T135358Z",
+    "source_manifest_sha256": "79a9076386202320796f2f8b2fafad47691a9ebb2f29d469889c1a59cccbb23d",
+    "status": "completed",
+    "elapsed_seconds": 0.133076,
+    "resource_usage": {
+      "child_max_rss_kib": 47904,
+      "child_cpu_user_seconds": 0.35272899999999996,
+      "child_cpu_system_seconds": 0.143251,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-summary-age-review-audit-v2-20261025",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "timeout",
+      "120",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/audit_summary_age_review.py",
+      "--review",
+      "research/sync/runs/hpc-summary-age-existing-data-review-v2-20261025/outputs"
+    ],
+    "config_file": "research/protocols/summary_age_review_v1.json",
+    "config_sha256": "7ddff8ee82c5557525e73e0601ca956b4128d837dd15b62bd3f6f78a8d6590ce",
+    "git_commit": "47389eba9c6e2838139df3aa47863ab88634e97a",
+    "source_sync_id": "20261025T140015Z",
+    "source_manifest_sha256": "ae176e3425162ab2a6c58b69c7dceb614b364d85add51f3c921514e1c68ff31a",
+    "status": "completed",
+    "elapsed_seconds": 2.496631,
+    "resource_usage": {
+      "child_max_rss_kib": 47876,
+      "child_cpu_user_seconds": 2.672401,
+      "child_cpu_system_seconds": 0.18035199999999998,
+      "peak_gpu_memory": null
+    }
+  }
+]

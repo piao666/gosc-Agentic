@@ -1,0 +1,20 @@
+{
+  "run_id": "hpc-causal-frontier-figure-20261025",
+  "files": [
+    {
+      "path": "outputs/discrete_frontier.png",
+      "size": 163268,
+      "sha256": "a9aa654aab967b69e43cd492bd671c2e77c4c7d2ae97ef5f3b740d9834a04358"
+    },
+    {
+      "path": "outputs/discrete_frontier.svg",
+      "size": 109865,
+      "sha256": "a135e32d0a812d6ccbc6b2634af72011b102dc3eeb848182e0b21410fc273ddd"
+    },
+    {
+      "path": "outputs/figure_provenance.json",
+      "size": 356,
+      "sha256": "c7acbeac6d71b4baea45607388fea1f124aeb315a0d6213e7482d400669146c1"
+    }
+  ]
+}

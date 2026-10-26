@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-causal-budget-amendment-20261024",
+  "files": [
+    {
+      "path": "outputs/approved_budget.json",
+      "size": 1280,
+      "sha256": "e9a31120ac8cde8caa33e303252c84ef79f5d0388e8d4880718b1257b2c3b3e0"
+    }
+  ]
+}

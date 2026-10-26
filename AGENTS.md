@@ -14,6 +14,14 @@
 
 ## A. 启动协议（每次会话和每个开发任务）
 
+GitHub归档（2026-10-26）：用户授权一次新提交并正常推送当前research/progress-audit-2026-10-19分支、保持工作区干净；说明commit/2026-10-26-01-causal-service-and-age-review.md，归档10月24–25日实现/协议/报告/运行元数据，并携带此前未推送47389eb祖先。实际提交/推送身份以包含本说明的Git历史与远端引用核对，不回填自身哈希；旧报告“未提交/未推送”保留当时含义。原始outputs仍忽略，原No-Go与新协议仅审阅候选不因版本归档改变；本次无新HPC计算。
+
+最新成本/age机制审查（2026-10-25）：原252任务950281事件分析/独立复算、18合同及1536合成选择器比较完成，新mission/N0；原No-Go保持。选中pose精确摘要UL20516uses（34.27%全通信），直接摘要保守识别界41.90%–66.63%（不是CI/精确DL分类）。固定轨迹账本免去全部摘要UL仍39341.75uses，超periodic/public的1.05上限。age统一缩放所有候选值，理想目标等价动态p_eff=p*(1+mean_age)；native-age不买摘要对照未运行，历史factor/DL类型字段缺失。新协议仅审阅候选，不自动实施/扫参/扩N/训练。入口research/reports/summary_age_mechanism_review_2026-10-25.md；本轮未Git提交/push。
+
+最新独立校准审计（2026-10-25）：用户明确批准1200s预算修订后，GP-v2原21候选×12新world共252任务在447.37s正常完成；950,281事件、CI/N/成本前沿/固定price消融独立复算通过，首版审计及措辞澄清v2保留。选中pose较periodic平均快8.6667slots，但通信比1.606664、逻辑CPU比2.813743；较public快8.3333slots，成本比3.018507/3.481296。无联合成本支持，规划N21907>200上限，当前协议No-Go。paid-ignore固定price有成本支持但gain区间跨0；不扩N、不事后换age为主方法、不运行正式test/训练。作者原校准/cache链/历史差异仍单列。最新入口research/reports/causal_calibration_audit_2026-10-25.md；本轮未Git提交或push。下方10月24日“预算Pending/校准0次”是此前状态。
+
+最新因果服务验收（2026-10-24）：GP-v2统一task/summary解码反馈下界（当前2slot）与估值CPU队列，有界盲目catchup、paid-ignore/age/shuffle及21候选已实现。HPC187主回归+28补充合同（含重复，共190不同测试）、42短probe及31,280事件独立审计通过；两个旧GP-v1短fixture与归档源码全字段相等。214world事前冻结；校准投影895.50s超过480s门槛，252校准任务0次，预算Pending。1200s预算提案待用户明确批准，不回写旧blocked协议；正式test/训练未运行。新服务收益未知、旧GP-v1科学No-Go不撤销。入口research/reports/causal_service_progress_2026-10-24.md。本轮源码/报告尚未Git提交或push。
+
 本地Git归档（2026-10-23）：用户授权一次本地提交，归档当日实现/报告/运行元数据及47份R2/R3白名单副本，说明commit/2026-10-23-01-paid-pose-calibration-and-cost-review.md。未push，不新增HPC计算；旧日志“未提交”保留当时含义。实际提交身份通过Git历史关联，不回填历史run或自身说明哈希。下一步研究关卡仍是反馈/CPU时钟及有界catchup，非扩N/训练。
 
 最新同步成本/估值审查（2026-10-23）：最终51合同通过；v2观察24/24完整result精确匹配原校准，两版主要统计一致，辅助同slot重复计数已修正、旧记录保留。3927次估值中96.49%改变投影、79.35%改变超过诊断容差的候选价值、10.54%改变选包；直接摘要账本占额外资源83.28%，实际反馈2slot而RTO1slot，task盲目历史重播占paid DL77.46%。两版48条均是原12world重复，新独立N0。原No-Go维持，未改服务/price/原结果/样本；下一步先审查统一反馈/CPU时钟与有界catchup，非扩N/训练。入口：[sync_cost_value_review_2026-10-23.md](research/reports/sync_cost_value_review_2026-10-23.md)。

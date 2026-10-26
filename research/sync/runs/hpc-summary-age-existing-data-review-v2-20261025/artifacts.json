@@ -1,0 +1,20 @@
+{
+  "run_id": "hpc-summary-age-existing-data-review-v2-20261025",
+  "files": [
+    {
+      "path": "outputs/input_event_hashes.json",
+      "size": 45387,
+      "sha256": "193754223651598f475fe6163714ed07564dc3c203d4c3d8ab735697a810ce95"
+    },
+    {
+      "path": "outputs/review.json",
+      "size": 391222,
+      "sha256": "a122753ac569de2283d08e352846f10ad8ca09bf3b572057609d2635c77a80ec"
+    },
+    {
+      "path": "outputs/selector_diagnostic.json",
+      "size": 330,
+      "sha256": "8c4f6cbe132e018eb6f943ada2a6ff83720b52c26e674844825213c62a42dcbd"
+    }
+  ]
+}

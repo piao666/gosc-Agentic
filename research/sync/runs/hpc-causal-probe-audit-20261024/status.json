@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-causal-probe-audit-20261024",
+  "status": "completed",
+  "started_at": "2026-10-24T03:04:03.212639+00:00",
+  "finished_at": "2026-10-24T03:04:03.543101+00:00",
+  "exit_code": 0,
+  "pid": 40578,
+  "elapsed_seconds": 0.330482,
+  "resource_usage": {
+    "child_max_rss_kib": 47848,
+    "child_cpu_user_seconds": 0.535341,
+    "child_cpu_system_seconds": 0.129141,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

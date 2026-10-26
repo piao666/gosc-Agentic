@@ -1,0 +1,69 @@
+{
+  "status": "passed_with_immutable_evidence_whitespace_notices",
+  "staged_files": 183,
+  "exact_new_HPC_evidence_blobs_verified": 135,
+  "evidence_blob_mismatches": [],
+  "expected_text_normalization": [
+    "research/logs/git-publish-2026-10-26/precommit_file_audit.json"
+  ],
+  "ignored_or_forbidden_paths": [],
+  "protected_upstream_paths": [],
+  "deleted_paths": [],
+  "large_files": [],
+  "changed_since_security_audit": [],
+  "whitespace": {
+    "default": {
+      "exit_code": 2,
+      "issues": 2410734,
+      "files": [
+        "research/sync/runs/hpc-causal-budget-amendment-20261024/source_changes.patch",
+        "research/sync/runs/hpc-causal-calibration-ledger-audit-20261025/source_changes.patch",
+        "research/sync/runs/hpc-causal-contract-20261024/source_changes.patch",
+        "research/sync/runs/hpc-causal-cost-probe-20261024/source_changes.patch",
+        "research/sync/runs/hpc-causal-frontier-ablation-audit-20261025/source_changes.patch",
+        "research/sync/runs/hpc-causal-frontier-ablation-audit-v2-20261025/source_changes.patch",
+        "research/sync/runs/hpc-causal-frontier-figure-20261025/source_changes.patch",
+        "research/sync/runs/hpc-causal-independent-calibration-20261024/source_changes.patch",
+        "research/sync/runs/hpc-causal-probe-audit-20261024/source_changes.patch",
+        "research/sync/runs/hpc-causal-protocol-contract-20261024/source_changes.patch",
+        "research/sync/runs/hpc-causal-world-freeze-20261024/source_changes.patch",
+        "research/sync/runs/hpc-summary-age-contract-20261025/source_changes.patch",
+        "research/sync/runs/hpc-summary-age-existing-data-review-20261025/source_changes.patch",
+        "research/sync/runs/hpc-summary-age-existing-data-review-v2-20261025/source_changes.patch",
+        "research/sync/runs/hpc-summary-age-review-audit-20261025/source_changes.patch",
+        "research/sync/runs/hpc-summary-age-review-audit-v2-20261025/source_changes.patch"
+      ],
+      "stderr_summary": ""
+    },
+    "cr_at_eol": {
+      "exit_code": 2,
+      "issues": 174,
+      "files": [
+        "research/sync/runs/hpc-causal-budget-amendment-20261024/source_changes.patch",
+        "research/sync/runs/hpc-causal-calibration-ledger-audit-20261025/source_changes.patch",
+        "research/sync/runs/hpc-causal-contract-20261024/source_changes.patch",
+        "research/sync/runs/hpc-causal-cost-probe-20261024/source_changes.patch",
+        "research/sync/runs/hpc-causal-frontier-ablation-audit-20261025/source_changes.patch",
+        "research/sync/runs/hpc-causal-frontier-ablation-audit-v2-20261025/source_changes.patch",
+        "research/sync/runs/hpc-causal-frontier-figure-20261025/source_changes.patch",
+        "research/sync/runs/hpc-causal-independent-calibration-20261024/source_changes.patch",
+        "research/sync/runs/hpc-causal-probe-audit-20261024/source_changes.patch",
+        "research/sync/runs/hpc-causal-protocol-contract-20261024/source_changes.patch",
+        "research/sync/runs/hpc-causal-world-freeze-20261024/source_changes.patch",
+        "research/sync/runs/hpc-summary-age-contract-20261025/source_changes.patch",
+        "research/sync/runs/hpc-summary-age-existing-data-review-20261025/source_changes.patch",
+        "research/sync/runs/hpc-summary-age-existing-data-review-v2-20261025/source_changes.patch",
+        "research/sync/runs/hpc-summary-age-review-audit-20261025/source_changes.patch",
+        "research/sync/runs/hpc-summary-age-review-audit-v2-20261025/source_changes.patch"
+      ],
+      "stderr_summary": ""
+    },
+    "current_source_docs": {
+      "exit_code": 0,
+      "issues": 0,
+      "files": [],
+      "stderr_summary": ""
+    }
+  },
+  "scope": "Local Git object and file integrity checks. Evidence warnings preserved. Self audit result added after this snapshot."
+}

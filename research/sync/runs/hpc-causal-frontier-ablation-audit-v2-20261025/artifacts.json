@@ -1,0 +1,25 @@
+{
+  "run_id": "hpc-causal-frontier-ablation-audit-v2-20261025",
+  "files": [
+    {
+      "path": "outputs/discrete_frontier.png",
+      "size": 156702,
+      "sha256": "165408356746f34ec7b85bd459b8c3288626c2b2525c0759c86d087a4f506fe4"
+    },
+    {
+      "path": "outputs/discrete_frontier.svg",
+      "size": 110227,
+      "sha256": "7629417670e7775003f5efb4db9747bf7c65cf9a1d281176af12ce3f72bfda7a"
+    },
+    {
+      "path": "outputs/fair_comparison.md",
+      "size": 3629,
+      "sha256": "0650d6f9f7825988e514d0f495ae757d3368fd74217d383d4f909f41335652ec"
+    },
+    {
+      "path": "outputs/frontier_audit.json",
+      "size": 19745,
+      "sha256": "0394a65c2753b8d7c13445f4e4188bd0f306e9216e03ad2b0285aceb76879240"
+    }
+  ]
+}

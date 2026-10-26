@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-summary-age-review-audit-v2-20261025",
+  "status": "completed",
+  "started_at": "2026-10-25T14:01:22.707619+00:00",
+  "finished_at": "2026-10-25T14:01:25.204229+00:00",
+  "exit_code": 0,
+  "pid": 14679,
+  "elapsed_seconds": 2.496631,
+  "resource_usage": {
+    "child_max_rss_kib": 47876,
+    "child_cpu_user_seconds": 2.672401,
+    "child_cpu_system_seconds": 0.18035199999999998,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

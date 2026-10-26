@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-causal-budget-amendment-20261024",
+  "status": "completed",
+  "started_at": "2026-10-24T03:16:44.063347+00:00",
+  "finished_at": "2026-10-24T03:16:44.120793+00:00",
+  "exit_code": 0,
+  "pid": 43051,
+  "elapsed_seconds": 0.057464,
+  "resource_usage": {
+    "child_max_rss_kib": 49688,
+    "child_cpu_user_seconds": 0.257564,
+    "child_cpu_system_seconds": 0.151784,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,22 @@
+{
+  "date":"2026-10-24",
+  "status":"human_approved_budget_amendment",
+  "authorization":"批准1200秒校准预算，按原候选和world继续",
+  "authorization_source":"Direct human response to the 1200-second budget question in this conversation",
+  "proposal":"research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+  "frozen":"research/sync/runs/hpc-causal-world-freeze-20261024/outputs/frozen.json",
+  "original_probe_budget":"research/sync/runs/hpc-causal-cost-probe-20261024/outputs/budget.json",
+  "probe_audit":"research/sync/runs/hpc-causal-probe-audit-20261024/outputs/audit.json",
+  "original_projection_gate_seconds":480,
+  "original_hard_timeout_seconds":600,
+  "approved_projection_gate_seconds":1080,
+  "approved_hard_timeout_seconds":1200,
+  "candidate_count":21,
+  "independent_calibration_N":12,
+  "calibration_missions":252,
+  "max_steps":400,
+  "per_mission_timeout_seconds":60,
+  "calibration_seeds":[23000000,23000001,23000002,23000003,23000004,23000005,23000006,23000007,23000008,23000009,23000010,23000011],
+  "workers":1,"numeric_threads":1,"new_llm_calls":0,"training":false,"test_execution_authorized":false,
+  "scope":"Budget-only amendment; immutable original blocked evidence, frozen method/price/source/world/test reservation and all statistical gates retained"
+}

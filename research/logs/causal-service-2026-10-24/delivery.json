@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-24",
+  "status": "delivered_calibration_budget_pending",
+  "git_head": "47389eba9c6e2838139df3aa47863ab88634e97a",
+  "working_tree_dirty": true,
+  "source_sync_id": "20261024T030720Z",
+  "verified_sync_file_count": 466,
+  "sha256_mismatches": [],
+  "run_receipt": "research/sync/receipts/20261024T030434Z-c4580b.json",
+  "all_outputs_mirrored": true,
+  "scientific_state": "GP-v2 contracts and 42 probes audited; 0 calibration, 0 test, 0 training",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "source_sha256": "6c23fc290a9114bbce0b030d02db33f67613d3559697eab44f540ccf81f874a4",
+      "remote_sha256": "6c23fc290a9114bbce0b030d02db33f67613d3559697eab44f540ccf81f874a4",
+      "size": 31397,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "extensions/causal_paid_service.py",
+      "source_sha256": "11900b07e39d8871c2213dcf6ab2520f33a06e0a44d5e0661771aa2274cd0978",
+      "remote_sha256": "11900b07e39d8871c2213dcf6ab2520f33a06e0a44d5e0661771aa2274cd0978",
+      "size": 4805,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "extensions/causal_paid_simulation.py",
+      "source_sha256": "253d23c20e4eb7532eee990927a4d5f7ad1febc952d2b011995c2061d575483f",
+      "remote_sha256": "253d23c20e4eb7532eee990927a4d5f7ad1febc952d2b011995c2061d575483f",
+      "size": 3877,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "extensions/native_paid_adapter.py",
+      "source_sha256": "1678d6b89e6271ece22e0d26c2912d7d610453deadb14ba087f96678a825f2c9",
+      "remote_sha256": "1678d6b89e6271ece22e0d26c2912d7d610453deadb14ba087f96678a825f2c9",
+      "size": 7726,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "extensions/paid_receiver_service.py",
+      "source_sha256": "fcf2c86ba3d32305235396e0226f0d18d847a97b4377b2d64c1f878bf39ce234",
+      "remote_sha256": "fcf2c86ba3d32305235396e0226f0d18d847a97b4377b2d64c1f878bf39ce234",
+      "size": 10382,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/README.md",
+      "source_sha256": "4ce54efb013227feb044ab35256d75740009876c87cb44f71e3cdf51979253f4",
+      "remote_sha256": "4ce54efb013227feb044ab35256d75740009876c87cb44f71e3cdf51979253f4",
+      "size": 6695,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/logs/causal-service-2026-10-24/actual_commands.json",
+      "source_sha256": "18099084bd5fc688337c66b90f4252df983a9bbc18ae0a65b0157473bebbdc3b",
+      "remote_sha256": "18099084bd5fc688337c66b90f4252df983a9bbc18ae0a65b0157473bebbdc3b",
+      "size": 4849,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/logs/causal-service-2026-10-24/git_fast_forward_proof.json",
+      "source_sha256": "643ef7f7d7ce0eff9ea1312bdefbe83ca2c0a59401161f07cce5cc0a34cf13c0",
+      "remote_sha256": "643ef7f7d7ce0eff9ea1312bdefbe83ca2c0a59401161f07cce5cc0a34cf13c0",
+      "size": 420,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/logs/causal-service-2026-10-24/task_brief.md",
+      "source_sha256": "28fd9ee966118e097484df52a9fc2377e3ff9c66adadb2f5aa382423ff4ebd6d",
+      "remote_sha256": "28fd9ee966118e097484df52a9fc2377e3ff9c66adadb2f5aa382423ff4ebd6d",
+      "size": 3107,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/protocols/causal_calibration_budget_proposal_2026-10-24.md",
+      "source_sha256": "834a79aa19388fda1b356b0f60198e2bf7b6dd2a1b23a6a2d3c551bb400b0263",
+      "remote_sha256": "834a79aa19388fda1b356b0f60198e2bf7b6dd2a1b23a6a2d3c551bb400b0263",
+      "size": 2045,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/protocols/causal_service_stage_v2.json",
+      "source_sha256": "fae53e9c1229a0a9da00bfb158604e3dc25ee4acea9fb8c7b4701653e637c0d2",
+      "remote_sha256": "fae53e9c1229a0a9da00bfb158604e3dc25ee4acea9fb8c7b4701653e637c0d2",
+      "size": 3557,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/reports/causal_service_progress_2026-10-24.md",
+      "source_sha256": "a8504acdb8c234f569619f28cb0632ca86791d4494874fd82d08d8ed9749a392",
+      "remote_sha256": "a8504acdb8c234f569619f28cb0632ca86791d4494874fd82d08d8ed9749a392",
+      "size": 8970,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/sync/plans/next_steps.md",
+      "source_sha256": "9b80e26433259388eadcaa48b1d84629cfa1a178a14bc8e240c5426c14c5a381",
+      "remote_sha256": "9b80e26433259388eadcaa48b1d84629cfa1a178a14bc8e240c5426c14c5a381",
+      "size": 15756,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "research/sync/project_status.json",
+      "source_sha256": "813a5176af2d7f442969a35af4d35a81667240f5df01c22ffc47be4d45f4c6d2",
+      "remote_sha256": "813a5176af2d7f442969a35af4d35a81667240f5df01c22ffc47be4d45f4c6d2",
+      "size": 21759,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "scripts/audit_causal_service.py",
+      "source_sha256": "edd6a8077e350bd429711c2ee276f3123470d2c1410aa91877b8100a6be70f1a",
+      "remote_sha256": "edd6a8077e350bd429711c2ee276f3123470d2c1410aa91877b8100a6be70f1a",
+      "size": 7301,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "scripts/repro_causal_service.py",
+      "source_sha256": "eb546231fc5f69446bd8ccad37eec0f69849ea485b47c0f676e2be83d76e78b2",
+      "remote_sha256": "eb546231fc5f69446bd8ccad37eec0f69849ea485b47c0f676e2be83d76e78b2",
+      "size": 12886,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "tests_ext/test_causal_calibration_protocol.py",
+      "source_sha256": "51c8a620e4c01176a04ffe14bd08a1758909374d28b658a4049931a601949639",
+      "remote_sha256": "51c8a620e4c01176a04ffe14bd08a1758909374d28b658a4049931a601949639",
+      "size": 2126,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "tests_ext/test_causal_paid_service.py",
+      "source_sha256": "8c4c9c6fd2a8ce24d150e9e8b4f08114f4178df62817c0e7efa4642f52167476",
+      "remote_sha256": "8c4c9c6fd2a8ce24d150e9e8b4f08114f4178df62817c0e7efa4642f52167476",
+      "size": 4586,
+      "mode": 420,
+      "normalized_lf": false
+    },
+    {
+      "path": "tests_ext/test_causal_paid_simulation.py",
+      "source_sha256": "4a6bb28b49daa820f06666d5dc90f6f6336f1e1d942ce9d59fdd822a95c0ad3e",
+      "remote_sha256": "4a6bb28b49daa820f06666d5dc90f6f6336f1e1d942ce9d59fdd822a95c0ad3e",
+      "size": 2628,
+      "mode": 420,
+      "normalized_lf": false
+    }
+  ]
+}

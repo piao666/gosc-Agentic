@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-summary-age-review-audit-20261025",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 437,
+      "sha256": "ea4872fd938153611945397c27a614a17047fe848bbff6e98ca945cd4bba22bb"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T07:50:43.377097+00:00",
+  "generated_at": "2026-10-25T14:02:23.582861+00:00",
   "authority": "hpc",
   "runs": [
     {
@@ -77,6 +77,215 @@
       "kind": "analysis",
       "stage": "P1-cache-gap",
       "purpose": "Bounded first-mission cache diagnosis using existing NumPy builds; preserve generated response snapshot"
+    },
+    {
+      "run_id": "hpc-causal-budget-amendment-20261024",
+      "status": "completed",
+      "started_at": "2026-10-24T03:16:44.063347+00:00",
+      "finished_at": "2026-10-24T03:16:44.120793+00:00",
+      "exit_code": 0,
+      "pid": 43051,
+      "elapsed_seconds": 0.057464,
+      "resource_usage": {
+        "child_max_rss_kib": 49688,
+        "child_cpu_user_seconds": 0.257564,
+        "child_cpu_system_seconds": 0.151784,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "causal_approved_budget",
+      "purpose": "verify_explicit_1200_second_budget_and_immutable_source"
+    },
+    {
+      "run_id": "hpc-causal-calibration-ledger-audit-20261025",
+      "status": "completed",
+      "started_at": "2026-10-25T13:24:58.949598+00:00",
+      "finished_at": "2026-10-25T13:25:05.602164+00:00",
+      "exit_code": 0,
+      "pid": 3763,
+      "elapsed_seconds": 6.652592,
+      "resource_usage": {
+        "child_max_rss_kib": 51944,
+        "child_cpu_user_seconds": 4.198308,
+        "child_cpu_system_seconds": 0.6288549999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "causal_independent_ledger_statistics",
+      "purpose": "independent_252_raw_missions_cost_CI_N_recalculation"
+    },
+    {
+      "run_id": "hpc-causal-contract-20261024",
+      "status": "completed",
+      "started_at": "2026-10-24T02:57:32.961834+00:00",
+      "finished_at": "2026-10-24T02:58:09.559709+00:00",
+      "exit_code": 0,
+      "pid": 39874,
+      "elapsed_seconds": 36.597898,
+      "resource_usage": {
+        "child_max_rss_kib": 59332,
+        "child_cpu_user_seconds": 35.815068,
+        "child_cpu_system_seconds": 0.826155,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "causal_clock_bounded_replay",
+      "purpose": "causal_service_and_legacy_contracts"
+    },
+    {
+      "run_id": "hpc-causal-cost-probe-20261024",
+      "status": "completed",
+      "started_at": "2026-10-24T03:02:41.225232+00:00",
+      "finished_at": "2026-10-24T03:02:46.094068+00:00",
+      "exit_code": 0,
+      "pid": 40433,
+      "elapsed_seconds": 4.868857,
+      "resource_usage": {
+        "child_max_rss_kib": 47788,
+        "child_cpu_user_seconds": 4.829368,
+        "child_cpu_system_seconds": 0.22511699999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "simulation",
+      "stage": "causal_cost_probe",
+      "purpose": "budget_only_short_probe"
+    },
+    {
+      "run_id": "hpc-causal-frontier-ablation-audit-20261025",
+      "status": "completed",
+      "started_at": "2026-10-25T13:25:20.807812+00:00",
+      "finished_at": "2026-10-25T13:25:24.034248+00:00",
+      "exit_code": 0,
+      "pid": 3801,
+      "elapsed_seconds": 3.226462,
+      "resource_usage": {
+        "child_max_rss_kib": 88344,
+        "child_cpu_user_seconds": 2.359315,
+        "child_cpu_system_seconds": 0.346024,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "causal_frontier_ablation_stop_audit",
+      "purpose": "independently_verify_frontier_cost_support_ablations_and_stopping_rules"
+    },
+    {
+      "run_id": "hpc-causal-frontier-ablation-audit-v2-20261025",
+      "status": "completed",
+      "started_at": "2026-10-25T13:27:46.610089+00:00",
+      "finished_at": "2026-10-25T13:27:48.682226+00:00",
+      "exit_code": 0,
+      "pid": 7104,
+      "elapsed_seconds": 2.072158,
+      "resource_usage": {
+        "child_max_rss_kib": 88012,
+        "child_cpu_user_seconds": 2.021483,
+        "child_cpu_system_seconds": 0.290691,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "causal_frontier_ablation_scope_clarification",
+      "purpose": "clarify_nonpaying_baseline_support_without_changing_statistics"
+    },
+    {
+      "run_id": "hpc-causal-frontier-figure-20261025",
+      "status": "completed",
+      "started_at": "2026-10-25T13:34:13.263644+00:00",
+      "finished_at": "2026-10-25T13:34:15.365144+00:00",
+      "exit_code": 0,
+      "pid": 12276,
+      "elapsed_seconds": 2.101523,
+      "resource_usage": {
+        "child_max_rss_kib": 83872,
+        "child_cpu_user_seconds": 2.118783,
+        "child_cpu_system_seconds": 0.266266,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "causal_frontier_visual_verification",
+      "purpose": "render_audited_observed_points_with_readable_labels"
+    },
+    {
+      "run_id": "hpc-causal-independent-calibration-20261024",
+      "status": "completed",
+      "started_at": "2026-10-24T03:16:55.653904+00:00",
+      "finished_at": "2026-10-24T03:24:23.023318+00:00",
+      "exit_code": 0,
+      "pid": 43089,
+      "elapsed_seconds": 447.369435,
+      "resource_usage": {
+        "child_max_rss_kib": 66608,
+        "child_cpu_user_seconds": 446.010013,
+        "child_cpu_system_seconds": 0.6120639999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "simulation",
+      "stage": "causal_independent_calibration",
+      "purpose": "approved_252_missions_unchanged_21_candidates_12_worlds"
+    },
+    {
+      "run_id": "hpc-causal-probe-audit-20261024",
+      "status": "completed",
+      "started_at": "2026-10-24T03:04:03.212639+00:00",
+      "finished_at": "2026-10-24T03:04:03.543101+00:00",
+      "exit_code": 0,
+      "pid": 40578,
+      "elapsed_seconds": 0.330482,
+      "resource_usage": {
+        "child_max_rss_kib": 47848,
+        "child_cpu_user_seconds": 0.535341,
+        "child_cpu_system_seconds": 0.129141,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "causal_independent_probe_audit",
+      "purpose": "independent_raw_ledger_and_budget_check"
+    },
+    {
+      "run_id": "hpc-causal-protocol-contract-20261024",
+      "status": "completed",
+      "started_at": "2026-10-24T03:02:14.694454+00:00",
+      "finished_at": "2026-10-24T03:02:17.627386+00:00",
+      "exit_code": 0,
+      "pid": 40352,
+      "elapsed_seconds": 2.932952,
+      "resource_usage": {
+        "child_max_rss_kib": 52200,
+        "child_cpu_user_seconds": 2.530048,
+        "child_cpu_system_seconds": 0.487452,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "causal_fair_comparison_contract",
+      "purpose": "frozen_candidate_and_legacy_invariance_checks"
+    },
+    {
+      "run_id": "hpc-causal-world-freeze-20261024",
+      "status": "completed",
+      "started_at": "2026-10-24T03:02:28.657167+00:00",
+      "finished_at": "2026-10-24T03:02:30.925240+00:00",
+      "exit_code": 0,
+      "pid": 40394,
+      "elapsed_seconds": 2.268093,
+      "resource_usage": {
+        "child_max_rss_kib": 149652,
+        "child_cpu_user_seconds": 2.229461,
+        "child_cpu_system_seconds": 0.279472,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "causal_world_freeze",
+      "purpose": "prospectively_freeze_new_worlds_and_source"
     },
     {
       "run_id": "hpc-compare-tests-20261020",
@@ -1195,6 +1404,101 @@
       "purpose": "Verify resume guards, coverage schemas and original entry adapter before continuation"
     },
     {
+      "run_id": "hpc-summary-age-contract-20261025",
+      "status": "completed",
+      "started_at": "2026-10-25T13:51:36.949130+00:00",
+      "finished_at": "2026-10-25T13:51:38.116967+00:00",
+      "exit_code": 0,
+      "pid": 13423,
+      "elapsed_seconds": 1.167857,
+      "resource_usage": {
+        "child_max_rss_kib": 48780,
+        "child_cpu_user_seconds": 0.9424969999999999,
+        "child_cpu_system_seconds": 0.225715,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "summary_age_review_contracts",
+      "purpose": "mathematical_objective_and_censored_feedback_cost_bounds"
+    },
+    {
+      "run_id": "hpc-summary-age-existing-data-review-20261025",
+      "status": "completed",
+      "started_at": "2026-10-25T13:51:51.152742+00:00",
+      "finished_at": "2026-10-25T13:51:54.669077+00:00",
+      "exit_code": 0,
+      "pid": 13450,
+      "elapsed_seconds": 3.516355,
+      "resource_usage": {
+        "child_max_rss_kib": 116312,
+        "child_cpu_user_seconds": 3.414716,
+        "child_cpu_system_seconds": 0.295925,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "summary_age_existing_data_review",
+      "purpose": "exact_UL_accounting_conservative_DL_bounds_and_age_price_diagnostic"
+    },
+    {
+      "run_id": "hpc-summary-age-existing-data-review-v2-20261025",
+      "status": "completed",
+      "started_at": "2026-10-25T13:54:25.387528+00:00",
+      "finished_at": "2026-10-25T13:54:28.704064+00:00",
+      "exit_code": 0,
+      "pid": 13649,
+      "elapsed_seconds": 3.316556,
+      "resource_usage": {
+        "child_max_rss_kib": 116228,
+        "child_cpu_user_seconds": 3.381482,
+        "child_cpu_system_seconds": 0.24556599999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "summary_age_existing_data_review_v2",
+      "purpose": "tighten_nonbuying_zero_bound_and_generation_reservation_diagnostic"
+    },
+    {
+      "run_id": "hpc-summary-age-review-audit-20261025",
+      "status": "completed",
+      "started_at": "2026-10-25T13:54:51.419053+00:00",
+      "finished_at": "2026-10-25T13:54:51.552109+00:00",
+      "exit_code": 0,
+      "pid": 13699,
+      "elapsed_seconds": 0.133076,
+      "resource_usage": {
+        "child_max_rss_kib": 47904,
+        "child_cpu_user_seconds": 0.35272899999999996,
+        "child_cpu_system_seconds": 0.143251,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "summary_age_review_independent_audit",
+      "purpose": "independently_recompute_UL_DL_bounds_and_fee_sensitivity"
+    },
+    {
+      "run_id": "hpc-summary-age-review-audit-v2-20261025",
+      "status": "completed",
+      "started_at": "2026-10-25T14:01:22.707619+00:00",
+      "finished_at": "2026-10-25T14:01:25.204229+00:00",
+      "exit_code": 0,
+      "pid": 14679,
+      "elapsed_seconds": 2.496631,
+      "resource_usage": {
+        "child_max_rss_kib": 47876,
+        "child_cpu_user_seconds": 2.672401,
+        "child_cpu_system_seconds": 0.18035199999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "summary_age_review_raw_event_audit",
+      "purpose": "independently_parse_event_bytes_CPU_actions_and_verify_summary_bounds"
+    },
+    {
       "run_id": "hpc-summary-cost-audit-20261022",
       "status": "completed",
       "started_at": "2026-10-22T08:21:28.227175+00:00",
@@ -1915,6 +2219,6 @@
       "purpose": "User-authorized continuation; retain historical differences: value-fidelity"
     }
   ],
-  "research_runs": 91,
+  "research_runs": 106,
   "note": "Execution status only. Local transfer completeness is recorded in receipts/."
 }

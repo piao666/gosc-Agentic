@@ -16,6 +16,12 @@ from .native_task_wire import WireGOSC,encode_packet,decode_packet
 
 
 class NativePaidSimulation(Simulation):
+    def make_service(self, starts, grid, config, task_window):
+        return PaidReceiverService(starts,grid,config,task_window,replay_tasks=True)
+
+    def valuation_view(self, view, sender, t):
+        return self.service.knowledge.value_view(view,sender,t) if self.use_pose else view
+
     def __init__(self,cfg,seed,service_config,mode='tom',use_pose=False,record_traj=False):
         super().__init__(cfg,'gosc',seed,record_traj=record_traj)
         if cfg.max_steps>512 or cfg.grid>32 or cfg.dl_delay or cfg.dl_loss:
@@ -23,8 +29,7 @@ class NativePaidSimulation(Simulation):
         if service_config.ul_capacity!=cfg.symbols_per_slot:
             raise ValueError('Native and service UL budgets must agree')
         self.scheme=WireGOSC(cfg,self.channel,mode)
-        self.service=PaidReceiverService(self.team_pos,cfg.grid,service_config,
-                                        task_window=cfg.grid**2+2,replay_tasks=True)
+        self.service=self.make_service(self.team_pos,cfg.grid,service_config,cfg.grid**2+2)
         self.use_pose=use_pose;self._tx={};self._outstanding=set();self._local_seen=set()
         self._ack_index=0;self._received_index=0;self._edge_seen=set()
         self.local=[]
@@ -95,8 +100,7 @@ class NativePaidSimulation(Simulation):
             snrs[a.idx]=mean*self.chan_rng.exponential()
             # Stop-and-wait batch prevents duplicate queue admission before ACK.
             if not any(k==a.idx for k,_ in self._outstanding):
-                view=self.view(a)
-                if self.use_pose:view=self.service.knowledge.value_view(view,a.idx,t)
+                view=self.valuation_view(self.view(a),a.idx,t)
                 chosen=self.select(a,snrs[a.idx] if self.cfg.csit else mean,view)
                 for g,o in chosen:
                     pkt=self.scheme.packet(a,g,o,t);payload=encode_packet(pkt,self.cfg)

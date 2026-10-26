@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-causal-calibration-ledger-audit-20261025",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 427,
+      "sha256": "edadcbae1f2297ad408f3c0c8700c4d2db528b7ac7a1544f70a9fa6f67da571d"
+    }
+  ]
+}
