@@ -1,0 +1,6 @@
+{"stage": "prepare", "status": "completed", "elapsed_seconds": 13.54820654541254}
+{"stage": "binding", "status": "completed", "elapsed_seconds": 12.047829024493694}
+{"stage": "replay", "status": "completed", "elapsed_seconds": 0.5676351338624954}
+{"stage": "fixtures", "status": "completed", "elapsed_seconds": 10.743336789309978}
+{"stage": "audit", "status": "completed", "elapsed_seconds": 0.566913865506649}
+{"stage": "summary", "status": "completed", "elapsed_seconds": 0.11657135933637619}

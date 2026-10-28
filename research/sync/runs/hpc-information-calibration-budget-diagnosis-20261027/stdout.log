@@ -1,0 +1,1 @@
+{"results_sha256": "8df6df09036ad3ff528fe346409bb71ed6c35c48f5a751d0a307698ebd46c77b", "decisions": 70302, "strict_violations": 7, "excess_over_1e_9": 7, "max_excess": 204, "by_case": {"aoi": 1, "bits": 6}, "scope": "Forensic diagnosis only; original audit failure and experiment preserved"}

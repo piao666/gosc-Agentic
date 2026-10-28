@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-27",
+  "scope": "Local file/Git/hash/transfer management only; scientific statistics were computed on HPC",
+  "hpc_receipt": "research/sync/receipts/20261027T053948Z-ecd236.json",
+  "hpc_receipt_all_outputs_mirrored": true,
+  "critical_artifact_checks": [
+    {
+      "matches_receipt": true,
+      "path": "research/sync/runs/hpc-information-contract-v3-20261027/outputs/pytest.xml",
+      "sha256": "f7971a52fc6af943c1297054c2db94dc07c51e29bd8138ed311a4a5834b2ba20"
+    },
+    {
+      "matches_receipt": true,
+      "path": "research/sync/runs/hpc-information-prepare-20261027/outputs/frozen.json",
+      "sha256": "e23f087e2b4417b64cac26d761b9a22afd1337ff32a28fee8e23eb5571611943"
+    },
+    {
+      "matches_receipt": true,
+      "path": "research/sync/runs/hpc-information-probe-20261027/outputs/results.json",
+      "sha256": "15b4c0e6ebd602c8dbdf616139560dc3f9e345c8e2edbc8419a652d074141a18"
+    },
+    {
+      "matches_receipt": true,
+      "path": "research/sync/runs/hpc-information-audit-20261027/outputs/audit.json",
+      "sha256": "ecc8d3f4498c22cccadeaf2eb080c15cdee6e9b4529b64e22645141ea850fd1e"
+    },
+    {
+      "matches_receipt": true,
+      "path": "research/sync/runs/hpc-information-cost-summary-20261027/outputs/summary.json",
+      "sha256": "1082b11f67b853ba8ead0fd55028acfa4f05b73e7869fc090f6c1694ad682ff6"
+    },
+    {
+      "matches_receipt": true,
+      "path": "research/sync/runs/hpc-information-cost-summary-20261027/outputs/cost_probe.md",
+      "sha256": "ae4d2d27029da1853b57a97d9f780282742a944e315d1f94cefb3c27012bb154"
+    }
+  ],
+  "final_source_sync": {
+    "status": "verified",
+    "remote_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "head": "253a14b19c4410a4606a40c98b8ba24791c7ee43",
+    "file_count": 526,
+    "changed_count": 17,
+    "sha256_mismatches": [],
+    "sync_id": "20261027T054717Z",
+    "remote_only_files": "preserved",
+    "text_line_endings": "LF"
+  },
+  "final_source_manifest_sha256": "a20c0a032d82f1054f240de9914825058aa6f5d22c3ae4b956136d4999f94552",
+  "report_document_checks": [
+    {
+      "path": "AGENTS.md",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "553291c0245f8e26d6d28a3be7efcf1ef209c603241716efa5474f16a3f03055",
+      "local_sha256": "553291c0245f8e26d6d28a3be7efcf1ef209c603241716efa5474f16a3f03055"
+    },
+    {
+      "path": "README.md",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "d4cdc549098b3e90aa7e1c80af1a2e9f752dcfb6571575856eac3143b677b172",
+      "local_sha256": "d4cdc549098b3e90aa7e1c80af1a2e9f752dcfb6571575856eac3143b677b172"
+    },
+    {
+      "path": "research/README.md",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "6dffa6445f91b35ace4c82d45d6e3007d07f1d765e49424a09c63dac1dc47d6e",
+      "local_sha256": "6dffa6445f91b35ace4c82d45d6e3007d07f1d765e49424a09c63dac1dc47d6e"
+    },
+    {
+      "path": "research/sync/project_status.json",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "061bd296517104d0b40ef2dd1e852b3a5fd90236eaa8a4d7ae9579b8499ac599",
+      "local_sha256": "061bd296517104d0b40ef2dd1e852b3a5fd90236eaa8a4d7ae9579b8499ac599"
+    },
+    {
+      "path": "research/sync/plans/next_steps.md",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "f7a8c0ac8b1df51fcd6c66912131d974ead2f8098f8d6a036372e5c3d53be7ec",
+      "local_sha256": "f7a8c0ac8b1df51fcd6c66912131d974ead2f8098f8d6a036372e5c3d53be7ec"
+    },
+    {
+      "path": "research/protocols/information_identifiability_v1.json",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "79b3fc202e87d99e6d9545189e7af2b48c2da62e4324a5edd0cb71a2236dbcf2",
+      "local_sha256": "79b3fc202e87d99e6d9545189e7af2b48c2da62e4324a5edd0cb71a2236dbcf2"
+    },
+    {
+      "path": "research/protocols/information_identifiability_v1.md",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "e71fd4b59d5543ffa01bbcdae4ca092049a3e04939ffa589da5e8f270ecaeda9",
+      "local_sha256": "e71fd4b59d5543ffa01bbcdae4ca092049a3e04939ffa589da5e8f270ecaeda9"
+    },
+    {
+      "path": "research/protocols/information_identifiability_execution_2026-10-27.json",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "0af0fbf47f066c4b831422a7cbdfff69961056149152be80b8b175a2be8c333c",
+      "local_sha256": "0af0fbf47f066c4b831422a7cbdfff69961056149152be80b8b175a2be8c333c"
+    },
+    {
+      "path": "research/protocols/information_identifiability_calibration_review_2026-10-27.md",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "04c9f3844937edf5b52a22acc068762011b6c318cd0eb8d5109f12f2df4bb729",
+      "local_sha256": "04c9f3844937edf5b52a22acc068762011b6c318cd0eb8d5109f12f2df4bb729"
+    },
+    {
+      "path": "research/reports/information_identifiability_acceptance_2026-10-27.md",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "5c2df4be685702077adba6c178307cea090d1a118f4a2bd168f00cf0e924cd30",
+      "local_sha256": "5c2df4be685702077adba6c178307cea090d1a118f4a2bd168f00cf0e924cd30"
+    },
+    {
+      "path": "research/writing/problem_statement.md",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "c93b7d2b76c226c3e1d390f75c4417888f8f46b76c1f1b33d4fed525455b8e9a",
+      "local_sha256": "c93b7d2b76c226c3e1d390f75c4417888f8f46b76c1f1b33d4fed525455b8e9a"
+    },
+    {
+      "path": "research/writing/system_model.md",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "aa4de6e17e98c13fe0d24b1263f30b1c00fa62dbe2e647d2a22356e75cf8691e",
+      "local_sha256": "aa4de6e17e98c13fe0d24b1263f30b1c00fa62dbe2e647d2a22356e75cf8691e"
+    },
+    {
+      "path": "research/writing/experimental_protocol.md",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "c7ffbbda22cefff288d242232ae4a990440994eb28b0c6b89e79c7ee491feee3",
+      "local_sha256": "c7ffbbda22cefff288d242232ae4a990440994eb28b0c6b89e79c7ee491feee3"
+    },
+    {
+      "path": "research/writing/paper_outline.md",
+      "matches_local_source_snapshot": true,
+      "remote_normalized_sha256": "4aa1d4d043ea90739c3c373b43ec725dbd1ac140dd9558e28156acd84261ea8f",
+      "local_sha256": "4aa1d4d043ea90739c3c373b43ec725dbd1ac140dd9558e28156acd84261ea8f"
+    }
+  ],
+  "tracked_whitespace": {
+    "output": "",
+    "exit_code": 0
+  },
+  "protected_and_frozen_sources": {
+    "output": "",
+    "exit_code": 0
+  },
+  "new_source_whitespace": [
+    {
+      "path": "extensions/information_identifiability.py",
+      "no_diagnostics": true,
+      "exit_code": 1
+    },
+    {
+      "path": "scripts/repro_information_identifiability.py",
+      "no_diagnostics": true,
+      "exit_code": 1
+    },
+    {
+      "path": "scripts/audit_information_identifiability.py",
+      "no_diagnostics": true,
+      "exit_code": 1
+    },
+    {
+      "path": "scripts/summarize_information_identifiability.py",
+      "no_diagnostics": true,
+      "exit_code": 1
+    },
+    {
+      "path": "tests_ext/test_information_identifiability.py",
+      "no_diagnostics": true,
+      "exit_code": 1
+    }
+  ],
+  "missing_local_links": [],
+  "no_local_project_tests": true,
+  "no_new_calibration_formal_test_training": true,
+  "git_commit_push": false,
+  "self_hash_excluded": true,
+  "note": "This local delivery record is generated after final source sync; its own bytes are not part of the synced source snapshot. Historical patches/logs were not rewritten for whitespace."
+}

@@ -1,0 +1,55 @@
+{
+  "scope": "Eight explicitly selected small HPC summaries copied byte-identically for user-authorized GitHub result archival; raw outputs remain ignored",
+  "execution_host": "hpc",
+  "new_scientific_runs": false,
+  "files": [
+    {
+      "source": "research/sync/runs/hpc-information-cost-summary-20261027/outputs/summary.json",
+      "copy": "gp_id_cost_probe_summary.json",
+      "sha256": "1082b11f67b853ba8ead0fd55028acfa4f05b73e7869fc090f6c1694ad682ff6",
+      "bytes": 7471
+    },
+    {
+      "source": "research/sync/runs/hpc-information-calibration-analysis-20261027/outputs/analysis.json",
+      "copy": "gp_id_calibration_analysis.json",
+      "sha256": "b15b9eb05fea2deae0c07aac66ef3ceab48f7a58da500bccaa00a293ee25382b",
+      "bytes": 26186
+    },
+    {
+      "source": "research/sync/runs/hpc-information-calibration-audit-findings-20261027/outputs/audit.json",
+      "copy": "gp_id_calibration_diagnostic_audit.json",
+      "sha256": "35d86d84594328282fbe6d13f697319f7d196b7a6e57278966b94cd08f81809e",
+      "bytes": 213423
+    },
+    {
+      "source": "research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/summary/summary.json",
+      "copy": "bf_selector_summary.json",
+      "sha256": "926869cb117930882b2d643db6e5425d4b0b9ad549d6ffe15e58b1420a5400fc",
+      "bytes": 3205
+    },
+    {
+      "source": "research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/binding/binding.json",
+      "copy": "bf_selector_input_binding.json",
+      "sha256": "d9b6cd07b413e5aa64966ea536ddaa7b09d31484cbb4d7f138b996e6aa9f534e",
+      "bytes": 554
+    },
+    {
+      "source": "research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/audit/audit.json",
+      "copy": "bf_selector_audit.json",
+      "sha256": "37ba51bfdd3512c9b68b1b5d70f1ebf8af554828a402787aacaca3c90bc2c30e",
+      "bytes": 24187
+    },
+    {
+      "source": "research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/acceptance.json",
+      "copy": "bf_selector_acceptance.json",
+      "sha256": "4604e8fde073257ddcb7b432ee00d250bb7ed0c681b3b9ab29ca0d6c94371ba3",
+      "bytes": 4430
+    },
+    {
+      "source": "research/sync/runs/hpc-budget-selector-repaired-wire-v3-20261027/outputs/wire_contracts.json",
+      "copy": "bf_selector_repaired_wire_contracts.json",
+      "sha256": "b9d0b45c4b29814623fcf50412d92e8261e77a24f739e54dc9c0267c9c309699",
+      "bytes": 14407
+    }
+  ]
+}

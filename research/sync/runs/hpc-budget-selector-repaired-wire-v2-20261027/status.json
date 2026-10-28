@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-budget-selector-repaired-wire-v2-20261027",
+  "status": "failed",
+  "started_at": "2026-10-27T09:21:53.558735+00:00",
+  "finished_at": "2026-10-27T09:21:53.764771+00:00",
+  "exit_code": 1,
+  "pid": 23487,
+  "elapsed_seconds": 0.206057,
+  "resource_usage": {
+    "child_max_rss_kib": 47036,
+    "child_cpu_user_seconds": 0.37660699999999997,
+    "child_cpu_system_seconds": 0.172043,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

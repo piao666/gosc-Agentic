@@ -1,0 +1,334 @@
+{
+  "scope": "Lightweight local source hash management; compare normalized LF bytes to HPC, raw Windows CRLF hashes separately",
+  "effective_frozen_sha256": "c1c2c19d35f10570e502bada6e1a5c21045898453352ddd7c9a76c88fb44ffec",
+  "files": [
+    {
+      "path": "extensions/causal_paid_service.py",
+      "frozen_remote_lf_sha256": "11900b07e39d8871c2213dcf6ab2520f33a06e0a44d5e0661771aa2274cd0978",
+      "current_raw_sha256": "11900b07e39d8871c2213dcf6ab2520f33a06e0a44d5e0661771aa2274cd0978",
+      "current_normalized_lf_sha256": "11900b07e39d8871c2213dcf6ab2520f33a06e0a44d5e0661771aa2274cd0978",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "extensions/causal_paid_simulation.py",
+      "frozen_remote_lf_sha256": "253d23c20e4eb7532eee990927a4d5f7ad1febc952d2b011995c2061d575483f",
+      "current_raw_sha256": "253d23c20e4eb7532eee990927a4d5f7ad1febc952d2b011995c2061d575483f",
+      "current_normalized_lf_sha256": "253d23c20e4eb7532eee990927a4d5f7ad1febc952d2b011995c2061d575483f",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "extensions/information_identifiability.py",
+      "frozen_remote_lf_sha256": "2c9e54165d82801a6e3aab093a3f17b590b77e914c63aab1f390bc7bf5c2646d",
+      "current_raw_sha256": "2c9e54165d82801a6e3aab093a3f17b590b77e914c63aab1f390bc7bf5c2646d",
+      "current_normalized_lf_sha256": "2c9e54165d82801a6e3aab093a3f17b590b77e914c63aab1f390bc7bf5c2646d",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "extensions/native_paid_adapter.py",
+      "frozen_remote_lf_sha256": "1678d6b89e6271ece22e0d26c2912d7d610453deadb14ba087f96678a825f2c9",
+      "current_raw_sha256": "1678d6b89e6271ece22e0d26c2912d7d610453deadb14ba087f96678a825f2c9",
+      "current_normalized_lf_sha256": "1678d6b89e6271ece22e0d26c2912d7d610453deadb14ba087f96678a825f2c9",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "extensions/native_task_wire.py",
+      "frozen_remote_lf_sha256": "bb4ca6a06ba111effb7f3a451ee60b8b01702f98863ac3341c2b40b5b3310e0f",
+      "current_raw_sha256": "bb4ca6a06ba111effb7f3a451ee60b8b01702f98863ac3341c2b40b5b3310e0f",
+      "current_normalized_lf_sha256": "bb4ca6a06ba111effb7f3a451ee60b8b01702f98863ac3341c2b40b5b3310e0f",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "extensions/paid_receiver_service.py",
+      "frozen_remote_lf_sha256": "fcf2c86ba3d32305235396e0226f0d18d847a97b4377b2d64c1f878bf39ce234",
+      "current_raw_sha256": "fcf2c86ba3d32305235396e0226f0d18d847a97b4377b2d64c1f878bf39ce234",
+      "current_normalized_lf_sha256": "fcf2c86ba3d32305235396e0226f0d18d847a97b4377b2d64c1f878bf39ce234",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "extensions/paired_paid_simulation.py",
+      "frozen_remote_lf_sha256": "19d5c1d141aa82be0b60b57e152c817fac2512a3470af81013a23aa17f57f407",
+      "current_raw_sha256": "19d5c1d141aa82be0b60b57e152c817fac2512a3470af81013a23aa17f57f407",
+      "current_normalized_lf_sha256": "19d5c1d141aa82be0b60b57e152c817fac2512a3470af81013a23aa17f57f407",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "extensions/receiver_diagnostic.py",
+      "frozen_remote_lf_sha256": "1419d853a055c24d3be93183ddbce70e0fa5a7c6f2c5c752271a300035302917",
+      "current_raw_sha256": "58f99f8a0f6a4648c55cd636c7d83eee9f40214785f721ac8a47a3f1882b3c95",
+      "current_normalized_lf_sha256": "1419d853a055c24d3be93183ddbce70e0fa5a7c6f2c5c752271a300035302917",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "extensions/receiver_pose_interface.py",
+      "frozen_remote_lf_sha256": "32aa65d7498e8c044b488edf615b7c96586093a0e552b1ee33335a38464d4316",
+      "current_raw_sha256": "32aa65d7498e8c044b488edf615b7c96586093a0e552b1ee33335a38464d4316",
+      "current_normalized_lf_sha256": "32aa65d7498e8c044b488edf615b7c96586093a0e552b1ee33335a38464d4316",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "extensions/receiver_rtt_contract.py",
+      "frozen_remote_lf_sha256": "5a196d58bb7485115c4a9336f3ff981bf2dee6b74271617dc9b7055013f89f76",
+      "current_raw_sha256": "5a196d58bb7485115c4a9336f3ff981bf2dee6b74271617dc9b7055013f89f76",
+      "current_normalized_lf_sha256": "5a196d58bb7485115c4a9336f3ff981bf2dee6b74271617dc9b7055013f89f76",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "extensions/receiver_summary_audit.py",
+      "frozen_remote_lf_sha256": "336de539d3ec151b7cf9f7b6707e7e9aeacd8ad6f2ab6e968e218553152c1d0f",
+      "current_raw_sha256": "336de539d3ec151b7cf9f7b6707e7e9aeacd8ad6f2ab6e968e218553152c1d0f",
+      "current_normalized_lf_sha256": "336de539d3ec151b7cf9f7b6707e7e9aeacd8ad6f2ab6e968e218553152c1d0f",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "extensions/receiver_transport_replay.py",
+      "frozen_remote_lf_sha256": "b856bf909b3797dacdbe489bf5a779a0aa2c6f374bc569bc2a5e3bfb220bb957",
+      "current_raw_sha256": "b856bf909b3797dacdbe489bf5a779a0aa2c6f374bc569bc2a5e3bfb220bb957",
+      "current_normalized_lf_sha256": "b856bf909b3797dacdbe489bf5a779a0aa2c6f374bc569bc2a5e3bfb220bb957",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "extensions/sync_cost_diagnostic.py",
+      "frozen_remote_lf_sha256": "a5954634fc048165b9ed3d05ce244f840a200c79a81dc31f78b85d598194f136",
+      "current_raw_sha256": "a5954634fc048165b9ed3d05ce244f840a200c79a81dc31f78b85d598194f136",
+      "current_normalized_lf_sha256": "a5954634fc048165b9ed3d05ce244f840a200c79a81dc31f78b85d598194f136",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "extensions/wire_periodic.py",
+      "frozen_remote_lf_sha256": "08a90cba993629202f16151eda92e0bbc126bccf396335e9514d5c9c111384b2",
+      "current_raw_sha256": "08a90cba993629202f16151eda92e0bbc126bccf396335e9514d5c9c111384b2",
+      "current_normalized_lf_sha256": "08a90cba993629202f16151eda92e0bbc126bccf396335e9514d5c9c111384b2",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/__init__.py",
+      "frozen_remote_lf_sha256": "aefc86c81d4433defb481dbad8bc43ab7921bbd4bdc2e9008ac178da28eb3df1",
+      "current_raw_sha256": "3f25df10963a0ab99e27ccf22222639949af0e6199f36a5246d06b4d5e29c1f3",
+      "current_normalized_lf_sha256": "aefc86c81d4433defb481dbad8bc43ab7921bbd4bdc2e9008ac178da28eb3df1",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/agent.py",
+      "frozen_remote_lf_sha256": "a6f98f610ba19935de867f567e28715a0fba814bea3f49ef038132913f88834f",
+      "current_raw_sha256": "a2c3d232f59a7c00fe9b830515d1f2486c717827c6d953d60dcb17461139295a",
+      "current_normalized_lf_sha256": "a6f98f610ba19935de867f567e28715a0fba814bea3f49ef038132913f88834f",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/belief.py",
+      "frozen_remote_lf_sha256": "6f662ffdf36b8c0b1c5bdae48bd49d1816965b27c88182ecef4546d1912659e6",
+      "current_raw_sha256": "e3d1fd4b0a37cb23bd802f7187b5ae76c544d4129d07ac45e58be091b7beefc3",
+      "current_normalized_lf_sha256": "6f662ffdf36b8c0b1c5bdae48bd49d1816965b27c88182ecef4546d1912659e6",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/channel.py",
+      "frozen_remote_lf_sha256": "3d0f8cf5620a6c812414223ebfd46da88e6e2657c5683e969e69141eeca68362",
+      "current_raw_sha256": "c80185c01709a06ce0410fb0eb826edc8727e2abd85b0ae42cd93844aec58338",
+      "current_normalized_lf_sha256": "3d0f8cf5620a6c812414223ebfd46da88e6e2657c5683e969e69141eeca68362",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/config.py",
+      "frozen_remote_lf_sha256": "e6f0df2ec3df7d9f0ed269bf5418c3bc56f665885fdc42fc27de40f3d444208a",
+      "current_raw_sha256": "4c0d962efa6a4bfd5f0aa6f2e523001172d410182a10f24579c6d560b30c595d",
+      "current_normalized_lf_sha256": "e6f0df2ec3df7d9f0ed269bf5418c3bc56f665885fdc42fc27de40f3d444208a",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/environment.py",
+      "frozen_remote_lf_sha256": "5f035d17315fad47ef990d1506563e8ba2aaa943be7fa094a268beba305a2ff6",
+      "current_raw_sha256": "8d7b9d27d08001159db0cac23f53f1e7306bc7f82f94107603c350a75125f5dd",
+      "current_normalized_lf_sha256": "5f035d17315fad47ef990d1506563e8ba2aaa943be7fa094a268beba305a2ff6",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/joint.py",
+      "frozen_remote_lf_sha256": "d657a91c1200d6b35ab175bea06bdacf9b7f359170872fcc972990ad884cf0d2",
+      "current_raw_sha256": "a3d72fc0dc11f3189f5ff56418c1d62d15331fe9a7da9ec32afef1f8b66cf625",
+      "current_normalized_lf_sha256": "d657a91c1200d6b35ab175bea06bdacf9b7f359170872fcc972990ad884cf0d2",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/llm_agent.py",
+      "frozen_remote_lf_sha256": "f651ad267e3e33f70a193698fad0426a181b535e7616a3d31258a481571c1443",
+      "current_raw_sha256": "4ff9f71bff545e761f72b45b0c7da4ba6c805ca643fec093aca1ef9d8ca77aae",
+      "current_normalized_lf_sha256": "f651ad267e3e33f70a193698fad0426a181b535e7616a3d31258a481571c1443",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/messages.py",
+      "frozen_remote_lf_sha256": "d4519ec9b5e2c76ed3dc2f90fa81f8c91ea8124b1aa36b83bb80e49f0716e0ba",
+      "current_raw_sha256": "af6977e7e58c657815d1bcde0a29c2c4aadd337acd1f0c8d7d9388a510a7b092",
+      "current_normalized_lf_sha256": "d4519ec9b5e2c76ed3dc2f90fa81f8c91ea8124b1aa36b83bb80e49f0716e0ba",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/realistic.py",
+      "frozen_remote_lf_sha256": "c3aaef63eeb8648abe17d1695a7ee72eea106cfbcf5de26749f5ce5c7c9e0e40",
+      "current_raw_sha256": "46a212ca5a437dc02e996d3f43d7dfcdf77ba645691525cb94bbadbb9131eadb",
+      "current_normalized_lf_sha256": "c3aaef63eeb8648abe17d1695a7ee72eea106cfbcf5de26749f5ce5c7c9e0e40",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/rescue.py",
+      "frozen_remote_lf_sha256": "bd97ce9f0966144fd452afedd91491e568ce2044e50526f62f1015e39ad531f2",
+      "current_raw_sha256": "313e0bd6eb4cefc15018d3348c09f163fe0b6986ecf49dd1e3e4c9400a6c2f56",
+      "current_normalized_lf_sha256": "bd97ce9f0966144fd452afedd91491e568ce2044e50526f62f1015e39ad531f2",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/schemes.py",
+      "frozen_remote_lf_sha256": "cb0a1d6e4270bca49e2f5bccb6813f27d6db6b3875c1b5ec13987d0768453626",
+      "current_raw_sha256": "606e35bed232ad1d0937c056174a4f3c0266050f1e731f89de5b4281a1235de1",
+      "current_normalized_lf_sha256": "cb0a1d6e4270bca49e2f5bccb6813f27d6db6b3875c1b5ec13987d0768453626",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/simulator.py",
+      "frozen_remote_lf_sha256": "01af448b5d62d9c0492e037e552d3e30e86c27211ec002caaa2011fc7828be31",
+      "current_raw_sha256": "96b5482e787b9a204236f02aae48e124a66ba586e05f3ea7369a2b709c3fd876",
+      "current_normalized_lf_sha256": "01af448b5d62d9c0492e037e552d3e30e86c27211ec002caaa2011fc7828be31",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "gosc/voi.py",
+      "frozen_remote_lf_sha256": "3b358bd072584a95aa8d3eb03d77bd8c201adba99b724043a944480853c8017b",
+      "current_raw_sha256": "bab3847479626954bcf7ff0c1e259dc43634456901c858e482dc2dd5e98089a2",
+      "current_normalized_lf_sha256": "3b358bd072584a95aa8d3eb03d77bd8c201adba99b724043a944480853c8017b",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "research/protocols/information_calibration_v1.json",
+      "frozen_remote_lf_sha256": "903a3714092cc39d2ce39210954d93d5999ce80fc886d0f07a0692133db20bfb",
+      "current_raw_sha256": "903a3714092cc39d2ce39210954d93d5999ce80fc886d0f07a0692133db20bfb",
+      "current_normalized_lf_sha256": "903a3714092cc39d2ce39210954d93d5999ce80fc886d0f07a0692133db20bfb",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "scripts/analyze_information_calibration.py",
+      "frozen_remote_lf_sha256": "fb5392dcaa22f4b497e86c59ec938413b5b303b9936a4b47dacbb2d260978c96",
+      "current_raw_sha256": "fb5392dcaa22f4b497e86c59ec938413b5b303b9936a4b47dacbb2d260978c96",
+      "current_normalized_lf_sha256": "fb5392dcaa22f4b497e86c59ec938413b5b303b9936a4b47dacbb2d260978c96",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "scripts/audit_information_calibration.py",
+      "frozen_remote_lf_sha256": "31bf2cec5189f61a31282e5329066f889fd0f36a64fda226a9b27c5f1a47014f",
+      "current_raw_sha256": "226247322711899543482e0b18ff5dfffdf8e1ea69d8727792ca3d90f4d2ac71",
+      "current_normalized_lf_sha256": "226247322711899543482e0b18ff5dfffdf8e1ea69d8727792ca3d90f4d2ac71",
+      "normalized_unchanged": false,
+      "expected_audit_only_change": true
+    },
+    {
+      "path": "scripts/audit_information_identifiability.py",
+      "frozen_remote_lf_sha256": "ab6b7810817f4875b7523242a5724baa44ac214644f545d142b27acac52c32a6",
+      "current_raw_sha256": "5ee2b0db7cdfe10c039cee0764f162f2d83e76e9c4e52a2656e607eaa1ac14e1",
+      "current_normalized_lf_sha256": "5ee2b0db7cdfe10c039cee0764f162f2d83e76e9c4e52a2656e607eaa1ac14e1",
+      "normalized_unchanged": false,
+      "expected_audit_only_change": true
+    },
+    {
+      "path": "scripts/repro_information_calibration.py",
+      "frozen_remote_lf_sha256": "8216ce1ca18472f6e1d545ba749c1bd5e9262d743adcb603f7517b0fd0b596c8",
+      "current_raw_sha256": "8216ce1ca18472f6e1d545ba749c1bd5e9262d743adcb603f7517b0fd0b596c8",
+      "current_normalized_lf_sha256": "8216ce1ca18472f6e1d545ba749c1bd5e9262d743adcb603f7517b0fd0b596c8",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "scripts/repro_information_identifiability.py",
+      "frozen_remote_lf_sha256": "ec90a4ed7a6f808613a66b10db554b182ffb32d81672555dc7678bd17faa0bdf",
+      "current_raw_sha256": "ec90a4ed7a6f808613a66b10db554b182ffb32d81672555dc7678bd17faa0bdf",
+      "current_normalized_lf_sha256": "ec90a4ed7a6f808613a66b10db554b182ffb32d81672555dc7678bd17faa0bdf",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "tests_ext/test_information_calibration_analysis.py",
+      "frozen_remote_lf_sha256": "53b961666ca1863bb59eaae5c0aad1e959452b94477d738e4dab03326745848d",
+      "current_raw_sha256": "53b961666ca1863bb59eaae5c0aad1e959452b94477d738e4dab03326745848d",
+      "current_normalized_lf_sha256": "53b961666ca1863bb59eaae5c0aad1e959452b94477d738e4dab03326745848d",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "tests_ext/test_information_calibration_audit.py",
+      "frozen_remote_lf_sha256": "ebc49110fdb21dd1116f998b3ee7536421568ddcca591290ff3c51fffffdbbc4",
+      "current_raw_sha256": "ebc49110fdb21dd1116f998b3ee7536421568ddcca591290ff3c51fffffdbbc4",
+      "current_normalized_lf_sha256": "ebc49110fdb21dd1116f998b3ee7536421568ddcca591290ff3c51fffffdbbc4",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "tests_ext/test_information_calibration_runner.py",
+      "frozen_remote_lf_sha256": "9443733f3bf4521579d6aeeb313de6ab66a9af33597e565d5a6aaa024423591c",
+      "current_raw_sha256": "9443733f3bf4521579d6aeeb313de6ab66a9af33597e565d5a6aaa024423591c",
+      "current_normalized_lf_sha256": "9443733f3bf4521579d6aeeb313de6ab66a9af33597e565d5a6aaa024423591c",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "tests_ext/test_information_identifiability.py",
+      "frozen_remote_lf_sha256": "12b5fe05caaf4dcc99f2b0d44952d878763c59f0616fc525af25a00a77160472",
+      "current_raw_sha256": "12b5fe05caaf4dcc99f2b0d44952d878763c59f0616fc525af25a00a77160472",
+      "current_normalized_lf_sha256": "12b5fe05caaf4dcc99f2b0d44952d878763c59f0616fc525af25a00a77160472",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "scripts/repro_information_calibration_amendment.py",
+      "frozen_remote_lf_sha256": "ceb4e9ec56aa68992bd88f9b82cde33377fa0413e2c8381592cffe91b9779fe0",
+      "current_raw_sha256": "ceb4e9ec56aa68992bd88f9b82cde33377fa0413e2c8381592cffe91b9779fe0",
+      "current_normalized_lf_sha256": "ceb4e9ec56aa68992bd88f9b82cde33377fa0413e2c8381592cffe91b9779fe0",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "tests_ext/test_information_calibration_amendment.py",
+      "frozen_remote_lf_sha256": "162979721bcd1a6cb9ef67696ad2a070940d37812dfb4bbe7f2b226fa8549d0f",
+      "current_raw_sha256": "162979721bcd1a6cb9ef67696ad2a070940d37812dfb4bbe7f2b226fa8549d0f",
+      "current_normalized_lf_sha256": "162979721bcd1a6cb9ef67696ad2a070940d37812dfb4bbe7f2b226fa8549d0f",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    },
+    {
+      "path": "research/protocols/information_calibration_budget_amendment_approved_2026-10-27.json",
+      "frozen_remote_lf_sha256": "d7891e1605e30037b163a5276d477fa7b690c29128c9c732ffffb6a1580be00b",
+      "current_raw_sha256": "d7891e1605e30037b163a5276d477fa7b690c29128c9c732ffffb6a1580be00b",
+      "current_normalized_lf_sha256": "d7891e1605e30037b163a5276d477fa7b690c29128c9c732ffffb6a1580be00b",
+      "normalized_unchanged": true,
+      "expected_audit_only_change": false
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-26",
+  "base_commit": "253a14b19c4410a4606a40c98b8ba24791c7ee43",
+  "authority": "local raw byte hashes only; not HPC synchronization or runtime evidence",
+  "excludes_own_hash": true,
+  "files": [
+    {
+      "path": "extensions/information_identifiability.py",
+      "bytes": 15569,
+      "local_raw_sha256": "2c9e54165d82801a6e3aab093a3f17b590b77e914c63aab1f390bc7bf5c2646d"
+    },
+    {
+      "path": "research/ideas/RQ_v2.md",
+      "bytes": 4290,
+      "local_raw_sha256": "c6efe8c023c695c6d22e7c637b567950f8c589831971a474816a93a579fe4726"
+    },
+    {
+      "path": "research/logs/information-identifiability-2026-10-26/actual_commands.json",
+      "bytes": 2567,
+      "local_raw_sha256": "425527fb5195728fe8e467a3ebc610e6a9e815875821c920a9c09da52a7cd0e0"
+    },
+    {
+      "path": "research/logs/information-identifiability-2026-10-26/evidence_index.md",
+      "bytes": 1743,
+      "local_raw_sha256": "cfb2e8321f985593e98a4f7e238781952fcc88c6a9d076fab787288e04fa56e1"
+    },
+    {
+      "path": "research/logs/information-identifiability-2026-10-26/hpc_preflight.txt",
+      "bytes": 70,
+      "local_raw_sha256": "c9767f6ea9e369a53679d857b7b1d4cadb53ff16065b9153a8ff54c60f6ce66b"
+    },
+    {
+      "path": "research/logs/information-identifiability-2026-10-26/static_checks.json",
+      "bytes": 3971,
+      "local_raw_sha256": "877f8210aa95521f767ffd8cd07b8eceecb2261b8580aabddbb9a09839ac5357"
+    },
+    {
+      "path": "research/logs/information-identifiability-2026-10-26/task_brief.md",
+      "bytes": 2929,
+      "local_raw_sha256": "8182d4e3af25d5038acf3de8875076f1dacb299d7640e2009890ce14c952c8f7"
+    },
+    {
+      "path": "research/protocols/acquisition_cost_candidates_2026-10-26.md",
+      "bytes": 1846,
+      "local_raw_sha256": "ecc3bfab285a12b457c6b78c4ce21993af99af938b2d2e29501db7a876183335"
+    },
+    {
+      "path": "research/protocols/information_identifiability_v1.json",
+      "bytes": 4104,
+      "local_raw_sha256": "e09dcc80de632489e65cb3e0033582194b728a90bf46a21754b0fb31e83c8ec0"
+    },
+    {
+      "path": "research/protocols/information_identifiability_v1.md",
+      "bytes": 9360,
+      "local_raw_sha256": "fb41ee2e8de3bebdab5bed0d0f0acc2ce0d359cce6a45ac913c2eebe07b32dc9"
+    },
+    {
+      "path": "research/protocols/README.md",
+      "bytes": 3257,
+      "local_raw_sha256": "4a3fe52b09d0b653e1fbd3778210d4e7c6dc730acd1038a98bc78c585c08c623"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 8905,
+      "local_raw_sha256": "54082498a977ccd6060a18efabb5532eb6a4ca17279ff0f3e4822a6c123dd797"
+    },
+    {
+      "path": "research/reports/information_identifiability_implementation_2026-10-26.md",
+      "bytes": 6931,
+      "local_raw_sha256": "c9beabe3aa4f1f527ea01da8f34dc0b4b632fe5a2995aa6c7ad95a30eaadbedd"
+    },
+    {
+      "path": "research/reports/p1_evidence_gaps_2026-10-26.md",
+      "bytes": 2381,
+      "local_raw_sha256": "9643731d511f15a0fb3dbdefaf56a30776736ded21edb8db13537bde49130032"
+    },
+    {
+      "path": "research/sync/plans/next_steps.md",
+      "bytes": 19876,
+      "local_raw_sha256": "00a676c6f6567694e39f84a679ba0112590a7a046f6eee8b09fde81dc58b8607"
+    },
+    {
+      "path": "research/sync/project_status.json",
+      "bytes": 27257,
+      "local_raw_sha256": "16377bd63cef5a56ccfc429a453a4d7cb648d81ca33aee33a4fc775727d0bd50"
+    },
+    {
+      "path": "research/writing/experimental_protocol.md",
+      "bytes": 4160,
+      "local_raw_sha256": "153413996fdd2f27913b09af3609b06fddfa85be3f1e65edb6d089e34f9b3d10"
+    },
+    {
+      "path": "research/writing/paper_outline.md",
+      "bytes": 2915,
+      "local_raw_sha256": "3feed212b2faa8835d4a38f21e236fbde5e31a47cea1b03c3a5eb922299035a9"
+    },
+    {
+      "path": "research/writing/problem_statement.md",
+      "bytes": 3260,
+      "local_raw_sha256": "55ceb28d21cd471c3593d7d75fea5a028930801f6eaf2409603a585e67415192"
+    },
+    {
+      "path": "research/writing/system_model.md",
+      "bytes": 4053,
+      "local_raw_sha256": "64123cf7f5ff1d595b24217b449799f6ec41ac7ee9dcad41297d051e5d0df344"
+    },
+    {
+      "path": "scripts/audit_information_identifiability.py",
+      "bytes": 12565,
+      "local_raw_sha256": "45b2daf7af19ca8579a410e9a9158b64fc8f887ab68b8f61b69b992a5e83ea11"
+    },
+    {
+      "path": "scripts/repro_information_identifiability.py",
+      "bytes": 12596,
+      "local_raw_sha256": "fe56327cc108bde351166669943ee9c48dc2381d33c38f021158aedbe57a89f6"
+    },
+    {
+      "path": "tests_ext/test_information_identifiability.py",
+      "bytes": 11535,
+      "local_raw_sha256": "0461317c4386694457f6102544db5ab2929728363b1566f6aa2e0ac88b259423"
+    }
+  ]
+}

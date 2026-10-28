@@ -1,5 +1,17 @@
 # 研究进度与证据入口
 
+2026-10-28归档入口：[最近几轮结果汇总](reports/recent_rounds_summary_2026-10-28.md)、[8份HPC汇总JSON白名单](artifacts/gp-id-bf-20261027/README.md)、[提交说明](../commit/2026-10-28-01-information-identifiability-and-budget-selector.md)。工程Go与科学No-Go分开，保留原失败/旧状态和P1缺口；本次只做版本归档，无新科研运行。
+
+最新工程验收（2026-10-27）：[BF-selector-v1实施/验收报告](reports/budget_selector_acceptance_2026-10-27.md)与[执行索引](protocols/budget_selector_execution_2026-10-27.json)。485完整HPC测试通过；7旧违规/192可行目录、52短fixture及7派生修复到wire合同、独立原始行/预算/组/成员/CRC/typed账本核验通过并回传。旧源/默认与失败保持；新显式入口GP-ID-BF-v1，收益N0。工程Go不撤销原科学No-Go，不自动扩N、正式test或训练。下方Pending属前序快照。
+
+最新静态审阅（2026-10-27）：[selector预算可行性修订结论](reports/selector_budget_revision_review_2026-10-27.md)与[细化规格v1](protocols/selector_budget_feasibility_spec_v1_2026-10-27.md)。方向有条件通过；须补有界失败、每组至多一项、旧可行调用兼容、版本化重放与CPU/wall记录。代码/HPC合同未实现未运行，没有新样本；原工程阻断和科学No-Go保持。
+
+最新校准（2026-10-27）：[156任务结果与审计发现](reports/information_calibration_results_2026-10-27.md)、[执行索引](protocols/information_calibration_execution_2026-10-27.json)。批准2400s/384MiB后13方案×12新world在777.09s完成；全量原件87,333,208bytes回传。5组主要比较均无联合支持，统计No-Go；paid-pose对periodic慢33.83slots，通信/CPU比2.142/3.664。严格审计发现bits6/AoI1次真实选包超预算，诊断核完156记录/账本/重选/统计仍保持blocked_selection_budget；不冒称全审计通过。事前379测试及wrapper9通过；结果后390通过/1测试fixture失败，补字段后3针对合同通过。原失败保留，在线策略未改，正式test/扩N/训练No-Go。下一步先审阅selector预算可行性及研究主张收缩；下方N0/待审批是前序快照。
+
+最新验收（2026-10-27）：[GP-ID-v1 HPC验收报告](reports/information_identifiability_acceptance_2026-10-27.md)与[执行状态](protocols/information_identifiability_execution_2026-10-27.json)。完整343测试通过；13方案×2成本world×观察开关共52个24slot fixture、独立typed账本/决策审计和成本汇总完成，全部回传。1825同目录数值比较0差异，非通用等价证明；任务收益N0、付费信息净收益未建立。首轮合同失败与7项红回归保留。下一独立校准仅[设计/预算审阅候选](protocols/information_identifiability_calibration_review_2026-10-27.md)，原No-Go/封存test/训练边界不变；以下10月26日未运行段落保留历史含义。
+
+最新实现（2026-10-26）：[信息价值/获取成本识别报告](reports/information_identifiability_implementation_2026-10-26.md)与[GP-ID-v1协议](protocols/information_identifiability_v1.md)。独立对照/前瞻观测、合同测试和有界probe/独立审计入口已写；HPC SSH超时，用户要求先完成实现，**全部新增合同/prepare/probe/审计未运行、无新任务收益证据**。四份[写作骨架](writing/paper_outline.md)及[P1缺口清单](reports/p1_evidence_gaps_2026-10-26.md)已建立；原No-Go/封存test/训练边界不变。下面日期段落均保留历史含义。
+
 版本归档（2026-10-26）：用户授权一次提交并推送当前研究分支；[提交说明](../commit/2026-10-26-01-causal-service-and-age-review.md)覆盖10月24–25日连续任务和此前未推送祖先。最终身份/推送状态以Git历史和远端引用核验；旧报告“未提交/未推送”保留历史时点。原No-Go和未执行的新协议/正式test/训练边界不变。
 
 最新机制审查（2026-10-25）：[摘要成本与age/动态price](reports/summary_age_mechanism_review_2026-10-25.md)。原252任务/950281事件只读分析，新独立N0；18合同和1536固定合成选择器比较通过。选中pose摘要UL20,516uses，占全通信34.27%；连ACK保守界的直接摘要费占41.90%–66.63%（识别界非CI）。即使固定轨迹账本免去全部摘要UL，39,341.75uses仍超periodic的1.05成本上限。age理想目标等价动态price，native-age免费时间戳对照及逐决策factor/DL类型记录仍缺；[新协议审阅候选](protocols/summary_age_revision_review_2026-10-25.md)未执行，原No-Go保持。

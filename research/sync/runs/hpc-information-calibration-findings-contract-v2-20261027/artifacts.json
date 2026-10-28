@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-information-calibration-findings-contract-v2-20261027",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 673,
+      "sha256": "7df5f7bbf0e4428d9b3b7c0255fb7e61838b4a6bbe84c49227501fc8cb189cfc"
+    }
+  ]
+}

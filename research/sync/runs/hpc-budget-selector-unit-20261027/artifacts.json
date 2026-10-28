@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-budget-selector-unit-20261027",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 11657,
+      "sha256": "1c787145960ce7bef39664fa361833730c8cee707cd36698a24916bbd5f00120"
+    }
+  ]
+}

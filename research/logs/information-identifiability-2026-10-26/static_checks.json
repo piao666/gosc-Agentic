@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-26",
+  "scope": "Lightweight local Git/file management only; no project execution",
+  "tracked_whitespace": {
+    "exit_code": 0,
+    "output": ""
+  },
+  "protected_and_frozen_sources": {
+    "exit_code": 0,
+    "output": ""
+  },
+  "untracked_whitespace": [
+    {
+      "exit_code": 1,
+      "path": "extensions/information_identifiability.py",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/logs/information-identifiability-2026-10-26/actual_commands.json",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/logs/information-identifiability-2026-10-26/evidence_index.md",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/logs/information-identifiability-2026-10-26/file_manifest.json",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/logs/information-identifiability-2026-10-26/static_checks.json",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/logs/information-identifiability-2026-10-26/task_brief.md",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/protocols/acquisition_cost_candidates_2026-10-26.md",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/protocols/information_identifiability_v1.json",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/protocols/information_identifiability_v1.md",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/reports/information_identifiability_implementation_2026-10-26.md",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/reports/p1_evidence_gaps_2026-10-26.md",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/writing/experimental_protocol.md",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/writing/paper_outline.md",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/writing/problem_statement.md",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "research/writing/system_model.md",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "scripts/audit_information_identifiability.py",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "scripts/repro_information_identifiability.py",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    },
+    {
+      "exit_code": 1,
+      "path": "tests_ext/test_information_identifiability.py",
+      "output": "",
+      "no_whitespace_diagnostics": true
+    }
+  ],
+  "no_index_exit_interpretation": "Exit 1 with no diagnostics represents a new-file difference, not a whitespace error. Raw SSH stderr was excluded and preserved.",
+  "json_metadata_readability": [
+    {
+      "path": "research/protocols/information_identifiability_v1.json",
+      "readable": true
+    },
+    {
+      "path": "research/sync/project_status.json",
+      "readable": true
+    },
+    {
+      "path": "research/logs/information-identifiability-2026-10-26/actual_commands.json",
+      "readable": true
+    }
+  ],
+  "local_markdown_missing_links": [],
+  "source_syntax_or_project_tests_run": false,
+  "HPC_runs_created": false,
+  "code_runtime_correctness": "Unverified; HPC unavailable"
+}

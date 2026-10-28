@@ -1,3 +1,47 @@
+# 下一步（2026-10-27 独立校准与真实预算违规定位后）
+
+最新工程状态：[BF-selector-v1验收](../../reports/budget_selector_acceptance_2026-10-27.md)已完成485测试、7违规修复/192可行目录兼容、52短fixture与7派生wire合同及独立审计，全部回传。仅新显式版本工程Go；旧156任务工程blocked与科学No-Go保持。
+
+[RUN] [最终报告](../../reports/information_calibration_results_2026-10-27.md)：批准2400s/384MiB后156任务/12新world完成，777.09s；全部原件和诊断核验回传。5主要比较0组通过，科学No-Go；严格审计发现bits6/AoI1次选包越界，全部156记录/账本/统计诊断复算一致仍blocked_selection_budget。独立重建7个旧目录均显示二分初始上端点不可行，复现同一超预算选择；未修在线策略/重跑。
+
+1. selector修订已按[细化规格](../../protocols/selector_budget_feasibility_spec_v1_2026-10-27.md)实施并通过支持域工程验收。保留显式新版，写清数值可定义域、有界失败和任务收益边界；无需继续重跑同一合同或扩大历史回放来积累N。
+2. 本轮156任务停止在已冻结N12。paid-pose对periodic慢33.83slots且通信/CPU比2.142/3.664；不扩N救结果，不换age主方法，不运行正式test/训练。
+3. 时间戳gain13.5、CI跨0；位置在共同native/paid时间戳下gain0/1。收缩当前付费位置效率主张，写清N12/单工作点/内生轨迹/辅助对照违规边界，不推断信息普遍无价值。
+4. 未来服务改造或收益campaign仍需另立共同对照、完整预算和全新world协议；本轮仅授权工程selector修订及验收，没有授权自动重跑156矩阵、扩price或修改任务/RQ。原GP-v1/v2 No-Go和作者P1缺口保持。
+5. 写作四内核已更新本轮负结果/审计边界；无新LLM/GPU/训练，未Git提交/push。HPC执行状态与receipt镜像完成分开记录。
+
+---
+
+以下为前序快照：
+
+# 下一步（2026-10-27 GP-ID-v1 HPC合同/成本验收后）
+
+[RUN] [验收报告](../../reports/information_identifiability_acceptance_2026-10-27.md)：343完整测试、52短成本fixture及独立typed账本/决策审计/成本汇总通过并完整回传；2成本world、1958decision、1825同目录比较0差异，效果N0。首轮1失败与7项红回归保留，实际科学配置值未变。
+
+1. 本轮实现/观察/账本关卡完成；不再重跑同一套完整测试或探测来增加样本。原作者P1缺口单列，原GP-v1/2科学No-Go不撤销。
+2. 下一优先审阅[独立校准设计与完整预算候选](../../protocols/information_identifiability_calibration_review_2026-10-27.md)：先确定主要信息使用问题/比较/终点/有限强baseline/实际成本支持，再核对全新world、N与停止规则。
+3. 13方案×假设12world×400slot的粗外推只含975.09s mission部分，日志线性体量1,550,749,200bytes；缺完整重选/序列化/传输和长horizon增长成本。不是可执行1200s预算，不自动开启新校准。
+4. 旧test封存、正式test/扩旧样本/训练No-Go；不事后更换age为主方法，也不自动实施服务降费/Work2/3。付费时间戳/位置的任务净收益仍未识别。
+5. 本轮无LLM/GPU/训练，未Git提交/push；所有科研计算HPC，receipt区分执行完成与回传完成。
+
+---
+
+以下为前序快照：
+
+# 下一步（2026-10-26 GP-ID-v1实现后，HPC待恢复）
+
+[CODE] [实现报告](../../reports/information_identifiability_implementation_2026-10-26.md)及[协议/命令](../../protocols/information_identifiability_v1.md)：独立机制对照、被动typed观测、合同及HPC有界probe/独立审计入口已写；四份写作骨架/P1缺口清单完成。本轮SSH超时，用户选择“目前无法连接，先完成实现”。新增测试/prepare/probe/审计**全部未运行**，源码未同步、world候选未查重冻结。
+
+1. 恢复HPC后先核验身份/配额/环境/活动任务、远端HEAD及sync SHA；有差异先保留并核对，禁止覆盖。
+2. 新runID执行合同，尤其观察开关、旧GP-v2 fixture、native-only权限、typed UL/DL/CPU/censor与独立篡改拒绝；失败阻断下游并保留。
+3. 合同通过才prepare核对相同源码SHA和新probe world，再运行最多52个24slot成本fixture及独立账本审计；它们不是独立任务收益样本，不用于挑arm/功效规划。
+4. 验收后另立可审阅的独立校准设计与预算，先解决本地阈值/付费时间戳/位置的必要性。原正式test、扩旧样本与训练仍No-Go；旧test封存，不自动启动降成本服务改造或Work2/3。
+5. 本轮未Git提交/push、无新增实验LLM/GPU/训练；本地改动留待审阅。新状态不能改写旧失败、旧协议或历史报告。
+
+---
+
+以下为前序快照：
+
 # 下一步（2026-10-25 摘要成本/age机制审查后）
 
 [RUN/CODE] [机制审查](../../reports/summary_age_mechanism_review_2026-10-25.md)：18合同、原252任务950281事件分析与独立复算完成，新mission/N0；1536合成选择器比较0不一致，但不证明普遍闭环逐位等价。age同次全部价值统一缩放，理想目标等价p_eff=p*(1+mean_age)。选中pose精确摘要UL20516uses，固定账本全部免去仍超两个主要对照的1.05通信上限，不能只靠UL免单宣称过关。

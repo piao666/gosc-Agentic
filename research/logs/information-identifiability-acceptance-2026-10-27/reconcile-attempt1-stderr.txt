@@ -1,0 +1,2 @@
+From /tmp/gosc-information-acceptance-20261027.bundle
+ * [new branch]      research/progress-audit-2026-10-19 -> refs/gosc-transfer/information-20261027

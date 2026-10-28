@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-information-contract-v2-20261027",
+  "status": "completed",
+  "started_at": "2026-10-27T05:27:37.278322+00:00",
+  "finished_at": "2026-10-27T05:28:24.133874+00:00",
+  "exit_code": 0,
+  "pid": 51822,
+  "elapsed_seconds": 46.855574,
+  "resource_usage": {
+    "child_max_rss_kib": 76696,
+    "child_cpu_user_seconds": 44.237407,
+    "child_cpu_system_seconds": 0.788253,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

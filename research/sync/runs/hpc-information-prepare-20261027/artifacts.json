@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-information-prepare-20261027",
+  "files": [
+    {
+      "path": "outputs/frozen.json",
+      "size": 41930,
+      "sha256": "e23f087e2b4417b64cac26d761b9a22afd1337ff32a28fee8e23eb5571611943"
+    }
+  ]
+}

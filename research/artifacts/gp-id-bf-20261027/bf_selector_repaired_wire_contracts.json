@@ -1,0 +1,527 @@
+{
+  "status": "passed",
+  "scope": "Seven synthetic control-only queue contracts derived from original violations; not original missions, task quality or efficacy samples",
+  "rows": [
+    {
+      "source_locator": {
+        "seed": 28000001,
+        "case_id": "aoi",
+        "t": 104,
+        "sender": 1,
+        "observation": "research/sync/runs/hpc-information-independent-calibration-20261027/outputs/28000001-aoi-observations.jsonl.gz",
+        "line": 25
+      },
+      "status": "passed",
+      "derived_control_catalog": true,
+      "source_sender_remapped_to": 0,
+      "source_time_remapped_to": 0,
+      "selected": [
+        {
+          "kind": "CONF",
+          "cell": 675,
+          "rate": 2.0,
+          "bits": 152,
+          "symbols": 76,
+          "n_records": 0
+        }
+      ],
+      "trace": {
+        "selector_version": "BF-selector-v1",
+        "path": "budget_repair",
+        "legacy_used": 152,
+        "initial_upper": 4470.170709043472,
+        "upper_checks": [
+          {
+            "upper": 4470.170709043472,
+            "used": 152
+          },
+          {
+            "upper": 8940.341418086944,
+            "used": 0
+          }
+        ],
+        "expansions": 1,
+        "bisection_steps": 40,
+        "final_used": 76,
+        "max_expansions": 64
+      },
+      "submissions": 1,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 40,
+            "served_uses": 40,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 76,
+            "served_uses": 76,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.006,
+          "task_ready": 0.001,
+          "valuation": 0.016000000000000007,
+          "task": 0.005
+        },
+        "decision_count": 16
+      },
+      "observation": {
+        "path": "derived-0.jsonl.gz",
+        "sha256": "9a96132daefcc46b13edfcea7b9a2ba05073dd88dd9d5c355fed141b8898b744",
+        "uncompressed_sha256": "37b1d48c592d64f0aa227a1013da6f090ea4b35de4dccb098776c5c8cd9a842d",
+        "rows": 75,
+        "compressed_bytes": 2867,
+        "uncompressed_bytes": 37810
+      }
+    },
+    {
+      "source_locator": {
+        "seed": 28000003,
+        "case_id": "bits",
+        "t": 140,
+        "sender": 5,
+        "observation": "research/sync/runs/hpc-information-independent-calibration-20261027/outputs/28000003-bits-observations.jsonl.gz",
+        "line": 47
+      },
+      "status": "passed",
+      "derived_control_catalog": true,
+      "source_sender_remapped_to": 0,
+      "source_time_remapped_to": 0,
+      "selected": [
+        {
+          "kind": "CONF",
+          "cell": 5,
+          "rate": 2.0,
+          "bits": 152,
+          "symbols": 76,
+          "n_records": 0
+        }
+      ],
+      "trace": {
+        "selector_version": "BF-selector-v1",
+        "path": "budget_repair",
+        "legacy_used": 152,
+        "initial_upper": 0.37740635744655543,
+        "upper_checks": [
+          {
+            "upper": 0.37740635744655543,
+            "used": 152
+          },
+          {
+            "upper": 0.7548127148931109,
+            "used": 0
+          }
+        ],
+        "expansions": 1,
+        "bisection_steps": 40,
+        "final_used": 76,
+        "max_expansions": 64
+      },
+      "submissions": 1,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 40,
+            "served_uses": 40,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 76,
+            "served_uses": 76,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.006,
+          "task_ready": 0.001,
+          "valuation": 0.016000000000000007,
+          "task": 0.006
+        },
+        "decision_count": 16
+      },
+      "observation": {
+        "path": "derived-1.jsonl.gz",
+        "sha256": "760884fe9e78f465044ea8beb40f6abb4268baddcb85a2e8d663d090ad6c1056",
+        "uncompressed_sha256": "576206304d924cf70ec71676120929b2493c71d2e01de19f64105f0a9a6cc0f2",
+        "rows": 76,
+        "compressed_bytes": 2728,
+        "uncompressed_bytes": 37546
+      }
+    },
+    {
+      "source_locator": {
+        "seed": 28000005,
+        "case_id": "bits",
+        "t": 94,
+        "sender": 2,
+        "observation": "research/sync/runs/hpc-information-independent-calibration-20261027/outputs/28000005-bits-observations.jsonl.gz",
+        "line": 19
+      },
+      "status": "passed",
+      "derived_control_catalog": true,
+      "source_sender_remapped_to": 0,
+      "source_time_remapped_to": 0,
+      "selected": [
+        {
+          "kind": "CONF",
+          "cell": 228,
+          "rate": 2.0,
+          "bits": 152,
+          "symbols": 76,
+          "n_records": 0
+        }
+      ],
+      "trace": {
+        "selector_version": "BF-selector-v1",
+        "path": "budget_repair",
+        "legacy_used": 228,
+        "initial_upper": 0.37740635744655543,
+        "upper_checks": [
+          {
+            "upper": 0.37740635744655543,
+            "used": 228
+          },
+          {
+            "upper": 0.7548127148931109,
+            "used": 0
+          }
+        ],
+        "expansions": 1,
+        "bisection_steps": 40,
+        "final_used": 76,
+        "max_expansions": 64
+      },
+      "submissions": 1,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 40,
+            "served_uses": 40,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 76,
+            "served_uses": 76,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.006,
+          "task_ready": 0.001,
+          "valuation": 0.016000000000000007,
+          "task": 0.005
+        },
+        "decision_count": 16
+      },
+      "observation": {
+        "path": "derived-2.jsonl.gz",
+        "sha256": "cadc75f99f4e14329dcf917d8423522c7ef7408090c095c7037e71d26ef8ef5a",
+        "uncompressed_sha256": "6d8b7e1b3b3536cde8abcf5d690e70f71bfaaede1f04e4b6b4ceeec2c0b1dedd",
+        "rows": 75,
+        "compressed_bytes": 2745,
+        "uncompressed_bytes": 37823
+      }
+    },
+    {
+      "source_locator": {
+        "seed": 28000007,
+        "case_id": "bits",
+        "t": 40,
+        "sender": 4,
+        "observation": "research/sync/runs/hpc-information-independent-calibration-20261027/outputs/28000007-bits-observations.jsonl.gz",
+        "line": 25
+      },
+      "status": "passed",
+      "derived_control_catalog": true,
+      "source_sender_remapped_to": 0,
+      "source_time_remapped_to": 0,
+      "selected": [
+        {
+          "kind": "CONF",
+          "cell": 92,
+          "rate": 2.0,
+          "bits": 152,
+          "symbols": 76,
+          "n_records": 0
+        }
+      ],
+      "trace": {
+        "selector_version": "BF-selector-v1",
+        "path": "budget_repair",
+        "legacy_used": 152,
+        "initial_upper": 0.33641821308848013,
+        "upper_checks": [
+          {
+            "upper": 0.33641821308848013,
+            "used": 152
+          },
+          {
+            "upper": 0.6728364261769603,
+            "used": 0
+          }
+        ],
+        "expansions": 1,
+        "bisection_steps": 40,
+        "final_used": 76,
+        "max_expansions": 64
+      },
+      "submissions": 1,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 40,
+            "served_uses": 40,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 76,
+            "served_uses": 76,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.006,
+          "task_ready": 0.001,
+          "valuation": 0.016000000000000007,
+          "task": 0.006
+        },
+        "decision_count": 16
+      },
+      "observation": {
+        "path": "derived-3.jsonl.gz",
+        "sha256": "4b5fbba8c086461811673d84ad007d18e9e18224690e208a7773bed6bdd1e731",
+        "uncompressed_sha256": "8f0bc953a3fcbe12a83bbb26627a5a424f9680432412378a0bde4c30b9017b17",
+        "rows": 76,
+        "compressed_bytes": 2726,
+        "uncompressed_bytes": 37555
+      }
+    },
+    {
+      "source_locator": {
+        "seed": 28000007,
+        "case_id": "bits",
+        "t": 192,
+        "sender": 1,
+        "observation": "research/sync/runs/hpc-information-independent-calibration-20261027/outputs/28000007-bits-observations.jsonl.gz",
+        "line": 58
+      },
+      "status": "passed",
+      "derived_control_catalog": true,
+      "source_sender_remapped_to": 0,
+      "source_time_remapped_to": 0,
+      "selected": [
+        {
+          "kind": "CONF",
+          "cell": 695,
+          "rate": 2.0,
+          "bits": 152,
+          "symbols": 76,
+          "n_records": 0
+        }
+      ],
+      "trace": {
+        "selector_version": "BF-selector-v1",
+        "path": "budget_repair",
+        "legacy_used": 152,
+        "initial_upper": 0.37740635744655543,
+        "upper_checks": [
+          {
+            "upper": 0.37740635744655543,
+            "used": 152
+          },
+          {
+            "upper": 0.7548127148931109,
+            "used": 0
+          }
+        ],
+        "expansions": 1,
+        "bisection_steps": 40,
+        "final_used": 76,
+        "max_expansions": 64
+      },
+      "submissions": 1,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 40,
+            "served_uses": 40,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 76,
+            "served_uses": 76,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.006,
+          "task_ready": 0.001,
+          "valuation": 0.016000000000000007,
+          "task": 0.006
+        },
+        "decision_count": 16
+      },
+      "observation": {
+        "path": "derived-4.jsonl.gz",
+        "sha256": "4414e6393c286441cdbb6230196e1749daee7bb6be0c301f4b1105fa4f6abfa5",
+        "uncompressed_sha256": "3a02905384f76081024e7ce7820a8724ca4cb4f32a6141429ab267076349e230",
+        "rows": 76,
+        "compressed_bytes": 2733,
+        "uncompressed_bytes": 37550
+      }
+    },
+    {
+      "source_locator": {
+        "seed": 28000009,
+        "case_id": "bits",
+        "t": 92,
+        "sender": 2,
+        "observation": "research/sync/runs/hpc-information-independent-calibration-20261027/outputs/28000009-bits-observations.jsonl.gz",
+        "line": 24
+      },
+      "status": "passed",
+      "derived_control_catalog": true,
+      "source_sender_remapped_to": 0,
+      "source_time_remapped_to": 0,
+      "selected": [
+        {
+          "kind": "CONF",
+          "cell": 257,
+          "rate": 2.0,
+          "bits": 152,
+          "symbols": 76,
+          "n_records": 0
+        }
+      ],
+      "trace": {
+        "selector_version": "BF-selector-v1",
+        "path": "budget_repair",
+        "legacy_used": 304,
+        "initial_upper": 0.00495462172733929,
+        "upper_checks": [
+          {
+            "upper": 0.00495462172733929,
+            "used": 304
+          },
+          {
+            "upper": 0.00990924345467858,
+            "used": 0
+          }
+        ],
+        "expansions": 1,
+        "bisection_steps": 40,
+        "final_used": 76,
+        "max_expansions": 64
+      },
+      "submissions": 1,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 40,
+            "served_uses": 40,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 76,
+            "served_uses": 76,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.006,
+          "task_ready": 0.001,
+          "valuation": 0.016000000000000007,
+          "task": 0.005
+        },
+        "decision_count": 16
+      },
+      "observation": {
+        "path": "derived-5.jsonl.gz",
+        "sha256": "ac665592256951e96988fc2714f48842eb8e3aa58f5355a5d26cd714daad9463",
+        "uncompressed_sha256": "47943fe4ce252d641c6d3101edee2bcd1efde685663f36dc06cc110baccb843f",
+        "rows": 75,
+        "compressed_bytes": 2765,
+        "uncompressed_bytes": 38500
+      }
+    },
+    {
+      "source_locator": {
+        "seed": 28000010,
+        "case_id": "bits",
+        "t": 146,
+        "sender": 2,
+        "observation": "research/sync/runs/hpc-information-independent-calibration-20261027/outputs/28000010-bits-observations.jsonl.gz",
+        "line": 49
+      },
+      "status": "passed",
+      "derived_control_catalog": true,
+      "source_sender_remapped_to": 0,
+      "source_time_remapped_to": 0,
+      "selected": [
+        {
+          "kind": "CONF",
+          "cell": 394,
+          "rate": 2.0,
+          "bits": 152,
+          "symbols": 76,
+          "n_records": 0
+        }
+      ],
+      "trace": {
+        "selector_version": "BF-selector-v1",
+        "path": "budget_repair",
+        "legacy_used": 152,
+        "initial_upper": 0.33641821308848013,
+        "upper_checks": [
+          {
+            "upper": 0.33641821308848013,
+            "used": 152
+          },
+          {
+            "upper": 0.6728364261769603,
+            "used": 0
+          }
+        ],
+        "expansions": 1,
+        "bisection_steps": 40,
+        "final_used": 76,
+        "max_expansions": 64
+      },
+      "submissions": 1,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 40,
+            "served_uses": 40,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 76,
+            "served_uses": 76,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.006,
+          "task_ready": 0.001,
+          "valuation": 0.016000000000000007,
+          "task": 0.006
+        },
+        "decision_count": 16
+      },
+      "observation": {
+        "path": "derived-6.jsonl.gz",
+        "sha256": "24a33e33c0c47f4de00f36b151b995d461409a2a12df2176f05fdf9b054ea0c6",
+        "uncompressed_sha256": "dc0c3f09560a40d60a46b066bbdcb66fcfea477ca00eb25c6c86615678f66a53",
+        "rows": 76,
+        "compressed_bytes": 2732,
+        "uncompressed_bytes": 37558
+      }
+    }
+  ],
+  "frozen_sha256": "2e89da0bda42cb05d51d12a39b249014b6b15cb47f836232d0fbd8a5c5fa9c38",
+  "efficacy_N": 0,
+  "new_mission_runs": 0
+}

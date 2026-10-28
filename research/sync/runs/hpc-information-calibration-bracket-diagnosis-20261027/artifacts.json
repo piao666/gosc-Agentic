@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-information-calibration-bracket-diagnosis-20261027",
+  "files": [
+    {
+      "path": "outputs/diagnosis.json",
+      "size": 12000,
+      "sha256": "14d3fc7125dc56752aec4a1af3482110e486890a57de25cccf620a4fa4c0456b"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+........................................................................ [ 21%]
+........................................................................ [ 42%]
+..............F......................................................... [ 64%]
+........................................................................ [ 85%]
+................................................                         [100%]
+=================================== FAILURES ===================================
+____ test_independent_audit_accepts_observed_fixture_and_rejects_tampering _____
+
+    def test_independent_audit_accepts_observed_fixture_and_rejects_tampering():
+        from scripts.audit_information_identifiability import resource_audit, decision_audit
+        root = Path(__file__).resolve().parents[1]
+        plan = json.loads((root / 'research/protocols/information_identifiability_v1.json').read_text())
+        s = simulation('paid-pose-age'); result = s.run(); events = s.observation()
+>       resource_audit(events, result, plan)
+
+tests_ext/test_information_identifiability.py:224: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+events = [{'event': 'decision', 't': 0, 'sender': 0, 'arm': 'paid-pose-age', ...}, {'event': 'decision', 't': 0, 'sender': 1, '...sender': 4, 'arm': 'paid-pose-age', ...}, {'event': 'decision', 't': 0, 'sender': 5, 'arm': 'paid-pose-age', ...}, ...]
+result = {'completion_time': 12, 'completed': False, 'found': 1, 'curve': [0, 0, 0, 0, 0, 1, ...], ...}
+plan = {'date': '2026-10-26', 'protocol_id': 'GP-ID-v1', 'stage': 'contracts_then_bounded_cost_probe', 'execution_status_at_authoring': 'not_run_HPC_unreachable_user_requested_implementation_only', ...}
+
+    def resource_audit(events, result, plan):
+        costs = result['service']['cost']
+        by_type = defaultdict(list)
+        for event in events:
+            by_type[event['event']].append(event)
+        attempts = by_type['ul_attempt']
+        check(all(e['uses'] == math.ceil(e['bytes'] * 8 / e['rate']) for e in attempts), 'UL frame length/rate')
+        close(sum(e['uses'] for e in attempts), costs['ul_uses'], 'UL actual uses')
+        for kind in ('task', 'summary'):
+            close(sum(e['bytes'] for e in attempts if e['message_kind'] == kind),
+                  costs['ul_' + kind + '_bytes'], 'UL bytes: ' + kind)
+        by_sender_slot = defaultdict(int)
+        for e in attempts:
+            by_sender_slot[e['t'], e['sender']] += e['uses']
+        check(all(v <= plan['service']['ul_capacity'] for v in by_sender_slot.values()), 'UL capacity')
+    
+        enqueues = by_type['dl_enqueue']
+        frames = {e['frame_id']:e for e in enqueues}
+        check(len(frames) == len(enqueues), 'Duplicate DL frame identity')
+        close(sum(e['bytes'] for e in enqueues), costs['dl_offered_bytes'], 'DL offered bytes')
+        served, by_slot = Counter(), Counter()
+        for e in by_type['dl_service']:
+            check(e['frame_id'] in frames, 'Service of unknown frame')
+            check(e['frame_kind'] == frames[e['frame_id']]['frame_kind'], 'Service kind mismatch')
+            check(e['uses'] > 0 and e['t'] >= frames[e['frame_id']]['t'], 'Noncausal DL service')
+            served[e['frame_id']] += e['uses']; by_slot[e['t']] += e['uses']
+        check(all(v <= plan['service']['dl_capacity'] for v in by_slot.values()), 'DL capacity')
+        close(sum(served.values()), costs['dl_uses'], 'DL actual uses')
+        check(len(by_type['service_end']) == 1, 'Missing unique right-censor boundary')
+        end = by_type['service_end'][0]
+        pending = {e['frame_id']:e['remaining_uses'] for e in end['unserved']}
+        completed_bytes = 0
+        typed = defaultdict(lambda: dict(offered_uses=0, served_uses=0, unserved_uses=0))
+        for ident, frame in frames.items():
+>           required = math.ceil(frame['bytes'] * 8 / plan['service']['dl_rate'])
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           KeyError: 'dl_rate'
+
+scripts/audit_information_identifiability.py:59: KeyError
+=========================== short test summary info ============================
+FAILED tests_ext/test_information_identifiability.py::test_independent_audit_accepts_observed_fixture_and_rejects_tampering
+1 failed, 335 passed in 47.66s

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-information-independent-calibration-20261027",
+  "status": "completed",
+  "started_at": "2026-10-27T06:41:19.656705+00:00",
+  "finished_at": "2026-10-27T06:54:16.745398+00:00",
+  "exit_code": 0,
+  "pid": 62652,
+  "elapsed_seconds": 777.088717,
+  "resource_usage": {
+    "child_max_rss_kib": 134548,
+    "child_cpu_user_seconds": 774.652377,
+    "child_cpu_system_seconds": 1.574033,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

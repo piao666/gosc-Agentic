@@ -14,6 +14,16 @@
 
 ## A. 启动协议（每次会话和每个开发任务）
 
+GitHub归档（2026-10-28）：用户要求梳理并提交最近几轮成果；[阶段汇总](research/reports/recent_rounds_summary_2026-10-28.md)、commit/2026-10-28-01-information-identifiability-and-budget-selector.md记录GP-ID成本合同、156任务校准科学No-Go及BF工程验收。归档当前research/progress-audit-2026-10-19分支，实际提交/推送身份以包含该说明的Git历史和远端引用核验；旧“未提交”保持历史含义。8份小型汇总JSON逐字节白名单，原outputs仍忽略；本次无新HPC测试/实验/训练，不更改原运行身份或放行新研究。
+
+最新BF-selector-v1实施验收（2026-10-27）：用户批准按规格实施验收后，独立纯selector及显式GP-ID-BF-v1入口完成；最终HPC485测试通过、7旧违规/192可行目录重选、52个24slot旧成本world/观察开关fixture、原始gzip行绑定及独立预算/组/成员/wire/typed账本审计通过，补充7个派生control-only修复到服务合同通过。主验收37.690869s，全部回传；早期红测试/测试替身失败和2次补充夹具初始化失败保留。旧GOSC/realistic/GP-v1/v2/GP-ID源及默认未改，原156任务的blocked与科学No-Go不撤销。新增均是工程合同，收益N0、未扩N/正式test/训练/提交/push。报告research/reports/budget_selector_acceptance_2026-10-27.md；下文静态Pending为历史快照。
+
+最新selector修订静态审阅（2026-10-27）：方向Conditional Go，已细化有界可行端点、旧可行逐调用兼容、组唯一性/成员身份、版本化重放与实测成本合同。代码/HPC合同仍Pending；本次无新测试/计算/样本，不修改在线策略，不撤销原工程阻断及科学No-Go。报告research/reports/selector_budget_revision_review_2026-10-27.md，规格research/protocols/selector_budget_feasibility_spec_v1_2026-10-27.md。
+
+最新独立识别校准（2026-10-27）：用户明确批准2400s/384MiB资源修订后，原13方案×12全新world共156任务在777.088717s完成，原始产物87,333,208bytes完整回传。事前379合同、wrapper9合同通过；预登记5主要比较0组过联合门槛，paid-pose相对periodic平均慢33.833333slots、通信/逻辑CPU比2.142032/3.664153，科学No-Go。严格独立审计发现bits6次/AoI1次选包>100（最大304）；诊断模式核完全部156记录、账本/重选/统计一致，但最终仍blocked_selection_budget，不能称全部验收通过。结果后审计合同全套390通过/1合成fixture失败，修fixture后3项针对合同通过（391不同项有通过证据，非单run391全绿）。原失败/预算阻断保留，在线策略未改、未重采样；正式test/扩N/训练No-Go。报告research/reports/information_calibration_results_2026-10-27.md；下段N0/未冻结为前序快照。未Git提交/push。
+
+最新GP-ID-v1验收（2026-10-27）：HPC恢复后完整343测试通过，13方案×2成本world×观察开关共52个24slot fixture、独立typed账本/决策审计及汇总完成并完整回传；1825同目录数值比较0差异，非普遍等价证明。首轮1失败及7项红回归保留；修复限默认速率显式化、审计逐条绑定和旧预留范围保护，在线策略未改。信息任务净收益仍未识别，效果N0；新独立校准协议/完整预算未冻结，正式test/扩旧样本/训练No-Go。报告research/reports/information_identifiability_acceptance_2026-10-27.md，后续审阅research/protocols/information_identifiability_calibration_review_2026-10-27.md；本轮未Git提交/push。
+
 GitHub归档（2026-10-26）：用户授权一次新提交并正常推送当前research/progress-audit-2026-10-19分支、保持工作区干净；说明commit/2026-10-26-01-causal-service-and-age-review.md，归档10月24–25日实现/协议/报告/运行元数据，并携带此前未推送47389eb祖先。实际提交/推送身份以包含本说明的Git历史与远端引用核对，不回填自身哈希；旧报告“未提交/未推送”保留当时含义。原始outputs仍忽略，原No-Go与新协议仅审阅候选不因版本归档改变；本次无新HPC计算。
 
 最新成本/age机制审查（2026-10-25）：原252任务950281事件分析/独立复算、18合同及1536合成选择器比较完成，新mission/N0；原No-Go保持。选中pose精确摘要UL20516uses（34.27%全通信），直接摘要保守识别界41.90%–66.63%（不是CI/精确DL分类）。固定轨迹账本免去全部摘要UL仍39341.75uses，超periodic/public的1.05上限。age统一缩放所有候选值，理想目标等价动态p_eff=p*(1+mean_age)；native-age不买摘要对照未运行，历史factor/DL类型字段缺失。新协议仅审阅候选，不自动实施/扫参/扩N/训练。入口research/reports/summary_age_mechanism_review_2026-10-25.md；本轮未Git提交/push。

@@ -1,0 +1,342 @@
+[
+  {
+    "run_id": "hpc-budget-selector-acceptance-20261027",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "timeout",
+      "720",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/accept_budget_selector.py",
+      "--contracts-run",
+      "research/sync/runs/hpc-budget-selector-contract-v2-20261027"
+    ],
+    "seeds": [
+      27000000,
+      27000001
+    ],
+    "status": "completed",
+    "exit_code": 0,
+    "elapsed_seconds": 37.690869,
+    "source_sync_id": "20261027T091414Z",
+    "source_manifest_sha256": "2a4f69ab041c4970b788704170fb91f9bcdc8c6af9fe8f1bbdd8f435ee157ded",
+    "resource_usage": {
+      "child_max_rss_kib": 60140,
+      "child_cpu_user_seconds": 37.157607,
+      "child_cpu_system_seconds": 0.540945,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-budget-selector-binding-contract-20261027",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "timeout",
+      "60",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests_ext/test_budget_selector_input_binding.py",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-binding-contract-20261027/pytest-tmp",
+      "--junitxml",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-binding-contract-20261027/outputs/pytest.xml"
+    ],
+    "seeds": [],
+    "status": "completed",
+    "exit_code": 0,
+    "elapsed_seconds": 0.2765,
+    "source_sync_id": "20261027T090823Z",
+    "source_manifest_sha256": "d5fa59ce4a541697da478b4b4fe4057be7a07f99ee74afa870c5ec3a4ccbaac2",
+    "resource_usage": {
+      "child_max_rss_kib": 47432,
+      "child_cpu_user_seconds": 0.440411,
+      "child_cpu_system_seconds": 0.177052,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-budget-selector-contract-20261027",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "timeout",
+      "240",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests",
+      "tests_ext",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-contract-20261027/pytest-tmp",
+      "--junitxml",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-contract-20261027/outputs/pytest.xml"
+    ],
+    "seeds": [],
+    "status": "completed",
+    "exit_code": 0,
+    "elapsed_seconds": 50.0171,
+    "source_sync_id": "20261027T090310Z",
+    "source_manifest_sha256": "dfd77f0ca9a5dbb2efa055ec7df3279988890e9cee24a4faa4cc545779a957ab",
+    "resource_usage": {
+      "child_max_rss_kib": 85172,
+      "child_cpu_user_seconds": 46.982197,
+      "child_cpu_system_seconds": 1.000891,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-budget-selector-contract-v2-20261027",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "timeout",
+      "240",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests",
+      "tests_ext",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-contract-v2-20261027/pytest-tmp",
+      "--junitxml",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-contract-v2-20261027/outputs/pytest.xml"
+    ],
+    "seeds": [],
+    "status": "completed",
+    "exit_code": 0,
+    "elapsed_seconds": 50.333526,
+    "source_sync_id": "20261027T091133Z",
+    "source_manifest_sha256": "69b378f3fdcb591c30f96eafa9ca1f4ea6b6a1ae93f4b210b3cc30a6e74671ed",
+    "resource_usage": {
+      "child_max_rss_kib": 87000,
+      "child_cpu_user_seconds": 47.369798,
+      "child_cpu_system_seconds": 0.94741,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-budget-selector-input-binding-20261027",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "timeout",
+      "120",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/audit_budget_selector_input_binding.py",
+      "--frozen",
+      "research/sync/runs/hpc-budget-selector-prepare-20261027/outputs/frozen.json"
+    ],
+    "seeds": [],
+    "status": "completed",
+    "exit_code": 0,
+    "elapsed_seconds": 12.145147,
+    "source_sync_id": "20261027T090957Z",
+    "source_manifest_sha256": "7c6f976bd8db07286adc1bb4762651dd03bdbd7193d3656c50e54e51ae835436",
+    "resource_usage": {
+      "child_max_rss_kib": 47412,
+      "child_cpu_user_seconds": 12.327408,
+      "child_cpu_system_seconds": 0.172364,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-budget-selector-prepare-20261027",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "timeout",
+      "90",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/repro_budget_feasible_selector.py",
+      "--mode",
+      "prepare",
+      "--contracts-run",
+      "research/sync/runs/hpc-budget-selector-contract-20261027"
+    ],
+    "seeds": [],
+    "status": "completed",
+    "exit_code": 0,
+    "elapsed_seconds": 13.396726,
+    "source_sync_id": "20261027T090525Z",
+    "source_manifest_sha256": "b77f826f0cd6d627c2cc6b1ab56a54bd7429810683955848dacd5d59a65471c6",
+    "resource_usage": {
+      "child_max_rss_kib": 52180,
+      "child_cpu_user_seconds": 13.561916,
+      "child_cpu_system_seconds": 0.181614,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-budget-selector-red-20261027",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "timeout",
+      "60",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests_ext/test_budget_feasible_selector.py",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-red-20261027/pytest-tmp",
+      "--junitxml",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-red-20261027/outputs/pytest.xml"
+    ],
+    "seeds": [],
+    "status": "failed",
+    "exit_code": 2,
+    "elapsed_seconds": 0.518439,
+    "source_sync_id": "20261027T085523Z",
+    "source_manifest_sha256": "8ab0ad6414445b669e4502af6dbed2436014799684d38c451abbf47514184def",
+    "resource_usage": {
+      "child_max_rss_kib": 54464,
+      "child_cpu_user_seconds": 0.625665,
+      "child_cpu_system_seconds": 0.234433,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-budget-selector-repaired-wire-20261027",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "timeout",
+      "120",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/verify_repaired_wire_contract.py",
+      "--frozen",
+      "research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/prepare/frozen.json"
+    ],
+    "seeds": [
+      27000000
+    ],
+    "status": "failed",
+    "exit_code": 1,
+    "elapsed_seconds": 0.214144,
+    "source_sync_id": "20261027T091919Z",
+    "source_manifest_sha256": "011e370d94f46e7b18bf6c22aa0d6f6e0cc1ad28b9949c83aa22ac22b298dfed",
+    "resource_usage": {
+      "child_max_rss_kib": 47312,
+      "child_cpu_user_seconds": 0.40337599999999996,
+      "child_cpu_system_seconds": 0.16261699999999998,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-budget-selector-repaired-wire-v2-20261027",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "timeout",
+      "120",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/verify_repaired_wire_contract.py",
+      "--frozen",
+      "research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/prepare/frozen.json"
+    ],
+    "seeds": [
+      27000000
+    ],
+    "status": "failed",
+    "exit_code": 1,
+    "elapsed_seconds": 0.206057,
+    "source_sync_id": "20261027T092120Z",
+    "source_manifest_sha256": "230065fdbf2702e2ec292bb1450dfb8fdcaef5a4a4e9c45d73c6ef6b09533b05",
+    "resource_usage": {
+      "child_max_rss_kib": 47036,
+      "child_cpu_user_seconds": 0.37660699999999997,
+      "child_cpu_system_seconds": 0.172043,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-budget-selector-repaired-wire-v3-20261027",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "timeout",
+      "120",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "scripts/verify_repaired_wire_contract.py",
+      "--frozen",
+      "research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/prepare/frozen.json"
+    ],
+    "seeds": [
+      27000000
+    ],
+    "status": "completed",
+    "exit_code": 0,
+    "elapsed_seconds": 0.264386,
+    "source_sync_id": "20261027T092253Z",
+    "source_manifest_sha256": "73690772dd41ed107c3cbcd9349f401c3ff691d7f2f3738c06aeeddb3d8a2a54",
+    "resource_usage": {
+      "child_max_rss_kib": 47380,
+      "child_cpu_user_seconds": 0.471199,
+      "child_cpu_system_seconds": 0.147944,
+      "peak_gpu_memory": null
+    }
+  },
+  {
+    "run_id": "hpc-budget-selector-unit-20261027",
+    "command": [
+      "env",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "timeout",
+      "120",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests_ext/test_budget_feasible_selector.py",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-unit-20261027/pytest-tmp",
+      "--junitxml",
+      "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-unit-20261027/outputs/pytest.xml"
+    ],
+    "seeds": [],
+    "status": "failed",
+    "exit_code": 1,
+    "elapsed_seconds": 0.458715,
+    "source_sync_id": "20261027T085747Z",
+    "source_manifest_sha256": "95ccc61b0b0366d96b03b7f33a66a37a08c445cf24ebcd01d96db98b006b6c95",
+    "resource_usage": {
+      "child_max_rss_kib": 48188,
+      "child_cpu_user_seconds": 0.576923,
+      "child_cpu_system_seconds": 0.208696,
+      "peak_gpu_memory": null
+    }
+  }
+]

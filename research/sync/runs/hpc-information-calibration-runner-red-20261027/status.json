@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-information-calibration-runner-red-20261027",
+  "status": "failed",
+  "started_at": "2026-10-27T06:11:58.787209+00:00",
+  "finished_at": "2026-10-27T06:11:59.315341+00:00",
+  "exit_code": 2,
+  "pid": 58082,
+  "elapsed_seconds": 0.52815,
+  "resource_usage": {
+    "child_max_rss_kib": 47292,
+    "child_cpu_user_seconds": 0.602734,
+    "child_cpu_system_seconds": 0.241119,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

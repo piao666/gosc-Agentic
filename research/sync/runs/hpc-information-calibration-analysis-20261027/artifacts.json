@@ -1,0 +1,15 @@
+{
+  "run_id": "hpc-information-calibration-analysis-20261027",
+  "files": [
+    {
+      "path": "outputs/analysis.json",
+      "size": 26186,
+      "sha256": "b15b9eb05fea2deae0c07aac66ef3ceab48f7a58da500bccaa00a293ee25382b"
+    },
+    {
+      "path": "outputs/calibration.md",
+      "size": 956,
+      "sha256": "b35f58c06a6ad397cb93ece829b607a35a7182862f65b55307a43e42166c8d61"
+    }
+  ]
+}

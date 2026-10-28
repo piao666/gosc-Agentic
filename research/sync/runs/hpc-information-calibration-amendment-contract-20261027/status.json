@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-information-calibration-amendment-contract-20261027",
+  "status": "completed",
+  "started_at": "2026-10-27T06:38:58.174698+00:00",
+  "finished_at": "2026-10-27T06:38:58.726434+00:00",
+  "exit_code": 0,
+  "pid": 62305,
+  "elapsed_seconds": 0.551756,
+  "resource_usage": {
+    "child_max_rss_kib": 47808,
+    "child_cpu_user_seconds": 0.594957,
+    "child_cpu_system_seconds": 0.264671,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

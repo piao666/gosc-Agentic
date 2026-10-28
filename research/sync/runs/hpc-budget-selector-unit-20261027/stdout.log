@@ -1,0 +1,37 @@
+.................................................................F.      [100%]
+=================================== FAILURES ===================================
+_________ test_overflow_and_stagnant_expansion_fail_not_empty_success __________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x14da00fa36d0>
+
+    def test_overflow_and_stagnant_expansion_fail_not_empty_success(monkeypatch):
+        groups=catalog(sys.float_info.max)
+        monkeypatch.setattr(bf,'legacy_select',lambda *args:[(g,g.options[0]) for g in groups])
+        with pytest.raises(bf.SelectorFailure):bf.select_feasible(groups,100,sys.float_info.max)
+        monkeypatch.setattr(bf,'_pick',lambda gs,lam: ([(g,g.options[0]) for g in gs],152))
+        monkeypatch.setattr(bf,'_expand',lambda hi:hi)
+        with pytest.raises(bf.SelectorFailure,match='progress'):
+>           bf.select_feasible(catalog(),100,0.)
+
+tests_ext/test_budget_feasible_selector.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+extensions/budget_feasible_selector.py:96: in select_feasible
+    selection_indices(groups,old)  # Structural errors never enter budget repair.
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+groups = [Group(kind='CONF', options=[Option(rate=2.0, bits=152, symbols=76, value=1.0, n_records=0)], cell=1), Group(kind='CONF', options=[Option(rate=2.0, bits=152, symbols=76, value=1.0, n_records=0)], cell=2)]
+chosen = [(Group(kind='CONF', options=[Option(rate=2.0, bits=152, symbols=76, value=1.7976931348623157e+308, n_records=0)], cel...3157e+308, n_records=0)], cell=2), Option(rate=2.0, bits=152, symbols=76, value=1.7976931348623157e+308, n_records=0))]
+
+    def selection_indices(groups,chosen):
+        index={id(g):i for i,g in enumerate(groups)}
+        seen=set();answer=[]
+        for g,o in chosen:
+            if id(g) not in index or id(g) in seen:
+>               raise ValueError('Unknown or repeated selected group')
+E               ValueError: Unknown or repeated selected group
+
+extensions/budget_feasible_selector.py:46: ValueError
+=========================== short test summary info ============================
+FAILED tests_ext/test_budget_feasible_selector.py::test_overflow_and_stagnant_expansion_fail_not_empty_success
+1 failed, 66 passed in 0.19s

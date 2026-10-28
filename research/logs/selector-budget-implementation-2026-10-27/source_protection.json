@@ -1,0 +1,201 @@
+{
+  "frozen_source_checks": [
+    {
+      "path": "extensions/budget_feasible_information.py",
+      "normalized_lf_sha256": "9b478eaec766c616bb5b9fb9c2b9ca47a0b586c085a93aa5eff58e40c3ebea3e",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/budget_feasible_selector.py",
+      "normalized_lf_sha256": "6b957ec3546f912ffe95b587f1c934376f5c69fda6e5eaa430ee340bfcc07fdb",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/causal_paid_service.py",
+      "normalized_lf_sha256": "11900b07e39d8871c2213dcf6ab2520f33a06e0a44d5e0661771aa2274cd0978",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/causal_paid_simulation.py",
+      "normalized_lf_sha256": "253d23c20e4eb7532eee990927a4d5f7ad1febc952d2b011995c2061d575483f",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/information_identifiability.py",
+      "normalized_lf_sha256": "2c9e54165d82801a6e3aab093a3f17b590b77e914c63aab1f390bc7bf5c2646d",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/native_paid_adapter.py",
+      "normalized_lf_sha256": "1678d6b89e6271ece22e0d26c2912d7d610453deadb14ba087f96678a825f2c9",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/native_task_wire.py",
+      "normalized_lf_sha256": "bb4ca6a06ba111effb7f3a451ee60b8b01702f98863ac3341c2b40b5b3310e0f",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/paid_receiver_service.py",
+      "normalized_lf_sha256": "fcf2c86ba3d32305235396e0226f0d18d847a97b4377b2d64c1f878bf39ce234",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/paired_paid_simulation.py",
+      "normalized_lf_sha256": "19d5c1d141aa82be0b60b57e152c817fac2512a3470af81013a23aa17f57f407",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/receiver_diagnostic.py",
+      "normalized_lf_sha256": "1419d853a055c24d3be93183ddbce70e0fa5a7c6f2c5c752271a300035302917",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/receiver_pose_interface.py",
+      "normalized_lf_sha256": "32aa65d7498e8c044b488edf615b7c96586093a0e552b1ee33335a38464d4316",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/receiver_rtt_contract.py",
+      "normalized_lf_sha256": "5a196d58bb7485115c4a9336f3ff981bf2dee6b74271617dc9b7055013f89f76",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/receiver_summary_audit.py",
+      "normalized_lf_sha256": "336de539d3ec151b7cf9f7b6707e7e9aeacd8ad6f2ab6e968e218553152c1d0f",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/receiver_transport_replay.py",
+      "normalized_lf_sha256": "b856bf909b3797dacdbe489bf5a779a0aa2c6f374bc569bc2a5e3bfb220bb957",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/sync_cost_diagnostic.py",
+      "normalized_lf_sha256": "a5954634fc048165b9ed3d05ce244f840a200c79a81dc31f78b85d598194f136",
+      "unchanged": true
+    },
+    {
+      "path": "extensions/wire_periodic.py",
+      "normalized_lf_sha256": "08a90cba993629202f16151eda92e0bbc126bccf396335e9514d5c9c111384b2",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/__init__.py",
+      "normalized_lf_sha256": "aefc86c81d4433defb481dbad8bc43ab7921bbd4bdc2e9008ac178da28eb3df1",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/agent.py",
+      "normalized_lf_sha256": "a6f98f610ba19935de867f567e28715a0fba814bea3f49ef038132913f88834f",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/belief.py",
+      "normalized_lf_sha256": "6f662ffdf36b8c0b1c5bdae48bd49d1816965b27c88182ecef4546d1912659e6",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/channel.py",
+      "normalized_lf_sha256": "3d0f8cf5620a6c812414223ebfd46da88e6e2657c5683e969e69141eeca68362",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/config.py",
+      "normalized_lf_sha256": "e6f0df2ec3df7d9f0ed269bf5418c3bc56f665885fdc42fc27de40f3d444208a",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/environment.py",
+      "normalized_lf_sha256": "5f035d17315fad47ef990d1506563e8ba2aaa943be7fa094a268beba305a2ff6",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/joint.py",
+      "normalized_lf_sha256": "d657a91c1200d6b35ab175bea06bdacf9b7f359170872fcc972990ad884cf0d2",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/llm_agent.py",
+      "normalized_lf_sha256": "f651ad267e3e33f70a193698fad0426a181b535e7616a3d31258a481571c1443",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/messages.py",
+      "normalized_lf_sha256": "d4519ec9b5e2c76ed3dc2f90fa81f8c91ea8124b1aa36b83bb80e49f0716e0ba",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/realistic.py",
+      "normalized_lf_sha256": "c3aaef63eeb8648abe17d1695a7ee72eea106cfbcf5de26749f5ce5c7c9e0e40",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/rescue.py",
+      "normalized_lf_sha256": "bd97ce9f0966144fd452afedd91491e568ce2044e50526f62f1015e39ad531f2",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/schemes.py",
+      "normalized_lf_sha256": "cb0a1d6e4270bca49e2f5bccb6813f27d6db6b3875c1b5ec13987d0768453626",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/simulator.py",
+      "normalized_lf_sha256": "01af448b5d62d9c0492e037e552d3e30e86c27211ec002caaa2011fc7828be31",
+      "unchanged": true
+    },
+    {
+      "path": "gosc/voi.py",
+      "normalized_lf_sha256": "3b358bd072584a95aa8d3eb03d77bd8c201adba99b724043a944480853c8017b",
+      "unchanged": true
+    },
+    {
+      "path": "research/protocols/budget_selector_acceptance_v1.json",
+      "normalized_lf_sha256": "c906c8af723de9176e5e45126c40c8e77c242029ec7d9a76de550cd0c20972c6",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/audit_budget_feasible_selector.py",
+      "normalized_lf_sha256": "b6a4d5fa4516ca4259012fe79199d98c3f67afde9369621b59a3bece0da38ce0",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/audit_information_identifiability.py",
+      "normalized_lf_sha256": "5ee2b0db7cdfe10c039cee0764f162f2d83e76e9c4e52a2656e607eaa1ac14e1",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/repro_budget_feasible_selector.py",
+      "normalized_lf_sha256": "fb737069b03f7b2ecb137b50f655458d533fdac2d9155591f322b0a52baf6176",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/repro_information_calibration.py",
+      "normalized_lf_sha256": "8216ce1ca18472f6e1d545ba749c1bd5e9262d743adcb603f7517b0fd0b596c8",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/repro_information_identifiability.py",
+      "normalized_lf_sha256": "ec90a4ed7a6f808613a66b10db554b182ffb32d81672555dc7678bd17faa0bdf",
+      "unchanged": true
+    },
+    {
+      "path": "tests_ext/test_budget_feasible_information.py",
+      "normalized_lf_sha256": "faa85e7bd2942e085495fabda110f0b928cde9bd80871555456528cbadaeccfc",
+      "unchanged": true
+    },
+    {
+      "path": "tests_ext/test_budget_feasible_selector.py",
+      "normalized_lf_sha256": "993639c3782d9651021f99ef3d5735603c3eb097debf1847801c535d0bad1a2b",
+      "unchanged": true
+    },
+    {
+      "path": "tests_ext/test_budget_selector_runner.py",
+      "normalized_lf_sha256": "7773edd32e50fdab27dc3a88bd926b02064721bb857d8b025e9f8c6461a8fedd",
+      "unchanged": true
+    }
+  ],
+  "prior_delivery_unchanged": true,
+  "scope": "Local lightweight LF-normalized source/hash management only"
+}

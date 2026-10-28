@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-information-audit-20261027",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 27945,
+      "sha256": "ecc8d3f4498c22cccadeaf2eb080c15cdee6e9b4529b64e22645141ea850fd1e"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-information-audit-gate-red-20261027",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 7625,
+      "sha256": "a4c3527e7f8cf9ae3ed7b58ebd717bc02a5bf0cca54dec111fad23a6baed94a4"
+    }
+  ]
+}

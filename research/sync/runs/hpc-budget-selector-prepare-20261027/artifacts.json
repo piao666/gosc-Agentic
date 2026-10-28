@@ -1,0 +1,15 @@
+{
+  "run_id": "hpc-budget-selector-prepare-20261027",
+  "files": [
+    {
+      "path": "outputs/catalogs.jsonl.gz",
+      "size": 118547,
+      "sha256": "2de83f80d3c7fe30c9a8aaa532b9043465addd3ffb95396d8da464d6f3869c3f"
+    },
+    {
+      "path": "outputs/frozen.json",
+      "size": 48680,
+      "sha256": "75ce8126431f9f86381ee749ff08cab5f8c18f1746db547a09d44dee4568509d"
+    }
+  ]
+}

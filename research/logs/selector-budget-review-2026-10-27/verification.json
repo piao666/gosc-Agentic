@@ -1,0 +1,140 @@
+{
+  "kind": "local_static_review_management",
+  "base_commit": "253a14b19c4410a4606a40c98b8ba24791c7ee43",
+  "prior_delivery_checks": [
+    {
+      "path": "scripts/repro_information_calibration.py",
+      "previous_sha256": "8216ce1ca18472f6e1d545ba749c1bd5e9262d743adcb603f7517b0fd0b596c8",
+      "current_sha256": "8216ce1ca18472f6e1d545ba749c1bd5e9262d743adcb603f7517b0fd0b596c8",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "scripts/repro_information_calibration_amendment.py",
+      "previous_sha256": "ceb4e9ec56aa68992bd88f9b82cde33377fa0413e2c8381592cffe91b9779fe0",
+      "current_sha256": "ceb4e9ec56aa68992bd88f9b82cde33377fa0413e2c8381592cffe91b9779fe0",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "scripts/analyze_information_calibration.py",
+      "previous_sha256": "fb5392dcaa22f4b497e86c59ec938413b5b303b9936a4b47dacbb2d260978c96",
+      "current_sha256": "fb5392dcaa22f4b497e86c59ec938413b5b303b9936a4b47dacbb2d260978c96",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "scripts/audit_information_calibration.py",
+      "previous_sha256": "226247322711899543482e0b18ff5dfffdf8e1ea69d8727792ca3d90f4d2ac71",
+      "current_sha256": "226247322711899543482e0b18ff5dfffdf8e1ea69d8727792ca3d90f4d2ac71",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "scripts/audit_information_identifiability.py",
+      "previous_sha256": "5ee2b0db7cdfe10c039cee0764f162f2d83e76e9c4e52a2656e607eaa1ac14e1",
+      "current_sha256": "5ee2b0db7cdfe10c039cee0764f162f2d83e76e9c4e52a2656e607eaa1ac14e1",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "scripts/diagnose_information_selection_budget.py",
+      "previous_sha256": "05cb161e9853aa1ec29cc4055c56a047dd773a2913aef6ab51e90de892361eef",
+      "current_sha256": "05cb161e9853aa1ec29cc4055c56a047dd773a2913aef6ab51e90de892361eef",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "tests_ext/test_information_calibration_runner.py",
+      "previous_sha256": "9443733f3bf4521579d6aeeb313de6ab66a9af33597e565d5a6aaa024423591c",
+      "current_sha256": "9443733f3bf4521579d6aeeb313de6ab66a9af33597e565d5a6aaa024423591c",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "tests_ext/test_information_calibration_amendment.py",
+      "previous_sha256": "162979721bcd1a6cb9ef67696ad2a070940d37812dfb4bbe7f2b226fa8549d0f",
+      "current_sha256": "162979721bcd1a6cb9ef67696ad2a070940d37812dfb4bbe7f2b226fa8549d0f",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "tests_ext/test_information_calibration_analysis.py",
+      "previous_sha256": "53b961666ca1863bb59eaae5c0aad1e959452b94477d738e4dab03326745848d",
+      "current_sha256": "53b961666ca1863bb59eaae5c0aad1e959452b94477d738e4dab03326745848d",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "tests_ext/test_information_calibration_audit.py",
+      "previous_sha256": "ebc49110fdb21dd1116f998b3ee7536421568ddcca591290ff3c51fffffdbbc4",
+      "current_sha256": "ebc49110fdb21dd1116f998b3ee7536421568ddcca591290ff3c51fffffdbbc4",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "tests_ext/test_information_audit_findings.py",
+      "previous_sha256": "0ac2fff7e483d473b452ca3e5e2ca539179674379e60cc2ca9b0526cabfcb8d4",
+      "current_sha256": "0ac2fff7e483d473b452ca3e5e2ca539179674379e60cc2ca9b0526cabfcb8d4",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "research/reports/information_calibration_results_2026-10-27.md",
+      "previous_sha256": "aa7b8f1e6de34efc58148663ceb6a263e3bc1b7679d5131edf9702617f89b3da",
+      "current_sha256": "aa7b8f1e6de34efc58148663ceb6a263e3bc1b7679d5131edf9702617f89b3da",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "research/protocols/information_calibration_execution_2026-10-27.json",
+      "previous_sha256": "2c58c0a6f9d359eaac7c7143c820e3c0efb6a8942099c49dd5e6dae9cd7c73f0",
+      "current_sha256": "2c58c0a6f9d359eaac7c7143c820e3c0efb6a8942099c49dd5e6dae9cd7c73f0",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "research/protocols/selector_budget_feasibility_review_2026-10-27.md",
+      "previous_sha256": "3bf21433085de7a02b2732eeca33a2d362cf754f383ba824e723ebd4e4176f8c",
+      "current_sha256": "29f73b8f583a20150d06323166fb9b27bc0aa371b08a72c3e16dd33eaedfb730",
+      "unchanged": false,
+      "expected_review_pointer_append": true
+    },
+    {
+      "path": "research/logs/information-calibration-2026-10-27/actual_commands.json",
+      "previous_sha256": "a547464a1e6baee3fdc8916f0af9c3d0fbeaba7b07473c708a008fdc4e8b78e1",
+      "current_sha256": "a547464a1e6baee3fdc8916f0af9c3d0fbeaba7b07473c708a008fdc4e8b78e1",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    },
+    {
+      "path": "research/logs/information-calibration-2026-10-27/source_integrity_checks.json",
+      "previous_sha256": "496b0304a1203c01bf9cfdcd6e221779fc23fdbf76f4a0ce609a0026c77920e4",
+      "current_sha256": "496b0304a1203c01bf9cfdcd6e221779fc23fdbf76f4a0ce609a0026c77920e4",
+      "unchanged": true,
+      "expected_review_pointer_append": false
+    }
+  ],
+  "review_files": [
+    {
+      "path": "research/logs/selector-budget-review-2026-10-27/task_brief.md",
+      "sha256": "8b1bd520f5e67ef478237d307bef54220947ea3fcf0f1195aa901f4a1516ce9e"
+    },
+    {
+      "path": "research/reports/selector_budget_revision_review_2026-10-27.md",
+      "sha256": "9c85c499cc2e548b027451eab11acbff48f9e0fcc2b4d25ef8d752fb277643d5"
+    },
+    {
+      "path": "research/protocols/selector_budget_feasibility_spec_v1_2026-10-27.md",
+      "sha256": "4df6ebc6d1c70473ea1a721c6fe57b2ca74fab8fb8858c79df516643340c1ab6"
+    },
+    {
+      "path": "research/protocols/selector_budget_feasibility_review_2026-10-27.md",
+      "sha256": "29f73b8f583a20150d06323166fb9b27bc0aa371b08a72c3e16dd33eaedfb730"
+    }
+  ],
+  "project_tests_run": false,
+  "new_missions": 0,
+  "hpc_sync_run": false,
+  "git_commit_or_push": false
+}

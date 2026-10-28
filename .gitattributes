@@ -5,3 +5,8 @@
 /research/sync/runs/hpc-summary-age-*/** -text
 /research/sync/receipts/20261024T*.json -text
 /research/sync/receipts/20261025T*.json -text
+# Preserve newly archived Oct27 evidence and selected result-summary copies.
+/research/sync/runs/hpc-information-*/** -text
+/research/sync/runs/hpc-budget-selector-*/** -text
+/research/sync/receipts/20261027T*.json -text
+/research/artifacts/gp-id-bf-20261027/** -text

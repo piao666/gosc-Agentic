@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-information-calibration-budget-20261027",
+  "status": "failed",
+  "started_at": "2026-10-27T06:26:47.190378+00:00",
+  "finished_at": "2026-10-27T06:27:24.293386+00:00",
+  "exit_code": 1,
+  "pid": 59858,
+  "elapsed_seconds": 37.10303,
+  "resource_usage": {
+    "child_max_rss_kib": 65932,
+    "child_cpu_user_seconds": 37.060168,
+    "child_cpu_system_seconds": 0.270324,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

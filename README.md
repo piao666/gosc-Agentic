@@ -2,6 +2,14 @@
 
 ## Research working copy
 
+**Oct28 research archive:** [recent-round results](research/reports/recent_rounds_summary_2026-10-28.md) and [eight byte-identical result summaries](research/artifacts/gp-id-bf-20261027/README.md) distinguish GP-ID calibration **scientific No-Go** from BF-selector **engineering acceptance**. Raw outputs remain outside Git. This archive adds no scientific runs or permission for sample expansion,confirmatory testing or training.
+
+**Latest engineering acceptance (2026-10-27):** [BF-selector-v1](research/reports/budget_selector_acceptance_2026-10-27.md):485 HPC tests passed;7 historical infeasible catalogs repaired,192 feasible catalogs preserved,52 short fixtures and7 derived repaired-admission service contracts independently checked and mirrored. A separately named GP-ID-BF-v1 entry point keeps legacy defaults unchanged. This is engineering acceptance,efficacy N0; original calibration failures and scientific No-Go remain. No formal test,training or Git commit/push.
+
+**Latest calibration (2026-10-27):** [GP-ID independent calibration and audit findings](research/reports/information_calibration_results_2026-10-27.md):156 missions on12 fresh worlds completed in777.09s under the explicitly approved2400s/384MiB amendment; all raw outputs mirrored. Predeclared statistics independently reproduced:0/5 primary comparisons met the joint gate,scientific **No-Go**. Strict auditing found7 over-budget selections in supplementary bits/AoI; diagnostic verification of all records retains **blocked_selection_budget**,not full engineering acceptance. No strategy repair,mission rerun,formal test or training. Earlier dated snapshots below retain their original scope.
+
+**Latest acceptance (2026-10-27):** [GP-ID-v1 contracts and audited cost fixtures](research/reports/information_identifiability_acceptance_2026-10-27.md):343 HPC tests passed;52 short fixtures (13 cases,two worlds,observer on/off) and independent typed-resource/decision auditing completed and mirrored. These are cost/observation checks,not efficacy samples or proof of paid-information benefit. Earlier failed runs are retained;new benefit calibration requires a separate complete design/budget,and formal test/training remain No-Go.
+
 **Latest (2026-10-25):** [GP-v2 calibration and independent frontier audit](research/reports/causal_calibration_audit_2026-10-25.md):
 252 missions on 12 new worlds completed within the approved 1200s budget (447.37s actual).
 Independent accounting/statistics/frontier audits passed; scientific decision remains **No-Go** because joint resource support fails and planning N=21907 exceeds the 200-world cap.

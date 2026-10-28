@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-information-calibration-bracket-diagnosis-20261027",
+  "status": "completed",
+  "started_at": "2026-10-27T08:34:42.515103+00:00",
+  "finished_at": "2026-10-27T08:34:54.148147+00:00",
+  "exit_code": 0,
+  "pid": 17253,
+  "elapsed_seconds": 11.633064,
+  "resource_usage": {
+    "child_max_rss_kib": 47100,
+    "child_cpu_user_seconds": 11.78616,
+    "child_cpu_system_seconds": 0.21475799999999998,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

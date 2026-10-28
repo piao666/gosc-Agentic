@@ -1,0 +1,74 @@
+{
+  "scope": "Local delivery metadata only; HPC run manifests and receipts authoritative",
+  "files": [
+    {
+      "path": "extensions/budget_feasible_selector.py",
+      "sha256": "6b957ec3546f912ffe95b587f1c934376f5c69fda6e5eaa430ee340bfcc07fdb"
+    },
+    {
+      "path": "extensions/budget_feasible_information.py",
+      "sha256": "9b478eaec766c616bb5b9fb9c2b9ca47a0b586c085a93aa5eff58e40c3ebea3e"
+    },
+    {
+      "path": "scripts/repro_budget_feasible_selector.py",
+      "sha256": "fb737069b03f7b2ecb137b50f655458d533fdac2d9155591f322b0a52baf6176"
+    },
+    {
+      "path": "scripts/audit_budget_feasible_selector.py",
+      "sha256": "b6a4d5fa4516ca4259012fe79199d98c3f67afde9369621b59a3bece0da38ce0"
+    },
+    {
+      "path": "scripts/audit_budget_selector_input_binding.py",
+      "sha256": "1ca8c8dd075685b7e3a51900671745888a4294f8e3793e1803f00c96a0b5dcdc"
+    },
+    {
+      "path": "scripts/summarize_budget_selector_acceptance.py",
+      "sha256": "1d7c402ffe94b3fe7d7361ae6a2f5c8cf0992d83faac9d226d27572b293f1901"
+    },
+    {
+      "path": "scripts/accept_budget_selector.py",
+      "sha256": "1266cc75f94273d9af216dac51a211c99a5099d10038d90820bf676ce1a7e40b"
+    },
+    {
+      "path": "scripts/verify_repaired_wire_contract.py",
+      "sha256": "4e6a58a3ca38dfba807cfaf2dcd936d001265da0c2734c47ab73ba80b62a81cd"
+    },
+    {
+      "path": "tests_ext/test_budget_feasible_selector.py",
+      "sha256": "993639c3782d9651021f99ef3d5735603c3eb097debf1847801c535d0bad1a2b"
+    },
+    {
+      "path": "tests_ext/test_budget_feasible_information.py",
+      "sha256": "faa85e7bd2942e085495fabda110f0b928cde9bd80871555456528cbadaeccfc"
+    },
+    {
+      "path": "tests_ext/test_budget_selector_input_binding.py",
+      "sha256": "3756d4a41e89bf2d12b47f006f9cda7eccf6512d8f461e8824790f39c2e69c65"
+    },
+    {
+      "path": "tests_ext/test_budget_selector_runner.py",
+      "sha256": "7773edd32e50fdab27dc3a88bd926b02064721bb857d8b025e9f8c6461a8fedd"
+    },
+    {
+      "path": "research/protocols/budget_selector_acceptance_v1.json",
+      "sha256": "c906c8af723de9176e5e45126c40c8e77c242029ec7d9a76de550cd0c20972c6"
+    },
+    {
+      "path": "research/protocols/budget_selector_execution_2026-10-27.json",
+      "sha256": "65c60bf7ef1e3cea2db3c1bc734f40ee883e5f309d99dfb4d536ab84c4547f1b"
+    },
+    {
+      "path": "research/reports/budget_selector_acceptance_2026-10-27.md",
+      "sha256": "493718111bfe5e81f38e68f558f75c99ac53c018deecc1bd49a26254beeff256"
+    },
+    {
+      "path": "research/logs/selector-budget-implementation-2026-10-27/actual_commands.json",
+      "sha256": "0f702a43eb793775601c9fd981de652fab182c1c47b377edfe6bfa17aeedeca3"
+    },
+    {
+      "path": "research/logs/selector-budget-implementation-2026-10-27/source_protection.json",
+      "sha256": "e5ddf502d039a578527699e8ac849142cf1c095eb7c38ec28c9c15358aa65c7c"
+    }
+  ],
+  "git_commit_or_push": false
+}

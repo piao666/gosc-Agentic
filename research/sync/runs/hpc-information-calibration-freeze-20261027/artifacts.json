@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-information-calibration-freeze-20261027",
+  "files": [
+    {
+      "path": "outputs/frozen.json",
+      "size": 39783,
+      "sha256": "2c1723706ff9742e00e8b8a2a1c774e7a55e252a129b24da84f2dc14a3251b82"
+    }
+  ]
+}

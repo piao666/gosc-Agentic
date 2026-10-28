@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-information-audit-gate-red-20261027",
+  "status": "failed",
+  "started_at": "2026-10-27T05:31:44.536565+00:00",
+  "finished_at": "2026-10-27T05:31:45.229071+00:00",
+  "exit_code": 1,
+  "pid": 52281,
+  "elapsed_seconds": 0.692526,
+  "resource_usage": {
+    "child_max_rss_kib": 50992,
+    "child_cpu_user_seconds": 0.8044129999999999,
+    "child_cpu_system_seconds": 0.223888,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,19 @@
+{
+  "amendment_id": "GP-ID-CAL-budget-20261027-01",
+  "date": "2026-10-27",
+  "status": "approved",
+  "user_authorized": true,
+  "parent_frozen_sha256": "2c1723706ff9742e00e8b8a2a1c774e7a55e252a129b24da84f2dc14a3251b82",
+  "budget_sha256": "b47f63b2bdce3af32ca34c1e67ea15739cb842bdb24af4d5cab5c9dacd410ff0",
+  "budget_audit_sha256": "c46f57aa249274d18e3ed5704be786fc830a07979dc7bd04343ef30408a98b7f",
+  "resource_overrides": {
+    "calibration_timeout_seconds": 2400,
+    "calibration_projection_gate_seconds": 2160,
+    "compressed_output_cap_bytes": 402653184,
+    "minimum_free_bytes": 939524096
+  },
+  "formal_test_authorized": false,
+  "training": false,
+  "authorization_evidence": "Human user explicitly answered 批准2400秒／384MiB to the exact resource revision question on 2026-10-27; original13cases/12frozenworlds/400slots/statistics unchanged; no formaltest/training",
+  "notes": "Only4 resource fields; preserve13cases,12unrun frozenworlds,400slots,price,service,statistics,original frozen and failed budget. No test/training."
+}

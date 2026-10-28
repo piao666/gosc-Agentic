@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-budget-selector-acceptance-20261027",
+  "status": "completed",
+  "started_at": "2026-10-27T09:14:45.508131+00:00",
+  "finished_at": "2026-10-27T09:15:23.198975+00:00",
+  "exit_code": 0,
+  "pid": 21179,
+  "elapsed_seconds": 37.690869,
+  "resource_usage": {
+    "child_max_rss_kib": 60140,
+    "child_cpu_user_seconds": 37.157607,
+    "child_cpu_system_seconds": 0.540945,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

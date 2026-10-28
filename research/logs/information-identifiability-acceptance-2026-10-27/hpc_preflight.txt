@@ -1,0 +1,17 @@
+n1
+8301880
+/home/u202520081000097/jupyterlab/Paper/gosc
+47389eba9c6e2838139df3aa47863ab88634e97a
+origin	https://github.com/piao666/gosc-Agentic.git (fetch)
+origin	https://github.com/piao666/gosc-Agentic.git (push)
+Python 3.11.15
+/sys/fs/cgroup/cpu/cpu.cfs_quota_us: 200000
+/sys/fs/cgroup/cpu/cpu.cfs_period_us: 100000
+/sys/fs/cgroup/cpuset/cpuset.cpus: 0-1
+/sys/fs/cgroup/memory/memory.limit_in_bytes: 25769803776
+bash: line 21: warning: here-document at line 10 delimited by end-of-file (wanted `PY')
+python_executable=/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python
+{"sync_id": "20261025T140426Z", "head": "47389eba9c6e2838139df3aa47863ab88634e97a", "branch": "research/progress-audit-2026-10-19"}
+Traceback (most recent call last):
+  File "<stdin>", line 11, in <module>
+NameError: name 'PY' is not defined

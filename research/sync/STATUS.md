@@ -1,11 +1,22 @@
 # HPC execution status
 
-Generated: 2026-10-25T14:02:23.582861+00:00
+Generated: 2026-10-27T09:23:24.412585+00:00
 
 | Run | Kind | Stage | Status | Exit |
 |---|---|---|---|---|
 | hpc-acceptance-scope-20261022 | analysis | P1-acceptance | failed | 1 |
 | hpc-acceptance-scope-v2-20261022 | analysis | P1-acceptance | completed | 0 |
+| hpc-budget-selector-acceptance-20261027 | analysis | budget_selector_bounded_acceptance | completed | 0 |
+| hpc-budget-selector-binding-contract-20261027 | test | budget_selector_original_binding_contract | completed | 0 |
+| hpc-budget-selector-contract-20261027 | test | budget_selector_full_contracts | completed | 0 |
+| hpc-budget-selector-contract-v2-20261027 | test | budget_selector_full_contracts_numeric_guard | completed | 0 |
+| hpc-budget-selector-input-binding-20261027 | analysis | budget_selector_original_input_audit | completed | 0 |
+| hpc-budget-selector-prepare-20261027 | analysis | budget_selector_catalog_freeze | completed | 0 |
+| hpc-budget-selector-red-20261027 | test | budget_selector_contract_red | failed | 2 |
+| hpc-budget-selector-repaired-wire-20261027 | test | budget_selector_repaired_admission_wire_contract | failed | 1 |
+| hpc-budget-selector-repaired-wire-v2-20261027 | test | budget_selector_repaired_admission_wire_contract | failed | 1 |
+| hpc-budget-selector-repaired-wire-v3-20261027 | test | budget_selector_repaired_admission_wire_contract | completed | 0 |
+| hpc-budget-selector-unit-20261027 | test | budget_selector_unit_contract | failed | 1 |
 | hpc-c-resume-20261020 | simulation | ordered-c-resume | completed | 0 |
 | hpc-cache-gap-probe-20261022 | analysis | P1-cache-gap | completed | 0 |
 | hpc-causal-budget-amendment-20261024 | infrastructure | causal_approved_budget | completed | 0 |
@@ -24,6 +35,31 @@ Generated: 2026-10-25T14:02:23.582861+00:00
 | hpc-env-20261019 | infrastructure | environment | completed | 0 |
 | hpc-final-coverage-audit-20261022 | analysis | P1-final-coverage | completed | 0 |
 | hpc-final-coverage-audit-v2-20261022 | analysis | P1-final-coverage-v2 | completed | 0 |
+| hpc-information-audit-20261027 | analysis | information_independent_audit | completed | 0 |
+| hpc-information-audit-gate-red-20261027 | test | information_audit_gate_red | failed | 1 |
+| hpc-information-calibration-amendment-contract-20261027 | test | information_calibration_amendment_contract | completed | 0 |
+| hpc-information-calibration-amendment-red-20261027 | test | information_calibration_amendment_red | failed | 2 |
+| hpc-information-calibration-analysis-20261027 | analysis | information_calibration_analysis | completed | 0 |
+| hpc-information-calibration-audit-20261027 | analysis | information_calibration_independent_audit | failed | 1 |
+| hpc-information-calibration-audit-findings-20261027 | analysis | information_calibration_independent_audit_with_findings | completed | 0 |
+| hpc-information-calibration-bracket-diagnosis-20261027 | analysis | information_calibration_selector_bracket_diagnosis | completed | 0 |
+| hpc-information-calibration-budget-20261027 | simulation | information_calibration_budget | failed | 1 |
+| hpc-information-calibration-budget-audit-20261027 | analysis | information_calibration_budget_audit | completed | 0 |
+| hpc-information-calibration-budget-diagnosis-20261027 | analysis | information_calibration_audit_failure_diagnosis | completed | 0 |
+| hpc-information-calibration-contract-20261027 | test | information_calibration_contract | completed | 0 |
+| hpc-information-calibration-findings-contract-20261027 | test | information_calibration_audit_findings_regression | failed | 1 |
+| hpc-information-calibration-findings-contract-v2-20261027 | test | information_calibration_audit_findings_regression | completed | 0 |
+| hpc-information-calibration-findings-red-20261027 | test | information_calibration_audit_findings_contract | failed | 2 |
+| hpc-information-calibration-freeze-20261027 | infrastructure | information_calibration_freeze | completed | 0 |
+| hpc-information-calibration-runner-red-20261027 | test | information_calibration_runner_red | failed | 2 |
+| hpc-information-calibration-stat-red-20261027 | test | information_calibration_stat_red | failed | 2 |
+| hpc-information-contract-20261027 | test | information_identifiability_contract | failed | 1 |
+| hpc-information-contract-v2-20261027 | test | information_identifiability_contract | completed | 0 |
+| hpc-information-contract-v3-20261027 | test | information_identifiability_contract | completed | 0 |
+| hpc-information-cost-summary-20261027 | analysis | information_cost_probe_summary | completed | 0 |
+| hpc-information-independent-calibration-20261027 | simulation | information_independent_calibration | completed | 0 |
+| hpc-information-prepare-20261027 | infrastructure | information_probe_prepare | completed | 0 |
+| hpc-information-probe-20261027 | simulation | information_cost_fixture | completed | 0 |
 | hpc-live-llm-tables-20261022 | analysis | P1-live-llm-tables | completed | 0 |
 | hpc-native-adapter-contract-20261023 | test | native-task-adapter | completed | 0 |
 | hpc-native-adapter-trace-20261023 | simulation | native-adapter-trace | completed | 0 |

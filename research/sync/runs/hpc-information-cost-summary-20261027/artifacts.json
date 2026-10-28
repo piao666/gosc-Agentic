@@ -1,0 +1,15 @@
+{
+  "run_id": "hpc-information-cost-summary-20261027",
+  "files": [
+    {
+      "path": "outputs/cost_probe.md",
+      "size": 1343,
+      "sha256": "ae4d2d27029da1853b57a97d9f780282742a944e315d1f94cefb3c27012bb154"
+    },
+    {
+      "path": "outputs/summary.json",
+      "size": 7471,
+      "sha256": "1082b11f67b853ba8ead0fd55028acfa4f05b73e7869fc090f6c1694ad682ff6"
+    }
+  ]
+}

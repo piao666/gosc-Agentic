@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-information-calibration-audit-findings-20261027",
+  "status": "completed",
+  "started_at": "2026-10-27T08:31:49.701536+00:00",
+  "finished_at": "2026-10-27T08:32:20.202795+00:00",
+  "exit_code": 0,
+  "pid": 16864,
+  "elapsed_seconds": 30.501279,
+  "resource_usage": {
+    "child_max_rss_kib": 211172,
+    "child_cpu_user_seconds": 30.217407,
+    "child_cpu_system_seconds": 0.573763,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

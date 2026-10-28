@@ -1,0 +1,71 @@
+{
+  "scope": "Local source/document delivery hashes; run facts authoritative in immutable HPC manifests, outputs and receipts",
+  "base_commit": "253a14b19c4410a4606a40c98b8ba24791c7ee43",
+  "git_commit_or_push": false,
+  "files": [
+    {
+      "path": "scripts/repro_information_calibration.py",
+      "sha256": "8216ce1ca18472f6e1d545ba749c1bd5e9262d743adcb603f7517b0fd0b596c8"
+    },
+    {
+      "path": "scripts/repro_information_calibration_amendment.py",
+      "sha256": "ceb4e9ec56aa68992bd88f9b82cde33377fa0413e2c8381592cffe91b9779fe0"
+    },
+    {
+      "path": "scripts/analyze_information_calibration.py",
+      "sha256": "fb5392dcaa22f4b497e86c59ec938413b5b303b9936a4b47dacbb2d260978c96"
+    },
+    {
+      "path": "scripts/audit_information_calibration.py",
+      "sha256": "226247322711899543482e0b18ff5dfffdf8e1ea69d8727792ca3d90f4d2ac71"
+    },
+    {
+      "path": "scripts/audit_information_identifiability.py",
+      "sha256": "5ee2b0db7cdfe10c039cee0764f162f2d83e76e9c4e52a2656e607eaa1ac14e1"
+    },
+    {
+      "path": "scripts/diagnose_information_selection_budget.py",
+      "sha256": "05cb161e9853aa1ec29cc4055c56a047dd773a2913aef6ab51e90de892361eef"
+    },
+    {
+      "path": "tests_ext/test_information_calibration_runner.py",
+      "sha256": "9443733f3bf4521579d6aeeb313de6ab66a9af33597e565d5a6aaa024423591c"
+    },
+    {
+      "path": "tests_ext/test_information_calibration_amendment.py",
+      "sha256": "162979721bcd1a6cb9ef67696ad2a070940d37812dfb4bbe7f2b226fa8549d0f"
+    },
+    {
+      "path": "tests_ext/test_information_calibration_analysis.py",
+      "sha256": "53b961666ca1863bb59eaae5c0aad1e959452b94477d738e4dab03326745848d"
+    },
+    {
+      "path": "tests_ext/test_information_calibration_audit.py",
+      "sha256": "ebc49110fdb21dd1116f998b3ee7536421568ddcca591290ff3c51fffffdbbc4"
+    },
+    {
+      "path": "tests_ext/test_information_audit_findings.py",
+      "sha256": "0ac2fff7e483d473b452ca3e5e2ca539179674379e60cc2ca9b0526cabfcb8d4"
+    },
+    {
+      "path": "research/reports/information_calibration_results_2026-10-27.md",
+      "sha256": "aa7b8f1e6de34efc58148663ceb6a263e3bc1b7679d5131edf9702617f89b3da"
+    },
+    {
+      "path": "research/protocols/information_calibration_execution_2026-10-27.json",
+      "sha256": "2c58c0a6f9d359eaac7c7143c820e3c0efb6a8942099c49dd5e6dae9cd7c73f0"
+    },
+    {
+      "path": "research/protocols/selector_budget_feasibility_review_2026-10-27.md",
+      "sha256": "3bf21433085de7a02b2732eeca33a2d362cf754f383ba824e723ebd4e4176f8c"
+    },
+    {
+      "path": "research/logs/information-calibration-2026-10-27/actual_commands.json",
+      "sha256": "a547464a1e6baee3fdc8916f0af9c3d0fbeaba7b07473c708a008fdc4e8b78e1"
+    },
+    {
+      "path": "research/logs/information-calibration-2026-10-27/source_integrity_checks.json",
+      "sha256": "496b0304a1203c01bf9cfdcd6e221779fc23fdbf76f4a0ce609a0026c77920e4"
+    }
+  ]
+}

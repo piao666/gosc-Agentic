@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-information-calibration-budget-diagnosis-20261027",
+  "files": [
+    {
+      "path": "outputs/diagnosis.json",
+      "size": 5226,
+      "sha256": "d6aeb9596a4545e6f2b2baf9e620b58fc27d9cba9adf43e63a8f1e52026ba811"
+    }
+  ]
+}

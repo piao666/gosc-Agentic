@@ -1,0 +1,121 @@
+FFFFFFF                                                                  [100%]
+=================================== FAILURES ===================================
+_ test_independent_audit_rejects_selector_claim_detached_from_actual_decision __
+
+tmp_path = PosixPath('/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-information-audit-gate-red-20261027/pytest-tmp/test_independent_audit_rejects0')
+
+    def test_independent_audit_rejects_selector_claim_detached_from_actual_decision(tmp_path):
+        from scripts.audit_information_identifiability import audit
+        root = Path(__file__).resolve().parents[1]
+        plan = json.loads((root / 'research/protocols/information_identifiability_v1.json').read_text())
+        plan.update(probe_seed_candidates=[26000000], probe_max_missions=2)
+        rows = []
+        observed = None
+        for observe in (False, True):
+            s = simulation(observe=observe); result = s.run()
+            rows.append(dict(seed=26000000, case={'id':'fixture'}, observe=observe,
+                             id='fixture'+str(int(observe)), result=result))
+            if observe:
+                observed = s
+        events = observed.observation()
+        diagnostics = [catalog_diagnostic(d) for d in observed.decisions]
+        assert any(d['selected'][d['original_form']] for d in diagnostics)
+        data = dict(calibration_run=False, formal_test_run=False, training=False, efficacy_N=0,
+            rows=rows, frozen={'plan':plan, 'cases':[{'id':'fixture'}],
+                              'worlds':{'26000000':observed.input_world_sha256}})
+        result_file = tmp_path / 'results.json'
+        result_file.write_text(json.dumps(data))
+        (tmp_path / 'fixture1-observations.jsonl').write_text(''.join(json.dumps(e)+'\n' for e in events))
+        numeric_file = tmp_path / 'fixture1-selector.json'
+        numeric_file.write_text(json.dumps(dict(decisions=diagnostics,
+            same_catalog_mismatches=sum(not d['scale_price_same'] for d in diagnostics), replay_mismatches=0)))
+        assert audit(result_file)['status'] == 'passed'
+        # Internally consistent producer assertions, contradicting real selections.
+        for d in diagnostics:
+            d.update(selected={'scale':[], 'price':[]}, replay_matches_actual=True, scale_price_same=True)
+        numeric_file.write_text(json.dumps(dict(decisions=diagnostics, same_catalog_mismatches=0, replay_mismatches=0)))
+>       with pytest.raises(ValueError, match='[Ss]elector|[Rr]eplay|[Dd]ecision'):
+E       Failed: DID NOT RAISE ValueError
+
+tests_ext/test_information_identifiability.py:284: Failed
+_________ test_all_archived_reserved_range_interiors_are_protected[0] __________
+
+seed = 0
+
+    @pytest.mark.parametrize('seed', [0, 1001, 3001, 4001, 20000001, 24000001])
+    def test_all_archived_reserved_range_interiors_are_protected(seed):
+        from scripts import repro_information_identifiability as runner
+>       assert runner.is_reserved_seed(seed)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'scripts.repro_information_identifiability' has no attribute 'is_reserved_seed'
+
+tests_ext/test_information_identifiability.py:291: AttributeError
+________ test_all_archived_reserved_range_interiors_are_protected[1001] ________
+
+seed = 1001
+
+    @pytest.mark.parametrize('seed', [0, 1001, 3001, 4001, 20000001, 24000001])
+    def test_all_archived_reserved_range_interiors_are_protected(seed):
+        from scripts import repro_information_identifiability as runner
+>       assert runner.is_reserved_seed(seed)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'scripts.repro_information_identifiability' has no attribute 'is_reserved_seed'
+
+tests_ext/test_information_identifiability.py:291: AttributeError
+________ test_all_archived_reserved_range_interiors_are_protected[3001] ________
+
+seed = 3001
+
+    @pytest.mark.parametrize('seed', [0, 1001, 3001, 4001, 20000001, 24000001])
+    def test_all_archived_reserved_range_interiors_are_protected(seed):
+        from scripts import repro_information_identifiability as runner
+>       assert runner.is_reserved_seed(seed)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'scripts.repro_information_identifiability' has no attribute 'is_reserved_seed'
+
+tests_ext/test_information_identifiability.py:291: AttributeError
+________ test_all_archived_reserved_range_interiors_are_protected[4001] ________
+
+seed = 4001
+
+    @pytest.mark.parametrize('seed', [0, 1001, 3001, 4001, 20000001, 24000001])
+    def test_all_archived_reserved_range_interiors_are_protected(seed):
+        from scripts import repro_information_identifiability as runner
+>       assert runner.is_reserved_seed(seed)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'scripts.repro_information_identifiability' has no attribute 'is_reserved_seed'
+
+tests_ext/test_information_identifiability.py:291: AttributeError
+______ test_all_archived_reserved_range_interiors_are_protected[20000001] ______
+
+seed = 20000001
+
+    @pytest.mark.parametrize('seed', [0, 1001, 3001, 4001, 20000001, 24000001])
+    def test_all_archived_reserved_range_interiors_are_protected(seed):
+        from scripts import repro_information_identifiability as runner
+>       assert runner.is_reserved_seed(seed)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'scripts.repro_information_identifiability' has no attribute 'is_reserved_seed'
+
+tests_ext/test_information_identifiability.py:291: AttributeError
+______ test_all_archived_reserved_range_interiors_are_protected[24000001] ______
+
+seed = 24000001
+
+    @pytest.mark.parametrize('seed', [0, 1001, 3001, 4001, 20000001, 24000001])
+    def test_all_archived_reserved_range_interiors_are_protected(seed):
+        from scripts import repro_information_identifiability as runner
+>       assert runner.is_reserved_seed(seed)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'scripts.repro_information_identifiability' has no attribute 'is_reserved_seed'
+
+tests_ext/test_information_identifiability.py:291: AttributeError
+=========================== short test summary info ============================
+FAILED tests_ext/test_information_identifiability.py::test_independent_audit_rejects_selector_claim_detached_from_actual_decision
+FAILED tests_ext/test_information_identifiability.py::test_all_archived_reserved_range_interiors_are_protected[0]
+FAILED tests_ext/test_information_identifiability.py::test_all_archived_reserved_range_interiors_are_protected[1001]
+FAILED tests_ext/test_information_identifiability.py::test_all_archived_reserved_range_interiors_are_protected[3001]
+FAILED tests_ext/test_information_identifiability.py::test_all_archived_reserved_range_interiors_are_protected[4001]
+FAILED tests_ext/test_information_identifiability.py::test_all_archived_reserved_range_interiors_are_protected[20000001]
+FAILED tests_ext/test_information_identifiability.py::test_all_archived_reserved_range_interiors_are_protected[24000001]
+7 failed, 52 deselected in 0.44s

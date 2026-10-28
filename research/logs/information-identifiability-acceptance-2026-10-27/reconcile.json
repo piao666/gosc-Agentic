@@ -1,0 +1,10 @@
+{
+  "old": "47389eba9c6e2838139df3aa47863ab88634e97a",
+  "new": "253a14b19c4410a4606a40c98b8ba24791c7ee43",
+  "previous_sync": "20261025T140426Z",
+  "verified_previous_files": 485,
+  "mismatches": [],
+  "working_files_modified": false,
+  "backup": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/git-checkpoints/20261027-before-information-acceptance",
+  "action": "Strict-descendant ref and index update only; no working-file checkout/reset; next SHA sync supplies source"
+}

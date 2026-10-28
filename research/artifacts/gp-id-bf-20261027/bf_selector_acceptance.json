@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "stages": [
+    {
+      "stage": "prepare",
+      "status": "completed",
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_budget_feasible_selector.py",
+        "--mode",
+        "prepare",
+        "--contracts-run",
+        "research/sync/runs/hpc-budget-selector-contract-v2-20261027"
+      ],
+      "timeout_seconds": 90,
+      "exit_code": 0,
+      "elapsed_seconds": 13.54820654541254
+    },
+    {
+      "stage": "binding",
+      "status": "completed",
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/audit_budget_selector_input_binding.py",
+        "--frozen",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/prepare/frozen.json"
+      ],
+      "timeout_seconds": 120,
+      "exit_code": 0,
+      "elapsed_seconds": 12.047829024493694
+    },
+    {
+      "stage": "replay",
+      "status": "completed",
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_budget_feasible_selector.py",
+        "--mode",
+        "replay",
+        "--frozen",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/prepare/frozen.json"
+      ],
+      "timeout_seconds": 180,
+      "exit_code": 0,
+      "elapsed_seconds": 0.5676351338624954
+    },
+    {
+      "stage": "fixtures",
+      "status": "completed",
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_budget_feasible_selector.py",
+        "--mode",
+        "fixtures",
+        "--frozen",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/prepare/frozen.json"
+      ],
+      "timeout_seconds": 120,
+      "exit_code": 0,
+      "elapsed_seconds": 10.743336789309978
+    },
+    {
+      "stage": "audit",
+      "status": "completed",
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/audit_budget_feasible_selector.py",
+        "--frozen",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/prepare/frozen.json",
+        "--replay",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/replay/replay.json",
+        "--fixtures",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/fixtures/fixtures.json"
+      ],
+      "timeout_seconds": 120,
+      "exit_code": 0,
+      "elapsed_seconds": 0.566913865506649
+    },
+    {
+      "stage": "summary",
+      "status": "completed",
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/summarize_budget_selector_acceptance.py",
+        "--frozen",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/prepare/frozen.json",
+        "--replay",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/replay/replay.json",
+        "--fixtures",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/fixtures/fixtures.json",
+        "--audit",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/audit/audit.json",
+        "--binding",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/binding/binding.json"
+      ],
+      "timeout_seconds": 60,
+      "exit_code": 0,
+      "elapsed_seconds": 0.11657135933637619
+    }
+  ],
+  "efficacy_N": 0,
+  "frozen_sha256": "2e89da0bda42cb05d51d12a39b249014b6b15cb47f836232d0fbd8a5c5fa9c38",
+  "scientific_status": "Original No-Go retained",
+  "formal_test": false,
+  "training": false
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-information-calibration-budget-audit-20261027",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 35255,
+      "sha256": "c46f57aa249274d18e3ed5704be786fc830a07979dc7bd04343ef30408a98b7f"
+    }
+  ]
+}

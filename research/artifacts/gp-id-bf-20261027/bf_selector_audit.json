@@ -1,0 +1,900 @@
+{
+  "status": "passed",
+  "scope": "Engineering acceptance only; efficacy N0; original scientific No-Go unchanged",
+  "historical_repaired": 7,
+  "feasible_compatible": 192,
+  "fixture_rows": 52,
+  "details": [
+    {
+      "seed": 27000000,
+      "case": "public-fixed",
+      "decisions": 78,
+      "submissions": 13,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 480,
+            "served_uses": 480,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 3080,
+            "served_uses": 3080,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.06500000000000004,
+          "task": 0.17800000000000013,
+          "valuation": 0.07800000000000006,
+          "task_ready": 0.013000000000000005
+        },
+        "decision_count": 78
+      }
+    },
+    {
+      "seed": 27000000,
+      "case": "native-age",
+      "decisions": 89,
+      "submissions": 8,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1292,
+            "served_uses": 1292,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.04000000000000003,
+          "task": 0.09400000000000007,
+          "valuation": 0.08900000000000007,
+          "task_ready": 0.008
+        },
+        "decision_count": 89
+      }
+    },
+    {
+      "seed": 27000000,
+      "case": "native-price",
+      "decisions": 89,
+      "submissions": 8,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1292,
+            "served_uses": 1292,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.04000000000000003,
+          "task": 0.09400000000000007,
+          "valuation": 0.08900000000000007,
+          "task_ready": 0.008
+        },
+        "decision_count": 89
+      }
+    },
+    {
+      "seed": 27000000,
+      "case": "paid-ignore",
+      "decisions": 78,
+      "submissions": 13,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 480,
+            "served_uses": 480,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 3080,
+            "served_uses": 3080,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 896,
+            "served_uses": 896,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 1904,
+            "served_uses": 1904,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.17800000000000013,
+          "pose_ready": 0.1420000000000001,
+          "summary_snapshot": 0.09200000000000007,
+          "valuation": 0.07800000000000006,
+          "summary_ack": 0.11200000000000009,
+          "task_ready": 0.013000000000000005,
+          "task_ack": 0.06500000000000004
+        },
+        "decision_count": 78
+      }
+    },
+    {
+      "seed": 27000000,
+      "case": "paid-native-age",
+      "decisions": 89,
+      "submissions": 8,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1292,
+            "served_uses": 1292,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 856,
+            "served_uses": 856,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 1568,
+            "served_uses": 1568,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.09400000000000007,
+          "pose_ready": 0.1400000000000001,
+          "summary_snapshot": 0.07500000000000005,
+          "valuation": 0.08900000000000007,
+          "summary_ack": 0.09700000000000007,
+          "task_ready": 0.008,
+          "task_ack": 0.04000000000000003
+        },
+        "decision_count": 89
+      }
+    },
+    {
+      "seed": 27000000,
+      "case": "paid-age",
+      "decisions": 89,
+      "submissions": 9,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1292,
+            "served_uses": 1292,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 856,
+            "served_uses": 856,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 1568,
+            "served_uses": 1568,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.09400000000000007,
+          "pose_ready": 0.1400000000000001,
+          "summary_snapshot": 0.07500000000000005,
+          "valuation": 0.08900000000000007,
+          "summary_ack": 0.09700000000000007,
+          "task_ready": 0.009000000000000001,
+          "task_ack": 0.04000000000000003
+        },
+        "decision_count": 89
+      }
+    },
+    {
+      "seed": 27000000,
+      "case": "paid-price",
+      "decisions": 89,
+      "submissions": 9,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1292,
+            "served_uses": 1292,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 856,
+            "served_uses": 856,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 1568,
+            "served_uses": 1568,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.09400000000000007,
+          "pose_ready": 0.1400000000000001,
+          "summary_snapshot": 0.07500000000000005,
+          "valuation": 0.08900000000000007,
+          "summary_ack": 0.09700000000000007,
+          "task_ready": 0.009000000000000001,
+          "task_ack": 0.04000000000000003
+        },
+        "decision_count": 89
+      }
+    },
+    {
+      "seed": 27000000,
+      "case": "paid-pose",
+      "decisions": 75,
+      "submissions": 14,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 520,
+            "served_uses": 520,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 3668,
+            "served_uses": 3668,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 888,
+            "served_uses": 888,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 2128,
+            "served_uses": 2128,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.19600000000000015,
+          "pose_ready": 0.1400000000000001,
+          "summary_snapshot": 0.10400000000000008,
+          "valuation": 0.07500000000000005,
+          "summary_ack": 0.11200000000000009,
+          "task_ready": 0.014000000000000005,
+          "task_ack": 0.07100000000000005
+        },
+        "decision_count": 75
+      }
+    },
+    {
+      "seed": 27000000,
+      "case": "paid-pose-native-age",
+      "decisions": 89,
+      "submissions": 8,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1292,
+            "served_uses": 1292,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 856,
+            "served_uses": 856,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 1568,
+            "served_uses": 1568,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.09400000000000007,
+          "pose_ready": 0.1400000000000001,
+          "summary_snapshot": 0.07500000000000005,
+          "valuation": 0.08900000000000007,
+          "summary_ack": 0.09700000000000007,
+          "task_ready": 0.008,
+          "task_ack": 0.04000000000000003
+        },
+        "decision_count": 89
+      }
+    },
+    {
+      "seed": 27000000,
+      "case": "paid-pose-age",
+      "decisions": 89,
+      "submissions": 9,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1292,
+            "served_uses": 1292,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 856,
+            "served_uses": 856,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 1568,
+            "served_uses": 1568,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.09400000000000007,
+          "pose_ready": 0.1400000000000001,
+          "summary_snapshot": 0.07500000000000005,
+          "valuation": 0.08900000000000007,
+          "summary_ack": 0.09700000000000007,
+          "task_ready": 0.009000000000000001,
+          "task_ack": 0.04000000000000003
+        },
+        "decision_count": 89
+      }
+    },
+    {
+      "seed": 27000000,
+      "case": "bits",
+      "decisions": 19,
+      "submissions": 25,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 880,
+            "served_uses": 880,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 5040,
+            "served_uses": 5040,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.11400000000000009,
+          "task": 0.2480000000000002,
+          "valuation": 0.01900000000000001,
+          "task_ready": 0.025000000000000015
+        },
+        "decision_count": 19
+      }
+    },
+    {
+      "seed": 27000000,
+      "case": "aoi",
+      "decisions": 18,
+      "submissions": 25,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 880,
+            "served_uses": 880,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 4896,
+            "served_uses": 4896,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.11500000000000009,
+          "task": 0.2480000000000002,
+          "valuation": 0.01800000000000001,
+          "task_ready": 0.025000000000000015
+        },
+        "decision_count": 18
+      }
+    },
+    {
+      "seed": 27000000,
+      "case": "periodic_k8_eps0",
+      "decisions": 66,
+      "submissions": 12,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 240,
+            "served_uses": 240,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1368,
+            "served_uses": 1368,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.035000000000000024,
+          "task": 0.10500000000000008,
+          "valuation": 0.06600000000000004,
+          "task_ready": 0.012000000000000004
+        },
+        "decision_count": 66
+      }
+    },
+    {
+      "seed": 27000001,
+      "case": "public-fixed",
+      "decisions": 76,
+      "submissions": 12,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1736,
+            "served_uses": 1736,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.04000000000000003,
+          "task": 0.11200000000000009,
+          "valuation": 0.07600000000000005,
+          "task_ready": 0.012000000000000004
+        },
+        "decision_count": 76
+      }
+    },
+    {
+      "seed": 27000001,
+      "case": "native-age",
+      "decisions": 96,
+      "submissions": 10,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1520,
+            "served_uses": 1520,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.04000000000000003,
+          "task": 0.11200000000000009,
+          "valuation": 0.09600000000000007,
+          "task_ready": 0.010000000000000002
+        },
+        "decision_count": 96
+      }
+    },
+    {
+      "seed": 27000001,
+      "case": "native-price",
+      "decisions": 96,
+      "submissions": 10,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1520,
+            "served_uses": 1520,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.04000000000000003,
+          "task": 0.11200000000000009,
+          "valuation": 0.09600000000000007,
+          "task_ready": 0.010000000000000002
+        },
+        "decision_count": 96
+      }
+    },
+    {
+      "seed": 27000001,
+      "case": "paid-ignore",
+      "decisions": 76,
+      "submissions": 12,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1736,
+            "served_uses": 1736,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 824,
+            "served_uses": 824,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 1680,
+            "served_uses": 1680,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.11200000000000009,
+          "pose_ready": 0.1390000000000001,
+          "summary_snapshot": 0.08600000000000006,
+          "valuation": 0.07600000000000005,
+          "summary_ack": 0.09400000000000007,
+          "task_ready": 0.012000000000000004,
+          "task_ack": 0.04000000000000003
+        },
+        "decision_count": 76
+      }
+    },
+    {
+      "seed": 27000001,
+      "case": "paid-native-age",
+      "decisions": 96,
+      "submissions": 10,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1520,
+            "served_uses": 1520,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 848,
+            "served_uses": 848,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 2016,
+            "served_uses": 2016,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.11200000000000009,
+          "pose_ready": 0.1390000000000001,
+          "summary_snapshot": 0.10700000000000008,
+          "valuation": 0.09600000000000007,
+          "summary_ack": 0.10300000000000008,
+          "task_ready": 0.010000000000000002,
+          "task_ack": 0.04000000000000003
+        },
+        "decision_count": 96
+      }
+    },
+    {
+      "seed": 27000001,
+      "case": "paid-age",
+      "decisions": 95,
+      "submissions": 11,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1520,
+            "served_uses": 1520,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 848,
+            "served_uses": 848,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 2016,
+            "served_uses": 2016,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.11200000000000009,
+          "pose_ready": 0.1390000000000001,
+          "summary_snapshot": 0.10700000000000008,
+          "valuation": 0.09500000000000007,
+          "summary_ack": 0.10300000000000008,
+          "task_ready": 0.011000000000000003,
+          "task_ack": 0.04000000000000003
+        },
+        "decision_count": 95
+      }
+    },
+    {
+      "seed": 27000001,
+      "case": "paid-price",
+      "decisions": 95,
+      "submissions": 11,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1520,
+            "served_uses": 1520,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 848,
+            "served_uses": 848,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 2016,
+            "served_uses": 2016,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.11200000000000009,
+          "pose_ready": 0.1390000000000001,
+          "summary_snapshot": 0.10700000000000008,
+          "valuation": 0.09500000000000007,
+          "summary_ack": 0.10300000000000008,
+          "task_ready": 0.011000000000000003,
+          "task_ack": 0.04000000000000003
+        },
+        "decision_count": 95
+      }
+    },
+    {
+      "seed": 27000001,
+      "case": "paid-pose",
+      "decisions": 71,
+      "submissions": 11,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 240,
+            "served_uses": 240,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1508,
+            "served_uses": 1508,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 832,
+            "served_uses": 832,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 1680,
+            "served_uses": 1680,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.09500000000000007,
+          "pose_ready": 0.1390000000000001,
+          "summary_snapshot": 0.08600000000000006,
+          "valuation": 0.07100000000000005,
+          "summary_ack": 0.09400000000000007,
+          "task_ready": 0.011000000000000003,
+          "task_ack": 0.03400000000000002
+        },
+        "decision_count": 71
+      }
+    },
+    {
+      "seed": 27000001,
+      "case": "paid-pose-native-age",
+      "decisions": 103,
+      "submissions": 9,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 240,
+            "served_uses": 240,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1292,
+            "served_uses": 1292,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 824,
+            "served_uses": 824,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 1680,
+            "served_uses": 1680,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.09400000000000007,
+          "pose_ready": 0.1390000000000001,
+          "summary_snapshot": 0.08600000000000006,
+          "valuation": 0.10300000000000008,
+          "summary_ack": 0.09400000000000007,
+          "task_ready": 0.009000000000000001,
+          "task_ack": 0.03400000000000002
+        },
+        "decision_count": 103
+      }
+    },
+    {
+      "seed": 27000001,
+      "case": "paid-pose-age",
+      "decisions": 95,
+      "submissions": 11,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 280,
+            "served_uses": 280,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1520,
+            "served_uses": 1520,
+            "unserved_uses": 0
+          },
+          "summary_ack": {
+            "offered_uses": 848,
+            "served_uses": 848,
+            "unserved_uses": 0
+          },
+          "summary_snapshot": {
+            "offered_uses": 2016,
+            "served_uses": 2016,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task": 0.11200000000000009,
+          "pose_ready": 0.1390000000000001,
+          "summary_snapshot": 0.10700000000000008,
+          "valuation": 0.09500000000000007,
+          "summary_ack": 0.10300000000000008,
+          "task_ready": 0.011000000000000003,
+          "task_ack": 0.04000000000000003
+        },
+        "decision_count": 95
+      }
+    },
+    {
+      "seed": 27000001,
+      "case": "bits",
+      "decisions": 18,
+      "submissions": 24,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 720,
+            "served_uses": 720,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 4544,
+            "served_uses": 4544,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.10000000000000007,
+          "task": 0.2420000000000002,
+          "valuation": 0.01800000000000001,
+          "task_ready": 0.024000000000000014
+        },
+        "decision_count": 18
+      }
+    },
+    {
+      "seed": 27000001,
+      "case": "aoi",
+      "decisions": 17,
+      "submissions": 23,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 680,
+            "served_uses": 680,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 4612,
+            "served_uses": 4612,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.09600000000000007,
+          "task": 0.23600000000000018,
+          "valuation": 0.017000000000000008,
+          "task_ready": 0.023000000000000013
+        },
+        "decision_count": 17
+      }
+    },
+    {
+      "seed": 27000001,
+      "case": "periodic_k8_eps0",
+      "decisions": 67,
+      "submissions": 12,
+      "ledger": {
+        "typed_DL": {
+          "task_ack": {
+            "offered_uses": 240,
+            "served_uses": 240,
+            "unserved_uses": 0
+          },
+          "task": {
+            "offered_uses": 1292,
+            "served_uses": 1292,
+            "unserved_uses": 0
+          }
+        },
+        "CPU_by_kind": {
+          "task_ack": 0.03300000000000002,
+          "task": 0.09500000000000007,
+          "valuation": 0.06700000000000005,
+          "task_ready": 0.012000000000000004
+        },
+        "decision_count": 67
+      }
+    }
+  ],
+  "inputs": {
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/prepare/frozen.json": "2e89da0bda42cb05d51d12a39b249014b6b15cb47f836232d0fbd8a5c5fa9c38",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/replay/replay.json": "f80322e9ef261c3430153b9b818be40ba5556f3d291d52b51e1bb7e9d6384dbe",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/fixtures/fixtures.json": "a815350068868ba07cf14f593cbe8ed1e59b918af38e3f6c01e1947db65aa7c6"
+  },
+  "formal_test": false,
+  "training": false
+}

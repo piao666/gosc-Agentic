@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_information_calibration.py", line 452, in <module>
+    main()
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_information_calibration.py", line 444, in main
+    budget(frozen, output, args.frozen)
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/repro_information_calibration.py", line 375, in budget
+    raise RuntimeError('Budget gate failed; no calibration, no automatic redesign')
+RuntimeError: Budget gate failed; no calibration, no automatic redesign

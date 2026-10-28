@@ -1,0 +1,58 @@
+{
+  "status": "engineering_acceptance_passed",
+  "scope": "Fixed historical catalogs and short engineering fixtures only",
+  "historical_repaired": 7,
+  "feasible_compatible": 192,
+  "fixture_rows": 52,
+  "catalog_first_call_timing": {
+    "legacy_feasible": {
+      "catalogs": 192,
+      "first_call_process_seconds": 0.009639161999999923,
+      "first_call_wall_seconds": 0.00960996001958847,
+      "max_expansions": 0,
+      "max_bisection_steps": 0
+    },
+    "budget_repair": {
+      "catalogs": 7,
+      "first_call_process_seconds": 0.002662345000000038,
+      "first_call_wall_seconds": 0.0026587918400764465,
+      "max_expansions": 1,
+      "max_bisection_steps": 40
+    }
+  },
+  "fixture_timing": {
+    "False": {
+      "rows": 26,
+      "process_seconds": 4.608114981000002,
+      "end_to_end_wall_seconds": 4.6127952337265015,
+      "selection_process_seconds": 2.926047227999989,
+      "budget_repairs": 0
+    },
+    "True": {
+      "rows": 26,
+      "process_seconds": 5.550275873999999,
+      "end_to_end_wall_seconds": 5.599583722651005,
+      "selection_process_seconds": 3.10355950399997,
+      "budget_repairs": 0
+    }
+  },
+  "output_bytes": {
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/prepare": 167748,
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/replay": 2993886,
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/fixtures": 3524093,
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/audit": 25819,
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/binding": 1563
+  },
+  "input_sha256": {
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/prepare/frozen.json": "2e89da0bda42cb05d51d12a39b249014b6b15cb47f836232d0fbd8a5c5fa9c38",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/replay/replay.json": "f80322e9ef261c3430153b9b818be40ba5556f3d291d52b51e1bb7e9d6384dbe",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/fixtures/fixtures.json": "a815350068868ba07cf14f593cbe8ed1e59b918af38e3f6c01e1947db65aa7c6",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/audit/audit.json": "37ba51bfdd3512c9b68b1b5d70f1ebf8af554828a402787aacaca3c90bc2c30e",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-budget-selector-acceptance-20261027/outputs/binding/binding.json": "d9b6cd07b413e5aa64966ea536ddaa7b09d31484cbb4d7f138b996e6aa9f534e"
+  },
+  "efficacy_N": 0,
+  "formal_test": false,
+  "training": false,
+  "scientific_status": "Original No-Go retained",
+  "timing_scope": "Real process/wall, not hardware-calibrated logical CPU. Catalog totals exclude repeated-call and diagnostic work; run elapsed includes it. No legacy/new speedup claim."
+}

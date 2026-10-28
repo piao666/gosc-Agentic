@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-information-prepare-20261027",
+  "status": "completed",
+  "started_at": "2026-10-27T05:35:30.773013+00:00",
+  "finished_at": "2026-10-27T05:35:32.697532+00:00",
+  "exit_code": 0,
+  "pid": 52992,
+  "elapsed_seconds": 1.924539,
+  "resource_usage": {
+    "child_max_rss_kib": 150368,
+    "child_cpu_user_seconds": 1.8964189999999999,
+    "child_cpu_system_seconds": 0.318986,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

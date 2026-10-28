@@ -2,6 +2,12 @@
 
 # RQ v2执行状态 — 2026-10-22
 
+> 最新2026-10-27独立校准：[结果/审计发现](../reports/information_calibration_results_2026-10-27.md)已完成13×12=156任务；5主要比较均未过联合门槛，科学No-Go。时间戳gain13.5但95%CI[-1.17,30.75]；原paid-pose较periodic慢33.83slots、通信/CPU比2.142/3.664，不换age为主方法。次要同native时间戳下位置gain0，同paid时间戳下位置gain1、CI[0,2.67]，均未支持gain3。bits/AoI发现7次选包越界，完整诊断统计/账本复算一致但工程验收仍阻断；正式test/训练未执行。不能由N12/单工作点推信息无价值或阈值解释了全部收益；下段N0/待审为此前快照。
+
+> 当前执行更新2026-10-27：[GP-ID-v1验收](../reports/information_identifiability_acceptance_2026-10-27.md)完成343测试、52短成本fixture及独立审计；native/paid时间戳、位置与阈值对照及typed观测已在支持范围验收。尚未建立独立任务净收益，不能把短探测称RQ1/RQ2成立；新校准设计/总预算仍待审，正式test/训练No-Go。下面10月26日HPC不可达是历史快照。
+
+> 当前操作化更新2026-10-26：[GP-ID-v1识别协议](../protocols/information_identifiability_v1.md)与[实现报告](../reports/information_identifiability_implementation_2026-10-26.md)将问题细分为native调价、购买服务、付费时间戳和位置内容。代码与合同已写但HPC不可达、全部新增运行未执行；没有建立RQ1/RQ2或新LLM收益。10月25日GP-v2已完成付费闭环校准和成本前沿审计但No-Go，下面旧时点“paid未运行”仅为历史快照，不是当前状态。研究主问题/任务不变，不事后更换age主方法；正式test/扩N/训练仍No-Go。
+
 > 最新2026-10-23：[同格式periodic/CRN独立校准](../reports/periodic_crn_calibration_2026-10-23.md)完成156HPC测试与12world×12候选。paid-pose在两个主要比较均无平均任务改善且成本比>1.05，规划N超200上限，当前No-Go；正式test与训练未运行。这是小校准的停止判决，不证明状态普遍无价值。下面“尚未运行paid任务”的段落为此前快照。
 
 > 2026-10-23验收更新：pose cache/本地EVID时间ledger/双路径估值与RTT lane合同已实现；HPC129测试及交付哈希审计通过，见[报告](../reports/minimal_interface_delivery_2026-10-23.md)。仍无paid任务效果证据，不能把接口通过当作RQ1/RQ2成立。新world/N/成本时钟/统计预算尚待冻结。

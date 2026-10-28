@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/audit_information_calibration.py", line 243, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/audit_information_calibration.py", line 233, in main
+    data,report=verify_files(a.results,a.frozen)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/audit_information_calibration.py", line 125, in verify_files
+    count=decision_audit(observation,result)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/audit_information_identifiability.py", line 138, in decision_audit
+    check(sum(x['symbols'] for x in d['selected']) <= d['budget'], 'Selected budget')
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/scripts/audit_information_identifiability.py", line 18, in check
+    raise ValueError(reason)
+ValueError: Selected budget

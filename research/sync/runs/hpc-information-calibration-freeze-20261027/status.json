@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-information-calibration-freeze-20261027",
+  "status": "completed",
+  "started_at": "2026-10-27T06:25:49.313252+00:00",
+  "finished_at": "2026-10-27T06:25:51.262437+00:00",
+  "exit_code": 0,
+  "pid": 59561,
+  "elapsed_seconds": 1.949206,
+  "resource_usage": {
+    "child_max_rss_kib": 151204,
+    "child_cpu_user_seconds": 1.916846,
+    "child_cpu_system_seconds": 0.382914,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

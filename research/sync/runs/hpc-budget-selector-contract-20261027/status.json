@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-budget-selector-contract-20261027",
+  "status": "completed",
+  "started_at": "2026-10-27T09:03:42.212021+00:00",
+  "finished_at": "2026-10-27T09:04:32.229099+00:00",
+  "exit_code": 0,
+  "pid": 19360,
+  "elapsed_seconds": 50.0171,
+  "resource_usage": {
+    "child_max_rss_kib": 85172,
+    "child_cpu_user_seconds": 46.982197,
+    "child_cpu_system_seconds": 1.000891,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

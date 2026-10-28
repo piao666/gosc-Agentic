@@ -1,0 +1,45 @@
+{
+  "run_id": "hpc-budget-selector-repaired-wire-v3-20261027",
+  "files": [
+    {
+      "path": "outputs/derived-0.jsonl.gz",
+      "size": 2867,
+      "sha256": "9a96132daefcc46b13edfcea7b9a2ba05073dd88dd9d5c355fed141b8898b744"
+    },
+    {
+      "path": "outputs/derived-1.jsonl.gz",
+      "size": 2728,
+      "sha256": "760884fe9e78f465044ea8beb40f6abb4268baddcb85a2e8d663d090ad6c1056"
+    },
+    {
+      "path": "outputs/derived-2.jsonl.gz",
+      "size": 2745,
+      "sha256": "cadc75f99f4e14329dcf917d8423522c7ef7408090c095c7037e71d26ef8ef5a"
+    },
+    {
+      "path": "outputs/derived-3.jsonl.gz",
+      "size": 2726,
+      "sha256": "4b5fbba8c086461811673d84ad007d18e9e18224690e208a7773bed6bdd1e731"
+    },
+    {
+      "path": "outputs/derived-4.jsonl.gz",
+      "size": 2733,
+      "sha256": "4414e6393c286441cdbb6230196e1749daee7bb6be0c301f4b1105fa4f6abfa5"
+    },
+    {
+      "path": "outputs/derived-5.jsonl.gz",
+      "size": 2765,
+      "sha256": "ac665592256951e96988fc2714f48842eb8e3aa58f5355a5d26cd714daad9463"
+    },
+    {
+      "path": "outputs/derived-6.jsonl.gz",
+      "size": 2732,
+      "sha256": "24a33e33c0c47f4de00f36b151b995d461409a2a12df2176f05fdf9b054ea0c6"
+    },
+    {
+      "path": "outputs/wire_contracts.json",
+      "size": 14407,
+      "sha256": "b9d0b45c4b29814623fcf50412d92e8261e77a24f739e54dc9c0267c9c309699"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-information-calibration-audit-findings-20261027",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 213423,
+      "sha256": "35d86d84594328282fbe6d13f697319f7d196b7a6e57278966b94cd08f81809e"
+    }
+  ]
+}

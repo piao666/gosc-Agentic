@@ -1,0 +1,21 @@
+{
+  "scope": "Git/file management only, no project tests or scientific computation",
+  "base_commit": "253a14b19c4410a4606a40c98b8ba24791c7ee43",
+  "remote_branch_verified": "research/progress-audit-2026-10-19",
+  "remote_head_at_fetch": "253a14b19c4410a4606a40c98b8ba24791c7ee43",
+  "staged_snapshot_file_count": 441,
+  "staged_snapshot_bytes": 809098412,
+  "evidence_blobs_checked": 332,
+  "evidence_byte_mismatches": 0,
+  "high_confidence_credential_findings": 0,
+  "protected_upstream_changes": 0,
+  "deletions": 0,
+  "raw_outputs_ignored": true,
+  "source_doc_whitespace_command": "git -c core.whitespace=cr-at-eol diff --cached --check -- . :(exclude)research/sync/runs/** :(exclude)research/sync/receipts/** :(exclude)research/logs/**",
+  "source_doc_whitespace_exit_code": 0,
+  "default_scoped_whitespace_note": "Default check reported CR bytes in new provenance.json as trailing whitespace; CR-at-EOL-aware check passes. All-run immutable patch whitespace not rechecked or rewritten.",
+  "summary_links_resolve": true,
+  "archive_count": 36,
+  "new_scientific_runs": false,
+  "self_reference_note": "Audit and this management record are added after the recorded staged snapshot; no self hash backfill"
+}

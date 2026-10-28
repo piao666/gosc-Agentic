@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-information-calibration-runner-red-20261027",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 1086,
+      "sha256": "775ba6e16f25f0c23700e7a67909e9b0b52b79687d8af315101a56bc8f638fa6"
+    }
+  ]
+}

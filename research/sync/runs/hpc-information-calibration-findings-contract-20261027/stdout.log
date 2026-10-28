@@ -1,0 +1,77 @@
+........................................................................ [ 18%]
+..........................................F............................. [ 36%]
+........................................................................ [ 55%]
+........................................................................ [ 73%]
+........................................................................ [ 92%]
+...............................                                          [100%]
+=================================== FAILURES ===================================
+________ test_collection_preserves_actual_excess_and_cannot_mark_passed ________
+
+    def test_collection_preserves_actual_excess_and_cannot_mark_passed():
+        findings = []
+>       assert decision_audit([overbudget_decision()], {'selection_calls': 1},
+                              selection_budget_findings=findings) == 1
+
+tests_ext/test_information_audit_findings.py:26: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+events = [{'event': 'decision', 't': 2, 'sender': 0, 'arm': 'public-fixed', ...}]
+result = {'selection_calls': 1}
+selection_budget_findings = [{'t': 2, 'sender': 0, 'selected_symbols': 152, 'budget': 100, ...}]
+
+    def decision_audit(events, result, *, selection_budget_findings=None):
+        decisions = [e for e in events if e['event'] == 'decision']
+        check(len(decisions) == result['selection_calls'], 'Decision count')
+        for d in decisions:
+            native = {x['peer']:x for x in d['timestamps']}
+            eligible = {}
+            for cached in d['summary_cache']:
+                peer = cached['peer']; stamp = native.get(peer); key = str(peer)
+                valid = (peer != d['sender'] and stamp is not None and key in d['native_positions']
+                         and stamp['native_pos'] == d['native_positions'][key]
+                         and cached['created'] < cached['received'] <= d['t'] <= cached['valid_until']
+                         and cached['created'] > stamp['native_created'])
+                check(cached['eligible'] == valid and bool(cached['reasons']) == (not valid), 'Cache eligibility audit')
+                if valid:
+                    eligible[peer] = cached
+            ages = []
+            for stamp in d['timestamps']:
+                check(stamp['native_created'] <= d['t'], 'Future native state')
+                if stamp['timestamp_source'] == 'summary':
+                    check(d['age_source'] == 'paid', 'Paid timestamp used by native control')
+                    check(stamp['selected_created'] < stamp['received'] <= d['t'] <= stamp['valid_until'], 'Timestamp causal/TTL boundary')
+                    check(stamp['selected_created'] > stamp['native_created'], 'Paid timestamp not newer')
+                    check(stamp['peer'] in eligible and eligible[stamp['peer']]['created'] == stamp['selected_created'], 'Selected timestamp not in received cache')
+                else:
+                    check(stamp['selected_created'] == stamp['native_created'], 'Native fallback')
+                    check(d['age_source'] != 'paid' or stamp['peer'] not in eligible, 'Missed eligible paid timestamp')
+                age = max(0, d['t'] - stamp['selected_created'])
+                check(age == stamp['age'], 'Age arithmetic'); ages.append(age)
+            f = 1. if d['age_source'] == 'none' or not ages else 1 / (1 + sum(ages) / len(ages))
+            close(d['factor'], f, 'Age factor')
+            close(d['effective_price'], d['base_price'] / f, 'Effective price')
+            expected_positions = dict(d['native_positions'])
+            if d['arm'] in ('paid-pose', 'paid-pose-age', 'paid-pose-native-age'):
+                expected_positions.update({str(k):v['pose'] for k, v in eligible.items()})
+            check(expected_positions == d['valuation_positions'], 'Unexpected/missing pose projection')
+            selected_symbols = sum(x['symbols'] for x in d['selected'])
+            if selected_symbols > d['budget']:
+                # Strict mode remains the default. Diagnostic continuation records
+                # the violation and still checks the remainder of this decision.
+                if selection_budget_findings is None:
+                    check(False, 'Selected budget')
+                selection_budget_findings.append(dict(t=d['t'], sender=d['sender'],
+                    selected_symbols=selected_symbols, budget=d['budget'],
+                    excess=selected_symbols-d['budget'], selected=d['selected']))
+            if d['groups_before_age'] is not None:
+                catalog = Counter()
+                for g in d['groups_before_age']:
+                    for o in g['options']:
+>                       check(float.fromhex(o['value_hex']) == o['value'], 'Candidate float serialization')
+                                            ^^^^^^^^^^^^^^
+E                       KeyError: 'value_hex'
+
+scripts/audit_information_identifiability.py:151: KeyError
+=========================== short test summary info ============================
+FAILED tests_ext/test_information_audit_findings.py::test_collection_preserves_actual_excess_and_cannot_mark_passed
+1 failed, 390 passed in 47.81s

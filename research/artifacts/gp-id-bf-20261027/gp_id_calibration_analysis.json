@@ -1,0 +1,1002 @@
+{
+  "status": "No-Go",
+  "scope": "Exploratory new-world fixed-working-point calibration; not formal superiority, a full cost frontier, hardware deployment, live LLM or individual-message direct causal effect. Old GP-v2 No-Go unchanged.",
+  "primary_method": "paid-pose",
+  "N": 12,
+  "missions": 156,
+  "bootstrap_resamples": 20000,
+  "analysis_seed": 28200000,
+  "bootstrap_index_sha256": "a208872f40e54af0ac049dd211d420f52557ec8c045ea80d0b88e2aa4be5c341",
+  "family_endpoints": 15,
+  "quantile_method": "linear",
+  "cases": [
+    {
+      "id": "public-fixed",
+      "N": 12,
+      "completed": 12,
+      "not_completed": 0,
+      "false_declarations": 1,
+      "mean_mission_wall_seconds": 5.0021895455817385,
+      "mean_end_to_end_wall_seconds": 5.143974609052141,
+      "mean_recording_process_seconds": 5.135808160916666,
+      "mean_time": 150.75,
+      "time_quantiles": {
+        "min": 80.0,
+        "p25": 114.25,
+        "p50": 138.0,
+        "p75": 179.75,
+        "p90": 211.1,
+        "max": 276.0
+      },
+      "mean_comm": 20727.416666666668,
+      "comm_quantiles": {
+        "min": 11861.0,
+        "p25": 17019.0,
+        "p50": 19154.5,
+        "p75": 22444.0,
+        "p90": 30284.500000000004,
+        "max": 32979.0
+      },
+      "mean_cpu": 0.9457499999999937,
+      "cpu_quantiles": {
+        "min": 0.5500000000000004,
+        "p25": 0.7780000000000006,
+        "p50": 0.9750000000000008,
+        "p75": 1.1107499999999884,
+        "p90": 1.214099999999977,
+        "max": 1.3019999999999674
+      }
+    },
+    {
+      "id": "native-age",
+      "N": 12,
+      "completed": 12,
+      "not_completed": 0,
+      "false_declarations": 0,
+      "mean_mission_wall_seconds": 6.8619196731597185,
+      "mean_end_to_end_wall_seconds": 7.064555432026585,
+      "mean_recording_process_seconds": 7.055316056083334,
+      "mean_time": 154.16666666666666,
+      "time_quantiles": {
+        "min": 72.0,
+        "p25": 119.0,
+        "p50": 160.0,
+        "p75": 171.0,
+        "p90": 215.10000000000002,
+        "max": 238.0
+      },
+      "mean_comm": 11271.916666666666,
+      "comm_quantiles": {
+        "min": 6993.0,
+        "p25": 9007.25,
+        "p50": 11740.5,
+        "p75": 12909.25,
+        "p90": 14001.1,
+        "max": 17740.0
+      },
+      "mean_cpu": 1.0056666666666554,
+      "cpu_quantiles": {
+        "min": 0.4890000000000004,
+        "p25": 0.8532500000000006,
+        "p50": 0.9295000000000007,
+        "p75": 1.2172499999999769,
+        "p90": 1.351799999999962,
+        "max": 1.4339999999999529
+      }
+    },
+    {
+      "id": "native-price",
+      "N": 12,
+      "completed": 12,
+      "not_completed": 0,
+      "false_declarations": 0,
+      "mean_mission_wall_seconds": 6.856613961358865,
+      "mean_end_to_end_wall_seconds": 7.058621057619651,
+      "mean_recording_process_seconds": 7.049749786749982,
+      "mean_time": 154.16666666666666,
+      "time_quantiles": {
+        "min": 72.0,
+        "p25": 119.0,
+        "p50": 160.0,
+        "p75": 171.0,
+        "p90": 215.10000000000002,
+        "max": 238.0
+      },
+      "mean_comm": 11271.916666666666,
+      "comm_quantiles": {
+        "min": 6993.0,
+        "p25": 9007.25,
+        "p50": 11740.5,
+        "p75": 12909.25,
+        "p90": 14001.1,
+        "max": 17740.0
+      },
+      "mean_cpu": 1.0056666666666554,
+      "cpu_quantiles": {
+        "min": 0.4890000000000004,
+        "p25": 0.8532500000000006,
+        "p50": 0.9295000000000007,
+        "p75": 1.2172499999999769,
+        "p90": 1.351799999999962,
+        "max": 1.4339999999999529
+      }
+    },
+    {
+      "id": "paid-ignore",
+      "N": 12,
+      "completed": 12,
+      "not_completed": 0,
+      "false_declarations": 1,
+      "mean_mission_wall_seconds": 5.151254451523225,
+      "mean_end_to_end_wall_seconds": 5.36941195341448,
+      "mean_recording_process_seconds": 5.361575235250009,
+      "mean_time": 150.75,
+      "time_quantiles": {
+        "min": 80.0,
+        "p25": 114.25,
+        "p50": 138.0,
+        "p75": 179.75,
+        "p90": 211.1,
+        "max": 276.0
+      },
+      "mean_comm": 61452.083333333336,
+      "comm_quantiles": {
+        "min": 40686.0,
+        "p25": 44745.25,
+        "p50": 55340.5,
+        "p75": 73623.75,
+        "p90": 90653.1,
+        "max": 94638.0
+      },
+      "mean_cpu": 3.303833333333164,
+      "cpu_quantiles": {
+        "min": 1.7909999999999136,
+        "p25": 2.6199999999998225,
+        "p50": 3.1259999999997667,
+        "p75": 4.037249999999709,
+        "p90": 4.720799999999912,
+        "max": 5.127000000000047
+      }
+    },
+    {
+      "id": "paid-native-age",
+      "N": 12,
+      "completed": 12,
+      "not_completed": 0,
+      "false_declarations": 0,
+      "mean_mission_wall_seconds": 7.004018450776736,
+      "mean_end_to_end_wall_seconds": 7.28943943977356,
+      "mean_recording_process_seconds": 7.280610929000001,
+      "mean_time": 154.16666666666666,
+      "time_quantiles": {
+        "min": 72.0,
+        "p25": 119.0,
+        "p50": 160.0,
+        "p75": 171.0,
+        "p90": 215.10000000000002,
+        "max": 238.0
+      },
+      "mean_comm": 53035.25,
+      "comm_quantiles": {
+        "min": 33594.0,
+        "p25": 41800.0,
+        "p50": 52902.5,
+        "p75": 58749.75,
+        "p90": 71641.5,
+        "max": 77676.0
+      },
+      "mean_cpu": 3.4402499999998164,
+      "cpu_quantiles": {
+        "min": 1.6249999999999318,
+        "p25": 2.8117499999998015,
+        "p50": 3.449999999999731,
+        "p75": 3.862749999999718,
+        "p90": 4.83489999999995,
+        "max": 5.110000000000041
+      }
+    },
+    {
+      "id": "paid-age",
+      "N": 12,
+      "completed": 12,
+      "not_completed": 0,
+      "false_declarations": 0,
+      "mean_mission_wall_seconds": 5.267341830457251,
+      "mean_end_to_end_wall_seconds": 5.505298685282469,
+      "mean_recording_process_seconds": 5.496814624583343,
+      "mean_time": 140.66666666666666,
+      "time_quantiles": {
+        "min": 72.0,
+        "p25": 117.75,
+        "p50": 136.0,
+        "p75": 156.0,
+        "p90": 200.4,
+        "max": 231.0
+      },
+      "mean_comm": 50824.083333333336,
+      "comm_quantiles": {
+        "min": 32112.0,
+        "p25": 43973.0,
+        "p50": 49986.5,
+        "p75": 54321.25,
+        "p90": 69823.6,
+        "max": 78142.0
+      },
+      "mean_cpu": 3.073916666666493,
+      "cpu_quantiles": {
+        "min": 1.622999999999932,
+        "p25": 2.632499999999821,
+        "p50": 2.797999999999803,
+        "p75": 3.435499999999733,
+        "p90": 4.404199999999826,
+        "max": 4.953999999999989
+      }
+    },
+    {
+      "id": "paid-price",
+      "N": 12,
+      "completed": 12,
+      "not_completed": 0,
+      "false_declarations": 0,
+      "mean_mission_wall_seconds": 5.224542581165831,
+      "mean_end_to_end_wall_seconds": 5.460293457532923,
+      "mean_recording_process_seconds": 5.45210486025001,
+      "mean_time": 140.66666666666666,
+      "time_quantiles": {
+        "min": 72.0,
+        "p25": 117.75,
+        "p50": 136.0,
+        "p75": 156.0,
+        "p90": 200.4,
+        "max": 231.0
+      },
+      "mean_comm": 50824.083333333336,
+      "comm_quantiles": {
+        "min": 32112.0,
+        "p25": 43973.0,
+        "p50": 49986.5,
+        "p75": 54321.25,
+        "p90": 69823.6,
+        "max": 78142.0
+      },
+      "mean_cpu": 3.073916666666493,
+      "cpu_quantiles": {
+        "min": 1.622999999999932,
+        "p25": 2.632499999999821,
+        "p50": 2.797999999999803,
+        "p75": 3.435499999999733,
+        "p90": 4.404199999999826,
+        "max": 4.953999999999989
+      }
+    },
+    {
+      "id": "paid-pose",
+      "N": 12,
+      "completed": 12,
+      "not_completed": 0,
+      "false_declarations": 0,
+      "mean_mission_wall_seconds": 6.753768642122547,
+      "mean_end_to_end_wall_seconds": 6.992325657978654,
+      "mean_recording_process_seconds": 6.983830662916662,
+      "mean_time": 162.66666666666666,
+      "time_quantiles": {
+        "min": 80.0,
+        "p25": 119.5,
+        "p50": 131.5,
+        "p75": 221.5,
+        "p90": 271.0,
+        "max": 282.0
+      },
+      "mean_comm": 68369.91666666667,
+      "comm_quantiles": {
+        "min": 40686.0,
+        "p25": 48342.0,
+        "p50": 54744.5,
+        "p75": 90805.75,
+        "p90": 113102.50000000001,
+        "max": 122363.0
+      },
+      "mean_cpu": 3.5630833333332457,
+      "cpu_quantiles": {
+        "min": 1.7909999999999136,
+        "p25": 2.7754999999998056,
+        "p50": 2.9624999999997845,
+        "p75": 4.323249999999781,
+        "p90": 5.689900000000235,
+        "max": 6.202000000000406
+      }
+    },
+    {
+      "id": "paid-pose-native-age",
+      "N": 12,
+      "completed": 12,
+      "not_completed": 0,
+      "false_declarations": 0,
+      "mean_mission_wall_seconds": 7.049420213947694,
+      "mean_end_to_end_wall_seconds": 7.334960196167231,
+      "mean_recording_process_seconds": 7.325844581500001,
+      "mean_time": 154.16666666666666,
+      "time_quantiles": {
+        "min": 72.0,
+        "p25": 119.0,
+        "p50": 160.0,
+        "p75": 171.0,
+        "p90": 215.10000000000002,
+        "max": 238.0
+      },
+      "mean_comm": 53060.75,
+      "comm_quantiles": {
+        "min": 33594.0,
+        "p25": 41800.0,
+        "p50": 53055.5,
+        "p75": 58749.75,
+        "p90": 71641.5,
+        "max": 77676.0
+      },
+      "mean_cpu": 3.4393333333331504,
+      "cpu_quantiles": {
+        "min": 1.6249999999999318,
+        "p25": 2.8117499999998015,
+        "p50": 3.449999999999731,
+        "p75": 3.854499999999719,
+        "p90": 4.83489999999995,
+        "max": 5.110000000000041
+      }
+    },
+    {
+      "id": "paid-pose-age",
+      "N": 12,
+      "completed": 12,
+      "not_completed": 0,
+      "false_declarations": 0,
+      "mean_mission_wall_seconds": 5.067233482996623,
+      "mean_end_to_end_wall_seconds": 5.300324885795514,
+      "mean_recording_process_seconds": 5.291981211499984,
+      "mean_time": 139.66666666666666,
+      "time_quantiles": {
+        "min": 72.0,
+        "p25": 117.75,
+        "p50": 136.0,
+        "p75": 149.0,
+        "p90": 200.0,
+        "max": 231.0
+      },
+      "mean_comm": 51295.333333333336,
+      "comm_quantiles": {
+        "min": 32112.0,
+        "p25": 43973.0,
+        "p50": 50765.0,
+        "p75": 55027.5,
+        "p90": 70106.1,
+        "max": 78142.0
+      },
+      "mean_cpu": 3.057999999999829,
+      "cpu_quantiles": {
+        "min": 1.622999999999932,
+        "p25": 2.632499999999821,
+        "p50": 2.797999999999803,
+        "p75": 3.3522499999997417,
+        "p90": 4.392199999999828,
+        "max": 4.953999999999989
+      }
+    },
+    {
+      "id": "bits",
+      "N": 12,
+      "completed": 12,
+      "not_completed": 0,
+      "false_declarations": 0,
+      "mean_mission_wall_seconds": 1.060630499695738,
+      "mean_end_to_end_wall_seconds": 1.146617525567611,
+      "mean_recording_process_seconds": 1.1407046388333342,
+      "mean_time": 213.75,
+      "time_quantiles": {
+        "min": 126.0,
+        "p25": 155.5,
+        "p50": 196.0,
+        "p75": 251.0,
+        "p90": 299.0,
+        "max": 400.0
+      },
+      "mean_comm": 71237.25,
+      "comm_quantiles": {
+        "min": 42041.0,
+        "p25": 55707.25,
+        "p50": 64691.5,
+        "p75": 79436.0,
+        "p90": 101011.1,
+        "max": 131428.0
+      },
+      "mean_cpu": 1.3464999999999596,
+      "cpu_quantiles": {
+        "min": 0.7830000000000006,
+        "p25": 1.0119999999999987,
+        "p50": 1.2839999999999694,
+        "p75": 1.5187499999999434,
+        "p90": 1.9652999999998944,
+        "max": 2.2549999999998627
+      }
+    },
+    {
+      "id": "aoi",
+      "N": 12,
+      "completed": 12,
+      "not_completed": 0,
+      "false_declarations": 2,
+      "mean_mission_wall_seconds": 0.6215358953922987,
+      "mean_end_to_end_wall_seconds": 0.6861565839499235,
+      "mean_recording_process_seconds": 0.6802425826666708,
+      "mean_time": 177.33333333333334,
+      "time_quantiles": {
+        "min": 94.0,
+        "p25": 151.0,
+        "p50": 173.0,
+        "p75": 210.0,
+        "p90": 229.8,
+        "max": 258.0
+      },
+      "mean_comm": 57635.75,
+      "comm_quantiles": {
+        "min": 34940.0,
+        "p25": 47170.25,
+        "p50": 57283.0,
+        "p75": 67252.0,
+        "p90": 72658.6,
+        "max": 80372.0
+      },
+      "mean_cpu": 0.9678333333333322,
+      "cpu_quantiles": {
+        "min": 0.8560000000000006,
+        "p25": 0.8980000000000007,
+        "p50": 0.9680000000000007,
+        "p75": 1.0174999999999987,
+        "p90": 1.0468999999999955,
+        "max": 1.1079999999999888
+      }
+    },
+    {
+      "id": "periodic_k8_eps0",
+      "N": 12,
+      "completed": 12,
+      "not_completed": 0,
+      "false_declarations": 0,
+      "mean_mission_wall_seconds": 0.31843691505491734,
+      "mean_end_to_end_wall_seconds": 0.3817113383362691,
+      "mean_recording_process_seconds": 0.3762290856666735,
+      "mean_time": 128.83333333333334,
+      "time_quantiles": {
+        "min": 75.0,
+        "p25": 96.75,
+        "p50": 122.0,
+        "p75": 153.0,
+        "p90": 180.3,
+        "max": 225.0
+      },
+      "mean_comm": 31918.25,
+      "comm_quantiles": {
+        "min": 19501.0,
+        "p25": 21938.5,
+        "p50": 29127.5,
+        "p75": 37669.25,
+        "p90": 44726.3,
+        "max": 58546.0
+      },
+      "mean_cpu": 0.9724166666666555,
+      "cpu_quantiles": {
+        "min": 0.6660000000000005,
+        "p25": 0.7567500000000006,
+        "p50": 0.8755000000000006,
+        "p75": 1.131749999999986,
+        "p90": 1.2188999999999766,
+        "max": 1.741999999999919
+      }
+    }
+  ],
+  "primary": [
+    {
+      "id": "timestamp_use",
+      "treatment": "paid-age",
+      "control": "paid-native-age",
+      "gain": {
+        "estimate": 13.5,
+        "ci95": [
+          -1.1666666666666667,
+          30.75
+        ],
+        "ci_family": [
+          -7.444722222222222,
+          40.833333333333336
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "comm_ratio": {
+        "estimate": 0.9583076035906937,
+        "ci95": [
+          0.8625556005700805,
+          1.047465674972081
+        ],
+        "ci_family": [
+          0.8069539594739733,
+          1.0906918052175776
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "cpu_ratio": {
+        "estimate": 0.89351549063779,
+        "ci95": [
+          0.7994689544744421,
+          0.9722378577417993
+        ],
+        "ci_family": [
+          0.7442213693404568,
+          1.0017071837166125
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "mean_joint_cost_support": false,
+      "noninferiority_screen": false,
+      "matched_screen": false
+    },
+    {
+      "id": "pose_use",
+      "treatment": "paid-pose",
+      "control": "paid-ignore",
+      "gain": {
+        "estimate": -11.916666666666666,
+        "ci95": [
+          -37.75,
+          14.087499999999636
+        ],
+        "ci_family": [
+          -49.694722222222225,
+          26.02805555555521
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "comm_ratio": {
+        "estimate": 1.1125728040139675,
+        "ci95": [
+          0.9791630880909321,
+          1.2477832011984533
+        ],
+        "ci_family": [
+          0.9182225594929371,
+          1.3129998482519998
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "cpu_ratio": {
+        "estimate": 1.0784694546738924,
+        "ci95": [
+          0.9151994051734924,
+          1.239616206009968
+        ],
+        "ci_family": [
+          0.8484554926337914,
+          1.3130276361121496
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "mean_joint_cost_support": false,
+      "noninferiority_screen": false,
+      "matched_screen": false
+    },
+    {
+      "id": "deploy_native",
+      "treatment": "paid-pose",
+      "control": "native-age",
+      "gain": {
+        "estimate": -8.5,
+        "ci95": [
+          -41.25,
+          24.083333333333332
+        ],
+        "ci_family": [
+          -57.083749999999995,
+          39.97277777777708
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "comm_ratio": {
+        "estimate": 6.065509414991536,
+        "ci95": [
+          4.6370029801098225,
+          8.043504342946369
+        ],
+        "ci_family": [
+          4.144336982574354,
+          9.363946601880219
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "cpu_ratio": {
+        "estimate": 3.5430062976466217,
+        "ci95": [
+          2.882316818314546,
+          4.25695748535764
+        ],
+        "ci_family": [
+          2.60224632107808,
+          4.59640354261413
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "mean_joint_cost_support": false,
+      "noninferiority_screen": false,
+      "matched_screen": false
+    },
+    {
+      "id": "deploy_periodic",
+      "treatment": "paid-pose",
+      "control": "periodic_k8_eps0",
+      "gain": {
+        "estimate": -33.833333333333336,
+        "ci95": [
+          -73.5,
+          3.1666666666666665
+        ],
+        "ci_family": [
+          -91.72277777777778,
+          21.44513888888802
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "comm_ratio": {
+        "estimate": 2.1420321185110924,
+        "ci95": [
+          1.6643399343758976,
+          2.7706522933538653
+        ],
+        "ci_family": [
+          1.4804910721149036,
+          3.117931274529456
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "cpu_ratio": {
+        "estimate": 3.6641528837089243,
+        "ci95": [
+          2.9561729216923194,
+          4.486988261822753
+        ],
+        "ci_family": [
+          2.65151157067334,
+          4.964444861850294
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "mean_joint_cost_support": false,
+      "noninferiority_screen": false,
+      "matched_screen": false
+    },
+    {
+      "id": "deploy_public",
+      "treatment": "paid-pose",
+      "control": "public-fixed",
+      "gain": {
+        "estimate": -11.916666666666666,
+        "ci95": [
+          -37.75,
+          14.087499999999636
+        ],
+        "ci_family": [
+          -49.694722222222225,
+          26.02805555555521
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "comm_ratio": {
+        "estimate": 3.298525704682606,
+        "ci95": [
+          2.8272646588066994,
+          3.8081669337834807
+        ],
+        "ci_family": [
+          2.6334538515349384,
+          4.084400540387828
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "cpu_ratio": {
+        "estimate": 3.7674684994271948,
+        "ci95": [
+          3.1861268817147304,
+          4.347112108241714
+        ],
+        "ci_family": [
+          2.9386382779406945,
+          4.629200442980207
+        ],
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "mean_joint_cost_support": false,
+      "noninferiority_screen": false,
+      "matched_screen": false
+    }
+  ],
+  "secondary": [
+    {
+      "id": "native_threshold",
+      "treatment": "native-age",
+      "control": "public-fixed",
+      "gain": {
+        "estimate": -3.4166666666666665,
+        "ci95": [
+          -36.5,
+          28.416666666666668
+        ],
+        "ci_family": null,
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "comm_ratio": {
+        "estimate": 0.5438167644303639,
+        "ci95": [
+          0.45319675025597295,
+          0.6527275078587317
+        ],
+        "ci_family": null,
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "cpu_ratio": {
+        "estimate": 1.0633535994360688,
+        "ci95": [
+          0.9180624299301016,
+          1.2548194194950402
+        ],
+        "ci_family": null,
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "mean_joint_cost_support": false,
+      "noninferiority_screen": false,
+      "matched_screen": false
+    },
+    {
+      "id": "purchase_under_native",
+      "treatment": "paid-native-age",
+      "control": "native-age",
+      "gain": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci_family": null,
+        "status": "degenerate",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "comm_ratio": {
+        "estimate": 4.705078254955161,
+        "ci95": [
+          3.9229547123649158,
+          5.618952511437894
+        ],
+        "ci_family": null,
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "cpu_ratio": {
+        "estimate": 3.4208650977791066,
+        "ci95": [
+          3.224622776015536,
+          3.632346327943226
+        ],
+        "ci_family": null,
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "mean_joint_cost_support": false,
+      "noninferiority_screen": false,
+      "matched_screen": false
+    },
+    {
+      "id": "position_under_native",
+      "treatment": "paid-pose-native-age",
+      "control": "paid-native-age",
+      "gain": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci_family": null,
+        "status": "degenerate",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "comm_ratio": {
+        "estimate": 1.0004808122899393,
+        "ci95": [
+          1.0,
+          1.0015478768392334
+        ],
+        "ci_family": null,
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "cpu_ratio": {
+        "estimate": 0.9997335464961365,
+        "ci95": [
+          0.9991559940286863,
+          1.0
+        ],
+        "ci_family": null,
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "mean_joint_cost_support": true,
+      "noninferiority_screen": false,
+      "matched_screen": false
+    },
+    {
+      "id": "position_under_paid_age",
+      "treatment": "paid-pose-age",
+      "control": "paid-age",
+      "gain": {
+        "estimate": 1.0,
+        "ci95": [
+          0.0,
+          2.6666666666666665
+        ],
+        "ci_family": null,
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "comm_ratio": {
+        "estimate": 1.0092721790358574,
+        "ci95": [
+          1.0,
+          1.0225190132079696
+        ],
+        "ci_family": null,
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "cpu_ratio": {
+        "estimate": 0.9948220240193026,
+        "ci95": [
+          0.9873722763500599,
+          1.0
+        ],
+        "ci_family": null,
+        "status": "defined",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "mean_joint_cost_support": true,
+      "noninferiority_screen": false,
+      "matched_screen": false
+    },
+    {
+      "id": "native_numeric_form",
+      "treatment": "native-price",
+      "control": "native-age",
+      "gain": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci_family": null,
+        "status": "degenerate",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "comm_ratio": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci_family": null,
+        "status": "degenerate",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "cpu_ratio": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci_family": null,
+        "status": "degenerate",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "mean_joint_cost_support": true,
+      "noninferiority_screen": false,
+      "matched_screen": false
+    },
+    {
+      "id": "paid_numeric_form",
+      "treatment": "paid-price",
+      "control": "paid-age",
+      "gain": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci_family": null,
+        "status": "degenerate",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "comm_ratio": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci_family": null,
+        "status": "degenerate",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "cpu_ratio": {
+        "estimate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci_family": null,
+        "status": "degenerate",
+        "bootstrap_valid": 20000,
+        "bootstrap_undefined": 0
+      },
+      "mean_joint_cost_support": true,
+      "noninferiority_screen": false,
+      "matched_screen": false
+    }
+  ],
+  "primary_method_eligible": false,
+  "timestamp_screen": false,
+  "formal_test_N": null,
+  "formal_test_run": false,
+  "training": false,
+  "limitations": "Exploratory N12 at one fixed working point, bootstrap approximations; no equivalence/zero-value inference, formal significance, full cost frontier or single-message direct causal effect. No arm selected by observed task outcomes.",
+  "results_sha256": "8df6df09036ad3ff528fe346409bb71ed6c35c48f5a751d0a307698ebd46c77b"
+}
