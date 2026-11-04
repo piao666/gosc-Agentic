@@ -1,0 +1,20 @@
+{
+  "run_id": "hpc-masbench-adapter-contract-v2-20261103",
+  "files": [
+    {
+      "path": "outputs/contract_acceptance.json",
+      "size": 917,
+      "sha256": "932f8fc40b3c72e30042b25ef67ef8f263e9acfbc886a76c397f89cc8a342ac2"
+    },
+    {
+      "path": "outputs/contracts.xml",
+      "size": 10719,
+      "sha256": "c076d9dedf1485e7097a0ccfacc47c4bd0cae54c44d3dd1e49684f44f33b6c82"
+    },
+    {
+      "path": "outputs/wire_trace.json",
+      "size": 6938,
+      "sha256": "60444f442ac986289f6d68a026745c00434ddf45ff4d227f8ec09b1190601417"
+    }
+  ]
+}

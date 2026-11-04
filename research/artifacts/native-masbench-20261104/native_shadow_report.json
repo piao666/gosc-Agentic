@@ -1,0 +1,84 @@
+{
+  "input_run": "hpc-native-information-shadow-20261030",
+  "input_summary_sha256": "fe36d68fb4914a029706d8ba1b2f56f1b343e9012f8984e8c64f62338665d216",
+  "input_audit_sha256": "f1d5fb01969e557be75da417663d866f0a9e9a8c4bbfe40fd6b788adb09492f8",
+  "mechanism_status": "No-Go_content_route_within_diagnostic_scope",
+  "scope": "Finite price grid, raw G0/G1 common units, no arbitrary-price exclusion or calibrated cross-ToM superiority",
+  "cost_status": "Pending_full_cost_inference_not_established",
+  "worlds": [
+    {
+      "world": 27000000,
+      "snapshots": 41,
+      "multi_prefix_snapshots": 35,
+      "nonproportional_snapshots": 35,
+      "witness_snapshots": 0,
+      "comparisons": 246,
+      "g0_g1_categories": {
+        "same_evid": 234,
+        "rate": 8,
+        "on_off": 4
+      },
+      "control_unexplained_comparisons": 0,
+      "robust_flip_pair_price_counts": {
+        "net": 4
+      },
+      "content_witnesses_by_price": {
+        "0.0": 0,
+        "2.5e-05": 0,
+        "5e-05": 0,
+        "0.0001": 0,
+        "0.0002": 0,
+        "0.0004": 0
+      },
+      "first_witness_in_input_price_order": null
+    },
+    {
+      "world": 27000001,
+      "snapshots": 41,
+      "multi_prefix_snapshots": 34,
+      "nonproportional_snapshots": 34,
+      "witness_snapshots": 0,
+      "comparisons": 246,
+      "g0_g1_categories": {
+        "same_evid": 233,
+        "rate": 8,
+        "on_off": 5
+      },
+      "control_unexplained_comparisons": 0,
+      "robust_flip_pair_price_counts": {},
+      "content_witnesses_by_price": {
+        "0.0": 0,
+        "2.5e-05": 0,
+        "5e-05": 0,
+        "0.0001": 0,
+        "0.0002": 0,
+        "0.0004": 0
+      },
+      "first_witness_in_input_price_order": null
+    }
+  ],
+  "efficacy_N": 0,
+  "formal_test": false,
+  "training": false,
+  "next_stage_authorized": false,
+  "scientific_status": "No-Go retained; no task-utility or publishability claim",
+  "replay_timing": {
+    "public": {
+      "snapshot_count": 82,
+      "median_of_snapshot_hot_medians_process_ns": 1877077.0,
+      "median_cold_first_process_ns": 1894428.5
+    },
+    "g0": {
+      "snapshot_count": 82,
+      "median_of_snapshot_hot_medians_process_ns": 1348253.5,
+      "median_cold_first_process_ns": 1367577.5
+    },
+    "g1": {
+      "snapshot_count": 82,
+      "median_of_snapshot_hot_medians_process_ns": 1472194.5,
+      "median_cold_first_process_ns": 1480061.5
+    }
+  },
+  "timing_scope": "Descriptive replay restore+native candidate/TeamModel/wire+BF total process time; not deployment queue timing or stable hardware savings; snapshots correlated, no inferential CI",
+  "raw_output_bytes": 18442040
+}

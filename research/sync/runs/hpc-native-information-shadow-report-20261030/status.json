@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-native-information-shadow-report-20261030",
+  "status": "completed",
+  "started_at": "2026-10-30T08:51:06.371744+00:00",
+  "finished_at": "2026-10-30T08:51:06.466718+00:00",
+  "exit_code": 0,
+  "pid": 15888,
+  "elapsed_seconds": 0.094997,
+  "resource_usage": {
+    "child_max_rss_kib": 47440,
+    "child_cpu_user_seconds": 0.292388,
+    "child_cpu_system_seconds": 0.171289,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

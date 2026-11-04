@@ -1,0 +1,20 @@
+{
+  "scope": "Local file/hash/registered-status metadata only; all scientific reduction on HPC",
+  "frozen_source_mismatches": [],
+  "frozen_source_file_count": 73,
+  "accepted_document_sha256": {
+    "research/protocols/native_information_value_spec_v1.md": "4e961bd8b3f7ac41064c796d70f719fec39e0ad8145db93e80afda1a5d4db125",
+    "research/reports/native_information_feasibility_review_2026-10-30.md": "7d2eee3d88faefa1d40ac930ffa01c673febfadce55006359b00fe16e4c8131b"
+  },
+  "protected_tracked_source_diff_exit_code": 0,
+  "execution_index": "research/protocols/native_information_shadow_execution_2026-10-30.json",
+  "all_three_runs_completed": true,
+  "all_outputs_mirrored": true,
+  "hpc_audit_path": "research/sync/runs/hpc-native-information-shadow-20261030/outputs/audit.json",
+  "scientific_status": "No-Go_content_route_within_diagnostic_scope",
+  "efficacy_N": 0,
+  "training": false,
+  "formal_test": false,
+  "report_missing_links": [],
+  "report_trailing_whitespace": false
+}

@@ -4,7 +4,7 @@
 
 文件名使用 `YYYY-MM-DD-NN-简短主题.md`；日期按 Asia/Shanghai，同日序号从 01 递增。旧说明作为历史记录保留，不覆盖。说明不填写自身尚未产生的提交哈希，通过同一提交的 Git 历史关联。
 
-每份说明至少包含：日期、目的、分支和基线版本、改动范围、实际验证及证据、未完成项和限制、后续事项。必须区分本次实际运行的检查与此前 HPC 实验，未运行的检查明确注明。
+用户于2026-11-04明确要求固定格式：每份说明必须依次包含**提交内容、主要尝试、结果、当前进展、下一步安排**五部分；附日期/授权、分支与base版本、实际验证/证据、失败和限制。必须区分本次实际运行的检查与此前HPC实验，未运行的检查明确注明。具体格式见[TEMPLATE.md](TEMPLATE.md)；以后每次提交都按此模板写，不覆盖旧说明。
 
 提交前检查 `git status`、`git diff --check` 和暂存区，确认没有凭据、私人论文、环境或忽略的原始运行输出。测试和科研计算继续遵守 AGENTS.md 的 HPC 执行约束。提交信息须包含 `Commit-Note: commit/<说明文件名>`，然后正常推送当前授权分支，不强制推送。
 
@@ -12,12 +12,17 @@
 
 ## 索引（最新在前）
 
+- [2026-11-04 / 01：G1负诊断、路线B研究审查及MASBench准备验收归档](2026-11-04-01-native-information-and-masbench-preparation.md)
+- [2026-10-28 / 01：信息价值识别校准与BF-selector验收归档](2026-10-28-01-information-identifiability-and-budget-selector.md)
+
 - [2026-10-26 / 01：因果服务、独立校准及age机制审查归档并推送](2026-10-26-01-causal-service-and-age-review.md)
 
 - [2026-10-23 / 01：付费pose实现、独立校准与成本审查归档](2026-10-23-01-paid-pose-calibration-and-cost-review.md)
 - [2026-10-22 / 01：HPC 复验、文献与接收端审计归档](2026-10-22-01-hpc-reproduction-and-receiver-audits.md)
 
 ## 新说明模板
+
+以[TEMPLATE.md](TEMPLATE.md)为当前模板；以下简版保留历史格式，未来说明使用五个固定章节。
 
 ```markdown
 # YYYY-MM-DD / NN：提交主题

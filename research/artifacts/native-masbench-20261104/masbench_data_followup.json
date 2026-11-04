@@ -1,0 +1,1923 @@
+{
+  "data_sha256": "ce65640b566e70098c540b9c814768c9ff5d8544a4cb25162a3872ac9c3bb331",
+  "unique_normalized_questions": 200,
+  "duplicate_question_groups": 100,
+  "repeated_question_rows": [
+    {
+      "indices": [
+        0,
+        265
+      ],
+      "ids": [
+        "sample_8_45d28c48",
+        "sample_108_45d28c48"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        1,
+        284
+      ],
+      "ids": [
+        "sample_168_2e8fd249",
+        "sample_68_2e8fd249"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        2,
+        287
+      ],
+      "ids": [
+        "sample_186_b8dafe1a",
+        "sample_86_b8dafe1a"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        7,
+        85
+      ],
+      "ids": [
+        "sample_37_4c068db6",
+        "sample_137_4c068db6"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        9,
+        10
+      ],
+      "ids": [
+        "sample_84_e7a43998",
+        "sample_184_e7a43998"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        13,
+        15
+      ],
+      "ids": [
+        "sample_128_ecb82b2f",
+        "sample_28_ecb82b2f"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        16,
+        28
+      ],
+      "ids": [
+        "sample_194_b414a93c",
+        "sample_94_b414a93c"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        17,
+        38
+      ],
+      "ids": [
+        "sample_39_5e25f944",
+        "sample_139_5e25f944"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        18,
+        37
+      ],
+      "ids": [
+        "sample_125_f9b11319",
+        "sample_25_f9b11319"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        19,
+        22
+      ],
+      "ids": [
+        "sample_30_8cbacacd",
+        "sample_130_8cbacacd"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        26,
+        27
+      ],
+      "ids": [
+        "sample_29_65542de2",
+        "sample_129_65542de2"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        30,
+        42
+      ],
+      "ids": [
+        "sample_4_c7dedaa9",
+        "sample_104_c7dedaa9"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        31,
+        137
+      ],
+      "ids": [
+        "sample_67_d86c075a",
+        "sample_167_d86c075a"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        36,
+        67
+      ],
+      "ids": [
+        "sample_74_83572f3d",
+        "sample_174_83572f3d"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        40,
+        52
+      ],
+      "ids": [
+        "sample_72_16676d61",
+        "sample_172_16676d61"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        43,
+        142
+      ],
+      "ids": [
+        "sample_156_5fc8028e",
+        "sample_56_5fc8028e"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        44,
+        105
+      ],
+      "ids": [
+        "sample_190_d337e68d",
+        "sample_90_d337e68d"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        45,
+        275
+      ],
+      "ids": [
+        "sample_58_3654c7ab",
+        "sample_158_3654c7ab"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        46,
+        68
+      ],
+      "ids": [
+        "sample_19_58454861",
+        "sample_119_58454861"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        49,
+        75
+      ],
+      "ids": [
+        "sample_22_ffdddac1",
+        "sample_122_ffdddac1"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        50,
+        87
+      ],
+      "ids": [
+        "sample_35_50184686",
+        "sample_135_50184686"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        51,
+        76
+      ],
+      "ids": [
+        "sample_160_926f8b75",
+        "sample_60_926f8b75"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        54,
+        96
+      ],
+      "ids": [
+        "sample_198_35b060ad",
+        "sample_98_35b060ad"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        56,
+        94
+      ],
+      "ids": [
+        "sample_134_39fef5a1",
+        "sample_34_39fef5a1"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        58,
+        110
+      ],
+      "ids": [
+        "sample_9_44d84262",
+        "sample_109_44d84262"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        60,
+        99
+      ],
+      "ids": [
+        "sample_107_ee8903c3",
+        "sample_7_ee8903c3"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        61,
+        74
+      ],
+      "ids": [
+        "sample_75_472fe6db",
+        "sample_175_472fe6db"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        62,
+        64
+      ],
+      "ids": [
+        "sample_131_f123a4d6",
+        "sample_31_f123a4d6"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        63,
+        88
+      ],
+      "ids": [
+        "sample_54_b10d7ca4",
+        "sample_154_b10d7ca4"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        66,
+        136
+      ],
+      "ids": [
+        "sample_50_8fc73a48",
+        "sample_150_8fc73a48"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        70,
+        77
+      ],
+      "ids": [
+        "sample_76_daff14b7",
+        "sample_176_daff14b7"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        71,
+        102
+      ],
+      "ids": [
+        "sample_73_77a41bb5",
+        "sample_173_77a41bb5"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        72,
+        254
+      ],
+      "ids": [
+        "sample_191_39f19efa",
+        "sample_91_39f19efa"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        73,
+        108
+      ],
+      "ids": [
+        "sample_89_3ef8b9dd",
+        "sample_189_3ef8b9dd"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        78,
+        119
+      ],
+      "ids": [
+        "sample_127_f9d12bb8",
+        "sample_27_f9d12bb8"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        79,
+        100
+      ],
+      "ids": [
+        "sample_71_748487b4",
+        "sample_171_748487b4"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        80,
+        277
+      ],
+      "ids": [
+        "sample_159_2ffaac61",
+        "sample_59_2ffaac61"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        82,
+        107
+      ],
+      "ids": [
+        "sample_182_9a50e764",
+        "sample_82_9a50e764"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        83,
+        84
+      ],
+      "ids": [
+        "sample_61_5fb18eb2",
+        "sample_161_5fb18eb2"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        90,
+        98
+      ],
+      "ids": [
+        "sample_118_6f959be1",
+        "sample_18_6f959be1"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        91,
+        134
+      ],
+      "ids": [
+        "sample_141_3df124f9",
+        "sample_41_3df124f9"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        92,
+        135
+      ],
+      "ids": [
+        "sample_195_e6949b13",
+        "sample_95_e6949b13"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        97,
+        210
+      ],
+      "ids": [
+        "sample_188_ea21b160",
+        "sample_88_ea21b160"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        101,
+        103
+      ],
+      "ids": [
+        "sample_136_1475e4f1",
+        "sample_36_1475e4f1"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        104,
+        106
+      ],
+      "ids": [
+        "sample_115_6f1e4cab",
+        "sample_15_6f1e4cab"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        109,
+        252
+      ],
+      "ids": [
+        "sample_185_f2e882d0",
+        "sample_85_f2e882d0"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        111,
+        263
+      ],
+      "ids": [
+        "sample_26_fafcf290",
+        "sample_126_fafcf290"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        112,
+        125
+      ],
+      "ids": [
+        "sample_92_98ce02a0",
+        "sample_192_98ce02a0"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        113,
+        238
+      ],
+      "ids": [
+        "sample_20_7f1a482b",
+        "sample_120_7f1a482b"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        114,
+        259
+      ],
+      "ids": [
+        "sample_52_1d4d49b1",
+        "sample_152_1d4d49b1"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        115,
+        144
+      ],
+      "ids": [
+        "sample_133_25d88e2a",
+        "sample_33_25d88e2a"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        117,
+        204
+      ],
+      "ids": [
+        "sample_138_e68d9f0b",
+        "sample_38_e68d9f0b"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        118,
+        262
+      ],
+      "ids": [
+        "sample_46_eca87124",
+        "sample_146_eca87124"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        120,
+        141
+      ],
+      "ids": [
+        "sample_163_d8f74492",
+        "sample_63_d8f74492"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        121,
+        130
+      ],
+      "ids": [
+        "sample_48_a3f7c569",
+        "sample_148_a3f7c569"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        123,
+        235
+      ],
+      "ids": [
+        "sample_66_c7b3e007",
+        "sample_166_c7b3e007"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        124,
+        243
+      ],
+      "ids": [
+        "sample_153_1d14c5cc",
+        "sample_53_1d14c5cc"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        126,
+        250
+      ],
+      "ids": [
+        "sample_87_a97501bf",
+        "sample_187_a97501bf"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        127,
+        251
+      ],
+      "ids": [
+        "sample_3_935b264d",
+        "sample_103_935b264d"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        128,
+        230
+      ],
+      "ids": [
+        "sample_23_7a72ef8c",
+        "sample_123_7a72ef8c"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        129,
+        223
+      ],
+      "ids": [
+        "sample_179_ca5b0a78",
+        "sample_79_ca5b0a78"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        133,
+        253
+      ],
+      "ids": [
+        "sample_80_b2ac1ee4",
+        "sample_180_b2ac1ee4"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        139,
+        205
+      ],
+      "ids": [
+        "sample_47_fce23d8f",
+        "sample_147_fce23d8f"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        140,
+        255
+      ],
+      "ids": [
+        "sample_114_bfe58469",
+        "sample_14_bfe58469"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        143,
+        149
+      ],
+      "ids": [
+        "sample_93_4627ec54",
+        "sample_193_4627ec54"
+      ],
+      "levels": [
+        "easy",
+        "easy"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        145,
+        264
+      ],
+      "ids": [
+        "sample_106_8ca2f52f",
+        "sample_6_8ca2f52f"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        146,
+        272
+      ],
+      "ids": [
+        "sample_105_a222d646",
+        "sample_5_a222d646"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        148,
+        256
+      ],
+      "ids": [
+        "sample_142_a1f6a007",
+        "sample_42_a1f6a007"
+      ],
+      "levels": [
+        "easy",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        200,
+        201
+      ],
+      "ids": [
+        "sample_165_e46b247b",
+        "sample_65_e46b247b"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        202,
+        203
+      ],
+      "ids": [
+        "sample_117_10bd4fde",
+        "sample_17_10bd4fde"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        206,
+        207
+      ],
+      "ids": [
+        "sample_2_d4e7d951",
+        "sample_102_d4e7d951"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        208,
+        209
+      ],
+      "ids": [
+        "sample_40_5e86a776",
+        "sample_140_5e86a776"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        211,
+        212
+      ],
+      "ids": [
+        "sample_199_bf8c6bf0",
+        "sample_99_bf8c6bf0"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        213,
+        214
+      ],
+      "ids": [
+        "sample_196_09174d8f",
+        "sample_96_09174d8f"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        215,
+        216
+      ],
+      "ids": [
+        "sample_43_fca9267a",
+        "sample_143_fca9267a"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        217,
+        218
+      ],
+      "ids": [
+        "sample_157_ed775443",
+        "sample_57_ed775443"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        219,
+        220
+      ],
+      "ids": [
+        "sample_45_05b3bb83",
+        "sample_145_05b3bb83"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        221,
+        222
+      ],
+      "ids": [
+        "sample_0_ff31f8d2",
+        "sample_100_ff31f8d2"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        224,
+        225
+      ],
+      "ids": [
+        "sample_11_80bba6c9",
+        "sample_111_80bba6c9"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        226,
+        227
+      ],
+      "ids": [
+        "sample_83_5098b70d",
+        "sample_183_5098b70d"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        228,
+        229
+      ],
+      "ids": [
+        "sample_51_7a96a5a6",
+        "sample_151_7a96a5a6"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        231,
+        232
+      ],
+      "ids": [
+        "sample_12_74293845",
+        "sample_112_74293845"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        233,
+        234
+      ],
+      "ids": [
+        "sample_16_8fc0494f",
+        "sample_116_8fc0494f"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        236,
+        237
+      ],
+      "ids": [
+        "sample_81_76ccbc24",
+        "sample_181_76ccbc24"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        239,
+        240
+      ],
+      "ids": [
+        "sample_97_c331aded",
+        "sample_197_c331aded"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        241,
+        242
+      ],
+      "ids": [
+        "sample_101_07237383",
+        "sample_1_07237383"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        244,
+        245
+      ],
+      "ids": [
+        "sample_178_e0e09ec3",
+        "sample_78_e0e09ec3"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        246,
+        247
+      ],
+      "ids": [
+        "sample_121_a45f6abf",
+        "sample_21_a45f6abf"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        248,
+        249
+      ],
+      "ids": [
+        "sample_132_a8099d9d",
+        "sample_32_a8099d9d"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        257,
+        258
+      ],
+      "ids": [
+        "sample_70_ee258e59",
+        "sample_170_ee258e59"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        260,
+        261
+      ],
+      "ids": [
+        "sample_110_a579ba68",
+        "sample_10_a579ba68"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        266,
+        267
+      ],
+      "ids": [
+        "sample_113_571cec9d",
+        "sample_13_571cec9d"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        268,
+        269
+      ],
+      "ids": [
+        "sample_169_fb5256df",
+        "sample_69_fb5256df"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        270,
+        271
+      ],
+      "ids": [
+        "sample_55_4f927f64",
+        "sample_155_4f927f64"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        273,
+        274
+      ],
+      "ids": [
+        "sample_77_ade16cbf",
+        "sample_177_ade16cbf"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        278,
+        279
+      ],
+      "ids": [
+        "sample_49_ba47444d",
+        "sample_149_ba47444d"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        280,
+        281
+      ],
+      "ids": [
+        "sample_44_3317fb9f",
+        "sample_144_3317fb9f"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        282,
+        283
+      ],
+      "ids": [
+        "sample_162_961d8d39",
+        "sample_62_961d8d39"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        285,
+        286
+      ],
+      "ids": [
+        "sample_64_a757f156",
+        "sample_164_a757f156"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    },
+    {
+      "indices": [
+        288,
+        289
+      ],
+      "ids": [
+        "sample_24_5007b225",
+        "sample_124_5007b225"
+      ],
+      "levels": [
+        "hard",
+        "hard"
+      ],
+      "answer_identical": true,
+      "context_identical": false
+    }
+  ],
+  "same_question_different_answers": [],
+  "same_question_same_context_groups": 0,
+  "context_raw_types": {
+    "list": 300
+  },
+  "source_lineage_fields": {
+    "id": 300,
+    "thread_id": 100,
+    "retry_count": 100,
+    "source_id": 0,
+    "_id": 0
+  },
+  "anomaly_diagnostics": [
+    {
+      "id": "sample_178_e0e09ec3",
+      "index": 244,
+      "facts": [
+        {
+          "side": "agent_a",
+          "title_sha256": "1e99c945bfdf3f44d26e41faa9472441071b47a6a97a143acfafe7bc0e4b570f",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "d299646004c29a40023844db962e7e1ec05b502aaa476221f288f0398aa5fc35"
+        },
+        {
+          "side": "agent_a",
+          "title_sha256": "1e99c945bfdf3f44d26e41faa9472441071b47a6a97a143acfafe7bc0e4b570f",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": false,
+          "whitespace_normalized_sentence_in_article": false,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_a",
+          "title_sha256": "1e99c945bfdf3f44d26e41faa9472441071b47a6a97a143acfafe7bc0e4b570f",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": false,
+          "whitespace_normalized_sentence_in_article": false,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_a",
+          "title_sha256": "1e99c945bfdf3f44d26e41faa9472441071b47a6a97a143acfafe7bc0e4b570f",
+          "stated_index": 2,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "03dc0ea0a8569702db26bef48b60a04de8989a9294dbbf09612eddbb0a21f66e"
+        },
+        {
+          "side": "agent_a",
+          "title_sha256": "1e99c945bfdf3f44d26e41faa9472441071b47a6a97a143acfafe7bc0e4b570f",
+          "stated_index": 2,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": false,
+          "whitespace_normalized_sentence_in_article": false,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_a",
+          "title_sha256": "b52e5ff30d03aaeb869839ae525805c035fc97f145ac8324126ecee4789df0b9",
+          "stated_index": 0,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "8e0f3d6cffcac6feea17db1750c9f7bf21461530cfd3affc13ebb8beba891f2d"
+        },
+        {
+          "side": "agent_a",
+          "title_sha256": "b52e5ff30d03aaeb869839ae525805c035fc97f145ac8324126ecee4789df0b9",
+          "stated_index": 0,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "b52e5ff30d03aaeb869839ae525805c035fc97f145ac8324126ecee4789df0b9",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "b5d9029e1bd69baa5282db2e57929db569647eb162c525f6a512b273d9f789df"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "06530362941c1b166e8e251fc2e376916903dcb87aa58ddb885e235634f58324",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "00ece3943743ad180a118bf80cc0242ef7f34d9e6db107e7befbd8cc88d79669"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "06530362941c1b166e8e251fc2e376916903dcb87aa58ddb885e235634f58324",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": false,
+          "whitespace_normalized_sentence_in_article": false,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "06530362941c1b166e8e251fc2e376916903dcb87aa58ddb885e235634f58324",
+          "stated_index": 2,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "7fb3d5eea1078a48916d2ee599d8af5a90862fb92cf85d4b63c4f8f9a71dbe2c"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "06530362941c1b166e8e251fc2e376916903dcb87aa58ddb885e235634f58324",
+          "stated_index": 2,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": false,
+          "whitespace_normalized_sentence_in_article": false,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "e1583aa43302859a41807310a45d10298ec1f814fcb696e40d785e1ddec23c31",
+          "stated_index": 0,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "1bca42f08824ba3fb3b110a8f9b9acbaad67d1e38cef8d2706cc32e1b7f4a5c6"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "e1583aa43302859a41807310a45d10298ec1f814fcb696e40d785e1ddec23c31",
+          "stated_index": 0,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": false,
+          "whitespace_normalized_sentence_in_article": false,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "e1583aa43302859a41807310a45d10298ec1f814fcb696e40d785e1ddec23c31",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "9e332374928c84740a6733933bd6fda801e69b4b0626bdcf89cb39e35c5e6537"
+        }
+      ],
+      "context_raw_type": "list"
+    },
+    {
+      "id": "sample_78_e0e09ec3",
+      "index": 245,
+      "facts": [
+        {
+          "side": "agent_a",
+          "title_sha256": "1e99c945bfdf3f44d26e41faa9472441071b47a6a97a143acfafe7bc0e4b570f",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "d299646004c29a40023844db962e7e1ec05b502aaa476221f288f0398aa5fc35"
+        },
+        {
+          "side": "agent_a",
+          "title_sha256": "1e99c945bfdf3f44d26e41faa9472441071b47a6a97a143acfafe7bc0e4b570f",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": false,
+          "whitespace_normalized_sentence_in_article": false,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_a",
+          "title_sha256": "1e99c945bfdf3f44d26e41faa9472441071b47a6a97a143acfafe7bc0e4b570f",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": false,
+          "whitespace_normalized_sentence_in_article": false,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_a",
+          "title_sha256": "1e99c945bfdf3f44d26e41faa9472441071b47a6a97a143acfafe7bc0e4b570f",
+          "stated_index": 2,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "03dc0ea0a8569702db26bef48b60a04de8989a9294dbbf09612eddbb0a21f66e"
+        },
+        {
+          "side": "agent_a",
+          "title_sha256": "1e99c945bfdf3f44d26e41faa9472441071b47a6a97a143acfafe7bc0e4b570f",
+          "stated_index": 2,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": false,
+          "whitespace_normalized_sentence_in_article": false,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_a",
+          "title_sha256": "b52e5ff30d03aaeb869839ae525805c035fc97f145ac8324126ecee4789df0b9",
+          "stated_index": 0,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "8e0f3d6cffcac6feea17db1750c9f7bf21461530cfd3affc13ebb8beba891f2d"
+        },
+        {
+          "side": "agent_a",
+          "title_sha256": "b52e5ff30d03aaeb869839ae525805c035fc97f145ac8324126ecee4789df0b9",
+          "stated_index": 0,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "b52e5ff30d03aaeb869839ae525805c035fc97f145ac8324126ecee4789df0b9",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "b5d9029e1bd69baa5282db2e57929db569647eb162c525f6a512b273d9f789df"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "06530362941c1b166e8e251fc2e376916903dcb87aa58ddb885e235634f58324",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "00ece3943743ad180a118bf80cc0242ef7f34d9e6db107e7befbd8cc88d79669"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "06530362941c1b166e8e251fc2e376916903dcb87aa58ddb885e235634f58324",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": false,
+          "whitespace_normalized_sentence_in_article": false,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "06530362941c1b166e8e251fc2e376916903dcb87aa58ddb885e235634f58324",
+          "stated_index": 2,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "7fb3d5eea1078a48916d2ee599d8af5a90862fb92cf85d4b63c4f8f9a71dbe2c"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "06530362941c1b166e8e251fc2e376916903dcb87aa58ddb885e235634f58324",
+          "stated_index": 2,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": false,
+          "whitespace_normalized_sentence_in_article": false,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "e1583aa43302859a41807310a45d10298ec1f814fcb696e40d785e1ddec23c31",
+          "stated_index": 0,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "1bca42f08824ba3fb3b110a8f9b9acbaad67d1e38cef8d2706cc32e1b7f4a5c6"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "e1583aa43302859a41807310a45d10298ec1f814fcb696e40d785e1ddec23c31",
+          "stated_index": 0,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": false,
+          "whitespace_normalized_sentence_in_article": false,
+          "sentence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "side": "agent_b",
+          "title_sha256": "e1583aa43302859a41807310a45d10298ec1f814fcb696e40d785e1ddec23c31",
+          "stated_index": 1,
+          "article_present": true,
+          "exact_sentence_elsewhere_in_article": true,
+          "whitespace_normalized_sentence_in_article": true,
+          "sentence_sha256": "9e332374928c84740a6733933bd6fda801e69b4b0626bdcf89cb39e35c5e6537"
+        }
+      ],
+      "context_raw_type": "list"
+    }
+  ],
+  "context_bytes": {
+    "agent_a": {
+      "min": 4504,
+      "median_order_statistic": 7759,
+      "max": 16492
+    },
+    "agent_b": {
+      "min": 3714,
+      "median_order_statistic": 8185,
+      "max": 14292
+    }
+  },
+  "split_decision": "Pending_not_frozen: conservative evidence components yield 9/17/274 with giant242; no random row split or silent regrouping",
+  "schema_decision": "Conditional: context mode is structurally usable; two support/context exact mismatches require explicit research disposition before capability question registry",
+  "all_records_preserved": true,
+  "model_calls": 0,
+  "task_episodes": 0,
+  "no_pretraining_contamination_claim": true
+}

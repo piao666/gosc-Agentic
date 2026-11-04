@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-model-restore-retry2-20261102",
+  "status": "failed",
+  "started_at": "2026-11-02T06:47:39.142909+00:00",
+  "finished_at": null,
+  "exit_code": null,
+  "pid": 8900,
+  "reconciled_at": "2026-11-02T07:04:53.108631+00:00",
+  "error": "EDQUOT prevented artifacts/status finalization; child is absent; exact exit/end unavailable"
+}

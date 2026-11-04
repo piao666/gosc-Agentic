@@ -1,0 +1,26 @@
+{
+  "recorded_at_utc": "2026-11-03T03:00:14.128627+00:00",
+  "operation": "final documentation source upload after all contract outputs mirrored",
+  "command": "python scripts/sync_hpc.py",
+  "attempts": 2,
+  "exit_codes": [
+    1,
+    1
+  ],
+  "ssh_exit": 255,
+  "error": "ssh: connect to host 172.18.101.241 port 22610: Connection timed out",
+  "failure_stage": "initial remote parent check, before source upload",
+  "last_successful_execution_source_sync": "20261103T025247Z",
+  "last_complete_output_receipt": "20261103T025330Z-a32cbc.json",
+  "all_hpc_contract_outputs_local": true,
+  "tested_python_code_matches_execution_snapshot": true,
+  "latest_delivery_docs_uploaded": false,
+  "pending_local_only": [
+    "final additions to research/reports/masbench_reasoning_adapter_acceptance_2026-11-03.md",
+    "current-status notes in research/benchmarks and research/README.md",
+    "research/sync/plans/next_steps.md and project_status local additions",
+    "research/logs/masbench-adapter-contract-2026-11-03/{verify_management.py,experiment_manifest.json,task_log.md,evidence_index.md,final_upload_status.json}",
+    "extensions/masbench_reasoning/LICENSE.MASBench"
+  ],
+  "no_new_scientific_run_created": true
+}

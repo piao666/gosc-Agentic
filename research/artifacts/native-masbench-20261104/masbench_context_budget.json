@@ -1,0 +1,198 @@
+{
+  "registry_content_sha256": "94b20ff4e199f8e6dc9eeeae8b0a8f91767c00576906f5589387a1266f4a4f1a",
+  "model_calls": 0,
+  "model_loaded": false,
+  "initial_requests": [
+    {
+      "record_id": "sample_251_f128c587",
+      "style": "base",
+      "agent": "Alice",
+      "system_content_utf8_bytes": 9477,
+      "request_json_utf8_bytes": 9625,
+      "request_content_sha256": "b719780fba753e45a2ca7d8e264eee382f80a9a1ce41b12d2027a62193a9a8dd",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_251_f128c587",
+      "style": "base",
+      "agent": "Bob",
+      "system_content_utf8_bytes": 11522,
+      "request_json_utf8_bytes": 11689,
+      "request_content_sha256": "4bb982ee9ea53136f8f699ce6b34669e0f78a5aad65336b63f39aea907433730",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_251_f128c587",
+      "style": "protocol",
+      "agent": "Alice",
+      "system_content_utf8_bytes": 9908,
+      "request_json_utf8_bytes": 10066,
+      "request_content_sha256": "0ac34afe101f116e28a6f13f8eb74d3f3e6a9953ae109f72f37a4fb81be70dcf",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_251_f128c587",
+      "style": "protocol",
+      "agent": "Bob",
+      "system_content_utf8_bytes": 11955,
+      "request_json_utf8_bytes": 12132,
+      "request_content_sha256": "a98b762470f9afcf4db081f1182cc6865778ede03a4959f13f2f49ba271bebe2",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_153_1d14c5cc",
+      "style": "base",
+      "agent": "Alice",
+      "system_content_utf8_bytes": 11998,
+      "request_json_utf8_bytes": 12193,
+      "request_content_sha256": "83c1804d914b538d11baa643170ff7980a35b380c94389d036a2803b80f4ab3b",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_153_1d14c5cc",
+      "style": "base",
+      "agent": "Bob",
+      "system_content_utf8_bytes": 8888,
+      "request_json_utf8_bytes": 9043,
+      "request_content_sha256": "02f1b161999710ff84106acbb7d85f55f2ea3362389209dd5b00773a2f077d3f",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_153_1d14c5cc",
+      "style": "protocol",
+      "agent": "Alice",
+      "system_content_utf8_bytes": 12429,
+      "request_json_utf8_bytes": 12634,
+      "request_content_sha256": "5c5173b9c6a55bf2d84faba73f8d511176398d71410d0f3a7459e86ea448de07",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_153_1d14c5cc",
+      "style": "protocol",
+      "agent": "Bob",
+      "system_content_utf8_bytes": 9321,
+      "request_json_utf8_bytes": 9486,
+      "request_content_sha256": "3e4f44dcfe8a158c9ffd4e74c71ed78e86a406638755276bb8302b0bb49e5d33",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_278_79ddf47b",
+      "style": "base",
+      "agent": "Alice",
+      "system_content_utf8_bytes": 15992,
+      "request_json_utf8_bytes": 16155,
+      "request_content_sha256": "640cf9555be1ac8f6dbc1e16a9621429aa8264dc45bd9b9917b00720d099523b",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_278_79ddf47b",
+      "style": "base",
+      "agent": "Bob",
+      "system_content_utf8_bytes": 15697,
+      "request_json_utf8_bytes": 15858,
+      "request_content_sha256": "cacc2c3456c01717333cd234d47e70fcad563b1e9c26497e4a739d2186d13951",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_278_79ddf47b",
+      "style": "protocol",
+      "agent": "Alice",
+      "system_content_utf8_bytes": 16423,
+      "request_json_utf8_bytes": 16596,
+      "request_content_sha256": "da40c76532b93ddb96d70119ebe6d173d00ca98f69d6506acc853b316181175c",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_278_79ddf47b",
+      "style": "protocol",
+      "agent": "Bob",
+      "system_content_utf8_bytes": 16130,
+      "request_json_utf8_bytes": 16301,
+      "request_content_sha256": "6ef3431f4ca3fe556b0e43129dd240182b84f37e8eb2b0ec3e8a9f375a768c36",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_152_1d4d49b1",
+      "style": "base",
+      "agent": "Alice",
+      "system_content_utf8_bytes": 12432,
+      "request_json_utf8_bytes": 12611,
+      "request_content_sha256": "8db27dafa1c9c8e29e0cf1f79b0ada6cbcebd72b1a133214679559239df99e51",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_152_1d4d49b1",
+      "style": "base",
+      "agent": "Bob",
+      "system_content_utf8_bytes": 8614,
+      "request_json_utf8_bytes": 8752,
+      "request_content_sha256": "590e7858c95e58be5db1bca3f3ecd5c709eb26298065b0b6fc77ed48c0731071",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_152_1d4d49b1",
+      "style": "protocol",
+      "agent": "Alice",
+      "system_content_utf8_bytes": 12863,
+      "request_json_utf8_bytes": 13052,
+      "request_content_sha256": "16d9ef0cdb2651a8d46c5a4b039e8c64538fcf9d8ea88d88c405c76bff234d3f",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    },
+    {
+      "record_id": "sample_152_1d4d49b1",
+      "style": "protocol",
+      "agent": "Bob",
+      "system_content_utf8_bytes": 9047,
+      "request_json_utf8_bytes": 9195,
+      "request_content_sha256": "ab839d1637f1c0f0adb56fb7777f199b18e6e5c7bda9332919a6b9005837316a",
+      "exact_model_tokens": null,
+      "token_count_status": "Pending_exact_deployed_template_tokenizer"
+    }
+  ],
+  "independent_environment": {
+    "python": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+    "available": {
+      "openai": true,
+      "httpx": true,
+      "transformers": false,
+      "tokenizers": false,
+      "sentencepiece": false,
+      "tiktoken": false,
+      "llama_cpp": false,
+      "gguf": false
+    }
+  },
+  "candidate_context_tokens": 32768,
+  "effective_context_verified": false,
+  "tokenizer_binding_verified": false,
+  "context_formula": "exact_tokens(deployed_chat_template(system + own_full_history + delivered_peer_visible_and_local_board_history)) + max_output_tokens <= effective_num_ctx; check each call, never trim",
+  "candidate_calls": {
+    "synthetic_preflight": 2,
+    "tasks": 96,
+    "total": 98
+  },
+  "candidate_max_output_tokens_per_call": 512,
+  "candidate_total_output_tokens_cap": 50176,
+  "candidate_total_prompt_tokens_cap": 3161088,
+  "prompt_cap_scope": "98*(32768-512), ceiling only, not measured tokens or runtime projection",
+  "candidate_wall_seconds": 6000,
+  "candidate_operation_timeout_seconds": 60,
+  "candidate_storage_bytes": 268435456,
+  "actual_model_diagnostic_authorized": false,
+  "budget_status": "conditional_proposal_not_executable_context_and_runtime_preflight_pending"
+}

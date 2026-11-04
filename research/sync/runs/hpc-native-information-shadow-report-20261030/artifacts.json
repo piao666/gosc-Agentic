@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-native-information-shadow-report-20261030",
+  "files": [
+    {
+      "path": "outputs/report.json",
+      "size": 2652,
+      "sha256": "b20f370420d4626dc1fe12780ba012dbf39ecbbf16cce589511013a7fba7ef55"
+    }
+  ]
+}

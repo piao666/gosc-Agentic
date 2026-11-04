@@ -1,0 +1,160 @@
+{
+  "at_utc": "2026-11-02T07:44:00.904376+00:00",
+  "scope": "Local file/hash evidence management, not scientific tests",
+  "frozen_sources_unchanged": 73,
+  "previous_reports_unchanged": true,
+  "original_gosc_package_metadata_unchanged": true,
+  "infrastructure_runs": [
+    {
+      "run_id": "hpc-masbench-repair-plan-20261102",
+      "seconds": 5.707142,
+      "exit_code": 0,
+      "manifest_sha256": "b096f7ac45c28847b98e3c11ab3d073a23d4291de97d10b639c241a28315736c"
+    },
+    {
+      "run_id": "hpc-masbench-dependencies-20261102",
+      "seconds": 4.198572,
+      "exit_code": 0,
+      "manifest_sha256": "af45aa7548a1fac75d6ffb75b85d2f467ff12b90d66aa1bc910a59c1b1f0deed"
+    },
+    {
+      "run_id": "hpc-masbench-download-probe-20261102",
+      "seconds": 2.740801,
+      "exit_code": 0,
+      "manifest_sha256": "d9266b2075ca8bd6e717980eb521fa3b0f7544e253bf69aa5a431032da3d0c96"
+    },
+    {
+      "run_id": "hpc-storage-reconcile-capacity-20261102",
+      "seconds": 0.131833,
+      "exit_code": 0,
+      "manifest_sha256": "95059fd7689f838f1ed2365ab1e0bb83b89a9690460456479d6fea4d6e58843c"
+    },
+    {
+      "run_id": "hpc-laya-authorized-cleanup-20261102",
+      "seconds": 0.150893,
+      "exit_code": 0,
+      "manifest_sha256": "80d8b07e733269665c3cd4b8291d8b1015f2d1892e63189608fa4ed5d0dfbf17"
+    },
+    {
+      "run_id": "hpc-authorized-installer-cleanup-20261102",
+      "seconds": 2.221767,
+      "exit_code": 0,
+      "manifest_sha256": "2ae8e73f833b03de5edc7de2170906f2b91972e47595d763e13494b6e3dd7857"
+    },
+    {
+      "run_id": "hpc-storage-capacity-after-cleanup-20261102",
+      "seconds": 9.050564,
+      "exit_code": 0,
+      "manifest_sha256": "4fecd88b27e148ac2177550d720d409dd324b6c3db18a9142a5eb2f921ac35b1"
+    },
+    {
+      "run_id": "hpc-masbench-model-restore-after-storage-retry1-20261102",
+      "seconds": 109.357746,
+      "exit_code": 0,
+      "manifest_sha256": "99eb05b10262bba2a000b5dd8afe2ee701fd06983125e549ebe71f6f2134d102"
+    },
+    {
+      "run_id": "hpc-masbench-environment-metadata-20261102",
+      "seconds": 3.443414,
+      "exit_code": 0,
+      "manifest_sha256": "e5e65ad925226c042bff45032eec19687b68695d96cd0b1d241397fe1e1bee70"
+    },
+    {
+      "run_id": "hpc-masbench-model-license-audit-20261102",
+      "seconds": 0.114711,
+      "exit_code": 0,
+      "manifest_sha256": "6a81851d027ba33b106e2bd52bfdd1fea93758ab0029f1d5e4f9f3545a27c8bd"
+    }
+  ],
+  "models_restored": [
+    "qwen2.5:3b",
+    "llama3.2:3b",
+    "qwen2.5:7b"
+  ],
+  "historical_model_manifest_identity_match": true,
+  "all_hpc_blob_hashes_verified": true,
+  "lock_sha256": "e19c53605a1a35579da2cfe20cd6b50324802ea1a9ef1b0c35426e6690b2197e",
+  "llm_calls": 0,
+  "sdk_metadata_listing_passed": true,
+  "controlled_failed_download_retained": {
+    "run_id": "hpc-masbench-model-restore-20261102",
+    "status": "failed",
+    "started_at": "2026-11-02T05:57:13.782592+00:00",
+    "finished_at": "2026-11-02T06:29:05.796682+00:00",
+    "exit_code": -15,
+    "pid": 5358,
+    "elapsed_seconds": 1912.014109,
+    "resource_usage": {
+      "child_max_rss_kib": 47312,
+      "child_cpu_user_seconds": 4.304869,
+      "child_cpu_system_seconds": 1.3807719999999999,
+      "peak_gpu_memory": null
+    },
+    "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+  },
+  "controlled_retry1_failure_retained": {
+    "run_id": "hpc-masbench-model-restore-retry1-20261102",
+    "status": "failed",
+    "started_at": "2026-11-02T06:31:15.077355+00:00",
+    "finished_at": "2026-11-02T06:46:19.782399+00:00",
+    "exit_code": -15,
+    "pid": 7267,
+    "elapsed_seconds": 904.705078,
+    "resource_usage": {
+      "child_max_rss_kib": 47408,
+      "child_cpu_user_seconds": 2.239985,
+      "child_cpu_system_seconds": 0.866528,
+      "peak_gpu_memory": null
+    },
+    "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+  },
+  "quota_retry2_failure_reconciled": {
+    "run_id": "hpc-masbench-model-restore-retry2-20261102",
+    "status": "failed",
+    "started_at": "2026-11-02T06:47:39.142909+00:00",
+    "finished_at": null,
+    "exit_code": null,
+    "pid": 8900,
+    "reconciled_at": "2026-11-02T07:04:53.108631+00:00",
+    "error": "EDQUOT prevented artifacts/status finalization; child is absent; exact exit/end unavailable"
+  },
+  "after_storage_controlled_failure_retained": {
+    "run_id": "hpc-masbench-model-restore-after-storage-20261102",
+    "status": "failed",
+    "started_at": "2026-11-02T07:18:06.751479+00:00",
+    "finished_at": "2026-11-02T07:27:15.442285+00:00",
+    "exit_code": -15,
+    "pid": 13141,
+    "elapsed_seconds": 548.690826,
+    "resource_usage": {
+      "child_max_rss_kib": 47300,
+      "child_cpu_user_seconds": 1.531825,
+      "child_cpu_system_seconds": 0.573713,
+      "peak_gpu_memory": null
+    },
+    "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+  },
+  "unique_license_layers_verified": 4,
+  "old_ambiguous_license_output_preserved": true,
+  "final_receipt": "research\\sync\\receipts\\20261102T074010Z-67b8fc.json",
+  "all_outputs_mirrored": true,
+  "authorized_cleanup_runs": [
+    "hpc-storage-reconcile-capacity-20261102",
+    "hpc-laya-authorized-cleanup-20261102",
+    "hpc-authorized-installer-cleanup-20261102"
+  ],
+  "new_scientific_runs": [],
+  "training": false,
+  "git_commit_or_push": false,
+  "documents_sha256": {
+    "research\\benchmarks\\masbench_reasoning_adapter_spec_v1.md": "f0ea6fbf74f641b236dea277740be3411b009cabf5549a518501a45afa780219",
+    "research\\benchmarks\\masbench_reasoning_feasibility_review.md": "60ab42e49d364dbf2d89cf2db1870fdcfcf6c0dbcb82365730b0d61890406430",
+    "research\\benchmarks\\masbench_reasoning_gate_matrix.md": "5a24c4856f3defdf5719fec9914d3fc84819c7238df7baf893a3d58060ea49fd",
+    "research\\benchmarks\\masbench_reasoning_environment_v1.md": "e9651700142d5b2fc59dc140771c77c0be3a94e6ca3f032fc8f56593c22b99fd",
+    "research\\logs\\masbench-environment-repair-2026-11-02\\report.md": "3701499ca41ebf5b282f799872c87c7f9dda37579ef48472a4b72f498519b929",
+    "research\\logs\\masbench-environment-repair-2026-11-02\\storage_blockage.md": "cb77a23c856ffd8a2d7ee4d9d91ea62a81fb1a2eada045b09428c28c6dddaf8f",
+    "research\\logs\\masbench-environment-repair-2026-11-02\\task_brief.md": "f25fa3589887bdd861b0499895f09b29e52b70ccfcea4638f99ce3d939f6c2b0",
+    "research\\logs\\masbench-environment-repair-2026-11-02\\task_log.md": "942f4f18df197886baadbc4abe3e90964ea31bfc2315acf77a724085f35bc33b"
+  },
+  "earlier_timeout_inventory_sha256": "890366e98c2466fcd21431d54d5c2e0003e9fd75f7467f4e57b91239b1307be6"
+}

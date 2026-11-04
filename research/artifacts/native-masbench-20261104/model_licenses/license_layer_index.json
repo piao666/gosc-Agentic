@@ -1,0 +1,32 @@
+{
+  "source_run": "hpc-masbench-model-restore-after-storage-retry1-20261102",
+  "license_layers": [
+    {
+      "model": "qwen2.5:3b",
+      "path": "qwen2.5_3b.b5c0e5cf74cf.license.txt",
+      "sha256": "b5c0e5cf74cf51af1ecbc4af597cfcd13fd9925611838884a681070838a14a50",
+      "bytes": 7387
+    },
+    {
+      "model": "llama3.2:3b",
+      "path": "llama3.2_3b.fcc5a6bec9da.license.txt",
+      "sha256": "fcc5a6bec9daf9b561a68827b67ab6088e1dba9d1fa2a50d7bbcc8384e0a265d",
+      "bytes": 7711
+    },
+    {
+      "model": "llama3.2:3b",
+      "path": "llama3.2_3b.a70ff7e570d9.license.txt",
+      "sha256": "a70ff7e570d97baaf4e62ac6e6ad9975e04caa6d900d3742d37698494479e0cd",
+      "bytes": 6016
+    },
+    {
+      "model": "qwen2.5:7b",
+      "path": "qwen2.5_7b.832dd9e00a68.license.txt",
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "bytes": 11343
+    }
+  ],
+  "note": "Original models_ready.licenses used one filename per model; Llama has multiple license layers. Preserve that original output and use this unique-layer index instead.",
+  "license_applicability_review": "Pending; layer archival is not legal approval",
+  "inference_requested": false
+}

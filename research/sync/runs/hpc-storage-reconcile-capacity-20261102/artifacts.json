@@ -1,0 +1,25 @@
+{
+  "run_id": "hpc-storage-reconcile-capacity-20261102",
+  "files": [
+    {
+      "path": "outputs/capacity_after_cleanup.json",
+      "size": 300,
+      "sha256": "c9aec7988086845fef72d6c8c1958dd2352018b1f202399f20cc5f88af3fe8eb"
+    },
+    {
+      "path": "outputs/cleanup_after.json",
+      "size": 858,
+      "sha256": "feb44e056f12df8091c0822c2dfac3c3a83ac5fc121c61c41d60fc60382546bd"
+    },
+    {
+      "path": "outputs/cleanup_before.json",
+      "size": 428,
+      "sha256": "74f335e71e0579c49d298d1bdec8c40317abbb798c93bd68fe3744859c58fd5b"
+    },
+    {
+      "path": "outputs/retry2_status_before.json",
+      "size": 195,
+      "sha256": "7aa4e1b7a30dde4e34bf2dada9cec4f9bfd1a7bb74e744716e0c1aef58521d87"
+    }
+  ]
+}

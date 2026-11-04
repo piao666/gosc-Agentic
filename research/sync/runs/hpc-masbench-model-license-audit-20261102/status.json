@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-model-license-audit-20261102",
+  "status": "completed",
+  "started_at": "2026-11-02T07:39:15.163069+00:00",
+  "finished_at": "2026-11-02T07:39:15.277769+00:00",
+  "exit_code": 0,
+  "pid": 15755,
+  "elapsed_seconds": 0.114711,
+  "resource_usage": {
+    "child_max_rss_kib": 47468,
+    "child_cpu_user_seconds": 0.273177,
+    "child_cpu_system_seconds": 0.209332,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

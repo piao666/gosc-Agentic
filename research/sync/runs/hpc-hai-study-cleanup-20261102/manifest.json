@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "run_id": "hpc-hai-study-cleanup-20261102",
+  "kind": "infrastructure",
+  "stage": "AUTHORIZED-STORAGE-CLEANUP",
+  "purpose": "Failed to write initial manifest due to EDQUOT; deletion was not launched",
+  "created_at": null,
+  "reconciled_at": "2026-11-02T07:04:53.108631+00:00",
+  "command_source": "cleanup_hai_study.py; original local invocation retained",
+  "execution_host": "n1",
+  "git_commit": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf"
+}

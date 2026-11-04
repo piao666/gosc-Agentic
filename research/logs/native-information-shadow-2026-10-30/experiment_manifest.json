@@ -1,0 +1,313 @@
+{
+  "protocol": "Native-Information-Shadow-v1",
+  "date": "2026-10-30",
+  "user_authorization": "运行最小Shadow机制诊断",
+  "historical_plan_unchanged": true,
+  "frozen_path": "research/sync/runs/hpc-native-information-freeze-20261030/outputs/frozen.json",
+  "frozen_sha256": "656185273034b13734cbe6b3caf8555f94e8870ab48060bfca76b9f25296f21e",
+  "config_sha256": "eaafcc6b31f1ded6d8069f2c25080c17e7c4ae111dd3b478c1f1cc42199af5de",
+  "authorization_path": "research/protocols/native_information_shadow_authorization_2026-10-30.json",
+  "authorization_sha256": "e492e41d357323b21c34ade893b58dd5d52969231f745861eef37d8090c12667",
+  "final_contract_run": "hpc-native-information-regression-v2-20261030",
+  "final_contract_passed": 519,
+  "frozen_scientific_source_unchanged": true,
+  "accepted_documents_unchanged": true,
+  "limits": {
+    "hard_timeout_seconds": 120,
+    "output_cap_bytes": 33554432,
+    "max_snapshots": 96,
+    "worlds": [
+      27000000,
+      27000001
+    ],
+    "steps": 24,
+    "workers": 1,
+    "numeric_threads": 1
+  },
+  "runs": [
+    {
+      "run_id": "hpc-native-information-freeze-20261030",
+      "status": {
+        "run_id": "hpc-native-information-freeze-20261030",
+        "status": "completed",
+        "started_at": "2026-10-30T08:41:42.431210+00:00",
+        "finished_at": "2026-10-30T08:41:42.533217+00:00",
+        "exit_code": 0,
+        "pid": 14794,
+        "elapsed_seconds": 0.102029,
+        "resource_usage": {
+          "child_max_rss_kib": 47384,
+          "child_cpu_user_seconds": 0.309621,
+          "child_cpu_system_seconds": 0.155559,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "manifest": "research/sync/runs/hpc-native-information-freeze-20261030/manifest.json",
+      "source_snapshot": "research/sync/runs/hpc-native-information-freeze-20261030/source_snapshot.json",
+      "command": [
+        "timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "60s",
+        "env",
+        "OMP_NUM_THREADS=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "MKL_NUM_THREADS=1",
+        "NUMEXPR_NUM_THREADS=1",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/repro_native_information_shadow.py",
+        "--mode",
+        "prepare",
+        "--contracts-run",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-native-information-regression-v2-20261030"
+      ],
+      "execution_host": "n1",
+      "project_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+      "git_commit": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+      "working_tree_dirty": true,
+      "source_sync_id": "20261030T084045Z",
+      "source_manifest_sha256": "f9fc79ef536b1e8e85a79bc2cf64a726ecec9ef0a1b41b70821526ef6a124a1c",
+      "python_executable": "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "resource_limits": {
+        "cpu_quota": "200000",
+        "cpu_period": "100000",
+        "cpuset": "0-1",
+        "memory_bytes": "25769803776",
+        "gpu_settings": {
+          "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+          "CUDA_DEVICE_SM_LIMIT": "75"
+        }
+      },
+      "seeds": [],
+      "models": [],
+      "cache_mode": "not_applicable",
+      "receipt": "research/sync/receipts/20261030T084147Z-875d34.json",
+      "all_outputs_mirrored": true
+    },
+    {
+      "run_id": "hpc-native-information-shadow-20261030",
+      "status": {
+        "run_id": "hpc-native-information-shadow-20261030",
+        "status": "completed",
+        "started_at": "2026-10-30T08:45:43.903416+00:00",
+        "finished_at": "2026-10-30T08:45:49.584553+00:00",
+        "exit_code": 0,
+        "pid": 15220,
+        "elapsed_seconds": 5.681158,
+        "resource_usage": {
+          "child_max_rss_kib": 82736,
+          "child_cpu_user_seconds": 5.784099,
+          "child_cpu_system_seconds": 0.24867499999999998,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "manifest": "research/sync/runs/hpc-native-information-shadow-20261030/manifest.json",
+      "source_snapshot": "research/sync/runs/hpc-native-information-shadow-20261030/source_snapshot.json",
+      "command": [
+        "timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "125s",
+        "env",
+        "OMP_NUM_THREADS=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "MKL_NUM_THREADS=1",
+        "NUMEXPR_NUM_THREADS=1",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/repro_native_information_shadow.py",
+        "--mode",
+        "run",
+        "--frozen",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-native-information-freeze-20261030/outputs/frozen.json",
+        "--authorization",
+        "research/protocols/native_information_shadow_authorization_2026-10-30.json"
+      ],
+      "execution_host": "n1",
+      "project_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+      "git_commit": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+      "working_tree_dirty": true,
+      "source_sync_id": "20261030T084431Z",
+      "source_manifest_sha256": "6c8a4c898b52a93219556b1fdac6518ae0494498583ae269310175d3f6104646",
+      "python_executable": "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "resource_limits": {
+        "cpu_quota": "200000",
+        "cpu_period": "100000",
+        "cpuset": "0-1",
+        "memory_bytes": "25769803776",
+        "gpu_settings": {
+          "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+          "CUDA_DEVICE_SM_LIMIT": "75"
+        }
+      },
+      "seeds": [
+        27000000,
+        27000001
+      ],
+      "models": [],
+      "cache_mode": "not_applicable",
+      "receipt": "research/sync/receipts/20261030T084554Z-35b09b.json",
+      "all_outputs_mirrored": true
+    },
+    {
+      "run_id": "hpc-native-information-shadow-report-20261030",
+      "status": {
+        "run_id": "hpc-native-information-shadow-report-20261030",
+        "status": "completed",
+        "started_at": "2026-10-30T08:51:06.371744+00:00",
+        "finished_at": "2026-10-30T08:51:06.466718+00:00",
+        "exit_code": 0,
+        "pid": 15888,
+        "elapsed_seconds": 0.094997,
+        "resource_usage": {
+          "child_max_rss_kib": 47440,
+          "child_cpu_user_seconds": 0.292388,
+          "child_cpu_system_seconds": 0.171289,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "manifest": "research/sync/runs/hpc-native-information-shadow-report-20261030/manifest.json",
+      "source_snapshot": "research/sync/runs/hpc-native-information-shadow-report-20261030/source_snapshot.json",
+      "command": [
+        "timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "30s",
+        "env",
+        "OMP_NUM_THREADS=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "MKL_NUM_THREADS=1",
+        "NUMEXPR_NUM_THREADS=1",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/summarize_native_information_shadow.py",
+        "--input-run",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-native-information-shadow-20261030"
+      ],
+      "execution_host": "n1",
+      "project_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+      "git_commit": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+      "working_tree_dirty": true,
+      "source_sync_id": "20261030T085004Z",
+      "source_manifest_sha256": "f3fd50317f060dbd2c92fde6ab3f9ff678cbfc0fb49ed14f50e28167c377e78e",
+      "python_executable": "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "resource_limits": {
+        "cpu_quota": "200000",
+        "cpu_period": "100000",
+        "cpuset": "0-1",
+        "memory_bytes": "25769803776",
+        "gpu_settings": {
+          "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+          "CUDA_DEVICE_SM_LIMIT": "75"
+        }
+      },
+      "seeds": [],
+      "models": [],
+      "cache_mode": "not_applicable",
+      "receipt": "research/sync/receipts/20261030T085115Z-62116f.json",
+      "all_outputs_mirrored": true
+    }
+  ],
+  "hpc_descriptive_report": "research/sync/runs/hpc-native-information-shadow-report-20261030/outputs/report.json",
+  "hpc_report_sha256": "b20f370420d4626dc1fe12780ba012dbf39ecbbf16cce589511013a7fba7ef55",
+  "result": {
+    "input_run": "hpc-native-information-shadow-20261030",
+    "input_summary_sha256": "fe36d68fb4914a029706d8ba1b2f56f1b343e9012f8984e8c64f62338665d216",
+    "input_audit_sha256": "f1d5fb01969e557be75da417663d866f0a9e9a8c4bbfe40fd6b788adb09492f8",
+    "mechanism_status": "No-Go_content_route_within_diagnostic_scope",
+    "scope": "Finite price grid, raw G0/G1 common units, no arbitrary-price exclusion or calibrated cross-ToM superiority",
+    "cost_status": "Pending_full_cost_inference_not_established",
+    "worlds": [
+      {
+        "world": 27000000,
+        "snapshots": 41,
+        "multi_prefix_snapshots": 35,
+        "nonproportional_snapshots": 35,
+        "witness_snapshots": 0,
+        "comparisons": 246,
+        "g0_g1_categories": {
+          "same_evid": 234,
+          "rate": 8,
+          "on_off": 4
+        },
+        "control_unexplained_comparisons": 0,
+        "robust_flip_pair_price_counts": {
+          "net": 4
+        },
+        "content_witnesses_by_price": {
+          "0.0": 0,
+          "2.5e-05": 0,
+          "5e-05": 0,
+          "0.0001": 0,
+          "0.0002": 0,
+          "0.0004": 0
+        },
+        "first_witness_in_input_price_order": null
+      },
+      {
+        "world": 27000001,
+        "snapshots": 41,
+        "multi_prefix_snapshots": 34,
+        "nonproportional_snapshots": 34,
+        "witness_snapshots": 0,
+        "comparisons": 246,
+        "g0_g1_categories": {
+          "same_evid": 233,
+          "rate": 8,
+          "on_off": 5
+        },
+        "control_unexplained_comparisons": 0,
+        "robust_flip_pair_price_counts": {},
+        "content_witnesses_by_price": {
+          "0.0": 0,
+          "2.5e-05": 0,
+          "5e-05": 0,
+          "0.0001": 0,
+          "0.0002": 0,
+          "0.0004": 0
+        },
+        "first_witness_in_input_price_order": null
+      }
+    ],
+    "efficacy_N": 0,
+    "formal_test": false,
+    "training": false,
+    "next_stage_authorized": false,
+    "scientific_status": "No-Go retained; no task-utility or publishability claim",
+    "replay_timing": {
+      "public": {
+        "snapshot_count": 82,
+        "median_of_snapshot_hot_medians_process_ns": 1877077.0,
+        "median_cold_first_process_ns": 1894428.5
+      },
+      "g0": {
+        "snapshot_count": 82,
+        "median_of_snapshot_hot_medians_process_ns": 1348253.5,
+        "median_cold_first_process_ns": 1367577.5
+      },
+      "g1": {
+        "snapshot_count": 82,
+        "median_of_snapshot_hot_medians_process_ns": 1472194.5,
+        "median_cold_first_process_ns": 1480061.5
+      }
+    },
+    "timing_scope": "Descriptive replay restore+native candidate/TeamModel/wire+BF total process time; not deployment queue timing or stable hardware savings; snapshots correlated, no inferential CI",
+    "raw_output_bytes": 18442040
+  },
+  "audit": {
+    "status": "passed",
+    "checked_snapshots": 82,
+    "scope": "Independent scalar arithmetic and integer/member/wire constraints; existing BF and production ranking logic additionally replayed, not an independent optimizer",
+    "deterministic_host_capture_coverage_checked": true,
+    "efficacy_N": 0,
+    "scientific_status": "Original No-Go retained"
+  },
+  "report": "research/reports/native_information_shadow_results_2026-10-30.md",
+  "next_action": "Stop current G1 content route; candidate-generation/task-fit static review requires a separate research decision. No automatic compute.",
+  "new_scientific_source_changes": false,
+  "efficacy_N": 0,
+  "formal_test": false,
+  "training": false,
+  "git_commit_or_push": false
+}

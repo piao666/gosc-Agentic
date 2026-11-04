@@ -1,0 +1,137 @@
+{
+  "final_test_run": "hpc-native-information-regression-v2-20261030",
+  "scientific_status": "Original No-Go retained",
+  "engineering_status": "HPC contract checks passed within tested scope",
+  "runs": [
+    {
+      "tests": 31,
+      "run_id": "hpc-native-information-contract-20261030",
+      "skipped": 0,
+      "exit_code": 0,
+      "junit_sha256": "a50bd4cb7ba964091fa8269be4ead3e8ce0b047db41b365501697753bd5dc870",
+      "status": "completed",
+      "failures": 0,
+      "native_information_cases": 31,
+      "source_sync_id": "20261030T082040Z",
+      "errors": 0,
+      "resource_usage": {
+        "child_max_rss_kib": 50544,
+        "child_cpu_user_seconds": 4.082883,
+        "child_cpu_system_seconds": 1.920523,
+        "peak_gpu_memory": null
+      },
+      "git_commit": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+      "python": "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "elapsed_seconds": 1.126562,
+      "execution_host": "n1",
+      "source_manifest_sha256": "9c33f80a59d0a243a6e10cc7a22b9b55635e0e67406451e0b58c33a1545c9e67"
+    },
+    {
+      "tests": 516,
+      "run_id": "hpc-native-information-regression-20261030",
+      "skipped": 0,
+      "exit_code": 0,
+      "junit_sha256": "e1e5c220d9b9de680325146a864f18677125528e6467f8310788b571a93df174",
+      "status": "completed",
+      "failures": 0,
+      "native_information_cases": 31,
+      "source_sync_id": "20261030T082338Z",
+      "errors": 0,
+      "resource_usage": {
+        "child_max_rss_kib": 87756,
+        "child_cpu_user_seconds": 47.822485,
+        "child_cpu_system_seconds": 1.10296,
+        "peak_gpu_memory": null
+      },
+      "git_commit": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+      "python": "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "elapsed_seconds": 51.379726,
+      "execution_host": "n1",
+      "source_manifest_sha256": "b8da4bcde79fd91acfdf04e98f42626ff753759a684cad80147da15940dc29bd"
+    },
+    {
+      "tests": 519,
+      "run_id": "hpc-native-information-regression-v2-20261030",
+      "skipped": 0,
+      "exit_code": 0,
+      "junit_sha256": "7201378539f5a911feb2c7c876fe72ff7426351da1804653f712c912fd8d5d7c",
+      "status": "completed",
+      "failures": 0,
+      "native_information_cases": 34,
+      "source_sync_id": "20261030T082704Z",
+      "errors": 0,
+      "resource_usage": {
+        "child_max_rss_kib": 85660,
+        "child_cpu_user_seconds": 47.927687,
+        "child_cpu_system_seconds": 1.002417,
+        "peak_gpu_memory": null
+      },
+      "git_commit": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+      "python": "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "elapsed_seconds": 50.96693,
+      "execution_host": "n1",
+      "source_manifest_sha256": "2bb73a528bf7ccc328bfecb20438e021ea4621d410a4edc62fa9ce1638bdb01f"
+    }
+  ],
+  "efficacy_N": 0,
+  "shadow_campaign_run": false,
+  "prepare_run": false,
+  "source_bindings": [
+    {
+      "tested_remote_sha256": "3336373f271f9715a5ba1dc009c7728b66b938c9fa51deeea0fb5f52da8a7641",
+      "path": "extensions/native_information_value.py",
+      "current_lf_sha256": "3336373f271f9715a5ba1dc009c7728b66b938c9fa51deeea0fb5f52da8a7641",
+      "matches_tested_source": true
+    },
+    {
+      "tested_remote_sha256": "249695390bf074b2f7b61aa2be3a2379e055a37dc7f7982a58e1b14cdd38123b",
+      "path": "extensions/native_information_observer.py",
+      "current_lf_sha256": "249695390bf074b2f7b61aa2be3a2379e055a37dc7f7982a58e1b14cdd38123b",
+      "matches_tested_source": true
+    },
+    {
+      "tested_remote_sha256": "21f816e7b28ea87ce4e59e9236fe2aec2fb88d547f8035c4c6c13d93b40cf707",
+      "path": "extensions/native_information_shadow.py",
+      "current_lf_sha256": "21f816e7b28ea87ce4e59e9236fe2aec2fb88d547f8035c4c6c13d93b40cf707",
+      "matches_tested_source": true
+    },
+    {
+      "tested_remote_sha256": "7eca7264438019a93ea9c5b1db345cfcbe66ea0eea4453a0edf233854b171b40",
+      "path": "scripts/repro_native_information_shadow.py",
+      "current_lf_sha256": "7eca7264438019a93ea9c5b1db345cfcbe66ea0eea4453a0edf233854b171b40",
+      "matches_tested_source": true
+    },
+    {
+      "tested_remote_sha256": "d5c568e932564d282cead6bb8cf39f1fae5e399131ba3ed83e324d9a421e32a6",
+      "path": "scripts/audit_native_information_shadow.py",
+      "current_lf_sha256": "d5c568e932564d282cead6bb8cf39f1fae5e399131ba3ed83e324d9a421e32a6",
+      "matches_tested_source": true
+    },
+    {
+      "tested_remote_sha256": "3182f6fc04e547d6ba35c3cbb21b33ca70501e927183023bc48b82e43168d626",
+      "path": "tests_ext/test_native_information_shadow.py",
+      "current_lf_sha256": "3182f6fc04e547d6ba35c3cbb21b33ca70501e927183023bc48b82e43168d626",
+      "matches_tested_source": true
+    },
+    {
+      "tested_remote_sha256": "eaafcc6b31f1ded6d8069f2c25080c17e7c4ae111dd3b478c1f1cc42199af5de",
+      "path": "research/protocols/native_information_shadow_v1.json",
+      "current_lf_sha256": "eaafcc6b31f1ded6d8069f2c25080c17e7c4ae111dd3b478c1f1cc42199af5de",
+      "matches_tested_source": true
+    },
+    {
+      "tested_remote_sha256": "4e961bd8b3f7ac41064c796d70f719fec39e0ad8145db93e80afda1a5d4db125",
+      "path": "research/protocols/native_information_value_spec_v1.md",
+      "current_lf_sha256": "4e961bd8b3f7ac41064c796d70f719fec39e0ad8145db93e80afda1a5d4db125",
+      "matches_tested_source": true
+    }
+  ],
+  "all_outputs_mirrored": true,
+  "formal_test": false,
+  "training": false,
+  "date": "2026-10-30",
+  "authorization": "Human authorized HPC engineering contract checks only",
+  "diagnostic_execution_authorized": false,
+  "base_commit": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "receipt": "research/sync/receipts/20261030T082923Z-bd7a09.json"
+}

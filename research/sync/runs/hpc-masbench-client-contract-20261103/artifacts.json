@@ -1,0 +1,20 @@
+{
+  "run_id": "hpc-masbench-client-contract-20261103",
+  "files": [
+    {
+      "path": "outputs/client_contract_acceptance.json",
+      "size": 932,
+      "sha256": "466d77ca6a317b8fd9e8860da208aeebe00624ff265f586b49abf36d58d53a89"
+    },
+    {
+      "path": "outputs/contracts.xml",
+      "size": 18995,
+      "sha256": "a19390e23c2db15508aa935cd840ccc110955c7ee9da7583e8d149578e9b0474"
+    },
+    {
+      "path": "outputs/synthetic_client_audit.json",
+      "size": 1543,
+      "sha256": "74ca60a0fe963a3a6b96e544fd2fa5c94f1875f0d5c5485d6e13d32deebc5057"
+    }
+  ]
+}

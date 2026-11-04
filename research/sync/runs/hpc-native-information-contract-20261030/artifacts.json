@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-native-information-contract-20261030",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 4960,
+      "sha256": "a50bd4cb7ba964091fa8269be4ead3e8ce0b047db41b365501697753bd5dc870"
+    }
+  ]
+}

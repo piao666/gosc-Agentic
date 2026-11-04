@@ -1,0 +1,105 @@
+{
+  "run_id": "hpc-masbench-dependencies-20261102",
+  "files": [
+    {
+      "path": "outputs/compile_lock.command.json",
+      "size": 558,
+      "sha256": "b2f420371ca9ae3abaee3e222b65bb3665c18c5d5cb4c8471007c35f123a6471"
+    },
+    {
+      "path": "outputs/compile_lock.stderr",
+      "size": 30,
+      "sha256": "e467e07a2b8af5eef06bac546eeade427d488ceb825cd20ab321c340a161f6b9"
+    },
+    {
+      "path": "outputs/compile_lock.stdout",
+      "size": 41221,
+      "sha256": "e19c53605a1a35579da2cfe20cd6b50324802ea1a9ef1b0c35426e6690b2197e"
+    },
+    {
+      "path": "outputs/create_venv.command.json",
+      "size": 267,
+      "sha256": "7f964696ac3fa2056cb3410add2ba9bec794a44f8d43cd7b33c4a471e6f7a084"
+    },
+    {
+      "path": "outputs/create_venv.stderr",
+      "size": 191,
+      "sha256": "4c1e7209b639beb033ac329c5335d1c3abe5d131b3c6516e9d78b40da8bed110"
+    },
+    {
+      "path": "outputs/create_venv.stdout",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/dependencies_ready.json",
+      "size": 1935,
+      "sha256": "67db558c325c0a3ba4e3b44a7732a44d61e255482c9d15a70ee0e47810dad41c"
+    },
+    {
+      "path": "outputs/dependency_check.command.json",
+      "size": 221,
+      "sha256": "0c7c50b4488e36642d98f563a1a3613e7d8ed1566e3147ef14c56298c84bf53a"
+    },
+    {
+      "path": "outputs/dependency_check.stderr",
+      "size": 137,
+      "sha256": "dc2d0d086b23ed9e545f3b525e6f0298ef55522bb59d1f1d7de4f3613ae6004d"
+    },
+    {
+      "path": "outputs/dependency_check.stdout",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/imports.command.json",
+      "size": 526,
+      "sha256": "fd51e3155979676bcb6d87ddef3ea1b1256ff27bd8608a74e3904f4b1695d160"
+    },
+    {
+      "path": "outputs/imports.stderr",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/imports.stdout",
+      "size": 667,
+      "sha256": "46045badc35e555ee35b206d81a05c082a6374e661ee058e29ee17555bc6af1b"
+    },
+    {
+      "path": "outputs/install_locked.command.json",
+      "size": 430,
+      "sha256": "4add81d11b19f3a10027bc937430014febc88f40ca7ead9f1c2f2449791d0a0c"
+    },
+    {
+      "path": "outputs/install_locked.stderr",
+      "size": 633,
+      "sha256": "f58273a3ece2525383b9904349547db62602476bb14039d6a970cc6036417b0f"
+    },
+    {
+      "path": "outputs/install_locked.stdout",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/requirements-reasoning-linux.lock.txt",
+      "size": 41221,
+      "sha256": "e19c53605a1a35579da2cfe20cd6b50324802ea1a9ef1b0c35426e6690b2197e"
+    },
+    {
+      "path": "outputs/uv_version.command.json",
+      "size": 101,
+      "sha256": "5692b73376f717b4ba84be6da83d016e0a13620e0d454e97fd315738cd0c0597"
+    },
+    {
+      "path": "outputs/uv_version.stderr",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/uv_version.stdout",
+      "size": 38,
+      "sha256": "ecdf9e09c74c34d71e148152037813058360ec45c9ba94ff0e1d1b29b75e0b81"
+    }
+  ]
+}

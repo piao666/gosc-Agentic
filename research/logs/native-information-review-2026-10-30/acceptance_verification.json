@@ -1,0 +1,22 @@
+{
+  "protected_source_diff_exit_code": 0,
+  "shadow_execution_authorized": false,
+  "accepted_documents": [
+    {
+      "path": "research/protocols/native_information_value_spec_v1.md",
+      "sha256": "4e961bd8b3f7ac41064c796d70f719fec39e0ad8145db93e80afda1a5d4db125",
+      "unchanged": true
+    },
+    {
+      "path": "research/reports/native_information_feasibility_review_2026-10-30.md",
+      "sha256": "7d2eee3d88faefa1d40ac930ffa01c673febfadce55006359b00fe16e4c8131b",
+      "unchanged": true
+    }
+  ],
+  "project_status_json_parsed": true,
+  "missing_acceptance_links": [],
+  "scope": "User acceptance and progress metadata only",
+  "diff_check_exit_code": 0,
+  "new_scientific_runs": false,
+  "date": "2026-10-30"
+}

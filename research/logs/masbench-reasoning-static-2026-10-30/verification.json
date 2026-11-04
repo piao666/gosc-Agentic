@@ -1,0 +1,21 @@
+{
+  "scope": "Local file/Git/JSON/link management, not project tests or scientific data analysis",
+  "baseline_head": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "frozen_scientific_file_count": 73,
+  "frozen_source_mismatches": [],
+  "protected_previous_evidence_changes": [],
+  "external_source_files_metadata_matched": 13,
+  "data_body_or_record_count_verified": false,
+  "model_capability_verified": false,
+  "missing_local_links": [],
+  "trailing_whitespace": [],
+  "git_diff_check_exit_code": 0,
+  "protected_tracked_source_diff_exit_code": 0,
+  "new_tests_run": false,
+  "new_scientific_runs": [],
+  "reports": [
+    "research/benchmarks/masbench_reasoning_adapter_spec_v1.md",
+    "research/benchmarks/masbench_reasoning_feasibility_review.md",
+    "research/benchmarks/masbench_reasoning_gate_matrix.md"
+  ]
+}

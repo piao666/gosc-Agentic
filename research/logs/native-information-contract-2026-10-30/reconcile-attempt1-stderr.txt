@@ -1,0 +1,2 @@
+From /tmp/gosc-native-contract-20261030.bundle
+ * [new branch]      research/progress-audit-2026-10-19 -> refs/gosc-transfer/native-contract-20261030

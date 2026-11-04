@@ -1,0 +1,189 @@
+{
+  "models": {
+    "qwen2.5:3b": {
+      "manifest_sha256": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "manifest_path": "/home/u202520081000097/jupyterlab/models/ollama-gosc/manifests/registry.ollama.ai/library/qwen2.5/3b"
+    },
+    "llama3.2:3b": {
+      "manifest_sha256": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+      "manifest_path": "/home/u202520081000097/jupyterlab/models/ollama-gosc/manifests/registry.ollama.ai/library/llama3.2/3b"
+    },
+    "qwen2.5:7b": {
+      "manifest_sha256": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "manifest_path": "/home/u202520081000097/jupyterlab/models/ollama-gosc/manifests/registry.ollama.ai/library/qwen2.5/7b"
+    }
+  },
+  "blobs": {
+    "sha256:161ddde4c9cd07c9f1ccb4e0167c434bce72caeb3fc1844262fa66bc877b0426": {
+      "mediaType": "application/vnd.docker.container.image.v1+json",
+      "digest": "sha256:161ddde4c9cd07c9f1ccb4e0167c434bce72caeb3fc1844262fa66bc877b0426",
+      "size": 487,
+      "verified_sha256": "161ddde4c9cd07c9f1ccb4e0167c434bce72caeb3fc1844262fa66bc877b0426"
+    },
+    "sha256:5ee4f07cdb9beadbbb293e85803c569b01bd37ed059d2715faa7bb405f31caa6": {
+      "mediaType": "application/vnd.ollama.image.model",
+      "digest": "sha256:5ee4f07cdb9beadbbb293e85803c569b01bd37ed059d2715faa7bb405f31caa6",
+      "size": 1929903008,
+      "verified_sha256": "5ee4f07cdb9beadbbb293e85803c569b01bd37ed059d2715faa7bb405f31caa6"
+    },
+    "sha256:66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e": {
+      "mediaType": "application/vnd.ollama.image.system",
+      "digest": "sha256:66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+      "size": 68,
+      "verified_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e"
+    },
+    "sha256:eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175": {
+      "mediaType": "application/vnd.ollama.image.template",
+      "digest": "sha256:eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175",
+      "size": 1482,
+      "verified_sha256": "eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175"
+    },
+    "sha256:b5c0e5cf74cf51af1ecbc4af597cfcd13fd9925611838884a681070838a14a50": {
+      "mediaType": "application/vnd.ollama.image.license",
+      "digest": "sha256:b5c0e5cf74cf51af1ecbc4af597cfcd13fd9925611838884a681070838a14a50",
+      "size": 7387,
+      "verified_sha256": "b5c0e5cf74cf51af1ecbc4af597cfcd13fd9925611838884a681070838a14a50"
+    },
+    "sha256:34bb5ab01051a11372a91f95f3fbbc51173eed8e7f13ec395b9ae9b8bd0e242b": {
+      "mediaType": "application/vnd.docker.container.image.v1+json",
+      "digest": "sha256:34bb5ab01051a11372a91f95f3fbbc51173eed8e7f13ec395b9ae9b8bd0e242b",
+      "size": 561,
+      "verified_sha256": "34bb5ab01051a11372a91f95f3fbbc51173eed8e7f13ec395b9ae9b8bd0e242b"
+    },
+    "sha256:dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff": {
+      "mediaType": "application/vnd.ollama.image.model",
+      "digest": "sha256:dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff",
+      "size": 2019377376,
+      "verified_sha256": "dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff"
+    },
+    "sha256:966de95ca8a62200913e3f8bfbf84c8494536f1b94b49166851e76644e966396": {
+      "mediaType": "application/vnd.ollama.image.template",
+      "digest": "sha256:966de95ca8a62200913e3f8bfbf84c8494536f1b94b49166851e76644e966396",
+      "size": 1429,
+      "verified_sha256": "966de95ca8a62200913e3f8bfbf84c8494536f1b94b49166851e76644e966396"
+    },
+    "sha256:fcc5a6bec9daf9b561a68827b67ab6088e1dba9d1fa2a50d7bbcc8384e0a265d": {
+      "mediaType": "application/vnd.ollama.image.license",
+      "digest": "sha256:fcc5a6bec9daf9b561a68827b67ab6088e1dba9d1fa2a50d7bbcc8384e0a265d",
+      "size": 7711,
+      "verified_sha256": "fcc5a6bec9daf9b561a68827b67ab6088e1dba9d1fa2a50d7bbcc8384e0a265d"
+    },
+    "sha256:a70ff7e570d97baaf4e62ac6e6ad9975e04caa6d900d3742d37698494479e0cd": {
+      "mediaType": "application/vnd.ollama.image.license",
+      "digest": "sha256:a70ff7e570d97baaf4e62ac6e6ad9975e04caa6d900d3742d37698494479e0cd",
+      "size": 6016,
+      "verified_sha256": "a70ff7e570d97baaf4e62ac6e6ad9975e04caa6d900d3742d37698494479e0cd"
+    },
+    "sha256:56bb8bd477a519ffa694fc449c2413c6f0e1d3b1c88fa7e3c9d88d3ae49d4dcb": {
+      "mediaType": "application/vnd.ollama.image.params",
+      "digest": "sha256:56bb8bd477a519ffa694fc449c2413c6f0e1d3b1c88fa7e3c9d88d3ae49d4dcb",
+      "size": 96,
+      "verified_sha256": "56bb8bd477a519ffa694fc449c2413c6f0e1d3b1c88fa7e3c9d88d3ae49d4dcb"
+    },
+    "sha256:2f15b3218f0552c60647ce60ada83632d2c09755b16259b13e3e4458e9ae419d": {
+      "mediaType": "application/vnd.docker.container.image.v1+json",
+      "digest": "sha256:2f15b3218f0552c60647ce60ada83632d2c09755b16259b13e3e4458e9ae419d",
+      "size": 487,
+      "verified_sha256": "2f15b3218f0552c60647ce60ada83632d2c09755b16259b13e3e4458e9ae419d"
+    },
+    "sha256:2bada8a7450677000f678be90653b85d364de7db25eb5ea54136ada5f3933730": {
+      "mediaType": "application/vnd.ollama.image.model",
+      "digest": "sha256:2bada8a7450677000f678be90653b85d364de7db25eb5ea54136ada5f3933730",
+      "size": 4683073952,
+      "verified_sha256": "2bada8a7450677000f678be90653b85d364de7db25eb5ea54136ada5f3933730"
+    },
+    "sha256:832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e": {
+      "mediaType": "application/vnd.ollama.image.license",
+      "digest": "sha256:832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "size": 11343,
+      "verified_sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    }
+  },
+  "licenses": {
+    "qwen2.5:3b": [
+      {
+        "path": "qwen2.5_3b.license.txt",
+        "sha256": "b5c0e5cf74cf51af1ecbc4af597cfcd13fd9925611838884a681070838a14a50"
+      }
+    ],
+    "llama3.2:3b": [
+      {
+        "path": "llama3.2_3b.license.txt",
+        "sha256": "fcc5a6bec9daf9b561a68827b67ab6088e1dba9d1fa2a50d7bbcc8384e0a265d"
+      },
+      {
+        "path": "llama3.2_3b.license.txt",
+        "sha256": "a70ff7e570d97baaf4e62ac6e6ad9975e04caa6d900d3742d37698494479e0cd"
+      }
+    ],
+    "qwen2.5:7b": [
+      {
+        "path": "qwen2.5_7b.license.txt",
+        "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+      }
+    ]
+  },
+  "tags": {
+    "models": [
+      {
+        "name": "qwen2.5:7b",
+        "model": "qwen2.5:7b",
+        "modified_at": "2026-11-02T15:29:05+08:00",
+        "size": 4683087332,
+        "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "7.6B",
+          "quantization_level": "Q4_K_M"
+        }
+      },
+      {
+        "name": "llama3.2:3b",
+        "model": "llama3.2:3b",
+        "modified_at": "2026-11-02T15:19:02+08:00",
+        "size": 2019393189,
+        "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "3.2B",
+          "quantization_level": "Q4_K_M"
+        }
+      },
+      {
+        "name": "qwen2.5:3b",
+        "model": "qwen2.5:3b",
+        "modified_at": "2026-11-02T14:22:58+08:00",
+        "size": 1929912432,
+        "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "3.1B",
+          "quantization_level": "Q4_K_M"
+        }
+      }
+    ]
+  },
+  "service_version": {
+    "version": "0.11.11"
+  },
+  "loaded": {
+    "models": []
+  },
+  "inference_requested": false,
+  "model_capability": "Pending; no loading or generation performed"
+}

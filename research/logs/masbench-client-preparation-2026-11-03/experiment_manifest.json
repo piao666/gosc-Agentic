@@ -1,0 +1,101 @@
+{
+  "scope": "local file/hash/receipt management; not tests or data analysis",
+  "baseline": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "working_tree_dirty": true,
+  "source_guard": 73,
+  "protected_review_sources_unchanged": true,
+  "runs": [
+    {
+      "run_id": "hpc-masbench-registry-v2-20261103",
+      "status": "completed",
+      "seconds": 0.794674,
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/masbench_reasoning_prepare_registry.py"
+      ],
+      "source_sync_id": "20261103T064728Z",
+      "manifest_sha256": "7d4002ada1bf28fab2d2f1b493c10d053d5180a77f82309ec732b4e121d5499c"
+    },
+    {
+      "run_id": "hpc-masbench-client-contract-20261103",
+      "status": "completed",
+      "seconds": 2.191897,
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/masbench_reasoning_client_contract.py"
+      ],
+      "source_sync_id": "20261103T065322Z",
+      "manifest_sha256": "892b68d40b0deed2dbb3f0a11fbde0fd9b226dc06cf39a5abcbdf2b5d8ed2a11",
+      "tests": 119
+    },
+    {
+      "run_id": "hpc-masbench-context-budget-20261103",
+      "status": "completed",
+      "seconds": 0.236796,
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/masbench_reasoning_context_budget.py"
+      ],
+      "source_sync_id": "20261103T070254Z",
+      "manifest_sha256": "f196f1bad3689c6bafcee12385c4d755969ba29fd9e0843548fc043239f3918b"
+    },
+    {
+      "run_id": "hpc-masbench-client-contract-v2-20261103",
+      "status": "completed",
+      "seconds": 0.784098,
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/masbench_reasoning_client_contract.py"
+      ],
+      "source_sync_id": "20261103T070735Z",
+      "manifest_sha256": "0c83068fa34096b0d36e242f1524c279d6609ecf40ed409174a1b489d757d825",
+      "tests": 123
+    },
+    {
+      "run_id": "hpc-masbench-httpx-mock-20261103",
+      "status": "completed",
+      "seconds": 0.29649,
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.local/envs/masbench-reasoning-v1/bin/python",
+        "scripts/masbench_reasoning_http_mock.py"
+      ],
+      "source_sync_id": "20261103T070735Z",
+      "manifest_sha256": "c3646af8fa4ff2f858a054394c21318278dbdc371adb378f4c46cfc06cc7f822"
+    },
+    {
+      "run_id": "hpc-masbench-client-contract-v3-20261103",
+      "status": "completed",
+      "seconds": 0.924613,
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/masbench_reasoning_client_contract.py"
+      ],
+      "source_sync_id": "20261103T072041Z",
+      "manifest_sha256": "d548f840db5634a73c4bccf636c09d6de9b82573dccdba98291dec867d70fb82",
+      "tests": 147
+    },
+    {
+      "run_id": "hpc-masbench-httpx-mock-v2-20261103",
+      "status": "completed",
+      "seconds": 0.190794,
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.local/envs/masbench-reasoning-v1/bin/python",
+        "scripts/masbench_reasoning_http_mock.py"
+      ],
+      "source_sync_id": "20261103T072041Z",
+      "manifest_sha256": "a0e7eba858ce8b326dd4615a13d4ecf06154fe8925229b733a6c05128c628f9d"
+    }
+  ],
+  "final_pytest_tests": 147,
+  "separate_httpx_mock_tests": 5,
+  "current_code_matches_hpc_execution": true,
+  "registry_file_sha256": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86",
+  "receipt": "research/sync/receipts/20261103T072351Z-cbea65.json",
+  "all_outputs_mirrored": true,
+  "model_calls": 0,
+  "actual_task_episodes": 0,
+  "training": false,
+  "git_commit_or_push": false,
+  "budget_proposal_execution_authorized": false,
+  "effective_context_and_tokenizer_verified": false
+}

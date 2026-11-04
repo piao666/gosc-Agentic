@@ -1,0 +1,21 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol",
+    "diff",
+    "--cached",
+    "--check",
+    "--",
+    ".",
+    ":!research/sync/runs/**",
+    ":!research/sync/receipts/**",
+    ":!research/artifacts/**",
+    ":!research/logs/masbench-adapter-contract-2026-11-03/reference/**",
+    ":!research/logs/masbench-reasoning-static-2026-11-02/conversation_source.txt"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "immutable_reference_whitespace_preserved": true
+}

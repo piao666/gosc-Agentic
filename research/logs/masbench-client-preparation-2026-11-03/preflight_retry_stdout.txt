@@ -1,0 +1,1 @@
+{"uid": 8301880, "head": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf", "limits": {"/sys/fs/cgroup/cpu/cpu.cfs_quota_us": "200000", "/sys/fs/cgroup/cpu/cpu.cfs_period_us": "100000", "/sys/fs/cgroup/memory/memory.limit_in_bytes": "25769803776"}, "running": []}

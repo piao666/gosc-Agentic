@@ -1,0 +1,84 @@
+{
+  "trailing_whitespace": [],
+  "json_parsed": true,
+  "git_diff_check_exit_code": 0,
+  "scope": "File/document/JSON/hash management only; not code compilation, tests or execution",
+  "baseline_tracked_source_diff_exit_code": 0,
+  "missing_links": [],
+  "code_imported_or_compiled": false,
+  "note": "New untracked extensions/scripts/tests are listed separately; tracked old-source diff cannot validate them",
+  "files": [
+    {
+      "path": "extensions/native_information_value.py",
+      "bytes": 10399,
+      "sha256": "3336373f271f9715a5ba1dc009c7728b66b938c9fa51deeea0fb5f52da8a7641"
+    },
+    {
+      "path": "extensions/native_information_observer.py",
+      "bytes": 10361,
+      "sha256": "249695390bf074b2f7b61aa2be3a2379e055a37dc7f7982a58e1b14cdd38123b"
+    },
+    {
+      "path": "extensions/native_information_shadow.py",
+      "bytes": 15256,
+      "sha256": "21f816e7b28ea87ce4e59e9236fe2aec2fb88d547f8035c4c6c13d93b40cf707"
+    },
+    {
+      "path": "scripts/repro_native_information_shadow.py",
+      "bytes": 13525,
+      "sha256": "7eca7264438019a93ea9c5b1db345cfcbe66ea0eea4453a0edf233854b171b40"
+    },
+    {
+      "path": "scripts/audit_native_information_shadow.py",
+      "bytes": 7362,
+      "sha256": "d5c568e932564d282cead6bb8cf39f1fae5e399131ba3ed83e324d9a421e32a6"
+    },
+    {
+      "path": "tests_ext/test_native_information_shadow.py",
+      "bytes": 12453,
+      "sha256": "fa2225c1a107649da24a1aca671f4c5b1a3694f3cc86af42afcbec4c36de35e9"
+    },
+    {
+      "path": "research/protocols/native_information_shadow_v1.json",
+      "bytes": 1350,
+      "sha256": "eaafcc6b31f1ded6d8069f2c25080c17e7c4ae111dd3b478c1f1cc42199af5de"
+    },
+    {
+      "path": "research/reports/native_information_implementation_2026-10-30.md",
+      "bytes": 9022,
+      "sha256": "e0412e4f10f18795f9ec68aa117b6ea798624cbadb4a83b0b21e456cbafa5237"
+    },
+    {
+      "path": "research/logs/native-information-implementation-2026-10-30/task_brief.md",
+      "bytes": 2100,
+      "sha256": "cc1111340b83a47c0c955cb9631385d1a14674ec6a5c5cde1328336a2ffd9635"
+    },
+    {
+      "path": "research/logs/native-information-implementation-2026-10-30/task_log_20261030.md",
+      "bytes": 3337,
+      "sha256": "552cdfb62015097e12dfbaaab2d9225385e5d9ec276c9a4a914a0197693cfb53"
+    },
+    {
+      "path": "research/logs/native-information-implementation-2026-10-30/experiment_manifest.json",
+      "bytes": 1325,
+      "sha256": "7b769a572fa60bd69915474ad2a0f8ea252f66da7ffcb1d4e555f686fab53af4"
+    }
+  ],
+  "date": "2026-10-30",
+  "accepted_documents": [
+    {
+      "unchanged": true,
+      "path": "research/protocols/native_information_value_spec_v1.md"
+    },
+    {
+      "unchanged": true,
+      "path": "research/reports/native_information_feasibility_review_2026-10-30.md"
+    }
+  ],
+  "new_missions": 0,
+  "git_commit": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "tests_run": false,
+  "diagnostic_execution_authorized": false,
+  "shadow_run": false,
+  "verification_self_link_checked_after_creation": true
+}

@@ -1,0 +1,30 @@
+{
+  "run_id": "hpc-masbench-model-license-audit-20261102",
+  "files": [
+    {
+      "path": "outputs/license_layer_index.json",
+      "size": 1200,
+      "sha256": "44fe40629b371ed0393450788cb7ecadb1ea0924c2241dc6b5cc220b92e32a66"
+    },
+    {
+      "path": "outputs/llama3.2_3b.a70ff7e570d9.license.txt",
+      "size": 6016,
+      "sha256": "a70ff7e570d97baaf4e62ac6e6ad9975e04caa6d900d3742d37698494479e0cd"
+    },
+    {
+      "path": "outputs/llama3.2_3b.fcc5a6bec9da.license.txt",
+      "size": 7711,
+      "sha256": "fcc5a6bec9daf9b561a68827b67ab6088e1dba9d1fa2a50d7bbcc8384e0a265d"
+    },
+    {
+      "path": "outputs/qwen2.5_3b.b5c0e5cf74cf.license.txt",
+      "size": 7387,
+      "sha256": "b5c0e5cf74cf51af1ecbc4af597cfcd13fd9925611838884a681070838a14a50"
+    },
+    {
+      "path": "outputs/qwen2.5_7b.832dd9e00a68.license.txt",
+      "size": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    }
+  ]
+}

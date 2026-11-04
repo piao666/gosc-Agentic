@@ -1,0 +1,28 @@
+{
+  "at_utc": "2026-11-02T05:47:38.974366+00:00",
+  "scope": "Lightweight management only",
+  "head": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "frozen_sources_unchanged": 73,
+  "protected_previous_reports_unchanged": true,
+  "original_static_logs_unchanged": true,
+  "git_diff_check_exit_code": 0,
+  "protected_source_diff_exit_code": 0,
+  "hpc_inventory_exit_codes": [
+    0,
+    0
+  ],
+  "project_tests_run": false,
+  "llm_calls": 0,
+  "new_scientific_runs": [],
+  "git_commit_or_push": false,
+  "previous_failed_inventory_sha256": "890366e98c2466fcd21431d54d5c2e0003e9fd75f7467f4e57b91239b1307be6",
+  "previous_failed_verification_sha256": "0b2e6ae8b307cd7f298269f688a83fc9291b83212d927825dee989e56de1f4cb",
+  "documents_sha256": {
+    "research\\benchmarks\\masbench_reasoning_adapter_spec_v1.md": "633d345b9e79d311690cc37efb0a89ec366bbd03561b1fafd1f14a62f46dec57",
+    "research\\benchmarks\\masbench_reasoning_feasibility_review.md": "5c6fca51b1f4b13e18e53da4b41894d78b7102f4100c994bf9aaff1e72611a10",
+    "research\\benchmarks\\masbench_reasoning_gate_matrix.md": "11cadd8328a71a0fb5a072215e4acd9bcec499c2e4e37b9d090d0e78b59f9af8",
+    "research\\logs\\masbench-reasoning-hpc-2026-11-02\\task_brief.md": "3f72cdec41f89876a99e4d65a5e02c2fde8c82c45c9758af34dfbf99c9836735",
+    "research\\logs\\masbench-reasoning-hpc-2026-11-02\\task_log.md": "20f3c97892aeff2cf37e5705a1ccf1c83562223202327850189b0f31247e203b"
+  },
+  "inventory_sha256": "506129d2d076b91fab9a2c6a987cbd6973f2d385a7762f25639faf2e48f05cba"
+}

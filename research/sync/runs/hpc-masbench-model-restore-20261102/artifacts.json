@@ -1,0 +1,35 @@
+{
+  "run_id": "hpc-masbench-model-restore-20261102",
+  "files": [
+    {
+      "path": "outputs/llama3.2_3b.manifest.json",
+      "size": 1217,
+      "sha256": "70d15ad8a11977b3f9219aa938a5c30356766f0c902deaf430f49158c140bb3a"
+    },
+    {
+      "path": "outputs/llama3.2_3b.pull.jsonl",
+      "size": 14063,
+      "sha256": "a591a2f38a110dfca89a2cafe1112040b6acfd9256fb646ff4046314200dc809"
+    },
+    {
+      "path": "outputs/qwen2.5_3b.manifest.json",
+      "size": 1035,
+      "sha256": "722beeb228891c6bf5e373be6ce10005116b65b588961d1ab78bb53499cad1de"
+    },
+    {
+      "path": "outputs/qwen2.5_3b.pull.jsonl",
+      "size": 17954,
+      "sha256": "af8611707b16ca68a799851cd94915b05fe658c881d0de539498a267e579cf7d"
+    },
+    {
+      "path": "outputs/qwen2.5_7b.manifest.json",
+      "size": 1036,
+      "sha256": "821d9d54793adb383eb0e8c22aac0f9c70ae3daef3dda978f1c027228193b951"
+    },
+    {
+      "path": "outputs/repair_plan.json",
+      "size": 1639,
+      "sha256": "d8219ab42644799ebb37b8e78f22042aa85e1fff880817e0254c3a0ebecd4341"
+    }
+  ]
+}

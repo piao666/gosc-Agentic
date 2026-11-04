@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-data-followup-20261103",
+  "status": "completed",
+  "started_at": "2026-11-03T02:43:53.003042+00:00",
+  "finished_at": "2026-11-03T02:43:53.146366+00:00",
+  "exit_code": 0,
+  "pid": 5724,
+  "elapsed_seconds": 0.143353,
+  "resource_usage": {
+    "child_max_rss_kib": 73040,
+    "child_cpu_user_seconds": 0.328155,
+    "child_cpu_system_seconds": 0.18565399999999999,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

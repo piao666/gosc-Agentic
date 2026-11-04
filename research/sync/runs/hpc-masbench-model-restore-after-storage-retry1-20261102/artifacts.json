@@ -1,0 +1,50 @@
+{
+  "run_id": "hpc-masbench-model-restore-after-storage-retry1-20261102",
+  "files": [
+    {
+      "path": "outputs/llama3.2_3b.license.txt",
+      "size": 6016,
+      "sha256": "a70ff7e570d97baaf4e62ac6e6ad9975e04caa6d900d3742d37698494479e0cd"
+    },
+    {
+      "path": "outputs/llama3.2_3b.manifest.json",
+      "size": 1217,
+      "sha256": "70d15ad8a11977b3f9219aa938a5c30356766f0c902deaf430f49158c140bb3a"
+    },
+    {
+      "path": "outputs/models_ready.json",
+      "size": 8109,
+      "sha256": "a2dfa1f50a06f8f1c5aeafb3d0ad6c3106ef44c8ebcbe46d5658fbbf573bab9f"
+    },
+    {
+      "path": "outputs/qwen2.5_3b.license.txt",
+      "size": 7387,
+      "sha256": "b5c0e5cf74cf51af1ecbc4af597cfcd13fd9925611838884a681070838a14a50"
+    },
+    {
+      "path": "outputs/qwen2.5_3b.manifest.json",
+      "size": 1035,
+      "sha256": "722beeb228891c6bf5e373be6ce10005116b65b588961d1ab78bb53499cad1de"
+    },
+    {
+      "path": "outputs/qwen2.5_7b.license.txt",
+      "size": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    },
+    {
+      "path": "outputs/qwen2.5_7b.manifest.json",
+      "size": 1036,
+      "sha256": "821d9d54793adb383eb0e8c22aac0f9c70ae3daef3dda978f1c027228193b951"
+    },
+    {
+      "path": "outputs/qwen2.5_7b.pull.jsonl",
+      "size": 2166,
+      "sha256": "c03020d6d25320b448faae4149b39643e984f50c9b3c49fdceb5f7140d90b7f0"
+    },
+    {
+      "path": "outputs/repair_plan.json",
+      "size": 1639,
+      "sha256": "d8219ab42644799ebb37b8e78f22042aa85e1fff880817e0254c3a0ebecd4341"
+    }
+  ]
+}

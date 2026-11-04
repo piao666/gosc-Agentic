@@ -1,0 +1,35 @@
+{
+  "local_read_management": [
+    "git status --short",
+    "git rev-parse HEAD",
+    "git remote -v",
+    "Get-Content AGENTS.md / README.md / research workspace and prior task/reproduction records",
+    "Get-Content 硕士论文研究与实施说明书.md (research-question section; full manual inherited from preceding review)",
+    "python research/logs/masbench-reasoning-static-2026-10-30/readonly_environment.py",
+    "python research/logs/masbench-reasoning-static-2026-10-30/readonly_model_storage.py",
+    "python research/logs/masbench-reasoning-static-2026-10-30/verify_management.py",
+    "git diff --exit-code HEAD -- gosc extensions tests tests_ext scripts",
+    "git diff --check"
+  ],
+  "ssh_readonly": [
+    "ssh",
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "ConnectTimeout=12",
+    "hpc",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python -"
+  ],
+  "ssh_payload_sources": [
+    "readonly_environment.py",
+    "readonly_model_storage.py"
+  ],
+  "external_reads": [
+    "GitHub connector GET branch/tree and pinned Reasoning files listed in source_index*.json",
+    "web open/find pinned arXiv Reasoning sections; dataset GitHub web request failed cache miss"
+  ],
+  "scientific_commands": [],
+  "model_generation_requests": [],
+  "hpc_registered_runs": [],
+  "file_edits": "apply_patch: new three benchmark documents, management logs and research/README entry only"
+}

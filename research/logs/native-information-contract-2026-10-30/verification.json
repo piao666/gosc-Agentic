@@ -1,0 +1,39 @@
+{
+  "scope": "Local documentation/JUnit metadata/file hashes only; HPC tests authoritative in execution index",
+  "final_hpc_test_run": "hpc-native-information-regression-v2-20261030",
+  "current_sources_match_final_tests": true,
+  "json_parsed": true,
+  "date": "2026-10-30",
+  "documents": [
+    {
+      "path": "research/reports/native_information_contract_acceptance_2026-10-30.md",
+      "sha256": "3c00afb668b9b7c6d0702b9b8811042386f595ac6380b4e80edf0dd7c1535858"
+    },
+    {
+      "path": "research/logs/native-information-contract-2026-10-30/task_brief.md",
+      "sha256": "b6293a4760506fe754d206c2dcd0faecaa8a25f74b982c25b6a5d35f17291c65"
+    },
+    {
+      "path": "research/logs/native-information-contract-2026-10-30/task_log_20261030.md",
+      "sha256": "af7ee41141840134d6f32047740b68b652ce2a5ca09608fd566e3809f96781d6"
+    }
+  ],
+  "diagnostic_execution_authorized": false,
+  "accepted_static_documents": [
+    {
+      "unchanged": true,
+      "path": "research/protocols/native_information_value_spec_v1.md"
+    },
+    {
+      "unchanged": true,
+      "path": "research/reports/native_information_feasibility_review_2026-10-30.md"
+    }
+  ],
+  "protected_old_source_diff_exit_code": 0,
+  "all_outputs_mirrored": true,
+  "final_hpc_test_count": 519,
+  "missing_links": [],
+  "trailing_whitespace": [],
+  "git_diff_check_exit_code": 0,
+  "shadow_campaign_run": false
+}

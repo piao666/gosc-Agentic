@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-download-probe-20261102",
+  "status": "completed",
+  "started_at": "2026-11-02T06:18:17.690040+00:00",
+  "finished_at": "2026-11-02T06:18:20.430813+00:00",
+  "exit_code": 0,
+  "pid": 6529,
+  "elapsed_seconds": 2.740801,
+  "resource_usage": {
+    "child_max_rss_kib": 47260,
+    "child_cpu_user_seconds": 0.292525,
+    "child_cpu_system_seconds": 0.19247699999999998,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

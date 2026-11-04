@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-storage-capacity-after-cleanup-20261102",
+  "status": "completed",
+  "started_at": "2026-11-02T07:14:40.234878+00:00",
+  "finished_at": "2026-11-02T07:14:49.285413+00:00",
+  "exit_code": 0,
+  "pid": 12869,
+  "elapsed_seconds": 9.050564,
+  "resource_usage": {
+    "child_max_rss_kib": 47456,
+    "child_cpu_user_seconds": 0.408952,
+    "child_cpu_system_seconds": 8.961801,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

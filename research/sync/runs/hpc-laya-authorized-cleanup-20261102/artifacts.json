@@ -1,0 +1,15 @@
+{
+  "run_id": "hpc-laya-authorized-cleanup-20261102",
+  "files": [
+    {
+      "path": "outputs/cleanup_after.json",
+      "size": 1047,
+      "sha256": "b5189ebcc717a436c1e29e908f4da415cf5a8daae5656cd6a3f95c9c6c4f32d6"
+    },
+    {
+      "path": "outputs/cleanup_before.json",
+      "size": 511,
+      "sha256": "470fa9899be446d46d54d662f6be99ad7cd584b24cd69361816415919374cace"
+    }
+  ]
+}

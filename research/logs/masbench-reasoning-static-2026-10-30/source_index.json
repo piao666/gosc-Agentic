@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-30",
+  "repo": "BUPT-GAMMA/MASBench",
+  "branch_at_lookup": "main",
+  "commit": "c0301a650db95958924bb080192c09fef39389a5",
+  "commit_timestamp": "2026-10-03T17:23:59Z",
+  "recursive_tree_truncated": false,
+  "source_files": [
+    {
+      "path": "README.md",
+      "git_blob_sha": "eb8181c479e01d0d06290decfc51b0f1addbc0fe",
+      "bytes": 7534,
+      "content_observed": true,
+      "line_count": 147,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/README.md"
+    },
+    {
+      "path": "Reasoning/README.md",
+      "git_blob_sha": "94b7a0f2a5632de59bceed11eb30489889967c1e",
+      "bytes": 5469,
+      "content_observed": true,
+      "line_count": 120,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/README.md"
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "c19ebedcc48100d1ea2fc67f9a68d1d087849c68",
+      "bytes": 1066,
+      "content_observed": true,
+      "line_count": 22,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/LICENSE"
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob_sha": "09863fbdb65bd9a2cfea031fd3cbde398d4fd603",
+      "bytes": 360,
+      "content_observed": true,
+      "line_count": 19,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/requirements.txt"
+    },
+    {
+      "path": "Reasoning/src/agents.py",
+      "git_blob_sha": "dcc3916ab43bca6b7e946fc82b0206cc4af6c59d",
+      "bytes": 6054,
+      "content_observed": true,
+      "line_count": 188,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/src/agents.py"
+    },
+    {
+      "path": "Reasoning/src/conversation.py",
+      "git_blob_sha": "cf6612da2c813753c3f20d48f4bdd45a6a16656b",
+      "bytes": 6559,
+      "content_observed": true,
+      "line_count": 216,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/src/conversation.py"
+    },
+    {
+      "path": "Reasoning/src/data_loader_v4_mas.py",
+      "git_blob_sha": "254b80433f2d1cbe1a0edd80ee6eebc71824a24d",
+      "bytes": 5168,
+      "content_observed": true,
+      "line_count": 151,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/src/data_loader_v4_mas.py"
+    },
+    {
+      "path": "Reasoning/src/metrics.py",
+      "git_blob_sha": "2922931b3e1fad7294da8a7c86dc2ddabd6ec51a",
+      "bytes": 4806,
+      "content_observed": true,
+      "line_count": 175,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/src/metrics.py"
+    },
+    {
+      "path": "Reasoning/src/prompts.py",
+      "git_blob_sha": "4a39061fe2840f177f4169223d188448469e2ada",
+      "bytes": 9994,
+      "content_observed": true,
+      "line_count": 152,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/src/prompts.py"
+    },
+    {
+      "path": "Reasoning/src/run_asymmetric_agents.py",
+      "git_blob_sha": "26987135c55eb836431f6559ae223ae6e6dccd53",
+      "bytes": 18631,
+      "content_observed": true,
+      "line_count": 482,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/src/run_asymmetric_agents.py"
+    },
+    {
+      "path": "Reasoning/api_key_loader.py",
+      "git_blob_sha": "dc6919a466a1d0eee6cc716b2f98aae01017d16c",
+      "bytes": 5463,
+      "content_observed": true,
+      "line_count": 150,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/api_key_loader.py"
+    },
+    {
+      "path": "Reasoning/script/analyze_first_answer_protocol.py",
+      "git_blob_sha": "04e28eff10ce54ee7736f9748ebe25949b783774",
+      "bytes": 10705,
+      "content_observed": true,
+      "line_count": 315,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/script/analyze_first_answer_protocol.py"
+    }
+  ],
+  "dataset_metadata": {
+    "path": "Reasoning/reasoning.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9cfc774f5828bb7b811612a16d0f7d209db627d7",
+    "size": 11996959,
+    "url": "https://api.github.com/repos/BUPT-GAMMA/MASBench/git/blobs/9cfc774f5828bb7b811612a16d0f7d209db627d7"
+  },
+  "dataset_content_status": "fetch_file lines1-28 returned empty content despite nonempty Git blob metadata; GitHub web cache miss; not treated as empty data; full dataset/unique IDs/counts/source group/split/SHA256 unverified; no data content downloaded or new item exposed",
+  "native_scope_only": "Reasoning; other task implementations not read",
+  "retrieval_failures": [
+    "Transient MCP transport failure on first Reasoning README fetch; retried successfully",
+    "Transient MCP transport failure on first api_key_loader fetch; retried successfully",
+    "Dataset snippet empty content and web cache miss; retained as Pending"
+  ],
+  "paper": "https://arxiv.org/html/2610.04672v1",
+  "paper_sections_reviewed": [
+    "4.2 Reasoning",
+    "4.3",
+    "C.3/C.4 Reasoning metric scope",
+    "D.1",
+    "E.1"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-storage-capacity-rdwr-20261102",
+  "files": [
+    {
+      "path": "outputs/capacity_after_cleanup.json",
+      "size": 355,
+      "sha256": "e446e8680f9ae3848072ee870b05ef46dec5681dabae3dac0bd140c1d8193ec4"
+    }
+  ]
+}

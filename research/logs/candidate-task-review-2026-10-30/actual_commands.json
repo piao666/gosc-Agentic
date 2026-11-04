@@ -1,0 +1,27 @@
+{
+  "scope": "Static reads and document management only",
+  "local_commands": [
+    "Get-Content AGENTS.md",
+    "Get-Content 硕士论文研究与实施说明书.md",
+    "Get-Content README.md",
+    "git status --short",
+    "git rev-parse HEAD",
+    "git remote -v",
+    "rg --files research/reports research/protocols research/logs gosc extensions",
+    "Get-Content <specified reports/spec, task logs, execution indices, existing audit/report records>",
+    "Get-Content <schemes/native_task_wire/budget_feasible_selector and related source>; line-numbered static views",
+    "$rows=Get-Content <existing shadows.json> -Raw|ConvertFrom-Json; inspect $rows[0] only; no aggregates or reranking",
+    "rg -n <function/candidate/decision definitions> <source paths>",
+    "python research/logs/candidate-task-review-2026-10-30/verify_review.py",
+    "git diff --exit-code HEAD -- gosc extensions",
+    "git diff --check"
+  ],
+  "file_editing": "apply_patch: new reports/logs plus research/README.md entry only",
+  "internet_read_tools": [
+    "web search/open/find/click: original papers and official pages",
+    "GitHub fetch: official Collab-Overcooked/MASBench/CoLLAB_SEA main README files"
+  ],
+  "scientific_commands": [],
+  "hpc_commands": [],
+  "model_commands": []
+}

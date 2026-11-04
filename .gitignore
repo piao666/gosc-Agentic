@@ -21,3 +21,9 @@ results/summary_revision.json
 # HPC execution outputs and disposable pytest workspaces
 research/sync/runs/*/outputs/
 research/sync/runs/*/pytest-tmp/
+
+# New run source snapshots stay on HPC/local storage; tracked history is retained.
+research/sync/runs/*/source_changes.patch
+research/sync/runs/*/source_untracked.tar.gz
+# Incomplete transfer fragments are retained locally, not published.
+research/sync/*.partial-*

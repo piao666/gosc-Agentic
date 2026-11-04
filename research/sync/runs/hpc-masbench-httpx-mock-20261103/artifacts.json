@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-httpx-mock-20261103",
+  "files": [
+    {
+      "path": "outputs/httpx_mock_contract.json",
+      "size": 277,
+      "sha256": "0529884e339741bd1fe958aa000946b29c79db316dca43ca9b85008ebc88177c"
+    }
+  ]
+}

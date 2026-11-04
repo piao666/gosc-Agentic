@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-dependencies-20261102",
+  "status": "completed",
+  "started_at": "2026-11-02T05:56:41.394305+00:00",
+  "finished_at": "2026-11-02T05:56:45.592850+00:00",
+  "exit_code": 0,
+  "pid": 5254,
+  "elapsed_seconds": 4.198572,
+  "resource_usage": {
+    "child_max_rss_kib": 101296,
+    "child_cpu_user_seconds": 1.900557,
+    "child_cpu_system_seconds": 1.3217889999999999,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

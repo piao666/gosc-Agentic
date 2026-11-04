@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-03",
+  "scope": "static review and existing artifact metadata reading; no dataset regrouping or new computations",
+  "git_commit": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "working_tree": "prior authorized dirty research extensions retained",
+  "new_execution_host": null,
+  "new_hpc_runs": [],
+  "new_tests_run": false,
+  "model_calls": 0,
+  "task_episodes": 0,
+  "training": false,
+  "git_commit_or_push": false,
+  "source_sha256": {
+    "scripts/masbench_reasoning_data_audit.py": "d035376f0417115cd10bb35ca27d373854cdb8429601b7d5494720a9a0099b9e",
+    "scripts/masbench_reasoning_data_followup.py": "e28653b844af47c80e01398c3e6f1fd1e30261e2ef33d73b675a2489c905bcc3",
+    "extensions/masbench_reasoning/application.py": "a369f4d134e50984f69a92fa243449069849cef7c97142953dfb7cf27e801b78",
+    "scripts/masbench_reasoning_contract.py": "2c2d07f288d384856b07e503080e1e6248f648b19cdc317fcd57e40a340ab2dc",
+    "research/reports/masbench_reasoning_adapter_acceptance_2026-11-03.md": "74324a5116b1a1351264413e1afce5fc217f0566e76e4bc4bbb9ad32b5d17c1e",
+    "research/benchmarks/masbench_reasoning_adapter_contract_v1.md": "86750bfa56c441c4d12bc3102993f091b5cf5d4c95a9c891af6916cd370e0f5d",
+    "research/benchmarks/masbench_reasoning_environment_v1.md": "e9651700142d5b2fc59dc140771c77c0be3a94e6ca3f032fc8f56593c22b99fd",
+    "research/sync/runs/hpc-masbench-data-followup-20261103/outputs/data_followup.json": "e55d99013eac3219fd76519faec3ba7b8c99330627e09719b09989acaffdd426",
+    "research/sync/runs/hpc-masbench-adapter-contract-v3-20261103/outputs/contract_acceptance.json": "19326d0e5648db1dd65fe88b4e9f0f832880aba168d9d93754d5b4baa629e4a7",
+    "research/logs/masbench-adapter-contract-2026-11-03/final_upload_status.json": "1e6bb6ad93f51a91f198f04ab977529fca38e45c8b64d10631e9009f17fddcda"
+  },
+  "frozen_sources_unchanged": 73,
+  "historical_counts_not_recomputed": true,
+  "new_report": "research/reports/masbench_reasoning_data_decision_review_2026-11-03.md",
+  "decision": "Conditional Go for data registry/client preparation; current split/model execution No-Go",
+  "next_stage_execution_authorized": false
+}

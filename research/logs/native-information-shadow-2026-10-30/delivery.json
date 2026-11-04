@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-30",
+  "source_document_sync_id": "20261030T085549Z",
+  "source_document_sync_verified": true,
+  "source_document_files": 658,
+  "sha256_mismatches": [],
+  "latest_output_receipt": "research/sync/receipts/20261030T085115Z-62116f.json",
+  "all_outputs_mirrored": true,
+  "report": "research/reports/native_information_shadow_results_2026-10-30.md",
+  "report_sha256": "f45cd19a277104d61b63ddbdbf3171958ea319979b0aa74d49dbd971bb14fc68",
+  "execution_index": "research/protocols/native_information_shadow_execution_2026-10-30.json",
+  "frozen_scientific_source_unchanged": true,
+  "accepted_documents_unchanged": true,
+  "task_status": "completed_No-Go_content_route_within_diagnostic_scope",
+  "git_commit_or_push": false,
+  "note": "The sync above delivered report, execution index, progress and verification. This delivery evidence is added afterward and included in a final management-only source sync; original run source identities are unchanged."
+}

@@ -1,0 +1,122 @@
+{
+  "scope": "local file/hash/receipt metadata only; not project tests or data analysis",
+  "frozen_sources_unchanged": 73,
+  "previous_reports_unchanged": true,
+  "dataset_sha256": "ce65640b566e70098c540b9c814768c9ff5d8544a4cb25162a3872ac9c3bb331",
+  "records": [
+    {
+      "run_id": "hpc-masbench-data-audit-20261103",
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 30.895749,
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/masbench_reasoning_data_audit.py"
+      ],
+      "source_sync_id": "20261103T023429Z",
+      "manifest_sha256": "f61d03a61e7db9a9e6ad729ced2daf5a17f6a6690052dcac3a9744afa8526945"
+    },
+    {
+      "run_id": "hpc-masbench-data-audit-v2-20261103",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.395099,
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/masbench_reasoning_data_audit.py",
+        "--input",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.local/masbench-reasoning-input-20261103.json"
+      ],
+      "source_sync_id": "20261103T023840Z",
+      "manifest_sha256": "2267455063ac8005ce248a047c8e472788e2e65936c1b842bf01876d9e0565c6"
+    },
+    {
+      "run_id": "hpc-masbench-adapter-contract-20261103",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 1.101604,
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/masbench_reasoning_contract.py"
+      ],
+      "source_sync_id": "20261103T023840Z",
+      "manifest_sha256": "01a255c84e2458b89379ea9d189f20e3650dad13a4010609b3dd11c30ec05ea3",
+      "tests": 61
+    },
+    {
+      "run_id": "hpc-masbench-data-followup-20261103",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.143353,
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/masbench_reasoning_data_followup.py"
+      ],
+      "source_sync_id": "20261103T024251Z",
+      "manifest_sha256": "8c02d74ef8785d4d71194cf9d4259d8fb7ff51658ff9b92df3e8a9b799b02b51"
+    },
+    {
+      "run_id": "hpc-masbench-adapter-contract-v2-20261103",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 1.284288,
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/masbench_reasoning_contract.py"
+      ],
+      "source_sync_id": "20261103T024251Z",
+      "manifest_sha256": "37384160de32e7b9fdd57a7fdf222a6a353a1ac8801dfa1784d2a6a135efee74",
+      "tests": 67
+    },
+    {
+      "run_id": "hpc-masbench-adapter-contract-v3-20261103",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.683723,
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/masbench_reasoning_contract.py"
+      ],
+      "source_sync_id": "20261103T025247Z",
+      "manifest_sha256": "5119423eb4c1b1ab1615530616e71b6587908bf261a70c9a830b34a6bf519758",
+      "tests": 67
+    }
+  ],
+  "final_test_code_matches_synced_current_code": true,
+  "complete_receipts": [
+    "research/sync/receipts/20261103T023636Z-b9847f.json",
+    "research/sync/receipts/20261103T023929Z-555fd1.json",
+    "research/sync/receipts/20261103T024357Z-34ed7f.json",
+    "research/sync/receipts/20261103T025330Z-a32cbc.json"
+  ],
+  "model_calls": 0,
+  "actual_task_episodes": 0,
+  "training": false,
+  "git_commit_or_push": false,
+  "final_documentation_upload": {
+    "recorded_at_utc": "2026-11-03T03:00:14.128627+00:00",
+    "operation": "final documentation source upload after all contract outputs mirrored",
+    "command": "python scripts/sync_hpc.py",
+    "attempts": 2,
+    "exit_codes": [
+      1,
+      1
+    ],
+    "ssh_exit": 255,
+    "error": "ssh: connect to host 172.18.101.241 port 22610: Connection timed out",
+    "failure_stage": "initial remote parent check, before source upload",
+    "last_successful_execution_source_sync": "20261103T025247Z",
+    "last_complete_output_receipt": "20261103T025330Z-a32cbc.json",
+    "all_hpc_contract_outputs_local": true,
+    "tested_python_code_matches_execution_snapshot": true,
+    "latest_delivery_docs_uploaded": false,
+    "pending_local_only": [
+      "final additions to research/reports/masbench_reasoning_adapter_acceptance_2026-11-03.md",
+      "current-status notes in research/benchmarks and research/README.md",
+      "research/sync/plans/next_steps.md and project_status local additions",
+      "research/logs/masbench-adapter-contract-2026-11-03/{verify_management.py,experiment_manifest.json,task_log.md,evidence_index.md,final_upload_status.json}",
+      "extensions/masbench_reasoning/LICENSE.MASBench"
+    ],
+    "no_new_scientific_run_created": true
+  }
+}

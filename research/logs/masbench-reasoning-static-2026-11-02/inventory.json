@@ -1,0 +1,49 @@
+{
+  "at_utc": "2026-11-02T03:42:21.676230+00:00",
+  "scope": "Read-only environment management; no project tests, task or model inference",
+  "records": [
+    {
+      "source": "research\\logs\\masbench-reasoning-static-2026-10-30\\readonly_environment.py",
+      "payload_source_sha256": "e8ac587bceedbad95cdba6695f093f4f77058fbc2d85cf9d3e8448fa59efadb8",
+      "command": [
+        "ssh",
+        "-o",
+        "BatchMode=yes",
+        "-o",
+        "ConnectTimeout=12",
+        "hpc",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python -"
+      ],
+      "exit_code": 255
+    },
+    {
+      "source": "research\\logs\\masbench-reasoning-static-2026-10-30\\readonly_model_storage.py",
+      "payload_source_sha256": "b677a6c02f87be6414eb1f4fb1e5f7b861ac37aeb5315315d947b7601306b6ad",
+      "command": [
+        "ssh",
+        "-o",
+        "BatchMode=yes",
+        "-o",
+        "ConnectTimeout=12",
+        "hpc",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python -"
+      ],
+      "exit_code": 255
+    }
+  ],
+  "local_loopback": {
+    "/api/version": {
+      "status": "unavailable",
+      "error": "URLError"
+    },
+    "/api/tags": {
+      "status": "unavailable",
+      "error": "URLError"
+    }
+  },
+  "llm_calls": 0,
+  "models_loaded": false,
+  "dependencies_installed": false,
+  "scientific_runs": [],
+  "git_commit_or_push": false
+}

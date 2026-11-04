@@ -1,0 +1,2 @@
+hostfile_replace_entries: mkstemp: Permission denied
+update_known_hosts: hostfile_replace_entries failed for C:\\Users\\34904/.ssh/known_hosts: Permission denied

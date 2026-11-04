@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-environment-metadata-20261102",
+  "files": [
+    {
+      "path": "outputs/environment_ready.json",
+      "size": 3147,
+      "sha256": "87da151c3682460dde25fc3cc725197de830e8475328261c41746ce01579fd70"
+    }
+  ]
+}

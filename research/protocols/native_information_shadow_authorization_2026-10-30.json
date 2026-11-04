@@ -1,0 +1,13 @@
+{
+  "output_cap_bytes": 33554432,
+  "frozen_path": "research/sync/runs/hpc-native-information-freeze-20261030/outputs/frozen.json",
+  "scope": "Native-Information-Shadow-v1",
+  "training": false,
+  "hard_timeout_seconds": 120,
+  "formal_test": false,
+  "final_contract_run": "hpc-native-information-regression-v2-20261030",
+  "human_authorization_record": "2026-10-30 本会话用户明确指令：运行最小Shadow机制诊断；按已验收两已曝光world/24slot/最多96快照/120秒与32MiB范围执行，不扩N、训练或正式test。",
+  "frozen_sha256": "656185273034b13734cbe6b3caf8555f94e8870ab48060bfca76b9f25296f21e",
+  "approved": true,
+  "config_sha256": "eaafcc6b31f1ded6d8069f2c25080c17e7c4ae111dd3b478c1f1cc42199af5de"
+}

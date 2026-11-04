@@ -1,0 +1,22 @@
+{
+  "scope": "File/Git/document management only, not tests or scientific analysis",
+  "head": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "frozen_source_file_count": 73,
+  "frozen_source_mismatches": [],
+  "accepted_document_changes": [],
+  "accepted_document_sha256": {
+    "research/protocols/native_information_value_spec_v1.md": "4e961bd8b3f7ac41064c796d70f719fec39e0ad8145db93e80afda1a5d4db125",
+    "research/reports/native_information_feasibility_review_2026-10-30.md": "7d2eee3d88faefa1d40ac930ffa01c673febfadce55006359b00fe16e4c8131b"
+  },
+  "protected_tracked_source_diff_exit_code": 0,
+  "git_diff_check_exit_code": 0,
+  "missing_local_report_links": [],
+  "trailing_whitespace": [],
+  "new_test_results": "not_run",
+  "new_hpc_runs": [],
+  "reports_written": [
+    "research\\reports\\candidate_expression_review_2026-10-30.md",
+    "research\\reports\\planner_search_task_fit_review_2026-10-30.md",
+    "research\\reports\\research_route_decision_2026-10-30.md"
+  ]
+}

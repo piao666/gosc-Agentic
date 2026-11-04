@@ -1,0 +1,1 @@
+{"model_ids": ["llama3.2:3b", "qwen2.5:3b", "qwen2.5:7b"], "sdk_model_listing": "passed", "show_metadata": "passed", "inference_requested": false, "model_load_requested": false}

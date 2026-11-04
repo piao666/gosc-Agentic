@@ -1,0 +1,18 @@
+{
+  "stage": "before_single_authorized_commit",
+  "base": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "branch": "research/progress-audit-2026-10-19",
+  "remote_ref_verified_before_commit": true,
+  "new_scientific_runs": 0,
+  "new_model_calls": 0,
+  "historical_frozen_sources_unchanged": 73,
+  "small_whitelist_artifacts": 20,
+  "whitelist_total_bytes": 518705,
+  "line_ending_index_mismatch_found_and_fixed_new_paths": 22,
+  "existing_tracked_evidence_renormalized": false,
+  "immutable_reference_whitespace_preserved": true,
+  "default_full_whitespace_check_passed": false,
+  "current_source_cr_at_eol_aware_check_passed": true,
+  "five_note_sections_and_links_verified": true,
+  "commit_identity_authority": "git history with Commit-Note plus matching remote branch SHA; no self hash backfill"
+}

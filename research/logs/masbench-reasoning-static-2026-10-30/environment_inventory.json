@@ -1,0 +1,96 @@
+{
+  "at_utc": "2026-10-30T10:13:18.824589+00:00",
+  "scope": "Read-only inventory, no project test/inference/task",
+  "command": [
+    "ssh",
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "ConnectTimeout=12",
+    "hpc",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python -"
+  ],
+  "local_loopback_ollama": {
+    "/api/version": {
+      "status": "unavailable",
+      "error": "URLError"
+    },
+    "/api/tags": {
+      "status": "unavailable",
+      "error": "URLError"
+    }
+  },
+  "hpc": {
+    "exit_code": 0,
+    "inventory": {
+      "at_utc": "2026-10-30T10:13:13.907460+00:00",
+      "uid": 8301880,
+      "host": "n1",
+      "project_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+      "python_executable": "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "python_version": "3.11.15",
+      "git_head": {
+        "exit_code": 0,
+        "stdout": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+        "stderr": ""
+      },
+      "origin": {
+        "exit_code": 0,
+        "stdout": "https://github.com/piao666/gosc-Agentic.git",
+        "stderr": ""
+      },
+      "resource_limits": {
+        "quota": "200000",
+        "period": "100000",
+        "cpuset": "0-1",
+        "memory": "25769803776"
+      },
+      "filesystem_free_bytes": 38685304565760,
+      "packages": {
+        "openai": null,
+        "httpx": null,
+        "requests": null,
+        "python-dotenv": null,
+        "numpy": "2.4.6",
+        "pandas": null,
+        "tiktoken": null,
+        "pytest": "9.1.1"
+      },
+      "gpu": {
+        "exit_code": 0,
+        "stdout": "NVIDIA L40, 545.29.06, 34304 MiB, 5940 MiB",
+        "stderr": ""
+      },
+      "ollama": {
+        "/api/version": {
+          "status": "available",
+          "response": {
+            "version": "0.11.11"
+          }
+        },
+        "/api/tags": {
+          "status": "available",
+          "response": {
+            "models": []
+          }
+        },
+        "/api/ps": {
+          "status": "available",
+          "response": {
+            "models": []
+          }
+        },
+        "/v1/models": {
+          "status": "available",
+          "response": {
+            "object": "list",
+            "data": null
+          }
+        }
+      },
+      "inference_requested": false,
+      "service_started": false,
+      "dependencies_installed": false
+    }
+  }
+}

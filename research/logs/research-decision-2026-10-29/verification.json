@@ -1,0 +1,42 @@
+{
+  "scope": "Local documentation/link/byte management only; no scientific computation",
+  "documents": [
+    {
+      "path": "research/reports/research_decision_existing_information_2026-10-29.md",
+      "sha256": "a75bea89b8249df21e8e5263c685cc28cc52cad7037eee42742f8a152124d4e9",
+      "bytes": 22262
+    },
+    {
+      "path": "research/logs/research-decision-2026-10-29/task_brief.md",
+      "sha256": "72ffb8675c1e77521db7c16b5e2a0efca6d9ce2da93fbb0b4ab8fbb5ded74ff1",
+      "bytes": 1692
+    },
+    {
+      "path": "research/logs/research-decision-2026-10-29/evidence_index.md",
+      "sha256": "5cdec3bc4522b4a305083511eb3ba779712e3147d27244f337c178fac78888e9",
+      "bytes": 4547
+    }
+  ],
+  "trailing_whitespace": [],
+  "archived_evidence_hashes": [
+    {
+      "path": "gp_id_calibration_analysis.json",
+      "sha256": "b15b9eb05fea2deae0c07aac66ef3ceab48f7a58da500bccaa00a293ee25382b",
+      "matches_archived_provenance": true
+    },
+    {
+      "path": "gp_id_calibration_diagnostic_audit.json",
+      "sha256": "35d86d84594328282fbe6d13f697319f7d196b7a6e57278966b94cd08f81809e",
+      "matches_archived_provenance": true
+    },
+    {
+      "path": "bf_selector_acceptance.json",
+      "sha256": "4604e8fde073257ddcb7b432ee00d250bb7ed0c681b3b9ab29ca0d6c94371ba3",
+      "matches_archived_provenance": true
+    }
+  ],
+  "project_tests_run": false,
+  "base_commit": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "missing_links": [],
+  "manifest_json_parsed": true
+}

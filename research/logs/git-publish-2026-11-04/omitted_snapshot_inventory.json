@@ -1,0 +1,414 @@
+{
+  "files": [
+    {
+      "path": "research/sync/runs/hpc-authorized-installer-cleanup-20261102/source_changes.patch",
+      "bytes": 21267858,
+      "sha256": "646d045c3f6b5fc20809ce10fcda4f75fefbc07df4ae43aa5da5ee3ef8331dfa",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-authorized-installer-cleanup-20261102/source_untracked.tar.gz",
+      "bytes": 212232,
+      "sha256": "6f4222addf7f55fddff370b3f9f496fbea75213e3431923d5149a1cf088592be",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-laya-authorized-cleanup-20261102/source_changes.patch",
+      "bytes": 21266550,
+      "sha256": "354df8a39e2fa23b90086b11a0a9397f4d2789a042d7af39aa73d07cc93fdc98",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-laya-authorized-cleanup-20261102/source_untracked.tar.gz",
+      "bytes": 212232,
+      "sha256": "163824955931640704a98ca38c8b921cba60d4b8309d239fa1c3950d94877f72",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-adapter-contract-20261103/source_changes.patch",
+      "bytes": 21276894,
+      "sha256": "302a1fae164c6f4cc3630216e093ac3af167de197a9d3415986e95c642409ff7",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-adapter-contract-20261103/source_untracked.tar.gz",
+      "bytes": 287220,
+      "sha256": "1c5db893af86cc8b59cce6406ccc4dc484384faf74cec1088c2cd59a20f6415d",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-adapter-contract-v2-20261103/source_changes.patch",
+      "bytes": 21278723,
+      "sha256": "f6f801c92a479d9d88d819e4b8818c48978d4832e21a5cc8672bbe4f10f103c7",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-adapter-contract-v2-20261103/source_untracked.tar.gz",
+      "bytes": 290018,
+      "sha256": "1100eb5e3f0912dbc5c6c77cdf28a94641280c0dd506acde88dde569b17a394b",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-adapter-contract-v3-20261103/source_changes.patch",
+      "bytes": 21279655,
+      "sha256": "2e7009612a931f51b180130354b3f6b30ccdc20c35ba1fc5ac6a067447bd807d",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-adapter-contract-v3-20261103/source_untracked.tar.gz",
+      "bytes": 298748,
+      "sha256": "269656de62a5be5f9ada1465c5b39410e96bea6c47cab15469d7990c457ebf0f",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-client-contract-20261103/source_changes.patch",
+      "bytes": 21283463,
+      "sha256": "22d472532bbc66694aa74787cf0f3c69552b1f7406ed30f86f4cf6ad772f9d81",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-client-contract-20261103/source_untracked.tar.gz",
+      "bytes": 327226,
+      "sha256": "bdc9da764cf554d1fb2fc89c47005d4694d88d3bcc8e3e016cb295acf2db0edd",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-client-contract-v2-20261103/source_changes.patch",
+      "bytes": 21285267,
+      "sha256": "f477deb6d957e67388d265fad67ae7e82f84691260f59a0f31671d80ebb79d41",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-client-contract-v2-20261103/source_untracked.tar.gz",
+      "bytes": 331122,
+      "sha256": "a11052121ec633ac7c4e8ebb85731a72ee43082cfd9a45b083a6344ae2357c6b",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-client-contract-v3-20261103/source_changes.patch",
+      "bytes": 21289136,
+      "sha256": "6b732b5d17d59a5d0684c54b95ab542e6ec66f7e3c54562845f5f45b7315a440",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-client-contract-v3-20261103/source_untracked.tar.gz",
+      "bytes": 346461,
+      "sha256": "a53f4cd8a177fd61156a3d407e90456369c0a24ce06ddb90a9d21daa08871acd",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-context-budget-20261103/source_changes.patch",
+      "bytes": 21284339,
+      "sha256": "e456e03a6229098f45bcfd90d53d0dfac7fbdf5cfd6eaa6287d84dccb27603f7",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-context-budget-20261103/source_untracked.tar.gz",
+      "bytes": 329632,
+      "sha256": "1af7d7c696c0c3c7504ba9f2734fd35ac265d8c671a6d772fd28008c981af549",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-data-audit-20261103/source_changes.patch",
+      "bytes": 21275074,
+      "sha256": "79a39995cbbae8c3badae83a7016a5f373d1a7941788cdf48307f12d31f56c51",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-data-audit-20261103/source_untracked.tar.gz",
+      "bytes": 281250,
+      "sha256": "cede3c029e300d4b525d838f8f75d25a7c24aba7a85e8b7f410ef74efb3cfc2f",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-data-audit-v2-20261103/source_changes.patch",
+      "bytes": 21275966,
+      "sha256": "29b9536da572a2a6682ab4db2746340f0086d9a4529a452672705d91b6d85c29",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-data-audit-v2-20261103/source_untracked.tar.gz",
+      "bytes": 287220,
+      "sha256": "233c5fbedbd419b198bff314c697eacb2fbccf322f63e5c0c65405fa8f69177d",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-data-followup-20261103/source_changes.patch",
+      "bytes": 21277811,
+      "sha256": "b87b8b6d05c26bb26a5ccee880b1c0c440bff5c0b87768f411cd152642a83892",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-data-followup-20261103/source_untracked.tar.gz",
+      "bytes": 290018,
+      "sha256": "e9aced6af9fa4d9416fcbdb68870dccf89e15c8ecc8022828bee27a46c431425",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-dependencies-20261102/source_changes.patch",
+      "bytes": 21257827,
+      "sha256": "b0c459a59e209d2476e51ad21297f7f7ccddec63c981dadfdfaeebf3cf2399f1",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-dependencies-20261102/source_untracked.tar.gz",
+      "bytes": 204378,
+      "sha256": "d24395a2f06acba4c51ce29b4624196a284ecb04a762dfc504a8b11601e86758",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-download-probe-20261102/source_changes.patch",
+      "bytes": 21259271,
+      "sha256": "66909c86610d76dd6564d2401b3d75b64e5646ed6da7fcbc6eec372d5a13b8ec",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-download-probe-20261102/source_untracked.tar.gz",
+      "bytes": 204378,
+      "sha256": "4afd3b24cd42a0329010e234a995b4e6a27bcfdfadf828afc1f30f26069fd268",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-environment-metadata-20261102/source_changes.patch",
+      "bytes": 21272560,
+      "sha256": "3c5191acc1e9fcd519cd968f9f8cd84b0193784d6c58abaef5f3bd970850f448",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-environment-metadata-20261102/source_untracked.tar.gz",
+      "bytes": 220773,
+      "sha256": "2344f2579cd12f04b87e016d7ddbf449aff6295f8d62b8e013770e01522ad9f8",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-httpx-mock-20261103/source_changes.patch",
+      "bytes": 21286171,
+      "sha256": "aff7d9c334b2675fa56760dc668adaf2ab32b02fdc3609171eb4d394a894f925",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-httpx-mock-20261103/source_untracked.tar.gz",
+      "bytes": 331122,
+      "sha256": "00a669b921c78b2f335ebc5e953d0433da45af3376f683100c7bd3832672bdf8",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-httpx-mock-v2-20261103/source_changes.patch",
+      "bytes": 21290048,
+      "sha256": "899051901d8c696f8ac052a63322c26ef320447c81de410d86de54a02c85f21f",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-httpx-mock-v2-20261103/source_untracked.tar.gz",
+      "bytes": 346461,
+      "sha256": "92d7ce12d6edc7c1183e075e7f522d9586a1a77430e185f3ad665a526079b34e",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-model-license-audit-20261102/source_changes.patch",
+      "bytes": 21273537,
+      "sha256": "1a37fcee059050fe39952ec6bcd5c4b0617e19e7c252af6518ed509c007f7009",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-model-license-audit-20261102/source_untracked.tar.gz",
+      "bytes": 220773,
+      "sha256": "c86b690e8f510fcc1d2b55b181065275ebddc989673e574405f30a1ff8236811",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-model-restore-20261102/source_changes.patch",
+      "bytes": 21258729,
+      "sha256": "ab051383eedb78038bdaf854b02fe4497fc3bffb545faa38eed8482788bf57df",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-model-restore-20261102/source_untracked.tar.gz",
+      "bytes": 204378,
+      "sha256": "5eb7ac2e7d83c6399fed0d7d0f66adcb837bf1125972b7c7658860677a91db96",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-model-restore-after-storage-20261102/source_changes.patch",
+      "bytes": 21270561,
+      "sha256": "79f35a511ef4af6b7c30e59ed58187c5e3805b8a86eb29002511efb8b1906a66",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-model-restore-after-storage-20261102/source_untracked.tar.gz",
+      "bytes": 220773,
+      "sha256": "7125c38a88b1c2e209ba3b2a62dc4ece9abd4177582727abadce4ef0ed814690",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-model-restore-after-storage-retry1-20261102/source_changes.patch",
+      "bytes": 21271577,
+      "sha256": "106274240014a1b685fc7929bbed229625e3267ae6a053bc9dfd0930a4a3dc22",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-model-restore-after-storage-retry1-20261102/source_untracked.tar.gz",
+      "bytes": 220773,
+      "sha256": "47829b7a766b0bc4405212cc46fc4ff7fa1255c0c13e295d92861a3d88f991a3",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-model-restore-retry1-20261102/source_changes.patch",
+      "bytes": 21260570,
+      "sha256": "50adbe727b035e97998712c3af9679fa865451f62bbe05b3cb49c3ef2814f697",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-model-restore-retry1-20261102/source_untracked.tar.gz",
+      "bytes": 212232,
+      "sha256": "d50dcf582446c72b02c3e0a84faae0c6f721b986bc528fe514b97c7e45eaf221",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-model-restore-retry2-20261102/source_changes.patch",
+      "bytes": 21261545,
+      "sha256": "73991d536b8705cfe44bc40cf9d27847bf4bd0c73394341bd61dd29929c5cb84",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-model-restore-retry2-20261102/source_untracked.tar.gz",
+      "bytes": 212232,
+      "sha256": "c5eded9c58335db341f0667455fe51ee8a061856c1d831246e7f2b2f5f929869",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-registry-v2-20261103/source_changes.patch",
+      "bytes": 21282562,
+      "sha256": "928438092cca58618f0f0270429187100a5ff870ce302deacb2eb76555d5b173",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-registry-v2-20261103/source_untracked.tar.gz",
+      "bytes": 319134,
+      "sha256": "6f33d5a143ae2df23f2c4eaad5abceb0413dd09825d9963a387a5ee7df48c55d",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-repair-plan-20261102/source_changes.patch",
+      "bytes": 21256426,
+      "sha256": "46f23c18868f9d73e457585fe36344089d135d938cbd8a15682b956d9f4ba838",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-repair-plan-20261102/source_untracked.tar.gz",
+      "bytes": 204378,
+      "sha256": "89aacb9777d92379ef690432a916e8795bff78116a3963d82748553be0462476",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-native-information-contract-20261030/source_changes.patch",
+      "bytes": 21235120,
+      "sha256": "ef41460d01c4a3a0c738b94bb26934376ee8e76968d364cde63b912173f0640d",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-native-information-contract-20261030/source_untracked.tar.gz",
+      "bytes": 82448,
+      "sha256": "eaca2372cfc070d87a3cd38c6c6ed9d0c1f37332dffcb38678156b7deaeab525",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-native-information-freeze-20261030/source_changes.patch",
+      "bytes": 21241743,
+      "sha256": "33fba4408b70a3ec739f61c956c5d8325584d056608fd424da96826d4dd6bf81",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-native-information-freeze-20261030/source_untracked.tar.gz",
+      "bytes": 96890,
+      "sha256": "63ff0fe30d2d3b227c930cdd1fd8c4ee2b9a24d9ad11e220c9c1ce92ade42ab3",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-native-information-regression-20261030/source_changes.patch",
+      "bytes": 21237793,
+      "sha256": "efcf784a3148826effd1e26f8cf196a3153830f65d84c8748c8cbeddfe2c6f1e",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-native-information-regression-20261030/source_untracked.tar.gz",
+      "bytes": 82448,
+      "sha256": "db7ead0ad2832589734d029de7a6e50181d28396b3e3475332cbb3f0408004f4",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-native-information-regression-v2-20261030/source_changes.patch",
+      "bytes": 21238689,
+      "sha256": "f67c0ad048dd05eaab1d00c99720d0ae4f523bd10319e6810bd07c88bb4c944a",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-native-information-regression-v2-20261030/source_untracked.tar.gz",
+      "bytes": 83181,
+      "sha256": "d7550ddfa3bd2bcdb06f97bcb9cf3c4c5fb48147cb73ac60ba70c8fbc6f6bd86",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-native-information-shadow-20261030/source_changes.patch",
+      "bytes": 21242686,
+      "sha256": "e95175aae567323b1d6e11161d1bec9c42764a38a20df526552abb0c96383672",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-native-information-shadow-20261030/source_untracked.tar.gz",
+      "bytes": 98869,
+      "sha256": "65a689f45d80986bfa264f8d4f0e70c125f34e56a7e53b3676ea3bf0de0c46b4",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-native-information-shadow-report-20261030/source_changes.patch",
+      "bytes": 21243622,
+      "sha256": "26f65d488bab3c2f336f1cf1301abfc26eecbcc3e3e6cad72c5f4aef2425d2af",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-native-information-shadow-report-20261030/source_untracked.tar.gz",
+      "bytes": 98869,
+      "sha256": "e2a920ce744f09c42dab2052e15ed559c051857be83a878029ee1828f1a0fea0",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-storage-capacity-after-cleanup-20261102/source_changes.patch",
+      "bytes": 21269614,
+      "sha256": "d3f6a1519b7c0b53c34db2f7c4dd895a9ee5b18744f65ae2bf572fdbbb3502b5",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-storage-capacity-after-cleanup-20261102/source_untracked.tar.gz",
+      "bytes": 212232,
+      "sha256": "3de7894ecd53d42cfbae5c72cf6e6fb78905cea0b89d1ad80f353553e1c8c262",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-storage-capacity-rdwr-20261102/source_changes.patch",
+      "bytes": 21265626,
+      "sha256": "264f140779e815e2d03ab0d1e5d647d14f424f6a9e42709d5ad2d9ee02a26179",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-storage-capacity-rdwr-20261102/source_untracked.tar.gz",
+      "bytes": 212232,
+      "sha256": "1883c1c8761728d1e693af785ffb6c6f206a6e2b7e889c9271c7d010d4b8020e",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-storage-reconcile-capacity-20261102/source_changes.patch",
+      "bytes": 21261545,
+      "sha256": "73991d536b8705cfe44bc40cf9d27847bf4bd0c73394341bd61dd29929c5cb84",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    },
+    {
+      "path": "research/sync/runs/hpc-storage-reconcile-capacity-20261102/source_untracked.tar.gz",
+      "bytes": 212232,
+      "sha256": "2aec2829f98c93d4a884a828cf7f42eb56d8a55346c677d7fd07d555434a944a",
+      "disposition": "retained_local_HPC_not_in_new_Git_archive"
+    }
+  ],
+  "total_bytes": 730873123,
+  "existing_tracked_snapshots_not_removed": true
+}

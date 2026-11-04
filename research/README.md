@@ -1,5 +1,31 @@
 # 研究进度与证据入口
 
+2026-11-04版本归档：[提交说明](../commit/2026-11-04-01-native-information-and-masbench-preparation.md)汇总G1负诊断、候选/任务与路线B审查、MASBench环境/数据/无模型客户端验收；[20份小型证据](artifacts/native-masbench-20261104/README.md)按原HPC字节与SHA归档。科学No-Go保持、真实模型任务仍未放行；本次只做Git/文件管理。以后每次提交按[固定模板](../commit/TEMPLATE.md)写“提交内容、主要尝试、结果、当前进展、下一步安排”。
+
+2026-11-03 P0–P2准备验收：[新报告](reports/masbench_reasoning_preparation_acceptance_2026-11-03.md)、[上下文/预算提案](benchmarks/masbench_reasoning_context_resource_budget_v1.md)。修正空支持键后仍38组/最大242；4题/4分量开发预留248行、余52，模型尚未曝光。最终147合同＋独立httpx MockTransport5项通过，无真实HTTP/模型/任务。精确tokenizer/effective context和未来独立池充分性Pending，6000s/256MiB只是提案；真实诊断仍须另批，G1/GP-ID科学No-Go保持。
+
+2026-11-03路线B工程验收：[数据审计与无模型适配验收](reports/masbench_reasoning_adapter_acceptance_2026-11-03.md)、[有限接口合同](benchmarks/masbench_reasoning_adapter_contract_v1.md)。HPC最终67合成合同通过，73冻结源码不变；数据300条/200唯一问题/100重复组，2条support一致性异常，保守分组最大242条、划分未冻结。没有模型调用或真实任务；工程支持域Go，数据/上下文/预算仍Pending，G1/GP-ID科学No-Go保持，完成本轮后停止。
+
+2026-11-02环境维护验收：[Reasoning独立环境](benchmarks/masbench_reasoning_environment_v1.md)、[完整维护报告与失败记录](logs/masbench-environment-repair-2026-11-02/report.md)。三个模型的本项目历史digest/全部blob SHA通过；独立客户端依赖、SDK GET清单及metadata通过。用户逐项授权清理hai-study、两个指定Laya目录及完整安装包后解除配额阻断。仅基础环境Go，没有模型加载/生成、任务/训练或Git提交；数据、能力及无线合同仍Pending，G1/GP-ID科学No-Go不变。
+
+2026-11-02 13:46路线B环境复核：[HPC连接恢复后的只读记录](logs/masbench-reasoning-hpc-2026-11-02/task_log.md)确认身份/HEAD及2CPU/24GiB/L40；Ollama服务在线但模型清单为空，旧三个标准manifest未见，缺openai/httpx等依赖。连接阻断解除，当前运行仍No-Go/Blocked；模型能力、数据及合同仍Pending。没有启动推理/测试/安装/下载/实验；旧超时与科学No-Go保留。
+
+2026-11-02路线B静态交付复核：[三份Reasoning规格与审查](benchmarks/masbench_reasoning_adapter_spec_v1.md)保持设计稿；[当前只读核查](logs/masbench-reasoning-static-2026-11-02/task_log.md)因HPC SSH超时而Pending。下文10月30日模型/包清单为历史快照，不作今日实况。方向Conditional Go，运行No-Go/Blocked；未实施、未运行测试/任务/模型、未提交Git，G1/GP-ID科学No-Go保持。
+
+2026-10-30路线B第一阶段：[MASBench Reasoning静态适配规格](benchmarks/masbench_reasoning_adapter_spec_v1.md)、[科研可行性审查](benchmarks/masbench_reasoning_feasibility_review.md)、[关卡矩阵](benchmarks/masbench_reasoning_gate_matrix.md)。已固定第三方commit并追踪私有context/共享板/首答案/None分母；只读HPC发现服务在线但模型列表为空、旧三manifest未见且依赖缺失，数据正文核验仍Pending。方向Conditional Go，当前运行Blocked/No-Go；没有集成/任务/测试/训练/付费调用/安装/提交。G1与GP-ID No-Go保持，交付后等待研究决策。
+
+2026-10-30方向静态审查：[候选表达与调度耦合](reports/candidate_expression_review_2026-10-30.md)、[Planner Search适配性](reports/planner_search_task_fit_review_2026-10-30.md)、[路线A/B与Go/No-Go建议](reports/research_route_decision_2026-10-30.md)。确认FIFO/每率最长前缀限制表达，未证明是G1失败的因果主因；原G1 No-Go保持。若保留LLM多Agent论文主问题，优先建议路线B单一公开benchmark的静态适配规格，A保留备选与系统边界，不自动实施。仅源码/已有记录/公开原文只读核查，无新计算、算法/候选/任务修改、同步或Git提交推送；本轮完成后等待研究决策。
+
+2026-10-30最小机制诊断：[Shadow结果与No-Go报告](reports/native_information_shadow_results_2026-10-30.md)、[执行索引](protocols/native_information_shadow_execution_2026-10-30.json)。用户明确授权后两已曝光world×24slots、82快照在HPC5.681158s完成，独立审计passed，全部回传；69个多前缀快照有非比例估值变化，但492次快照×价格比较的EVID前缀切换为0，仅16次速率/9次开关差异，G1完整选包均被声明有限控制集合复现。**本版G1内容路线No-Go并停止，不训练复杂模型挽救。** 效果N0，不证明任意调价等价或信息普遍无价值；候选生成/任务适配性待另行审阅。下文“未授权/未运行”保留前序阶段含义。
+
+2026-10-30合同验收：[Native-Information HPC工程检查](reports/native_information_contract_acceptance_2026-10-30.md)最终519完整测试通过（34新case），原件全部回传。支持域工程合同Go；无生产算法改动，最小Shadow诊断/收益/训练/正式test仍未放行，原科学No-Go保持。
+
+2026-10-30实施入口：[Native-Information最小Shadow代码交付](reports/native_information_implementation_2026-10-30.md)。局部G0/G1、真实入口/自有证据账本、被动宿主、同状态重选、独立标量/预算审计、合同定义及授权门控已写；**全部新增项目测试/prepare/Shadow未运行，工程验收Pending**。原No-Go保持，未获得诊断运行授权，两份已验收静态文档原样保留。
+
+2026-10-30用户验收：[Native-Information静态规格](protocols/native_information_value_spec_v1.md)与[可行性审查](reports/native_information_feasibility_review_2026-10-30.md)通过，正文原样保留。[验收记录](logs/native-information-review-2026-10-30/user_acceptance.md)明确当前阶段：**静态研究设计完成 → 等待最小机制诊断 → 再决定第一篇论文是否继续沿G1路线推进**。诊断只问固定候选下是否存在无法由简单调价解释的内容级决策差异；未批准运行，原No-Go、算法/实验/训练/正式测试边界保持。
+
+2026-10-29研究决策：[付费位置为何未建立净收益，以及现有信息下的调度候选](reports/research_decision_existing_information_2026-10-29.md)。基于014b85d静态审查；建议优先审阅无需新增同步的最小内容价值代理，效果待验证。无新计算，原科学No-Go与BF工程Go分别保留。
+
 2026-10-28归档入口：[最近几轮结果汇总](reports/recent_rounds_summary_2026-10-28.md)、[8份HPC汇总JSON白名单](artifacts/gp-id-bf-20261027/README.md)、[提交说明](../commit/2026-10-28-01-information-identifiability-and-budget-selector.md)。工程Go与科学No-Go分开，保留原失败/旧状态和P1缺口；本次只做版本归档，无新科研运行。
 
 最新工程验收（2026-10-27）：[BF-selector-v1实施/验收报告](reports/budget_selector_acceptance_2026-10-27.md)与[执行索引](protocols/budget_selector_execution_2026-10-27.json)。485完整HPC测试通过；7旧违规/192可行目录、52短fixture及7派生修复到wire合同、独立原始行/预算/组/成员/CRC/typed账本核验通过并回传。旧源/默认与失败保持；新显式入口GP-ID-BF-v1，收益N0。工程Go不撤销原科学No-Go，不自动扩N、正式test或训练。下方Pending属前序快照。

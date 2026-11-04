@@ -1,11 +1,12 @@
 # HPC execution status
 
-Generated: 2026-10-27T09:23:24.412585+00:00
+Generated: 2026-11-03T07:23:47.668557+00:00
 
 | Run | Kind | Stage | Status | Exit |
 |---|---|---|---|---|
 | hpc-acceptance-scope-20261022 | analysis | P1-acceptance | failed | 1 |
 | hpc-acceptance-scope-v2-20261022 | analysis | P1-acceptance | completed | 0 |
+| hpc-authorized-installer-cleanup-20261102 | infrastructure | AUTHORIZED-INSTALLER-CLEANUP | completed | 0 |
 | hpc-budget-selector-acceptance-20261027 | analysis | budget_selector_bounded_acceptance | completed | 0 |
 | hpc-budget-selector-binding-contract-20261027 | test | budget_selector_original_binding_contract | completed | 0 |
 | hpc-budget-selector-contract-20261027 | test | budget_selector_full_contracts | completed | 0 |
@@ -35,6 +36,7 @@ Generated: 2026-10-27T09:23:24.412585+00:00
 | hpc-env-20261019 | infrastructure | environment | completed | 0 |
 | hpc-final-coverage-audit-20261022 | analysis | P1-final-coverage | completed | 0 |
 | hpc-final-coverage-audit-v2-20261022 | analysis | P1-final-coverage-v2 | completed | 0 |
+| hpc-hai-study-cleanup-20261102 | infrastructure | AUTHORIZED-STORAGE-CLEANUP | failed | None |
 | hpc-information-audit-20261027 | analysis | information_independent_audit | completed | 0 |
 | hpc-information-audit-gate-red-20261027 | test | information_audit_gate_red | failed | 1 |
 | hpc-information-calibration-amendment-contract-20261027 | test | information_calibration_amendment_contract | completed | 0 |
@@ -60,9 +62,39 @@ Generated: 2026-10-27T09:23:24.412585+00:00
 | hpc-information-independent-calibration-20261027 | simulation | information_independent_calibration | completed | 0 |
 | hpc-information-prepare-20261027 | infrastructure | information_probe_prepare | completed | 0 |
 | hpc-information-probe-20261027 | simulation | information_cost_fixture | completed | 0 |
+| hpc-laya-authorized-cleanup-20261102 | infrastructure | AUTHORIZED-LAYA-CLEANUP | completed | 0 |
 | hpc-live-llm-tables-20261022 | analysis | P1-live-llm-tables | completed | 0 |
+| hpc-masbench-adapter-contract-20261103 | test | MASBENCH-ADAPTER-CONTRACT | completed | 0 |
+| hpc-masbench-adapter-contract-v2-20261103 | test | MASBENCH-ADAPTER-CONTRACT | completed | 0 |
+| hpc-masbench-adapter-contract-v3-20261103 | test | MASBENCH-ADAPTER-CONTRACT | completed | 0 |
+| hpc-masbench-client-contract-20261103 | test | MASBENCH-P2 | completed | 0 |
+| hpc-masbench-client-contract-v2-20261103 | test | MASBENCH-P2 | completed | 0 |
+| hpc-masbench-client-contract-v3-20261103 | test | MASBENCH-P2 | completed | 0 |
+| hpc-masbench-context-budget-20261103 | analysis | MASBENCH-CONTEXT-BUDGET | completed | 0 |
+| hpc-masbench-data-audit-20261103 | analysis | MASBENCH-DATA-AUDIT | failed | 1 |
+| hpc-masbench-data-audit-v2-20261103 | analysis | MASBENCH-DATA-AUDIT | completed | 0 |
+| hpc-masbench-data-followup-20261103 | analysis | MASBENCH-DATA-FOLLOWUP | completed | 0 |
+| hpc-masbench-dependencies-20261102 | infrastructure | MASBENCH-DEPENDENCIES | completed | 0 |
+| hpc-masbench-download-probe-20261102 | infrastructure | MASBENCH-DOWNLOAD-DIAG | completed | 0 |
+| hpc-masbench-environment-metadata-20261102 | infrastructure | MASBENCH-ENV-METADATA-ACCEPTANCE | completed | 0 |
+| hpc-masbench-httpx-mock-20261103 | test | MASBENCH-P2-HTTPX | completed | 0 |
+| hpc-masbench-httpx-mock-v2-20261103 | test | MASBENCH-P2-HTTPX | completed | 0 |
+| hpc-masbench-model-license-audit-20261102 | infrastructure | MODEL-LICENSE-LAYER-AUDIT | completed | 0 |
+| hpc-masbench-model-restore-20261102 | infrastructure | MASBENCH-MODEL-RESTORE | failed | -15 |
+| hpc-masbench-model-restore-after-storage-20261102 | infrastructure | MASBENCH-RESTORE-AFTER-AUTHORIZED-CLEANUP | failed | -15 |
+| hpc-masbench-model-restore-after-storage-retry1-20261102 | infrastructure | MASBENCH-LAST-TAIL-RESUME | completed | 0 |
+| hpc-masbench-model-restore-retry1-20261102 | infrastructure | MASBENCH-MODEL-RESTORE-RETRY | failed | -15 |
+| hpc-masbench-model-restore-retry2-20261102 | infrastructure | MASBENCH-MODEL-RESTORE-RETRY2 | failed | None |
+| hpc-masbench-registry-v2-20261103 | analysis | MASBENCH-P0-P1 | completed | 0 |
+| hpc-masbench-repair-plan-20261102 | infrastructure | MASBENCH-ENV-PLAN | completed | 0 |
 | hpc-native-adapter-contract-20261023 | test | native-task-adapter | completed | 0 |
 | hpc-native-adapter-trace-20261023 | simulation | native-adapter-trace | completed | 0 |
+| hpc-native-information-contract-20261030 | test | NATIVE-CONTRACT | completed | 0 |
+| hpc-native-information-freeze-20261030 | infrastructure | NATIVE-SHADOW-FREEZE | completed | 0 |
+| hpc-native-information-regression-20261030 | test | NATIVE-REGRESSION | completed | 0 |
+| hpc-native-information-regression-v2-20261030 | test | NATIVE-REGRESSION | completed | 0 |
+| hpc-native-information-shadow-20261030 | simulation | NATIVE-SHADOW | completed | 0 |
+| hpc-native-information-shadow-report-20261030 | analysis | NATIVE-SHADOW-REPORT | completed | 0 |
 | hpc-numpy-diagnosis-20261020 | analysis | numerical-environment-diagnosis | failed | 1 |
 | hpc-numpy-diagnosis-relay-20261020 | analysis | numerical-environment-diagnosis | completed | 0 |
 | hpc-ollama-adapter-tests-20261020 | test | runtime-and-adapter | completed | 0 |
@@ -114,6 +146,9 @@ Generated: 2026-10-27T09:23:24.412585+00:00
 | hpc-resume-final-tests-20261020 | test | resume-and-llm-observation | completed | 0 |
 | hpc-resume-freeze-tests-20261020 | test | final-campaign-guards | completed | 0 |
 | hpc-resume-tests-20261020 | test | resume-guards | completed | 0 |
+| hpc-storage-capacity-after-cleanup-20261102 | infrastructure | STORAGE-CAPACITY-AFTER-CLEANUP | completed | 0 |
+| hpc-storage-capacity-rdwr-20261102 | infrastructure | STORAGE-CAPACITY-RDWR | failed | 120 |
+| hpc-storage-reconcile-capacity-20261102 | infrastructure | STORAGE-RECOVERY | completed | 0 |
 | hpc-summary-age-contract-20261025 | test | summary_age_review_contracts | completed | 0 |
 | hpc-summary-age-existing-data-review-20261025 | analysis | summary_age_existing_data_review | completed | 0 |
 | hpc-summary-age-existing-data-review-v2-20261025 | analysis | summary_age_existing_data_review_v2 | completed | 0 |

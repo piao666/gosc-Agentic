@@ -1,0 +1,181 @@
+{
+  "git_commit": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "files": [
+    {
+      "sha256": "0b8c9376916c789acc72598a3af6edbbc196c2fea0bc338952a9b8f0db196f46",
+      "full_read": true,
+      "lines": 310,
+      "path": "AGENTS.md"
+    },
+    {
+      "sha256": "2ee0dfdadfe46c4fd7443c9f84dc0bbd4fdac75ae6dc00ee569ed44c8238f122",
+      "full_read": true,
+      "lines": 676,
+      "path": "硕士论文研究与实施说明书.md"
+    },
+    {
+      "sha256": "a75bea89b8249df21e8e5263c685cc28cc52cad7037eee42742f8a152124d4e9",
+      "full_read": true,
+      "lines": 165,
+      "path": "research/reports/research_decision_existing_information_2026-10-29.md"
+    },
+    {
+      "sha256": "aa7b8f1e6de34efc58148663ceb6a263e3bc1b7679d5131edf9702617f89b3da",
+      "full_read": true,
+      "lines": 68,
+      "path": "research/reports/information_calibration_results_2026-10-27.md"
+    },
+    {
+      "sha256": "493718111bfe5e81f38e68f558f75c99ac53c018deecc1bd49a26254beeff256",
+      "full_read": true,
+      "lines": 47,
+      "path": "research/reports/budget_selector_acceptance_2026-10-27.md"
+    },
+    {
+      "sha256": "bab3847479626954bcf7ff0c1e259dc43634456901c858e482dc2dd5e98089a2",
+      "full_read": true,
+      "lines": 146,
+      "path": "gosc/voi.py"
+    },
+    {
+      "sha256": "606e35bed232ad1d0937c056174a4f3c0266050f1e731f89de5b4281a1235de1",
+      "full_read": true,
+      "lines": 550,
+      "path": "gosc/schemes.py"
+    },
+    {
+      "sha256": "e3d1fd4b0a37cb23bd802f7187b5ae76c544d4129d07ac45e58be091b7beefc3",
+      "full_read": true,
+      "lines": 54,
+      "path": "gosc/belief.py"
+    },
+    {
+      "sha256": "a2c3d232f59a7c00fe9b830515d1f2486c717827c6d953d60dcb17461139295a",
+      "full_read": true,
+      "lines": 55,
+      "path": "gosc/agent.py"
+    },
+    {
+      "sha256": "96b5482e787b9a204236f02aae48e124a66ba586e05f3ea7369a2b709c3fd876",
+      "full_read": true,
+      "lines": 371,
+      "path": "gosc/simulator.py"
+    },
+    {
+      "sha256": "4c0d962efa6a4bfd5f0aa6f2e523001172d410182a10f24579c6d560b30c595d",
+      "full_read": true,
+      "lines": 90,
+      "path": "gosc/config.py"
+    },
+    {
+      "sha256": "c80185c01709a06ce0410fb0eb826edc8727e2abd85b0ae42cd93844aec58338",
+      "full_read": true,
+      "lines": 89,
+      "path": "gosc/channel.py"
+    },
+    {
+      "sha256": "bb4ca6a06ba111effb7f3a451ee60b8b01702f98863ac3341c2b40b5b3310e0f",
+      "full_read": true,
+      "lines": 106,
+      "path": "extensions/native_task_wire.py"
+    },
+    {
+      "sha256": "1678d6b89e6271ece22e0d26c2912d7d610453deadb14ba087f96678a825f2c9",
+      "full_read": true,
+      "lines": 149,
+      "path": "extensions/native_paid_adapter.py"
+    },
+    {
+      "sha256": "32aa65d7498e8c044b488edf615b7c96586093a0e552b1ee33335a38464d4316",
+      "full_read": true,
+      "lines": 168,
+      "path": "extensions/receiver_pose_interface.py"
+    },
+    {
+      "sha256": "2c9e54165d82801a6e3aab093a3f17b590b77e914c63aab1f390bc7bf5c2646d",
+      "full_read": true,
+      "lines": 308,
+      "path": "extensions/information_identifiability.py"
+    },
+    {
+      "sha256": "253d23c20e4eb7532eee990927a4d5f7ad1febc952d2b011995c2061d575483f",
+      "full_read": true,
+      "lines": 66,
+      "path": "extensions/causal_paid_simulation.py"
+    },
+    {
+      "sha256": "11900b07e39d8871c2213dcf6ab2520f33a06e0a44d5e0661771aa2274cd0978",
+      "full_read": true,
+      "lines": 106,
+      "path": "extensions/causal_paid_service.py"
+    },
+    {
+      "sha256": "fcf2c86ba3d32305235396e0226f0d18d847a97b4377b2d64c1f878bf39ce234",
+      "full_read": true,
+      "lines": 210,
+      "path": "extensions/paid_receiver_service.py"
+    },
+    {
+      "sha256": "19d5c1d141aa82be0b60b57e152c817fac2512a3470af81013a23aa17f57f407",
+      "full_read": true,
+      "lines": 83,
+      "path": "extensions/paired_paid_simulation.py"
+    },
+    {
+      "sha256": "08a90cba993629202f16151eda92e0bbc126bccf396335e9514d5c9c111384b2",
+      "full_read": true,
+      "lines": 57,
+      "path": "extensions/wire_periodic.py"
+    },
+    {
+      "sha256": "6b957ec3546f912ffe95b587f1c934376f5c69fda6e5eaa430ee340bfcc07fdb",
+      "full_read": true,
+      "lines": 149,
+      "path": "extensions/budget_feasible_selector.py"
+    },
+    {
+      "sha256": "9b478eaec766c616bb5b9fb9c2b9ca47a0b586c085a93aa5eff58e40c3ebea3e",
+      "full_read": true,
+      "lines": 114,
+      "path": "extensions/budget_feasible_information.py"
+    },
+    {
+      "sha256": "60d0ead9a7c5571a7593ddff85c28689589d20b8b00764efbd7d54129af36580",
+      "full_read": true,
+      "lines": 110,
+      "path": "tests_ext/test_native_paid_adapter.py"
+    },
+    {
+      "sha256": "ca9133c02892c6304184ae0b6fd8e5819182298af9fc9138eb80083ab2c3b4a9",
+      "full_read": false,
+      "path": "README.md",
+      "read_range": "1-65"
+    },
+    {
+      "sha256": "46a212ca5a437dc02e996d3f43d7dfcdf77ba645691525cb94bbadbb9131eadb",
+      "full_read": false,
+      "path": "gosc/realistic.py",
+      "read_range": "71-185; shared path403-481 located via prior paper-code map, not reread full this task"
+    },
+    {
+      "sha256": "b964ef4a5ae7fcc28e738ad56d7be4e816e352796e657b299716bbead838fe5a",
+      "full_read": false,
+      "path": "research/sync/plans/next_steps.md",
+      "read_range": "1-18"
+    },
+    {
+      "sha256": "442dc58c83d6ad993fd251a0773cb357eb01a5741378e8c59a333522f05c94e1",
+      "full_read": false,
+      "path": "research/logs/GOSC_paper_code_map.md",
+      "read_range": "1-42"
+    },
+    {
+      "sha256": "5c7145c7e97909437147128f9fdca28b76ce22b980218e0e1b86446a7b3bf21c",
+      "full_read": false,
+      "path": "research/logs/research-decision-2026-10-29/verification.json",
+      "read_range": "1-23"
+    }
+  ],
+  "scope": "Local read-only file inventory and byte hashes; no project computation",
+  "date": "2026-10-30"
+}

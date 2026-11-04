@@ -1,0 +1,15 @@
+{
+  "run_id": "hpc-masbench-data-audit-v2-20261103",
+  "files": [
+    {
+      "path": "outputs/data_audit.json",
+      "size": 224809,
+      "sha256": "c17979b56dec8c9afa5497939d7825486c15c8498b70251189cfb707199a701a"
+    },
+    {
+      "path": "outputs/reasoning.json",
+      "size": 11996959,
+      "sha256": "ce65640b566e70098c540b9c814768c9ff5d8544a4cb25162a3872ac9c3bb331"
+    }
+  ]
+}

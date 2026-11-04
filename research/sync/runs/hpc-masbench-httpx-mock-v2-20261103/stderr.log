@@ -1,0 +1,10 @@
+test_metadata_timeout_is_not_a_generation (__main__.HTTPMockContracts.test_metadata_timeout_is_not_a_generation) ... ok
+test_missing_usage_remains_missing (__main__.HTTPMockContracts.test_missing_usage_remains_missing) ... ok
+test_no_redirect_following (__main__.HTTPMockContracts.test_no_redirect_following) ... ok
+test_real_httpx_timeout_class (__main__.HTTPMockContracts.test_real_httpx_timeout_class) ... ok
+test_serialization_hash_and_local_endpoint (__main__.HTTPMockContracts.test_serialization_hash_and_local_endpoint) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK

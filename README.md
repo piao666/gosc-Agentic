@@ -1,5 +1,7 @@
 # GOSC: Resource-Efficient Semantic Communication for Heterogeneous Agentic Teams
 
+**Nov04 archive:** [commit note](commit/2026-11-04-01-native-information-and-masbench-preparation.md) and [20 byte-identical evidence files](research/artifacts/native-masbench-20261104/README.md) summarize the G1 content-route No-Go and MASBench Reasoning model-free preparation. Actual model capability/context and formal research gates remain Pending; this archive starts no experiment. Every future commit includes the [five-part note](commit/TEMPLATE.md).
+
 ## Research working copy
 
 **Oct28 research archive:** [recent-round results](research/reports/recent_rounds_summary_2026-10-28.md) and [eight byte-identical result summaries](research/artifacts/gp-id-bf-20261027/README.md) distinguish GP-ID calibration **scientific No-Go** from BF-selector **engineering acceptance**. Raw outputs remain outside Git. This archive adds no scientific runs or permission for sample expansion,confirmatory testing or training.

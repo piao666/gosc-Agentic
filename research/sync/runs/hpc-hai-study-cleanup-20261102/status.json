@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-hai-study-cleanup-20261102",
+  "status": "failed",
+  "started_at": null,
+  "finished_at": null,
+  "exit_code": null,
+  "pid": null,
+  "reconciled_at": "2026-11-02T07:04:53.108631+00:00",
+  "error": "EDQUOT during initial manifest; command not launched"
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-model-restore-after-storage-retry1-20261102",
+  "status": "completed",
+  "started_at": "2026-11-02T07:27:22.471220+00:00",
+  "finished_at": "2026-11-02T07:29:11.828937+00:00",
+  "exit_code": 0,
+  "pid": 13756,
+  "elapsed_seconds": 109.357746,
+  "resource_usage": {
+    "child_max_rss_kib": 47440,
+    "child_cpu_user_seconds": 5.464867,
+    "child_cpu_system_seconds": 1.343787,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,7 @@
+command: uv_version
+command: create_venv
+command: compile_lock
+command: install_locked
+command: dependency_check
+command: imports
+Reasoning dependencies installed and checked in isolated environment; no inference.

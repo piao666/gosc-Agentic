@@ -1,0 +1,26 @@
+{
+  "execution_host": "hpc",
+  "pytest_exit": 0,
+  "command": [
+    "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "tests_ext/test_masbench_reasoning_adapter.py",
+    "tests_ext/test_masbench_reasoning_preparation.py",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-client-contract-v3-20261103/pytest-tmp",
+    "--junitxml",
+    "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-client-contract-v3-20261103/outputs/contracts.xml"
+  ],
+  "model_calls": 0,
+  "actual_task_episodes": 0,
+  "new_network_calls": 0,
+  "backend": "fixed synthetic response objects and fake HTTP; socket connections forbidden",
+  "source_guard_count": 73,
+  "live_chat_context_capability": "Pending_not_tested",
+  "training": false,
+  "independent_reasoning_environment_not_modified": true
+}

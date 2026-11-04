@@ -1,0 +1,2 @@
+{"N": 300, "levels": {"easy": 200, "hard": 100}, "unique_ids": 300, "private_overlap": {"items_shared_titles": 100, "items_shared_sentences": 94, "items_shared_support": 0}}
+{"schema_error_records": 2, "split_sizes": {"held_out": 274, "development": 9, "calibration": 17}, "model_calls": 0}

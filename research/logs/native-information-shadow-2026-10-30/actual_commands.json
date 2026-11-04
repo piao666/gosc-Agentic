@@ -1,0 +1,74 @@
+{
+  "local_management": [
+    "python research/logs/native-information-shadow-2026-10-30/preflight.py",
+    "python research/logs/native-information-shadow-2026-10-30/finalize_records.py",
+    "git status --short",
+    "git rev-parse HEAD",
+    "git remote -v",
+    "git diff --exit-code HEAD -- gosc extensions",
+    "git diff --check",
+    "python scripts/sync_hpc.py"
+  ],
+  "hpc_registered": [
+    {
+      "run_id": "hpc-native-information-freeze-20261030",
+      "command": [
+        "timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "60s",
+        "env",
+        "OMP_NUM_THREADS=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "MKL_NUM_THREADS=1",
+        "NUMEXPR_NUM_THREADS=1",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/repro_native_information_shadow.py",
+        "--mode",
+        "prepare",
+        "--contracts-run",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-native-information-regression-v2-20261030"
+      ]
+    },
+    {
+      "run_id": "hpc-native-information-shadow-20261030",
+      "command": [
+        "timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "125s",
+        "env",
+        "OMP_NUM_THREADS=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "MKL_NUM_THREADS=1",
+        "NUMEXPR_NUM_THREADS=1",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/repro_native_information_shadow.py",
+        "--mode",
+        "run",
+        "--frozen",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-native-information-freeze-20261030/outputs/frozen.json",
+        "--authorization",
+        "research/protocols/native_information_shadow_authorization_2026-10-30.json"
+      ]
+    },
+    {
+      "run_id": "hpc-native-information-shadow-report-20261030",
+      "command": [
+        "timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "30s",
+        "env",
+        "OMP_NUM_THREADS=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "MKL_NUM_THREADS=1",
+        "NUMEXPR_NUM_THREADS=1",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "scripts/summarize_native_information_shadow.py",
+        "--input-run",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-native-information-shadow-20261030"
+      ]
+    }
+  ]
+}

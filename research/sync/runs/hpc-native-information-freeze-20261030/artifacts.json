@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-native-information-freeze-20261030",
+  "files": [
+    {
+      "path": "outputs/frozen.json",
+      "size": 10174,
+      "sha256": "656185273034b13734cbe6b3caf8555f94e8870ab48060bfca76b9f25296f21e"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-storage-capacity-rdwr-20261102",
+  "status": "failed",
+  "started_at": "2026-11-02T07:05:56.097952+00:00",
+  "finished_at": "2026-11-02T07:05:59.806815+00:00",
+  "exit_code": 120,
+  "pid": 11517,
+  "elapsed_seconds": 3.708891,
+  "resource_usage": {
+    "child_max_rss_kib": 47272,
+    "child_cpu_user_seconds": 0.359155,
+    "child_cpu_system_seconds": 3.654267,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,15 @@
+{
+  "run_id": "hpc-authorized-installer-cleanup-20261102",
+  "files": [
+    {
+      "path": "outputs/archive_after.json",
+      "size": 590,
+      "sha256": "b349b4f0fd12011638034f19d9e5a393b6f04cf72120eaa99de642fe878c934d"
+    },
+    {
+      "path": "outputs/archive_before.json",
+      "size": 425,
+      "sha256": "a5c7ef6a16d4bb4cf472d0a2195bcbeb15a221aa5418353cc2a3efd9b1f65d29"
+    }
+  ]
+}

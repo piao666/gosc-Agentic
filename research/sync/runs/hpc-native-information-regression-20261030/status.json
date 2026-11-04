@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-native-information-regression-20261030",
+  "status": "completed",
+  "started_at": "2026-10-30T08:24:18.199055+00:00",
+  "finished_at": "2026-10-30T08:25:09.578763+00:00",
+  "exit_code": 0,
+  "pid": 13401,
+  "elapsed_seconds": 51.379726,
+  "resource_usage": {
+    "child_max_rss_kib": 87756,
+    "child_cpu_user_seconds": 47.822485,
+    "child_cpu_system_seconds": 1.10296,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

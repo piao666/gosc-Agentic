@@ -1,0 +1,73 @@
+{
+  "version": "masbench-registry-v2",
+  "data_sha256": "ce65640b566e70098c540b9c814768c9ff5d8544a4cb25162a3872ac9c3bb331",
+  "rows": 300,
+  "question_families": 200,
+  "legacy_components": 38,
+  "legacy_largest": 242,
+  "corrected_components": 38,
+  "corrected_largest": 242,
+  "changed_membership_pairs": 0,
+  "rejected_empty_keys": 14,
+  "structural_graphs": {
+    "question_only": {
+      "count": 200,
+      "largest": 2
+    },
+    "context_only": {
+      "count": 38,
+      "largest": 242
+    },
+    "question_and_context": {
+      "count": 38,
+      "largest": 242
+    },
+    "support_only": {
+      "count": 200,
+      "largest": 2
+    }
+  },
+  "status": "development_registry_frozen_model_unexposed",
+  "selected": [
+    {
+      "row": 25,
+      "record_id": "sample_251_f128c587",
+      "level": "easy",
+      "family_sha256": "f7d17aa841ccabd837d2ed52a30f454449f8b7b7cb132e8ce94d49792cc98842",
+      "component": 7,
+      "selection_rank_sha256": "003f32f26b0729a62a4cfa351c483910183824408c1ae795061c0fdb607014a4"
+    },
+    {
+      "row": 124,
+      "record_id": "sample_153_1d14c5cc",
+      "level": "easy",
+      "family_sha256": "9e12ae37c81d0ea46b40fb070ccfbe78aff5c56b3ce2198ff6a61c8293e784a0",
+      "component": 0,
+      "selection_rank_sha256": "00f0320f5d0ef716ecab9d5941ead9d8649593aa5e3ac526d089dae67f2ab7e7"
+    },
+    {
+      "row": 294,
+      "record_id": "sample_278_79ddf47b",
+      "level": "hard",
+      "family_sha256": "4725a6878e3318f34dec0bdfe43c78306287b8c2546bb9f1d909135bf09c100f",
+      "component": 35,
+      "selection_rank_sha256": "04b5cff9ee9934bdc4ca88e93539f6f75fd4b9fd06405df903d0f1cfee829a3f"
+    },
+    {
+      "row": 259,
+      "record_id": "sample_152_1d4d49b1",
+      "level": "hard",
+      "family_sha256": "f183c55b84c30ba5d0c450ba1d1f21a6d53dc154a815ddc41185c8d7d527a660",
+      "component": 1,
+      "selection_rank_sha256": "0c948783552f26bd6c78e5dbf0260122d3c01e3062b388e3148c9d878b4f38e1"
+    }
+  ],
+  "development_reserved_rows": 248,
+  "not_reserved_rows": 52,
+  "reserved_components": 4,
+  "registry_content_sha256": "94b20ff4e199f8e6dc9eeeae8b0a8f91767c00576906f5589387a1266f4a4f1a",
+  "model_calls": 0,
+  "actual_model_exposure": false,
+  "formal_split_frozen": false,
+  "pilot_model_execution_authorized": false
+}

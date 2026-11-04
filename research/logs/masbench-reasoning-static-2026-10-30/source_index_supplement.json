@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-30",
+  "commit": "c0301a650db95958924bb080192c09fef39389a5",
+  "source_file_metadata": [
+    {
+      "path": "README.md",
+      "git_blob_sha": "eb8181c479e01d0d06290decfc51b0f1addbc0fe",
+      "fetched_blob_sha": "eb8181c479e01d0d06290decfc51b0f1addbc0fe",
+      "metadata_sha_matches": true,
+      "content_observed": true,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/README.md"
+    },
+    {
+      "path": "Reasoning/README.md",
+      "git_blob_sha": "94b7a0f2a5632de59bceed11eb30489889967c1e",
+      "fetched_blob_sha": "94b7a0f2a5632de59bceed11eb30489889967c1e",
+      "metadata_sha_matches": true,
+      "content_observed": true,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/README.md"
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "c19ebedcc48100d1ea2fc67f9a68d1d087849c68",
+      "fetched_blob_sha": "c19ebedcc48100d1ea2fc67f9a68d1d087849c68",
+      "metadata_sha_matches": true,
+      "content_observed": true,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/LICENSE"
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob_sha": "09863fbdb65bd9a2cfea031fd3cbde398d4fd603",
+      "fetched_blob_sha": "09863fbdb65bd9a2cfea031fd3cbde398d4fd603",
+      "metadata_sha_matches": true,
+      "content_observed": true,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/requirements.txt"
+    },
+    {
+      "path": "Reasoning/src/agents.py",
+      "git_blob_sha": "dcc3916ab43bca6b7e946fc82b0206cc4af6c59d",
+      "fetched_blob_sha": "dcc3916ab43bca6b7e946fc82b0206cc4af6c59d",
+      "metadata_sha_matches": true,
+      "content_observed": true,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/src/agents.py"
+    },
+    {
+      "path": "Reasoning/src/conversation.py",
+      "git_blob_sha": "cf6612da2c813753c3f20d48f4bdd45a6a16656b",
+      "fetched_blob_sha": "cf6612da2c813753c3f20d48f4bdd45a6a16656b",
+      "metadata_sha_matches": true,
+      "content_observed": true,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/src/conversation.py"
+    },
+    {
+      "path": "Reasoning/src/data_loader_v4_mas.py",
+      "git_blob_sha": "254b80433f2d1cbe1a0edd80ee6eebc71824a24d",
+      "fetched_blob_sha": "254b80433f2d1cbe1a0edd80ee6eebc71824a24d",
+      "metadata_sha_matches": true,
+      "content_observed": true,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/src/data_loader_v4_mas.py"
+    },
+    {
+      "path": "Reasoning/src/metrics.py",
+      "git_blob_sha": "2922931b3e1fad7294da8a7c86dc2ddabd6ec51a",
+      "fetched_blob_sha": "2922931b3e1fad7294da8a7c86dc2ddabd6ec51a",
+      "metadata_sha_matches": true,
+      "content_observed": true,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/src/metrics.py"
+    },
+    {
+      "path": "Reasoning/src/prompts.py",
+      "git_blob_sha": "4a39061fe2840f177f4169223d188448469e2ada",
+      "fetched_blob_sha": "4a39061fe2840f177f4169223d188448469e2ada",
+      "metadata_sha_matches": true,
+      "content_observed": true,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/src/prompts.py"
+    },
+    {
+      "path": "Reasoning/src/run_asymmetric_agents.py",
+      "git_blob_sha": "26987135c55eb836431f6559ae223ae6e6dccd53",
+      "fetched_blob_sha": "26987135c55eb836431f6559ae223ae6e6dccd53",
+      "metadata_sha_matches": true,
+      "content_observed": true,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/src/run_asymmetric_agents.py"
+    },
+    {
+      "path": "Reasoning/api_key_loader.py",
+      "git_blob_sha": "dc6919a466a1d0eee6cc716b2f98aae01017d16c",
+      "fetched_blob_sha": "dc6919a466a1d0eee6cc716b2f98aae01017d16c",
+      "metadata_sha_matches": true,
+      "content_observed": true,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/api_key_loader.py"
+    },
+    {
+      "path": "Reasoning/script/analyze_first_answer_protocol.py",
+      "git_blob_sha": "04e28eff10ce54ee7736f9748ebe25949b783774",
+      "fetched_blob_sha": "04e28eff10ce54ee7736f9748ebe25949b783774",
+      "metadata_sha_matches": true,
+      "content_observed": true,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/script/analyze_first_answer_protocol.py"
+    },
+    {
+      "path": "Reasoning/src/__init__.py",
+      "git_blob_sha": "6f0c6bbc899d4f4e589490fb0fcf8ad33c785f27",
+      "fetched_blob_sha": "6f0c6bbc899d4f4e589490fb0fcf8ad33c785f27",
+      "metadata_sha_matches": true,
+      "content_observed": true,
+      "url": "https://github.com/BUPT-GAMMA/MASBench/blob/c0301a650db95958924bb080192c09fef39389a5/Reasoning/src/__init__.py"
+    }
+  ],
+  "additional_read": "src/__init__.py is a package docstring only; first MCP retrieval failed transiently, retry succeeded",
+  "source_integration": false,
+  "data_body_verified": false
+}

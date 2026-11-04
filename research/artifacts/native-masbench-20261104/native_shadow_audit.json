@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "checked_snapshots": 82,
+  "scope": "Independent scalar arithmetic and integer/member/wire constraints; existing BF and production ranking logic additionally replayed, not an independent optimizer",
+  "deterministic_host_capture_coverage_checked": true,
+  "efficacy_N": 0,
+  "scientific_status": "Original No-Go retained"
+}

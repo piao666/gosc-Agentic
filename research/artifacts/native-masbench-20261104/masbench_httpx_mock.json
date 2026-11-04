@@ -1,0 +1,10 @@
+{
+  "python": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/envs/masbench-reasoning-v1/bin/python",
+  "httpx_version": "0.28.1",
+  "tests": 5,
+  "failures": 0,
+  "errors": 0,
+  "transport": "httpx.MockTransport",
+  "actual_network_calls": 0,
+  "actual_model_calls": 0
+}

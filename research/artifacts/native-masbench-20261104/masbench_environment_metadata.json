@@ -1,0 +1,99 @@
+{
+  "at_utc": "2026-11-02T07:31:49.083680+00:00",
+  "environment": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/envs/masbench-reasoning-v1",
+  "python": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/envs/masbench-reasoning-v1/bin/python",
+  "endpoint": "http://127.0.0.1:11434/v1",
+  "service_version": {
+    "version": "0.11.11"
+  },
+  "model_ids_via_openai_sdk": [
+    "llama3.2:3b",
+    "qwen2.5:3b",
+    "qwen2.5:7b"
+  ],
+  "model_metadata": {
+    "llama3.2:3b": {
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "3.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "declared_context_fields": {
+        "llama.context_length": 131072
+      },
+      "template_sha256": "966de95ca8a62200913e3f8bfbf84c8494536f1b94b49166851e76644e966396",
+      "license_sha256": "6de58700b9be15ef328dc638041e16c5aee6c576ba971b64200ccacfc0a60b5f"
+    },
+    "qwen2.5:3b": {
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "3.1B",
+        "quantization_level": "Q4_K_M"
+      },
+      "declared_context_fields": {
+        "qwen2.context_length": 32768
+      },
+      "template_sha256": "eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175",
+      "license_sha256": "b5c0e5cf74cf51af1ecbc4af597cfcd13fd9925611838884a681070838a14a50"
+    },
+    "qwen2.5:7b": {
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "7.6B",
+        "quantization_level": "Q4_K_M"
+      },
+      "declared_context_fields": {
+        "qwen2.context_length": 32768
+      },
+      "template_sha256": "eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175",
+      "license_sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    }
+  },
+  "model_manifest_sha256": {
+    "qwen2.5:3b": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "llama3.2:3b": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+    "qwen2.5:7b": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e"
+  },
+  "packages": {
+    "urllib3": "2.8.0",
+    "pydantic_core": "2.50.2",
+    "anyio": "4.16.0",
+    "pydantic": "2.14.2",
+    "charset-normalizer": "3.5.2",
+    "tqdm": "4.70.1",
+    "requests": "2.32.5",
+    "certifi": "2026.10.23",
+    "h11": "0.16.0",
+    "typing-inspection": "0.4.4",
+    "typing_extensions": "4.16.0",
+    "httpcore": "1.0.9",
+    "python-dotenv": "1.1.1",
+    "jiter": "0.18.0",
+    "distro": "1.9.0",
+    "httpx": "0.28.1",
+    "sniffio": "1.3.1",
+    "annotated-types": "0.8.0",
+    "openai": "1.101.0",
+    "idna": "3.20"
+  },
+  "scope": "Restored files, packages and metadata transport only; model loading and Reasoning capability Pending",
+  "inference_requested": false,
+  "model_load_requested": false,
+  "benchmark_executed": false,
+  "original_context_default_changed": false
+}

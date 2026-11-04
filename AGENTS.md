@@ -14,6 +14,8 @@
 
 ## A. 启动协议（每次会话和每个开发任务）
 
+提交说明固定格式（用户2026-11-04明确指定）：以后每次Git提交（含文档、修复、回滚）均须新增`commit/YYYY-MM-DD-NN-topic.md`并随改动一起提交，按Asia/Shanghai日期编号，至少依次写明**提交内容、主要尝试、结果、当前进展、下一步安排**；附分支/base、授权边界、实际验证及证据、负结果/未核项。模板见[commit/TEMPLATE.md](commit/TEMPLATE.md)，索引和规则见[commit/README.md](commit/README.md)。提交信息加入`Commit-Note: commit/<文件名>`；不回填自身提交哈希，不用本次归档身份改写历史run。用户当前已授权一次正常提交/push，日后生成说明文档不等于自动获得提交或科研运行授权。
+
 GitHub归档（2026-10-28）：用户要求梳理并提交最近几轮成果；[阶段汇总](research/reports/recent_rounds_summary_2026-10-28.md)、commit/2026-10-28-01-information-identifiability-and-budget-selector.md记录GP-ID成本合同、156任务校准科学No-Go及BF工程验收。归档当前research/progress-audit-2026-10-19分支，实际提交/推送身份以包含该说明的Git历史和远端引用核验；旧“未提交”保持历史含义。8份小型汇总JSON逐字节白名单，原outputs仍忽略；本次无新HPC测试/实验/训练，不更改原运行身份或放行新研究。
 
 最新BF-selector-v1实施验收（2026-10-27）：用户批准按规格实施验收后，独立纯selector及显式GP-ID-BF-v1入口完成；最终HPC485测试通过、7旧违规/192可行目录重选、52个24slot旧成本world/观察开关fixture、原始gzip行绑定及独立预算/组/成员/wire/typed账本审计通过，补充7个派生control-only修复到服务合同通过。主验收37.690869s，全部回传；早期红测试/测试替身失败和2次补充夹具初始化失败保留。旧GOSC/realistic/GP-v1/v2/GP-ID源及默认未改，原156任务的blocked与科学No-Go不撤销。新增均是工程合同，收益N0、未扩N/正式test/训练/提交/push。报告research/reports/budget_selector_acceptance_2026-10-27.md；下文静态Pending为历史快照。

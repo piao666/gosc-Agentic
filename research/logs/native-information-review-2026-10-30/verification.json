@@ -1,0 +1,55 @@
+{
+  "manifest_json_parsed": true,
+  "git_commit": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "missing_links": [],
+  "new_missions": 0,
+  "archived_evidence": [
+    {
+      "matches_archived_sha": true,
+      "path": "gp_id_calibration_analysis.json"
+    },
+    {
+      "matches_archived_sha": true,
+      "path": "gp_id_calibration_diagnostic_audit.json"
+    },
+    {
+      "matches_archived_sha": true,
+      "path": "bf_selector_acceptance.json"
+    }
+  ],
+  "prior_20261029_document_hashes_changed": [],
+  "scope": "Static documentation/file management; no project tests or scientific computation",
+  "documents": [
+    {
+      "path": "research/protocols/native_information_value_spec_v1.md",
+      "bytes": 32193,
+      "sha256": "4e961bd8b3f7ac41064c796d70f719fec39e0ad8145db93e80afda1a5d4db125"
+    },
+    {
+      "path": "research/reports/native_information_feasibility_review_2026-10-30.md",
+      "bytes": 16085,
+      "sha256": "7d2eee3d88faefa1d40ac930ffa01c673febfadce55006359b00fe16e4c8131b"
+    },
+    {
+      "path": "research/logs/native-information-review-2026-10-30/task_brief.md",
+      "bytes": 2278,
+      "sha256": "77536c9056bb6baea8df1151c284784f3ed70d8eabe8f1a7c21dd46dcca2259d"
+    },
+    {
+      "path": "research/logs/native-information-review-2026-10-30/evidence_index.md",
+      "bytes": 5287,
+      "sha256": "16d0c7f7ffb42f74996c68e196df01c0e40af40dfb0d97fb32bcaabd2613023d"
+    },
+    {
+      "path": "research/logs/native-information-review-2026-10-30/task_log_20261030.md",
+      "bytes": 4359,
+      "sha256": "5357d1ac09cb2928c1932961accf4b86cade2883157ecf1e6548a7e14d51e3fa"
+    }
+  ],
+  "protected_source_diff_exit_code": 0,
+  "diff_check_exit_code": 0,
+  "trailing_whitespace": [],
+  "input_files_changed": [],
+  "date": "2026-10-30",
+  "project_tests_run": false
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-laya-authorized-cleanup-20261102",
+  "status": "completed",
+  "started_at": "2026-11-02T07:09:15.140270+00:00",
+  "finished_at": "2026-11-02T07:09:15.291149+00:00",
+  "exit_code": 0,
+  "pid": 11700,
+  "elapsed_seconds": 0.150893,
+  "resource_usage": {
+    "child_max_rss_kib": 47300,
+    "child_cpu_user_seconds": 0.32379199999999997,
+    "child_cpu_system_seconds": 0.25338,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,16 @@
+{
+  "outputs_receipt": "research/sync/receipts/20261030T082923Z-bd7a09.json",
+  "local_management_verification": "research/logs/native-information-contract-2026-10-30/verification.json",
+  "git_commit_or_push": false,
+  "final_test_source_sync": "20261030T082704Z",
+  "remote_only_files": "preserved",
+  "prepare_run": false,
+  "sha256_mismatches": [],
+  "final_test_run": "hpc-native-information-regression-v2-20261030",
+  "all_registered_outputs_mirrored": true,
+  "final_report_source_file_count": 642,
+  "scope": "Local management receipt; does not change historical test source identities",
+  "final_report_source_sync": "20261030T083552Z",
+  "diagnostic_run": false,
+  "date": "2026-10-30"
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-adapter-contract-v3-20261103",
+  "status": "completed",
+  "started_at": "2026-11-03T02:53:25.350078+00:00",
+  "finished_at": "2026-11-03T02:53:26.033774+00:00",
+  "exit_code": 0,
+  "pid": 6588,
+  "elapsed_seconds": 0.683723,
+  "resource_usage": {
+    "child_max_rss_kib": 48908,
+    "child_cpu_user_seconds": 0.764718,
+    "child_cpu_system_seconds": 0.265852,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-native-information-regression-v2-20261030",
+  "files": [
+    {
+      "path": "outputs/pytest.xml",
+      "size": 71154,
+      "sha256": "7201378539f5a911feb2c7c876fe72ff7426351da1804653f712c912fd8d5d7c"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-storage-capacity-after-cleanup-20261102",
+  "files": [
+    {
+      "path": "outputs/capacity_after_cleanup.json",
+      "size": 331,
+      "sha256": "9356844b553d5bce746dc4f7c78f28f390553416ad42aa27cb0bc40d114df0a3"
+    }
+  ]
+}

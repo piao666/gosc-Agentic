@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-native-information-freeze-20261030",
+  "status": "completed",
+  "started_at": "2026-10-30T08:41:42.431210+00:00",
+  "finished_at": "2026-10-30T08:41:42.533217+00:00",
+  "exit_code": 0,
+  "pid": 14794,
+  "elapsed_seconds": 0.102029,
+  "resource_usage": {
+    "child_max_rss_kib": 47384,
+    "child_cpu_user_seconds": 0.309621,
+    "child_cpu_system_seconds": 0.155559,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

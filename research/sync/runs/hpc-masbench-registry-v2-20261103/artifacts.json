@@ -1,0 +1,20 @@
+{
+  "run_id": "hpc-masbench-registry-v2-20261103",
+  "files": [
+    {
+      "path": "outputs/development_registry_v1.json",
+      "size": 84943,
+      "sha256": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86"
+    },
+    {
+      "path": "outputs/grouping_review_v2.json",
+      "size": 1744930,
+      "sha256": "0c0549ff069b37e709c4b02a153c5a1b0d3d97e3194aea632917b4673161d23b"
+    },
+    {
+      "path": "outputs/preparation_summary.json",
+      "size": 2278,
+      "sha256": "5f0db1d8b97ab9c6fc298f81ec60b780508dfd0582954ef63c1f025ea44991a2"
+    }
+  ]
+}

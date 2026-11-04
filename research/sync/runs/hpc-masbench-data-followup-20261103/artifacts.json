@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-data-followup-20261103",
+  "files": [
+    {
+      "path": "outputs/data_followup.json",
+      "size": 41255,
+      "sha256": "e55d99013eac3219fd76519faec3ba7b8c99330627e09719b09989acaffdd426"
+    }
+  ]
+}
