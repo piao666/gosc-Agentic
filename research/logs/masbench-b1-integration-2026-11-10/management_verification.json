@@ -1,0 +1,63 @@
+{
+  "scope": "lightweight local file/hash management only",
+  "frozen_source_count": 73,
+  "protected_previous_files": [
+    "extensions/masbench_reasoning/client.py",
+    "extensions/masbench_reasoning/application.py",
+    "extensions/masbench_reasoning/wire.py",
+    "extensions/masbench_reasoning/registry.py",
+    "extensions/masbench_reasoning/execution_safety.py",
+    "research/benchmarks/masbench_context_tokenizer_preflight_review.md",
+    "research/benchmarks/masbench_data_split_and_power_feasibility_review.md",
+    "research/protocols/masbench_b1_execution_safety_spec_v1.md",
+    "research/reports/masbench_b1_preflight_acceptance.md"
+  ],
+  "new_sources_vs_final_test_snapshot": [
+    "extensions/masbench_reasoning/fixture_driver.py",
+    "experiments_ext/masbench_b1_integration_contract.py",
+    "tests_ext/test_masbench_fixture_driver.py"
+  ],
+  "mismatches": [],
+  "tracked_paths_changed": [
+    "research/README.md",
+    "research/sync/STATUS.md",
+    "research/sync/dashboard.json",
+    "research/sync/plans/next_steps.md",
+    "research/sync/project_status.json"
+  ],
+  "receipts": [
+    {
+      "id": "20261110T033305Z-7b64a5",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 60196728,
+      "HPC_receipt_upload": "completed"
+    },
+    {
+      "id": "20261110T033649Z-485991",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 60199958,
+      "HPC_receipt_upload": "completed"
+    },
+    {
+      "id": "20261110T034016Z-ef567d",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 60208152,
+      "HPC_receipt_upload": "completed"
+    },
+    {
+      "id": "20261110T034339Z-eaef8e",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 60210834,
+      "HPC_receipt_upload": "failed_quota"
+    },
+    {
+      "id": "20261110T034520Z-f62d10",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 168875,
+      "HPC_receipt_upload": "completed"
+    }
+  ],
+  "final_full_suite_tests": 24,
+  "final_result_execution_completed": true,
+  "final_launch_management_quota_failure_preserved": true
+}

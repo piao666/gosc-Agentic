@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<stdin>", line 47, in <module>
+OSError: [Errno 122] Disk quota exceeded
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 47, in <module>
+OSError: [Errno 122] Disk quota exceeded

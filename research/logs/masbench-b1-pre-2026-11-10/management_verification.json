@@ -1,0 +1,30 @@
+{
+  "scope": "lightweight local file/hash management, no tests/data analysis/model",
+  "frozen_sources_checked": 73,
+  "frozen_or_artifact_mismatches": [],
+  "current_new_sources_vs_final_HPC_test_snapshot_mismatches": [],
+  "runs": [
+    {
+      "run": "hpc-masbench-b1-preflight-20261110",
+      "status": "completed",
+      "artifacts_hashed": 1
+    },
+    {
+      "run": "hpc-masbench-b1-safety-20261110",
+      "status": "completed",
+      "artifacts_hashed": 1
+    }
+  ],
+  "receipts": [
+    {
+      "name": "20261110T030625Z-0a4021.json",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 60152322
+    },
+    {
+      "name": "20261110T030748Z-00d31d.json",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 60147247
+    }
+  ]
+}

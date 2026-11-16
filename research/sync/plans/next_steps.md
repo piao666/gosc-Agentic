@@ -1,4 +1,22 @@
-# 当前阶段（2026-11-03 P0–P2准备完成）
+# 当前阶段（2026-11-10 无模型Driver整合完成）
+
+2026-11-16收尾：[精确目录清理与交付](../../logs/masbench-b1-integration-closeout-2026-11-16/closeout_report.md)。用户授权停止Laya服务、删除NextWork/d2l-zh以解除写盘阻断；24项旧合同不重跑，以标准同步补交付。此次清理不授权安装工具链、改Ollama或真实生成，下面科研关卡保持。
+
+[验收](../../reports/masbench_b1_driver_integration_acceptance_2026-11-10.md)：最终24项HPC集成合同通过，原客户端/消息语义保持；v4测试后quota引起的管理失败已保留并补拉取恢复。受测工程Go，真实B1仍Blocked。
+
+下一步建议审阅[同源精确计数/context方案](../../benchmarks/masbench_exact_context_implementation_plan_v1.md)：先核存储与受维护Go工具链archive/官方SHA、依赖清单，再单独批准隔离构建及CPU离线计数合同。32768服务修改、实际模型/取消预检、四题诊断仍分别需批准；本轮不安装/改服务/运行模型，完成后停止。G1/GP-ID、正式test/训练No-Go保持。以下保留历史快照。
+
+---
+
+# 历史阶段（2026-11-10 MASBench B1-pre审查完成）
+
+[准入报告](../../reports/masbench_b1_preflight_acceptance.md)：HPC现行服务默认1024；GGUF tokenizer存在但精确部署计数/实际context绑定Pending。余52记录是36家族34文章分量，D2只是较弱隔离的备选，未改registry。独立安全原型17合同通过，真实生成/任务0。
+
+下一步仅建议另批精确计数/context方案与无模型Driver整合保护，先补服务取消/空闲确认、外层watchdog与目录硬cap/资源投影。真实四题诊断仍Blocked且需新授权；正式test/训练No-Go，G1/GP-ID负结果保持。本轮完成后停止，不自动安装/改服务/运行模型/commit/push。以下为历史快照。
+
+---
+
+# 历史阶段（2026-11-03 P0–P2准备完成）
 
 [验收](../../reports/masbench_reasoning_preparation_acceptance_2026-11-03.md)：分组修正后38/最大242不变，四题覆盖四分量，预留248/余52。最终147pytest＋独立env5项httpx MockTransport合同通过，真实模型/任务0。
 

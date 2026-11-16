@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-b1-preflight-20261110",
+  "files": [
+    {
+      "path": "outputs/preflight.json",
+      "size": 8898,
+      "sha256": "5dfeccee6517581874e81f977b49d4892605cbb3b0fccf19b5a8a221c1ef311f"
+    }
+  ]
+}

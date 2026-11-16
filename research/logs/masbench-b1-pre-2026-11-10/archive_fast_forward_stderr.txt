@@ -1,0 +1,2 @@
+From /tmp/gosc-b1-pre-4754bed.bundle
+ * branch            HEAD       -> FETCH_HEAD

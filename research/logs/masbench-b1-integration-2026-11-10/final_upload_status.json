@@ -1,0 +1,7 @@
+{
+  "exit_code": 1,
+  "scope": "final source/documents sync only",
+  "stdout": "final_upload_stdout.txt",
+  "stderr": "final_upload_stderr.txt",
+  "created_after_sync": true
+}

@@ -1,0 +1,67 @@
+{
+  "as_of": "2026-11-16 Asia/Shanghai",
+  "scope": "completed visible project directories only; not all account usage or quota",
+  "project_total_bytes": 13657395200,
+  "project_total_GiB": 12.719440460205078,
+  "projects": [
+    {
+      "name": "GOSC",
+      "path": "/home/u202520081000097/jupyterlab/Paper/gosc",
+      "bytes": 7777955840,
+      "GiB": 7.243785858154297,
+      "share_percent": 56.95050722410083
+    },
+    {
+      "name": "NextWork",
+      "path": "/home/u202520081000097/NextWork",
+      "bytes": 5552443392,
+      "GiB": 5.171115875244141,
+      "share_percent": 40.65521507351563
+    },
+    {
+      "name": "d2l-zh",
+      "path": "/home/u202520081000097/d2l-zh",
+      "bytes": 242454528,
+      "GiB": 0.22580337524414062,
+      "share_percent": 1.77526185959677
+    },
+    {
+      "name": "hpc_data",
+      "path": "/home/u202520081000097/hpc_data",
+      "bytes": 83120128,
+      "GiB": 0.07741165161132812,
+      "share_percent": 0.6086089388406949
+    },
+    {
+      "name": "RAG",
+      "path": "/home/u202520081000097/RAG",
+      "bytes": 1421312,
+      "GiB": 0.001323699951171875,
+      "share_percent": 0.010406903946076042
+    }
+  ],
+  "laya_env": {
+    "path": "/home/u202520081000097/NextWork/laya-env",
+    "GiB": 5.067111968994141
+  },
+  "other_complete_subtrees": [
+    {
+      "path": "/home/u202520081000097/jupyterlab/models",
+      "GiB": 8.03964614868164
+    },
+    {
+      "path": "/home/u202520081000097/.conda/envs",
+      "GiB": 7.957355499267578
+    },
+    {
+      "path": "/home/u202520081000097/.cache/huggingface",
+      "GiB": 3.659931182861328
+    }
+  ],
+  "incomplete_directories": [
+    "/home/u202520081000097/.conda",
+    "/home/u202520081000097/.local",
+    "/home/u202520081000097/.cache"
+  ],
+  "directories_deleted": false
+}

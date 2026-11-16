@@ -1,0 +1,22 @@
+test_artifact_path_and_no_overwrite (tests_ext.test_masbench_b1_safety.SafetyContracts.test_artifact_path_and_no_overwrite) ... ok
+test_child_exits_but_inherited_pipe_descendant_is_killed (tests_ext.test_masbench_b1_safety.SafetyContracts.test_child_exits_but_inherited_pipe_descendant_is_killed) ... ok
+test_corruption_and_partial_line_fail_closed (tests_ext.test_masbench_b1_safety.SafetyContracts.test_corruption_and_partial_line_fail_closed) ... ok
+test_crash_preserves_denominator_reservation_and_fences (tests_ext.test_masbench_b1_safety.SafetyContracts.test_crash_preserves_denominator_reservation_and_fences) ... ok
+test_exclusive_process_lock (tests_ext.test_masbench_b1_safety.SafetyContracts.test_exclusive_process_lock) ... ok
+test_failed_request_never_refunds_or_replays (tests_ext.test_masbench_b1_safety.SafetyContracts.test_failed_request_never_refunds_or_replays) ... ok
+test_global_wall_precedes_request_deadline (tests_ext.test_masbench_b1_safety.SafetyContracts.test_global_wall_precedes_request_deadline) ... ok
+test_identity_and_limits_and_plan_binding (tests_ext.test_masbench_b1_safety.SafetyContracts.test_identity_and_limits_and_plan_binding) ... ok
+test_input_output_caps_and_single_generation (tests_ext.test_masbench_b1_safety.SafetyContracts.test_input_output_caps_and_single_generation) ... ok
+test_jsonl_and_wire_and_journal_share_cap (tests_ext.test_masbench_b1_safety.SafetyContracts.test_jsonl_and_wire_and_journal_share_cap) ... ok
+test_metadata_separate_persistent_cap (tests_ext.test_masbench_b1_safety.SafetyContracts.test_metadata_separate_persistent_cap) ... ok
+test_streaming_output_limit_stops_worker (tests_ext.test_masbench_b1_safety.SafetyContracts.test_streaming_output_limit_stops_worker) ... ok
+test_successful_worker_has_bounded_recorded_output (tests_ext.test_masbench_b1_safety.SafetyContracts.test_successful_worker_has_bounded_recorded_output) ... ok
+test_timeout_fences_even_with_no_usage (tests_ext.test_masbench_b1_safety.SafetyContracts.test_timeout_fences_even_with_no_usage) ... ok
+test_unplanned_ids_invalid_limits_and_tokens (tests_ext.test_masbench_b1_safety.SafetyContracts.test_unplanned_ids_invalid_limits_and_tokens) ... ok
+test_wall_budget_includes_resume_downtime (tests_ext.test_masbench_b1_safety.SafetyContracts.test_wall_budget_includes_resume_downtime) ... ok
+test_worker_timeout_kills_term_ignoring_group (tests_ext.test_masbench_b1_safety.SafetyContracts.test_worker_timeout_kills_term_ignoring_group) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.045s
+
+OK

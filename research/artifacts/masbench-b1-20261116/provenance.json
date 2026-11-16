@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-16 Asia/Shanghai",
+  "scope": "six explicit immutable small outputs; no task dataset, model or new result computation",
+  "files": [
+    {
+      "archive_path": "research/artifacts/masbench-b1-20261116/deployment_data_preflight.json",
+      "source_path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/outputs/preflight.json",
+      "run_id": "hpc-masbench-b1-preflight-20261110",
+      "bytes": 8898,
+      "sha256": "5dfeccee6517581874e81f977b49d4892605cbb3b0fccf19b5a8a221c1ef311f",
+      "policy": "byte_identical_no_recomputation"
+    },
+    {
+      "archive_path": "research/artifacts/masbench-b1-20261116/safety_17_contract.json",
+      "source_path": "research/sync/runs/hpc-masbench-b1-safety-20261110/outputs/safety_contract.json",
+      "run_id": "hpc-masbench-b1-safety-20261110",
+      "bytes": 276,
+      "sha256": "d035b4730a2c33186ee835f20063e6c0a2467c704d268b86f314694ab9f1d4fa",
+      "policy": "byte_identical_no_recomputation"
+    },
+    {
+      "archive_path": "research/artifacts/masbench-b1-20261116/integration_20_contract.json",
+      "source_path": "research/sync/runs/hpc-masbench-b1-integration-20261110/outputs/integration_contract.json",
+      "run_id": "hpc-masbench-b1-integration-20261110",
+      "bytes": 320,
+      "sha256": "b1a4e3f56f95eaddb4b9a4989cc784ab7b58bacce9a8f7a0c5ba4f4a740f1c3b",
+      "policy": "byte_identical_no_recomputation"
+    },
+    {
+      "archive_path": "research/artifacts/masbench-b1-20261116/integration_22_contract.json",
+      "source_path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/outputs/integration_contract.json",
+      "run_id": "hpc-masbench-b1-integration-v2-20261110",
+      "bytes": 320,
+      "sha256": "4c685917a5b7b254ca6212cc90b7e90b68e0791ed9bf5737994069e3cb01b718",
+      "policy": "byte_identical_no_recomputation"
+    },
+    {
+      "archive_path": "research/artifacts/masbench-b1-20261116/integration_23_contract.json",
+      "source_path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/outputs/integration_contract.json",
+      "run_id": "hpc-masbench-b1-integration-v3-20261110",
+      "bytes": 320,
+      "sha256": "1ddd471ccc3a6d47d4faaa9e40ca67f187d59f65d3e771507d01fb7c5fe2726f",
+      "policy": "byte_identical_no_recomputation"
+    },
+    {
+      "archive_path": "research/artifacts/masbench-b1-20261116/integration_24_contract.json",
+      "source_path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/outputs/integration_contract.json",
+      "run_id": "hpc-masbench-b1-integration-v4-20261110",
+      "bytes": 320,
+      "sha256": "c99eba4db635257401865da477c420bfe28ab635903075bf00c45eb7628289c4",
+      "policy": "byte_identical_no_recomputation"
+    }
+  ]
+}

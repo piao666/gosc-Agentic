@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-11-16 Asia/Shanghai",
+  "scope": "lightweight file/hash management only",
+  "frozen_sources_checked": 73,
+  "code_matches_historical_v4_snapshot": [
+    "extensions/masbench_reasoning/fixture_driver.py",
+    "experiments_ext/masbench_b1_integration_contract.py",
+    "tests_ext/test_masbench_fixture_driver.py"
+  ],
+  "mismatches": [],
+  "historical_tests_passed": 24,
+  "historical_test_run": "hpc-masbench-b1-integration-v4-20261110",
+  "new_test_runs": 0,
+  "new_model_calls": 0
+}

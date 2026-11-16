@@ -1,0 +1,1554 @@
+{
+  "scope": "compact index; full transfer inventory originals not newly published",
+  "receipts": [
+    {
+      "source_path": "research/sync/receipts/20261110T030625Z-0a4021.json",
+      "bytes": 1201954,
+      "sha256": "037131551c2a3470c5359aa91a46ea8c87c54f7a9c75f0d0184526d88b1bf4a3",
+      "sync_id": "20261110T030625Z-0a4021",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 60152322,
+      "total_inventory_files": 4103,
+      "new_B1_files": [
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stderr.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/artifacts.json",
+          "size": 226,
+          "sha256": "f21aa320808e85dca5cff97d19f97c64c57f1780ede017916ea9f7a80f49ccc4",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/status.json",
+          "size": 535,
+          "sha256": "1f9c593e8035f3b0137c894d40d193b37bc77c82e9af6f4aff2c5936d7d1cf10",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stdout.log",
+          "size": 3018,
+          "sha256": "2f07833568dfddfca4c8cadb61df5d3537223d7af4beea1328187d94057fa8f8",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/manifest.json",
+          "size": 49736,
+          "sha256": "4dc55d68916dfc9805bce99a016f8d84d8c0359c698f354c6a3d3680bd537eca",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_snapshot.json",
+          "size": 279817,
+          "sha256": "daee8852684a472b192c96a3f93b0b9d609501b2e4fc82f80c9556159358b75c",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_untracked.tar.gz",
+          "size": 499098,
+          "sha256": "920aefebb248f17e79200ae1cd40e62d62cb0cbd17afb2e1c33f679ad4ab0300",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_changes.patch",
+          "size": 59146809,
+          "sha256": "cf8e9fff38a0f315a375e672e447ac48f973630abe903f27b46f09daf2250f9a",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/outputs/preflight.json",
+          "size": 8898,
+          "sha256": "5dfeccee6517581874e81f977b49d4892605cbb3b0fccf19b5a8a221c1ef311f",
+          "transfer_status": "copied"
+        }
+      ],
+      "upload_status": "completed",
+      "original_retained_local_HPC": true
+    },
+    {
+      "source_path": "research/sync/receipts/20261110T030748Z-00d31d.json",
+      "bytes": 1204921,
+      "sha256": "08711b21a15ef5e7e929465ee7c5588d21f795c23df0a959dd4e306ab792522e",
+      "sync_id": "20261110T030748Z-00d31d",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 60147247,
+      "total_inventory_files": 4112,
+      "new_B1_files": [
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stderr.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/artifacts.json",
+          "size": 226,
+          "sha256": "f21aa320808e85dca5cff97d19f97c64c57f1780ede017916ea9f7a80f49ccc4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/artifacts.json",
+          "size": 228,
+          "sha256": "3224ba3f055e54de348f86c1d7715c38f3a97e7a55b2e7a52b3f974999d0b3e6",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/status.json",
+          "size": 535,
+          "sha256": "1f9c593e8035f3b0137c894d40d193b37bc77c82e9af6f4aff2c5936d7d1cf10",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/status.json",
+          "size": 542,
+          "sha256": "ef9b5b5fd851f5ab44d2869bb79d15e38c99014bac64c089ba1934f695d8030b",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stderr.log",
+          "size": 2584,
+          "sha256": "20b6f1c01697af090cac1b01963e1650bec6d25ea80ade877f6e33c854c28205",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stdout.log",
+          "size": 3018,
+          "sha256": "2f07833568dfddfca4c8cadb61df5d3537223d7af4beea1328187d94057fa8f8",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/manifest.json",
+          "size": 49736,
+          "sha256": "4dc55d68916dfc9805bce99a016f8d84d8c0359c698f354c6a3d3680bd537eca",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/manifest.json",
+          "size": 49816,
+          "sha256": "96ae9640a6e9d4aa5b1549386c19d7356b94c0580b5303ea6604e37db2af1f51",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_snapshot.json",
+          "size": 279817,
+          "sha256": "daee8852684a472b192c96a3f93b0b9d609501b2e4fc82f80c9556159358b75c",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_snapshot.json",
+          "size": 279937,
+          "sha256": "6b436ed80fca66080dbc225246cd9839dae1ce62f01ecbffbefebd421b5eaa11",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_untracked.tar.gz",
+          "size": 499098,
+          "sha256": "920aefebb248f17e79200ae1cd40e62d62cb0cbd17afb2e1c33f679ad4ab0300",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_untracked.tar.gz",
+          "size": 499202,
+          "sha256": "eda4ee7a24e23307ddc09b38a26e9d42d530dcece887ab2a01b0ad1924835f10",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_changes.patch",
+          "size": 59146809,
+          "sha256": "cf8e9fff38a0f315a375e672e447ac48f973630abe903f27b46f09daf2250f9a",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_changes.patch",
+          "size": 59149590,
+          "sha256": "009b87262a10edf18eb6be58b70f8fe84c5db3f68adccdaf895706aaea32096d",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/outputs/safety_contract.json",
+          "size": 276,
+          "sha256": "d035b4730a2c33186ee835f20063e6c0a2467c704d268b86f314694ab9f1d4fa",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/outputs/preflight.json",
+          "size": 8898,
+          "sha256": "5dfeccee6517581874e81f977b49d4892605cbb3b0fccf19b5a8a221c1ef311f",
+          "transfer_status": "unchanged"
+        }
+      ],
+      "upload_status": "completed",
+      "original_retained_local_HPC": true
+    },
+    {
+      "source_path": "research/sync/receipts/20261110T033305Z-7b64a5.json",
+      "bytes": 1207980,
+      "sha256": "cb7e669793d7d0944fada231f85d9fb3549508d7063e98cf93d20686f4ee6a6b",
+      "sync_id": "20261110T033305Z-7b64a5",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 60196728,
+      "total_inventory_files": 4121,
+      "new_B1_files": [
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stderr.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/artifacts.json",
+          "size": 226,
+          "sha256": "f21aa320808e85dca5cff97d19f97c64c57f1780ede017916ea9f7a80f49ccc4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/artifacts.json",
+          "size": 228,
+          "sha256": "3224ba3f055e54de348f86c1d7715c38f3a97e7a55b2e7a52b3f974999d0b3e6",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/artifacts.json",
+          "size": 238,
+          "sha256": "58aaf671b7806c36b65c8d23d114ae9fd39570c4dfc7a6a097733a955e5abc91",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/status.json",
+          "size": 535,
+          "sha256": "1f9c593e8035f3b0137c894d40d193b37bc77c82e9af6f4aff2c5936d7d1cf10",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/status.json",
+          "size": 537,
+          "sha256": "2f60abb82485dcf81472ce962bcd813716046fa8f5359a54d7b650d52ae8de53",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/status.json",
+          "size": 542,
+          "sha256": "ef9b5b5fd851f5ab44d2869bb79d15e38c99014bac64c089ba1934f695d8030b",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stderr.log",
+          "size": 2584,
+          "sha256": "20b6f1c01697af090cac1b01963e1650bec6d25ea80ade877f6e33c854c28205",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stdout.log",
+          "size": 3018,
+          "sha256": "2f07833568dfddfca4c8cadb61df5d3537223d7af4beea1328187d94057fa8f8",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/stderr.log",
+          "size": 3681,
+          "sha256": "c13d05e4e9945d06f39f8fb2dd34ac9281dbf08fa06c5950a04b9ae63a5b60d1",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/manifest.json",
+          "size": 49736,
+          "sha256": "4dc55d68916dfc9805bce99a016f8d84d8c0359c698f354c6a3d3680bd537eca",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/manifest.json",
+          "size": 49816,
+          "sha256": "96ae9640a6e9d4aa5b1549386c19d7356b94c0580b5303ea6604e37db2af1f51",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/manifest.json",
+          "size": 50142,
+          "sha256": "ce3f400bc8004768e7bc90d296b4dbe42590ebba4c3e83a2aa0838dd941960e4",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_snapshot.json",
+          "size": 279817,
+          "sha256": "daee8852684a472b192c96a3f93b0b9d609501b2e4fc82f80c9556159358b75c",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_snapshot.json",
+          "size": 279937,
+          "sha256": "6b436ed80fca66080dbc225246cd9839dae1ce62f01ecbffbefebd421b5eaa11",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_snapshot.json",
+          "size": 287057,
+          "sha256": "c83b78a1d7d30f13ca81b281ad0b458659d85942fb7f92c65455b31c61c33af6",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_untracked.tar.gz",
+          "size": 499098,
+          "sha256": "920aefebb248f17e79200ae1cd40e62d62cb0cbd17afb2e1c33f679ad4ab0300",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_untracked.tar.gz",
+          "size": 499202,
+          "sha256": "eda4ee7a24e23307ddc09b38a26e9d42d530dcece887ab2a01b0ad1924835f10",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_untracked.tar.gz",
+          "size": 533490,
+          "sha256": "4e890b388eed41fd8d70717040d305a677989cab7d6f3bfd77034508ff7896ad",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_changes.patch",
+          "size": 59146809,
+          "sha256": "cf8e9fff38a0f315a375e672e447ac48f973630abe903f27b46f09daf2250f9a",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_changes.patch",
+          "size": 59149590,
+          "sha256": "009b87262a10edf18eb6be58b70f8fe84c5db3f68adccdaf895706aaea32096d",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_changes.patch",
+          "size": 59155243,
+          "sha256": "1b97fa4715743e026575fd0b46444c8f6aa013e232b28fdcf8f27fffb63f9dbe",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/outputs/safety_contract.json",
+          "size": 276,
+          "sha256": "d035b4730a2c33186ee835f20063e6c0a2467c704d268b86f314694ab9f1d4fa",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "b1a4e3f56f95eaddb4b9a4989cc784ab7b58bacce9a8f7a0c5ba4f4a740f1c3b",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/outputs/preflight.json",
+          "size": 8898,
+          "sha256": "5dfeccee6517581874e81f977b49d4892605cbb3b0fccf19b5a8a221c1ef311f",
+          "transfer_status": "unchanged"
+        }
+      ],
+      "upload_status": "completed",
+      "original_retained_local_HPC": true
+    },
+    {
+      "source_path": "research/sync/receipts/20261110T033649Z-485991.json",
+      "bytes": 1211055,
+      "sha256": "bb2f303e8f2184ad1cdf6a82b265036846c48382e168bac121024d9240d574a7",
+      "sync_id": "20261110T033649Z-485991",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 60199958,
+      "total_inventory_files": 4130,
+      "new_B1_files": [
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stderr.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/artifacts.json",
+          "size": 226,
+          "sha256": "f21aa320808e85dca5cff97d19f97c64c57f1780ede017916ea9f7a80f49ccc4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/artifacts.json",
+          "size": 228,
+          "sha256": "3224ba3f055e54de348f86c1d7715c38f3a97e7a55b2e7a52b3f974999d0b3e6",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/artifacts.json",
+          "size": 238,
+          "sha256": "58aaf671b7806c36b65c8d23d114ae9fd39570c4dfc7a6a097733a955e5abc91",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/artifacts.json",
+          "size": 241,
+          "sha256": "a565c1b5e7e19568f7861efa918377faf43e9cd8885d94a1750c54121bfd27b4",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/status.json",
+          "size": 535,
+          "sha256": "1f9c593e8035f3b0137c894d40d193b37bc77c82e9af6f4aff2c5936d7d1cf10",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/status.json",
+          "size": 537,
+          "sha256": "2f60abb82485dcf81472ce962bcd813716046fa8f5359a54d7b650d52ae8de53",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/status.json",
+          "size": 542,
+          "sha256": "ef9b5b5fd851f5ab44d2869bb79d15e38c99014bac64c089ba1934f695d8030b",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/status.json",
+          "size": 551,
+          "sha256": "edfc33e35e678bcd309780bc2d2acb775f3e382833b110cb30129d7702a3e795",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stderr.log",
+          "size": 2584,
+          "sha256": "20b6f1c01697af090cac1b01963e1650bec6d25ea80ade877f6e33c854c28205",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stdout.log",
+          "size": 3018,
+          "sha256": "2f07833568dfddfca4c8cadb61df5d3537223d7af4beea1328187d94057fa8f8",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/stderr.log",
+          "size": 3681,
+          "sha256": "c13d05e4e9945d06f39f8fb2dd34ac9281dbf08fa06c5950a04b9ae63a5b60d1",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/stderr.log",
+          "size": 4031,
+          "sha256": "74656a599a1ea543b54f29951c86785f10c98d3a18b8f635f5a64173c2cf6fb5",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/manifest.json",
+          "size": 49736,
+          "sha256": "4dc55d68916dfc9805bce99a016f8d84d8c0359c698f354c6a3d3680bd537eca",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/manifest.json",
+          "size": 49816,
+          "sha256": "96ae9640a6e9d4aa5b1549386c19d7356b94c0580b5303ea6604e37db2af1f51",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/manifest.json",
+          "size": 50142,
+          "sha256": "ce3f400bc8004768e7bc90d296b4dbe42590ebba4c3e83a2aa0838dd941960e4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/manifest.json",
+          "size": 50237,
+          "sha256": "09c40f138a31753af38e669298d3130ae7b770214c6494bf0ed26eefe6daa77d",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_snapshot.json",
+          "size": 279817,
+          "sha256": "daee8852684a472b192c96a3f93b0b9d609501b2e4fc82f80c9556159358b75c",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_snapshot.json",
+          "size": 279937,
+          "sha256": "6b436ed80fca66080dbc225246cd9839dae1ce62f01ecbffbefebd421b5eaa11",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_snapshot.json",
+          "size": 287057,
+          "sha256": "c83b78a1d7d30f13ca81b281ad0b458659d85942fb7f92c65455b31c61c33af6",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_snapshot.json",
+          "size": 287525,
+          "sha256": "b03f2f831f3ff45912f304effd8ba64c7de31faccc64b8889e435e7454d44562",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_untracked.tar.gz",
+          "size": 499098,
+          "sha256": "920aefebb248f17e79200ae1cd40e62d62cb0cbd17afb2e1c33f679ad4ab0300",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_untracked.tar.gz",
+          "size": 499202,
+          "sha256": "eda4ee7a24e23307ddc09b38a26e9d42d530dcece887ab2a01b0ad1924835f10",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_untracked.tar.gz",
+          "size": 533490,
+          "sha256": "4e890b388eed41fd8d70717040d305a677989cab7d6f3bfd77034508ff7896ad",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_untracked.tar.gz",
+          "size": 533882,
+          "sha256": "ffe6bad0b3f27094f12f9fe27dce35bcc779669adf6f0790ee7c1f8f444a2b70",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_changes.patch",
+          "size": 59146809,
+          "sha256": "cf8e9fff38a0f315a375e672e447ac48f973630abe903f27b46f09daf2250f9a",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_changes.patch",
+          "size": 59149590,
+          "sha256": "009b87262a10edf18eb6be58b70f8fe84c5db3f68adccdaf895706aaea32096d",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_changes.patch",
+          "size": 59155243,
+          "sha256": "1b97fa4715743e026575fd0b46444c8f6aa013e232b28fdcf8f27fffb63f9dbe",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_changes.patch",
+          "size": 59156211,
+          "sha256": "d7d35ebd7fa27580ccd8f46d1d3f2bf08f58f1428f41e2bc1988ae52666a3e1c",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/outputs/safety_contract.json",
+          "size": 276,
+          "sha256": "d035b4730a2c33186ee835f20063e6c0a2467c704d268b86f314694ab9f1d4fa",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "b1a4e3f56f95eaddb4b9a4989cc784ab7b58bacce9a8f7a0c5ba4f4a740f1c3b",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "4c685917a5b7b254ca6212cc90b7e90b68e0791ed9bf5737994069e3cb01b718",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/outputs/preflight.json",
+          "size": 8898,
+          "sha256": "5dfeccee6517581874e81f977b49d4892605cbb3b0fccf19b5a8a221c1ef311f",
+          "transfer_status": "unchanged"
+        }
+      ],
+      "upload_status": "completed",
+      "original_retained_local_HPC": true
+    },
+    {
+      "source_path": "research/sync/receipts/20261110T034016Z-ef567d.json",
+      "bytes": 1214152,
+      "sha256": "907ce63f49696cf584f2b1a854519636de09b4efb1feaac076b7c11c769b34d8",
+      "sync_id": "20261110T034016Z-ef567d",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 60208152,
+      "total_inventory_files": 4139,
+      "new_B1_files": [
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stderr.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/artifacts.json",
+          "size": 226,
+          "sha256": "f21aa320808e85dca5cff97d19f97c64c57f1780ede017916ea9f7a80f49ccc4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/artifacts.json",
+          "size": 228,
+          "sha256": "3224ba3f055e54de348f86c1d7715c38f3a97e7a55b2e7a52b3f974999d0b3e6",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/artifacts.json",
+          "size": 238,
+          "sha256": "58aaf671b7806c36b65c8d23d114ae9fd39570c4dfc7a6a097733a955e5abc91",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/artifacts.json",
+          "size": 241,
+          "sha256": "a565c1b5e7e19568f7861efa918377faf43e9cd8885d94a1750c54121bfd27b4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/artifacts.json",
+          "size": 241,
+          "sha256": "1c0d4b8f51ebe363921cafec5ba258857550b78a629aca8a4c8ee2e109953e63",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/status.json",
+          "size": 535,
+          "sha256": "1f9c593e8035f3b0137c894d40d193b37bc77c82e9af6f4aff2c5936d7d1cf10",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/status.json",
+          "size": 537,
+          "sha256": "2f60abb82485dcf81472ce962bcd813716046fa8f5359a54d7b650d52ae8de53",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/status.json",
+          "size": 542,
+          "sha256": "ef9b5b5fd851f5ab44d2869bb79d15e38c99014bac64c089ba1934f695d8030b",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/status.json",
+          "size": 551,
+          "sha256": "edfc33e35e678bcd309780bc2d2acb775f3e382833b110cb30129d7702a3e795",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/status.json",
+          "size": 561,
+          "sha256": "4bbf3b9da9b7a7db2a9734948d578118d5b51bd6c0757e5a0aa5c8b713af72df",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stderr.log",
+          "size": 2584,
+          "sha256": "20b6f1c01697af090cac1b01963e1650bec6d25ea80ade877f6e33c854c28205",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stdout.log",
+          "size": 3018,
+          "sha256": "2f07833568dfddfca4c8cadb61df5d3537223d7af4beea1328187d94057fa8f8",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/stderr.log",
+          "size": 3681,
+          "sha256": "c13d05e4e9945d06f39f8fb2dd34ac9281dbf08fa06c5950a04b9ae63a5b60d1",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/stderr.log",
+          "size": 4031,
+          "sha256": "74656a599a1ea543b54f29951c86785f10c98d3a18b8f635f5a64173c2cf6fb5",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/stderr.log",
+          "size": 4234,
+          "sha256": "e7040b26b9546abae2228d8a3eb6cd3704ceb6ea19181b61e26ab591803de928",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/manifest.json",
+          "size": 49736,
+          "sha256": "4dc55d68916dfc9805bce99a016f8d84d8c0359c698f354c6a3d3680bd537eca",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/manifest.json",
+          "size": 49816,
+          "sha256": "96ae9640a6e9d4aa5b1549386c19d7356b94c0580b5303ea6604e37db2af1f51",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/manifest.json",
+          "size": 50142,
+          "sha256": "ce3f400bc8004768e7bc90d296b4dbe42590ebba4c3e83a2aa0838dd941960e4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/manifest.json",
+          "size": 50237,
+          "sha256": "09c40f138a31753af38e669298d3130ae7b770214c6494bf0ed26eefe6daa77d",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/manifest.json",
+          "size": 50443,
+          "sha256": "800454af5520936717c0f8644d88a817f3f3c4289eefa7a26400aa3331bee581",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_snapshot.json",
+          "size": 279817,
+          "sha256": "daee8852684a472b192c96a3f93b0b9d609501b2e4fc82f80c9556159358b75c",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_snapshot.json",
+          "size": 279937,
+          "sha256": "6b436ed80fca66080dbc225246cd9839dae1ce62f01ecbffbefebd421b5eaa11",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_snapshot.json",
+          "size": 287057,
+          "sha256": "c83b78a1d7d30f13ca81b281ad0b458659d85942fb7f92c65455b31c61c33af6",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_snapshot.json",
+          "size": 287525,
+          "sha256": "b03f2f831f3ff45912f304effd8ba64c7de31faccc64b8889e435e7454d44562",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/source_snapshot.json",
+          "size": 288491,
+          "sha256": "946d74be93aa8e18f44f7e56117c78afd2c159dcb31c69d3964f6539ce21ecef",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_untracked.tar.gz",
+          "size": 499098,
+          "sha256": "920aefebb248f17e79200ae1cd40e62d62cb0cbd17afb2e1c33f679ad4ab0300",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_untracked.tar.gz",
+          "size": 499202,
+          "sha256": "eda4ee7a24e23307ddc09b38a26e9d42d530dcece887ab2a01b0ad1924835f10",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_untracked.tar.gz",
+          "size": 533490,
+          "sha256": "4e890b388eed41fd8d70717040d305a677989cab7d6f3bfd77034508ff7896ad",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_untracked.tar.gz",
+          "size": 533882,
+          "sha256": "ffe6bad0b3f27094f12f9fe27dce35bcc779669adf6f0790ee7c1f8f444a2b70",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/source_untracked.tar.gz",
+          "size": 538768,
+          "sha256": "fbb148dd282db72ab3ac25adfed253f8813fbde7209dbc204f6a553afc7f57a7",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_changes.patch",
+          "size": 59146809,
+          "sha256": "cf8e9fff38a0f315a375e672e447ac48f973630abe903f27b46f09daf2250f9a",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_changes.patch",
+          "size": 59149590,
+          "sha256": "009b87262a10edf18eb6be58b70f8fe84c5db3f68adccdaf895706aaea32096d",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_changes.patch",
+          "size": 59155243,
+          "sha256": "1b97fa4715743e026575fd0b46444c8f6aa013e232b28fdcf8f27fffb63f9dbe",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_changes.patch",
+          "size": 59156211,
+          "sha256": "d7d35ebd7fa27580ccd8f46d1d3f2bf08f58f1428f41e2bc1988ae52666a3e1c",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/source_changes.patch",
+          "size": 59157172,
+          "sha256": "f85ee8500c7652dd3fe1e03c45d6501b0e2415440a33271638760e687af96517",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/outputs/safety_contract.json",
+          "size": 276,
+          "sha256": "d035b4730a2c33186ee835f20063e6c0a2467c704d268b86f314694ab9f1d4fa",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "b1a4e3f56f95eaddb4b9a4989cc784ab7b58bacce9a8f7a0c5ba4f4a740f1c3b",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "4c685917a5b7b254ca6212cc90b7e90b68e0791ed9bf5737994069e3cb01b718",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "1ddd471ccc3a6d47d4faaa9e40ca67f187d59f65d3e771507d01fb7c5fe2726f",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/outputs/preflight.json",
+          "size": 8898,
+          "sha256": "5dfeccee6517581874e81f977b49d4892605cbb3b0fccf19b5a8a221c1ef311f",
+          "transfer_status": "unchanged"
+        }
+      ],
+      "upload_status": "completed",
+      "original_retained_local_HPC": true
+    },
+    {
+      "source_path": "research/sync/receipts/20261110T034339Z-eaef8e.json",
+      "bytes": 1217240,
+      "sha256": "6d1e3a4d096a76a1189ff86cb4d5366400502b1dcc63c54e6ecffcc4b95bcb7f",
+      "sync_id": "20261110T034339Z-eaef8e",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 60210834,
+      "total_inventory_files": 4148,
+      "new_B1_files": [
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stderr.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/artifacts.json",
+          "size": 226,
+          "sha256": "f21aa320808e85dca5cff97d19f97c64c57f1780ede017916ea9f7a80f49ccc4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/artifacts.json",
+          "size": 228,
+          "sha256": "3224ba3f055e54de348f86c1d7715c38f3a97e7a55b2e7a52b3f974999d0b3e6",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/artifacts.json",
+          "size": 238,
+          "sha256": "58aaf671b7806c36b65c8d23d114ae9fd39570c4dfc7a6a097733a955e5abc91",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/artifacts.json",
+          "size": 241,
+          "sha256": "a565c1b5e7e19568f7861efa918377faf43e9cd8885d94a1750c54121bfd27b4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/artifacts.json",
+          "size": 241,
+          "sha256": "1c0d4b8f51ebe363921cafec5ba258857550b78a629aca8a4c8ee2e109953e63",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/artifacts.json",
+          "size": 241,
+          "sha256": "95aeb9a3c05942e708ed204b618940e08eeb8f25f2c21e090170dfd6ab69c47a",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/status.json",
+          "size": 535,
+          "sha256": "1f9c593e8035f3b0137c894d40d193b37bc77c82e9af6f4aff2c5936d7d1cf10",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/status.json",
+          "size": 537,
+          "sha256": "2f60abb82485dcf81472ce962bcd813716046fa8f5359a54d7b650d52ae8de53",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/status.json",
+          "size": 542,
+          "sha256": "ef9b5b5fd851f5ab44d2869bb79d15e38c99014bac64c089ba1934f695d8030b",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/status.json",
+          "size": 551,
+          "sha256": "edfc33e35e678bcd309780bc2d2acb775f3e382833b110cb30129d7702a3e795",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/status.json",
+          "size": 551,
+          "sha256": "139d1dfb863d831c7af1ed7140d1d1da2431a62b5259bee34f0504779ebca8c3",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/status.json",
+          "size": 561,
+          "sha256": "4bbf3b9da9b7a7db2a9734948d578118d5b51bd6c0757e5a0aa5c8b713af72df",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stderr.log",
+          "size": 2584,
+          "sha256": "20b6f1c01697af090cac1b01963e1650bec6d25ea80ade877f6e33c854c28205",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stdout.log",
+          "size": 3018,
+          "sha256": "2f07833568dfddfca4c8cadb61df5d3537223d7af4beea1328187d94057fa8f8",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/stderr.log",
+          "size": 3681,
+          "sha256": "c13d05e4e9945d06f39f8fb2dd34ac9281dbf08fa06c5950a04b9ae63a5b60d1",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/stderr.log",
+          "size": 4031,
+          "sha256": "74656a599a1ea543b54f29951c86785f10c98d3a18b8f635f5a64173c2cf6fb5",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/stderr.log",
+          "size": 4234,
+          "sha256": "e7040b26b9546abae2228d8a3eb6cd3704ceb6ea19181b61e26ab591803de928",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/stderr.log",
+          "size": 4427,
+          "sha256": "f72f0848c2c0f264634221c428b465bd0439d0de6e57d416551e0619d08dd2ea",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/manifest.json",
+          "size": 49736,
+          "sha256": "4dc55d68916dfc9805bce99a016f8d84d8c0359c698f354c6a3d3680bd537eca",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/manifest.json",
+          "size": 49816,
+          "sha256": "96ae9640a6e9d4aa5b1549386c19d7356b94c0580b5303ea6604e37db2af1f51",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/manifest.json",
+          "size": 50142,
+          "sha256": "ce3f400bc8004768e7bc90d296b4dbe42590ebba4c3e83a2aa0838dd941960e4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/manifest.json",
+          "size": 50237,
+          "sha256": "09c40f138a31753af38e669298d3130ae7b770214c6494bf0ed26eefe6daa77d",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/manifest.json",
+          "size": 50443,
+          "sha256": "800454af5520936717c0f8644d88a817f3f3c4289eefa7a26400aa3331bee581",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/manifest.json",
+          "size": 50564,
+          "sha256": "19aa99dcc0685a25ba8267d55bb3349a6696dc154ffc98673108cb05d3b08390",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_snapshot.json",
+          "size": 279817,
+          "sha256": "daee8852684a472b192c96a3f93b0b9d609501b2e4fc82f80c9556159358b75c",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_snapshot.json",
+          "size": 279937,
+          "sha256": "6b436ed80fca66080dbc225246cd9839dae1ce62f01ecbffbefebd421b5eaa11",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_snapshot.json",
+          "size": 287057,
+          "sha256": "c83b78a1d7d30f13ca81b281ad0b458659d85942fb7f92c65455b31c61c33af6",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_snapshot.json",
+          "size": 287525,
+          "sha256": "b03f2f831f3ff45912f304effd8ba64c7de31faccc64b8889e435e7454d44562",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/source_snapshot.json",
+          "size": 288491,
+          "sha256": "946d74be93aa8e18f44f7e56117c78afd2c159dcb31c69d3964f6539ce21ecef",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/source_snapshot.json",
+          "size": 288611,
+          "sha256": "3526f8a89654cad0fc854d4c8e7dcbe8779921955e10769175232fb64d081546",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_untracked.tar.gz",
+          "size": 499098,
+          "sha256": "920aefebb248f17e79200ae1cd40e62d62cb0cbd17afb2e1c33f679ad4ab0300",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_untracked.tar.gz",
+          "size": 499202,
+          "sha256": "eda4ee7a24e23307ddc09b38a26e9d42d530dcece887ab2a01b0ad1924835f10",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_untracked.tar.gz",
+          "size": 533490,
+          "sha256": "4e890b388eed41fd8d70717040d305a677989cab7d6f3bfd77034508ff7896ad",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_untracked.tar.gz",
+          "size": 533882,
+          "sha256": "ffe6bad0b3f27094f12f9fe27dce35bcc779669adf6f0790ee7c1f8f444a2b70",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/source_untracked.tar.gz",
+          "size": 538768,
+          "sha256": "fbb148dd282db72ab3ac25adfed253f8813fbde7209dbc204f6a553afc7f57a7",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/source_untracked.tar.gz",
+          "size": 539090,
+          "sha256": "1bb0f415dd952a267c44224b1f08041c4051a7fcc48ea10e08a28a8d239ff250",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_changes.patch",
+          "size": 59146809,
+          "sha256": "cf8e9fff38a0f315a375e672e447ac48f973630abe903f27b46f09daf2250f9a",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_changes.patch",
+          "size": 59149590,
+          "sha256": "009b87262a10edf18eb6be58b70f8fe84c5db3f68adccdaf895706aaea32096d",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_changes.patch",
+          "size": 59155243,
+          "sha256": "1b97fa4715743e026575fd0b46444c8f6aa013e232b28fdcf8f27fffb63f9dbe",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_changes.patch",
+          "size": 59156211,
+          "sha256": "d7d35ebd7fa27580ccd8f46d1d3f2bf08f58f1428f41e2bc1988ae52666a3e1c",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/source_changes.patch",
+          "size": 59157172,
+          "sha256": "f85ee8500c7652dd3fe1e03c45d6501b0e2415440a33271638760e687af96517",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/source_changes.patch",
+          "size": 59158155,
+          "sha256": "da19a1979185d9cd4f83e94feb0b3af2e0f72c4c05eca3194cef66f6f71d7228",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/outputs/safety_contract.json",
+          "size": 276,
+          "sha256": "d035b4730a2c33186ee835f20063e6c0a2467c704d268b86f314694ab9f1d4fa",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "b1a4e3f56f95eaddb4b9a4989cc784ab7b58bacce9a8f7a0c5ba4f4a740f1c3b",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "4c685917a5b7b254ca6212cc90b7e90b68e0791ed9bf5737994069e3cb01b718",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "1ddd471ccc3a6d47d4faaa9e40ca67f187d59f65d3e771507d01fb7c5fe2726f",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "c99eba4db635257401865da477c420bfe28ab635903075bf00c45eb7628289c4",
+          "transfer_status": "copied"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/outputs/preflight.json",
+          "size": 8898,
+          "sha256": "5dfeccee6517581874e81f977b49d4892605cbb3b0fccf19b5a8a221c1ef311f",
+          "transfer_status": "unchanged"
+        }
+      ],
+      "upload_status": "failed_quota_then_recovered_by_034520Z-f62d10",
+      "original_retained_local_HPC": true
+    },
+    {
+      "source_path": "research/sync/receipts/20261110T034520Z-f62d10.json",
+      "bytes": 1217265,
+      "sha256": "0abf84622ff9e18cbf85f018761313a0635598d1d39a594cd8027f3163efeb80",
+      "sync_id": "20261110T034520Z-f62d10",
+      "all_outputs_mirrored": true,
+      "bytes_downloaded": 168875,
+      "total_inventory_files": 4148,
+      "new_B1_files": [
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stderr.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stdout.log",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/artifacts.json",
+          "size": 226,
+          "sha256": "f21aa320808e85dca5cff97d19f97c64c57f1780ede017916ea9f7a80f49ccc4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/artifacts.json",
+          "size": 228,
+          "sha256": "3224ba3f055e54de348f86c1d7715c38f3a97e7a55b2e7a52b3f974999d0b3e6",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/artifacts.json",
+          "size": 238,
+          "sha256": "58aaf671b7806c36b65c8d23d114ae9fd39570c4dfc7a6a097733a955e5abc91",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/artifacts.json",
+          "size": 241,
+          "sha256": "a565c1b5e7e19568f7861efa918377faf43e9cd8885d94a1750c54121bfd27b4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/artifacts.json",
+          "size": 241,
+          "sha256": "1c0d4b8f51ebe363921cafec5ba258857550b78a629aca8a4c8ee2e109953e63",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/artifacts.json",
+          "size": 241,
+          "sha256": "95aeb9a3c05942e708ed204b618940e08eeb8f25f2c21e090170dfd6ab69c47a",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/status.json",
+          "size": 535,
+          "sha256": "1f9c593e8035f3b0137c894d40d193b37bc77c82e9af6f4aff2c5936d7d1cf10",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/status.json",
+          "size": 537,
+          "sha256": "2f60abb82485dcf81472ce962bcd813716046fa8f5359a54d7b650d52ae8de53",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/status.json",
+          "size": 542,
+          "sha256": "ef9b5b5fd851f5ab44d2869bb79d15e38c99014bac64c089ba1934f695d8030b",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/status.json",
+          "size": 551,
+          "sha256": "edfc33e35e678bcd309780bc2d2acb775f3e382833b110cb30129d7702a3e795",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/status.json",
+          "size": 551,
+          "sha256": "139d1dfb863d831c7af1ed7140d1d1da2431a62b5259bee34f0504779ebca8c3",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/status.json",
+          "size": 561,
+          "sha256": "4bbf3b9da9b7a7db2a9734948d578118d5b51bd6c0757e5a0aa5c8b713af72df",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stderr.log",
+          "size": 2584,
+          "sha256": "20b6f1c01697af090cac1b01963e1650bec6d25ea80ade877f6e33c854c28205",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stdout.log",
+          "size": 3018,
+          "sha256": "2f07833568dfddfca4c8cadb61df5d3537223d7af4beea1328187d94057fa8f8",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/stderr.log",
+          "size": 3681,
+          "sha256": "c13d05e4e9945d06f39f8fb2dd34ac9281dbf08fa06c5950a04b9ae63a5b60d1",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/stderr.log",
+          "size": 4031,
+          "sha256": "74656a599a1ea543b54f29951c86785f10c98d3a18b8f635f5a64173c2cf6fb5",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/stderr.log",
+          "size": 4234,
+          "sha256": "e7040b26b9546abae2228d8a3eb6cd3704ceb6ea19181b61e26ab591803de928",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/stderr.log",
+          "size": 4427,
+          "sha256": "f72f0848c2c0f264634221c428b465bd0439d0de6e57d416551e0619d08dd2ea",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/manifest.json",
+          "size": 49736,
+          "sha256": "4dc55d68916dfc9805bce99a016f8d84d8c0359c698f354c6a3d3680bd537eca",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/manifest.json",
+          "size": 49816,
+          "sha256": "96ae9640a6e9d4aa5b1549386c19d7356b94c0580b5303ea6604e37db2af1f51",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/manifest.json",
+          "size": 50142,
+          "sha256": "ce3f400bc8004768e7bc90d296b4dbe42590ebba4c3e83a2aa0838dd941960e4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/manifest.json",
+          "size": 50237,
+          "sha256": "09c40f138a31753af38e669298d3130ae7b770214c6494bf0ed26eefe6daa77d",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/manifest.json",
+          "size": 50443,
+          "sha256": "800454af5520936717c0f8644d88a817f3f3c4289eefa7a26400aa3331bee581",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/manifest.json",
+          "size": 50564,
+          "sha256": "19aa99dcc0685a25ba8267d55bb3349a6696dc154ffc98673108cb05d3b08390",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_snapshot.json",
+          "size": 279817,
+          "sha256": "daee8852684a472b192c96a3f93b0b9d609501b2e4fc82f80c9556159358b75c",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_snapshot.json",
+          "size": 279937,
+          "sha256": "6b436ed80fca66080dbc225246cd9839dae1ce62f01ecbffbefebd421b5eaa11",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_snapshot.json",
+          "size": 287057,
+          "sha256": "c83b78a1d7d30f13ca81b281ad0b458659d85942fb7f92c65455b31c61c33af6",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_snapshot.json",
+          "size": 287525,
+          "sha256": "b03f2f831f3ff45912f304effd8ba64c7de31faccc64b8889e435e7454d44562",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/source_snapshot.json",
+          "size": 288491,
+          "sha256": "946d74be93aa8e18f44f7e56117c78afd2c159dcb31c69d3964f6539ce21ecef",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/source_snapshot.json",
+          "size": 288611,
+          "sha256": "3526f8a89654cad0fc854d4c8e7dcbe8779921955e10769175232fb64d081546",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_untracked.tar.gz",
+          "size": 499098,
+          "sha256": "920aefebb248f17e79200ae1cd40e62d62cb0cbd17afb2e1c33f679ad4ab0300",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_untracked.tar.gz",
+          "size": 499202,
+          "sha256": "eda4ee7a24e23307ddc09b38a26e9d42d530dcece887ab2a01b0ad1924835f10",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_untracked.tar.gz",
+          "size": 533490,
+          "sha256": "4e890b388eed41fd8d70717040d305a677989cab7d6f3bfd77034508ff7896ad",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_untracked.tar.gz",
+          "size": 533882,
+          "sha256": "ffe6bad0b3f27094f12f9fe27dce35bcc779669adf6f0790ee7c1f8f444a2b70",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/source_untracked.tar.gz",
+          "size": 538768,
+          "sha256": "fbb148dd282db72ab3ac25adfed253f8813fbde7209dbc204f6a553afc7f57a7",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/source_untracked.tar.gz",
+          "size": 539090,
+          "sha256": "1bb0f415dd952a267c44224b1f08041c4051a7fcc48ea10e08a28a8d239ff250",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_changes.patch",
+          "size": 59146809,
+          "sha256": "cf8e9fff38a0f315a375e672e447ac48f973630abe903f27b46f09daf2250f9a",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_changes.patch",
+          "size": 59149590,
+          "sha256": "009b87262a10edf18eb6be58b70f8fe84c5db3f68adccdaf895706aaea32096d",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_changes.patch",
+          "size": 59155243,
+          "sha256": "1b97fa4715743e026575fd0b46444c8f6aa013e232b28fdcf8f27fffb63f9dbe",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_changes.patch",
+          "size": 59156211,
+          "sha256": "d7d35ebd7fa27580ccd8f46d1d3f2bf08f58f1428f41e2bc1988ae52666a3e1c",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/source_changes.patch",
+          "size": 59157172,
+          "sha256": "f85ee8500c7652dd3fe1e03c45d6501b0e2415440a33271638760e687af96517",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/source_changes.patch",
+          "size": 59158155,
+          "sha256": "da19a1979185d9cd4f83e94feb0b3af2e0f72c4c05eca3194cef66f6f71d7228",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/outputs/safety_contract.json",
+          "size": 276,
+          "sha256": "d035b4730a2c33186ee835f20063e6c0a2467c704d268b86f314694ab9f1d4fa",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "b1a4e3f56f95eaddb4b9a4989cc784ab7b58bacce9a8f7a0c5ba4f4a740f1c3b",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "4c685917a5b7b254ca6212cc90b7e90b68e0791ed9bf5737994069e3cb01b718",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "1ddd471ccc3a6d47d4faaa9e40ca67f187d59f65d3e771507d01fb7c5fe2726f",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "c99eba4db635257401865da477c420bfe28ab635903075bf00c45eb7628289c4",
+          "transfer_status": "unchanged"
+        },
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/outputs/preflight.json",
+          "size": 8898,
+          "sha256": "5dfeccee6517581874e81f977b49d4892605cbb3b0fccf19b5a8a221c1ef311f",
+          "transfer_status": "unchanged"
+        }
+      ],
+      "upload_status": "completed",
+      "original_retained_local_HPC": true
+    }
+  ]
+}

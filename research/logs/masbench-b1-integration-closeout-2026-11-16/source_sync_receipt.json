@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-16 Asia/Shanghai",
+  "exit_code": 0,
+  "scope": "standard source/documents sync after authorized project cleanup",
+  "historical_quota_failures_preserved": true,
+  "new_tests_or_model_calls": 0,
+  "verified_receipt": {
+    "status": "verified",
+    "remote_root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "head": "4754bede84bb6e6defd8e646a63e81ccd6a20b4b",
+    "file_count": 901,
+    "changed_count": 42,
+    "sha256_mismatches": [],
+    "sync_id": "20261116T024042Z",
+    "remote_only_files": "preserved",
+    "text_line_endings": "LF"
+  }
+}

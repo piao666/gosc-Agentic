@@ -1,6 +1,6 @@
 # HPC execution status
 
-Generated: 2026-11-03T07:23:47.668557+00:00
+Generated: 2026-11-10T03:45:16.409949+00:00
 
 | Run | Kind | Stage | Status | Exit |
 |---|---|---|---|---|
@@ -67,6 +67,12 @@ Generated: 2026-11-03T07:23:47.668557+00:00
 | hpc-masbench-adapter-contract-20261103 | test | MASBENCH-ADAPTER-CONTRACT | completed | 0 |
 | hpc-masbench-adapter-contract-v2-20261103 | test | MASBENCH-ADAPTER-CONTRACT | completed | 0 |
 | hpc-masbench-adapter-contract-v3-20261103 | test | MASBENCH-ADAPTER-CONTRACT | completed | 0 |
+| hpc-masbench-b1-integration-20261110 | test | MASBench-B1-fixture-integration | completed | 0 |
+| hpc-masbench-b1-integration-v2-20261110 | test | MASBench-B1-fixture-integration | completed | 0 |
+| hpc-masbench-b1-integration-v3-20261110 | test | MASBench-B1-fixture-integration | completed | 0 |
+| hpc-masbench-b1-integration-v4-20261110 | test | MASBench-B1-fixture-integration | completed | 0 |
+| hpc-masbench-b1-preflight-20261110 | analysis | MASBench-B1-pre-AB | completed | 0 |
+| hpc-masbench-b1-safety-20261110 | test | MASBench-B1-pre-C | completed | 0 |
 | hpc-masbench-client-contract-20261103 | test | MASBENCH-P2 | completed | 0 |
 | hpc-masbench-client-contract-v2-20261103 | test | MASBENCH-P2 | completed | 0 |
 | hpc-masbench-client-contract-v3-20261103 | test | MASBENCH-P2 | completed | 0 |

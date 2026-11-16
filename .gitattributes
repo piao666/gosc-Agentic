@@ -100,3 +100,17 @@
 /tests_ext/test_masbench_reasoning_adapter.py -text
 /tests_ext/test_masbench_reasoning_preparation.py -text
 /tests_ext/test_native_information_shadow.py -text
+# Preserve only the newly archived B1 source and immutable evidence bytes.
+/research/sync/runs/hpc-masbench-b1-*/** -text
+/research/artifacts/masbench-b1-20261116/** -text
+/research/logs/masbench-b1-*/** -text
+/research/logs/git-publish-2026-11-16/** -text
+/experiments_ext/** -text
+/tests_ext/test_masbench_b1_safety.py -text
+/tests_ext/test_masbench_fixture_driver.py -text
+/research/protocols/masbench_b1_execution_safety_spec_v1.md -text
+/research/protocols/masbench_b1_fixture_driver_contract_v1.md -text
+/research/protocols/masbench_exact_context_implementation_plan_v1.json -text
+/research/reports/masbench_b1_preflight_acceptance.md -text
+/research/reports/masbench_b1_driver_integration_acceptance_2026-11-10.md -text
+/research/reports/masbench_b1_archive_summary_2026-11-16.md -text

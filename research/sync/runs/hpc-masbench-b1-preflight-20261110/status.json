@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-b1-preflight-20261110",
+  "status": "completed",
+  "started_at": "2026-11-10T03:05:54.464156+00:00",
+  "finished_at": "2026-11-10T03:05:55.319178+00:00",
+  "exit_code": 0,
+  "pid": 51504,
+  "elapsed_seconds": 0.855051,
+  "resource_usage": {
+    "child_max_rss_kib": 84568,
+    "child_cpu_user_seconds": 1.127664,
+    "child_cpu_system_seconds": 0.543078,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "Git whitespace management only",
+  "all_staged_exit": 2,
+  "all_staged_findings": "research/logs/masbench-b1-integration-2026-11-10/final_upload_stderr.txt:9: trailing whitespace.\n+RuntimeError: \r\nresearch/logs/masbench-b1-pre-2026-11-10/preflight_observed.json:335: new blank line at EOF.\n",
+  "preserved_exact_original_exceptions": [
+    "research/logs/masbench-b1-integration-2026-11-10/final_upload_stderr.txt",
+    "research/logs/masbench-b1-pre-2026-11-10/preflight_observed.json"
+  ],
+  "remaining_staged_exit": 0,
+  "remaining_findings": ""
+}

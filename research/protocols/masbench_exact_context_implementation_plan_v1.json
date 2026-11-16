@@ -1,0 +1,52 @@
+{
+  "id": "MASBench-Exact-Context-Implementation-Plan-v1",
+  "date": "2026-11-10",
+  "status": "reviewable_plan_not_build_or_service_authorization",
+  "execution_authorized": false,
+  "scientific_baseline": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "archive_head": "4754bede84bb6e6defd8e646a63e81ccd6a20b4b",
+  "ollama_source_commit": "92b96d54efd6b49322b7cf046f9a0dc16b00cd0a",
+  "ollama_release": "v0.11.11",
+  "model": "qwen2.5:7b",
+  "model_manifest_sha256": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "model_blob_sha256": "2bada8a7450677000f678be90653b85d364de7db25eb5ea54136ada5f3933730",
+  "ollama_template_sha256": "eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175",
+  "preferred_counter": "same-source CPU-only offline full-prompt renderer and deployed-engine vocabulary tokenizer; no tensor inference",
+  "legacy_tokenize_flags": {"addSpecial": false, "parseSpecial": true},
+  "legacy_vocabulary_only": true,
+  "engine_must_be_identified_before_verification": true,
+  "go_module_required_version": "1.24.0",
+  "toolchain_archive_version": null,
+  "toolchain_archive_official_sha256": null,
+  "toolchain_download_gate": "Pin a maintained compatible official toolchain version and SHA before installation approval; official download metadata lookup failed this round",
+  "go_toolchain_found_on_HPC_PATH": false,
+  "build_proposal_hard_caps_not_measured_projection": {
+    "wall_seconds": 1800,
+    "cpu_workers": 2,
+    "build_process_parallelism": 1,
+    "memory_bytes": 4294967296,
+    "new_download_bytes": 1073741824,
+    "additional_peak_disk_bytes": 4294967296,
+    "model_weight_download_bytes": 0,
+    "gpu_inference": false
+  },
+  "offline_contract_proposal": {
+    "wall_seconds": 120,
+    "memory_bytes": 2147483648,
+    "output_bytes": 16777216,
+    "uses_real_task_generations": false,
+    "requires_separate_build_dependency_execution_approval": true
+  },
+  "service_context_proposal": {
+    "observed_default": 1024,
+    "candidate_after_approval": 32768,
+    "effective_context_verified": false,
+    "change_service_now": false,
+    "restart_service_now": false,
+    "fallback_to_larger_context_automatically": false
+  },
+  "binding_verified": false,
+  "real_generation_authorized": false,
+  "formal_evaluation_authorized": false,
+  "training_authorized": false
+}

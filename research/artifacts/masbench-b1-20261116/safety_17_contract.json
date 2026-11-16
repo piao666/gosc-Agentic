@@ -1,0 +1,10 @@
+{
+  "tests_run": 17,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "real_http_requests": 0,
+  "model_generations": 0,
+  "scope": "new independent safety prototype only; not previous 147+5 rerun",
+  "python": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]"
+}

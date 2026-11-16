@@ -1,5 +1,13 @@
 # 研究进度与证据入口
 
+2026-11-16 Git归档：[阶段摘要](reports/masbench_b1_archive_summary_2026-11-16.md)、[固定五部分说明](../commit/2026-11-16-01-masbench-b1-safety-and-delivery.md)、[6份小型输出白名单](artifacts/masbench-b1-20261116/README.md)。整理B1-pre、17独立/最终24集成合同、精确计数方案和quota/清理/901文件同步收尾；此次仅Git/文件管理，不新运行HPC或模型，不回写历史身份，科学No-Go及真实B1 Blocked保持。
+
+2026-11-16交付收尾：[清理与同步记录](logs/masbench-b1-integration-closeout-2026-11-16/closeout_report.md)。用户明确批准后停止NextWork的Laya服务并清除NextWork（含laya-env）及d2l-zh，删除前约5.46GiB，GOSC项目写盘检查恢复；保留原quota/同步失败，以标准工具补齐最后交付。既有24合同不重跑，无模型/真实任务/安装/改Ollama/提交；精确部署绑定与真实B1仍Blocked，G1/GP-ID No-Go保持。最终源同步状态单列本轮source_sync_receipt.json。
+
+2026-11-10 B1无模型Driver整合：[验收](reports/masbench_b1_driver_integration_acceptance_2026-11-10.md)、[整合合同](protocols/masbench_b1_fixture_driver_contract_v1.md)、[精确计数/context实施方案](benchmarks/masbench_exact_context_implementation_plan_v1.md)。原client/application/wire不改，最终24项HPC合同通过，覆盖持久分区预算、实际Prompt配对、seccomp假worker、外层中断整链与不可重置deadline；v4测试后quota管理失败保留，临时重复传输包清理后补回传成功。工具链archive/配额及实际tokenizer/context/服务取消仍Pending，真实B1 Blocked；无生成/真实任务/安装/改服务/commit/push，科学No-Go保持。
+
+2026-11-10 B1-pre：[准入验收](reports/masbench_b1_preflight_acceptance.md)、[Tokenizer/context](benchmarks/masbench_context_tokenizer_preflight_review.md)、[数据/统计](benchmarks/masbench_data_split_and_power_feasibility_review.md)、[执行安全规格](protocols/masbench_b1_execution_safety_spec_v1.md)。HPC只读核实服务默认1024、GGUF与Ollama模板不同；余52行实际36家族34文章分量。新增17无模型安全合同通过，真实任务/生成0；精确部署绑定、服务端取消与完整Driver硬边界仍Blocked。正式划分/功效Pending，G1/GP-ID No-Go保持；无commit/push，完成后停止。
+
 2026-11-04版本归档：[提交说明](../commit/2026-11-04-01-native-information-and-masbench-preparation.md)汇总G1负诊断、候选/任务与路线B审查、MASBench环境/数据/无模型客户端验收；[20份小型证据](artifacts/native-masbench-20261104/README.md)按原HPC字节与SHA归档。科学No-Go保持、真实模型任务仍未放行；本次只做Git/文件管理。以后每次提交按[固定模板](../commit/TEMPLATE.md)写“提交内容、主要尝试、结果、当前进展、下一步安排”。
 
 2026-11-03 P0–P2准备验收：[新报告](reports/masbench_reasoning_preparation_acceptance_2026-11-03.md)、[上下文/预算提案](benchmarks/masbench_reasoning_context_resource_budget_v1.md)。修正空支持键后仍38组/最大242；4题/4分量开发预留248行、余52，模型尚未曝光。最终147合同＋独立httpx MockTransport5项通过，无真实HTTP/模型/任务。精确tokenizer/effective context和未来独立池充分性Pending，6000s/256MiB只是提案；真实诊断仍须另批，G1/GP-ID科学No-Go保持。

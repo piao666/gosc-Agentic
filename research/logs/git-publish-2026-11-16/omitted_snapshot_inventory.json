@@ -1,0 +1,78 @@
+{
+  "files": [
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_changes.patch",
+      "bytes": 59146809,
+      "sha256": "cf8e9fff38a0f315a375e672e447ac48f973630abe903f27b46f09daf2250f9a",
+      "disposition": "retained_local_and_HPC_not_newly_published"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_untracked.tar.gz",
+      "bytes": 499098,
+      "sha256": "920aefebb248f17e79200ae1cd40e62d62cb0cbd17afb2e1c33f679ad4ab0300",
+      "disposition": "retained_local_and_HPC_not_newly_published"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_changes.patch",
+      "bytes": 59149590,
+      "sha256": "009b87262a10edf18eb6be58b70f8fe84c5db3f68adccdaf895706aaea32096d",
+      "disposition": "retained_local_and_HPC_not_newly_published"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_untracked.tar.gz",
+      "bytes": 499202,
+      "sha256": "eda4ee7a24e23307ddc09b38a26e9d42d530dcece887ab2a01b0ad1924835f10",
+      "disposition": "retained_local_and_HPC_not_newly_published"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_changes.patch",
+      "bytes": 59155243,
+      "sha256": "1b97fa4715743e026575fd0b46444c8f6aa013e232b28fdcf8f27fffb63f9dbe",
+      "disposition": "retained_local_and_HPC_not_newly_published"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_untracked.tar.gz",
+      "bytes": 533490,
+      "sha256": "4e890b388eed41fd8d70717040d305a677989cab7d6f3bfd77034508ff7896ad",
+      "disposition": "retained_local_and_HPC_not_newly_published"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_changes.patch",
+      "bytes": 59156211,
+      "sha256": "d7d35ebd7fa27580ccd8f46d1d3f2bf08f58f1428f41e2bc1988ae52666a3e1c",
+      "disposition": "retained_local_and_HPC_not_newly_published"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_untracked.tar.gz",
+      "bytes": 533882,
+      "sha256": "ffe6bad0b3f27094f12f9fe27dce35bcc779669adf6f0790ee7c1f8f444a2b70",
+      "disposition": "retained_local_and_HPC_not_newly_published"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/source_changes.patch",
+      "bytes": 59157172,
+      "sha256": "f85ee8500c7652dd3fe1e03c45d6501b0e2415440a33271638760e687af96517",
+      "disposition": "retained_local_and_HPC_not_newly_published"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/source_untracked.tar.gz",
+      "bytes": 538768,
+      "sha256": "fbb148dd282db72ab3ac25adfed253f8813fbde7209dbc204f6a553afc7f57a7",
+      "disposition": "retained_local_and_HPC_not_newly_published"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/source_changes.patch",
+      "bytes": 59158155,
+      "sha256": "da19a1979185d9cd4f83e94feb0b3af2e0f72c4c05eca3194cef66f6f71d7228",
+      "disposition": "retained_local_and_HPC_not_newly_published"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/source_untracked.tar.gz",
+      "bytes": 539090,
+      "sha256": "1bb0f415dd952a267c44224b1f08041c4051a7fcc48ea10e08a28a8d239ff250",
+      "disposition": "retained_local_and_HPC_not_newly_published"
+    }
+  ],
+  "bytes": 358066710,
+  "older_tracked_history_preserved": true
+}

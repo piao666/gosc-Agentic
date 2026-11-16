@@ -27,3 +27,6 @@ research/sync/runs/*/source_changes.patch
 research/sync/runs/*/source_untracked.tar.gz
 # Incomplete transfer fragments are retained locally, not published.
 research/sync/*.partial-*
+# Nov10 full transfer inventories repeat the historical run list; preserve
+# originals locally/on HPC and publish a SHA-bound compact index instead.
+/research/sync/receipts/20261110T*.json

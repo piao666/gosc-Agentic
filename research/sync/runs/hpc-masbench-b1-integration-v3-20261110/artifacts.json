@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-b1-integration-v3-20261110",
+  "files": [
+    {
+      "path": "outputs/integration_contract.json",
+      "size": 320,
+      "sha256": "1ddd471ccc3a6d47d4faaa9e40ca67f187d59f65d3e771507d01fb7c5fe2726f"
+    }
+  ]
+}

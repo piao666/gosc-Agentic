@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-b1-safety-20261110",
+  "files": [
+    {
+      "path": "outputs/safety_contract.json",
+      "size": 276,
+      "sha256": "d035b4730a2c33186ee835f20063e6c0a2467c704d268b86f314694ab9f1d4fa"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T07:23:47.668557+00:00",
+  "generated_at": "2026-11-10T03:45:16.409949+00:00",
   "authority": "hpc",
   "runs": [
     {
@@ -1192,6 +1192,120 @@
       "kind": "test",
       "stage": "MASBENCH-ADAPTER-CONTRACT",
       "purpose": "Final 67 synthetic contracts including explicit partial-service unavailable-body and no-background counters; no model/tasks"
+    },
+    {
+      "run_id": "hpc-masbench-b1-integration-20261110",
+      "status": "completed",
+      "started_at": "2026-11-10T03:32:58.900996+00:00",
+      "finished_at": "2026-11-10T03:33:00.564905+00:00",
+      "exit_code": 0,
+      "pid": 53319,
+      "elapsed_seconds": 1.663927,
+      "resource_usage": {
+        "child_max_rss_kib": 85128,
+        "child_cpu_user_seconds": 1.190198,
+        "child_cpu_system_seconds": 0.475315,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "MASBench-B1-fixture-integration",
+      "purpose": "Fixture-only original client/application/wire with durable partitioned budgets, seccomp RPC, failure/resume and external watchdog; no real model or dataset"
+    },
+    {
+      "run_id": "hpc-masbench-b1-integration-v2-20261110",
+      "status": "completed",
+      "started_at": "2026-11-10T03:36:42.644830+00:00",
+      "finished_at": "2026-11-10T03:36:44.494422+00:00",
+      "exit_code": 0,
+      "pid": 53793,
+      "elapsed_seconds": 1.849613,
+      "resource_usage": {
+        "child_max_rss_kib": 84956,
+        "child_cpu_user_seconds": 1.243993,
+        "child_cpu_system_seconds": 0.46156899999999995,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "MASBench-B1-fixture-integration",
+      "purpose": "Final fixture integration with prompt-pair binding and metadata-audit-generation common deadline; preserve earlier 20-contract run"
+    },
+    {
+      "run_id": "hpc-masbench-b1-integration-v3-20261110",
+      "status": "completed",
+      "started_at": "2026-11-10T03:40:08.244973+00:00",
+      "finished_at": "2026-11-10T03:40:10.999166+00:00",
+      "exit_code": 0,
+      "pid": 54268,
+      "elapsed_seconds": 2.754212,
+      "resource_usage": {
+        "child_max_rss_kib": 84892,
+        "child_cpu_user_seconds": 1.3356379999999999,
+        "child_cpu_system_seconds": 0.43557399999999996,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "MASBench-B1-fixture-integration",
+      "purpose": "Final full suite including outer-supervisor to actual fixture campaign/client/wire/ledger interrupted-generation recovery chain; no real model"
+    },
+    {
+      "run_id": "hpc-masbench-b1-integration-v4-20261110",
+      "status": "completed",
+      "started_at": "2026-11-10T03:43:31.659469+00:00",
+      "finished_at": "2026-11-10T03:43:34.476504+00:00",
+      "exit_code": 0,
+      "pid": 54722,
+      "elapsed_seconds": 2.817053,
+      "resource_usage": {
+        "child_max_rss_kib": 84984,
+        "child_cpu_user_seconds": 1.384374,
+        "child_cpu_system_seconds": 0.45960399999999996,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "MASBench-B1-fixture-integration",
+      "purpose": "Final contracts: durable outer watchdog wall/command identity prevents resume budget reset; includes complete fixture driver interruption chain"
+    },
+    {
+      "run_id": "hpc-masbench-b1-preflight-20261110",
+      "status": "completed",
+      "started_at": "2026-11-10T03:05:54.464156+00:00",
+      "finished_at": "2026-11-10T03:05:55.319178+00:00",
+      "exit_code": 0,
+      "pid": 51504,
+      "elapsed_seconds": 0.855051,
+      "resource_usage": {
+        "child_max_rss_kib": 84568,
+        "child_cpu_user_seconds": 1.127664,
+        "child_cpu_system_seconds": 0.543078,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "MASBench-B1-pre-AB",
+      "purpose": "Read-only deployed GGUF/context inventory and immutable registry D1-D2 summary; no HTTP or model generation"
+    },
+    {
+      "run_id": "hpc-masbench-b1-safety-20261110",
+      "status": "completed",
+      "started_at": "2026-11-10T03:07:42.663582+00:00",
+      "finished_at": "2026-11-10T03:07:43.888979+00:00",
+      "exit_code": 0,
+      "pid": 51869,
+      "elapsed_seconds": 1.225419,
+      "resource_usage": {
+        "child_max_rss_kib": 84376,
+        "child_cpu_user_seconds": 0.73154,
+        "child_cpu_system_seconds": 0.26422999999999996,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "MASBench-B1-pre-C",
+      "purpose": "Independent persistent budget, failure/resume and owned fake-process hard-watchdog contracts; network and models forbidden"
     },
     {
       "run_id": "hpc-masbench-client-contract-20261103",
@@ -3556,6 +3670,6 @@
       "purpose": "User-authorized continuation; retain historical differences: value-fidelity"
     }
   ],
-  "research_runs": 158,
+  "research_runs": 164,
   "note": "Execution status only. Local transfer completeness is recorded in receipts/."
 }

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-b1-integration-v4-20261110",
+  "status": "completed",
+  "started_at": "2026-11-10T03:43:31.659469+00:00",
+  "finished_at": "2026-11-10T03:43:34.476504+00:00",
+  "exit_code": 0,
+  "pid": 54722,
+  "elapsed_seconds": 2.817053,
+  "resource_usage": {
+    "child_max_rss_kib": 84984,
+    "child_cpu_user_seconds": 1.384374,
+    "child_cpu_system_seconds": 0.45960399999999996,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

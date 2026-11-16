@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "E:\gosc\scripts\sync_hpc.py", line 161, in <module>
+    main()
+  File "E:\gosc\scripts\sync_hpc.py", line 153, in main
+    output = ssh('ARCHIVE='+repr(remote_archive)+'\nREMOTE_ROOT='+repr(remote_root)+'\n'+RECEIVER)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\gosc\scripts\sync_hpc.py", line 107, in ssh
+    raise RuntimeError(result.stdout.decode('utf-8',errors='replace') + '\nSSH exit ' + str(result.returncode))
+RuntimeError: 
+SSH exit 1

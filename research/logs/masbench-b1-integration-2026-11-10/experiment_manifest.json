@@ -1,0 +1,212 @@
+{
+  "archive_head": "4754bede84bb6e6defd8e646a63e81ccd6a20b4b",
+  "scientific_baseline": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "third_party": "c0301a650db95958924bb080192c09fef39389a5",
+  "runs": [
+    {
+      "run_id": "hpc-masbench-b1-integration-20261110",
+      "host": "n1",
+      "head": "4754bede84bb6e6defd8e646a63e81ccd6a20b4b",
+      "source_sync_id": "20261110T033157Z",
+      "source_manifest_sha256": "c83b78a1d7d30f13ca81b281ad0b458659d85942fb7f92c65455b31c61c33af6",
+      "command": [
+        "/usr/bin/timeout",
+        "125s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_b1_integration_contract.py"
+      ],
+      "resources": {
+        "cpu_quota": "200000",
+        "cpu_period": "100000",
+        "cpuset": "0-1",
+        "memory_bytes": "25769803776",
+        "gpu_settings": {
+          "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+          "CUDA_DEVICE_SM_LIMIT": "75"
+        }
+      },
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 1.663927,
+      "resource_usage": {
+        "child_max_rss_kib": 85128,
+        "child_cpu_user_seconds": 1.190198,
+        "child_cpu_system_seconds": 0.475315,
+        "peak_gpu_memory": null
+      },
+      "result": {
+        "tests_run": 20,
+        "failures": 0,
+        "errors": 0,
+        "successful": true,
+        "real_model_generations": 0,
+        "real_reasoning_episodes": 0,
+        "real_http_requests": 0,
+        "python": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+        "scope": "new fixture-only driver integration; historical 147+5 and 17 not rerun"
+      },
+      "artifacts": [
+        {
+          "path": "outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "b1a4e3f56f95eaddb4b9a4989cc784ab7b58bacce9a8f7a0c5ba4f4a740f1c3b"
+        }
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-b1-integration-v2-20261110",
+      "host": "n1",
+      "head": "4754bede84bb6e6defd8e646a63e81ccd6a20b4b",
+      "source_sync_id": "20261110T033550Z",
+      "source_manifest_sha256": "b03f2f831f3ff45912f304effd8ba64c7de31faccc64b8889e435e7454d44562",
+      "command": [
+        "/usr/bin/timeout",
+        "125s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_b1_integration_contract.py"
+      ],
+      "resources": {
+        "cpu_quota": "200000",
+        "cpu_period": "100000",
+        "cpuset": "0-1",
+        "memory_bytes": "25769803776",
+        "gpu_settings": {
+          "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+          "CUDA_DEVICE_SM_LIMIT": "75"
+        }
+      },
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 1.849613,
+      "resource_usage": {
+        "child_max_rss_kib": 84956,
+        "child_cpu_user_seconds": 1.243993,
+        "child_cpu_system_seconds": 0.46156899999999995,
+        "peak_gpu_memory": null
+      },
+      "result": {
+        "tests_run": 22,
+        "failures": 0,
+        "errors": 0,
+        "successful": true,
+        "real_model_generations": 0,
+        "real_reasoning_episodes": 0,
+        "real_http_requests": 0,
+        "python": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+        "scope": "new fixture-only driver integration; historical 147+5 and 17 not rerun"
+      },
+      "artifacts": [
+        {
+          "path": "outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "4c685917a5b7b254ca6212cc90b7e90b68e0791ed9bf5737994069e3cb01b718"
+        }
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-b1-integration-v3-20261110",
+      "host": "n1",
+      "head": "4754bede84bb6e6defd8e646a63e81ccd6a20b4b",
+      "source_sync_id": "20261110T033925Z",
+      "source_manifest_sha256": "946d74be93aa8e18f44f7e56117c78afd2c159dcb31c69d3964f6539ce21ecef",
+      "command": [
+        "/usr/bin/timeout",
+        "125s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_b1_integration_contract.py"
+      ],
+      "resources": {
+        "cpu_quota": "200000",
+        "cpu_period": "100000",
+        "cpuset": "0-1",
+        "memory_bytes": "25769803776",
+        "gpu_settings": {
+          "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+          "CUDA_DEVICE_SM_LIMIT": "75"
+        }
+      },
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 2.754212,
+      "resource_usage": {
+        "child_max_rss_kib": 84892,
+        "child_cpu_user_seconds": 1.3356379999999999,
+        "child_cpu_system_seconds": 0.43557399999999996,
+        "peak_gpu_memory": null
+      },
+      "result": {
+        "tests_run": 23,
+        "failures": 0,
+        "errors": 0,
+        "successful": true,
+        "real_model_generations": 0,
+        "real_reasoning_episodes": 0,
+        "real_http_requests": 0,
+        "python": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+        "scope": "new fixture-only driver integration; historical 147+5 and 17 not rerun"
+      },
+      "artifacts": [
+        {
+          "path": "outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "1ddd471ccc3a6d47d4faaa9e40ca67f187d59f65d3e771507d01fb7c5fe2726f"
+        }
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-b1-integration-v4-20261110",
+      "host": "n1",
+      "head": "4754bede84bb6e6defd8e646a63e81ccd6a20b4b",
+      "source_sync_id": "20261110T034250Z",
+      "source_manifest_sha256": "3526f8a89654cad0fc854d4c8e7dcbe8779921955e10769175232fb64d081546",
+      "command": [
+        "/usr/bin/timeout",
+        "125s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_b1_integration_contract.py"
+      ],
+      "resources": {
+        "cpu_quota": "200000",
+        "cpu_period": "100000",
+        "cpuset": "0-1",
+        "memory_bytes": "25769803776",
+        "gpu_settings": {
+          "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+          "CUDA_DEVICE_SM_LIMIT": "75"
+        }
+      },
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 2.817053,
+      "resource_usage": {
+        "child_max_rss_kib": 84984,
+        "child_cpu_user_seconds": 1.384374,
+        "child_cpu_system_seconds": 0.45960399999999996,
+        "peak_gpu_memory": null
+      },
+      "result": {
+        "tests_run": 24,
+        "failures": 0,
+        "errors": 0,
+        "successful": true,
+        "real_model_generations": 0,
+        "real_reasoning_episodes": 0,
+        "real_http_requests": 0,
+        "python": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+        "scope": "new fixture-only driver integration; historical 147+5 and 17 not rerun"
+      },
+      "artifacts": [
+        {
+          "path": "outputs/integration_contract.json",
+          "size": 320,
+          "sha256": "c99eba4db635257401865da477c420bfe28ab635903075bf00c45eb7628289c4"
+        }
+      ]
+    }
+  ],
+  "real_generations": 0,
+  "real_reasoning_episodes": 0,
+  "installations": 0,
+  "service_changes": 0,
+  "git_commit_or_push": false
+}

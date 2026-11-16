@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-b1-safety-20261110",
+  "status": "completed",
+  "started_at": "2026-11-10T03:07:42.663582+00:00",
+  "finished_at": "2026-11-10T03:07:43.888979+00:00",
+  "exit_code": 0,
+  "pid": 51869,
+  "elapsed_seconds": 1.225419,
+  "resource_usage": {
+    "child_max_rss_kib": 84376,
+    "child_cpu_user_seconds": 0.73154,
+    "child_cpu_system_seconds": 0.26422999999999996,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

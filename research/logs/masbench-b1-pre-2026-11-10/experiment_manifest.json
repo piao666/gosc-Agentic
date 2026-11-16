@@ -1,0 +1,89 @@
+{
+  "archive_head": "4754bede84bb6e6defd8e646a63e81ccd6a20b4b",
+  "scientific_baseline": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+  "third_party_commit": "c0301a650db95958924bb080192c09fef39389a5",
+  "new_real_model_calls": 0,
+  "new_real_reasoning_episodes": 0,
+  "runs": [
+    {
+      "run_id": "hpc-masbench-b1-preflight-20261110",
+      "execution_host": "n1",
+      "git_commit": "4754bede84bb6e6defd8e646a63e81ccd6a20b4b",
+      "working_tree_status_preserved_in_original_manifest": true,
+      "source_sync_id": "20261110T030503Z",
+      "source_manifest_sha256": "daee8852684a472b192c96a3f93b0b9d609501b2e4fc82f80c9556159358b75c",
+      "command": [
+        "/usr/bin/timeout",
+        "120s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.local/envs/masbench-reasoning-v1/bin/python",
+        "experiments_ext/masbench_b1_preflight.py"
+      ],
+      "resource_limits": {
+        "cpu_quota": "200000",
+        "cpu_period": "100000",
+        "cpuset": "0-1",
+        "memory_bytes": "25769803776",
+        "gpu_settings": {
+          "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+          "CUDA_DEVICE_SM_LIMIT": "75"
+        }
+      },
+      "elapsed_seconds": 0.855051,
+      "exit_code": 0,
+      "status": "completed",
+      "resources": {
+        "child_max_rss_kib": 84568,
+        "child_cpu_user_seconds": 1.127664,
+        "child_cpu_system_seconds": 0.543078,
+        "peak_gpu_memory": null
+      },
+      "outputs": [
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/outputs/preflight.json",
+          "sha256": "5dfeccee6517581874e81f977b49d4892605cbb3b0fccf19b5a8a221c1ef311f",
+          "size": 8898
+        }
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-b1-safety-20261110",
+      "execution_host": "n1",
+      "git_commit": "4754bede84bb6e6defd8e646a63e81ccd6a20b4b",
+      "working_tree_status_preserved_in_original_manifest": true,
+      "source_sync_id": "20261110T030654Z",
+      "source_manifest_sha256": "6b436ed80fca66080dbc225246cd9839dae1ce62f01ecbffbefebd421b5eaa11",
+      "command": [
+        "/usr/bin/timeout",
+        "125s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_b1_safety_contract.py"
+      ],
+      "resource_limits": {
+        "cpu_quota": "200000",
+        "cpu_period": "100000",
+        "cpuset": "0-1",
+        "memory_bytes": "25769803776",
+        "gpu_settings": {
+          "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+          "CUDA_DEVICE_SM_LIMIT": "75"
+        }
+      },
+      "elapsed_seconds": 1.225419,
+      "exit_code": 0,
+      "status": "completed",
+      "resources": {
+        "child_max_rss_kib": 84376,
+        "child_cpu_user_seconds": 0.73154,
+        "child_cpu_system_seconds": 0.26422999999999996,
+        "peak_gpu_memory": null
+      },
+      "outputs": [
+        {
+          "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/outputs/safety_contract.json",
+          "sha256": "d035b4730a2c33186ee835f20063e6c0a2467c704d268b86f314694ab9f1d4fa",
+          "size": 276
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+HPC target parent verified
+Traceback (most recent call last):
+  File "<stdin>", line 57, in <module>
+  File "/usr/lib/python3.6/pathlib.py", line 1206, in write_bytes
+    return f.write(view)
+OSError: [Errno 122] Disk quota exceeded
