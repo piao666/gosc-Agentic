@@ -1,0 +1,15 @@
+[
+  {
+    "url": "https://api.github.com/repos/ollama/ollama/git/blobs/9429171390a41654a73b1fd63d6048712a4893a2",
+    "status": 200,
+    "content_length": "9451",
+    "git_blob_sha1": "9429171390a41654a73b1fd63d6048712a4893a2",
+    "size": 6656,
+    "encoding": "base64"
+  },
+  {
+    "url": "https://ziglang.org/download/0.17.1/zig-x86_64-linux-0.17.1.tar.xz",
+    "status": 200,
+    "content_length": "57411036"
+  }
+]

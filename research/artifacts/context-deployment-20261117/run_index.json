@@ -1,0 +1,471 @@
+{
+  "scope": "15 registered runs since base916289b; unknown finish/exit retained",
+  "runs": [
+    {
+      "run_id": "hpc-masbench-context-build-20261116",
+      "status": {
+        "run_id": "hpc-masbench-context-build-20261116",
+        "status": "failed",
+        "started_at": "2026-11-16T07:21:33.366326+00:00",
+        "finished_at": "2026-11-16T07:21:33.789756+00:00",
+        "exit_code": 1,
+        "pid": 43187,
+        "elapsed_seconds": 0.423447,
+        "resource_usage": {
+          "child_max_rss_kib": 88392,
+          "child_cpu_user_seconds": 0.694388,
+          "child_cpu_system_seconds": 0.56102,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "1800s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_context_build.py"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261116T072026Z",
+      "manifest_sha256": "2df6434a8d4217bc52b621009b965cdb6b5f7aa8631af8fb3e21563a6bca1c75",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-context-build-20261116__build.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-context-build-v2-20261116",
+      "status": {
+        "run_id": "hpc-masbench-context-build-v2-20261116",
+        "status": "failed",
+        "started_at": "2026-11-16T07:24:13.754419+00:00",
+        "finished_at": "2026-11-16T07:24:14.481039+00:00",
+        "exit_code": 120,
+        "pid": 43590,
+        "elapsed_seconds": 0.726638,
+        "resource_usage": {
+          "child_max_rss_kib": 89000,
+          "child_cpu_user_seconds": 0.612132,
+          "child_cpu_system_seconds": 0.7869649999999999,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "1790s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_context_build.py"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261116T072339Z",
+      "manifest_sha256": "1e1fd42ec6e186ee072cc06c1265a77976477b1cdac82bd738b9721f9bc9be7d",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-context-build-v2-20261116__build.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-context-build-v3-20261116",
+      "status": {
+        "run_id": "hpc-masbench-context-build-v3-20261116",
+        "status": "failed",
+        "started_at": "2026-11-16T07:33:47.314742+00:00",
+        "finished_at": "2026-11-16T07:34:19.763231+00:00",
+        "exit_code": 1,
+        "pid": 44359,
+        "elapsed_seconds": 32.448509,
+        "resource_usage": {
+          "child_max_rss_kib": 89100,
+          "child_cpu_user_seconds": 9.590885,
+          "child_cpu_system_seconds": 2.136206,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "1775s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_context_build.py"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261116T073314Z",
+      "manifest_sha256": "b2c07e91218fdbb0ffaf91c5526e018b91e59953288f03f89d7ab4af75724fdd",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-context-build-v3-20261116__build.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-context-build-v4-20261116",
+      "status": {
+        "run_id": "hpc-masbench-context-build-v4-20261116",
+        "status": "failed",
+        "started_at": "2026-11-16T07:40:42.968035+00:00",
+        "finished_at": "2026-11-16T07:40:48.393178+00:00",
+        "exit_code": 1,
+        "pid": 44953,
+        "elapsed_seconds": 5.425162,
+        "resource_usage": {
+          "child_max_rss_kib": 89036,
+          "child_cpu_user_seconds": 3.622481,
+          "child_cpu_system_seconds": 0.623765,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "1730s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_context_build.py"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261116T074010Z",
+      "manifest_sha256": "133652757ef11fc15d49243a234119d56500cc42e99836204340d9a62dc6624d",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-context-build-v4-20261116__build.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-context-build-v5-20261116",
+      "status": {
+        "run_id": "hpc-masbench-context-build-v5-20261116",
+        "status": "failed",
+        "started_at": "2026-11-16T07:42:56.676749+00:00",
+        "finished_at": "2026-11-16T07:43:47.807461+00:00",
+        "exit_code": 1,
+        "pid": 45363,
+        "elapsed_seconds": 51.130733,
+        "resource_usage": {
+          "child_max_rss_kib": 340548,
+          "child_cpu_user_seconds": 63.023842,
+          "child_cpu_system_seconds": 8.076088,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "1715s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_context_build.py"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261116T074225Z",
+      "manifest_sha256": "aa7b556a6bb55928b31770bf2e531699bf867ecce579853414af8c55b6e9f635",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-context-build-v5-20261116__build.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-context-offline-contract-20261116",
+      "status": {
+        "run_id": "hpc-masbench-context-offline-contract-20261116",
+        "status": "failed",
+        "started_at": "2026-11-16T09:52:28.119403+00:00",
+        "finished_at": "2026-11-16T09:52:28.310256+00:00",
+        "exit_code": 1,
+        "pid": 57189,
+        "elapsed_seconds": 0.19088,
+        "resource_usage": {
+          "child_max_rss_kib": 51112,
+          "child_cpu_user_seconds": 0.334875,
+          "child_cpu_system_seconds": 0.255519,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_context_offline_contract.py",
+        "hpc-masbench-cpp17-helper-build-20261116"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261116T095024Z",
+      "manifest_sha256": "a0e751da4e2aaa19d30a45e358116db3cf3d344d6086815da956212a25a5780e",
+      "archived_outputs": []
+    },
+    {
+      "run_id": "hpc-masbench-context-offline-contract-v2-20261116",
+      "status": {
+        "run_id": "hpc-masbench-context-offline-contract-v2-20261116",
+        "status": "failed",
+        "started_at": "2026-11-16T09:57:40.537291+00:00",
+        "finished_at": "2026-11-16T09:57:41.316093+00:00",
+        "exit_code": 1,
+        "pid": 57672,
+        "elapsed_seconds": 0.778828,
+        "resource_usage": {
+          "child_max_rss_kib": 55896,
+          "child_cpu_user_seconds": 0.541943,
+          "child_cpu_system_seconds": 0.361672,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_context_offline_contract.py",
+        "hpc-masbench-cpp17-helper-build-20261116"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261116T095505Z",
+      "manifest_sha256": "93524521cbff6858937f16a146b481142d59c0f093cd7813edbe73f207911635",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-context-offline-contract-v2-20261116__synthetic-counts.json",
+        "research/artifacts/context-deployment-20261117/hpc-masbench-context-offline-contract-v2-20261116__synthetic-effective-inputs.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-context-offline-contract-v3-20261117",
+      "status": {
+        "run_id": "hpc-masbench-context-offline-contract-v3-20261117",
+        "status": "completed",
+        "started_at": "2026-11-17T02:50:31.455070+00:00",
+        "finished_at": "2026-11-17T02:50:32.460279+00:00",
+        "exit_code": 0,
+        "pid": 35655,
+        "elapsed_seconds": 1.00524,
+        "resource_usage": {
+          "child_max_rss_kib": 56036,
+          "child_cpu_user_seconds": 0.682376,
+          "child_cpu_system_seconds": 0.720352,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_context_offline_contract.py",
+        "hpc-masbench-cpp17-helper-build-20261116"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261117T024911Z",
+      "manifest_sha256": "5bc071f74759187c90bedd41fa1a080865f93037eada9e92c6b9941bb7f47796",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-context-offline-contract-v3-20261117__client-boundaries.json",
+        "research/artifacts/context-deployment-20261117/hpc-masbench-context-offline-contract-v3-20261117__contract.json",
+        "research/artifacts/context-deployment-20261117/hpc-masbench-context-offline-contract-v3-20261117__synthetic-counts.json",
+        "research/artifacts/context-deployment-20261117/hpc-masbench-context-offline-contract-v3-20261117__synthetic-effective-inputs.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-cpp-vendor-prepare-20261116",
+      "status": {
+        "run_id": "hpc-masbench-cpp-vendor-prepare-20261116",
+        "status": "failed",
+        "started_at": "2026-11-16T08:30:00.303521+00:00",
+        "finished_at": "2026-11-16T08:32:22.941127+00:00",
+        "exit_code": 1,
+        "pid": 49557,
+        "elapsed_seconds": 142.637626,
+        "resource_usage": {
+          "child_max_rss_kib": 89244,
+          "child_cpu_user_seconds": 0.765339,
+          "child_cpu_system_seconds": 0.309855,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "180s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_cpp_vendor_prepare.py"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261116T082913Z",
+      "manifest_sha256": "cdfec91d20799c74b4410ec5a2525dc3c50599ae333f0cbb3422487a29e66a31",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-cpp-vendor-prepare-20261116__preparation.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-cpp-vendor-prepare-v2-20261116",
+      "status": {
+        "run_id": "hpc-masbench-cpp-vendor-prepare-v2-20261116",
+        "status": "failed",
+        "started_at": "2026-11-16T08:37:17.193695+00:00",
+        "finished_at": null,
+        "exit_code": null,
+        "pid": 50168,
+        "reconciled_at": "2026-11-16T08:53:44.381335+00:00",
+        "reconciliation_reason": "Child absent; preparation.json records IncompleteRead; runner finalization failed EDQUOT",
+        "exact_finish_and_exit": "unknown; not reconstructed",
+        "elapsed_seconds": null
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "180s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_cpp_vendor_prepare.py"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261116T083645Z",
+      "manifest_sha256": "ac2eae38b975adad11842e5adab507647ed3f9189f1e3beef85fca5fcd711212",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-cpp-vendor-prepare-v2-20261116__preparation.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-cpp-vendor-prepare-v3-20261116",
+      "status": {
+        "run_id": "hpc-masbench-cpp-vendor-prepare-v3-20261116",
+        "status": "failed",
+        "started_at": "2026-11-16T08:58:38.395792+00:00",
+        "finished_at": "2026-11-16T09:04:58.559774+00:00",
+        "exit_code": -2,
+        "pid": 51755,
+        "elapsed_seconds": 380.164011,
+        "resource_usage": {
+          "child_max_rss_kib": 52304,
+          "child_cpu_user_seconds": 0.641644,
+          "child_cpu_system_seconds": 0.46511399999999997,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_cpp_vendor_prepare.py"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261116T085718Z",
+      "manifest_sha256": "55d0229470aae406628d73f75488310962a65b217e4c730af0a5ed7272f739bc",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-cpp-vendor-prepare-v3-20261116__preparation.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-cpp-vendor-prepare-v4-20261116",
+      "status": {
+        "run_id": "hpc-masbench-cpp-vendor-prepare-v4-20261116",
+        "status": "failed",
+        "started_at": "2026-11-16T09:08:01.548423+00:00",
+        "finished_at": "2026-11-16T09:16:33.752311+00:00",
+        "exit_code": -2,
+        "pid": 52536,
+        "elapsed_seconds": 512.203913,
+        "resource_usage": {
+          "child_max_rss_kib": 52296,
+          "child_cpu_user_seconds": 0.612107,
+          "child_cpu_system_seconds": 0.48938099999999995,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_cpp_vendor_prepare.py"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261116T090629Z",
+      "manifest_sha256": "f2262a5f4543b0f1807de87095e964af059a28d962a2895ed0f7df54dc9f5615",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-cpp-vendor-prepare-v4-20261116__preparation.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-cpp-vendor-prepare-v5-20261116",
+      "status": {
+        "run_id": "hpc-masbench-cpp-vendor-prepare-v5-20261116",
+        "status": "completed",
+        "started_at": "2026-11-16T09:22:36.389098+00:00",
+        "finished_at": "2026-11-16T09:26:12.487159+00:00",
+        "exit_code": 0,
+        "pid": 53563,
+        "elapsed_seconds": 216.09809,
+        "resource_usage": {
+          "child_max_rss_kib": 114920,
+          "child_cpu_user_seconds": 5.5768249999999995,
+          "child_cpu_system_seconds": 0.672999,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_cpp_vendor_prepare.py"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261116T091946Z",
+      "manifest_sha256": "fc7aa50b3d3977a77c431e89245e32abf7f58f8ffc19489ebdfbeeeccd08bd18",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-cpp-vendor-prepare-v5-20261116__preparation.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-cpp17-helper-build-20261116",
+      "status": {
+        "run_id": "hpc-masbench-cpp17-helper-build-20261116",
+        "status": "completed",
+        "started_at": "2026-11-16T09:38:44.473425+00:00",
+        "finished_at": "2026-11-16T09:42:05.373746+00:00",
+        "exit_code": 0,
+        "pid": 54777,
+        "elapsed_seconds": 200.900348,
+        "resource_usage": {
+          "child_max_rss_kib": 606684,
+          "child_cpu_user_seconds": 256.305642,
+          "child_cpu_system_seconds": 32.36793,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_cpp_vendor_build.py"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261116T093709Z",
+      "manifest_sha256": "2a1a1bb8245f0082028c9dd32e933a74748f77c6695501f97b562ca2cedec4ad",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-cpp17-helper-build-20261116__build.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-real-deployment-20261117",
+      "status": {
+        "run_id": "hpc-masbench-real-deployment-20261117",
+        "status": "completed",
+        "started_at": "2026-11-17T03:18:48.011134+00:00",
+        "finished_at": "2026-11-17T03:19:27.736346+00:00",
+        "exit_code": 0,
+        "pid": 37331,
+        "elapsed_seconds": 39.725243,
+        "resource_usage": {
+          "child_max_rss_kib": 4911376,
+          "child_cpu_user_seconds": 3.399929,
+          "child_cpu_system_seconds": 7.373625,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_deployment_acceptance.py"
+      ],
+      "git_commit": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "source_sync_id": "20261117T031555Z",
+      "manifest_sha256": "5b4b4e0138e997a2eb3e7a3191dced29527292062ff2c3f1dea88e6c330995c9",
+      "archived_outputs": [
+        "research/artifacts/context-deployment-20261117/hpc-masbench-real-deployment-20261117__acceptance.json",
+        "research/artifacts/context-deployment-20261117/hpc-masbench-real-deployment-20261117__loaded-model.json",
+        "research/artifacts/context-deployment-20261117/hpc-masbench-real-deployment-20261117__normal-response.json"
+      ]
+    }
+  ]
+}

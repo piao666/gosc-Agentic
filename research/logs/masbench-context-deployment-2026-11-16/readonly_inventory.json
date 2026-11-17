@@ -1,0 +1,77 @@
+{
+  "observed_at_utc": "2026-11-16T07:10:21.822933+00:00",
+  "uid": 8301880,
+  "root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "no_generation": true,
+  "git_head": {
+    "exit": 0,
+    "stdout": "4754bede84bb6e6defd8e646a63e81ccd6a20b4b",
+    "stderr": ""
+  },
+  "git_branch": {
+    "exit": 0,
+    "stdout": "research/progress-audit-2026-10-19",
+    "stderr": ""
+  },
+  "git_origin": {
+    "exit": 0,
+    "stdout": "https://github.com/piao666/gosc-Agentic.git",
+    "stderr": ""
+  },
+  "git_objects_current_archive": {
+    "exit": 128,
+    "stdout": "",
+    "stderr": "fatal: git cat-file: could not get object info\n"
+  },
+  "tools": {
+    "go": null,
+    "gcc": "/usr/bin/gcc",
+    "g++": "/usr/bin/g++",
+    "cmake": "/usr/bin/cmake",
+    "lfs": null,
+    "quota": null,
+    "timeout": "/usr/bin/timeout",
+    "prlimit": "/usr/bin/prlimit"
+  },
+  "limits": {
+    "quota": "200000",
+    "period": "100000",
+    "cpuset": "0-1",
+    "memory": "25769803776"
+  },
+  "filesystem_available_bytes_not_user_quota": 37640686788608,
+  "sync": {
+    "sync_id": "20261116T024042Z",
+    "head": "4754bede84bb6e6defd8e646a63e81ccd6a20b4b",
+    "branch": "research/progress-audit-2026-10-19",
+    "origin": "https://github.com/piao666/gosc-Agentic.git",
+    "file_count": 901
+  },
+  "running": [],
+  "ollama_processes": [
+    {
+      "pid": 8964,
+      "exe": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/ollama/runtime/0.11.11/bin/ollama",
+      "safe_argv": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.local/ollama/runtime/0.11.11/bin/ollama",
+        "serve"
+      ],
+      "env": {
+        "OLLAMA_CONTEXT_LENGTH": "1024",
+        "OLLAMA_HOST": "127.0.0.1:11434",
+        "OLLAMA_MODELS": "/home/u202520081000097/jupyterlab/models/ollama-gosc",
+        "OLLAMA_NUM_PARALLEL": "1",
+        "OLLAMA_MAX_LOADED_MODELS": "1",
+        "OLLAMA_NO_CLOUD": "1"
+      }
+    }
+  ],
+  "http_get": {
+    "/api/version": {
+      "version": "0.11.11"
+    },
+    "/api/ps": {
+      "models": []
+    }
+  }
+}

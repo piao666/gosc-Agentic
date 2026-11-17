@@ -1,4 +1,28 @@
-# 当前阶段（2026-11-10 无模型Driver整合完成）
+# 当前阶段（2026-11-17 真实服务有限域检查完成）
+
+[真实部署报告](../../reports/masbench_real_deployment_acceptance_2026-11-17.md)：临时32768真实窗口、两组渲染及2443-token长输入计数/自然结束通过；断连后卸载返回、ps空与旧runner消失通过。服务默认配置已恢复1024，不可据此直接派发长任务。原生即时取消与通用token IDs等价未证实，生产Driver未接线，B1仍Blocked。
+
+下一步先实现真实Driver的同源计数/服务身份绑定和“取消后卸载栅栏”接线合同；明确是否采用该停止策略，再审持久32768配置、四题范围与预算。不能复用本次临时窗口或把卸载清理当原生即时idle。D1和原科学No-Go保持。本次真实生成仅两次合成检查，未跑任务。以下为历史快照。
+
+---
+
+# 历史阶段（2026-11-17 离线候选合同通过）
+
+[验收报告](../../reports/masbench_cpp_offline_acceptance_2026-11-17.md)：C++17/CGO与helper构建完成，最终14渲染/36窗口/6schema拒绝/4special-token合同通过；前两失败保留，累计执行1.974948s。默认system和客户端schema支持域已显式处理；独立renderer不等于独立tokenizer，真实binding仍false。
+
+下一步是按[已写具体方案](../../benchmarks/masbench_real_deployment_acceptance_plan_2026-11-16.md)取得模型加载/合成生成/必要服务配置的明确授权，再验有效context、完整输入无截断、usage计数、服务取消及卸载恢复。当前授权仅到离线合同，勿提前调用模型。D1继续保留，正式划分/功效Pending；B1真实任务/训练不放行。HPC /tmp中的helper复用前需核SHA。以下为历史快照。
+
+---
+
+# 历史阶段（2026-11-16 D1决定与精确计数构建阻断）
+
+[推进报告](../../reports/masbench_context_deployment_progress_2026-11-16.md)：用户明确保留D1，原registry/四题/异常与未曝光状态保持；正式评价划分/功效尚未冻结。官方Go1.26.11 archive校验、Ollama签名模块与7参考源码一致；5个登记失败及回传均保留。home真实EDQUOT后仅收回自有占位，改HPC tmpfs并计入原内存预算；最终C++编译但GCC7.5缺filesystem标准库头，模块zip又不含所需vendor。helper未构建、离线合同未运行；真实部署/B1仍Blocked，旧G1/GP-ID No-Go保持。
+
+下一步先固定兼容的隔离C++17工具链和完整固定commit vendor源码，列来源/版本/hash/许可证/下载与展开体积，再核新增安装授权；[当前构建停止门](../../protocols/masbench_context_build_status_2026-11-16.json)禁止盲目重跑。之后才按[具体部署方案](../../benchmarks/masbench_real_deployment_acceptance_plan_2026-11-16.md)另审context配置与合成模型预算；当前服务1024未改，生成0。以下为历史快照。
+
+---
+
+# 历史阶段（2026-11-10 无模型Driver整合完成）
 
 2026-11-16收尾：[精确目录清理与交付](../../logs/masbench-b1-integration-closeout-2026-11-16/closeout_report.md)。用户授权停止Laya服务、删除NextWork/d2l-zh以解除写盘阻断；24项旧合同不重跑，以标准同步补交付。此次清理不授权安装工具链、改Ollama或真实生成，下面科研关卡保持。
 

@@ -1,0 +1,53 @@
+{
+  "scope": "archive/source inspection only, no compiler executed or installed",
+  "scratch": "/tmp/gosc-cpp-vendor-artifacts-20261116",
+  "model_calls": 0,
+  "third_party_code_executed": false,
+  "source_commit": "92b96d54efd6b49322b7cf046f9a0dc16b00cd0a",
+  "files": [
+    {
+      "path": "miniaudio/miniaudio.h",
+      "size": 4025780,
+      "git_blob_sha1": "c74bebeb3c725c898e4e3502e917a017799b0dca",
+      "sha256": "9019743287e443c55e5737a7297f38e5e358561701d6db2d905afb114390c410"
+    },
+    {
+      "path": "nlohmann/json.hpp",
+      "size": 953436,
+      "git_blob_sha1": "82d69f7c5d044c9887c96b90c97f5639083ecd14",
+      "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63"
+    },
+    {
+      "path": "nlohmann/json_fwd.hpp",
+      "size": 6656,
+      "git_blob_sha1": "9429171390a41654a73b1fd63d6048712a4893a2",
+      "sha256": "fb6aa70cbece087f37ab4685c182b287c53be54f785f981b9db9d30d2d028b37"
+    },
+    {
+      "path": "stb/stb_image.h",
+      "size": 283010,
+      "git_blob_sha1": "9eedabedc45b3e6fd88fae6f14a160b4d53272ec",
+      "sha256": "594c2fe35d49488b4382dbfaec8f98366defca819d916ac95becf3e75f4200b3"
+    }
+  ],
+  "vendor_trees": [
+    {
+      "name": "miniaudio",
+      "sha1": "04fe4c7a7441558aaeac826b1e08ef97042b815e",
+      "verified": true
+    },
+    {
+      "name": "nlohmann",
+      "sha1": "b57e88f690ba8afee3ae02727441b73f7a2cf2d1",
+      "verified": true
+    },
+    {
+      "name": "stb",
+      "sha1": "339cfdfb4a67d964894e3d11b659a52eb5aac831",
+      "verified": true
+    }
+  ],
+  "status": "failed",
+  "error": "KeyboardInterrupt: ",
+  "download_body_bytes": 12779520
+}

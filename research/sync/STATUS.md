@@ -1,6 +1,6 @@
 # HPC execution status
 
-Generated: 2026-11-10T03:45:16.409949+00:00
+Generated: 2026-11-17T03:22:25.131679+00:00
 
 | Run | Kind | Stage | Status | Exit |
 |---|---|---|---|---|
@@ -77,6 +77,20 @@ Generated: 2026-11-10T03:45:16.409949+00:00
 | hpc-masbench-client-contract-v2-20261103 | test | MASBENCH-P2 | completed | 0 |
 | hpc-masbench-client-contract-v3-20261103 | test | MASBENCH-P2 | completed | 0 |
 | hpc-masbench-context-budget-20261103 | analysis | MASBENCH-CONTEXT-BUDGET | completed | 0 |
+| hpc-masbench-context-build-20261116 | infrastructure | MASBench-context-build | failed | 1 |
+| hpc-masbench-context-build-v2-20261116 | infrastructure | MASBench-context-build | failed | 120 |
+| hpc-masbench-context-build-v3-20261116 | infrastructure | MASBench-context-build | failed | 1 |
+| hpc-masbench-context-build-v4-20261116 | infrastructure | MASBench-context-build | failed | 1 |
+| hpc-masbench-context-build-v5-20261116 | infrastructure | MASBench-context-build | failed | 1 |
+| hpc-masbench-context-offline-contract-20261116 | test | context-offline-contract | failed | 1 |
+| hpc-masbench-context-offline-contract-v2-20261116 | test | context-offline-contract | failed | 1 |
+| hpc-masbench-context-offline-contract-v3-20261117 | test | context-offline-contract | completed | 0 |
+| hpc-masbench-cpp-vendor-prepare-20261116 | infrastructure | MASBench-cpp-vendor-pin | failed | 1 |
+| hpc-masbench-cpp-vendor-prepare-v2-20261116 | infrastructure | MASBench-cpp-vendor-pin | failed | None |
+| hpc-masbench-cpp-vendor-prepare-v3-20261116 | infrastructure | cpp17-vendor-archive | failed | -2 |
+| hpc-masbench-cpp-vendor-prepare-v4-20261116 | infrastructure | cpp17-vendor-archive | failed | -2 |
+| hpc-masbench-cpp-vendor-prepare-v5-20261116 | infrastructure | cpp17-vendor-archive | completed | 0 |
+| hpc-masbench-cpp17-helper-build-20261116 | infrastructure | cpp17-abi-helper | completed | 0 |
 | hpc-masbench-data-audit-20261103 | analysis | MASBENCH-DATA-AUDIT | failed | 1 |
 | hpc-masbench-data-audit-v2-20261103 | analysis | MASBENCH-DATA-AUDIT | completed | 0 |
 | hpc-masbench-data-followup-20261103 | analysis | MASBENCH-DATA-FOLLOWUP | completed | 0 |
@@ -91,6 +105,7 @@ Generated: 2026-11-10T03:45:16.409949+00:00
 | hpc-masbench-model-restore-after-storage-retry1-20261102 | infrastructure | MASBENCH-LAST-TAIL-RESUME | completed | 0 |
 | hpc-masbench-model-restore-retry1-20261102 | infrastructure | MASBENCH-MODEL-RESTORE-RETRY | failed | -15 |
 | hpc-masbench-model-restore-retry2-20261102 | infrastructure | MASBENCH-MODEL-RESTORE-RETRY2 | failed | None |
+| hpc-masbench-real-deployment-20261117 | test | real-context-cancel | completed | 0 |
 | hpc-masbench-registry-v2-20261103 | analysis | MASBENCH-P0-P1 | completed | 0 |
 | hpc-masbench-repair-plan-20261102 | infrastructure | MASBENCH-ENV-PLAN | completed | 0 |
 | hpc-native-adapter-contract-20261023 | test | native-task-adapter | completed | 0 |

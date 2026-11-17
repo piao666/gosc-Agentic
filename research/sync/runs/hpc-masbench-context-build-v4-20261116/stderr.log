@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_context_build.py", line 244, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_context_build.py", line 224, in main
+    target.mkdir(parents=True)
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/pathlib.py", line 1116, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/tmp/gosc-hpc-masbench-context-build-v3-20261116/source/cmd/gosc-context-counter'

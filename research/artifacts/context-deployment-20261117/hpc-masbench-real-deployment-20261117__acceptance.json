@@ -1,0 +1,56 @@
+{
+  "status": "limited_deployment_checks_passed_native_idle_unobserved",
+  "posts": {
+    "debug": 2,
+    "generate": 2,
+    "unload": 1
+  },
+  "gets": 10,
+  "real_task_inputs": 0,
+  "restored_original_service": true,
+  "native_immediate_idle_verified": false,
+  "production_driver_binding_verified": false,
+  "universal_token_id_equivalence_verified": false,
+  "original_context": 1024,
+  "test_context": 32768,
+  "helper_sha256": "e4d2da192c9bfcf126462eddfa2a8b8519b9d8293ff47bf500007ca2d82a66d5",
+  "old_service_pid": 8964,
+  "test_service_pid": 37337,
+  "sampled_peak_service_rss_bytes": 5216960512,
+  "sampled_peak_gpu_bytes": 8680112128,
+  "render_matches": [
+    true,
+    true
+  ],
+  "observed_effective_context": 32768,
+  "runner_context_args": [],
+  "normal_usage_matches": true,
+  "normal_usage": {
+    "prompt_tokens": 2443,
+    "completion_tokens": 2,
+    "total_tokens": 2445
+  },
+  "cancel_content_observed_before_disconnect": true,
+  "cancel_disconnect_performed": true,
+  "unload_barriers": [
+    {
+      "response": {
+        "model": "qwen2.5:7b",
+        "created_at": "2026-11-17T03:19:26.577865415Z",
+        "message": {
+          "role": "assistant",
+          "content": ""
+        },
+        "done_reason": "unload",
+        "done": true
+      },
+      "old_runner_pids": [
+        37396
+      ],
+      "ps_empty": true,
+      "old_runner_exited": true
+    }
+  ],
+  "restored_service_pid": 37483,
+  "elapsed_seconds": 39.588283501565456
+}

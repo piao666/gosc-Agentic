@@ -1,0 +1,29 @@
+{
+  "scope": "public metadata only; no source execution",
+  "rows": [
+    {
+      "url": "https://proxy.golang.org/github.com/ollama/ollama/@v/v0.11.11.info",
+      "error": "URLError",
+      "detail": "<urlopen error [Errno 101] Network is unreachable>",
+      "elapsed": 5.059796988964081
+    },
+    {
+      "url": "https://goproxy.cn/github.com/ollama/ollama/@v/v0.11.11.info",
+      "status": 200,
+      "body": "{\"Version\":\"v0.11.11\",\"Time\":\"2025-09-12T23:40:14Z\"}",
+      "elapsed": 0.16169214993715286
+    },
+    {
+      "url": "https://goproxy.cn/sumdb/sum.golang.org/lookup/github.com/ollama/ollama@v0.11.11",
+      "status": 200,
+      "body": "43594229\ngithub.com/ollama/ollama v0.11.11 h1:mErMiUGclp47rCDbSUmBiY2L76EpT0uIYRZVBO6qg/k=\ngithub.com/ollama/ollama v0.11.11/go.mod h1:9+1//yWPsDE2u+l1a5mpaKrYw4VdnSsRU3ioq5BvMms=\n\ngo.sum database tree\n71458219\n2H5IVrI6fZPT13wBsG5IdVo25lMu12+FMjW6hXJdGQU=\n\n— sum.golang.org Az3grod8pcu183VW2Pqnoh+vI8kcc1Ci1lJZzr1U+cTeZkpsC+fzhW/hOnxL4X47dXCloq1DOC2IzKDSDK0vBEL6FwU=\n",
+      "elapsed": 0.45076966285705566
+    },
+    {
+      "url": "https://sum.golang.org/lookup/github.com/ollama/ollama@v0.11.11",
+      "error": "URLError",
+      "detail": "<urlopen error [Errno 101] Network is unreachable>",
+      "elapsed": 5.4060471430420876
+    }
+  ]
+}

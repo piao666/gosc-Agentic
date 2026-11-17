@@ -12,6 +12,8 @@
 
 ## 索引（最新在前）
 
+- [2026-11-17 / 01：D1决定、同源计数与真实部署有限域验收完整归档](2026-11-17-01-context-tokenizer-and-real-deployment.md)
+
 - [2026-11-16 / 01：MASBench B1无模型执行保护、精确计数方案及清理交付归档](2026-11-16-01-masbench-b1-safety-and-delivery.md)
 
 - [2026-11-04 / 01：G1负诊断、路线B研究审查及MASBench准备验收归档](2026-11-04-01-native-information-and-masbench-preparation.md)

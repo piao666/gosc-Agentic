@@ -1,0 +1,23 @@
+{
+  "status": "blocked_cpp17_toolchain_and_full_vendor_source",
+  "current_build_allowed": false,
+  "original_go_only_authorization_preserved": true,
+  "go_archive_verified": true,
+  "go_version": "go1.26.11",
+  "signed_ollama_module_verified": true,
+  "fixed_commit_reference_files_matched": 7,
+  "observed_compiler": "GCC/G++ 7.5.0; glibc 2.27",
+  "missing_headers": ["filesystem", "nlohmann/json_fwd.hpp", "miniaudio/miniaudio.h"],
+  "next_gate": "Pin a compatible isolated C++17 toolchain and full fixed-commit vendor sources, license/hash/dependency/footprint list, then obtain explicit additional installation/execution approval; no blind same-build retry",
+  "offline_contracts_executed": false,
+  "helper_binary_built": false,
+  "deployed_context_binding_verified": false,
+  "service_configuration_modified": false,
+  "real_model_generations": 0,
+  "real_reasoning_episodes": 0,
+  "final_attempt": "hpc-masbench-context-build-v5-20261116",
+  "final_receipt": "20261116T074353Z-31a565",
+  "all_registered_outputs_mirrored": true,
+  "cumulative_download_payload_bytes": 81272231,
+  "ephemeral_scratch_bytes_at_final_attempt": 488416377
+}

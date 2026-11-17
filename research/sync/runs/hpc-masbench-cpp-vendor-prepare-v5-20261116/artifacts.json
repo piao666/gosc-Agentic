@@ -1,0 +1,75 @@
+{
+  "run_id": "hpc-masbench-cpp-vendor-prepare-v5-20261116",
+  "files": [
+    {
+      "path": "outputs/miniaudio__miniaudio.h.license.txt",
+      "size": 5841,
+      "sha256": "f58af96342951d2d89a0d067b37a897a4b009ac1c04b271d95834d9c1123d2c5"
+    },
+    {
+      "path": "outputs/nlohmann__json.hpp.license.txt",
+      "size": 4417,
+      "sha256": "d614c0647e92f28e815f77e37ed0010df134e4f038079f1b5d9df68e124d04c8"
+    },
+    {
+      "path": "outputs/nlohmann__json_fwd.hpp.license.txt",
+      "size": 4328,
+      "sha256": "437dcdcd3d432388cacdd3e985e63f283986f33e18a7b4d3bd35d1939dedbb41"
+    },
+    {
+      "path": "outputs/preparation.json",
+      "size": 4160,
+      "sha256": "f3c23f8233cbeb983b940ecd6734022100cd88148fadb15bae7786e9bfa53c5a"
+    },
+    {
+      "path": "outputs/stb__stb_image.h.license.txt",
+      "size": 8638,
+      "sha256": "bae8ea387ca980368164efd0df014c65754a1322ab069c8e9f07bb3bae50d6ef"
+    },
+    {
+      "path": "outputs/zig-x86_64-linux-0.17.1__LICENSE",
+      "size": 1080,
+      "sha256": "5c537d6853e005298a285d508cff9ac7192cea23576c840d485b2b586a7ff177"
+    },
+    {
+      "path": "outputs/zig-x86_64-linux-0.17.1__lib__libc__mingw__COPYING",
+      "size": 2326,
+      "sha256": "99a69660981156c21336fdb5661f89341b013c94e4bf9e1c7467b4745718397f"
+    },
+    {
+      "path": "outputs/zig-x86_64-linux-0.17.1__lib__libc__wasi__LICENSE",
+      "size": 831,
+      "sha256": "673f577e363e80e0058bd78214683f045d1d0c63930969a87f01a1d87d7cf1d6"
+    },
+    {
+      "path": "outputs/zig-x86_64-linux-0.17.1__lib__libc__wasi__fts__musl-fts__COPYING",
+      "size": 1514,
+      "sha256": "55af87e4017668f54467a3380e7ebbac5e672d8c763bfe95e6fc882a6fdc4046"
+    },
+    {
+      "path": "outputs/zig-x86_64-linux-0.17.1__lib__libc__wasi__libc-bottom-half__cloudlibc__LICENSE",
+      "size": 1292,
+      "sha256": "c8b789cf5a746611e6300a0cc7750dbf92b61912a709d04e639245f7290656d0"
+    },
+    {
+      "path": "outputs/zig-x86_64-linux-0.17.1__lib__libcxx__LICENSE.TXT",
+      "size": 16703,
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+    },
+    {
+      "path": "outputs/zig-x86_64-linux-0.17.1__lib__libcxxabi__LICENSE.TXT",
+      "size": 16706,
+      "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+    },
+    {
+      "path": "outputs/zig-x86_64-linux-0.17.1__lib__libtsan__LICENSE.TXT",
+      "size": 16708,
+      "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d"
+    },
+    {
+      "path": "outputs/zig-x86_64-linux-0.17.1__lib__libunwind__LICENSE.TXT",
+      "size": 16706,
+      "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d"
+    }
+  ]
+}

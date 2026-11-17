@@ -1,0 +1,40 @@
+{
+  "status": "failed",
+  "authorization_sha256": "16a9ae8bb1a61cafd5d6d7b78cb7799a79685c0f08ace3d6d9372a6e4a3a7b93",
+  "isolated_root": "/tmp/gosc-hpc-masbench-context-build-v3-20261116",
+  "official_download_payload_bytes": 81272231,
+  "server_or_python_environment_modified": false,
+  "model_generations": 0,
+  "gpu_used": false,
+  "source_commit": "92b96d54efd6b49322b7cf046f9a0dc16b00cd0a",
+  "scratch_scope": "HPC /tmp tmpfs; ephemeral, not home quota",
+  "derived_rss_cap": 2147483648,
+  "derived_disk_cap": 2147483648,
+  "tmpfs_combined_memory_cap": 4294967296,
+  "prior_toolchain_run": "hpc-masbench-context-build-v3-20261116",
+  "module_transport": "https://goproxy.cn",
+  "checksum_authority": "sum.golang.org default signed public key; verification not disabled",
+  "failed_probe_space_reclaimed_bytes": 0,
+  "quota_allocation_probe_bytes": 1048576,
+  "download_peak_rss_bytes": 2646016,
+  "module_identity": {
+    "Path": "github.com/ollama/ollama",
+    "Version": "v0.11.11",
+    "Sum": "h1:mErMiUGclp47rCDbSUmBiY2L76EpT0uIYRZVBO6qg/k=",
+    "GoModSum": "h1:9+1//yWPsDE2u+l1a5mpaKrYw4VdnSsRU3ioq5BvMms=",
+    "Origin": null
+  },
+  "source_reference_matches": {
+    "template/template.go": true,
+    "openai/openai.go": true,
+    "runner/llamarunner/runner.go": true,
+    "go.mod": true,
+    "llama/llama.go": true,
+    "go.sum": true,
+    "server/prompt.go": true
+  },
+  "error": "RuntimeError: command failed exit 1: /home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-context-build-v5-20261116/outputs/compile.log",
+  "elapsed_seconds": 50.77258438616991,
+  "final_directory_bytes": 488416377,
+  "binding_verified": false
+}

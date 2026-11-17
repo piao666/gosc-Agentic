@@ -1,0 +1,676 @@
+{
+  "scope": "GitHub read-only API observation; no fetch success, pull, checkout, merge, commit or push",
+  "observed_at_utc": "2026-11-16 03:10:12 UTC",
+  "repository": "piao666/gosc-Agentic",
+  "local_head": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+  "local_branch": "research/progress-audit-2026-10-19",
+  "initial_worktree_status": "clean",
+  "git_fetch_attempts": [
+    {
+      "sandbox": "default",
+      "exit_code": 1,
+      "error": "Recv failure: Connection was reset"
+    },
+    {
+      "sandbox": "require_escalated",
+      "exit_code": 1,
+      "error": "Failed to connect to github.com port 443 after 21113 ms: Could not connect to server"
+    }
+  ],
+  "endpoints": [
+    "https://api.github.com/repos/piao666/gosc-Agentic/branches?per_page=100",
+    "https://api.github.com/repos/piao666/gosc-Agentic/commits?sha=research%2Fprogress-audit-2026-10-19&per_page=5",
+    "https://api.github.com/repos/piao666/gosc-Agentic/commits/916289ba20fd9808a3673af0aebf175bfc830ccc"
+  ],
+  "branches": [
+    {
+      "name": "codex/baseline-reproduction",
+      "sha": "ca0580aaabcd337193b4f96d4d613b372c9b6916"
+    },
+    {
+      "name": "main",
+      "sha": "876fc523b113b3b65e19f0b730f1573ccc2ee17f"
+    },
+    {
+      "name": "research/progress-audit-2026-10-19",
+      "sha": "916289ba20fd9808a3673af0aebf175bfc830ccc"
+    }
+  ],
+  "recent_commits": [
+    {
+      "sha": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+      "date_utc": "2026-11-16T03:04:35Z",
+      "message": "Archive MASBench B1 safeguards and delivery closeout\n\nPreserve model-free contracts, context/split review, and quota recovery evidence.\nReal B1 and scientific gates remain unchanged.\n\nCommit-Note: commit/2026-11-16-01-masbench-b1-safety-and-delivery.md",
+      "parents": [
+        "4754bede84bb6e6defd8e646a63e81ccd6a20b4b"
+      ],
+      "url": "https://github.com/piao666/gosc-Agentic/commit/916289ba20fd9808a3673af0aebf175bfc830ccc"
+    },
+    {
+      "sha": "4754bede84bb6e6defd8e646a63e81ccd6a20b4b",
+      "date_utc": "2026-11-04T02:09:56Z",
+      "message": "Archive G1 negative findings and MASBench Reasoning preparation\n\nRecord Native-Information design and negative Shadow evidence, route reviews, environment restoration, data registry and model-free client acceptance. Preserve scientific No-Go and future model execution gates.\n\nStandardize the five-part note for every future commit; archive small byte-identical evidence while keeping duplicate run source snapshots local/HPC.\n\nCommit-Note: commit/2026-11-04-01-native-information-and-masbench-preparation.md",
+      "parents": [
+        "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf"
+      ],
+      "url": "https://github.com/piao666/gosc-Agentic/commit/4754bede84bb6e6defd8e646a63e81ccd6a20b4b"
+    },
+    {
+      "sha": "014b85dfc472c45d8ea5f15e83e0c1ed8e938daf",
+      "date_utc": "2026-10-28T03:07:21Z",
+      "message": "Archive information identifiability and budget selector acceptance\n\nPreserve the GP-ID calibration No-Go and failed audits; archive the independently named BF selector engineering acceptance, immutable run metadata, and eight byte-identical result summaries.",
+      "parents": [
+        "253a14b19c4410a4606a40c98b8ba24791c7ee43"
+      ],
+      "url": "https://github.com/piao666/gosc-Agentic/commit/014b85dfc472c45d8ea5f15e83e0c1ed8e938daf"
+    },
+    {
+      "sha": "253a14b19c4410a4606a40c98b8ba24791c7ee43",
+      "date_utc": "2026-10-26T01:58:59Z",
+      "message": "Archive causal service calibration and age mechanism review\n\nCommit-Note: commit/2026-10-26-01-causal-service-and-age-review.md",
+      "parents": [
+        "47389eba9c6e2838139df3aa47863ab88634e97a"
+      ],
+      "url": "https://github.com/piao666/gosc-Agentic/commit/253a14b19c4410a4606a40c98b8ba24791c7ee43"
+    },
+    {
+      "sha": "47389eba9c6e2838139df3aa47863ab88634e97a",
+      "date_utc": "2026-10-23T08:06:56Z",
+      "message": "Archive paid pose implementation, calibration and cost review\n\nCommit-Note: commit/2026-10-23-01-paid-pose-calibration-and-cost-review.md",
+      "parents": [
+        "4ff4147654c07781d77a42acee3f31c0b8792f38"
+      ],
+      "url": "https://github.com/piao666/gosc-Agentic/commit/47389eba9c6e2838139df3aa47863ab88634e97a"
+    }
+  ],
+  "latest_commit_stats": {
+    "total": 48983,
+    "additions": 48978,
+    "deletions": 5
+  },
+  "latest_commit_returned_file_count": 145,
+  "latest_commit_files": [
+    {
+      "path": ".gitattributes",
+      "status": "modified"
+    },
+    {
+      "path": ".gitignore",
+      "status": "modified"
+    },
+    {
+      "path": "README.md",
+      "status": "modified"
+    },
+    {
+      "path": "commit/2026-11-16-01-masbench-b1-safety-and-delivery.md",
+      "status": "added"
+    },
+    {
+      "path": "commit/README.md",
+      "status": "modified"
+    },
+    {
+      "path": "experiments_ext/masbench_b1_integration_contract.py",
+      "status": "added"
+    },
+    {
+      "path": "experiments_ext/masbench_b1_preflight.py",
+      "status": "added"
+    },
+    {
+      "path": "experiments_ext/masbench_b1_safety_contract.py",
+      "status": "added"
+    },
+    {
+      "path": "extensions/masbench_reasoning/execution_safety.py",
+      "status": "added"
+    },
+    {
+      "path": "extensions/masbench_reasoning/fixture_driver.py",
+      "status": "added"
+    },
+    {
+      "path": "research/README.md",
+      "status": "modified"
+    },
+    {
+      "path": "research/artifacts/masbench-b1-20261116/README.md",
+      "status": "added"
+    },
+    {
+      "path": "research/artifacts/masbench-b1-20261116/deployment_data_preflight.json",
+      "status": "added"
+    },
+    {
+      "path": "research/artifacts/masbench-b1-20261116/integration_20_contract.json",
+      "status": "added"
+    },
+    {
+      "path": "research/artifacts/masbench-b1-20261116/integration_22_contract.json",
+      "status": "added"
+    },
+    {
+      "path": "research/artifacts/masbench-b1-20261116/integration_23_contract.json",
+      "status": "added"
+    },
+    {
+      "path": "research/artifacts/masbench-b1-20261116/integration_24_contract.json",
+      "status": "added"
+    },
+    {
+      "path": "research/artifacts/masbench-b1-20261116/provenance.json",
+      "status": "added"
+    },
+    {
+      "path": "research/artifacts/masbench-b1-20261116/receipt_index.json",
+      "status": "added"
+    },
+    {
+      "path": "research/artifacts/masbench-b1-20261116/safety_17_contract.json",
+      "status": "added"
+    },
+    {
+      "path": "research/benchmarks/masbench_context_tokenizer_preflight_review.md",
+      "status": "added"
+    },
+    {
+      "path": "research/benchmarks/masbench_data_split_and_power_feasibility_review.md",
+      "status": "added"
+    },
+    {
+      "path": "research/benchmarks/masbench_exact_context_implementation_plan_v1.md",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/git-publish-2026-11-16/audit_archive.py",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/git-publish-2026-11-16/omitted_snapshot_inventory.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/git-publish-2026-11-16/precommit_file_audit.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/git-publish-2026-11-16/prepare_archive.py",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/git-publish-2026-11-16/staged_audit.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/git-publish-2026-11-16/task_brief.md",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/git-publish-2026-11-16/task_log.md",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/git-publish-2026-11-16/whitespace_check.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/engine_environment.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/evidence_index.md",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/experiment_manifest.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/failed_sync_archive_inventory.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/final_upload_retry_status.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/final_upload_retry_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/final_upload_retry_stdout.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/final_upload_status.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/final_upload_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/final_upload_stdout.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/management_verification.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/partial_sync_mismatches.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/preflight_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/preflight_stdout.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/quota_readonly.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/quota_temp_cleanup.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/quota_temp_cleanup_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/quota_temp_inventory.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/retry_existing_checkout_sync.py",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/task_brief.md",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/task_log_20261110.md",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-2026-11-10/verify_management.py",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/cleanup_authorization.md",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/cleanup_preflight.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/cleanup_preflight_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/cleanup_process_review.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/cleanup_result.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/cleanup_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/cleanup_stdout.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/closeout_report.md",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/disk_inventory_level2.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/disk_inventory_level2_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/disk_remaining_inventory.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/disk_remaining_inventory_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/disk_top_level_entries.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/disk_usage_summary.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/final_verification.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/finish_manifest_delta.py",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/preflight_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/preflight_stdout.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/receipt_mirror_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/receipt_mirror_stdout.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/repair_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/repair_stdout.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/source_sync_receipt.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/source_sync_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/source_sync_stdout.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-integration-closeout-2026-11-16/task_brief.md",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/archive_comparison.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/archive_fast_forward_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/archive_fast_forward_stdout.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/evidence_index.md",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/experiment_manifest.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/final_upload_status.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/final_upload_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/final_upload_stdout.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/management_verification.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/preflight_observed.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/preflight_retry_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/preflight_retry_stdout.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/preflight_stderr.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/preflight_stdout.txt",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/runtime_binary_inventory.json",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/task_brief.md",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/task_log_20261110.md",
+      "status": "added"
+    },
+    {
+      "path": "research/logs/masbench-b1-pre-2026-11-10/verify_management.py",
+      "status": "added"
+    },
+    {
+      "path": "research/protocols/masbench_b1_execution_safety_spec_v1.md",
+      "status": "added"
+    },
+    {
+      "path": "research/protocols/masbench_b1_fixture_driver_contract_v1.md",
+      "status": "added"
+    },
+    {
+      "path": "research/protocols/masbench_exact_context_implementation_plan_v1.json",
+      "status": "added"
+    },
+    {
+      "path": "research/reports/masbench_b1_archive_summary_2026-11-16.md",
+      "status": "added"
+    },
+    {
+      "path": "research/reports/masbench_b1_driver_integration_acceptance_2026-11-10.md",
+      "status": "added"
+    },
+    {
+      "path": "research/reports/masbench_b1_preflight_acceptance.md",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/STATUS.md",
+      "status": "modified"
+    },
+    {
+      "path": "research/sync/dashboard.json",
+      "status": "modified"
+    },
+    {
+      "path": "research/sync/plans/next_steps.md",
+      "status": "modified"
+    },
+    {
+      "path": "research/sync/project_status.json",
+      "status": "modified"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/artifacts.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/manifest.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/source_snapshot.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/status.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/stderr.log",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-20261110/stdout.log",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/artifacts.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/manifest.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/source_snapshot.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/status.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/stderr.log",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v2-20261110/stdout.log",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/artifacts.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/manifest.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/source_snapshot.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/status.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/stderr.log",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v3-20261110/stdout.log",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/artifacts.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/manifest.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/source_snapshot.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/status.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/stderr.log",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-integration-v4-20261110/stdout.log",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/artifacts.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/manifest.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/source_snapshot.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/status.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stderr.log",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/stdout.log",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/artifacts.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/manifest.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/source_snapshot.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/status.json",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stderr.log",
+      "status": "added"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-safety-20261110/stdout.log",
+      "status": "added"
+    },
+    {
+      "path": "tests_ext/test_masbench_b1_safety.py",
+      "status": "added"
+    },
+    {
+      "path": "tests_ext/test_masbench_fixture_driver.py",
+      "status": "added"
+    }
+  ],
+  "research_branch_matches_local": true,
+  "hpc_live_state_rechecked": false
+}

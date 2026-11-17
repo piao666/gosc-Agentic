@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-cpp-vendor-prepare-20261116",
+  "files": [
+    {
+      "path": "outputs/preparation.json",
+      "size": 390,
+      "sha256": "c56d4c6efcc987158055a5fda8a9113dbad7ef77eb1195908321c1bdef7e55ca"
+    }
+  ]
+}

@@ -1,5 +1,13 @@
 # 研究进度与证据入口
 
+2026-11-17 Git归档：[详细五部分提交报告](../commit/2026-11-17-01-context-tokenizer-and-real-deployment.md)回顾上次提交前的B1验证，并逐项记录本轮15个run（含11失败）、D1决定、计数/部署与恢复边界；[20份原始小型证据及精简回执](artifacts/context-deployment-20261117/README.md)保留SHA关联。归档本身只做Git/文件管理，不新运行模型/任务或更改科学No-Go。
+
+2026-11-17 真实服务有限域验收：[报告](reports/masbench_real_deployment_acceptance_2026-11-17.md)。临时32768实测、两组完整渲染及2443-token长输入V1计数通过；主动断连后卸载成功/旧runner退出。39.725243s完成，debug2/生成2/卸载1；服务默认已恢复1024、ps空。原生即时取消及生产Driver绑定仍Pending，真实题目0，B1/正式评价/训练未放行。以下较早“部署未运行”为历史快照。
+
+2026-11-17 离线计数候选验收：[完整报告](reports/masbench_cpp_offline_acceptance_2026-11-17.md)。隔离C++17/CGO与helper构建通过（200.900348s）；最终离线合同1.005240s通过14渲染、36窗口边界、6schema拒绝和4special-token锚点，前两失败保留。默认system纳入计数，实际客户端未改；D1保持，无真实题目/HTTP/模型生成。真实部署绑定/context/取消仍Pending，B1仍Blocked；下段helper未构建为前序快照。
+
+2026-11-16 三项准入推进：[本轮报告](reports/masbench_context_deployment_progress_2026-11-16.md)。用户选择[D1文章隔离](benchmarks/masbench_d1_evaluation_decision_2026-11-16.md)；官方Go与签名模块/7参考源码校验完成，home配额失败后采用计入内存预算的HPC tmpfs。最终C++编译因GCC7.5标准库和完整vendor缺失而Blocked，5个失败run及回执保留；helper/离线合同未通过。已交付[真实部署方案](benchmarks/masbench_real_deployment_acceptance_plan_2026-11-16.md)，没有模型加载/生成、服务修改或真实任务。后续先固定新增C++17工具链/完整vendor清单，不自动重试或放行B1。
+
 2026-11-16 Git归档：[阶段摘要](reports/masbench_b1_archive_summary_2026-11-16.md)、[固定五部分说明](../commit/2026-11-16-01-masbench-b1-safety-and-delivery.md)、[6份小型输出白名单](artifacts/masbench-b1-20261116/README.md)。整理B1-pre、17独立/最终24集成合同、精确计数方案和quota/清理/901文件同步收尾；此次仅Git/文件管理，不新运行HPC或模型，不回写历史身份，科学No-Go及真实B1 Blocked保持。
 
 2026-11-16交付收尾：[清理与同步记录](logs/masbench-b1-integration-closeout-2026-11-16/closeout_report.md)。用户明确批准后停止NextWork的Laya服务并清除NextWork（含laya-env）及d2l-zh，删除前约5.46GiB，GOSC项目写盘检查恢复；保留原quota/同步失败，以标准工具补齐最后交付。既有24合同不重跑，无模型/真实任务/安装/改Ollama/提交；精确部署绑定与真实B1仍Blocked，G1/GP-ID No-Go保持。最终源同步状态单列本轮source_sync_receipt.json。

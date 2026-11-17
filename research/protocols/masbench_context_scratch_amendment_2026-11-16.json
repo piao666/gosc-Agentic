@@ -1,0 +1,23 @@
+{
+  "parent_authorization": "MASBench-context-offline-build-20261116",
+  "scope": "Conservative placement/limits implementation within already approved isolated HPC build; no new scientific run or larger budget",
+  "reason": "Home-account 4GiB allocation returned EDQUOT before any download/build",
+  "failed_runs_retained": ["hpc-masbench-context-build-20261116", "hpc-masbench-context-build-v2-20261116"],
+  "failed_downloaded_bytes": 0,
+  "home_own_placeholder_allocated_bytes_reclaimed": 336011264,
+  "other_data_deleted": false,
+  "build_root": "/tmp/gosc-<registered-run-id>",
+  "filesystem": "HPC tmpfs observed 376GiB available; storage counts as memory",
+  "directory_disk_cap_bytes": 2147483648,
+  "process_group_rss_cap_bytes": 2147483648,
+  "tmpfs_plus_process_rss_cap_bytes": 4294967296,
+  "limit_enforcement_scope": "sampled process-group RSS and directory byte watchdog; not kernel cgroup reservation; parent RSS included in combined tmpfs check",
+  "next_wrapper_wall_seconds": 1775,
+  "remaining_original_budget_only": true,
+  "cpu_workers": 2,
+  "build_parallelism": 1,
+  "download_cap_bytes": 1073741824,
+  "model_gpu_or_generation": false,
+  "service_change": false,
+  "ephemeral_scratch_disclosure": "Scratch may be cleared by HPC; helper hash/build/source proof are retained. No assumption that temporary binary is a durable deployment."
+}

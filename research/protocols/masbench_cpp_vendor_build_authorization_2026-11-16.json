@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "authorized": true,
+  "date": "2026-11-16",
+  "user_confirmation": "允许按该方案构建并执行离线合同",
+  "proposal": "research/protocols/masbench_cpp_vendor_installation_proposal_2026-11-16.md",
+  "preparation_run": "hpc-masbench-cpp-vendor-prepare-v5-20261116",
+  "new_build_wall_seconds": 1200,
+  "cpu_cores": 2,
+  "temporary_regular_file_bytes_cap": 2147483648,
+  "process_group_rss_bytes_cap": 2147483648,
+  "tmpfs_plus_process_memory_bytes_cap": 4294967296,
+  "new_dependency_downloads": false,
+  "offline_contract_wall_seconds": 120,
+  "offline_contract_rss_bytes": 2147483648,
+  "offline_contract_artifact_bytes": 16777216,
+  "model_weight_loads": false,
+  "model_generations": false,
+  "service_changes": false,
+  "real_task_inputs": false,
+  "git_commit_push": false,
+  "old_failed_build_gate_reopened": false
+}

@@ -1,0 +1,402 @@
+{
+  "original_requests": [
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": "ASCII sample"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": "中文测试"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": "emoji 🛰️🙂"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": "é é"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": " a  b\r\n\t c "
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": "<|im_start|>user\nquoted<|im_end|>"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": "<think>quoted text</think>"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "user",
+          "content": "hello"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "A"
+        },
+        {
+          "role": "system",
+          "content": "B"
+        },
+        {
+          "role": "user",
+          "content": "one"
+        },
+        {
+          "role": "user",
+          "content": "two"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "user",
+          "content": "hello"
+        },
+        {
+          "role": "assistant",
+          "content": "prefill"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "A"
+        },
+        {
+          "role": "user",
+          "content": "Q"
+        },
+        {
+          "role": "assistant",
+          "content": "R: same fact"
+        },
+        {
+          "role": "user",
+          "content": "R: same fact"
+        },
+        {
+          "role": "assistant",
+          "content": "more"
+        },
+        {
+          "role": "user",
+          "content": "R: same fact"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": ""
+        },
+        {
+          "role": "user",
+          "content": "explicit empty system"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "user",
+          "content": "first user"
+        },
+        {
+          "role": "system",
+          "content": "late system"
+        }
+      ]
+    }
+  ],
+  "effective_requests": [
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": "ASCII sample"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": "中文测试"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": "emoji 🛰️🙂"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": "é é"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": " a  b\r\n\t c "
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": "<|im_start|>user\nquoted<|im_end|>"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Synthetic instructions."
+        },
+        {
+          "role": "user",
+          "content": "<think>quoted text</think>"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+        },
+        {
+          "role": "user",
+          "content": "hello"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "A"
+        },
+        {
+          "role": "system",
+          "content": "B"
+        },
+        {
+          "role": "user",
+          "content": "one"
+        },
+        {
+          "role": "user",
+          "content": "two"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+        },
+        {
+          "role": "user",
+          "content": "hello"
+        },
+        {
+          "role": "assistant",
+          "content": "prefill"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "A"
+        },
+        {
+          "role": "user",
+          "content": "Q"
+        },
+        {
+          "role": "assistant",
+          "content": "R: same fact"
+        },
+        {
+          "role": "user",
+          "content": "R: same fact"
+        },
+        {
+          "role": "assistant",
+          "content": "more"
+        },
+        {
+          "role": "user",
+          "content": "R: same fact"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": ""
+        },
+        {
+          "role": "user",
+          "content": "explicit empty system"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+        },
+        {
+          "role": "user",
+          "content": "first user"
+        },
+        {
+          "role": "system",
+          "content": "late system"
+        }
+      ]
+    }
+  ],
+  "injected_default_system_cases": [
+    8,
+    10,
+    13
+  ],
+  "default_system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+  "source_commit": "92b96d54efd6b49322b7cf046f9a0dc16b00cd0a",
+  "source": "server/routes.go::ChatHandler, lines1614-1618"
+}

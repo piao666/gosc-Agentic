@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/http/client.py", line 595, in _read_chunked
+    chunk_left = self._get_chunk_left()
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/http/client.py", line 576, in _get_chunk_left
+    self._safe_read(2)  # toss the CRLF at the end of the chunk
+    ^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/http/client.py", line 648, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(0 bytes read, 2 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_cpp_vendor_prepare.py", line 118, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_cpp_vendor_prepare.py", line 61, in main
+    get('https://api.github.com/repos/ollama/ollama/git/blobs/'+entry['git_blob_sha1'],
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_cpp_vendor_prepare.py", line 30, in get
+    chunk=response.read(min(65536,maximum-count+1))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/http/client.py", line 472, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/http/client.py", line 610, in _read_chunked
+    raise IncompleteRead(b''.join(value)) from exc
+http.client.IncompleteRead: IncompleteRead(0 bytes read)

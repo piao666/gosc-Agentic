@@ -1,0 +1,48 @@
+{
+  "scope": "light local management checks; no code tests or statistical reanalysis",
+  "missing_links": [],
+  "trailing_whitespace_docs": [],
+  "json_parse_checked": [
+    "research/sync/project_status.json",
+    "research/protocols/masbench_context_build_approved_2026-11-16.json",
+    "research/protocols/masbench_context_scratch_amendment_2026-11-16.json",
+    "research/protocols/masbench_context_build_status_2026-11-16.json"
+  ],
+  "tracked_diff_check_exit": 0,
+  "protected_algorithm_paths_changed": [],
+  "run_status_snapshots": [
+    {
+      "run_id": "hpc-masbench-context-build-20261116",
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 0.423447
+    },
+    {
+      "run_id": "hpc-masbench-context-build-v2-20261116",
+      "status": "failed",
+      "exit_code": 120,
+      "elapsed_seconds": 0.726638
+    },
+    {
+      "run_id": "hpc-masbench-context-build-v3-20261116",
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 32.448509
+    },
+    {
+      "run_id": "hpc-masbench-context-build-v4-20261116",
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 5.425162
+    },
+    {
+      "run_id": "hpc-masbench-context-build-v5-20261116",
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 51.130733
+    }
+  ],
+  "model_generations": 0,
+  "offline_contracts_run": false,
+  "final_source_sync": "pending; separate final_source_sync_stdout.txt records actual outcome"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "passed_within_synthetic_offline_domain",
+  "render_cases": 14,
+  "boundary_combinations": 42,
+  "boundary_cases": 36,
+  "schema_rejection_cases": 6,
+  "special_token_cases": 4,
+  "independent_renderer": true,
+  "independent_tokenizer": false,
+  "actual_client_boundary_checks": true,
+  "boundary_binding_is_fixture_only": true,
+  "default_system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+  "default_system_injection_cases": [
+    8,
+    10,
+    13
+  ],
+  "sampled_peak_process_tree_rss_bytes": 77983744,
+  "elapsed_seconds": 0.6825677677989006,
+  "build_run": "hpc-masbench-cpp17-helper-build-20261116",
+  "binary_sha256": "e4d2da192c9bfcf126462eddfa2a8b8519b9d8293ff47bf500007ca2d82a66d5",
+  "deployed_equivalence_verified": false,
+  "binding_verified": false,
+  "real_task_inputs": 0,
+  "model_generations": 0,
+  "http_requests": 0
+}

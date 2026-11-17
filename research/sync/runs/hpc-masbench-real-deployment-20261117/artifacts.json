@@ -1,0 +1,45 @@
+{
+  "run_id": "hpc-masbench-real-deployment-20261117",
+  "files": [
+    {
+      "path": "outputs/acceptance.json",
+      "size": 1465,
+      "sha256": "7bb79ffc05fcab8427940fbd1205dfa52e021c74439ce1fcc87e74515e5e00d9"
+    },
+    {
+      "path": "outputs/debug-0.json",
+      "size": 278,
+      "sha256": "c05e1ff4e2db258abb25a307d8bf50dab09373e055ddb1816f9000eaaadcc6c3"
+    },
+    {
+      "path": "outputs/debug-1.json",
+      "size": 15175,
+      "sha256": "1febefd5a8227c7790e77e2bc6a9a82b0032aa5079e46e60abc91d6eed601c23"
+    },
+    {
+      "path": "outputs/inputs-and-counts.json",
+      "size": 66200,
+      "sha256": "ba54ba54a14d3f96f7cd7cc9770ea01fdac3fc883d06f9e5f57803a5dd82bc9d"
+    },
+    {
+      "path": "outputs/loaded-model.json",
+      "size": 554,
+      "sha256": "20b33f2950d77e92b41927865ce83a8a053843187662c13d57ed6ec37da43cf1"
+    },
+    {
+      "path": "outputs/normal-response.json",
+      "size": 404,
+      "sha256": "dbdebfcf4f8bfd606bd99293d0d9eb86c2823f5e50cfb34b1d706e8a15525eb3"
+    },
+    {
+      "path": "outputs/offline-stderr.log",
+      "size": 5693,
+      "sha256": "89c944f6387771d072626a1c6449c5e0aab9d99ba4cb0e4d435afae68962f533"
+    },
+    {
+      "path": "outputs/original-service-metadata.json",
+      "size": 240,
+      "sha256": "f17161bdba1d6fd2f9f1a356fa7bbea9cf32b4f17547e3e3c4d51b5bc559cc6f"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "run_id": "hpc-masbench-cpp17-helper-build-20261116",
+  "files": [
+    {
+      "path": "outputs/abi-build.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/abi-run.log",
+      "size": 19,
+      "sha256": "2b2763c5c3fcdc1d0410f1480c1984f2e6a9db33eeebcdbe0d4d9be52e7fe5f8"
+    },
+    {
+      "path": "outputs/build.json",
+      "size": 1252,
+      "sha256": "abc706a40d302d15109854b602c79b238be192d01c6d8b68b8582c26836a3624"
+    },
+    {
+      "path": "outputs/compiler-version.log",
+      "size": 7,
+      "sha256": "cd81ec19767ffb807bada6d48578a18d77a29adb394e09e9cdfcd5ea9eebb6a2"
+    },
+    {
+      "path": "outputs/deployed-build-info.log",
+      "size": 4547,
+      "sha256": "8182b172d1a26ac95d51cc4bc4eca9071e56af3851373dd1d1c6088750154e85"
+    },
+    {
+      "path": "outputs/helper-build-info.log",
+      "size": 748,
+      "sha256": "4b2eede11b7a1073a47a8f802b7a7e257a7ebfaa658a4b857ffe86d1f0993514"
+    },
+    {
+      "path": "outputs/helper-build.log",
+      "size": 2277,
+      "sha256": "6346213b1a46966a1ca539fce7ee9851834d59f976d405febce798e31744c1e4"
+    }
+  ]
+}

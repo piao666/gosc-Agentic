@@ -24,9 +24,13 @@ research/sync/runs/*/pytest-tmp/
 
 # New run source snapshots stay on HPC/local storage; tracked history is retained.
 research/sync/runs/*/source_changes.patch
+research/sync/runs/*/source_changes.patch.gz
 research/sync/runs/*/source_untracked.tar.gz
 # Incomplete transfer fragments are retained locally, not published.
 research/sync/*.partial-*
 # Nov10 full transfer inventories repeat the historical run list; preserve
 # originals locally/on HPC and publish a SHA-bound compact index instead.
 /research/sync/receipts/20261110T*.json
+# Nov16/17 raw full inventories retained locally/HPC; SHA-bound compact index published.
+/research/sync/receipts/20261116T*.json
+/research/sync/receipts/20261117T*.json

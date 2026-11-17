@@ -1,0 +1,13 @@
+{
+  "run_id": "hpc-masbench-context-build-v2-20261116",
+  "old_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-context-build-v2-20261116/source_changes.patch",
+  "old_size": 61931243,
+  "old_sha256": "7dc795680dd315e1a3c5ba7ce611d09bef9dbe878e68c18129a69a03f89b70d3",
+  "archive_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-context-build-v2-20261116/source_changes.patch.gz",
+  "archive_size": 9587970,
+  "archive_sha256": "2d29268c15ecfeafd7e5ead950f1e778ed35db553e717bfd5cadf649d93d2613",
+  "restore_verified": true,
+  "local_original_retained": true,
+  "quota_bootstrap": false,
+  "restore_command": "gzip -dc source_changes.patch.gz > source_changes.patch"
+}

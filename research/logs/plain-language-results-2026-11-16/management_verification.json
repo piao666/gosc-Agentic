@@ -1,0 +1,20 @@
+{
+  "scope": "light file/link/hash/Git checks; no project tests or statistical computation",
+  "document": "复现实验阶段成果.md",
+  "document_sha256": "e062df3d9c679e9ed6e79e209519fc330c5ce2836dc6a964b8d74072fdbaedee",
+  "document_bytes": 35234,
+  "markdown_links_checked": 27,
+  "missing_links": [],
+  "trailing_whitespace_docs": [],
+  "tracked_diff_check_exit": 0,
+  "tracked_changed_paths": [],
+  "local_head": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+  "status": [
+    "?? research/logs/plain-language-results-2026-11-16/",
+    "?? research/logs/progress-plan-review-2026-11-16/",
+    "?? research/reports/project_progress_and_plan_2026-11-16.md",
+    "?? 复现实验阶段成果.md"
+  ],
+  "new_project_tests": 0,
+  "commit_or_push": false
+}

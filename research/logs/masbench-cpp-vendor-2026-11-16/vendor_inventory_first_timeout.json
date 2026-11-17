@@ -1,0 +1,9 @@
+{
+  "scope": "local SSH source-management transport",
+  "timeout_seconds": 50,
+  "exception": "subprocess.TimeoutExpired",
+  "local_process_exit": 1,
+  "third_party_code_executed": false,
+  "model_loaded_or_generated": false,
+  "note": "Original wrapper did not persist partial streams; no original stdout is claimed. Read-only cache inventory follows before any renewed transfer."
+}

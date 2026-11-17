@@ -114,3 +114,14 @@
 /research/reports/masbench_b1_preflight_acceptance.md -text
 /research/reports/masbench_b1_driver_integration_acceptance_2026-11-10.md -text
 /research/reports/masbench_b1_archive_summary_2026-11-16.md -text
+# New context/deployment immutable evidence only; older tracked history untouched.
+/research/artifacts/context-deployment-20261117/** -text
+/research/logs/masbench-context-deployment-2026-11-16/** -text
+/research/logs/masbench-cpp-vendor-2026-11-16/** -text
+/research/logs/masbench-deployment-2026-11-17/** -text
+/research/logs/git-publish-2026-11-17/** -text
+/research/sync/runs/hpc-masbench-context-build*-20261116/** -text
+/research/sync/runs/hpc-masbench-context-offline-contract*-2026111*/** -text
+/research/sync/runs/hpc-masbench-cpp-vendor-prepare*-20261116/** -text
+/research/sync/runs/hpc-masbench-cpp17-helper-build-20261116/** -text
+/research/sync/runs/hpc-masbench-real-deployment-20261117/** -text

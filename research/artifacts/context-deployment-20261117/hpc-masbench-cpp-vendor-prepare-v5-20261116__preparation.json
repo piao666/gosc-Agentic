@@ -1,0 +1,116 @@
+{
+  "scope": "archive/source inspection only, no compiler executed or installed",
+  "scratch": "/tmp/gosc-cpp-vendor-artifacts-20261116",
+  "model_calls": 0,
+  "third_party_code_executed": false,
+  "source_commit": "92b96d54efd6b49322b7cf046f9a0dc16b00cd0a",
+  "files": [
+    {
+      "path": "miniaudio/miniaudio.h",
+      "size": 4025780,
+      "git_blob_sha1": "c74bebeb3c725c898e4e3502e917a017799b0dca",
+      "sha256": "9019743287e443c55e5737a7297f38e5e358561701d6db2d905afb114390c410"
+    },
+    {
+      "path": "nlohmann/json.hpp",
+      "size": 953436,
+      "git_blob_sha1": "82d69f7c5d044c9887c96b90c97f5639083ecd14",
+      "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63"
+    },
+    {
+      "path": "nlohmann/json_fwd.hpp",
+      "size": 6656,
+      "git_blob_sha1": "9429171390a41654a73b1fd63d6048712a4893a2",
+      "sha256": "fb6aa70cbece087f37ab4685c182b287c53be54f785f981b9db9d30d2d028b37"
+    },
+    {
+      "path": "stb/stb_image.h",
+      "size": 283010,
+      "git_blob_sha1": "9eedabedc45b3e6fd88fae6f14a160b4d53272ec",
+      "sha256": "594c2fe35d49488b4382dbfaec8f98366defca819d916ac95becf3e75f4200b3"
+    }
+  ],
+  "vendor_trees": [
+    {
+      "name": "miniaudio",
+      "sha1": "04fe4c7a7441558aaeac826b1e08ef97042b815e",
+      "verified": true
+    },
+    {
+      "name": "nlohmann",
+      "sha1": "b57e88f690ba8afee3ae02727441b73f7a2cf2d1",
+      "verified": true
+    },
+    {
+      "name": "stb",
+      "sha1": "339cfdfb4a67d964894e3d11b659a52eb5aac831",
+      "verified": true
+    }
+  ],
+  "compiler_archive_transport": "https://zigmirror.com/zig-x86_64-linux-0.17.1.tar.xz",
+  "compiler_primary_metadata": "https://ziglang.org/download/index.json",
+  "mirror_list": "https://ziglang.org/download/community-mirrors.txt",
+  "compiler": {
+    "version": "0.17.1",
+    "url": "https://ziglang.org/download/0.17.1/zig-x86_64-linux-0.17.1.tar.xz",
+    "archive_size": 57411036,
+    "archive_sha256": "3581863e3cbcfd0fce0efc682ce7e9e93da96668a977791d356a26d2a7e9b17a",
+    "expanded_regular_file_bytes": 374407381,
+    "archive_members": 20792,
+    "symlink_members": 0,
+    "filesystem_header_paths": [
+      "zig-x86_64-linux-0.17.1/lib/libcxx/include/filesystem"
+    ],
+    "license_files": [
+      {
+        "path": "zig-x86_64-linux-0.17.1/LICENSE",
+        "size": 1080,
+        "sha256": "5c537d6853e005298a285d508cff9ac7192cea23576c840d485b2b586a7ff177"
+      },
+      {
+        "path": "zig-x86_64-linux-0.17.1/lib/libc/mingw/COPYING",
+        "size": 2326,
+        "sha256": "99a69660981156c21336fdb5661f89341b013c94e4bf9e1c7467b4745718397f"
+      },
+      {
+        "path": "zig-x86_64-linux-0.17.1/lib/libc/wasi/LICENSE",
+        "size": 831,
+        "sha256": "673f577e363e80e0058bd78214683f045d1d0c63930969a87f01a1d87d7cf1d6"
+      },
+      {
+        "path": "zig-x86_64-linux-0.17.1/lib/libc/wasi/fts/musl-fts/COPYING",
+        "size": 1514,
+        "sha256": "55af87e4017668f54467a3380e7ebbac5e672d8c763bfe95e6fc882a6fdc4046"
+      },
+      {
+        "path": "zig-x86_64-linux-0.17.1/lib/libc/wasi/libc-bottom-half/cloudlibc/LICENSE",
+        "size": 1292,
+        "sha256": "c8b789cf5a746611e6300a0cc7750dbf92b61912a709d04e639245f7290656d0"
+      },
+      {
+        "path": "zig-x86_64-linux-0.17.1/lib/libcxx/LICENSE.TXT",
+        "size": 16703,
+        "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+      },
+      {
+        "path": "zig-x86_64-linux-0.17.1/lib/libcxxabi/LICENSE.TXT",
+        "size": 16706,
+        "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+      },
+      {
+        "path": "zig-x86_64-linux-0.17.1/lib/libtsan/LICENSE.TXT",
+        "size": 16708,
+        "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d"
+      },
+      {
+        "path": "zig-x86_64-linux-0.17.1/lib/libunwind/LICENSE.TXT",
+        "size": 16706,
+        "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d"
+      }
+    ],
+    "archive_only": true,
+    "extracted_or_executed": false
+  },
+  "status": "sources_and_compiler_archive_verified_not_installed",
+  "download_body_bytes": 44631516
+}

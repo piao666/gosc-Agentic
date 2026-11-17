@@ -1,0 +1,2 @@
+HPC target parent verified
+{"status": "verified", "remote_root": "/home/u202520081000097/jupyterlab/Paper/gosc", "head": "916289ba20fd9808a3673af0aebf175bfc830ccc", "file_count": 972, "changed_count": 10, "sha256_mismatches": [], "sync_id": "20261116T075741Z", "remote_only_files": "preserved", "text_line_endings": "LF"}

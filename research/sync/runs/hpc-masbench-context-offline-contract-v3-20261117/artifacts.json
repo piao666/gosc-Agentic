@@ -1,0 +1,35 @@
+{
+  "run_id": "hpc-masbench-context-offline-contract-v3-20261117",
+  "files": [
+    {
+      "path": "outputs/client-boundaries.json",
+      "size": 12944,
+      "sha256": "ac2382055ee50a4a3c11bf5e776369781c630aa66a73f7c88c82a58ec49f6f3a"
+    },
+    {
+      "path": "outputs/contract.json",
+      "size": 886,
+      "sha256": "73f7d0275ba362b5bf89ab69651d1867bd17c9166698cf2d15864cf86a566cc6"
+    },
+    {
+      "path": "outputs/helper-input.json",
+      "size": 4513,
+      "sha256": "ebd66267923c23568bbc61c55f328f9d08239321ca57b2797b4bb6467952f36b"
+    },
+    {
+      "path": "outputs/helper-stderr.log",
+      "size": 5693,
+      "sha256": "89c944f6387771d072626a1c6449c5e0aab9d99ba4cb0e4d435afae68962f533"
+    },
+    {
+      "path": "outputs/synthetic-counts.json",
+      "size": 17104,
+      "sha256": "8eb5d3846b3735449410d848a9c10cc8c64208b91fae3be6d90041ba62575bf6"
+    },
+    {
+      "path": "outputs/synthetic-effective-inputs.json",
+      "size": 7484,
+      "sha256": "c02d785254ea4c6b62e2b2541b0d1e08af3760f81c8f45b7f6b66bcac8fd5fae"
+    }
+  ]
+}

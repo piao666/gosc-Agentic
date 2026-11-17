@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T03:45:16.409949+00:00",
+  "generated_at": "2026-11-17T03:22:25.131679+00:00",
   "authority": "hpc",
   "runs": [
     {
@@ -1384,6 +1384,268 @@
       "purpose": "Authorized selected native prompt byte inventory and isolated tokenizer availability, no model calls or token approximation"
     },
     {
+      "run_id": "hpc-masbench-context-build-20261116",
+      "status": "failed",
+      "started_at": "2026-11-16T07:21:33.366326+00:00",
+      "finished_at": "2026-11-16T07:21:33.789756+00:00",
+      "exit_code": 1,
+      "pid": 43187,
+      "elapsed_seconds": 0.423447,
+      "resource_usage": {
+        "child_max_rss_kib": 88392,
+        "child_cpu_user_seconds": 0.694388,
+        "child_cpu_system_seconds": 0.56102,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "MASBench-context-build",
+      "purpose": "Approved isolated Go1.26.11 and pinned Ollama offline vocabulary-template helper build; no model generation"
+    },
+    {
+      "run_id": "hpc-masbench-context-build-v2-20261116",
+      "status": "failed",
+      "started_at": "2026-11-16T07:24:13.754419+00:00",
+      "finished_at": "2026-11-16T07:24:14.481039+00:00",
+      "exit_code": 120,
+      "pid": 43590,
+      "elapsed_seconds": 0.726638,
+      "resource_usage": {
+        "child_max_rss_kib": 89000,
+        "child_cpu_user_seconds": 0.612132,
+        "child_cpu_system_seconds": 0.7869649999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "MASBench-context-build",
+      "purpose": "Corrected own quota-probe open mode; retain first failure; build within remaining original approved budget"
+    },
+    {
+      "run_id": "hpc-masbench-context-build-v3-20261116",
+      "status": "failed",
+      "started_at": "2026-11-16T07:33:47.314742+00:00",
+      "finished_at": "2026-11-16T07:34:19.763231+00:00",
+      "exit_code": 1,
+      "pid": 44359,
+      "elapsed_seconds": 32.448509,
+      "resource_usage": {
+        "child_max_rss_kib": 89100,
+        "child_cpu_user_seconds": 9.590885,
+        "child_cpu_system_seconds": 2.136206,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "MASBench-context-build",
+      "purpose": "Approved isolated build on HPC tmpfs within stricter 2GiB disk+2GiB RSS and 4GiB combined bound; retain home-quota failures"
+    },
+    {
+      "run_id": "hpc-masbench-context-build-v4-20261116",
+      "status": "failed",
+      "started_at": "2026-11-16T07:40:42.968035+00:00",
+      "finished_at": "2026-11-16T07:40:48.393178+00:00",
+      "exit_code": 1,
+      "pid": 44953,
+      "elapsed_seconds": 5.425162,
+      "resource_usage": {
+        "child_max_rss_kib": 89036,
+        "child_cpu_user_seconds": 3.622481,
+        "child_cpu_system_seconds": 0.623765,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "MASBench-context-build",
+      "purpose": "Resume verified Go archive with reachable transport; retain signed sum.golang.org verification and fixed module/source hashes within original budget"
+    },
+    {
+      "run_id": "hpc-masbench-context-build-v5-20261116",
+      "status": "failed",
+      "started_at": "2026-11-16T07:42:56.676749+00:00",
+      "finished_at": "2026-11-16T07:43:47.807461+00:00",
+      "exit_code": 1,
+      "pid": 45363,
+      "elapsed_seconds": 51.130733,
+      "resource_usage": {
+        "child_max_rss_kib": 340548,
+        "child_cpu_user_seconds": 63.023842,
+        "child_cpu_system_seconds": 8.076088,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "MASBench-context-build",
+      "purpose": "Correct own copied-directory permission; reuse signed module and verified source; no new model or increased resource allowance"
+    },
+    {
+      "run_id": "hpc-masbench-context-offline-contract-20261116",
+      "status": "failed",
+      "started_at": "2026-11-16T09:52:28.119403+00:00",
+      "finished_at": "2026-11-16T09:52:28.310256+00:00",
+      "exit_code": 1,
+      "pid": 57189,
+      "elapsed_seconds": 0.19088,
+      "resource_usage": {
+        "child_max_rss_kib": 51112,
+        "child_cpu_user_seconds": 0.334875,
+        "child_cpu_system_seconds": 0.255519,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "context-offline-contract",
+      "purpose": "approved-synthetic-render-special-token-and-client-boundary-contract"
+    },
+    {
+      "run_id": "hpc-masbench-context-offline-contract-v2-20261116",
+      "status": "failed",
+      "started_at": "2026-11-16T09:57:40.537291+00:00",
+      "finished_at": "2026-11-16T09:57:41.316093+00:00",
+      "exit_code": 1,
+      "pid": 57672,
+      "elapsed_seconds": 0.778828,
+      "resource_usage": {
+        "child_max_rss_kib": 55896,
+        "child_cpu_user_seconds": 0.541943,
+        "child_cpu_system_seconds": 0.361672,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "context-offline-contract",
+      "purpose": "fixed-manifest-prefix-rerun-retain-first-failure-within-total-120s"
+    },
+    {
+      "run_id": "hpc-masbench-context-offline-contract-v3-20261117",
+      "status": "completed",
+      "started_at": "2026-11-17T02:50:31.455070+00:00",
+      "finished_at": "2026-11-17T02:50:32.460279+00:00",
+      "exit_code": 0,
+      "pid": 35655,
+      "elapsed_seconds": 1.00524,
+      "resource_usage": {
+        "child_max_rss_kib": 56036,
+        "child_cpu_user_seconds": 0.682376,
+        "child_cpu_system_seconds": 0.720352,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "context-offline-contract",
+      "purpose": "schema-fixture-correction-retain-two-failures-total-120s"
+    },
+    {
+      "run_id": "hpc-masbench-cpp-vendor-prepare-20261116",
+      "status": "failed",
+      "started_at": "2026-11-16T08:30:00.303521+00:00",
+      "finished_at": "2026-11-16T08:32:22.941127+00:00",
+      "exit_code": 1,
+      "pid": 49557,
+      "elapsed_seconds": 142.637626,
+      "resource_usage": {
+        "child_max_rss_kib": 89244,
+        "child_cpu_user_seconds": 0.765339,
+        "child_cpu_system_seconds": 0.309855,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "MASBench-cpp-vendor-pin",
+      "purpose": "Pin four fixed-commit vendor blobs/trees and inspect official Zig archive hash, license and expanded footprint; no compiler execution"
+    },
+    {
+      "run_id": "hpc-masbench-cpp-vendor-prepare-v2-20261116",
+      "status": "failed",
+      "started_at": "2026-11-16T08:37:17.193695+00:00",
+      "finished_at": null,
+      "exit_code": null,
+      "pid": 50168,
+      "reconciled_at": "2026-11-16T08:53:44.381335+00:00",
+      "reconciliation_reason": "Child absent; preparation.json records IncompleteRead; runner finalization failed EDQUOT",
+      "exact_finish_and_exit": "unknown; not reconstructed",
+      "elapsed_seconds": null,
+      "kind": "infrastructure",
+      "stage": "MASBench-cpp-vendor-pin",
+      "purpose": "Use verified GitHub raw media transport to avoid base64 truncation; pin vendor and inspect official compiler archive without execution"
+    },
+    {
+      "run_id": "hpc-masbench-cpp-vendor-prepare-v3-20261116",
+      "status": "failed",
+      "started_at": "2026-11-16T08:58:38.395792+00:00",
+      "finished_at": "2026-11-16T09:04:58.559774+00:00",
+      "exit_code": -2,
+      "pid": 51755,
+      "elapsed_seconds": 380.164011,
+      "resource_usage": {
+        "child_max_rss_kib": 52304,
+        "child_cpu_user_seconds": 0.641644,
+        "child_cpu_system_seconds": 0.46511399999999997,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "cpp17-vendor-archive",
+      "purpose": "archive-only-no-compiler-execution"
+    },
+    {
+      "run_id": "hpc-masbench-cpp-vendor-prepare-v4-20261116",
+      "status": "failed",
+      "started_at": "2026-11-16T09:08:01.548423+00:00",
+      "finished_at": "2026-11-16T09:16:33.752311+00:00",
+      "exit_code": -2,
+      "pid": 52536,
+      "elapsed_seconds": 512.203913,
+      "resource_usage": {
+        "child_max_rss_kib": 52296,
+        "child_cpu_user_seconds": 0.612107,
+        "child_cpu_system_seconds": 0.48938099999999995,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "cpp17-vendor-archive",
+      "purpose": "official-hash-mirror-archive-only"
+    },
+    {
+      "run_id": "hpc-masbench-cpp-vendor-prepare-v5-20261116",
+      "status": "completed",
+      "started_at": "2026-11-16T09:22:36.389098+00:00",
+      "finished_at": "2026-11-16T09:26:12.487159+00:00",
+      "exit_code": 0,
+      "pid": 53563,
+      "elapsed_seconds": 216.09809,
+      "resource_usage": {
+        "child_max_rss_kib": 114920,
+        "child_cpu_user_seconds": 5.5768249999999995,
+        "child_cpu_system_seconds": 0.672999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "cpp17-vendor-archive",
+      "purpose": "two-connection-range-official-hash-archive-only"
+    },
+    {
+      "run_id": "hpc-masbench-cpp17-helper-build-20261116",
+      "status": "completed",
+      "started_at": "2026-11-16T09:38:44.473425+00:00",
+      "finished_at": "2026-11-16T09:42:05.373746+00:00",
+      "exit_code": 0,
+      "pid": 54777,
+      "elapsed_seconds": 200.900348,
+      "resource_usage": {
+        "child_max_rss_kib": 606684,
+        "child_cpu_user_seconds": 256.305642,
+        "child_cpu_system_seconds": 32.36793,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "cpp17-abi-helper",
+      "purpose": "authorized-isolated-cpp17-abi-and-vocab-helper-build"
+    },
+    {
       "run_id": "hpc-masbench-data-audit-20261103",
       "status": "failed",
       "started_at": "2026-11-03T02:35:36.553251+00:00",
@@ -1642,6 +1904,25 @@
       "kind": "infrastructure",
       "stage": "MASBENCH-MODEL-RESTORE-RETRY2",
       "purpose": "Second bounded native resume of slow official download; original deadline and identity retained; no inference"
+    },
+    {
+      "run_id": "hpc-masbench-real-deployment-20261117",
+      "status": "completed",
+      "started_at": "2026-11-17T03:18:48.011134+00:00",
+      "finished_at": "2026-11-17T03:19:27.736346+00:00",
+      "exit_code": 0,
+      "pid": 37331,
+      "elapsed_seconds": 39.725243,
+      "resource_usage": {
+        "child_max_rss_kib": 4911376,
+        "child_cpu_user_seconds": 3.399929,
+        "child_cpu_system_seconds": 7.373625,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "real-context-cancel",
+      "purpose": "user-requested-synthetic-real-deployment-480s-temporary-context-rollback"
     },
     {
       "run_id": "hpc-masbench-registry-v2-20261103",
@@ -3670,6 +3951,6 @@
       "purpose": "User-authorized continuation; retain historical differences: value-fidelity"
     }
   ],
-  "research_runs": 164,
+  "research_runs": 168,
   "note": "Execution status only. Local transfer completeness is recorded in receipts/."
 }

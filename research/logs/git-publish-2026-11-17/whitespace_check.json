@@ -1,0 +1,16 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "exit_code": 0,
+  "raw_crlf_policy": "cr-at-eol; stage bytes unchanged",
+  "raw_source_log_exceptions": [],
+  "unexpected": [],
+  "full_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "full_output_bytes": 0
+}

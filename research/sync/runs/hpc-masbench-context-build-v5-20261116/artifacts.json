@@ -1,0 +1,20 @@
+{
+  "run_id": "hpc-masbench-context-build-v5-20261116",
+  "files": [
+    {
+      "path": "outputs/build.json",
+      "size": 1665,
+      "sha256": "128de83012f5f18f4f6e284bad62faad72d9bc5dc9fa7bff174f3044dc8e76ad"
+    },
+    {
+      "path": "outputs/compile.log",
+      "size": 1008,
+      "sha256": "8edc492085e12c9ca4630d8baf74eec59efc3524dac277f0ea9879eb90be8182"
+    },
+    {
+      "path": "outputs/source-module.log",
+      "size": 669,
+      "sha256": "f7bbe504a53ea4e358a4ad24b7a65fd8dd50a88c9e2039809a3e89390efbc8b6"
+    }
+  ]
+}

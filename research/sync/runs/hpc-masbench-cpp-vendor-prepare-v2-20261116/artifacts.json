@@ -1,0 +1,12 @@
+{
+  "run_id": "hpc-masbench-cpp-vendor-prepare-v2-20261116",
+  "files": [
+    {
+      "path": "outputs/preparation.json",
+      "size": 390,
+      "sha256": "4f0e10407824c010f94747f71d1e547d61c4be3451b898c93f80bc570fd79fa3"
+    }
+  ],
+  "reconciled_at": "2026-11-16T08:53:44.381335+00:00",
+  "note": "Reconstructed artifact inventory only; original finalization failed"
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "hpc-masbench-context-offline-contract-v2-20261116",
+  "files": [
+    {
+      "path": "outputs/helper-input.json",
+      "size": 4513,
+      "sha256": "ebd66267923c23568bbc61c55f328f9d08239321ca57b2797b4bb6467952f36b"
+    },
+    {
+      "path": "outputs/helper-stderr.log",
+      "size": 5693,
+      "sha256": "89c944f6387771d072626a1c6449c5e0aab9d99ba4cb0e4d435afae68962f533"
+    },
+    {
+      "path": "outputs/synthetic-counts.json",
+      "size": 17104,
+      "sha256": "8eb5d3846b3735449410d848a9c10cc8c64208b91fae3be6d90041ba62575bf6"
+    },
+    {
+      "path": "outputs/synthetic-effective-inputs.json",
+      "size": 7484,
+      "sha256": "c02d785254ea4c6b62e2b2541b0d1e08af3760f81c8f45b7f6b66bcac8fd5fae"
+    }
+  ]
+}

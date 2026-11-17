@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-context-offline-contract-v2-20261116",
+  "status": "failed",
+  "started_at": "2026-11-16T09:57:40.537291+00:00",
+  "finished_at": "2026-11-16T09:57:41.316093+00:00",
+  "exit_code": 1,
+  "pid": 57672,
+  "elapsed_seconds": 0.778828,
+  "resource_usage": {
+    "child_max_rss_kib": 55896,
+    "child_cpu_user_seconds": 0.541943,
+    "child_cpu_system_seconds": 0.361672,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

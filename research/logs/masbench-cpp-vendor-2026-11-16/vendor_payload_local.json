@@ -1,0 +1,27 @@
+{
+  "retrieval": "GitHub connector fetch_blob by fixed Git SHA-1; no code executed",
+  "source_commit": "92b96d54efd6b49322b7cf046f9a0dc16b00cd0a",
+  "git_hash_object_all_four_match": true,
+  "files": [
+    {
+      "size": 4025780,
+      "sha256": "9019743287e443c55e5737a7297f38e5e358561701d6db2d905afb114390c410",
+      "path": "miniaudio/miniaudio.h"
+    },
+    {
+      "size": 953436,
+      "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63",
+      "path": "nlohmann/json.hpp"
+    },
+    {
+      "size": 6656,
+      "sha256": "fb6aa70cbece087f37ab4685c182b287c53be54f785f981b9db9d30d2d028b37",
+      "path": "nlohmann/json_fwd.hpp"
+    },
+    {
+      "size": 283010,
+      "sha256": "594c2fe35d49488b4382dbfaec8f98366defca819d916ac95becf3e75f4200b3",
+      "path": "stb/stb_image.h"
+    }
+  ]
+}

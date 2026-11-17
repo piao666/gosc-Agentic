@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_cpp_vendor_prepare.py", line 152, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_cpp_vendor_prepare.py", line 113, in main
+    try:b=response.read(min(65536,end-offset+1))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/http/client.py", line 478, in read
+    s = self.fp.read(amt)
+        ^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/ssl.py", line 1326, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/ssl.py", line 1178, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

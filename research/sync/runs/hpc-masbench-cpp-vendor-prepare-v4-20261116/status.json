@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-cpp-vendor-prepare-v4-20261116",
+  "status": "failed",
+  "started_at": "2026-11-16T09:08:01.548423+00:00",
+  "finished_at": "2026-11-16T09:16:33.752311+00:00",
+  "exit_code": -2,
+  "pid": 52536,
+  "elapsed_seconds": 512.203913,
+  "resource_usage": {
+    "child_max_rss_kib": 52296,
+    "child_cpu_user_seconds": 0.612107,
+    "child_cpu_system_seconds": 0.48938099999999995,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "archive/source inspection only, no compiler executed or installed",
+  "scratch": "/tmp/gosc-cpp-vendor-artifacts-20261116",
+  "model_calls": 0,
+  "third_party_code_executed": false,
+  "source_commit": "92b96d54efd6b49322b7cf046f9a0dc16b00cd0a",
+  "files": [],
+  "status": "failed",
+  "error": "IncompleteRead: IncompleteRead(0 bytes read)",
+  "download_body_bytes": 4128768
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-context-build-v3-20261116",
+  "status": "failed",
+  "started_at": "2026-11-16T07:33:47.314742+00:00",
+  "finished_at": "2026-11-16T07:34:19.763231+00:00",
+  "exit_code": 1,
+  "pid": 44359,
+  "elapsed_seconds": 32.448509,
+  "resource_usage": {
+    "child_max_rss_kib": 89100,
+    "child_cpu_user_seconds": 9.590885,
+    "child_cpu_system_seconds": 2.136206,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

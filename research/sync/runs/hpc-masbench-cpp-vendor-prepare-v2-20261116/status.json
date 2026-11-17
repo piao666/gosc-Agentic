@@ -1,0 +1,12 @@
+{
+  "run_id": "hpc-masbench-cpp-vendor-prepare-v2-20261116",
+  "status": "failed",
+  "started_at": "2026-11-16T08:37:17.193695+00:00",
+  "finished_at": null,
+  "exit_code": null,
+  "pid": 50168,
+  "reconciled_at": "2026-11-16T08:53:44.381335+00:00",
+  "reconciliation_reason": "Child absent; preparation.json records IncompleteRead; runner finalization failed EDQUOT",
+  "exact_finish_and_exit": "unknown; not reconstructed",
+  "elapsed_seconds": null
+}

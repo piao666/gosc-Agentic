@@ -1,0 +1,22 @@
+{
+  "scope": "light local document and Git management only; no project tests",
+  "local_head": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+  "observed_remote_research_head": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+  "local_remote_head_equal": true,
+  "tracked_diff_check_exit": 0,
+  "tracked_diff_check_scope": "tracked diff only; new Markdown also checked directly for trailing whitespace and links",
+  "markdown_docs_checked": [
+    "research/reports/project_progress_and_plan_2026-11-16.md",
+    "research/logs/progress-plan-review-2026-11-16/task_brief.md",
+    "research/logs/progress-plan-review-2026-11-16/task_log.md",
+    "research/logs/progress-plan-review-2026-11-16/evidence_index.md"
+  ],
+  "missing_relative_links": [],
+  "trailing_whitespace_docs": [],
+  "git_status_short": [
+    "?? research/logs/progress-plan-review-2026-11-16/",
+    "?? research/reports/project_progress_and_plan_2026-11-16.md"
+  ],
+  "project_tests_run": 0,
+  "hpc_connected": false
+}

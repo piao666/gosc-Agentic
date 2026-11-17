@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-cpp17-helper-build-20261116",
+  "status": "completed",
+  "started_at": "2026-11-16T09:38:44.473425+00:00",
+  "finished_at": "2026-11-16T09:42:05.373746+00:00",
+  "exit_code": 0,
+  "pid": 54777,
+  "elapsed_seconds": 200.900348,
+  "resource_usage": {
+    "child_max_rss_kib": 606684,
+    "child_cpu_user_seconds": 256.305642,
+    "child_cpu_system_seconds": 32.36793,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

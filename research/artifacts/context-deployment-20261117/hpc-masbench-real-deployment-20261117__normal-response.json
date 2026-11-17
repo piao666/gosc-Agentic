@@ -1,0 +1,22 @@
+{
+  "id": "chatcmpl-960",
+  "object": "chat.completion",
+  "created": 1794885565,
+  "model": "qwen2.5:7b",
+  "system_fingerprint": "fp_ollama",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "OK"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2443,
+    "completion_tokens": 2,
+    "total_tokens": 2445
+  }
+}

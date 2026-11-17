@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_context_build.py", line 227, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_context_build.py", line 188, in main
+    event['download_peak_rss_bytes']=execute([go,'mod','download','-json','github.com/ollama/ollama@v0.11.11'],
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_context_build.py", line 96, in execute
+    if p.returncode: raise RuntimeError('command failed exit '+str(p.returncode)+': '+str(log))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: command failed exit 1: /home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-context-build-v3-20261116/outputs/source-module.log

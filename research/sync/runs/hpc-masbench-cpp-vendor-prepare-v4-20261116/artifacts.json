@@ -1,0 +1,30 @@
+{
+  "run_id": "hpc-masbench-cpp-vendor-prepare-v4-20261116",
+  "files": [
+    {
+      "path": "outputs/miniaudio__miniaudio.h.license.txt",
+      "size": 967,
+      "sha256": "5d12c1ec498dd3cad9a0b4023685c5ba69afb0dbef606b2026fb81d4a04f191c"
+    },
+    {
+      "path": "outputs/nlohmann__json.hpp.license.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/nlohmann__json_fwd.hpp.license.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/preparation.json",
+      "size": 1871,
+      "sha256": "57f0d6430c96fa69791d575a5548defa0d9948322c9568ff3db2e2329abad78f"
+    },
+    {
+      "path": "outputs/stb__stb_image.h.license.txt",
+      "size": 1880,
+      "sha256": "0d2af732eca3f595e5e7855b618cb75e303910328ded3e95a63ea4a54ef36a35"
+    }
+  ]
+}

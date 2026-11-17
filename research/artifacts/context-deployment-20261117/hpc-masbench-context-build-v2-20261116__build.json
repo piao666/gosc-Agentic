@@ -1,0 +1,15 @@
+{
+  "status": "failed",
+  "authorization_sha256": "16a9ae8bb1a61cafd5d6d7b78cb7799a79685c0f08ace3d6d9372a6e4a3a7b93",
+  "isolated_root": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/masbench-exact-context/hpc-masbench-context-build-v2-20261116",
+  "official_download_payload_bytes": 0,
+  "server_or_python_environment_modified": false,
+  "model_generations": 0,
+  "gpu_used": false,
+  "source_commit": "92b96d54efd6b49322b7cf046f9a0dc16b00cd0a",
+  "failed_probe_space_reclaimed_bytes": 4294967296,
+  "error": "OSError: [Errno 122] Disk quota exceeded",
+  "elapsed_seconds": 0.5912051126360893,
+  "final_directory_bytes": 4294967296,
+  "binding_verified": false
+}

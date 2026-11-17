@@ -1,0 +1,28 @@
+{
+  "status": "built_offline_candidate_not_deployment_verified",
+  "approval_sha256": "6563e0e84d0727076f7a8b5b5670adaf5e44a3a18e1346ac00a8b2840d19e70d",
+  "model_calls": 0,
+  "gpu_used": false,
+  "old_build_gate_modified": false,
+  "binding_verified": false,
+  "baseline_archive": "916289ba20fd9808a3673af0aebf175bfc830ccc",
+  "compiler": "Zig0.17.1 bundled C/C++/libc++; glibc target2.27",
+  "compiler_abi_change": "Every -lstdc++ passed to the isolated wrappers maps to -lc++; no system library modified",
+  "observed_cgroup_limits": {
+    "cpu_quota": "200000",
+    "cpu_period": "100000",
+    "cpuset": "0-1",
+    "memory": "25769803776"
+  },
+  "sampled_peak_directory_bytes": 1468595060,
+  "sampled_peak_process_group_rss_bytes": 670670848,
+  "sampled_peak_combined_bytes": 2011885643,
+  "cpp17_cgo_probe_passed": true,
+  "binary": "/tmp/gosc-hpc-masbench-context-build-v3-20261116/context-counter",
+  "binary_sha256": "e4d2da192c9bfcf126462eddfa2a8b8519b9d8293ff47bf500007ca2d82a66d5",
+  "helper_source_sha256": "840464c10ae74bf6945f3dc93cc122e8981fb8e2ef12a41f75c6ef6e155aa9a3",
+  "source_commit": "92b96d54efd6b49322b7cf046f9a0dc16b00cd0a",
+  "vendor_files": 4,
+  "elapsed_seconds": 200.26744180172682,
+  "final_directory_bytes": 1313181768
+}

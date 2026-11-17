@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-16",
+  "source_commit": "92b96d54efd6b49322b7cf046f9a0dc16b00cd0a",
+  "source_release": "v0.11.11",
+  "source_root": "llama/llama.cpp/vendor",
+  "listing_url": "https://api.github.com/repos/ollama/ollama/contents/llama/llama.cpp/vendor?ref=92b96d54efd6b49322b7cf046f9a0dc16b00cd0a",
+  "complete_within_this_vendor_directory": true,
+  "all_trees_untruncated": true,
+  "subtrees": [
+    {
+      "name": "miniaudio",
+      "git_tree_sha": "04fe4c7a7441558aaeac826b1e08ef97042b815e",
+      "url": "https://api.github.com/repos/ollama/ollama/git/trees/04fe4c7a7441558aaeac826b1e08ef97042b815e"
+    },
+    {
+      "name": "nlohmann",
+      "git_tree_sha": "b57e88f690ba8afee3ae02727441b73f7a2cf2d1",
+      "url": "https://api.github.com/repos/ollama/ollama/git/trees/b57e88f690ba8afee3ae02727441b73f7a2cf2d1"
+    },
+    {
+      "name": "stb",
+      "git_tree_sha": "339cfdfb4a67d964894e3d11b659a52eb5aac831",
+      "url": "https://api.github.com/repos/ollama/ollama/git/trees/339cfdfb4a67d964894e3d11b659a52eb5aac831"
+    }
+  ],
+  "files": [
+    {
+      "path": "miniaudio/miniaudio.h",
+      "size": 4025780,
+      "git_blob_sha1": "c74bebeb3c725c898e4e3502e917a017799b0dca",
+      "mode": "100644",
+      "url": "https://raw.githubusercontent.com/ollama/ollama/92b96d54efd6b49322b7cf046f9a0dc16b00cd0a/llama/llama.cpp/vendor/miniaudio/miniaudio.h"
+    },
+    {
+      "path": "nlohmann/json.hpp",
+      "size": 953436,
+      "git_blob_sha1": "82d69f7c5d044c9887c96b90c97f5639083ecd14",
+      "mode": "100644",
+      "url": "https://raw.githubusercontent.com/ollama/ollama/92b96d54efd6b49322b7cf046f9a0dc16b00cd0a/llama/llama.cpp/vendor/nlohmann/json.hpp"
+    },
+    {
+      "path": "nlohmann/json_fwd.hpp",
+      "size": 6656,
+      "git_blob_sha1": "9429171390a41654a73b1fd63d6048712a4893a2",
+      "mode": "100644",
+      "url": "https://raw.githubusercontent.com/ollama/ollama/92b96d54efd6b49322b7cf046f9a0dc16b00cd0a/llama/llama.cpp/vendor/nlohmann/json_fwd.hpp"
+    },
+    {
+      "path": "stb/stb_image.h",
+      "size": 283010,
+      "git_blob_sha1": "9eedabedc45b3e6fd88fae6f14a160b4d53272ec",
+      "mode": "100644",
+      "url": "https://raw.githubusercontent.com/ollama/ollama/92b96d54efd6b49322b7cf046f9a0dc16b00cd0a/llama/llama.cpp/vendor/stb/stb_image.h"
+    }
+  ],
+  "total_file_bytes": 5268882,
+  "status": "source_list_pinned_payloads_not_yet_verified"
+}
