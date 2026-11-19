@@ -1,0 +1,60 @@
+{
+  "run_id": "hpc-masbench-t1b-post-storage-20261119",
+  "files": [
+    {
+      "path": "outputs/driver/campaign/artifacts/000002-1-rpc.jsonl",
+      "size": 28073,
+      "sha256": "8d281a08fc48c279ca359480535938790d90f9404c47fb97ad84e6c6eec0add5"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000003-2-full-input-count.json",
+      "size": 37261,
+      "sha256": "01c0a61a0f77831b6de8d556fe50ea0d5155f472ca4742ea30d32dc8db304339"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000004-3-rpc.jsonl",
+      "size": 1038,
+      "sha256": "1b5d0e3b00d07b5b56ae184b6e6b717125af3ebbb9942af7c336f9654173d9d8"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000005-4-full-input-count.json",
+      "size": 716,
+      "sha256": "f56bc6b0bea86de76c0a999c17d3ee85a75adcaae14d8989a8ea31e86eff4f02"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000006-5-rpc.jsonl",
+      "size": 63,
+      "sha256": "b93c8e48afadb9e6badc6fd493dc84407f3048ec8055c96f11f5330a2b49657f"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000007-6-rpc.jsonl",
+      "size": 18,
+      "sha256": "ad5dff36814c9ae83291a254655e0670c5455096bf82f00e96b8dbbdbed34ed1"
+    },
+    {
+      "path": "outputs/driver/campaign/ledger.jsonl",
+      "size": 2445,
+      "sha256": "8dd00f2394a9e329af5c0edc7a318bb98739fa1520fbb0512378e110f1902749"
+    },
+    {
+      "path": "outputs/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "e6e262aab3b8e0eb4c12b625774478e8502a77e0a3de6aac3776bc9f8ae59f81"
+    },
+    {
+      "path": "outputs/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/summary.json",
+      "size": 1276,
+      "sha256": "c4156bd395d53784b8af4537affd34136d121189e52754104a0d4eb3074f5120"
+    }
+  ]
+}

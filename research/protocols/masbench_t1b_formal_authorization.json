@@ -1,0 +1,16 @@
+{
+  "approved": true,
+  "scope": "T1-B synthetic only",
+  "exclusive_service": true,
+  "service_exclusivity_confirmation": "用户批准本次正式 T1 四例合成验收的具体预算，并确认验收期间独占项目 Ollama：批准",
+  "run_id": "hpc-masbench-t1b-formal-20261119",
+  "previous_t1b_run": "hpc-masbench-t1b-post-storage-20261119",
+  "service_pid": 37483,
+  "service_stamp": "4897373256",
+  "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+  "protocol_sha256": "fd80ff4257eb55ab278ef75b46779eff8ec9bd11f77d2aa170b1949a6944554a",
+  "plan_sha256": "d8735508d81fe0ff4291b710130c7bd2b46e4968fac366a79e7119fb6d117a11",
+  "source_sha256": "55ee0b590749a43dd1f145daeced70b060ffcf24532b8b872d3e7672b0e2d261",
+  "runner_sha256": "7e0b02615b45dfb335d69860f4e34b50f7810822a704d20aa33b80d8d80a2a8b",
+  "registry_sha256": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86"
+}

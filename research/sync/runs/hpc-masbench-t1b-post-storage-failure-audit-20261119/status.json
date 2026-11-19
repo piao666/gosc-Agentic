@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-t1b-post-storage-failure-audit-20261119",
+  "status": "completed",
+  "started_at": "2026-11-19T03:17:48.819532+00:00",
+  "finished_at": "2026-11-19T03:17:49.016774+00:00",
+  "exit_code": 0,
+  "pid": 44445,
+  "elapsed_seconds": 0.197253,
+  "resource_usage": {
+    "child_max_rss_kib": 71732,
+    "child_cpu_user_seconds": 0.374627,
+    "child_cpu_system_seconds": 0.266192,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

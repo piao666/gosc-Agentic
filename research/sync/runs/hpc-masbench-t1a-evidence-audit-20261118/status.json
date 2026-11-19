@@ -1,0 +1,11 @@
+{
+  "run_id": "hpc-masbench-t1a-evidence-audit-20261118",
+  "status": "failed",
+  "started_at": "2026-11-18T03:42:41.806306+00:00",
+  "finished_at": null,
+  "exit_code": null,
+  "pid": null,
+  "reconciliation_reason": "runner finalization EDQUOT; audit output retained",
+  "elapsed_seconds": null,
+  "reconciled_at": "2026-11-18T03:44:35.179280+00:00"
+}

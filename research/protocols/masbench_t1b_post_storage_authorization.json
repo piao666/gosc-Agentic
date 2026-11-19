@@ -1,0 +1,16 @@
+{
+  "approved": true,
+  "scope": "T1-B synthetic only",
+  "exclusive_service": true,
+  "service_exclusivity_confirmation": "用户批准存储恢复后的单次 T1-B 固定合成复验，并确认验收期间独占项目 Ollama：批准",
+  "run_id": "hpc-masbench-t1b-post-storage-20261119",
+  "previous_t1b_run": "hpc-masbench-t1b-runner-recheck-20261118",
+  "service_pid": 37483,
+  "service_stamp": "4897373256",
+  "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+  "protocol_sha256": "f8f0bf11a6a313a39d69fec36f20189d94306f3701b0dce550b460baf629e411",
+  "plan_sha256": "437bf1996bb05549a88dc02c210514a9296eaa87ce6c0808da623ea5cbf837d7",
+  "source_sha256": "caa094c51cf89f91446102535eef3fba8a30cf769fd2a06a1e403b9e135b7b1d",
+  "runner_sha256": "f9ecb2e0af17092bb242534eb493b27cff9fa32c8772a521ed9ef549a7aef68e",
+  "registry_sha256": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86"
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t1a-contract-v4-20261118",
+  "original_sha256": "38c55b20216ed3f9a442141f513a9c220fc7577bccf93f788b4e243a56fb4ecf",
+  "original_size": 24388337,
+  "archive_sha256": "54210263efac12cd0f4ffd615ed0b35be84806e9122617a2479d467bc19ef340",
+  "archive_size": 1722340,
+  "original_retained_tmpfs": "/tmp/gosc-t1a-snapshot-archive-20261118/hpc-masbench-t1a-contract-v4-20261118.patch",
+  "local_raw_mirrored_before_archive": true,
+  "restore": "gzip -dc source_changes.patch.gz > source_changes.patch"
+}

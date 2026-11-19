@@ -1,0 +1,10 @@
+test_kernel_socket_denial (__main__.Tests.test_kernel_socket_denial) ... ok
+test_proc_sample_preserves_stamp_and_mapping (__main__.Tests.test_proc_sample_preserves_stamp_and_mapping) ... ok
+test_recovery_evidence_and_marker_exact (__main__.Tests.test_recovery_evidence_and_marker_exact) ... ok
+test_render_is_frozen_and_generation_route_unavailable (__main__.Tests.test_render_is_frozen_and_generation_route_unavailable) ... ok
+test_single_render_charge_fails_before_process_spawn (__main__.Tests.test_single_render_charge_fails_before_process_spawn) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.105s
+
+OK

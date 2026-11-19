@@ -1,0 +1,160 @@
+{
+  "acceptance_passed": false,
+  "failed_prefix_verified": true,
+  "cases_started": [
+    "normal",
+    "watchdog",
+    "controller",
+    "recovery"
+  ],
+  "cases": [
+    {
+      "id": "normal",
+      "request_id": "synthetic/0",
+      "status": "completed",
+      "reserved_input": 29,
+      "reserved_output": 32,
+      "usage": {
+        "prompt_tokens": 29,
+        "completion_tokens": 2
+      }
+    },
+    {
+      "id": "watchdog",
+      "request_id": "synthetic/1",
+      "status": "timeout",
+      "reserved_input": 48,
+      "reserved_output": 512,
+      "usage": null
+    },
+    {
+      "id": "controller",
+      "request_id": "synthetic/2",
+      "status": "interrupted",
+      "reserved_input": 38,
+      "reserved_output": 512,
+      "usage": null
+    },
+    {
+      "id": "recovery",
+      "request_id": "synthetic/3",
+      "status": "completed",
+      "reserved_input": 29,
+      "reserved_output": 32,
+      "usage": {
+        "prompt_tokens": 29,
+        "completion_tokens": 2
+      }
+    }
+  ],
+  "error": "SafetyError: old runner identity missing or changed; keep fenced",
+  "phase_clocks": [
+    {
+      "deadline_mono": 49159000.87862027,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49158850.87862027
+    },
+    {
+      "deadline_mono": 49158922.34509322,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49158862.34509322
+    },
+    {
+      "deadline_mono": 49159025.880537674,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49158875.880537674
+    },
+    {
+      "deadline_mono": 49158939.599834934,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49158879.599834934
+    },
+    {
+      "deadline_mono": 49159030.892896816,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49158880.892896816
+    },
+    {
+      "deadline_mono": 49158997.083333515,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49158937.083333515
+    },
+    {
+      "deadline_mono": 49159088.349222526,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49158938.349222526
+    },
+    {
+      "deadline_mono": 49159001.5064175,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49158941.5064175
+    }
+  ],
+  "charges": {
+    "get": 15,
+    "cleanup_get": 8,
+    "debug": 4,
+    "unload": 3
+  },
+  "reservations": {
+    "requests": {
+      "synthetic/0": {
+        "kind": "request",
+        "id": "synthetic/0",
+        "episode": "synthetic",
+        "input": 29,
+        "output": 32,
+        "status": "completed",
+        "observed_usage": {
+          "prompt_tokens": 29,
+          "completion_tokens": 2
+        }
+      },
+      "synthetic/1": {
+        "kind": "request",
+        "id": "synthetic/1",
+        "episode": "synthetic",
+        "input": 48,
+        "output": 512,
+        "status": "timeout",
+        "observed_usage": null
+      },
+      "synthetic/2": {
+        "kind": "request",
+        "id": "synthetic/2",
+        "episode": "synthetic",
+        "input": 38,
+        "output": 512,
+        "status": "interrupted",
+        "observed_usage": null
+      },
+      "synthetic/3": {
+        "kind": "request",
+        "id": "synthetic/3",
+        "episode": "synthetic",
+        "input": 29,
+        "output": 32,
+        "status": "completed",
+        "observed_usage": {
+          "prompt_tokens": 29,
+          "completion_tokens": 2
+        }
+      }
+    },
+    "inputs": 144,
+    "outputs": 1088
+  },
+  "service_marker_retained": true,
+  "native_immediate_idle_verified": false,
+  "real_task_inputs": 0,
+  "source_run": "hpc-masbench-t1b-formal-20261119",
+  "artifacts_verified": 58
+}

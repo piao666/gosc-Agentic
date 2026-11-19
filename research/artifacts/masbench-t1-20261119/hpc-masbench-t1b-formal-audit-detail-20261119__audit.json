@@ -1,0 +1,330 @@
+{
+  "acceptance_passed": false,
+  "cases": [
+    {
+      "id": "normal",
+      "request_id": "synthetic/0",
+      "status": "completed",
+      "reserved_input": 29,
+      "reserved_output": 32,
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 29
+      },
+      "runner": {
+        "pid": 54439,
+        "stamp": "4915885213"
+      },
+      "sent_monotonic": 49158862.65816458
+    },
+    {
+      "id": "watchdog",
+      "request_id": "synthetic/1",
+      "status": "timeout",
+      "reserved_input": 48,
+      "reserved_output": 512,
+      "usage": null,
+      "runner": {
+        "pid": 54557,
+        "stamp": "4915887769"
+      },
+      "sent_monotonic": 49158879.931259915
+    },
+    {
+      "id": "controller",
+      "request_id": "synthetic/2",
+      "status": "interrupted",
+      "reserved_input": 38,
+      "reserved_output": 512,
+      "usage": null,
+      "runner": {
+        "pid": 54612,
+        "stamp": "4915888213"
+      },
+      "sent_monotonic": 49158937.4058837
+    },
+    {
+      "id": "recovery",
+      "request_id": "synthetic/3",
+      "status": "completed",
+      "reserved_input": 29,
+      "reserved_output": 32,
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 29
+      },
+      "runner": {
+        "pid": 54817,
+        "stamp": "4915893959"
+      },
+      "sent_monotonic": 49158941.83915343
+    }
+  ],
+  "cleanup_proofs": [
+    {
+      "start": {
+        "event": {
+          "kind": "unload-start",
+          "old_runners": [
+            {
+              "pid": 54439,
+              "stamp": "4915885213"
+            },
+            {
+              "pid": 54557,
+              "stamp": "4915887769"
+            }
+          ],
+          "present_before_unload": []
+        },
+        "mono": 49158880.445825815,
+        "previous": "296afe314fdbc7fdc358ef59e7ca55586a2eff530cb22e7b76d9d5e2cd3dfefe",
+        "seq": 101,
+        "hash": "7d620789fc1bf842b41bf68433642a2f166842e3ebc1a9bcb31f0fbc97be2c58"
+      },
+      "complete": {
+        "event": {
+          "kind": "unload-complete",
+          "observation": {
+            "ledger_seq": 33,
+            "ledger_tip": "4b9ac8e4b0275a143a4138b6b309b3cf605f9e658dc8a31ab6623e3a60610f26",
+            "process_observations": [
+              {
+                "observed_stamp": null,
+                "pid": 54439,
+                "stamp": "4915885213"
+              },
+              {
+                "observed_stamp": null,
+                "pid": 54557,
+                "stamp": "4915887769"
+              }
+            ],
+            "ps": {
+              "models": []
+            },
+            "remaining_runners": [],
+            "resources_after_unload": {
+              "driver_rss": 35475456,
+              "gpu_bytes": 0,
+              "service_rss": 292913152
+            },
+            "response": {
+              "created_at": "2026-11-19T06:45:15.169970928Z",
+              "done": true,
+              "done_reason": "unload",
+              "message": {
+                "content": "",
+                "role": "assistant"
+              },
+              "model": "qwen2.5:7b"
+            },
+            "service": {
+              "pid": 37483,
+              "stamp": "4897373256"
+            }
+          }
+        },
+        "mono": 49158880.84458324,
+        "previous": "44172612084718552871e1534ff72fc36c341588bcf90dc8c9839a74ee736fcc",
+        "seq": 116,
+        "hash": "5d78599e893461e891f0f9bc63e97e78d7f1510ea98b964c88b82226d996a43e"
+      }
+    },
+    {
+      "start": {
+        "event": {
+          "kind": "unload-start",
+          "old_runners": [
+            {
+              "pid": 54612,
+              "stamp": "4915888213"
+            }
+          ],
+          "present_before_unload": [
+            {
+              "pid": 54612,
+              "stamp": "4915888213"
+            }
+          ]
+        },
+        "mono": 49158937.666149095,
+        "previous": "f22893cdf533fd4b392805787090af524a40c7913fe9f6854f8780010701ba93",
+        "seq": 177,
+        "hash": "c1a152e08c2513d6e73c6f3c99d93e79ecc6908227c616b068e52e79eb7672d2"
+      },
+      "complete": {
+        "event": {
+          "kind": "unload-complete",
+          "observation": {
+            "ledger_seq": 49,
+            "ledger_tip": "14a9b4a9313aa6fdbe8f3a87dfc8fd145fa1aa20b459ca2d60879010649a9ac5",
+            "process_observations": [
+              {
+                "observed_stamp": null,
+                "pid": 54612,
+                "stamp": "4915888213"
+              }
+            ],
+            "ps": {
+              "models": []
+            },
+            "remaining_runners": [],
+            "resources_after_unload": {
+              "driver_rss": 35627008,
+              "gpu_bytes": 0,
+              "service_rss": 346800128
+            },
+            "response": {
+              "created_at": "2026-11-19T06:46:12.390927795Z",
+              "done": true,
+              "done_reason": "unload",
+              "message": {
+                "content": "",
+                "role": "assistant"
+              },
+              "model": "qwen2.5:7b"
+            },
+            "service": {
+              "pid": 37483,
+              "stamp": "4897373256"
+            }
+          }
+        },
+        "mono": 49158938.27909054,
+        "previous": "d1abf948fd7a9394061f0f68b59064ed819c869625a9dff87454cb30f4714e0f",
+        "seq": 199,
+        "hash": "fdaf5ebde8352be0407e825b9d638711db201a9c268055d01fd7b9de5b260da4"
+      }
+    }
+  ],
+  "phase_clocks": [
+    {
+      "deadline_mono": 49159000.87862027,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49158850.87862027
+    },
+    {
+      "deadline_mono": 49158922.34509322,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49158862.34509322
+    },
+    {
+      "deadline_mono": 49159025.880537674,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49158875.880537674
+    },
+    {
+      "deadline_mono": 49158939.599834934,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49158879.599834934
+    },
+    {
+      "deadline_mono": 49159030.892896816,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49158880.892896816
+    },
+    {
+      "deadline_mono": 49158997.083333515,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49158937.083333515
+    },
+    {
+      "deadline_mono": 49159088.349222526,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49158938.349222526
+    },
+    {
+      "deadline_mono": 49159001.5064175,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49158941.5064175
+    }
+  ],
+  "final_cleanup_failure": {
+    "start": {
+      "event": {
+        "kind": "unload-start",
+        "old_runners": [
+          {
+            "pid": 54817,
+            "stamp": "4915893959"
+          }
+        ],
+        "present_before_unload": [
+          {
+            "pid": 54844,
+            "stamp": "4915894302"
+          }
+        ]
+      },
+      "mono": 49158953.488478705,
+      "previous": "657b0024204b82c960e5199805805af7ff0931e58d58defeb6e6316813c23ddb",
+      "seq": 260,
+      "hash": "86ab1166a3b23818f9af63bb085573faa870e88e1a2165771a1e862fd21d6d26"
+    },
+    "stop": {
+      "event": {
+        "kind": "unload-unverified",
+        "observation": {
+          "ledger_seq": 65,
+          "ledger_tip": "37f74310f6121c37608209bd9ca6584f52c37b5d35de28107d5d4012e19020d4",
+          "process_observations": [
+            {
+              "observed_stamp": null,
+              "pid": 54817,
+              "stamp": "4915893959"
+            }
+          ],
+          "ps": {
+            "models": []
+          },
+          "remaining_runners": [],
+          "response": {
+            "created_at": "2026-11-19T06:46:28.215565302Z",
+            "done": true,
+            "done_reason": "unload",
+            "message": {
+              "content": "",
+              "role": "assistant"
+            },
+            "model": "qwen2.5:7b"
+          },
+          "service": {
+            "pid": 37483,
+            "stamp": "4897373256"
+          }
+        }
+      },
+      "mono": 49158954.07607322,
+      "previous": "3e05958c0915296157046217bab4b55d15277093d3ae46e2325b995ddf31c75b",
+      "seq": 282,
+      "hash": "a4b634bb6e7208f6606dd8eec3452a266246928b058e1de46b28007008d2ca5f"
+    },
+    "unbound_runner_identities": [
+      {
+        "pid": 54844,
+        "stamp": "4915894302"
+      }
+    ],
+    "reason": "SafetyError: old runner identity missing or changed; keep fenced",
+    "service_marker_retained": true
+  },
+  "control_counts": {
+    "get": 15,
+    "cleanup_get": 8,
+    "debug": 4,
+    "unload": 3
+  },
+  "native_immediate_idle_verified": false,
+  "real_task_inputs": 0,
+  "source_run": "hpc-masbench-t1b-formal-20261119",
+  "artifacts_verified": 58
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-t1b-wiring-regression-20261118",
+  "status": "completed",
+  "started_at": "2026-11-18T04:52:33.878167+00:00",
+  "finished_at": "2026-11-18T04:52:39.467491+00:00",
+  "exit_code": 0,
+  "pid": 47721,
+  "elapsed_seconds": 5.589345,
+  "resource_usage": {
+    "child_max_rss_kib": 53436,
+    "child_cpu_user_seconds": 1.527562,
+    "child_cpu_system_seconds": 1.277182,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

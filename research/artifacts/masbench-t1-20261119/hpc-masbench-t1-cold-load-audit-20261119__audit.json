@@ -1,0 +1,35 @@
+{
+  "run": "hpc-masbench-t1-cold-load-20261119",
+  "registered_output_files_verified": 4,
+  "generation_requests": 0,
+  "real_task_inputs": 0,
+  "render": "not-dispatched",
+  "render_error": null,
+  "campaign_error": "SafetyError('HTTP worker exited without a complete result')",
+  "render_send": null,
+  "runner_witnesses": [],
+  "runner_samples": [],
+  "sample_count": 0,
+  "charges": {
+    "old_get": 1,
+    "get": 0,
+    "cleanup_get": 0,
+    "debug": 0,
+    "unload": 0
+  },
+  "service_log": {
+    "status": "unknown-log-window",
+    "events": []
+  },
+  "service_marker_retained": true,
+  "cleanup_proof": [],
+  "total_seconds": 0.35057346522808075,
+  "peaks": {
+    "driver_rss": 41205760,
+    "service_rss": 216518656,
+    "gpu_bytes": 0
+  },
+  "physical_read_attribution_verified": false,
+  "native_immediate_idle_verified": false,
+  "t1_acceptance_passed": false
+}

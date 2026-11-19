@@ -1,0 +1,1698 @@
+{
+  "status_counts": {
+    "failed": 10,
+    "completed": 22
+  },
+  "runs": [
+    {
+      "run_id": "hpc-masbench-t1-cold-load-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1-cold-load-20261119",
+        "status": "failed",
+        "started_at": "2026-11-19T05:11:08.939225+00:00",
+        "finished_at": "2026-11-19T05:11:09.443559+00:00",
+        "exit_code": 1,
+        "pid": 49732,
+        "elapsed_seconds": 0.504353,
+        "resource_usage": {
+          "child_max_rss_kib": 82384,
+          "child_cpu_user_seconds": 0.5989789999999999,
+          "child_cpu_system_seconds": 0.300022,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "208s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1_cold_load.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T050840Z",
+      "registered_outputs": 4,
+      "registered_bytes": 131805,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1-cold-load-20261119__summary.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-20261119/manifest.json",
+        "bytes": 18645,
+        "sha256": "ffa00558a51b162aac71a4fee5530f74f40040528ebd30581d6e7b6e3a994077"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-20261119/status.json",
+        "bytes": 542,
+        "sha256": "daa603a319b0abd7440806ccf19bf1e35972d020e7b30d53f6a63b530fb71f78"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-20261119/source_snapshot.json",
+        "bytes": 413646,
+        "sha256": "990975b5feb08b394b1d3692cdd309cca1b97ffba0c5a605d6f0a5072222d283"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-20261119/artifacts.json",
+        "bytes": 690,
+        "sha256": "212b16e1c3335d3aa32e4e591d53c1bcf684d1bcba0b990cadc569c482dcbf70"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1-cold-load-audit-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1-cold-load-audit-20261119",
+        "status": "completed",
+        "started_at": "2026-11-19T05:11:10.277057+00:00",
+        "finished_at": "2026-11-19T05:11:10.462478+00:00",
+        "exit_code": 0,
+        "pid": 49754,
+        "elapsed_seconds": 0.185443,
+        "resource_usage": {
+          "child_max_rss_kib": 77144,
+          "child_cpu_user_seconds": 0.48949499999999996,
+          "child_cpu_system_seconds": 0.13774899999999998,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "88s",
+        "prlimit",
+        "--as=2147483648",
+        "--",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1_cold_load_audit.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T050840Z",
+      "registered_outputs": 1,
+      "registered_bytes": 874,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1-cold-load-audit-20261119__audit.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-audit-20261119/manifest.json",
+        "bytes": 18736,
+        "sha256": "f96c12f412b8965482760c094ad0b8cf8179980f697a4d848d7ce2b33b73b4f1"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-audit-20261119/status.json",
+        "bytes": 563,
+        "sha256": "39aa91ec393163839337c02676ae5b78a04d6adcb07dc335c6de3f5f9d3de399"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-audit-20261119/source_snapshot.json",
+        "bytes": 413646,
+        "sha256": "990975b5feb08b394b1d3692cdd309cca1b97ffba0c5a605d6f0a5072222d283"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-audit-20261119/artifacts.json",
+        "bytes": 227,
+        "sha256": "d13d03ff4ea99c538a11d256d8fbc827d8b6bf4009ada07d583c068ae08f1ef9"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1-cold-load-audit-v2-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1-cold-load-audit-v2-20261119",
+        "status": "completed",
+        "started_at": "2026-11-19T05:15:15.735670+00:00",
+        "finished_at": "2026-11-19T05:15:15.935100+00:00",
+        "exit_code": 0,
+        "pid": 50115,
+        "elapsed_seconds": 0.199451,
+        "resource_usage": {
+          "child_max_rss_kib": 77520,
+          "child_cpu_user_seconds": 0.41977499999999995,
+          "child_cpu_system_seconds": 0.20099899999999998,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "88s",
+        "prlimit",
+        "--as=2147483648",
+        "--",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1_cold_load_audit.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T051349Z",
+      "registered_outputs": 1,
+      "registered_bytes": 7245,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1-cold-load-audit-v2-20261119__audit.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-audit-v2-20261119/manifest.json",
+        "bytes": 19014,
+        "sha256": "5d3888b355733e002e31071444691f96cb808052b22846779a511bbb273a0146"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-audit-v2-20261119/status.json",
+        "bytes": 566,
+        "sha256": "49522fa7398119b05fdfcd35fe246668cdd5f5cfd802e446472d8853ed420ec4"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-audit-v2-20261119/source_snapshot.json",
+        "bytes": 414077,
+        "sha256": "ff79d559785e2a159834ff2fff485bf04ff56f3f539983cfdc1468ac227a367b"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-audit-v2-20261119/artifacts.json",
+        "bytes": 231,
+        "sha256": "0cacf26edd91f7f539a329e7711153a2e13245a4151841e91ce256b910bf6bd1"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1-cold-load-fixture-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1-cold-load-fixture-20261119",
+        "status": "completed",
+        "started_at": "2026-11-19T05:10:11.418846+00:00",
+        "finished_at": "2026-11-19T05:10:11.928854+00:00",
+        "exit_code": 0,
+        "pid": 49656,
+        "elapsed_seconds": 0.510029,
+        "resource_usage": {
+          "child_max_rss_kib": 81104,
+          "child_cpu_user_seconds": 0.598811,
+          "child_cpu_system_seconds": 0.578792,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "88s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1_cold_load_fixture.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T050840Z",
+      "registered_outputs": 0,
+      "registered_bytes": 0,
+      "archived_outputs": [],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-fixture-20261119/manifest.json",
+        "bytes": 18571,
+        "sha256": "1cc3f1714eaf2fbb01a4544129ce4c0b6a19121aaf16ab58f358fb2c3bfae86f"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-fixture-20261119/status.json",
+        "bytes": 543,
+        "sha256": "3de9b84c0278dbb6c6fb9e07ca747cf2c73fd14e308945cf8507132577172874"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-fixture-20261119/source_snapshot.json",
+        "bytes": 413646,
+        "sha256": "990975b5feb08b394b1d3692cdd309cca1b97ffba0c5a605d6f0a5072222d283"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-fixture-20261119/artifacts.json",
+        "bytes": 76,
+        "sha256": "0ebb6317df1385c2cc50341a4e0339848d9785dbaa563f60bd2b9278c8439708"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1-cold-load-fixture-v2-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1-cold-load-fixture-v2-20261119",
+        "status": "completed",
+        "started_at": "2026-11-19T05:15:01.748217+00:00",
+        "finished_at": "2026-11-19T05:15:01.993124+00:00",
+        "exit_code": 0,
+        "pid": 50019,
+        "elapsed_seconds": 0.244928,
+        "resource_usage": {
+          "child_max_rss_kib": 81556,
+          "child_cpu_user_seconds": 0.457609,
+          "child_cpu_system_seconds": 0.18928899999999999,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "78s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1_cold_load_fixture.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T051349Z",
+      "registered_outputs": 0,
+      "registered_bytes": 0,
+      "archived_outputs": [],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-fixture-v2-20261119/manifest.json",
+        "bytes": 18837,
+        "sha256": "b0e115328a699050fbdbab20b1d49c324c204b39909631ac736ed34786aed696"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-fixture-v2-20261119/status.json",
+        "bytes": 557,
+        "sha256": "e91e7cbbf4692e2dc80d9f0cd6a2497bbe280f45c6c0ba336b43df1e1c6d883d"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-fixture-v2-20261119/source_snapshot.json",
+        "bytes": 414077,
+        "sha256": "ff79d559785e2a159834ff2fff485bf04ff56f3f539983cfdc1468ac227a367b"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-fixture-v2-20261119/artifacts.json",
+        "bytes": 79,
+        "sha256": "febeb273f73421c8691ccc5417559c2aca705453fd1a65621e90e924e5b7f4ef"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1-cold-load-v2-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1-cold-load-v2-20261119",
+        "status": "completed",
+        "started_at": "2026-11-19T05:15:02.688513+00:00",
+        "finished_at": "2026-11-19T05:15:15.040410+00:00",
+        "exit_code": 0,
+        "pid": 50037,
+        "elapsed_seconds": 12.351913,
+        "resource_usage": {
+          "child_max_rss_kib": 86712,
+          "child_cpu_user_seconds": 1.433618,
+          "child_cpu_system_seconds": 0.7838069999999999,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "207s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1_cold_load.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T051349Z",
+      "registered_outputs": 13,
+      "registered_bytes": 138624,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1-cold-load-v2-20261119__summary.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-v2-20261119/manifest.json",
+        "bytes": 18915,
+        "sha256": "a22407dbd8880c484ff7db0f42b39d05aa353545802bf6f312134fdf4d4feeb2"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-v2-20261119/status.json",
+        "bytes": 549,
+        "sha256": "4042aee477e2cf5eb32ffac971f24fc408ff5fe068cb8649d6238c7de3d66c47"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-v2-20261119/source_snapshot.json",
+        "bytes": 414077,
+        "sha256": "ff79d559785e2a159834ff2fff485bf04ff56f3f539983cfdc1468ac227a367b"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1-cold-load-v2-20261119/artifacts.json",
+        "bytes": 2118,
+        "sha256": "18adbbc43a9694c2405fd2163f5555e47a31785c586a0e3cd7316642237c8daa"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1-post-storage-contract-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1-post-storage-contract-20261119",
+        "status": "completed",
+        "started_at": "2026-11-19T02:47:42.945486+00:00",
+        "finished_at": "2026-11-19T02:47:50.404933+00:00",
+        "exit_code": 0,
+        "pid": 42760,
+        "elapsed_seconds": 7.459467,
+        "resource_usage": {
+          "child_max_rss_kib": 53608,
+          "child_cpu_user_seconds": 1.710635,
+          "child_cpu_system_seconds": 2.038113,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=5s",
+        "85s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1a_contract.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T023739Z",
+      "registered_outputs": 469,
+      "registered_bytes": 5695062,
+      "archived_outputs": [],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1-post-storage-contract-20261119/manifest.json",
+        "bytes": 17628,
+        "sha256": "44f93f79660f76128119b0896975369d0359f31d08bdd92efaadc2c13ba34d2d"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1-post-storage-contract-20261119/status.json",
+        "bytes": 547,
+        "sha256": "76867dba03ef27a77a46dfae89e6de3f5029e1ceca965b892e9681bcd8c7dd51"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1-post-storage-contract-20261119/source_snapshot.json",
+        "bytes": 404312,
+        "sha256": "70fbcedb031ce257a4344809ffa48588e44c8ef78a84c3eb7a9a919688ad9847"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1-post-storage-contract-20261119/artifacts.json",
+        "bytes": 108601,
+        "sha256": "e08cc8c75a8e049a96fdf0298cf86c3eae291c975cb7aa7f239177f7fd2dcf6f"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1-runner-recovery-audit-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1-runner-recovery-audit-20261118",
+        "status": "completed",
+        "started_at": "2026-11-18T07:34:18.021959+00:00",
+        "finished_at": "2026-11-18T07:34:18.310684+00:00",
+        "exit_code": 0,
+        "pid": 56279,
+        "elapsed_seconds": 0.288747,
+        "resource_usage": {
+          "child_max_rss_kib": 72188,
+          "child_cpu_user_seconds": 2.327324,
+          "child_cpu_system_seconds": 2.026439,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=5s",
+        "85s",
+        "prlimit",
+        "--as=2147483648",
+        "--",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1_runner_evidence_audit.py",
+        "fixture"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T073146Z",
+      "registered_outputs": 1,
+      "registered_bytes": 1407,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1-runner-recovery-audit-20261118__audit.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1-runner-recovery-audit-20261118/manifest.json",
+        "bytes": 16896,
+        "sha256": "8f5a41ea6afb3b91561049cdb08b62793c8c36a95dc559c7134b7c998ad27a27"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1-runner-recovery-audit-20261118/status.json",
+        "bytes": 547,
+        "sha256": "ac413fe1e90a33e57b93cebc2c13426491e50dbc3e0ae30404eaa3bd05162c80"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1-runner-recovery-audit-20261118/source_snapshot.json",
+        "bytes": 380566,
+        "sha256": "65273d5bba5d6534ebbe2608b29092ef59fe932d0ee29464a0da7d67c9a152fb"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1-runner-recovery-audit-20261118/artifacts.json",
+        "bytes": 234,
+        "sha256": "255c5028895f959a19a8a545604e72f615df81610e1675d27e769a0f2a13a1b7"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1-runner-recovery-contract-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1-runner-recovery-contract-20261118",
+        "status": "failed",
+        "started_at": "2026-11-18T07:09:05.519774+00:00",
+        "finished_at": "2026-11-18T07:09:12.910794+00:00",
+        "exit_code": 127,
+        "pid": 54978,
+        "elapsed_seconds": 7.391044,
+        "resource_usage": {
+          "child_max_rss_kib": 52492,
+          "child_cpu_user_seconds": 1.695309,
+          "child_cpu_system_seconds": 1.4900579999999999,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+        "error": "Symlink artifact is not supported"
+      },
+      "command": [
+        "timeout",
+        "--kill-after=5s",
+        "85s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1a_contract.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T065847Z",
+      "registered_outputs": 464,
+      "registered_bytes": 5558190,
+      "archived_outputs": [],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1-runner-recovery-contract-20261118/manifest.json",
+        "bytes": 16488,
+        "sha256": "e4a47fb638617300aaaaf12859e264017f4b1ad00aaea60aa8a0efd34bf9a848"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1-runner-recovery-contract-20261118/status.json",
+        "bytes": 607,
+        "sha256": "a2e9d3e3689d4a913e98728bc2eeee7a0c6c98082e35de9d934fcda180006337"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1-runner-recovery-contract-20261118/source_snapshot.json",
+        "bytes": 377922,
+        "sha256": "04e1fc7d1eb5722cf62568730abd086d8e840514528468cb8e068956d5987d11"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1-runner-recovery-contract-20261118/artifacts.json",
+        "bytes": 107207,
+        "sha256": "007e8d9acd8b76519efb7676af48ea1ed9071da74244a14614f842290e62639e"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1-runner-recovery-contract-v2-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1-runner-recovery-contract-v2-20261118",
+        "status": "completed",
+        "started_at": "2026-11-18T07:34:09.140419+00:00",
+        "finished_at": "2026-11-18T07:34:17.083381+00:00",
+        "exit_code": 0,
+        "pid": 56252,
+        "elapsed_seconds": 7.942982,
+        "resource_usage": {
+          "child_max_rss_kib": 53220,
+          "child_cpu_user_seconds": 1.6365569999999998,
+          "child_cpu_system_seconds": 1.5734460000000001,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=5s",
+        "85s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1a_contract.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T073146Z",
+      "registered_outputs": 469,
+      "registered_bytes": 5695395,
+      "archived_outputs": [],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1-runner-recovery-contract-v2-20261118/manifest.json",
+        "bytes": 16767,
+        "sha256": "2c9de8a6a8ebcfb20651780328613b324d2e1be5f8fee526c9002867c51da9b8"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1-runner-recovery-contract-v2-20261118/status.json",
+        "bytes": 573,
+        "sha256": "361deacfdbc9c94c0a3745129901a695577650cbc298dba934dfa9f835049d54"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1-runner-recovery-contract-v2-20261118/source_snapshot.json",
+        "bytes": 380566,
+        "sha256": "65273d5bba5d6534ebbe2608b29092ef59fe932d0ee29464a0da7d67c9a152fb"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1-runner-recovery-contract-v2-20261118/artifacts.json",
+        "bytes": 108607,
+        "sha256": "c874cd2feddc425dcc56ef3e0569ae6881546fc7532f41bf67ceed9ef7b4e1af"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1a-contract-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1a-contract-20261118",
+        "status": "failed",
+        "started_at": "2026-11-18T03:36:24.497241+00:00",
+        "finished_at": "2026-11-18T03:36:28.022437+00:00",
+        "exit_code": 127,
+        "pid": 34921,
+        "elapsed_seconds": 3.525224,
+        "resource_usage": {
+          "child_max_rss_kib": 53416,
+          "child_cpu_user_seconds": 1.124763,
+          "child_cpu_system_seconds": 0.944562,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+        "error": "Symlink artifact is not supported"
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "-k",
+        "3",
+        "90",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1a_contract.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T033455Z",
+      "registered_outputs": 255,
+      "registered_bytes": 3544759,
+      "archived_outputs": [],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-20261118/manifest.json",
+        "bytes": 14360,
+        "sha256": "bc8e00b4f14e31eb17fc4f2014051c1104c8fc79fbf15b0d55af72c69a307ca3"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-20261118/status.json",
+        "bytes": 582,
+        "sha256": "7fbbce853d73c50d95c34f975199b71d00a64250706d4b1534bc5b0e6f03f996"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-20261118/source_snapshot.json",
+        "bytes": 362366,
+        "sha256": "d4cc85a565c4b92f4e95d2a894efa8491633f14eb5679cac232892e95009299a"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-20261118/artifacts.json",
+        "bytes": 56908,
+        "sha256": "7cc3a9be9629e1b3c5636bd927137570e0cb07adfb70aab43f26d3ff98eca228"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1a-contract-v2-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1a-contract-v2-20261118",
+        "status": "completed",
+        "started_at": "2026-11-18T03:38:23.291413+00:00",
+        "finished_at": "2026-11-18T03:38:27.957160+00:00",
+        "exit_code": 0,
+        "pid": 35126,
+        "elapsed_seconds": 4.665773,
+        "resource_usage": {
+          "child_max_rss_kib": 53340,
+          "child_cpu_user_seconds": 1.2777699999999999,
+          "child_cpu_system_seconds": 1.226808,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "-k",
+        "3",
+        "90",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1a_contract.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T033741Z",
+      "registered_outputs": 356,
+      "registered_bytes": 4310992,
+      "archived_outputs": [],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-v2-20261118/manifest.json",
+        "bytes": 14483,
+        "sha256": "5c2a3f66802eb47c9f644946f4d14f988b69c717646bded16b6109d42b396092"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-v2-20261118/status.json",
+        "bytes": 548,
+        "sha256": "9d374eebddc03ad68dbf3ed5fc9e01363693c4548f0c8c2a6b6a301249022538"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-v2-20261118/source_snapshot.json",
+        "bytes": 362366,
+        "sha256": "a6837acb748dc8d0c2434c8d3c090abc266b16082977c6f72be4811b68fced3c"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-v2-20261118/artifacts.json",
+        "bytes": 80518,
+        "sha256": "9683a02bf5b1ef600e49cd5861338eb2c8953f04ca038da06a996543a685621b"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1a-contract-v3-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1a-contract-v3-20261118",
+        "status": "completed",
+        "started_at": "2026-11-18T03:42:19.557849+00:00",
+        "finished_at": "2026-11-18T03:42:25.162256+00:00",
+        "exit_code": 0,
+        "pid": 35393,
+        "elapsed_seconds": 5.604427,
+        "resource_usage": {
+          "child_max_rss_kib": 53424,
+          "child_cpu_user_seconds": 1.360207,
+          "child_cpu_system_seconds": 1.4035229999999999,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "-k",
+        "3",
+        "90",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1a_contract.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T034108Z",
+      "registered_outputs": 393,
+      "registered_bytes": 4730126,
+      "archived_outputs": [],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-v3-20261118/manifest.json",
+        "bytes": 14608,
+        "sha256": "6ce3f5fad6b7bbe53cca7c9333e980f061783fc8263197c2a01a2d62973bdb8f"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-v3-20261118/status.json",
+        "bytes": 548,
+        "sha256": "9f2d4280c4460a40a3a8445877298755fd321bb8acda0efae50f3245e714997b"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-v3-20261118/source_snapshot.json",
+        "bytes": 362744,
+        "sha256": "05299edac57fbd669715e0a8a94e570ad178cda248a46d12af276f8883d865df"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-v3-20261118/artifacts.json",
+        "bytes": 89562,
+        "sha256": "9561fe43dcefbcbebcf70ba2bf629a96715bae08dc7e2cc1ebb41f7955ebad5f"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1a-contract-v4-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1a-contract-v4-20261118",
+        "status": "completed",
+        "started_at": "2026-11-18T03:50:47.647260+00:00",
+        "finished_at": "2026-11-18T03:50:53.393747+00:00",
+        "exit_code": 0,
+        "pid": 42865,
+        "elapsed_seconds": 5.746508,
+        "resource_usage": {
+          "child_max_rss_kib": 53388,
+          "child_cpu_user_seconds": 1.44547,
+          "child_cpu_system_seconds": 1.382321,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "-k",
+        "3",
+        "90",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1a_contract.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T034914Z",
+      "registered_outputs": 400,
+      "registered_bytes": 4863881,
+      "archived_outputs": [],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-v4-20261118/manifest.json",
+        "bytes": 15041,
+        "sha256": "bfa6a7838f38674d846048841bfc430621ffcf6c54033f972400310214737e24"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-v4-20261118/status.json",
+        "bytes": 537,
+        "sha256": "e7e439c3ca5f5b0541311f68941b533fb5883b331595afce0f5e5fde71a4c97f"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-v4-20261118/source_snapshot.json",
+        "bytes": 366150,
+        "sha256": "4215f0f93a8f703b69bcd1fe72a4cc36669f6e1818a3749338ac6bd261a08163"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1a-contract-v4-20261118/artifacts.json",
+        "bytes": 91128,
+        "sha256": "019ec91b6d88027022f80d1aa4c8ab8d8b50337c3f19b206d2b885c5699207fa"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1a-evidence-audit-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1a-evidence-audit-20261118",
+        "status": "failed",
+        "started_at": "2026-11-18T03:42:41.806306+00:00",
+        "finished_at": null,
+        "exit_code": null,
+        "pid": null,
+        "reconciliation_reason": "runner finalization EDQUOT; audit output retained",
+        "elapsed_seconds": null,
+        "reconciled_at": "2026-11-18T03:44:35.179280+00:00"
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "-k",
+        "3",
+        "45",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1a_evidence_audit.py",
+        "hpc-masbench-t1a-contract-v3-20261118"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T034108Z",
+      "registered_outputs": 1,
+      "registered_bytes": 2325,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1a-evidence-audit-20261118__audit.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1a-evidence-audit-20261118/manifest.json",
+        "bytes": 14711,
+        "sha256": "66ff5510cbadc38d366e3d040bdadf007d6971ee242d4bc7da4e9e3ce3dd0db7"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1a-evidence-audit-20261118/status.json",
+        "bytes": 354,
+        "sha256": "5f4c0cc9d77dce3127b558da560794959495babd117560ec67eb29087e4350cb"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1a-evidence-audit-20261118/source_snapshot.json",
+        "bytes": 362744,
+        "sha256": "05299edac57fbd669715e0a8a94e570ad178cda248a46d12af276f8883d865df"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1a-evidence-audit-20261118/artifacts.json",
+        "bytes": 283,
+        "sha256": "74e9294039d88e955da5cde06209e72d3ab70c92f6a83fe339ac4769c4a28463"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1a-evidence-audit-v2-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1a-evidence-audit-v2-20261118",
+        "status": "completed",
+        "started_at": "2026-11-18T03:44:53.480209+00:00",
+        "finished_at": "2026-11-18T03:44:53.683307+00:00",
+        "exit_code": 0,
+        "pid": 35639,
+        "elapsed_seconds": 0.203118,
+        "resource_usage": {
+          "child_max_rss_kib": 53316,
+          "child_cpu_user_seconds": 0.37152599999999997,
+          "child_cpu_system_seconds": 0.245689,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "-k",
+        "3",
+        "45",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1a_evidence_audit.py",
+        "hpc-masbench-t1a-contract-v3-20261118"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T034108Z",
+      "registered_outputs": 1,
+      "registered_bytes": 2325,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1a-evidence-audit-v2-20261118__audit.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1a-evidence-audit-v2-20261118/manifest.json",
+        "bytes": 14784,
+        "sha256": "641538325b3b2ed1867e89ac437046e678a2f3c56441f0368b25dfdcc929fa51"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1a-evidence-audit-v2-20261118/status.json",
+        "bytes": 555,
+        "sha256": "555132a997065e8fa68170862c5e4be101b31f4ee65d30165464933091f58aa9"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1a-evidence-audit-v2-20261118/source_snapshot.json",
+        "bytes": 362744,
+        "sha256": "05299edac57fbd669715e0a8a94e570ad178cda248a46d12af276f8883d865df"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1a-evidence-audit-v2-20261118/artifacts.json",
+        "bytes": 231,
+        "sha256": "ad355bf2344194b14d9dfafd3dc701780a9c8791d03907593fd82819fdb6cd91"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1a-evidence-audit-v3-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1a-evidence-audit-v3-20261118",
+        "status": "completed",
+        "started_at": "2026-11-18T03:50:54.262765+00:00",
+        "finished_at": "2026-11-18T03:50:54.502347+00:00",
+        "exit_code": 0,
+        "pid": 43062,
+        "elapsed_seconds": 0.239605,
+        "resource_usage": {
+          "child_max_rss_kib": 53388,
+          "child_cpu_user_seconds": 1.967976,
+          "child_cpu_system_seconds": 1.834435,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "-k",
+        "3",
+        "45",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1a_evidence_audit.py",
+        "hpc-masbench-t1a-contract-v4-20261118"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T034914Z",
+      "registered_outputs": 1,
+      "registered_bytes": 2325,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1a-evidence-audit-v3-20261118__audit.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1a-evidence-audit-v3-20261118/manifest.json",
+        "bytes": 15171,
+        "sha256": "098f27bfeea71b88d40b33930e0500aeee8c6b83d6ec4e790c9f8ccf07f4f619"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1a-evidence-audit-v3-20261118/status.json",
+        "bytes": 544,
+        "sha256": "cab9e96584829eab375c05e98e61977d6f3c0b10b88c8d039234f90083b217b1"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1a-evidence-audit-v3-20261118/source_snapshot.json",
+        "bytes": 366150,
+        "sha256": "4215f0f93a8f703b69bcd1fe72a4cc36669f6e1818a3749338ac6bd261a08163"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1a-evidence-audit-v3-20261118/artifacts.json",
+        "bytes": 231,
+        "sha256": "a92817db2f05fc05fa69de62b95d899cad876a754a696077fde39485af6ed093"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1b-formal-20261119",
+        "status": "failed",
+        "started_at": "2026-11-19T06:44:44.516079+00:00",
+        "finished_at": "2026-11-19T06:46:28.737600+00:00",
+        "exit_code": 1,
+        "pid": 54413,
+        "elapsed_seconds": 104.22154,
+        "resource_usage": {
+          "child_max_rss_kib": 56128,
+          "child_cpu_user_seconds": 12.762377,
+          "child_cpu_system_seconds": 6.957609,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "1018s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1b_live.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T064308Z",
+      "registered_outputs": 58,
+      "registered_bytes": 251373,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-formal-20261119__ledger.jsonl",
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-formal-20261119__control.jsonl",
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-formal-20261119__summary.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-20261119/manifest.json",
+        "bytes": 19396,
+        "sha256": "e5f90d44802b36f5e40744d2c8ead5a29481c573e9314b9680b40c41c90defe2"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-20261119/status.json",
+        "bytes": 532,
+        "sha256": "ee795d8fa019e3b66eda319c56708c5f20534203a40a6fba1a7e5adb7f21c039"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-20261119/source_snapshot.json",
+        "bytes": 418400,
+        "sha256": "c61fe1e11210497d6aa86561d64081641212f904f6989099d3b84810d98f5c64"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-20261119/artifacts.json",
+        "bytes": 10921,
+        "sha256": "d662ca29718c71a30d22c393ace1162555ca58d92183c97ac0109cef47b52bb8"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-audit-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1b-formal-audit-20261119",
+        "status": "completed",
+        "started_at": "2026-11-19T06:46:29.440391+00:00",
+        "finished_at": "2026-11-19T06:46:29.601271+00:00",
+        "exit_code": 0,
+        "pid": 54908,
+        "elapsed_seconds": 0.160901,
+        "resource_usage": {
+          "child_max_rss_kib": 72704,
+          "child_cpu_user_seconds": 0.358689,
+          "child_cpu_system_seconds": 0.209995,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "88s",
+        "prlimit",
+        "--as=2147483648",
+        "--",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1_runner_evidence_audit.py",
+        "formal"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T064308Z",
+      "registered_outputs": 1,
+      "registered_bytes": 3720,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-formal-audit-20261119__audit.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-audit-20261119/manifest.json",
+        "bytes": 19521,
+        "sha256": "a770a6249ee16ea06ccf9491b8139190e92c3c30c0f62ea54cccb42681309865"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-audit-20261119/status.json",
+        "bytes": 539,
+        "sha256": "4f29d34a454a0a0208e486a9c99b0597fe12dcd896208c3421b3523a36aefd0d"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-audit-20261119/source_snapshot.json",
+        "bytes": 418400,
+        "sha256": "c61fe1e11210497d6aa86561d64081641212f904f6989099d3b84810d98f5c64"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-audit-20261119/artifacts.json",
+        "bytes": 226,
+        "sha256": "2cb7975857ebb086373e30a59c0541cb225b215144e73754d6c45a72d2a48b92"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-audit-detail-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1b-formal-audit-detail-20261119",
+        "status": "completed",
+        "started_at": "2026-11-19T06:53:19.283069+00:00",
+        "finished_at": "2026-11-19T06:53:19.428117+00:00",
+        "exit_code": 0,
+        "pid": 55384,
+        "elapsed_seconds": 0.145068,
+        "resource_usage": {
+          "child_max_rss_kib": 72704,
+          "child_cpu_user_seconds": 0.427189,
+          "child_cpu_system_seconds": 0.143156,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "87s",
+        "prlimit",
+        "--as=2147483648",
+        "--",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1_runner_evidence_audit.py",
+        "formal"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T065010Z",
+      "registered_outputs": 1,
+      "registered_bytes": 8854,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-formal-audit-detail-20261119__audit.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-audit-detail-20261119/manifest.json",
+        "bytes": 19659,
+        "sha256": "7fb808518d06e22874b43ba27f9d3f32d288b763cdafe5305b9ae983e57c88a5"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-audit-detail-20261119/status.json",
+        "bytes": 546,
+        "sha256": "ef3a282c9fc7b306ab88ed2de461dec86f6d8988507281bc3baf1d29c5bd0538"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-audit-detail-20261119/source_snapshot.json",
+        "bytes": 418928,
+        "sha256": "3b6a69d077286b59289cd066533a1ae273102ccda2de20bd613ed57ccec6383c"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-audit-detail-20261119/artifacts.json",
+        "bytes": 233,
+        "sha256": "2c901d275fec80ef8a3ffaae099f01d8c40d29d971c566e09d1cf140257a5e80"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-contract-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1b-formal-contract-20261119",
+        "status": "completed",
+        "started_at": "2026-11-19T05:55:39.207128+00:00",
+        "finished_at": "2026-11-19T05:55:46.119340+00:00",
+        "exit_code": 0,
+        "pid": 52118,
+        "elapsed_seconds": 6.912235,
+        "resource_usage": {
+          "child_max_rss_kib": 52920,
+          "child_cpu_user_seconds": 1.5531220000000001,
+          "child_cpu_system_seconds": 1.6455419999999998,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "88s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1a_contract.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T055330Z",
+      "registered_outputs": 480,
+      "registered_bytes": 5833033,
+      "archived_outputs": [],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-contract-20261119/manifest.json",
+        "bytes": 19268,
+        "sha256": "7a933d64950b5b33bc46ac087a74dba4ab75feb3edbe78ecae18b2bd16373329"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-contract-20261119/status.json",
+        "bytes": 562,
+        "sha256": "d34256f4b6bafa26f0c8503f83f4ada15afab7b87ebe932d4b60faec76f71df8"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-contract-20261119/source_snapshot.json",
+        "bytes": 417185,
+        "sha256": "48b34fb393596d3db8d201f57539605d397c26927eee4334bd4bb4c7a97446b9"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-contract-20261119/artifacts.json",
+        "bytes": 111359,
+        "sha256": "924be680c2f7ff493e5126dc661f60edc1763759d1b4352aef3f971d5548935b"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-runner-retest-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1b-formal-runner-retest-20261119",
+        "status": "completed",
+        "started_at": "2026-11-19T07:16:40.969046+00:00",
+        "finished_at": "2026-11-19T07:17:09.731099+00:00",
+        "exit_code": 0,
+        "pid": 56939,
+        "elapsed_seconds": 28.762073,
+        "resource_usage": {
+          "child_max_rss_kib": 56116,
+          "child_cpu_user_seconds": 6.975313,
+          "child_cpu_system_seconds": 2.935707,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "1018s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1b_live.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T071534Z",
+      "registered_outputs": 58,
+      "registered_bytes": 251642,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-formal-runner-retest-20261119__ledger.jsonl",
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-formal-runner-retest-20261119__control.jsonl",
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-formal-runner-retest-20261119__summary.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-runner-retest-20261119/manifest.json",
+        "bytes": 20198,
+        "sha256": "475ebbb34ef760f049a7bbbacd2c3fbb21700cbc908c489adfb5c2049bb89b2b"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-runner-retest-20261119/status.json",
+        "bytes": 548,
+        "sha256": "7e1a6910ded6db65f02bd5b5fa5087d0369cecc9e0642b5c217ef3dce50d3322"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-runner-retest-20261119/source_snapshot.json",
+        "bytes": 426510,
+        "sha256": "025f0a954d016a3f14067400ba03d732fa0856efcb5efef6e2b0a0c7ac3d57e6"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-runner-retest-20261119/artifacts.json",
+        "bytes": 10935,
+        "sha256": "c11d531f88bb72ea02ea9592c3dca252a0ef78932c986476335b9421f2d74c5c"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-runner-retest-audit-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1b-formal-runner-retest-audit-20261119",
+        "status": "completed",
+        "started_at": "2026-11-19T07:17:53.884712+00:00",
+        "finished_at": "2026-11-19T07:17:54.047054+00:00",
+        "exit_code": 0,
+        "pid": 57230,
+        "elapsed_seconds": 0.162362,
+        "resource_usage": {
+          "child_max_rss_kib": 71272,
+          "child_cpu_user_seconds": 0.363268,
+          "child_cpu_system_seconds": 0.20829399999999998,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "88s",
+        "prlimit",
+        "--as=2147483648",
+        "--",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1_runner_evidence_audit.py",
+        "formal-runner-retest"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T071534Z",
+      "registered_outputs": 1,
+      "registered_bytes": 8984,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-formal-runner-retest-audit-20261119__audit.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-runner-retest-audit-20261119/manifest.json",
+        "bytes": 20357,
+        "sha256": "cddbaf3f42351537e4cddd62c07ec9758ba04c3bd8322b7dd65bdf6164d6c276"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-runner-retest-audit-20261119/status.json",
+        "bytes": 564,
+        "sha256": "d12e20279c27436106978189eb638dfd6465986e779b782c51c003f4f1ea2d4c"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-runner-retest-audit-20261119/source_snapshot.json",
+        "bytes": 426510,
+        "sha256": "025f0a954d016a3f14067400ba03d732fa0856efcb5efef6e2b0a0c7ac3d57e6"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-runner-retest-audit-20261119/artifacts.json",
+        "bytes": 240,
+        "sha256": "a6ab59f1b89669b02455eca4049c11a9e1f50a6144c8beb41031645dcb59dc90"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-runner-retest-contract-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1b-formal-runner-retest-contract-20261119",
+        "status": "completed",
+        "started_at": "2026-11-19T07:06:56.758303+00:00",
+        "finished_at": "2026-11-19T07:07:04.216447+00:00",
+        "exit_code": 0,
+        "pid": 56254,
+        "elapsed_seconds": 7.458177,
+        "resource_usage": {
+          "child_max_rss_kib": 52920,
+          "child_cpu_user_seconds": 1.6359469999999998,
+          "child_cpu_system_seconds": 1.685983,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "88s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1a_contract.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T070540Z",
+      "registered_outputs": 502,
+      "registered_bytes": 6110172,
+      "archived_outputs": [],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-runner-retest-contract-20261119/manifest.json",
+        "bytes": 19737,
+        "sha256": "d808842769f21b7ebf65e5de86dae4f89373e5fcefce664619caf1ca5cc7e122"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-runner-retest-contract-20261119/status.json",
+        "bytes": 566,
+        "sha256": "b5db7c1ec8954e91a2137edf04920b382e731f175411a046cfb8881a322ba9f8"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-runner-retest-contract-20261119/source_snapshot.json",
+        "bytes": 422127,
+        "sha256": "c496ec16c5f18915cec431128ce4bf83a5cea2d062795803868ca3f64226b8c9"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-formal-runner-retest-contract-20261119/artifacts.json",
+        "bytes": 116854,
+        "sha256": "bebe3a062478e50053fbfcaf4ec29c6c7cf55924c37aff06b4b9dba96b103591"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-live-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1b-live-20261118",
+        "status": "failed",
+        "started_at": "2026-11-18T05:36:48.558323+00:00",
+        "finished_at": "2026-11-18T05:36:49.528992+00:00",
+        "exit_code": 1,
+        "pid": 49902,
+        "elapsed_seconds": 0.970691,
+        "resource_usage": {
+          "child_max_rss_kib": 56056,
+          "child_cpu_user_seconds": 0.876226,
+          "child_cpu_system_seconds": 0.35325799999999996,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1b_live.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T052855Z",
+      "registered_outputs": 5,
+      "registered_bytes": 132929,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-live-20261118__ledger.jsonl",
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-live-20261118__control.jsonl",
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-live-20261118__summary.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-20261118/manifest.json",
+        "bytes": 15734,
+        "sha256": "6b0c1a7982918da9b64630cf33252dd4375accecf4a06bf969fa50ac95e89b1d"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-20261118/status.json",
+        "bytes": 539,
+        "sha256": "556b2fac48abdee74d6b020a8b5780f52d7660863805924d993bcace074a4362"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-20261118/source_snapshot.json",
+        "bytes": 371180,
+        "sha256": "f6a9b3a3c799893a08d8e26f461b67a231b15f4ec5bfe2bf762749f098ec2583"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-20261118/artifacts.json",
+        "bytes": 877,
+        "sha256": "f5ac0d90aac961719775e77f5a5418f5ff02fbe27b0d7a08e286fb21bb2b6758"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-live-evidence-audit-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1b-live-evidence-audit-20261118",
+        "status": "completed",
+        "started_at": "2026-11-18T06:27:22.399900+00:00",
+        "finished_at": "2026-11-18T06:27:22.548742+00:00",
+        "exit_code": 0,
+        "pid": 52756,
+        "elapsed_seconds": 0.148867,
+        "resource_usage": {
+          "child_max_rss_kib": 72860,
+          "child_cpu_user_seconds": 0.392001,
+          "child_cpu_system_seconds": 0.22269899999999998,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1b_evidence_audit.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T062452Z",
+      "registered_outputs": 1,
+      "registered_bytes": 5992,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-live-evidence-audit-20261118__audit.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-evidence-audit-20261118/manifest.json",
+        "bytes": 16403,
+        "sha256": "d62ae696de2647b4408feea078c79da7e59a1be34315e3aa6aafe9f4101f8852"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-evidence-audit-20261118/status.json",
+        "bytes": 557,
+        "sha256": "8ca81dc611fa57620a6221b965b84e738d1f014f6bee95ac5acb9b2cc468723f"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-evidence-audit-20261118/source_snapshot.json",
+        "bytes": 377015,
+        "sha256": "e6f6056c5eaa41cfa38dc58b908f632d7cbb0c20cbe279946e17aca7fad76e7c"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-evidence-audit-20261118/artifacts.json",
+        "bytes": 233,
+        "sha256": "f19abbff8ee86cd3c1882bacc7c40a4f6adc907b590d0d0affa831c44bb118fb"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-live-v2-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1b-live-v2-20261118",
+        "status": "failed",
+        "started_at": "2026-11-18T05:53:53.884829+00:00",
+        "finished_at": null,
+        "exit_code": null,
+        "pid": 50808,
+        "reconciliation_reason": "EDQUOT during the first ledger write, then during launcher status finalization",
+        "reconciled_at": "2026-11-18T05:58:59.507557+00:00"
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1b_live.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T055236Z",
+      "registered_outputs": 0,
+      "registered_bytes": 0,
+      "archived_outputs": [],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-v2-20261118/manifest.json",
+        "bytes": 15892,
+        "sha256": "909bf1cce8d9cb299ce9bf6771eba09eb5785d5ca98ed33bc8d578ef19f7d26e"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-v2-20261118/status.json",
+        "bytes": 350,
+        "sha256": "fe8289da4f1bac13b475eba3dd381a3dbd43c67ef7058dee033aafa7e2d93ea7"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-v2-20261118/source_snapshot.json",
+        "bytes": 373341,
+        "sha256": "d4237c6d61b5e2c4eeb35c259574c9fc6b5bffa0b6f524de27397fb2c9840f0b"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-v2-20261118/artifacts.json",
+        "bytes": 67,
+        "sha256": "4a836ae2c43192f69027942eb81df7d4f811368abe12fea8f02c9b08c73bf9e9"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-live-v3-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1b-live-v3-20261118",
+        "status": "failed",
+        "started_at": "2026-11-18T06:06:56.276292+00:00",
+        "finished_at": "2026-11-18T06:07:31.903819+00:00",
+        "exit_code": 1,
+        "pid": 51536,
+        "elapsed_seconds": 35.627553,
+        "resource_usage": {
+          "child_max_rss_kib": 56024,
+          "child_cpu_user_seconds": 5.092688,
+          "child_cpu_system_seconds": 2.609282,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1b_live.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T060234Z",
+      "registered_outputs": 32,
+      "registered_bytes": 224675,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-live-v3-20261118__ledger.jsonl",
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-live-v3-20261118__control.jsonl",
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-live-v3-20261118__summary.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-v3-20261118/manifest.json",
+        "bytes": 16363,
+        "sha256": "7feec7a3dd71a80379e70171822436541d464786acba5c5347bb8b5b23cc39d7"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-v3-20261118/status.json",
+        "bytes": 532,
+        "sha256": "2f6230305ec85e1552715ebb8b68090670d282ccdcc9e18f35027be595c16dbb"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-v3-20261118/source_snapshot.json",
+        "bytes": 375163,
+        "sha256": "d40fb90807dcaa097e432c0ebdab446acb9bb86ec8d25e7ba1f41025242d2cf6"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-live-v3-20261118/artifacts.json",
+        "bytes": 5999,
+        "sha256": "c46e411a98761fe730ec09b1d2afd000c7946c78c4b30277eab8ce20cfe1aa34"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-post-storage-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1b-post-storage-20261119",
+        "status": "failed",
+        "started_at": "2026-11-19T02:59:57.236829+00:00",
+        "finished_at": "2026-11-19T03:00:59.250430+00:00",
+        "exit_code": 1,
+        "pid": 43391,
+        "elapsed_seconds": 62.013628,
+        "resource_usage": {
+          "child_max_rss_kib": 56088,
+          "child_cpu_user_seconds": 5.967025,
+          "child_cpu_system_seconds": 3.898008,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1b_live.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T025543Z",
+      "registered_outputs": 11,
+      "registered_bytes": 201962,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-post-storage-20261119__ledger.jsonl",
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-post-storage-20261119__control.jsonl",
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-post-storage-20261119__summary.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-post-storage-20261119/manifest.json",
+        "bytes": 17870,
+        "sha256": "163c16ce6efe3ee148869513769aff6cf3dca49186b4684aadcec723772d1f06"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-post-storage-20261119/status.json",
+        "bytes": 537,
+        "sha256": "c271c6d680b1dc273481d0504b6c016f56ee9797d3f0b460b8ae4805eff5b240"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-post-storage-20261119/source_snapshot.json",
+        "bytes": 405435,
+        "sha256": "0f9f4716a7aac8f5b15a3f821353a8b3a787a3c23da988034c01cc9e754c3918"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-post-storage-20261119/artifacts.json",
+        "bytes": 2023,
+        "sha256": "68294e1599c3fdac0e6e93f47c943a773d1b18ff803964a3afbd55d1463c54f0"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-post-storage-failure-audit-20261119",
+      "state": {
+        "run_id": "hpc-masbench-t1b-post-storage-failure-audit-20261119",
+        "status": "completed",
+        "started_at": "2026-11-19T03:17:48.819532+00:00",
+        "finished_at": "2026-11-19T03:17:49.016774+00:00",
+        "exit_code": 0,
+        "pid": 44445,
+        "elapsed_seconds": 0.197253,
+        "resource_usage": {
+          "child_max_rss_kib": 71732,
+          "child_cpu_user_seconds": 0.374627,
+          "child_cpu_system_seconds": 0.266192,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "timeout",
+        "--kill-after=5s",
+        "85s",
+        "prlimit",
+        "--as=2147483648",
+        "--",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1_post_storage_failure_audit.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261119T031320Z",
+      "registered_outputs": 1,
+      "registered_bytes": 5528,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-post-storage-failure-audit-20261119__audit.json"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-post-storage-failure-audit-20261119/manifest.json",
+        "bytes": 18165,
+        "sha256": "0cdaa082165ef5c4687038576b10eb485d037eacb1f5411e22263e5f60198f60"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-post-storage-failure-audit-20261119/status.json",
+        "bytes": 553,
+        "sha256": "e12411fec12e0ef8e456d0a6576a553f28f71c6641037ce5344648445a1eb916"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-post-storage-failure-audit-20261119/source_snapshot.json",
+        "bytes": 406371,
+        "sha256": "2d6e2943e116f4dce1efc619d26c3fbc46484f30a574f96eab5c80fdc5292f9a"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-post-storage-failure-audit-20261119/artifacts.json",
+        "bytes": 240,
+        "sha256": "5e2233c444514d5049c412c73708324e10120895ec85e06f765e59f642867fa2"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-runner-recheck-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1b-runner-recheck-20261118",
+        "status": "failed",
+        "started_at": "2026-11-18T07:43:47.081986+00:00",
+        "finished_at": "2026-11-18T07:44:19.024035+00:00",
+        "exit_code": 120,
+        "pid": 56831,
+        "elapsed_seconds": 31.942077,
+        "resource_usage": {
+          "child_max_rss_kib": 56048,
+          "child_cpu_user_seconds": 3.721254,
+          "child_cpu_system_seconds": 1.9949379999999999,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1b_live.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T074013Z",
+      "registered_outputs": 10,
+      "registered_bytes": 200365,
+      "archived_outputs": [
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-runner-recheck-20261118__ledger.jsonl",
+        "research/artifacts/masbench-t1-20261119/hpc-masbench-t1b-runner-recheck-20261118__control.jsonl"
+      ],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-runner-recheck-20261118/manifest.json",
+        "bytes": 17062,
+        "sha256": "90fd207db3585308e58e131ad6bc6efe757ca244ab57c9346a413e3ffcef8aa5"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-runner-recheck-20261118/status.json",
+        "bytes": 551,
+        "sha256": "ab9e12da82ae5779670b6f4dbcee2268227ad919c90bdc47fb0cc75dd41e401d"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-runner-recheck-20261118/source_snapshot.json",
+        "bytes": 381913,
+        "sha256": "3bb7b503d70071e0b4b20c70d7b154425d52ff73d8ece3d80fb4249019108ffb"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-runner-recheck-20261118/artifacts.json",
+        "bytes": 1875,
+        "sha256": "a9a26a3fa439c24936c21f9fc2f4a46aa76f4bbee04465da6b8c7548bf1a790c"
+      }
+    },
+    {
+      "run_id": "hpc-masbench-t1b-wiring-regression-20261118",
+      "state": {
+        "run_id": "hpc-masbench-t1b-wiring-regression-20261118",
+        "status": "completed",
+        "started_at": "2026-11-18T04:52:33.878167+00:00",
+        "finished_at": "2026-11-18T04:52:39.467491+00:00",
+        "exit_code": 0,
+        "pid": 47721,
+        "elapsed_seconds": 5.589345,
+        "resource_usage": {
+          "child_max_rss_kib": 53436,
+          "child_cpu_user_seconds": 1.527562,
+          "child_cpu_system_seconds": 1.277182,
+          "peak_gpu_memory": null
+        },
+        "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "-k",
+        "3",
+        "60",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "experiments_ext/masbench_t1a_contract.py"
+      ],
+      "git_commit": "d5f5522f99872d7453ef54cce06c9ae941846877",
+      "source_sync_id": "20261118T044714Z",
+      "registered_outputs": 400,
+      "registered_bytes": 4864157,
+      "archived_outputs": [],
+      "manifest": {
+        "path": "research/sync/runs/hpc-masbench-t1b-wiring-regression-20261118/manifest.json",
+        "bytes": 15468,
+        "sha256": "808344bdbad7c25ba1412b32d6137b4527fd0ca3e01865db2db965991b5e5ed4"
+      },
+      "status": {
+        "path": "research/sync/runs/hpc-masbench-t1b-wiring-regression-20261118/status.json",
+        "bytes": 544,
+        "sha256": "98a299eab16a0366be3ffc539be46c8bf687da9c164bb51826b8185afb62cb8d"
+      },
+      "source_snapshot": {
+        "path": "research/sync/runs/hpc-masbench-t1b-wiring-regression-20261118/source_snapshot.json",
+        "bytes": 369946,
+        "sha256": "5db5d656c2f670ae50abf70facf13c74126e3c5b64e3531a442a8d8cf6c56cf2"
+      },
+      "artifact_index": {
+        "path": "research/sync/runs/hpc-masbench-t1b-wiring-regression-20261118/artifacts.json",
+        "bytes": 91134,
+        "sha256": "a85c36b4fd3050f5a14448198bdd0abb8e297ae5a6a2801cdd7ac4c5afc86b5f"
+      }
+    }
+  ]
+}

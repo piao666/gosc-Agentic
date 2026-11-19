@@ -125,3 +125,10 @@
 /research/sync/runs/hpc-masbench-cpp-vendor-prepare*-20261116/** -text
 /research/sync/runs/hpc-masbench-cpp17-helper-build-20261116/** -text
 /research/sync/runs/hpc-masbench-real-deployment-20261117/** -text
+# Preserve byte-identical T1 records for comparison with the HPC receipts.
+/research/artifacts/masbench-t1-20261119/** -text
+/research/logs/masbench-t1-driver-2026-11-17/** -text
+/research/sync/runs/hpc-masbench-t1*-20261118/** -text
+/research/sync/runs/hpc-masbench-t1*-20261119/** -text
+/research/sync/runs/resume-radio-noise-20261020/ssd_archive_location.json -text
+/research/sync/runs/resume-radio-overhead-20261020/ssd_archive_location.json -text

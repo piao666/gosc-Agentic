@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t1b-live-evidence-audit-20261118",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 5992,
+      "sha256": "cf09986a41d610cb187d255e9fd4d179d1eacf1303a370f7d87b54d6454b311b"
+    }
+  ]
+}

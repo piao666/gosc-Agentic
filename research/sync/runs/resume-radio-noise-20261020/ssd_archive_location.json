@@ -1,0 +1,29 @@
+{
+  "intent": "references user-confirmed SSD copies retired from this run",
+  "manifest_sha256": "b6dc850df47ece3f5929bf6c6f83f5c2fb08ef9d8c37ee3b3b5f6b1338bb5d17",
+  "hdd_archive": "/hdd/u202520081000097/gosc-archive/2026-11-18-ssd-relief-v1",
+  "hdd_execution_journal": "/hdd/u202520081000097/gosc-archive/2026-11-18-ssd-relief-v1/ssd_cleanup_execution_2026-11-19.jsonl",
+  "files": [
+    {
+      "path": "research/sync/runs/resume-radio-noise-20261020/outputs/legacy_results/noise.jsonl",
+      "size": 55899295,
+      "sha256": "4c177982d2c7533218865a71b32431f1a1ab2de7feb29619313ce77dfddf5a97",
+      "ssd_allocated_bytes": 55902208,
+      "ssd_inode": 144115357894872037,
+      "ssd_link_count": 1,
+      "ssd_device": 3044440500,
+      "ssd_mtime_ns": 1792480785000000000
+    },
+    {
+      "path": "research/sync/runs/resume-radio-noise-20261020/outputs/pool-001-jobs.jsonl",
+      "size": 55971326,
+      "sha256": "d23f11042f80753c261b3dec52b2305fc52478388916471f61de537da166f850",
+      "ssd_allocated_bytes": 55975936,
+      "ssd_inode": 144115357894847439,
+      "ssd_link_count": 1,
+      "ssd_device": 3044440500,
+      "ssd_mtime_ns": 1792480785000000000
+    }
+  ],
+  "restore_note": "Copy archived file to original relative path and verify SHA-256 before use."
+}

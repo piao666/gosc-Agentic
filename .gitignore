@@ -34,3 +34,9 @@ research/sync/*.partial-*
 # Nov16/17 raw full inventories retained locally/HPC; SHA-bound compact index published.
 /research/sync/receipts/20261116T*.json
 /research/sync/receipts/20261117T*.json
+# T1 full transfer receipts remain with the source records. Git carries a SHA-bound index.
+/research/sync/receipts/20261118T*.json
+/research/sync/receipts/20261118T*.json.gz
+/research/sync/receipts/20261119T*-t1-*-scoped.json
+# Empty temporary T1 metadata writes from interrupted finalization.
+/research/sync/runs/hpc-masbench-t1*/*.tmp-*

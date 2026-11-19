@@ -1,0 +1,16 @@
+{
+  "approved": true,
+  "scope": "T1-B synthetic only",
+  "exclusive_service": true,
+  "service_exclusivity_confirmation": "用户确认新的 T1-B 合成复验并在验收期间独占项目 Ollama：批准",
+  "run_id": "hpc-masbench-t1b-runner-recheck-20261118",
+  "previous_t1b_run": "hpc-masbench-t1b-live-v3-20261118",
+  "service_pid": 37483,
+  "service_stamp": "4897373256",
+  "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+  "protocol_sha256": "adce1608bbe011d71e9dddc5ad62426fde74af41f4f158ee788310b2a4609660",
+  "plan_sha256": "2a4cdb64f86e12dff9c8a0612d9a1e9c4432ea7a44d062d1d63d00195025aba2",
+  "source_sha256": "14d3cd4fd66d771d0bff96613b42fe8d8e810e3b402ac29968575ed83656c700",
+  "runner_sha256": "f9ecb2e0af17092bb242534eb493b27cff9fa32c8772a521ed9ef549a7aef68e",
+  "registry_sha256": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86"
+}

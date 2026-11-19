@@ -1,0 +1,253 @@
+{
+  "run": "hpc-masbench-t1-cold-load-v2-20261119",
+  "registered_output_files_verified": 13,
+  "generation_requests": 0,
+  "real_task_inputs": 0,
+  "render": "completed",
+  "render_error": null,
+  "campaign_error": null,
+  "render_send": {
+    "kind": "http-sent",
+    "mono": 49153469.18951504,
+    "operation": "render",
+    "phase": "sent",
+    "pid": 50052,
+    "utc": "2026-11-19T05:15:03.827418+00:00"
+  },
+  "runner_witnesses": [
+    {
+      "pid": 50055,
+      "stamp": "4915346992",
+      "observed_mono": 49153470.09596033
+    }
+  ],
+  "runner_samples": [
+    {
+      "pid": 50055,
+      "stamp": "4915346992",
+      "first_sample": {
+        "io": {
+          "rchar": 36869,
+          "read_bytes": 3362816,
+          "syscr": 50
+        },
+        "majflt": 0,
+        "minflt": 5474,
+        "model_mapped": false,
+        "pid": 50055,
+        "stamp": "4915346992",
+        "status": "observed",
+        "system_ticks": 1,
+        "user_ticks": 2,
+        "observed_mono": 49153470.125912674
+      },
+      "last_sample": {
+        "io": {
+          "rchar": 6093288,
+          "read_bytes": 1616560128,
+          "syscr": 975
+        },
+        "majflt": 0,
+        "minflt": 1218879,
+        "model_mapped": true,
+        "pid": 50055,
+        "stamp": "4915346992",
+        "status": "observed",
+        "system_ticks": 252,
+        "user_ticks": 46,
+        "observed_mono": 49153479.483594775
+      },
+      "samples": 10,
+      "io_samples": 10,
+      "observed_counter_deltas": {
+        "syscr": 925,
+        "rchar": 6056419,
+        "read_bytes": 1613197312
+      },
+      "first_model_mapping_observed_mono": 49153474.34742212
+    }
+  ],
+  "sample_count": 13,
+  "charges": {
+    "old_get": 2,
+    "get": 1,
+    "cleanup_get": 3,
+    "debug": 1,
+    "unload": 1
+  },
+  "service_log": {
+    "status": "bounded-window-read",
+    "events": [
+      {
+        "events": [
+          "runner-command"
+        ],
+        "offset": 2990086,
+        "bytes": 340,
+        "sha256": "727eebc2e0ffd37a89fa57bf6811698471328c5a6f49f9dd6744532fe0f73004",
+        "timestamp": "2026-11-19T13:15:04.558+08:00",
+        "seconds_after_send": 0.730582
+      },
+      {
+        "events": [
+          "runner-init"
+        ],
+        "offset": 2990426,
+        "bytes": 92,
+        "sha256": "4678883103b2d5d547e1c578f28551068ca7a2be06c9d168d9dfacb94a307486",
+        "timestamp": "2026-11-19T13:15:04.573+08:00",
+        "seconds_after_send": 0.745582
+      },
+      {
+        "events": [
+          "weight-tensors"
+        ],
+        "offset": 2999938,
+        "bytes": 76,
+        "sha256": "531302b2a28a4287a79fec01a3e0ba051268fc1a5f5f6a1768543feae24d3bed",
+        "timestamp_floor": "2026-11-19T13:15:07.807+08:00",
+        "timestamp_ceiling": "2026-11-19T13:15:13.830+08:00",
+        "seconds_floor": 3.979582,
+        "seconds_ceiling": 10.002582
+      },
+      {
+        "events": [
+          "weight-tensors"
+        ],
+        "offset": 3000014,
+        "bytes": 52,
+        "sha256": "538ad4c7c0293c2d8483d0b08b6871588db82877e338b254fe89f8e4a88d018d",
+        "timestamp_floor": "2026-11-19T13:15:07.807+08:00",
+        "timestamp_ceiling": "2026-11-19T13:15:13.830+08:00",
+        "seconds_floor": 3.979582,
+        "seconds_ceiling": 10.002582
+      },
+      {
+        "events": [
+          "weight-tensors"
+        ],
+        "offset": 3000066,
+        "bytes": 45,
+        "sha256": "68334af811f06773280d55b40ddd3d13535e664b6db5fadb6c645c1e6e6ee6d0",
+        "timestamp_floor": "2026-11-19T13:15:07.807+08:00",
+        "timestamp_ceiling": "2026-11-19T13:15:13.830+08:00",
+        "seconds_floor": 3.979582,
+        "seconds_ceiling": 10.002582
+      },
+      {
+        "events": [
+          "weight-tensors"
+        ],
+        "offset": 3000111,
+        "bytes": 44,
+        "sha256": "822f122099bd759bc038426a1b62648550d0f67082b56f4d08793446614bf0b3",
+        "timestamp_floor": "2026-11-19T13:15:07.807+08:00",
+        "timestamp_ceiling": "2026-11-19T13:15:13.830+08:00",
+        "seconds_floor": 3.979582,
+        "seconds_ceiling": 10.002582
+      },
+      {
+        "events": [
+          "weight-tensors"
+        ],
+        "offset": 3000155,
+        "bytes": 60,
+        "sha256": "318cd2dc4ee38d3eadf16e12e9a59b51ccdba1da718c913bc5e8873a46d0f170",
+        "timestamp_floor": "2026-11-19T13:15:07.807+08:00",
+        "timestamp_ceiling": "2026-11-19T13:15:13.830+08:00",
+        "seconds_floor": 3.979582,
+        "seconds_ceiling": 10.002582
+      },
+      {
+        "events": [
+          "weight-tensors"
+        ],
+        "offset": 3000215,
+        "bytes": 60,
+        "sha256": "8834d733a402e7c8f0a56a365433da026fa56fe3af322993160668695c31d2dc",
+        "timestamp_floor": "2026-11-19T13:15:07.807+08:00",
+        "timestamp_ceiling": "2026-11-19T13:15:13.830+08:00",
+        "seconds_floor": 3.979582,
+        "seconds_ceiling": 10.002582
+      },
+      {
+        "events": [
+          "runner-ready"
+        ],
+        "offset": 3001222,
+        "bytes": 111,
+        "sha256": "49579f5195eb9bdea88f2b9ca95c62afaff9b440eeaace07406ed07c76314790",
+        "timestamp": "2026-11-19T13:15:13.830+08:00",
+        "seconds_after_send": 10.002582
+      },
+      {
+        "events": [
+          "runner-ready"
+        ],
+        "offset": 3001547,
+        "bytes": 111,
+        "sha256": "49579f5195eb9bdea88f2b9ca95c62afaff9b440eeaace07406ed07c76314790",
+        "timestamp": "2026-11-19T13:15:13.830+08:00",
+        "seconds_after_send": 10.002582
+      },
+      {
+        "events": [],
+        "offset": 3001658,
+        "bytes": 91,
+        "sha256": "9a14b7e73ad5ea90da2a0d204a89bc60d1ff03874afc707a2872faac680c2c75",
+        "timestamp_floor": "2026-11-19T13:15:13.830+08:00",
+        "http_status": 200,
+        "http_elapsed": "10.009569107s",
+        "route": "/api/chat",
+        "seconds_floor": 10.002582
+      },
+      {
+        "events": [],
+        "offset": 3001839,
+        "bytes": 91,
+        "sha256": "c079682ad12d6983d7e1598bfb8557bc6bb778e732828eba9d32f3bc7fb59ae7",
+        "timestamp_floor": "2026-11-19T13:15:13.830+08:00",
+        "http_status": 200,
+        "http_elapsed": "3.608068ms",
+        "route": "/api/chat",
+        "seconds_floor": 10.002582
+      }
+    ],
+    "sha256": "15f9ebe7bfc35d1dbb3af81cfab09e97063fd8966ef4b996a55eb7f0888ac182"
+  },
+  "combined_old_get_charges": 3,
+  "service_marker_retained": false,
+  "cleanup_proof": [
+    {
+      "exited": [
+        {
+          "current_stamp": null,
+          "pid": 50055,
+          "stamp": "4915346992"
+        }
+      ],
+      "kind": "unload-and-identity-proved",
+      "response": {
+        "created_at": "2026-11-19T05:15:14.234491532Z",
+        "done": true,
+        "done_reason": "unload",
+        "message": {
+          "content": "",
+          "role": "assistant"
+        },
+        "model": "qwen2.5:7b"
+      }
+    }
+  ],
+  "total_seconds": 12.219207286834717,
+  "peaks": {
+    "driver_rss": 65671168,
+    "service_rss": 5295890432,
+    "gpu_bytes": 5192548352
+  },
+  "physical_read_attribution_verified": false,
+  "native_immediate_idle_verified": false,
+  "t1_acceptance_passed": false,
+  "elapsed_from_send_to_observed_end_seconds": 10.050872191786766,
+  "first_runner_observed_seconds": 0.906445287168026
+}

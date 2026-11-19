@@ -1,0 +1,50 @@
+{
+  "run": "hpc-masbench-t1-cold-load-v2-20261119",
+  "generation_requests": 0,
+  "actual_task_inputs": 0,
+  "render": "completed",
+  "cold_runner_before_send": true,
+  "cache_temperature": "unknown",
+  "log_begin": {
+    "inode": 144115357894841977,
+    "offset": 2984390
+  },
+  "prior_no_send_run": "hpc-masbench-t1-cold-load-20261119",
+  "prior_old_get_charge": 1,
+  "diagnostic_started": {
+    "utc": "2026-11-19T05:15:03.460874+00:00",
+    "mono": 49153468.8229677
+  },
+  "render_finished": {
+    "utc": "2026-11-19T05:15:13.878290+00:00",
+    "mono": 49153479.24038723
+  },
+  "cleanup_started": {
+    "utc": "2026-11-19T05:15:13.878312+00:00",
+    "mono": 49153479.240395665
+  },
+  "cleanup_completed": {
+    "utc": "2026-11-19T05:15:15.017510+00:00",
+    "mono": 49153480.37960722
+  },
+  "log_end": {
+    "inode": 144115357894841977,
+    "offset": 3002110
+  },
+  "charges": {
+    "old_get": 2,
+    "get": 1,
+    "cleanup_get": 3,
+    "debug": 1,
+    "unload": 1
+  },
+  "elapsed_seconds": 12.219207286834717,
+  "samples": 13,
+  "peaks": {
+    "driver_rss": 65671168,
+    "service_rss": 5295890432,
+    "gpu_bytes": 5192548352
+  },
+  "service_marker_retained": false,
+  "diagnostic_claimed": true
+}

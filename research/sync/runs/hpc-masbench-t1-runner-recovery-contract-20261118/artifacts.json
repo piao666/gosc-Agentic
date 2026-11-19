@@ -1,0 +1,2325 @@
+{
+  "run_id": "hpc-masbench-t1-runner-recovery-contract-20261118",
+  "files": [
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000002-1-pair-binding.json",
+      "size": 210,
+      "sha256": "cf63f7c728e8e04b8aa8bab0aeeaa982eb1b8c4a5a65056382cd122b5e1e64e6"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000003-2-full-input-count.json",
+      "size": 252,
+      "sha256": "236cb5755c75edf342b62945d1e16ca38099758cde9c48bd09c3ed61ad10ba81"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000004-3-binding-evidence.json",
+      "size": 809,
+      "sha256": "5fc58063697a3d8234a8cad691a172261fe551d9c928fcd160a999014db663e3"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000005-4-client.json",
+      "size": 352,
+      "sha256": "1dfc1ac93bf6503b51dbc916be4770a0c2f8dc5afee6a919b9f33e7ff66e42a6"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000006-5-client.json",
+      "size": 867,
+      "sha256": "31bb528e9c7e589d746dfdf11cf17a3349767b5f39c71e99db077cd147b15d37"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000008-6-provider-request.json",
+      "size": 201,
+      "sha256": "a9c433865b751cf55c8c77984250b288be5318e9849b3ff0149c506d0a7729b5"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000009-7-client.json",
+      "size": 1237,
+      "sha256": "a2c6ebb54e31c1f739d85517fe73cea0dda42a66b084dc245ff24a82a50ed1ce"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000011-8-full-input-count.json",
+      "size": 386,
+      "sha256": "f07d118e3a034e70ba3873459d670186917e66805e489f2c40569a3f1a1c7d06"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000012-9-binding-evidence.json",
+      "size": 882,
+      "sha256": "72e5334dd64fd08eb7bfc0a661e7e98e9504af7c4912ddaa1ccd6c708bd7df1d"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000013-10-client.json",
+      "size": 352,
+      "sha256": "0c3f32b51d1f2a5427ef58f3d554acbe8f3df2f015887d4e77b3bbcacc1bffb9"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000014-11-client.json",
+      "size": 928,
+      "sha256": "ff7dd1c9b48cc7046e7b7b9b08aac7536d92df0d622f6f3a518e10b42fd38259"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000016-12-provider-request.json",
+      "size": 262,
+      "sha256": "19e82079512581a4ba8b3d8018ce3c54583b4e8f3f2c186f7963d92a6d217adb"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000017-13-client.json",
+      "size": 1239,
+      "sha256": "5d5e26946fd2e86ebbaeda8afb492ffb51bcd87abecf5468cb76be5d460a64b7"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000019-14-wire-events.json",
+      "size": 10363,
+      "sha256": "e8389f8d632af151190cded0dd1d59e68956095fafb0ef2bca6acceb991b0973"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000020-15-application-result.json",
+      "size": 2085,
+      "sha256": "58548ff28b1480d238f0209358ca22ca1e4447cef3efa753ccc59f9e131d1207"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000023-16-pair-binding.json",
+      "size": 210,
+      "sha256": "1285a60919a179f3381901461444684b8c796f2828d5454ef835d0a9e561ab27"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000024-17-full-input-count.json",
+      "size": 252,
+      "sha256": "236cb5755c75edf342b62945d1e16ca38099758cde9c48bd09c3ed61ad10ba81"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000025-18-binding-evidence.json",
+      "size": 809,
+      "sha256": "5fc58063697a3d8234a8cad691a172261fe551d9c928fcd160a999014db663e3"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000026-19-client.json",
+      "size": 352,
+      "sha256": "740ffe331bfe5ad5c6ccd8e064a65e1d8f59278acc6e4171a92558119c77f2d0"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000027-20-client.json",
+      "size": 867,
+      "sha256": "5cbd54f99592d8787753f0028e939908983c213769bce5ac37551488641d79f1"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000029-21-provider-request.json",
+      "size": 201,
+      "sha256": "7ef6a3bcb6e0fe93967adf39d8b0cdcf651f19e0f18812bd7d0593af469a63e6"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000030-22-client.json",
+      "size": 1239,
+      "sha256": "0c7d5136f806b44cce6e384516dbc0fc3ca4cf07449a76a416ca0525becbb594"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000032-23-full-input-count.json",
+      "size": 244,
+      "sha256": "c87137dcfd4370a80734246fbae1e62eb5d48f7c2f5fa853d17971d79e90d730"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000033-24-binding-evidence.json",
+      "size": 805,
+      "sha256": "674ba7b239f50aeaf618debbb80ef53842046233e43e054d5634742146a69abf"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000034-25-client.json",
+      "size": 352,
+      "sha256": "c2296a341258296b1800c32bd073fc15b2f5fa71c7c1aa620a2828098de95d7c"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000035-26-client.json",
+      "size": 863,
+      "sha256": "b237ec865c9c46bee9e4f5c87374f126b878dd0956ceca34bc61c58228e2340b"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000037-27-provider-request.json",
+      "size": 197,
+      "sha256": "bb5b3227e754063b29a8156f8fea81fbede1a3e82e4d69fd4d33e8eaab442818"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000038-28-client.json",
+      "size": 1239,
+      "sha256": "207eae8db26a652bc1464eb04dc8983dcbdcaa0fe47710800b82681b5e2a09a1"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000040-29-wire-events.json",
+      "size": 546,
+      "sha256": "46eab1074928cd72ac8b1e8d90fad444b1d5ae3df95c409ceffc307b768c2c9a"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/artifacts/000041-30-application-result.json",
+      "size": 1753,
+      "sha256": "3187d320340a3c20a088a7a4b384bf446df60187e4f94116faa71b1565c90725"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/ledger.jsonl",
+      "size": 12886,
+      "sha256": "4df9ed45c96313b2e516ae39fe589fcd1598f070c5c3ff31e8e055ac5a223920"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "b2f9868dbd8e133b31ac3ec7fe04da33ea76d2952d8fa2f8f676e29c5a27274b"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_application_base_delivery/project/.local/t1-service.lock",
+      "size": 267,
+      "sha256": "8b52b2a82251b0f2477240b8460d8d0f186055fe57b33e132025f4398c038b0f"
+    },
+    {
+      "path": "outputs/fixtures/test_application_crash_retains_started_failure/driver/campaign/artifacts/000002-1-pair-binding.json",
+      "size": 210,
+      "sha256": "cf63f7c728e8e04b8aa8bab0aeeaa982eb1b8c4a5a65056382cd122b5e1e64e6"
+    },
+    {
+      "path": "outputs/fixtures/test_application_crash_retains_started_failure/driver/campaign/ledger.jsonl",
+      "size": 1125,
+      "sha256": "307928e88c52b42a80eb8627b86a9fe982f87d58676a09beb213ae3f8741081e"
+    },
+    {
+      "path": "outputs/fixtures/test_application_crash_retains_started_failure/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_application_crash_retains_started_failure/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "cd1efde9804460acfb1343df8b43a65b3bfa00e4cddb89b46296280114a7749f"
+    },
+    {
+      "path": "outputs/fixtures/test_application_crash_retains_started_failure/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_application_crash_retains_started_failure/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/driver/campaign/artifacts/000002-1-pair-binding.json",
+      "size": 210,
+      "sha256": "cf63f7c728e8e04b8aa8bab0aeeaa982eb1b8c4a5a65056382cd122b5e1e64e6"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/driver/campaign/artifacts/000003-2-full-input-count.json",
+      "size": 252,
+      "sha256": "236cb5755c75edf342b62945d1e16ca38099758cde9c48bd09c3ed61ad10ba81"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/driver/campaign/artifacts/000004-3-binding-evidence.json",
+      "size": 817,
+      "sha256": "a2a6294eb6c0b893da9f3c7325b414c23c8a585fd039c920fd9e9393bbbc7241"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/driver/campaign/artifacts/000005-4-client.json",
+      "size": 352,
+      "sha256": "702fc49f0aafda494dae3f962992e47476bcf16446e7dafb15a170431e530470"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/driver/campaign/artifacts/000006-5-client.json",
+      "size": 867,
+      "sha256": "d056d13f342023b633c4862c94b73e5391a0997c8dd28ce65c52942dba103075"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/driver/campaign/artifacts/000008-6-provider-request.json",
+      "size": 201,
+      "sha256": "a9c433865b751cf55c8c77984250b288be5318e9849b3ff0149c506d0a7729b5"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/driver/campaign/artifacts/000009-7-client.json",
+      "size": 1238,
+      "sha256": "3e812f551bde50b6e2df748147ff6c70eeaa16e282824178b586302157af26c1"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/driver/campaign/artifacts/000011-8-wire-events.json",
+      "size": 5179,
+      "sha256": "ba31edf38ef06746f298b5c551f65bd3157a275614eed7cb3627908ae3da77af"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/driver/campaign/artifacts/000012-9-application-result.json",
+      "size": 1136,
+      "sha256": "2b9515d6248dfbeb5e8b21fa7476fb6b109c4aa341028e5dc76c4437f3ede43b"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/driver/campaign/ledger.jsonl",
+      "size": 4184,
+      "sha256": "6e857e53e0edbc940d0ce50e03edbcf83d391ceb7f901adb574451ed400189f7"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "77af7799435cb83ec6b362984ecb9a4d2a97a7021abd8b8ac79a295600eb8f8a"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_application_pair_mismatch_refused/project/.local/t1-service.lock",
+      "size": 275,
+      "sha256": "ce1b17667909f9fe0d2202214588e97544ab4c709937e0730e7017816c12c054"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000002-1-pair-binding.json",
+      "size": 214,
+      "sha256": "61c793ced1750302305ab794bc0d66fa0bb23a545e9ae82beed027ecf9325e1d"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000003-2-full-input-count.json",
+      "size": 252,
+      "sha256": "236cb5755c75edf342b62945d1e16ca38099758cde9c48bd09c3ed61ad10ba81"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000004-3-binding-evidence.json",
+      "size": 813,
+      "sha256": "ed3d6aafb7e47917c0daeb7fe60d9a0eee3c013dc8949324315a455ffe6dc5d7"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000005-4-client.json",
+      "size": 352,
+      "sha256": "a3b9bf19b47dbeefbb0d4a7ecd0baab2e312cc74e65ca03eb68d15188d76d7ba"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000006-5-client.json",
+      "size": 867,
+      "sha256": "49efb5f19bd1ff8d095e5b1b39d0ff76f71cf81868f128b8bb2c4d7f4ad7c362"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000008-6-provider-request.json",
+      "size": 201,
+      "sha256": "a9c433865b751cf55c8c77984250b288be5318e9849b3ff0149c506d0a7729b5"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000009-7-client.json",
+      "size": 1240,
+      "sha256": "ff2ecd5d00492e698aa2fd7fccef2ec5335c2eebea542b95377bb57aabad843f"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000011-8-full-input-count.json",
+      "size": 636,
+      "sha256": "43abdc9dd49d8e078d8e7089569ac9f01b2a81c8c2770a08c4507ea6c7fc0aee"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000012-9-binding-evidence.json",
+      "size": 1013,
+      "sha256": "08c580d7d669d353049d512f48fc902448dc048333cb68cd3db1902953b626ae"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000013-10-client.json",
+      "size": 352,
+      "sha256": "1569553afe05a25fcd0b9252b77841396f452b0df52576a4110a01ab4b192654"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000014-11-client.json",
+      "size": 1051,
+      "sha256": "40f111d4e5e098a0501706b03a3a517b395aa8719836c3551c38d75256887ac3"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000016-12-provider-request.json",
+      "size": 385,
+      "sha256": "9552be706ad09903b8f757c3335d32b678ab48bd630262b27c6d00caadd75d5e"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000017-13-client.json",
+      "size": 1239,
+      "sha256": "e25c786f3dbe5fb5c57ebf3d1f20b853c683b4b72e47d23b2593627d93486bfa"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000019-14-wire-events.json",
+      "size": 10363,
+      "sha256": "7f3ed8834e19961f5f587788219664184b35d0fd07923ab3ea80f42a954d7934"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000020-15-application-result.json",
+      "size": 2333,
+      "sha256": "c87b4c2cf82e37e0c867d55667803c9afdcaf21d9bed9d11b7ebebc678258715"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000023-16-pair-binding.json",
+      "size": 214,
+      "sha256": "9f804530f8f69ffcca8206ace4b356ea6cd7e79881d4b41cbdebbaec97b72e3a"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000024-17-full-input-count.json",
+      "size": 252,
+      "sha256": "236cb5755c75edf342b62945d1e16ca38099758cde9c48bd09c3ed61ad10ba81"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000025-18-binding-evidence.json",
+      "size": 813,
+      "sha256": "ed3d6aafb7e47917c0daeb7fe60d9a0eee3c013dc8949324315a455ffe6dc5d7"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000026-19-client.json",
+      "size": 352,
+      "sha256": "f0f6bba91804f1b7db75beb81d6de0db02fd633b8a0929888032964840711950"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000027-20-client.json",
+      "size": 867,
+      "sha256": "e509e575fb83debf94ecfde51ac28bd33abb7b13dc0b9969ff8f4c0c061088ec"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000029-21-provider-request.json",
+      "size": 201,
+      "sha256": "7ef6a3bcb6e0fe93967adf39d8b0cdcf651f19e0f18812bd7d0593af469a63e6"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000030-22-client.json",
+      "size": 1239,
+      "sha256": "0780fab40881b42675fc5f59112734a63cc2207634a25f88561e8746cd952651"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000032-23-full-input-count.json",
+      "size": 244,
+      "sha256": "c87137dcfd4370a80734246fbae1e62eb5d48f7c2f5fa853d17971d79e90d730"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000033-24-binding-evidence.json",
+      "size": 809,
+      "sha256": "d1cc569a7a0531f1111bfa8dd6e02455e61c1b911f70dcc43750b3c298456f4c"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000034-25-client.json",
+      "size": 352,
+      "sha256": "3672ab8f94cd3b5cf1dfb9eb2c324f61009061da8789d8a20a439c2a45d28347"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000035-26-client.json",
+      "size": 863,
+      "sha256": "c43fb03958bf3651db4a376fad0100ccdee141c4138f7bf2498c154c662d3e8a"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000037-27-provider-request.json",
+      "size": 197,
+      "sha256": "bb5b3227e754063b29a8156f8fea81fbede1a3e82e4d69fd4d33e8eaab442818"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000038-28-client.json",
+      "size": 1238,
+      "sha256": "526ea16de806af36fb601f9d287829c6cf8bd81b9da387ef15e6d1d7dd81f0d9"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000040-29-wire-events.json",
+      "size": 546,
+      "sha256": "46eab1074928cd72ac8b1e8d90fad444b1d5ae3df95c409ceffc307b768c2c9a"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/artifacts/000041-30-application-result.json",
+      "size": 1754,
+      "sha256": "a4ef9cc5467258a9cddb481e36bebf0298f31ed62a777944ebfa1092988264a9"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/ledger.jsonl",
+      "size": 12885,
+      "sha256": "6dcf9067a34fb659c6f90b5a7fe1f8a3111295c5eea0c64c1317b767aa98589a"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "00ab456562a99aefd8202dc8074b6a3796b6177d87d44d497689a22952df7f1d"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_application_protocol_delivery/project/.local/t1-service.lock",
+      "size": 271,
+      "sha256": "5a5bf53bd1121ed9cc87e96b912a0e410cd41418f068557e791d7003ed7782bb"
+    },
+    {
+      "path": "outputs/fixtures/test_audit_failure_before_dispatch/driver/campaign/ledger.jsonl",
+      "size": 600,
+      "sha256": "19d3f1e3d64aca6b7c69d58c1c49a5575b5bbae27f2badb435726a8888feab36"
+    },
+    {
+      "path": "outputs/fixtures/test_audit_failure_before_dispatch/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_audit_failure_before_dispatch/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "4408db0f117154532c32441dcceb70eb52b4388a7e0fdac310d6992982426479"
+    },
+    {
+      "path": "outputs/fixtures/test_audit_failure_before_dispatch/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_audit_failure_before_dispatch/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_control_partial_line_refused/driver/campaign/ledger.jsonl",
+      "size": 600,
+      "sha256": "11cb2587d5094fca3c55cc873cfee261877b221f44efafbdeed9d7b62e34fa86"
+    },
+    {
+      "path": "outputs/fixtures/test_control_partial_line_refused/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_control_partial_line_refused/driver/control.jsonl",
+      "size": 345,
+      "sha256": "60c857f94007305ce2389eb298e7e4991dee021dc3974079e7c65db2bacdfce2"
+    },
+    {
+      "path": "outputs/fixtures/test_control_partial_line_refused/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_control_partial_line_refused/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_control_quota_failure_prevents_start/driver/campaign/ledger.jsonl",
+      "size": 376,
+      "sha256": "a9b91074d91fa328a940963f3523d23813f9258b9e9ccd65ae96bc27abd52eb0"
+    },
+    {
+      "path": "outputs/fixtures/test_control_quota_failure_prevents_start/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_control_quota_failure_prevents_start/driver/control.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_control_quota_failure_prevents_start/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_control_quota_failure_prevents_start/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_control_single_writer_and_cleanup_reserve/driver/campaign/ledger.jsonl",
+      "size": 600,
+      "sha256": "6bc6f2bd42c87bfec2327ff8eb5704b621a3d5ab16eef66402504c89c68fda3d"
+    },
+    {
+      "path": "outputs/fixtures/test_control_single_writer_and_cleanup_reserve/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_control_single_writer_and_cleanup_reserve/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "b615632f59bccf143b30af58c55b271f9c0e8e0d2ccfa89a361e6b7b28c0e269"
+    },
+    {
+      "path": "outputs/fixtures/test_control_single_writer_and_cleanup_reserve/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_control_single_writer_and_cleanup_reserve/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_duplicate_id_rejected/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_duplicate_id_rejected/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 845,
+      "sha256": "173513222af4e8af27e8d5fd12025fd59b203169dfeb5b122dd4198298bc82f6"
+    },
+    {
+      "path": "outputs/fixtures/test_duplicate_id_rejected/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "52c5b7ed0b849e18024ecc2124911e1bab297dd5e76c85a1bce4a25f6be29314"
+    },
+    {
+      "path": "outputs/fixtures/test_duplicate_id_rejected/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "6f627804f971a66e5d0aec0e9bc85b0d4d15d3d8a2f9dbcf978bfa18a6fd63ef"
+    },
+    {
+      "path": "outputs/fixtures/test_duplicate_id_rejected/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_duplicate_id_rejected/driver/campaign/artifacts/000008-6-client.json",
+      "size": 1239,
+      "sha256": "2360a98a0d96012ce328355668ec6cfc75e00030984e83c963427a12e658e1cb"
+    },
+    {
+      "path": "outputs/fixtures/test_duplicate_id_rejected/driver/campaign/ledger.jsonl",
+      "size": 3028,
+      "sha256": "f4ee1fd4596c1addb69fcc66f8aa50a320d001cc59ea12dacdaae96612194c66"
+    },
+    {
+      "path": "outputs/fixtures/test_duplicate_id_rejected/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_duplicate_id_rejected/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "d04d42ff5d94a9ba9cd93ba37c50af2ae1da7d847f16b7305184f371831094a2"
+    },
+    {
+      "path": "outputs/fixtures/test_duplicate_id_rejected/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_duplicate_id_rejected/project/.local/t1-service.lock",
+      "size": 263,
+      "sha256": "ce492784be761f77486a6be3a9a202f3268daf27299cd1861c18758cff66c842"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 886,
+      "sha256": "f9b9ec26783711380f63b595544031f7048040cb7a2f4502b5f3982db2db8f2c"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "c190688ef96b5e5be81822b211869c24e5d729e9c3fef37c1909a29e11237e3d"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "3e6f0eb5d14627c3b7b48ca77fe841fa115e9db15017a50b086c99f9cd69a3e6"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/artifacts/000008-6-client.json",
+      "size": 855,
+      "sha256": "67fcdf1010ec581f3f8bc41781aaa38eedf8361b36a96f16659d24d648fa7e35"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/artifacts/000011-7-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/artifacts/000012-8-binding-evidence.json",
+      "size": 886,
+      "sha256": "f9b9ec26783711380f63b595544031f7048040cb7a2f4502b5f3982db2db8f2c"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/artifacts/000013-9-client.json",
+      "size": 352,
+      "sha256": "66b19ddfad2f5868421be09312c565fb13fe6a277e1d3a7cb015f67d1195058a"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/artifacts/000014-10-client.json",
+      "size": 895,
+      "sha256": "9774f09c988c44da45dd361de652ec489b327592f130c594d29d8594b1c2d197"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/artifacts/000016-11-provider-request.json",
+      "size": 229,
+      "sha256": "632ac28e610bb25cf450d4f91df1c2e619a27cdcd366181eacdb9808f666ddc3"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/artifacts/000017-12-client.json",
+      "size": 1238,
+      "sha256": "c55644b13fd5f6353104b5c14c093fdd62065b7ba6109727b29f3e9e4b8fcbf1"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/ledger.jsonl",
+      "size": 5739,
+      "sha256": "6730e2e17db261bdaad41b37e8e8695825308b180254b38271f1c313bbb9f102"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "03edab1d29b843804930ac36ef26d6d3dca2b0615599070873d643cd51728bf3"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_early_empty_residency_still_proves_exit_of_pre_dispatch_runner/project/.local/t1-service.lock",
+      "size": 304,
+      "sha256": "960733cc894a9d5a20b2d423a26f386589134b5875470f34472a4f975466700c"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_answer_retains_original_client_semantics/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_answer_retains_original_client_semantics/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 870,
+      "sha256": "a3d684b5bfc511f11f78fc8943656bec31e3020cc2416bd40a996fb83a3aa444"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_answer_retains_original_client_semantics/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "15e36d6039aa4696b1407c06d66eefda2deeeea7c2571d72c0b4f73ba99b18ea"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_answer_retains_original_client_semantics/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "ddc42d3abcdab1783b6746ecf049c4d5b4bb669d99291b86da067335828669e6"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_answer_retains_original_client_semantics/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_answer_retains_original_client_semantics/driver/campaign/artifacts/000008-6-client.json",
+      "size": 1201,
+      "sha256": "d51b361433d89320be79e25832c81e11a1a423986935c3bbaf912467e55e4eff"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_answer_retains_original_client_semantics/driver/campaign/ledger.jsonl",
+      "size": 3028,
+      "sha256": "a63cf4eb3aa4c1a437fd5f2b9998ae00dfbfa88933f8137133bd2bebc5db1e84"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_answer_retains_original_client_semantics/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_answer_retains_original_client_semantics/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "dcb45ca8cc41fd910df64b5cd1f4784ae86361a09a124955d17ad6f5e0c049d1"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_answer_retains_original_client_semantics/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_answer_retains_original_client_semantics/project/.local/t1-service.lock",
+      "size": 288,
+      "sha256": "799ee30a636c7ff6ec5bd4df91ff77986acaacef347ed60a99a88c5203db93ef"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_residency_cannot_release_a_surviving_runner/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_residency_cannot_release_a_surviving_runner/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 873,
+      "sha256": "c5b1b8dcd1e065eda577c9fec21fd179785ea80e4b9c568c47151cc3015775b7"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_residency_cannot_release_a_surviving_runner/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "1088e8824dcc2a36b2e305b1314ad9a675462b96fd29c3dd1687ad0aa10dee6c"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_residency_cannot_release_a_surviving_runner/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "0be056c9d95d1ab2651632ee2b3e9dbf34ba8a078b08a179356dee912337bacb"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_residency_cannot_release_a_surviving_runner/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_residency_cannot_release_a_surviving_runner/driver/campaign/artifacts/000008-6-client.json",
+      "size": 857,
+      "sha256": "39b8f9613944a96d7c027220e64fd2286dadf6021e454e4c689304c716dc9a73"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_residency_cannot_release_a_surviving_runner/driver/campaign/ledger.jsonl",
+      "size": 2987,
+      "sha256": "0bb00a7b6b570daca044c6d04b97e5f3f406d9bb426ce9f2a7c65267ea538b6c"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_residency_cannot_release_a_surviving_runner/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_residency_cannot_release_a_surviving_runner/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "3e9b2dd8ced2f7f4cdc69201a80a7e7c3a54866a80b9413cd52762eebce76111"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_residency_cannot_release_a_surviving_runner/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_residency_cannot_release_a_surviving_runner/project/.local/t1-service.lock",
+      "size": 291,
+      "sha256": "00d4cb5ece010c22d9ba39417f68dbf6cc81eab91b4092a8e979b92b321e0c97"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_runner_witness_blocks_dispatch_and_retains_recovery_lease/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_runner_witness_blocks_dispatch_and_retains_recovery_lease/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 887,
+      "sha256": "847974780f24f847278a27967a722aeed6f59c53d6aef6d3c42e23ca4f9c8fb3"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_runner_witness_blocks_dispatch_and_retains_recovery_lease/driver/campaign/ledger.jsonl",
+      "size": 1229,
+      "sha256": "e6d4e71c6980fc69984bd20d5731df7c8069a490ec8bdbab3cf09d3200e7f329"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_runner_witness_blocks_dispatch_and_retains_recovery_lease/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_runner_witness_blocks_dispatch_and_retains_recovery_lease/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "d0f4d2f6b122963afda35a4757d87cc0f6ba5cdf0187646ce50f1d31bcf8b2c6"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_runner_witness_blocks_dispatch_and_retains_recovery_lease/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_empty_runner_witness_blocks_dispatch_and_retains_recovery_lease/project/.local/t1-service.lock",
+      "size": 305,
+      "sha256": "ddbbe3ec211d3880d3e1031d776109b4d77289345bea36ab5aac522a1379594e"
+    },
+    {
+      "path": "outputs/fixtures/test_fixture_cannot_create_qwen_binding/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_fixture_cannot_create_qwen_binding/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 858,
+      "sha256": "c19e2c393dc7e5ba017bd2233de792538d1a9cd4e0d5453ee690c3b4f23a3937"
+    },
+    {
+      "path": "outputs/fixtures/test_fixture_cannot_create_qwen_binding/driver/campaign/ledger.jsonl",
+      "size": 1230,
+      "sha256": "0bf904dcb7adc82926eb15ea06ceabea2c619cb15620c9b319649a812bddbbb3"
+    },
+    {
+      "path": "outputs/fixtures/test_fixture_cannot_create_qwen_binding/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_fixture_cannot_create_qwen_binding/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "50e42eaa8a937952c20edc6ebf38ca1180c96ea46f36dfcabddb9e8c91e3ea83"
+    },
+    {
+      "path": "outputs/fixtures/test_fixture_cannot_create_qwen_binding/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_fixture_cannot_create_qwen_binding/project/.local/t1-service.lock",
+      "size": 276,
+      "sha256": "ab18d06e56266429dc03c670c47566571ebeafcd092897aad1b5b22ae498c6f0"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 851,
+      "sha256": "bd902a1e0da25d15887c99daab4852c6f51bfb15af00e0a0c26f2615e255659b"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "73713bf481d33260d13aa123369f0a0bc0a082dc625ae999b95904587d2f7565"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "86dec4470b9a8c7c373fcdd4490ada331e3310bd7f7e65cb2004bb86f9afb323"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000008-6-client.json",
+      "size": 1238,
+      "sha256": "60e1659424ef86f093551dd511ddf6fd4f8e70d65c0882565a0582cbe6970c35"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000010-7-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000011-8-binding-evidence.json",
+      "size": 851,
+      "sha256": "bd902a1e0da25d15887c99daab4852c6f51bfb15af00e0a0c26f2615e255659b"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000012-9-client.json",
+      "size": 352,
+      "sha256": "8b9bb1d3d592376aedb9c3d31fccea9e7be1f9b985aabb31af9f658a73b1ed2d"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000013-10-client.json",
+      "size": 895,
+      "sha256": "8557d74159c5c23b70efa9d2dc16741c65dbec32603b6541d8c98df2c773740b"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000015-11-provider-request.json",
+      "size": 229,
+      "sha256": "632ac28e610bb25cf450d4f91df1c2e619a27cdcd366181eacdb9808f666ddc3"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000016-12-client.json",
+      "size": 1239,
+      "sha256": "e6e1abf3e06bb5892926cf3f97a380ff1c35b457f2eb0637d55a91882a1e4b2e"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000018-13-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000019-14-binding-evidence.json",
+      "size": 851,
+      "sha256": "bd902a1e0da25d15887c99daab4852c6f51bfb15af00e0a0c26f2615e255659b"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000020-15-client.json",
+      "size": 352,
+      "sha256": "f472e0c124663ff1a65792d6fed4f0cb4db56c6547c320da304fb744f3f7e5cb"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000021-16-client.json",
+      "size": 895,
+      "sha256": "98d05ff75af61d6adca6890d488ac7b34dec91b4e5fc5af80b4dd980c841865e"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000023-17-provider-request.json",
+      "size": 229,
+      "sha256": "93fd97f7a70431ef8a52b093b7b5724927ace5382c6caae003eb7b3b04ea379c"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000024-18-client.json",
+      "size": 1240,
+      "sha256": "012a66d860824b6869ac8ba78ea4b99f878e06de1b1174d46b223d4eacae5599"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000026-19-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000027-20-binding-evidence.json",
+      "size": 851,
+      "sha256": "bd902a1e0da25d15887c99daab4852c6f51bfb15af00e0a0c26f2615e255659b"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000028-21-client.json",
+      "size": 352,
+      "sha256": "e54e783d4ce06b52e8c4279bfbbed392d0926f498f5dc496e2950121970a30c8"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000029-22-client.json",
+      "size": 895,
+      "sha256": "3e58902bbdb8f207996bd466f25d2977404146dc2cf3ec00ba22866b5cd269e1"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000031-23-provider-request.json",
+      "size": 229,
+      "sha256": "0dd9c8e47ba637074ee4d9a070b5169d6828c6c4b04de3c637b5fd354f29737d"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000032-24-client.json",
+      "size": 1238,
+      "sha256": "0c251d2148cff46ba7e8c92ef2729d1028a7c0fc60a7f7df1dad0be0035bcd13"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/artifacts/000034-25-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/ledger.jsonl",
+      "size": 10981,
+      "sha256": "7dfa37752df16ae748ce075f25f8b963201d8d11a9d4f7434415e70194d40d5d"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "279b0cd7cc6ecf8a8e54ca0ca0fe8c52bdefb00dd120bb7b370ddab1a1705582"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_generation_cap_not_refunded/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_http_error_retained/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_http_error_retained/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 843,
+      "sha256": "573bb40d4c6adaaf41adfe6dfde6f5f65d83644c00670ea7b68b858c93c98f5d"
+    },
+    {
+      "path": "outputs/fixtures/test_http_error_retained/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "887c186862eeb879194683631e69db87ef562186b25205e2207983786e5b8fe8"
+    },
+    {
+      "path": "outputs/fixtures/test_http_error_retained/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "f408cb761c115b4d6f42d1e97efb343a386e6b64b0c3004fc2476926af8198de"
+    },
+    {
+      "path": "outputs/fixtures/test_http_error_retained/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_http_error_retained/driver/campaign/artifacts/000008-6-client.json",
+      "size": 858,
+      "sha256": "fe1e8ea8239ff0a116bc45339e78e0edc21c1d1e22734a3aeda78f870721ae32"
+    },
+    {
+      "path": "outputs/fixtures/test_http_error_retained/driver/campaign/ledger.jsonl",
+      "size": 3299,
+      "sha256": "c010f7bdeebc2f8c533d2247dcfdd66c6c141168745b61e67322fe51aaa3ecbc"
+    },
+    {
+      "path": "outputs/fixtures/test_http_error_retained/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_http_error_retained/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "ba68806614b2cf0840fd200d932fa549f07a5b7e118165aa37e03df737ad46ad"
+    },
+    {
+      "path": "outputs/fixtures/test_http_error_retained/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_http_error_retained/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_identity_validation_prevents_unload/driver/campaign/ledger.jsonl",
+      "size": 599,
+      "sha256": "f5a43699b09209820e3f27f583cfc8653408daa4bc05186dcc4899cb3f00e22b"
+    },
+    {
+      "path": "outputs/fixtures/test_identity_validation_prevents_unload/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_identity_validation_prevents_unload/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "95d427f559a7ac47492058fdfd866297d36879c564e34f031c17889b7007f86a"
+    },
+    {
+      "path": "outputs/fixtures/test_identity_validation_prevents_unload/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_identity_validation_prevents_unload/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 884,
+      "sha256": "01fe1da96a49dc2e6f1f2b02e4e3121beed5df44880e17e530833d0b8c195038"
+    },
+    {
+      "path": "outputs/fixtures/test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup/driver/campaign/artifacts/000007-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup/driver/campaign/artifacts/000008-2-binding-evidence.json",
+      "size": 884,
+      "sha256": "01fe1da96a49dc2e6f1f2b02e4e3121beed5df44880e17e530833d0b8c195038"
+    },
+    {
+      "path": "outputs/fixtures/test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup/driver/campaign/artifacts/000009-3-client.json",
+      "size": 352,
+      "sha256": "05c47e7efbe45708de03793345f0c5aca1d9ee41c109cb88be87fa7385d620e5"
+    },
+    {
+      "path": "outputs/fixtures/test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup/driver/campaign/artifacts/000010-4-client.json",
+      "size": 895,
+      "sha256": "dcc9acc4cf616a85e8a2f3b4364ee3a78b6a110e9c087a67c13f4c61866091cd"
+    },
+    {
+      "path": "outputs/fixtures/test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup/driver/campaign/artifacts/000012-5-provider-request.json",
+      "size": 229,
+      "sha256": "632ac28e610bb25cf450d4f91df1c2e619a27cdcd366181eacdb9808f666ddc3"
+    },
+    {
+      "path": "outputs/fixtures/test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup/driver/campaign/artifacts/000013-6-client.json",
+      "size": 1239,
+      "sha256": "4760f9465a5335b174fc4daa08ab63a6864ffe17add9e62ffb27b0823b99b1df"
+    },
+    {
+      "path": "outputs/fixtures/test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup/driver/campaign/ledger.jsonl",
+      "size": 4508,
+      "sha256": "8e318c1bb4e92d28124b30abcba2424c4922cea84b77284186350c6f64564b76"
+    },
+    {
+      "path": "outputs/fixtures/test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "489e840327478788c6bae8dc29c9e4f50045ebe6dd74c37d6375941f21bbb30c"
+    },
+    {
+      "path": "outputs/fixtures/test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup/project/.local/t1-service.lock",
+      "size": 302,
+      "sha256": "5c9a8b571278e94655191fd3e0cad8f8be54fe9174fb3858ade3d8f17b724a44"
+    },
+    {
+      "path": "outputs/fixtures/test_invalid_usage_fenced_and_retained/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_invalid_usage_fenced_and_retained/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 857,
+      "sha256": "b0d31c57e1fad0cd9967c6301f0230a33dc720b55385e18c5516fd0302bfded1"
+    },
+    {
+      "path": "outputs/fixtures/test_invalid_usage_fenced_and_retained/driver/campaign/artifacts/000004-3-client.json",
+      "size": 353,
+      "sha256": "bcc5acc751dd79c2ee8bfd356e9f629d7efc0d858ff046dcb6db520625e5e3e1"
+    },
+    {
+      "path": "outputs/fixtures/test_invalid_usage_fenced_and_retained/driver/campaign/artifacts/000005-4-client.json",
+      "size": 896,
+      "sha256": "7a42aa0fc5421a9f1705b32972676527d5ab8b084ad1df90c73805a0feff3820"
+    },
+    {
+      "path": "outputs/fixtures/test_invalid_usage_fenced_and_retained/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_invalid_usage_fenced_and_retained/driver/campaign/artifacts/000008-6-client.json",
+      "size": 1195,
+      "sha256": "fefaab10a30dda894ec3e5c3bdd412c5570014978489675ef7cfeff7aa2f3988"
+    },
+    {
+      "path": "outputs/fixtures/test_invalid_usage_fenced_and_retained/driver/campaign/ledger.jsonl",
+      "size": 3300,
+      "sha256": "daae13ba842e5483756512aaffc589069818d03efa5ea982a8d7ebba0a75b6f7"
+    },
+    {
+      "path": "outputs/fixtures/test_invalid_usage_fenced_and_retained/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_invalid_usage_fenced_and_retained/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "6cb66073052a3b92c286d57cdb83bc631c3e8bc28c434729d4fda9ced786a6b3"
+    },
+    {
+      "path": "outputs/fixtures/test_invalid_usage_fenced_and_retained/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_invalid_usage_fenced_and_retained/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_length_is_failure_not_success/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_length_is_failure_not_success/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 853,
+      "sha256": "4931de52ad032b1f8b999483de0d396ff32ce00afa7debccb02468dc7426466b"
+    },
+    {
+      "path": "outputs/fixtures/test_length_is_failure_not_success/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "1e0b12769b4579db3294802bf93036ca5800888b8d2cdffaf2e0e5cd8c61792f"
+    },
+    {
+      "path": "outputs/fixtures/test_length_is_failure_not_success/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "0965be87a9d36e3cfec11b775c1ea06564685b48d49dad6db30bed0daf491812"
+    },
+    {
+      "path": "outputs/fixtures/test_length_is_failure_not_success/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_length_is_failure_not_success/driver/campaign/artifacts/000008-6-client.json",
+      "size": 1178,
+      "sha256": "1be5b3b17bb6e8903ad5c76ef9b0d9cfc13b735d58e0a055d52701d901bee902"
+    },
+    {
+      "path": "outputs/fixtures/test_length_is_failure_not_success/driver/campaign/ledger.jsonl",
+      "size": 3300,
+      "sha256": "b8d197f847f2e74d82914f8e49318bf32c0841a695550d4fd9a40eadc1c17bf3"
+    },
+    {
+      "path": "outputs/fixtures/test_length_is_failure_not_success/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_length_is_failure_not_success/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "6ecd8aa1fc0cdee5b76b80f4a38186d53947e2c9df1568c4aef600581cab717d"
+    },
+    {
+      "path": "outputs/fixtures/test_length_is_failure_not_success/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_length_is_failure_not_success/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_missing_usage_is_failed_unknown/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_missing_usage_is_failed_unknown/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 855,
+      "sha256": "77760201843e1bfff461a39e999c41189e5fdb6d18e94b8297d22b0a9cbe7c7d"
+    },
+    {
+      "path": "outputs/fixtures/test_missing_usage_is_failed_unknown/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "c1238b060de9205f7540bff065b5bf62154761a1d3a0ea76fa2141edb4e1575e"
+    },
+    {
+      "path": "outputs/fixtures/test_missing_usage_is_failed_unknown/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "c1ef34a22603206ec364698b6d15da70fbc2d9596aeb55ecad0723c49006d881"
+    },
+    {
+      "path": "outputs/fixtures/test_missing_usage_is_failed_unknown/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_missing_usage_is_failed_unknown/driver/campaign/artifacts/000008-6-client.json",
+      "size": 1117,
+      "sha256": "80b8190e4206a5b3211c295a2971e3adb61f43fc18878c7a3621d070581b372e"
+    },
+    {
+      "path": "outputs/fixtures/test_missing_usage_is_failed_unknown/driver/campaign/ledger.jsonl",
+      "size": 3300,
+      "sha256": "0970784906890dc967acac3e5d427f3cc42c1799ef4d855a9a6a809c20fac15a"
+    },
+    {
+      "path": "outputs/fixtures/test_missing_usage_is_failed_unknown/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_missing_usage_is_failed_unknown/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "068d55571e6a06ac8253338320945a3483d1e829b1647e33749134bb94c958b4"
+    },
+    {
+      "path": "outputs/fixtures/test_missing_usage_is_failed_unknown/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_missing_usage_is_failed_unknown/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_normal_fsync_full_input_and_real_client/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_normal_fsync_full_input_and_real_client/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 863,
+      "sha256": "81b6608d339cc96cbf6229fc9c1e83f9869c392eae3b6f95f49787b6c757b640"
+    },
+    {
+      "path": "outputs/fixtures/test_normal_fsync_full_input_and_real_client/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "aa217bb8faca403b5208d12a42dbc9e8d495eee5f01c89506290bc91cf1d8ef7"
+    },
+    {
+      "path": "outputs/fixtures/test_normal_fsync_full_input_and_real_client/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "280970418bea784eaaddcaa32ec5871c3df99d2d5461758de144ec9fa678fe47"
+    },
+    {
+      "path": "outputs/fixtures/test_normal_fsync_full_input_and_real_client/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_normal_fsync_full_input_and_real_client/driver/campaign/artifacts/000008-6-client.json",
+      "size": 1239,
+      "sha256": "d1cc97da0262dc999ee926108323ee9616c24c8fa67c72082c605b76f7c831c9"
+    },
+    {
+      "path": "outputs/fixtures/test_normal_fsync_full_input_and_real_client/driver/campaign/ledger.jsonl",
+      "size": 3028,
+      "sha256": "2ae93d00edce1b6560ee7207a0a108e7a2971ba50311799b3c014dc4183a97e0"
+    },
+    {
+      "path": "outputs/fixtures/test_normal_fsync_full_input_and_real_client/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_normal_fsync_full_input_and_real_client/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "754a47de38512500dfe01dc386f416d17760f14c8130d11a3ee363a949c53916"
+    },
+    {
+      "path": "outputs/fixtures/test_normal_fsync_full_input_and_real_client/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_normal_fsync_full_input_and_real_client/project/.local/t1-service.lock",
+      "size": 281,
+      "sha256": "c799e103c78a75f2489c99ff9c9c018418d1637762463cc7600173660f8fc945"
+    },
+    {
+      "path": "outputs/fixtures/test_other_campaign_cannot_bypass_recovery_after_close/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_other_campaign_cannot_bypass_recovery_after_close/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 873,
+      "sha256": "fb9433fac93813244167d762a653e4bf6a0d67c9b8109c0487c699bd495d209b"
+    },
+    {
+      "path": "outputs/fixtures/test_other_campaign_cannot_bypass_recovery_after_close/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "11b21fe24e3ff8109f691d3f718f6efbef81d2a95fc7a65ed30b77dc9ae8408f"
+    },
+    {
+      "path": "outputs/fixtures/test_other_campaign_cannot_bypass_recovery_after_close/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "4c1b839b9a89b698d8922fccdbce983dfffeb00d7f19c1e701e91a7c60d6d211"
+    },
+    {
+      "path": "outputs/fixtures/test_other_campaign_cannot_bypass_recovery_after_close/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_other_campaign_cannot_bypass_recovery_after_close/driver/campaign/artifacts/000008-6-client.json",
+      "size": 1236,
+      "sha256": "e35017b724fe44d50be79a1821619135b38cf6c134d0104b36841c4c971db214"
+    },
+    {
+      "path": "outputs/fixtures/test_other_campaign_cannot_bypass_recovery_after_close/driver/campaign/ledger.jsonl",
+      "size": 3341,
+      "sha256": "ac0916aff0db70a1008bbfc079c17e7ccc383bbfd306f42d1601f9b1e71c270e"
+    },
+    {
+      "path": "outputs/fixtures/test_other_campaign_cannot_bypass_recovery_after_close/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_other_campaign_cannot_bypass_recovery_after_close/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "6afcd990e6fbc07808e15a4d362f7839c477174b1096a4f1308830dc725ba409"
+    },
+    {
+      "path": "outputs/fixtures/test_other_campaign_cannot_bypass_recovery_after_close/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_other_campaign_cannot_bypass_recovery_after_close/other/campaign/ledger.jsonl",
+      "size": 376,
+      "sha256": "a37f4f130ba65275957e0e41188600da0bc88307c54695c155bef101ce0d3fc3"
+    },
+    {
+      "path": "outputs/fixtures/test_other_campaign_cannot_bypass_recovery_after_close/other/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_other_campaign_cannot_bypass_recovery_after_close/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_overflow_is_rejected_before_any_http/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 466,
+      "sha256": "a9caf8c09e46e35af3789c32211e8bdf63a15c33c44a4f6cd9a92e3f0aadc34a"
+    },
+    {
+      "path": "outputs/fixtures/test_overflow_is_rejected_before_any_http/driver/campaign/ledger.jsonl",
+      "size": 915,
+      "sha256": "5c64f0daaa7d4785f7c74a68c6d00dc8cd0fdb3fb8428aee716f6a35deaaa39a"
+    },
+    {
+      "path": "outputs/fixtures/test_overflow_is_rejected_before_any_http/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_overflow_is_rejected_before_any_http/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "e5abf546e12661e9cc0c7398c99f9a4f999ccad84bfe777d9f57d4fcbdeba480"
+    },
+    {
+      "path": "outputs/fixtures/test_overflow_is_rejected_before_any_http/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_overflow_is_rejected_before_any_http/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 877,
+      "sha256": "2f3c5844543869d751a3ec25506afaec480292607f1973035913b09c3ab14795"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "39db561af89fea87d6380ca385cbe85b68fd86b5561c14d9f0ca8db581f8ff38"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "5fa4af309ff75e850fbfafc5642ad25955f2fd5d21ca1cccb55dbd12b673cb23"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/artifacts/000008-6-rpc.jsonl",
+      "size": 35,
+      "sha256": "2f936c90747adfbff8591556f6b5d82f3c00b28a246c34e23259a424853f6176"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/artifacts/000009-7-client.json",
+      "size": 857,
+      "sha256": "8447c35f5ae86987a2f94388a4599d804811deaebe2fbef1bfedcc0c146affd2"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/artifacts/000012-8-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/artifacts/000013-9-binding-evidence.json",
+      "size": 877,
+      "sha256": "2f3c5844543869d751a3ec25506afaec480292607f1973035913b09c3ab14795"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/artifacts/000014-10-client.json",
+      "size": 352,
+      "sha256": "4b7c7b34f611da00d66004be65c83baf63b81183ad835b48724b0bd31954e135"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/artifacts/000015-11-client.json",
+      "size": 895,
+      "sha256": "128c3a88a4930e200909d3a37332420487247b54ac8d046430e6df60f421bf63"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/artifacts/000017-12-provider-request.json",
+      "size": 229,
+      "sha256": "632ac28e610bb25cf450d4f91df1c2e619a27cdcd366181eacdb9808f666ddc3"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/artifacts/000018-13-client.json",
+      "size": 1236,
+      "sha256": "eca53b29240437a53b1c27a64e16be6a0a35df4e1c4b9f567cf6e2eea4625ff2"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/ledger.jsonl",
+      "size": 6042,
+      "sha256": "503236bdc481357e1827dd23eea871cb4445de95954ea272a7da7543679b92a0"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "1ce171267be1a8e9a739de385143fddeb22d7a96263334a5d9a521344ad0be4d"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_paid_worker_timeout_then_cleanup_and_resumed_dispatch/project/.local/t1-service.lock",
+      "size": 295,
+      "sha256": "45b975d532afba09b224b55bf4cd1d5073aa20501fe9e75852ed05a2bbc904fa"
+    },
+    {
+      "path": "outputs/fixtures/test_plain_boolean_receipt_rejected/driver/campaign/ledger.jsonl",
+      "size": 600,
+      "sha256": "1cd2c24b31182960b862645138613f957d0d7af8f4d75d4317578e795eb9d83f"
+    },
+    {
+      "path": "outputs/fixtures/test_plain_boolean_receipt_rejected/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_plain_boolean_receipt_rejected/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "b2ec996067fb526b3273304116555fac2b9284668c6d45320cdcbadec519bc15"
+    },
+    {
+      "path": "outputs/fixtures/test_plain_boolean_receipt_rejected/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_plain_boolean_receipt_rejected/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_render_drift_blocks/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_render_drift_blocks/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 850,
+      "sha256": "c18ad5008db8b49b97177023bd5bc9ea179fe005d858183a007ca5d6408ceee6"
+    },
+    {
+      "path": "outputs/fixtures/test_render_drift_blocks/driver/campaign/ledger.jsonl",
+      "size": 1542,
+      "sha256": "0dd04b6e39d45b2c23fca2c78b93acd3b90103ffd086ff91ba3821fc6aabb9e7"
+    },
+    {
+      "path": "outputs/fixtures/test_render_drift_blocks/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_render_drift_blocks/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "5127a763b10d19259723e4fa184f1d1396cf67b7b5c9be5fe06a13d7b74a3706"
+    },
+    {
+      "path": "outputs/fixtures/test_render_drift_blocks/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_render_drift_blocks/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 879,
+      "sha256": "ef18c725ef0b51d6a25b88ad49b96ef7986a6e920eba9ce0a54abbda8ac6a2da"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "a4b44b9f2fe6df453517109cc19104ff4020003e058f3865e6ad1774a3cf5d49"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "7575de3e71e2ddbb227485a20c1dbc619110ca5c9ce6609f8e5927638e31baad"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/artifacts/000008-6-client.json",
+      "size": 1240,
+      "sha256": "a7d23191cc868d303c68f4669b572d8967263d82f15ef5e9bbe61656ff881e14"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/artifacts/000011-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/artifacts/000012-2-binding-evidence.json",
+      "size": 879,
+      "sha256": "ef18c725ef0b51d6a25b88ad49b96ef7986a6e920eba9ce0a54abbda8ac6a2da"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/artifacts/000013-3-client.json",
+      "size": 353,
+      "sha256": "7bbea90256f746c21acbc7a319707d81d784721ee41b2ab3e947541075b39edb"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/artifacts/000014-4-client.json",
+      "size": 896,
+      "sha256": "87f12bb44623ccaf21b51227f12313270223b86ccdb3a6194388d6964a6cdf17"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/artifacts/000016-5-provider-request.json",
+      "size": 229,
+      "sha256": "632ac28e610bb25cf450d4f91df1c2e619a27cdcd366181eacdb9808f666ddc3"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/artifacts/000017-6-client.json",
+      "size": 1239,
+      "sha256": "db64b558b024d828d906a69f51d1d1127d9d31663be7dddfa64766f5dd05cb8a"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/ledger.jsonl",
+      "size": 5777,
+      "sha256": "949b660fae860056d1925510a18a5c3df98bb142e38c72ac060407c3975beaff"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "3d4fb0b57d2c146200332db537baa367b88401d4b867e553a57c99f0c9b30832"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_resume_keeps_deadline_and_cost_and_requires_new_barrier/project/.local/t1-service.lock",
+      "size": 297,
+      "sha256": "f949b0f82cbcf3ca1b7157d5bd7a008c54a28dd6e527d519debcd877b58f57a9"
+    },
+    {
+      "path": "outputs/fixtures/test_reused_pid_proves_old_identity_gone_but_is_not_owned/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_reused_pid_proves_old_identity_gone_but_is_not_owned/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 876,
+      "sha256": "3cd0f47889cfc913c1dea0d9853efda6a9acb95a060ae88d1324f74e68ce9376"
+    },
+    {
+      "path": "outputs/fixtures/test_reused_pid_proves_old_identity_gone_but_is_not_owned/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "c7a18a02a74c62da7e47b5974a22c61aba2fb7f676089afc23f4c78d47e99a8d"
+    },
+    {
+      "path": "outputs/fixtures/test_reused_pid_proves_old_identity_gone_but_is_not_owned/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "af9d0c0e36dab9f085109d4bc559fd6436834633200aefbc9588ead9d7da38e5"
+    },
+    {
+      "path": "outputs/fixtures/test_reused_pid_proves_old_identity_gone_but_is_not_owned/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_reused_pid_proves_old_identity_gone_but_is_not_owned/driver/campaign/artifacts/000008-6-client.json",
+      "size": 856,
+      "sha256": "64764815c3349752e788cf77d99fce6ab7fab96eb4c02c9c8fbc75bda089ffb6"
+    },
+    {
+      "path": "outputs/fixtures/test_reused_pid_proves_old_identity_gone_but_is_not_owned/driver/campaign/ledger.jsonl",
+      "size": 3300,
+      "sha256": "3d01dd135ba92fb9565d6d547a82758aba9272578ce8e2fc2a6eccca246ac1a0"
+    },
+    {
+      "path": "outputs/fixtures/test_reused_pid_proves_old_identity_gone_but_is_not_owned/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_reused_pid_proves_old_identity_gone_but_is_not_owned/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "194223e23ecd3650c3e2b1616415401817c73a251caecf9196b744cacd36c747"
+    },
+    {
+      "path": "outputs/fixtures/test_reused_pid_proves_old_identity_gone_but_is_not_owned/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_reused_pid_proves_old_identity_gone_but_is_not_owned/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_exit_is_failure/driver/campaign/ledger.jsonl",
+      "size": 600,
+      "sha256": "9ff091989c3f36cfe038065cc02036824d29cfff1430e0c53e4b1c3fa8db3e74"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_exit_is_failure/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_exit_is_failure/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "50392cff16719271104ddf572b04a84dcd343eecb6eea9915b269ebea84d1612"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_exit_is_failure/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_exit_is_failure/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_oversize_refused/driver/campaign/ledger.jsonl",
+      "size": 601,
+      "sha256": "c6b4f12ae4218835440bef93ee61478fb4833e19e9177b42addfa323248921a8"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_oversize_refused/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_oversize_refused/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "71777596cc7c7e131da836ab4dcab5e8994ba2b79a6eea59212109bc574c5603"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_oversize_refused/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_oversize_refused/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_timeout_sends_real_worker_signals/driver/campaign/ledger.jsonl",
+      "size": 600,
+      "sha256": "1b63ae63d703058b79f67448d37916dc1e6431045809cbf00528e2569b77f14f"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_timeout_sends_real_worker_signals/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_timeout_sends_real_worker_signals/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "5638119e401e81628160cd5af9c4445c7ab24e3dd494a709fdb86d749b0ff141"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_timeout_sends_real_worker_signals/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_rpc_timeout_sends_real_worker_signals/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_census_checks_parent_executable_model_and_start/proc/123/cmdline",
+      "size": 204,
+      "sha256": "5b9e0ef7c5f75f8d590ffd5a1aeebaee5c03b26b53bf01dbb90e496fe2359cb8"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_census_checks_parent_executable_model_and_start/proc/123/stat",
+      "size": 62,
+      "sha256": "c124e4aa6600c4a3c8a3f840f630224e216219ba5bfe60ad2b2bfa65351e6bf5"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_census_checks_parent_executable_model_and_start/proc/321/cmdline",
+      "size": 28,
+      "sha256": "18d757b56b44ae025149ebae643085e42d82d7a3a67920cb9b3664978be99ca1"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_census_checks_parent_executable_model_and_start/proc/321/stat",
+      "size": 63,
+      "sha256": "6c41ef3a1d6ab6f0065d9731661991e43cd4f881930a0daf1e67b6d15f939d8f"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_census_checks_parent_executable_model_and_start/proc/999/cmdline",
+      "size": 441,
+      "sha256": "f266189b7480ace99627fa5d70a93da331275d0bcd04afb083efa5059bcbf7f6"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_census_checks_parent_executable_model_and_start/proc/999/stat",
+      "size": 61,
+      "sha256": "e5c1fc4acdceecc8425ab51123aace2770c69fd56df9250c65e730a2820682c0"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_change_between_attestation_and_dispatch_stops_generation/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_change_between_attestation_and_dispatch_stops_generation/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 887,
+      "sha256": "e59119919b202c9fffc629d7bd8bee2bb96d0506d8bd0a00940623ca025a61cf"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_change_between_attestation_and_dispatch_stops_generation/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "9b5c1e2601a5ca41368dad2d6feb4ee9a1277159072769120bb343f35abf60bf"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_change_between_attestation_and_dispatch_stops_generation/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "654cae9e1f10eba7a0d8b9707c343be2eb94ffa6f17ebe2d310d6de3f67b2fc2"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_change_between_attestation_and_dispatch_stops_generation/driver/campaign/artifacts/000006-5-client.json",
+      "size": 906,
+      "sha256": "5880eced6b14a9550398bfbc997285f398e0930b37c2c4cc6938875211acb23b"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_change_between_attestation_and_dispatch_stops_generation/driver/campaign/ledger.jsonl",
+      "size": 2145,
+      "sha256": "aa9d470a11990c3a63dc98829a9f09c0b92858a3539c62b139e4941eda1d8386"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_change_between_attestation_and_dispatch_stops_generation/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_change_between_attestation_and_dispatch_stops_generation/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "7d5be04aa92b0054a7655fc7b8a90dc4aa63a787cd632951d6b077bbb007aa54"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_change_between_attestation_and_dispatch_stops_generation/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_runner_change_between_attestation_and_dispatch_stops_generation/project/.local/t1-service.lock",
+      "size": 305,
+      "sha256": "cc4a69f83b2baff85a9a44d6b4009f20da523bd5ed0a589145ffb6e17810f013"
+    },
+    {
+      "path": "outputs/fixtures/test_runtime_context_drift_blocks/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_runtime_context_drift_blocks/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 852,
+      "sha256": "e995add56c0129fd977d693087a240bc759454e84f4629a2db1e1ef04107b61c"
+    },
+    {
+      "path": "outputs/fixtures/test_runtime_context_drift_blocks/driver/campaign/ledger.jsonl",
+      "size": 1542,
+      "sha256": "76214342fc52fa8e8d7daae18d26759cf57b591d4c29f77e3e26cfda19b5b1de"
+    },
+    {
+      "path": "outputs/fixtures/test_runtime_context_drift_blocks/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_runtime_context_drift_blocks/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "2813910fbe6d2bbe0fcec807b7117048dd177787b6eb047258bc337555b5970f"
+    },
+    {
+      "path": "outputs/fixtures/test_runtime_context_drift_blocks/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_runtime_context_drift_blocks/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_schema_rejects_before_any_counter_or_http/driver/campaign/ledger.jsonl",
+      "size": 601,
+      "sha256": "6d45e6d84c48d0a428a0bc4e9a6fa974664a473e90423bcca77d3aa7458131ec"
+    },
+    {
+      "path": "outputs/fixtures/test_schema_rejects_before_any_counter_or_http/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_schema_rejects_before_any_counter_or_http/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "ffa68ef6212f1a1b0ef1fe54a187a9fff93917f1fc7428f1d56a92ea0f47b30a"
+    },
+    {
+      "path": "outputs/fixtures/test_schema_rejects_before_any_counter_or_http/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_schema_rejects_before_any_counter_or_http/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_service_lease_single_writer/driver/campaign/ledger.jsonl",
+      "size": 600,
+      "sha256": "70d00ad0979ec5f3253b0ac0cd4948e69a88e73c6c81afb89f06e4e4b51a7d08"
+    },
+    {
+      "path": "outputs/fixtures/test_service_lease_single_writer/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_service_lease_single_writer/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "caf2b4f26ca4060a8dbba7b9e9771c7cc75ccf57ef036a46ef4f47b71be694f2"
+    },
+    {
+      "path": "outputs/fixtures/test_service_lease_single_writer/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_service_lease_single_writer/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 863,
+      "sha256": "3b53e2006e6d8fe6e3ffc0694b954ff348e9fb237555a71d8c8cd4c2c4e19363"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "9bcfcc9eb7f16726b1c79db5998cc2688a28a71218647944840da93263121c55"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/artifacts/000005-4-client.json",
+      "size": 895,
+      "sha256": "f57c35721db8ce8bf5e2d751a519c99f90a7dad367c993b955b2f934f3082708"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/artifacts/000008-6-client.json",
+      "size": 858,
+      "sha256": "13110571055e700511abf401299da985d65de795dccdf31d90032bfa553f6b5e"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/artifacts/000011-7-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/artifacts/000012-8-binding-evidence.json",
+      "size": 863,
+      "sha256": "3b53e2006e6d8fe6e3ffc0694b954ff348e9fb237555a71d8c8cd4c2c4e19363"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/artifacts/000013-9-client.json",
+      "size": 352,
+      "sha256": "dc0a1b9e7e051c17a2775847b0704bb51e130b0b621fbbf514f9e1da07d81fdb"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/artifacts/000014-10-client.json",
+      "size": 895,
+      "sha256": "036f3b69fbeb786e42f61c4013b795c94ba02da5b8bd620667398e1793774166"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/artifacts/000016-11-provider-request.json",
+      "size": 229,
+      "sha256": "632ac28e610bb25cf450d4f91df1c2e619a27cdcd366181eacdb9808f666ddc3"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/artifacts/000017-12-client.json",
+      "size": 1240,
+      "sha256": "0e2028dc5a55659ce9f807f1f298e78215f8b23b23b35fdfdb75bd348a19475d"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/ledger.jsonl",
+      "size": 5739,
+      "sha256": "042cb721bace578d1cd70d511422cd21c92b45216252e5b82a7cd7bcdade64c8"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "7e5e5b32304eff3671ce2ac2946cd7ea3467827df172cc9153fa3e7b548d98d8"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_timeout_retained_then_permit_and_budget/project/.local/t1-service.lock",
+      "size": 281,
+      "sha256": "8f5dabb9245a16f76276f261ac338d7b206651df29cc68911e025edb24162bee"
+    },
+    {
+      "path": "outputs/fixtures/test_unknown_file_blocks_before_dispatch/driver/campaign/ledger.jsonl",
+      "size": 600,
+      "sha256": "5e20d13ab22875178a239152a62d1f92388c4fbb2a51d68b83867bab82528edc"
+    },
+    {
+      "path": "outputs/fixtures/test_unknown_file_blocks_before_dispatch/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_unknown_file_blocks_before_dispatch/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "12dad37318a92bf05ecac7c4e0f4bd6cfd9cb501664c41cc323b83052cb0f001"
+    },
+    {
+      "path": "outputs/fixtures/test_unknown_file_blocks_before_dispatch/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_unknown_file_blocks_before_dispatch/driver/unknown",
+      "size": 1,
+      "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+    },
+    {
+      "path": "outputs/fixtures/test_unknown_file_blocks_before_dispatch/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_unload_failure_keeps_fence/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 320,
+      "sha256": "4d785e9c5c531c718299f97ffd482b4aa2fa0f9f25d3a26ac7c0fe7d7980be80"
+    },
+    {
+      "path": "outputs/fixtures/test_unload_failure_keeps_fence/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 850,
+      "sha256": "5f7c557db567208f292d47d3128ed4e652c8e47d3f32a76d37d7534d8163c14d"
+    },
+    {
+      "path": "outputs/fixtures/test_unload_failure_keeps_fence/driver/campaign/artifacts/000004-3-client.json",
+      "size": 351,
+      "sha256": "f559dc8a4f7ee0ffb6af207b25d0cc35d4549a93c7da984e61e65759bdb702c2"
+    },
+    {
+      "path": "outputs/fixtures/test_unload_failure_keeps_fence/driver/campaign/artifacts/000005-4-client.json",
+      "size": 894,
+      "sha256": "29f29482d92b7e87837db56585770c1046b97a60a94c84e2819680b09d9dd20e"
+    },
+    {
+      "path": "outputs/fixtures/test_unload_failure_keeps_fence/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_unload_failure_keeps_fence/driver/campaign/artifacts/000008-6-client.json",
+      "size": 856,
+      "sha256": "6fd42aa56e3b91ac4f01a1e0b8b0e86a7350f8ff8d4db9d6e35319ab33140302"
+    },
+    {
+      "path": "outputs/fixtures/test_unload_failure_keeps_fence/driver/campaign/ledger.jsonl",
+      "size": 2986,
+      "sha256": "3133ab5ad1438447a755127f82db57455fe17e3c43c047aea78213a88320d4c1"
+    },
+    {
+      "path": "outputs/fixtures/test_unload_failure_keeps_fence/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_unload_failure_keeps_fence/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "f42a405db3785f2d02a890154b2847331b80e92373aeabc2630ae8234c389947"
+    },
+    {
+      "path": "outputs/fixtures/test_unload_failure_keeps_fence/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_unload_failure_keeps_fence/project/.local/t1-service.lock",
+      "size": 268,
+      "sha256": "84dd02cd6127380eb23502115ebc70b442b4f1f7ff1c703f485c1f3e6fc0c798"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 463,
+      "sha256": "23eb582c2d53b5a583d389f706bebf57b7e2cee49a311e1f988a6cd316e184c6"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 832,
+      "sha256": "89a031e7297516d6646f601c384caf3eead96a347fbe380906986d1ccc5a91f0"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "adc5942c956cfc1eacdbb9c1d283138c58f5bdccb3e85720168d75153bb9e63b"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c/driver/campaign/artifacts/000005-4-client.json",
+      "size": 896,
+      "sha256": "1974387c63c0ab674933b774ac8383ca2cf2946e27d77a29ded0697df8a027cf"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c/driver/campaign/artifacts/000008-6-client.json",
+      "size": 1245,
+      "sha256": "8592b346cb92b18062eada9ba1e1fd857d6531e3afd95345fe63c27dee66297e"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c/driver/campaign/ledger.jsonl",
+      "size": 3030,
+      "sha256": "04fe3ea1472aa86b091b1c064a970303402348637718d0898edbc70214b57814"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "83aa008a4bf8e8d22f76d7c8b23a5ab0cdc10dc3309e8fc5962aa6bbdb51f0f6"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c/project/.local/t1-service.lock",
+      "size": 250,
+      "sha256": "fb33f970b7c1e7ac34174532b90aa7b96fb2bf5059cddc0b1ea27229dd6e9d50"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_minus_1/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 460,
+      "sha256": "27d2897a631ec9c75ee381f5f5fdef187c1b5b543c202e436f64b382194804f2"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_minus_1/driver/campaign/artifacts/000003-2-binding-evidence.json",
+      "size": 840,
+      "sha256": "c9c9fa2741a18f0bb4b439b3b9f39b9fadde52dee8ecc033990cf6fe548af1c1"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_minus_1/driver/campaign/artifacts/000004-3-client.json",
+      "size": 352,
+      "sha256": "f1b37e42ad05d7ed162419e1d6caef5af3f102a32edb656e95312a7d734b0a7c"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_minus_1/driver/campaign/artifacts/000005-4-client.json",
+      "size": 896,
+      "sha256": "e96d912a63a4573b0caf869eefa0c6f33dc8fd8de5c2a659764e7811336b5201"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_minus_1/driver/campaign/artifacts/000007-5-provider-request.json",
+      "size": 229,
+      "sha256": "6cdc8ab73bf2dc811566524e6cf49e6bd3d96b7a687b495db746a26f75e69f9e"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_minus_1/driver/campaign/artifacts/000008-6-client.json",
+      "size": 1244,
+      "sha256": "1f3d58f77fa0d5f502278771bfc06a95e2878c943a87d9c90bff7e13f02dbfff"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_minus_1/driver/campaign/ledger.jsonl",
+      "size": 3030,
+      "sha256": "cc0fa53853f6d3bfca7524a038ab3fcf824a67c09a34f76c0c24d7ed9a989f3c"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_minus_1/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_minus_1/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "faf9a75dd38ab8a89dbd3899f6c3657aef7ebd108e2ff7136797735952cf5bdd"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_minus_1/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_minus_1/project/.local/t1-service.lock",
+      "size": 258,
+      "sha256": "02ba10b5da14338aafd5909dae7ffce7ddaca9b1ecd8d51ca3c641a07614cc07"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_plus_1_no_dispatch/driver/campaign/artifacts/000002-1-full-input-count.json",
+      "size": 466,
+      "sha256": "a9caf8c09e46e35af3789c32211e8bdf63a15c33c44a4f6cd9a92e3f0aadc34a"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_plus_1_no_dispatch/driver/campaign/ledger.jsonl",
+      "size": 914,
+      "sha256": "c0b08a1447303a5db5993142fe196b688e572e6daa0cfa15775af9dee434e69c"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_plus_1_no_dispatch/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_plus_1_no_dispatch/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "f5f9d59b2897e21b2846475f93654c7ab622ca88efa58a98c6c432b01e61b5fb"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_plus_1_no_dispatch/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/fixtures/test_window_c_plus_1_no_dispatch/project/.local/t1-service.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

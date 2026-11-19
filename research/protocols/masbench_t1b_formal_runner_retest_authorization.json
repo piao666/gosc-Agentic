@@ -1,0 +1,17 @@
+{
+  "approved": true,
+  "scope": "T1-B synthetic only",
+  "exclusive_service": true,
+  "service_exclusivity_confirmation": "用户确认按本轮预算归档并清空旧活动锁，授权独占项目 Ollama 进行一次四例真实模型合成复验。",
+  "run_id": "hpc-masbench-t1b-formal-runner-retest-20261119",
+  "previous_t1b_run": "hpc-masbench-t1b-formal-20261119",
+  "service_pid": 37483,
+  "service_stamp": "4897373256",
+  "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+  "protocol_sha256": "a6c33702ffaf326064dc36b454893c4e4c109787bca98988624c746b3e17078d",
+  "plan_sha256": "c999e9219c9d53be6db7b4ede95a2b99acebaf8f584c47a8f92b3a9730fed607",
+  "source_sha256": "d634dcc81ae5c74d3e923cabee50e80c29ea5f080375a525f95f0c613d894a20",
+  "runner_sha256": "6978ff02998a2b699d8de0330630162fbd7a2fd29eb7c7ad43759b83f50aa52e",
+  "registry_sha256": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86",
+  "previous_recovery_receipt_sha256": "b704c8e19427acc17d11564cb2f69d403a04d8ffdc1f3c86cadbcba713164c4c"
+}

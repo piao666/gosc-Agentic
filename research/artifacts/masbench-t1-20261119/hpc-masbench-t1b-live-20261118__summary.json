@@ -1,0 +1,52 @@
+{
+  "runtime": {
+    "root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "helper": "/tmp/gosc-hpc-masbench-context-build-v3-20261116/context-counter",
+    "service_pid": 37483,
+    "service_stamp": "4897373256",
+    "binary_sha": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+    "context": 1024,
+    "model": "qwen2.5:7b"
+  },
+  "caps": {
+    "wall": 480,
+    "dispatch_cutoff": 350,
+    "operation": 60,
+    "requests": 4,
+    "inputs": 4096,
+    "outputs": 1088,
+    "debug": 4,
+    "unload": 4,
+    "get": 24,
+    "cleanup_get": 16,
+    "artifact_bytes": 16777216,
+    "driver_rss": 2147483648,
+    "service_rss": 17179869184,
+    "gpu_bytes": 17179869184,
+    "cpu_cores": 2
+  },
+  "cases": [],
+  "status": "failed",
+  "actual_task_inputs": 0,
+  "native_immediate_idle_verified": false,
+  "error": "OSError: [Errno 122] Disk quota exceeded",
+  "elapsed_seconds": 0.8552787378430367,
+  "control_counts": {
+    "debug": 0,
+    "get": 0,
+    "cleanup_get": 0,
+    "unload": 0
+  },
+  "reservations": {
+    "requests": {},
+    "inputs": 0,
+    "outputs": 0
+  },
+  "resource_samples": 2,
+  "sampled_peaks": {
+    "driver_rss": 92459008,
+    "service_rss": 47337472,
+    "gpu_bytes": 0
+  },
+  "service_marker_retained": false
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t1b_live.py", line 263, in <module>
+    main()
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t1b_live.py", line 231, in main
+    driver.recover()
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/extensions/masbench_reasoning/live_driver.py", line 554, in recover
+    raise SafetyError('old runner identity missing or changed; keep fenced')
+extensions.masbench_reasoning.execution_safety.SafetyError: old runner identity missing or changed; keep fenced

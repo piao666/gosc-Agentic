@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t1b-formal-audit-20261119",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 3720,
+      "sha256": "3a17cf4ed8c620343f1a5098f1cf28636620441627e67d83d82f4a98ae60ff47"
+    }
+  ]
+}

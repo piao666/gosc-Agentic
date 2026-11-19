@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t1a-evidence-audit-v3-20261118",
+  "original_sha256": "78cfbb12b647a4b1d0ab7f6c8519efb5100a4755842aa4979865bc82d523133f",
+  "original_size": 24389141,
+  "archive_sha256": "f2f3433d5223f424594e655baa07ac01d1c95072ddf46aea993e5fbf2db1e072",
+  "archive_size": 1722419,
+  "original_retained_tmpfs": "/tmp/gosc-t1a-snapshot-archive-20261118/hpc-masbench-t1a-evidence-audit-v3-20261118.patch",
+  "local_raw_mirrored_before_archive": true,
+  "restore": "gzip -dc source_changes.patch.gz > source_changes.patch"
+}

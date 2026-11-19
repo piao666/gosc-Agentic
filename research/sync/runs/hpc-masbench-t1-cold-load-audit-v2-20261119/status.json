@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-t1-cold-load-audit-v2-20261119",
+  "status": "completed",
+  "started_at": "2026-11-19T05:15:15.735670+00:00",
+  "finished_at": "2026-11-19T05:15:15.935100+00:00",
+  "exit_code": 0,
+  "pid": 50115,
+  "elapsed_seconds": 0.199451,
+  "resource_usage": {
+    "child_max_rss_kib": 77520,
+    "child_cpu_user_seconds": 0.41977499999999995,
+    "child_cpu_system_seconds": 0.20099899999999998,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

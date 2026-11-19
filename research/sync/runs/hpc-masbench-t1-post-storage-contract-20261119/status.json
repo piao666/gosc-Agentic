@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-t1-post-storage-contract-20261119",
+  "status": "completed",
+  "started_at": "2026-11-19T02:47:42.945486+00:00",
+  "finished_at": "2026-11-19T02:47:50.404933+00:00",
+  "exit_code": 0,
+  "pid": 42760,
+  "elapsed_seconds": 7.459467,
+  "resource_usage": {
+    "child_max_rss_kib": 53608,
+    "child_cpu_user_seconds": 1.710635,
+    "child_cpu_system_seconds": 2.038113,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

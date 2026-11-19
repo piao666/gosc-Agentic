@@ -1,0 +1,11 @@
+{
+  "run_id": "hpc-masbench-t1a-evidence-audit-20261118",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 2325,
+      "sha256": "74ac5ac8bf48598cabf2e2620d25ecfd92a48c3a37f1b1bc4b4805ff19d071be"
+    }
+  ],
+  "reconciled_at": "2026-11-18T03:44:35.179280+00:00"
+}

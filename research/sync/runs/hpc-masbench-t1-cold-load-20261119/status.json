@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-t1-cold-load-20261119",
+  "status": "failed",
+  "started_at": "2026-11-19T05:11:08.939225+00:00",
+  "finished_at": "2026-11-19T05:11:09.443559+00:00",
+  "exit_code": 1,
+  "pid": 49732,
+  "elapsed_seconds": 0.504353,
+  "resource_usage": {
+    "child_max_rss_kib": 82384,
+    "child_cpu_user_seconds": 0.5989789999999999,
+    "child_cpu_system_seconds": 0.300022,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

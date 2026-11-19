@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t1-cold-load-audit-v2-20261119",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 7245,
+      "sha256": "665c1ff10af15a518f6d8eb51c9f212081645d395ea7c521edc9c99c7c02a54e"
+    }
+  ]
+}

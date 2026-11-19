@@ -1,0 +1,25 @@
+{
+  "run_id": "hpc-masbench-t1-cold-load-20261119",
+  "files": [
+    {
+      "path": "outputs/control.jsonl",
+      "size": 131072,
+      "sha256": "7150f6808bafa7bbe9be097290759524ef2be221048d909258249c5155b22685"
+    },
+    {
+      "path": "outputs/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/summary.json",
+      "size": 700,
+      "sha256": "a4b23d4dbd865a2b661cd75e12277813eb49d15b993df53f87310631a99826ef"
+    },
+    {
+      "path": "outputs/write-preflight.bin",
+      "size": 33,
+      "sha256": "62a8a123efffc381bb75f64ecb8b9262421c98967eb269d2d1fd97b4f42ff7e4"
+    }
+  ]
+}

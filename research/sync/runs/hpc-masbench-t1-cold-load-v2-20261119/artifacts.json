@@ -1,0 +1,70 @@
+{
+  "run_id": "hpc-masbench-t1-cold-load-v2-20261119",
+  "files": [
+    {
+      "path": "outputs/control.jsonl",
+      "size": 131072,
+      "sha256": "b1e473ac0ef43591a2c3b5a4b10ffcc9330a972adbd385f55a67d3774b114dd4"
+    },
+    {
+      "path": "outputs/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/http-004-version.json",
+      "size": 129,
+      "sha256": "cd3abc0bfc6cbbedc178668f84cee16349a884afe4a3dd7ecd32da6f555de277"
+    },
+    {
+      "path": "outputs/http-010-ps.json",
+      "size": 121,
+      "sha256": "e657b9e77f374e31d7f86fec2bfafbbc5b067d77e8a403b32a04e7ec0af7bb06"
+    },
+    {
+      "path": "outputs/http-018-ps.json",
+      "size": 121,
+      "sha256": "a554f3a364eebeb47a089bba0becc6c558360cf05609715e357174e31cc8801c"
+    },
+    {
+      "path": "outputs/http-026-render.json",
+      "size": 382,
+      "sha256": "1f2c0731bbc53a60cb54ad6ba3cbd89c8ddc33bdbf10c491427ea4a3c1ef2eda"
+    },
+    {
+      "path": "outputs/http-032-ps.json",
+      "size": 491,
+      "sha256": "d85e2a8804fa3f157d4a65dc48aecfba74763f36c1de51ac9dedbe3918db01fd"
+    },
+    {
+      "path": "outputs/http-039-unload.json",
+      "size": 255,
+      "sha256": "1e4d7ab407323a3b39fbe51905ad6fa55779b5c2db24d9acd151bf10a11893f5"
+    },
+    {
+      "path": "outputs/http-043-ps.json",
+      "size": 491,
+      "sha256": "8d06b2d320607a462e4b125bc0f13c1e11bd22de752a91dd9c4c395d6104e99d"
+    },
+    {
+      "path": "outputs/http-049-ps.json",
+      "size": 121,
+      "sha256": "598985ef2055cd10a5d101d04d9f13538ae0daa187a27f7fdee1f7cefeeb4821"
+    },
+    {
+      "path": "outputs/samples.jsonl",
+      "size": 4204,
+      "sha256": "2f4b0cdb77e5e39e21add45fff4e23a9c6ca651b68aeb8784dc6cdca15c05fe9"
+    },
+    {
+      "path": "outputs/summary.json",
+      "size": 1204,
+      "sha256": "fa3f95c298c5433cf589b54961084ec197570e590203a632db62fbd4abda3ef9"
+    },
+    {
+      "path": "outputs/write-preflight.bin",
+      "size": 33,
+      "sha256": "62a8a123efffc381bb75f64ecb8b9262421c98967eb269d2d1fd97b4f42ff7e4"
+    }
+  ]
+}

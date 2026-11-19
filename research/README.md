@@ -1,5 +1,23 @@
 # 研究进度与证据入口
 
+2026-11-19 [T1 验证总报告](reports/masbench_t1_validation_archive_2026-11-19.md)整合从无模型接线到最终现场通过的 32 条登记、存储恢复和失败证据。 [运行及证据索引](artifacts/masbench-t1-20261119/README.md) · [本轮提交说明](../commit/2026-11-19-01-masbench-t1-validation-archive.md)
+
+2026-11-19 [T1 runner 更替核对与现场复验](reports/masbench_t1b_formal_runner_retest_2026-11-19.md)通过固定部署下的合成端到端验收。HPC 53 项禁网回归，真实模型四例，三次卸载及独立审计通过。旧锁已据证归档，终态服务空闲。原生即时取消未验证，T2 配置审查和真实 B1 等待各自条件。
+
+2026-11-19 [正式 T1 四例现场验收](reports/masbench_t1b_formal_acceptance_2026-11-19.md)执行完成，整体验收未通过。四次合成派发、两条正常对账和两次故障后恢复均经独立证据审计；最终卸载缺少新 runner 的身份退出证明，恢复锁保留。真实题目零曝光，T2 与真实 B1 等待。
+
+2026-11-19 [正式 T1 四例预算](protocols/masbench_t1b_formal_budget_2026-11-19.md)在现场运行前获批，HPC 51 项禁网测试通过，冷渲染与生成 watchdog 分段计时。 [禁网结果](sync/runs/hpc-masbench-t1b-formal-contract-20261119/stderr.log)
+
+2026-11-19 [T1 单次冷渲染诊断](reports/masbench_t1_cold_load_diagnostic_2026-11-19.md)完成。唯一渲染约 10.05 秒、HTTP 200，runner 退出及空闲通过核对，零生成。
+
+2026-11-19 [HPC SSD 恢复与 T1 复验](reports/hpc_storage_and_t1_recovery_2026-11-19.md)。四个用户确认的 SSD 原件清理后恢复持久写入，旧锁证据归档。49 项禁网回归通过；真实复验在首例冷加载触发 60 秒操作截止，零生成，保留新标记。T1 仍阻断。
+
+2026-11-18 [T1 runner 恢复修复和复验](reports/masbench_t1_runner_recheck_2026-11-18.md)。47 项禁网回归和独立证据审查通过。批准的真实复验在首例渲染检查处分支停止，服务端记录 499，登记收尾触发磁盘配额错误。零生成，恢复锁保留，T1 整体仍未验收。
+
+2026-11-18 [T1-B 合成真实服务验收](reports/masbench_t1b_live_driver_acceptance_2026-11-18.md)未通过。正常请求对账成功，watchdog 已触发并保留未知用量。旧 runner 身份缺失，外层验收停止后续派发。T1 整体仍阻断，T2 和真实 B1 尚未启动。
+
+2026-11-18 [T1-A 接线与无模型验收](reports/masbench_t1a_live_driver_acceptance_2026-11-18.md)完成，最终 40 项无网络合成合同与独立证据审计通过。首轮登记及配额失败保留。
+
 2026-11-17 Git归档：[详细五部分提交报告](../commit/2026-11-17-01-context-tokenizer-and-real-deployment.md)回顾上次提交前的B1验证，并逐项记录本轮15个run（含11失败）、D1决定、计数/部署与恢复边界；[20份原始小型证据及精简回执](artifacts/context-deployment-20261117/README.md)保留SHA关联。归档本身只做Git/文件管理，不新运行模型/任务或更改科学No-Go。
 
 2026-11-17 真实服务有限域验收：[报告](reports/masbench_real_deployment_acceptance_2026-11-17.md)。临时32768实测、两组完整渲染及2443-token长输入V1计数通过；主动断连后卸载成功/旧runner退出。39.725243s完成，debug2/生成2/卸载1；服务默认已恢复1024、ps空。原生即时取消及生产Driver绑定仍Pending，真实题目0，B1/正式评价/训练未放行。以下较早“部署未运行”为历史快照。

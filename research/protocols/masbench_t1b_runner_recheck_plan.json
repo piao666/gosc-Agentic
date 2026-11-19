@@ -1,0 +1,20 @@
+{
+  "schema": "t1b-synthetic-runner-recheck-v1",
+  "run_id": "hpc-masbench-t1b-runner-recheck-20261118",
+  "runtime": {"model": "qwen2.5:7b", "context": 1024, "port": 11434, "version": "0.11.11"},
+  "caps": {"wall": 480, "dispatch_cutoff": 350, "operation": 60, "requests": 4,
+    "inputs": 4096, "outputs": 1088, "debug": 4, "unload": 4, "get": 24, "cleanup_get": 16,
+    "artifact_bytes": 16777216, "driver_rss": 2147483648, "service_rss": 17179869184,
+    "gpu_bytes": 17179869184, "cpu_cores": 2},
+  "overflow": {"system": "Fictitious window-control text. ", "repetitions": 384, "max_output": 32},
+  "cases": [
+    {"id": "normal", "fault": "none", "max_output": 32,
+      "messages": [{"role":"system","content":"Synthetic interface check. Reply only with OK."},{"role":"user","content":"Acknowledge this synthetic request."}]},
+    {"id": "watchdog", "fault": "timeout", "max_output": 512, "watchdog_after_send_seconds": 0.25,
+      "messages": [{"role":"system","content":"Synthetic cancellation check. Write each integer from 1 through 4000, comma separated. Continue the sequence for as long as allowed."},{"role":"user","content":"Begin the synthetic sequence."}]},
+    {"id": "controller", "fault": "interrupt", "max_output": 512,
+      "messages": [{"role":"system","content":"Synthetic controller check. Write each integer from 1 through 4000, comma separated. Continue the sequence for as long as allowed."}]},
+    {"id": "recovery", "fault": "none", "max_output": 32,
+      "messages": [{"role":"system","content":"Synthetic recovery check. Reply only with OK."},{"role":"user","content":"Acknowledge this synthetic request."}]}
+  ]
+}

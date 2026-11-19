@@ -1,0 +1,17 @@
+{
+  "run_id": "hpc-masbench-t1-runner-recovery-contract-20261118",
+  "status": "failed",
+  "started_at": "2026-11-18T07:09:05.519774+00:00",
+  "finished_at": "2026-11-18T07:09:12.910794+00:00",
+  "exit_code": 127,
+  "pid": 54978,
+  "elapsed_seconds": 7.391044,
+  "resource_usage": {
+    "child_max_rss_kib": 52492,
+    "child_cpu_user_seconds": 1.695309,
+    "child_cpu_system_seconds": 1.4900579999999999,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+  "error": "Symlink artifact is not supported"
+}

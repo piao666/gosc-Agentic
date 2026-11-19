@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-t1a-contract-v4-20261118",
+  "status": "completed",
+  "started_at": "2026-11-18T03:50:47.647260+00:00",
+  "finished_at": "2026-11-18T03:50:53.393747+00:00",
+  "exit_code": 0,
+  "pid": 42865,
+  "elapsed_seconds": 5.746508,
+  "resource_usage": {
+    "child_max_rss_kib": 53388,
+    "child_cpu_user_seconds": 1.44547,
+    "child_cpu_system_seconds": 1.382321,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

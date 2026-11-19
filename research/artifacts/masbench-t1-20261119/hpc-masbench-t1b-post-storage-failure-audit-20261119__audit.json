@@ -1,0 +1,203 @@
+{
+  "source_run": "hpc-masbench-t1b-post-storage-20261119",
+  "source_run_failed": true,
+  "acceptance_passed": false,
+  "artifacts_verified": 11,
+  "ledger_tip": "58b74038d995b6ba3e627cf83bfee5054811a74321d5438fc7aeab60ecf359e3",
+  "control_tip": "7537c4e842bbdf48a76b90acf5fd7b37905c36588c5a7ec99c07b32d049b808e",
+  "cold_debug_wait_seconds": 59.28726712614298,
+  "timeout": {
+    "event": {
+      "kind": "rpc-timeout",
+      "pid": 43412,
+      "sent_observed": true,
+      "stamp": "4914536432"
+    },
+    "mono": 49145423.71781683,
+    "previous": "3648734a983554a80ea5cea9ff1fec4395753abe7cf0746c25abc9ee5566f867",
+    "seq": 21,
+    "hash": "14a06c755dad46584e8dfac6520ed84f60e77b0d1daf7e88ddf341cb303a2abb"
+  },
+  "actual_signals": [
+    {
+      "event": {
+        "kind": "signal",
+        "pid": 43412,
+        "sent": true,
+        "signal": 15,
+        "stamp": "4914536432"
+      },
+      "mono": 49145423.894329175,
+      "previous": "14a06c755dad46584e8dfac6520ed84f60e77b0d1daf7e88ddf341cb303a2abb",
+      "seq": 22,
+      "hash": "cfdfeca341528ba092feb2bbadfcf8ea8adcd62720084d5e1d700ad521ff0a44"
+    },
+    {
+      "event": {
+        "kind": "signal",
+        "pid": 43412,
+        "sent": true,
+        "signal": 9,
+        "stamp": "4914536432"
+      },
+      "mono": 49145424.074879624,
+      "previous": "cfdfeca341528ba092feb2bbadfcf8ea8adcd62720084d5e1d700ad521ff0a44",
+      "seq": 23,
+      "hash": "5a735d505ad97b45bd01cafec389320dd353b4e9035b6115afe41a59a85aa663"
+    }
+  ],
+  "unload_unverified": {
+    "event": {
+      "kind": "unload-unverified",
+      "observation": {
+        "ledger_seq": 8,
+        "ledger_tip": "58b74038d995b6ba3e627cf83bfee5054811a74321d5438fc7aeab60ecf359e3",
+        "process_observations": [],
+        "ps": {
+          "models": []
+        },
+        "remaining_runners": [],
+        "response": {
+          "created_at": "2026-11-19T03:00:58.996769206Z",
+          "done": true,
+          "done_reason": "unload",
+          "message": {
+            "content": "",
+            "role": "assistant"
+          },
+          "model": "qwen2.5:7b"
+        },
+        "service": {
+          "pid": 37483,
+          "stamp": "4897373256"
+        }
+      }
+    },
+    "mono": 49145424.58995796,
+    "previous": "fba9e45480fe425fce8a05a5227382988689ece207d924e5a5a6b3bcb00489b3",
+    "seq": 48,
+    "hash": "8e0670b4e086470088fe804d49b562bcc3177f21e5fa2adc39770d492acfa112"
+  },
+  "service_log_projection": [
+    {
+      "time": "2026/11/19 - 10:59:58",
+      "offset": 2967602,
+      "bytes": 90,
+      "sha256": "8061efe6899eb6d3f9a4875eacdeabfd91ebb0e2c2ee4a236a996650e4c0ece4",
+      "events": [
+        {
+          "status": 200,
+          "duration": "30.415µs",
+          "method": "GET",
+          "path": "/api/ps"
+        }
+      ]
+    },
+    {
+      "time": "2026-11-19T10:59:59",
+      "offset": 2973388,
+      "bytes": 340,
+      "sha256": "6d1bf81c33b5ed28f4be44199bce3cfbe5048b623a5edc650842d02a59508504",
+      "events": [
+        "runner command started"
+      ]
+    },
+    {
+      "time": "2026-11-19T10:59:59",
+      "offset": 2973728,
+      "bytes": 92,
+      "sha256": "9b57412fc716fb951218f044cd7d09373898426a1f19ce729186e6bfd50dab0e",
+      "events": [
+        "Go runner starting"
+      ]
+    },
+    {
+      "time": "2026-11-19T10:59:59",
+      "offset": 2973961,
+      "bytes": 334,
+      "sha256": "92814329b458eecca28a5d49c9c8d7381b75a4a50ca9c4ce319b34d702d270e5",
+      "events": [
+        "memory estimate fit"
+      ]
+    },
+    {
+      "time": "2026-11-19T11:00:58",
+      "offset": 2983316,
+      "bytes": 145,
+      "sha256": "3bd0a5995096f873508961dffdff32dd5249b2ef4cd970eb23c112c2666e60d5",
+      "events": [
+        "client disconnected during loading"
+      ]
+    },
+    {
+      "time": "2026-11-19T11:00:58",
+      "offset": 2983461,
+      "bytes": 291,
+      "sha256": "1ebfe8c4fb8914c8fe4e2116a71ddc47d88d2090b9d11d38c39da69f9b8c17b6",
+      "events": [
+        "load failed",
+        "request context canceled"
+      ]
+    },
+    {
+      "time": "2026/11/19 - 11:00:58",
+      "offset": 2983752,
+      "bytes": 91,
+      "sha256": "8e1eaf6f8f656a97ad5aed4cc0e70af08b4ac8a69d3c087eab222e4c1e86918d",
+      "events": [
+        {
+          "status": 499,
+          "duration": "59.659876106s",
+          "method": "POST",
+          "path": "/api/chat"
+        }
+      ]
+    },
+    {
+      "time": "2026/11/19 - 11:00:58",
+      "offset": 2983843,
+      "bytes": 90,
+      "sha256": "9cad34462e080cefaaef370acd4fbc45b5a4ee236ae663b34593cc42ee620e4d",
+      "events": [
+        {
+          "status": 200,
+          "duration": "29.483µs",
+          "method": "GET",
+          "path": "/api/ps"
+        }
+      ]
+    },
+    {
+      "time": "2026/11/19 - 11:00:58",
+      "offset": 2983933,
+      "bytes": 92,
+      "sha256": "fcf4405210c4c5248f94b3ff7be3883837900d842e0f0ad2f4f347af1defc13b",
+      "events": [
+        {
+          "status": 200,
+          "duration": "937.327µs",
+          "method": "POST",
+          "path": "/api/chat"
+        }
+      ]
+    },
+    {
+      "time": "2026/11/19 - 11:00:59",
+      "offset": 2984025,
+      "bytes": 90,
+      "sha256": "c290ddb7fee4e7db2c65881ab3f950eaa4efdc61e7bd735fbc7f34e52230c252",
+      "events": [
+        {
+          "status": 200,
+          "duration": "40.76µs",
+          "method": "GET",
+          "path": "/api/ps"
+        }
+      ]
+    }
+  ],
+  "generation_requests": 0,
+  "real_task_inputs": 0,
+  "next_dispatch_allowed": false,
+  "native_immediate_idle_verified": false
+}

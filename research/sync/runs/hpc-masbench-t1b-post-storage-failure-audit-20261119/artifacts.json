@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t1b-post-storage-failure-audit-20261119",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 5528,
+      "sha256": "f7fdd40519ca4766927c0d564ef6fc813cb8b12accb71085ab40459eeb140b8b"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # HPC execution status
 
-Generated: 2026-11-17T03:22:25.131679+00:00
+Generated: 2026-11-19T07:17:54.095382+00:00
 
 | Run | Kind | Stage | Status | Exit |
 |---|---|---|---|---|
@@ -108,6 +108,38 @@ Generated: 2026-11-17T03:22:25.131679+00:00
 | hpc-masbench-real-deployment-20261117 | test | real-context-cancel | completed | 0 |
 | hpc-masbench-registry-v2-20261103 | analysis | MASBENCH-P0-P1 | completed | 0 |
 | hpc-masbench-repair-plan-20261102 | infrastructure | MASBENCH-ENV-PLAN | completed | 0 |
+| hpc-masbench-t1-cold-load-20261119 | infrastructure | T1 | failed | 1 |
+| hpc-masbench-t1-cold-load-audit-20261119 | analysis | T1 | completed | 0 |
+| hpc-masbench-t1-cold-load-audit-v2-20261119 | analysis | T1 | completed | 0 |
+| hpc-masbench-t1-cold-load-fixture-20261119 | test | T1 | completed | 0 |
+| hpc-masbench-t1-cold-load-fixture-v2-20261119 | test | T1 | completed | 0 |
+| hpc-masbench-t1-cold-load-v2-20261119 | infrastructure | T1 | completed | 0 |
+| hpc-masbench-t1-post-storage-contract-20261119 | test | T1 | completed | 0 |
+| hpc-masbench-t1-runner-recovery-audit-20261118 | analysis | T1 | completed | 0 |
+| hpc-masbench-t1-runner-recovery-contract-20261118 | test | T1 | failed | 127 |
+| hpc-masbench-t1-runner-recovery-contract-v2-20261118 | test | T1 | completed | 0 |
+| hpc-masbench-t1a-contract-20261118 | test | T1-A | failed | 127 |
+| hpc-masbench-t1a-contract-v2-20261118 | test | T1-A | completed | 0 |
+| hpc-masbench-t1a-contract-v3-20261118 | test | T1-A | completed | 0 |
+| hpc-masbench-t1a-contract-v4-20261118 | test | T1-A | completed | 0 |
+| hpc-masbench-t1a-evidence-audit-20261118 | analysis | T1-A | failed | None |
+| hpc-masbench-t1a-evidence-audit-v2-20261118 | analysis | T1-A | completed | 0 |
+| hpc-masbench-t1a-evidence-audit-v3-20261118 | analysis | T1-A | completed | 0 |
+| hpc-masbench-t1b-formal-20261119 | test | T1-B | failed | 1 |
+| hpc-masbench-t1b-formal-audit-20261119 | analysis | T1-B | completed | 0 |
+| hpc-masbench-t1b-formal-audit-detail-20261119 | analysis | T1-B | completed | 0 |
+| hpc-masbench-t1b-formal-contract-20261119 | test | T1 | completed | 0 |
+| hpc-masbench-t1b-formal-runner-retest-20261119 | test | T1-B | completed | 0 |
+| hpc-masbench-t1b-formal-runner-retest-audit-20261119 | analysis | T1-B | completed | 0 |
+| hpc-masbench-t1b-formal-runner-retest-contract-20261119 | test | T1-A | completed | 0 |
+| hpc-masbench-t1b-live-20261118 | test | T1-B | failed | 1 |
+| hpc-masbench-t1b-live-evidence-audit-20261118 | analysis | T1-B | completed | 0 |
+| hpc-masbench-t1b-live-v2-20261118 | test | T1-B | failed | None |
+| hpc-masbench-t1b-live-v3-20261118 | test | T1-B | failed | 1 |
+| hpc-masbench-t1b-post-storage-20261119 | test | T1-B | failed | 1 |
+| hpc-masbench-t1b-post-storage-failure-audit-20261119 | analysis | T1-B | completed | 0 |
+| hpc-masbench-t1b-runner-recheck-20261118 | test | T1-B | failed | 120 |
+| hpc-masbench-t1b-wiring-regression-20261118 | test | T1-B-preflight | completed | 0 |
 | hpc-native-adapter-contract-20261023 | test | native-task-adapter | completed | 0 |
 | hpc-native-adapter-trace-20261023 | simulation | native-adapter-trace | completed | 0 |
 | hpc-native-information-contract-20261030 | test | NATIVE-CONTRACT | completed | 0 |

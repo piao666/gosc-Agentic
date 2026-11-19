@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t1b_live.py", line 259, in <module>
+    main()
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t1b_live.py", line 197, in main
+    driver = live.LiveDriver(campaign, runtime, limits, authorization=AUTH)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/extensions/masbench_reasoning/live_driver.py", line 362, in __init__
+    self.ledger=LiveLedger(self.root/'campaign',identity,limits,plan)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/extensions/masbench_reasoning/live_driver.py", line 133, in __init__
+    super().__init__(root,{'schema':'t1-live-v1','binding':identity},
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/extensions/masbench_reasoning/fixture_driver.py", line 185, in __init__
+    super().__init__(root,bound,ids,replace(limits,artifact_bytes=limits.artifact_bytes-CONTROL_RESERVE))
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/extensions/masbench_reasoning/execution_safety.py", line 92, in __init__
+    self._append({'kind': 'init', 'binding': self.binding, 'boot': self.boot,
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/extensions/masbench_reasoning/execution_safety.py", line 131, in _append
+    if self.file.write(data) != len(data):
+       ^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 122] Disk quota exceeded

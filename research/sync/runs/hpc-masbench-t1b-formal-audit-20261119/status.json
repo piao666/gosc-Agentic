@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-t1b-formal-audit-20261119",
+  "status": "completed",
+  "started_at": "2026-11-19T06:46:29.440391+00:00",
+  "finished_at": "2026-11-19T06:46:29.601271+00:00",
+  "exit_code": 0,
+  "pid": 54908,
+  "elapsed_seconds": 0.160901,
+  "resource_usage": {
+    "child_max_rss_kib": 72704,
+    "child_cpu_user_seconds": 0.358689,
+    "child_cpu_system_seconds": 0.209995,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

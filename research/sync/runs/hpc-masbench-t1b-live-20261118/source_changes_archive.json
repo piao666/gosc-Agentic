@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t1b-live-20261118",
+  "original_sha256": "24fe95eee9df060b80d0802c8484a0ad21c203e62eb9708b80dfe0eedc7ff5f3",
+  "original_size": 24391891,
+  "archive_sha256": "ca304d7212663a05fee455250bcdcc64b3684d32dab19122a71f979dfdff094d",
+  "archive_size": 1723040,
+  "original_retained_tmpfs": "/tmp/gosc-t1b-quota-recovery-20261118/hpc-masbench-t1b-live-20261118.patch",
+  "local_original_sha256_verified": true,
+  "restore": "gzip -dc source_changes.patch.gz > source_changes.patch"
+}

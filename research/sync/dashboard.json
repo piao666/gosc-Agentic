@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T03:22:25.131679+00:00",
+  "generated_at": "2026-11-19T07:17:54.095382+00:00",
   "authority": "hpc",
   "runs": [
     {
@@ -1961,6 +1961,605 @@
       "kind": "infrastructure",
       "stage": "MASBENCH-ENV-PLAN",
       "purpose": "Read official manifests and bound authorized model restoration and isolated Reasoning dependencies; no inference"
+    },
+    {
+      "run_id": "hpc-masbench-t1-cold-load-20261119",
+      "status": "failed",
+      "started_at": "2026-11-19T05:11:08.939225+00:00",
+      "finished_at": "2026-11-19T05:11:09.443559+00:00",
+      "exit_code": 1,
+      "pid": 49732,
+      "elapsed_seconds": 0.504353,
+      "resource_usage": {
+        "child_max_rss_kib": 82384,
+        "child_cpu_user_seconds": 0.5989789999999999,
+        "child_cpu_system_seconds": 0.300022,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "T1",
+      "purpose": "approved-one-render-cold-load-timing-and-cleanup"
+    },
+    {
+      "run_id": "hpc-masbench-t1-cold-load-audit-20261119",
+      "status": "completed",
+      "started_at": "2026-11-19T05:11:10.277057+00:00",
+      "finished_at": "2026-11-19T05:11:10.462478+00:00",
+      "exit_code": 0,
+      "pid": 49754,
+      "elapsed_seconds": 0.185443,
+      "resource_usage": {
+        "child_max_rss_kib": 77144,
+        "child_cpu_user_seconds": 0.48949499999999996,
+        "child_cpu_system_seconds": 0.13774899999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "T1",
+      "purpose": "independent-cold-load-timing-and-boundary-audit"
+    },
+    {
+      "run_id": "hpc-masbench-t1-cold-load-audit-v2-20261119",
+      "status": "completed",
+      "started_at": "2026-11-19T05:15:15.735670+00:00",
+      "finished_at": "2026-11-19T05:15:15.935100+00:00",
+      "exit_code": 0,
+      "pid": 50115,
+      "elapsed_seconds": 0.199451,
+      "resource_usage": {
+        "child_max_rss_kib": 77520,
+        "child_cpu_user_seconds": 0.41977499999999995,
+        "child_cpu_system_seconds": 0.20099899999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "T1",
+      "purpose": "independent-cold-load-timing-and-boundary-audit"
+    },
+    {
+      "run_id": "hpc-masbench-t1-cold-load-fixture-20261119",
+      "status": "completed",
+      "started_at": "2026-11-19T05:10:11.418846+00:00",
+      "finished_at": "2026-11-19T05:10:11.928854+00:00",
+      "exit_code": 0,
+      "pid": 49656,
+      "elapsed_seconds": 0.510029,
+      "resource_usage": {
+        "child_max_rss_kib": 81104,
+        "child_cpu_user_seconds": 0.598811,
+        "child_cpu_system_seconds": 0.578792,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1",
+      "purpose": "network-denied-cold-load-single-request-and-marker-check"
+    },
+    {
+      "run_id": "hpc-masbench-t1-cold-load-fixture-v2-20261119",
+      "status": "completed",
+      "started_at": "2026-11-19T05:15:01.748217+00:00",
+      "finished_at": "2026-11-19T05:15:01.993124+00:00",
+      "exit_code": 0,
+      "pid": 50019,
+      "elapsed_seconds": 0.244928,
+      "resource_usage": {
+        "child_max_rss_kib": 81556,
+        "child_cpu_user_seconds": 0.457609,
+        "child_cpu_system_seconds": 0.18928899999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1",
+      "purpose": "bounded-network-denied-cold-load-worker-regression"
+    },
+    {
+      "run_id": "hpc-masbench-t1-cold-load-v2-20261119",
+      "status": "completed",
+      "started_at": "2026-11-19T05:15:02.688513+00:00",
+      "finished_at": "2026-11-19T05:15:15.040410+00:00",
+      "exit_code": 0,
+      "pid": 50037,
+      "elapsed_seconds": 12.351913,
+      "resource_usage": {
+        "child_max_rss_kib": 86712,
+        "child_cpu_user_seconds": 1.433618,
+        "child_cpu_system_seconds": 0.7838069999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "infrastructure",
+      "stage": "T1",
+      "purpose": "approved-one-render-cold-load-after-no-send"
+    },
+    {
+      "run_id": "hpc-masbench-t1-post-storage-contract-20261119",
+      "status": "completed",
+      "started_at": "2026-11-19T02:47:42.945486+00:00",
+      "finished_at": "2026-11-19T02:47:50.404933+00:00",
+      "exit_code": 0,
+      "pid": 42760,
+      "elapsed_seconds": 7.459467,
+      "resource_usage": {
+        "child_max_rss_kib": 53608,
+        "child_cpu_user_seconds": 1.710635,
+        "child_cpu_system_seconds": 2.038113,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1",
+      "purpose": "worker-deadline-cold-render-and-recovery-no-network"
+    },
+    {
+      "run_id": "hpc-masbench-t1-runner-recovery-audit-20261118",
+      "status": "completed",
+      "started_at": "2026-11-18T07:34:18.021959+00:00",
+      "finished_at": "2026-11-18T07:34:18.310684+00:00",
+      "exit_code": 0,
+      "pid": 56279,
+      "elapsed_seconds": 0.288747,
+      "resource_usage": {
+        "child_max_rss_kib": 72188,
+        "child_cpu_user_seconds": 2.327324,
+        "child_cpu_system_seconds": 2.026439,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "T1",
+      "purpose": "independent-runner-evidence-no-model-audit"
+    },
+    {
+      "run_id": "hpc-masbench-t1-runner-recovery-contract-20261118",
+      "status": "failed",
+      "started_at": "2026-11-18T07:09:05.519774+00:00",
+      "finished_at": "2026-11-18T07:09:12.910794+00:00",
+      "exit_code": 127,
+      "pid": 54978,
+      "elapsed_seconds": 7.391044,
+      "resource_usage": {
+        "child_max_rss_kib": 52492,
+        "child_cpu_user_seconds": 1.695309,
+        "child_cpu_system_seconds": 1.4900579999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "error": "Symlink artifact is not supported",
+      "kind": "test",
+      "stage": "T1",
+      "purpose": "pre-dispatch-runner-identity-fail-closed-no-network"
+    },
+    {
+      "run_id": "hpc-masbench-t1-runner-recovery-contract-v2-20261118",
+      "status": "completed",
+      "started_at": "2026-11-18T07:34:09.140419+00:00",
+      "finished_at": "2026-11-18T07:34:17.083381+00:00",
+      "exit_code": 0,
+      "pid": 56252,
+      "elapsed_seconds": 7.942982,
+      "resource_usage": {
+        "child_max_rss_kib": 53220,
+        "child_cpu_user_seconds": 1.6365569999999998,
+        "child_cpu_system_seconds": 1.5734460000000001,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1",
+      "purpose": "final-runner-evidence-and-post-unload-resource-fence-no-network"
+    },
+    {
+      "run_id": "hpc-masbench-t1a-contract-20261118",
+      "status": "failed",
+      "started_at": "2026-11-18T03:36:24.497241+00:00",
+      "finished_at": "2026-11-18T03:36:28.022437+00:00",
+      "exit_code": 127,
+      "pid": 34921,
+      "elapsed_seconds": 3.525224,
+      "resource_usage": {
+        "child_max_rss_kib": 53416,
+        "child_cpu_user_seconds": 1.124763,
+        "child_cpu_system_seconds": 0.944562,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "error": "Symlink artifact is not supported",
+      "kind": "test",
+      "stage": "T1-A",
+      "purpose": "no-model-contract-kernel-network-denial"
+    },
+    {
+      "run_id": "hpc-masbench-t1a-contract-v2-20261118",
+      "status": "completed",
+      "started_at": "2026-11-18T03:38:23.291413+00:00",
+      "finished_at": "2026-11-18T03:38:27.957160+00:00",
+      "exit_code": 0,
+      "pid": 35126,
+      "elapsed_seconds": 4.665773,
+      "resource_usage": {
+        "child_max_rss_kib": 53340,
+        "child_cpu_user_seconds": 1.2777699999999999,
+        "child_cpu_system_seconds": 1.226808,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1-A",
+      "purpose": "no-model-contract-kernel-network-denial"
+    },
+    {
+      "run_id": "hpc-masbench-t1a-contract-v3-20261118",
+      "status": "completed",
+      "started_at": "2026-11-18T03:42:19.557849+00:00",
+      "finished_at": "2026-11-18T03:42:25.162256+00:00",
+      "exit_code": 0,
+      "pid": 35393,
+      "elapsed_seconds": 5.604427,
+      "resource_usage": {
+        "child_max_rss_kib": 53424,
+        "child_cpu_user_seconds": 1.360207,
+        "child_cpu_system_seconds": 1.4035229999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1-A",
+      "purpose": "no-model-contract-recovery-and-owned-worker-timeout"
+    },
+    {
+      "run_id": "hpc-masbench-t1a-contract-v4-20261118",
+      "status": "completed",
+      "started_at": "2026-11-18T03:50:47.647260+00:00",
+      "finished_at": "2026-11-18T03:50:53.393747+00:00",
+      "exit_code": 0,
+      "pid": 42865,
+      "elapsed_seconds": 5.746508,
+      "resource_usage": {
+        "child_max_rss_kib": 53388,
+        "child_cpu_user_seconds": 1.44547,
+        "child_cpu_system_seconds": 1.382321,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1-A",
+      "purpose": "no-model-contract-fixture-binding-isolation"
+    },
+    {
+      "run_id": "hpc-masbench-t1a-evidence-audit-20261118",
+      "status": "failed",
+      "started_at": "2026-11-18T03:42:41.806306+00:00",
+      "finished_at": null,
+      "exit_code": null,
+      "pid": null,
+      "reconciliation_reason": "runner finalization EDQUOT; audit output retained",
+      "elapsed_seconds": null,
+      "reconciled_at": "2026-11-18T03:44:35.179280+00:00",
+      "kind": "analysis",
+      "stage": "T1-A",
+      "purpose": "independent-replay-no-live-network"
+    },
+    {
+      "run_id": "hpc-masbench-t1a-evidence-audit-v2-20261118",
+      "status": "completed",
+      "started_at": "2026-11-18T03:44:53.480209+00:00",
+      "finished_at": "2026-11-18T03:44:53.683307+00:00",
+      "exit_code": 0,
+      "pid": 35639,
+      "elapsed_seconds": 0.203118,
+      "resource_usage": {
+        "child_max_rss_kib": 53316,
+        "child_cpu_user_seconds": 0.37152599999999997,
+        "child_cpu_system_seconds": 0.245689,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "T1-A",
+      "purpose": "independent-replay-after-quota-recovery"
+    },
+    {
+      "run_id": "hpc-masbench-t1a-evidence-audit-v3-20261118",
+      "status": "completed",
+      "started_at": "2026-11-18T03:50:54.262765+00:00",
+      "finished_at": "2026-11-18T03:50:54.502347+00:00",
+      "exit_code": 0,
+      "pid": 43062,
+      "elapsed_seconds": 0.239605,
+      "resource_usage": {
+        "child_max_rss_kib": 53388,
+        "child_cpu_user_seconds": 1.967976,
+        "child_cpu_system_seconds": 1.834435,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "T1-A",
+      "purpose": "independent-replay-final-fixture-binding-isolation"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-20261119",
+      "status": "failed",
+      "started_at": "2026-11-19T06:44:44.516079+00:00",
+      "finished_at": "2026-11-19T06:46:28.737600+00:00",
+      "exit_code": 1,
+      "pid": 54413,
+      "elapsed_seconds": 104.22154,
+      "resource_usage": {
+        "child_max_rss_kib": 56128,
+        "child_cpu_user_seconds": 12.762377,
+        "child_cpu_system_seconds": 6.957609,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1-B",
+      "purpose": "approved-four-case-acceptance-separated-phase-clocks"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-audit-20261119",
+      "status": "completed",
+      "started_at": "2026-11-19T06:46:29.440391+00:00",
+      "finished_at": "2026-11-19T06:46:29.601271+00:00",
+      "exit_code": 0,
+      "pid": 54908,
+      "elapsed_seconds": 0.160901,
+      "resource_usage": {
+        "child_max_rss_kib": 72704,
+        "child_cpu_user_seconds": 0.358689,
+        "child_cpu_system_seconds": 0.209995,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "T1-B",
+      "purpose": "independent-four-case-acceptance-and-phase-clock-audit"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-audit-detail-20261119",
+      "status": "completed",
+      "started_at": "2026-11-19T06:53:19.283069+00:00",
+      "finished_at": "2026-11-19T06:53:19.428117+00:00",
+      "exit_code": 0,
+      "pid": 55384,
+      "elapsed_seconds": 0.145068,
+      "resource_usage": {
+        "child_max_rss_kib": 72704,
+        "child_cpu_user_seconds": 0.427189,
+        "child_cpu_system_seconds": 0.143156,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "T1-B",
+      "purpose": "independent-four-case-chain-and-final-runner-fence-audit"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-contract-20261119",
+      "status": "completed",
+      "started_at": "2026-11-19T05:55:39.207128+00:00",
+      "finished_at": "2026-11-19T05:55:46.119340+00:00",
+      "exit_code": 0,
+      "pid": 52118,
+      "elapsed_seconds": 6.912235,
+      "resource_usage": {
+        "child_max_rss_kib": 52920,
+        "child_cpu_user_seconds": 1.5531220000000001,
+        "child_cpu_system_seconds": 1.6455419999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1",
+      "purpose": "separated-cold-render-generation-and-watchdog-clocks-no-network"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-runner-retest-20261119",
+      "status": "completed",
+      "started_at": "2026-11-19T07:16:40.969046+00:00",
+      "finished_at": "2026-11-19T07:17:09.731099+00:00",
+      "exit_code": 0,
+      "pid": 56939,
+      "elapsed_seconds": 28.762073,
+      "resource_usage": {
+        "child_max_rss_kib": 56116,
+        "child_cpu_user_seconds": 6.975313,
+        "child_cpu_system_seconds": 2.935707,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1-B",
+      "purpose": "approved-four-case-same-runner-and-exit-retest"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-runner-retest-audit-20261119",
+      "status": "completed",
+      "started_at": "2026-11-19T07:17:53.884712+00:00",
+      "finished_at": "2026-11-19T07:17:54.047054+00:00",
+      "exit_code": 0,
+      "pid": 57230,
+      "elapsed_seconds": 0.162362,
+      "resource_usage": {
+        "child_max_rss_kib": 71272,
+        "child_cpu_user_seconds": 0.363268,
+        "child_cpu_system_seconds": 0.20829399999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "T1-B",
+      "purpose": "independent-same-runner-four-case-and-final-exit-audit"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-formal-runner-retest-contract-20261119",
+      "status": "completed",
+      "started_at": "2026-11-19T07:06:56.758303+00:00",
+      "finished_at": "2026-11-19T07:07:04.216447+00:00",
+      "exit_code": 0,
+      "pid": 56254,
+      "elapsed_seconds": 7.458177,
+      "resource_usage": {
+        "child_max_rss_kib": 52920,
+        "child_cpu_user_seconds": 1.6359469999999998,
+        "child_cpu_system_seconds": 1.685983,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1-A",
+      "purpose": "same-default-runner-options-and-fail-closed-exit-proof"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-live-20261118",
+      "status": "failed",
+      "started_at": "2026-11-18T05:36:48.558323+00:00",
+      "finished_at": "2026-11-18T05:36:49.528992+00:00",
+      "exit_code": 1,
+      "pid": 49902,
+      "elapsed_seconds": 0.970691,
+      "resource_usage": {
+        "child_max_rss_kib": 56056,
+        "child_cpu_user_seconds": 0.876226,
+        "child_cpu_system_seconds": 0.35325799999999996,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1-B",
+      "purpose": "authorized-frozen-synthetic-driver-acceptance"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-live-evidence-audit-20261118",
+      "status": "completed",
+      "started_at": "2026-11-18T06:27:22.399900+00:00",
+      "finished_at": "2026-11-18T06:27:22.548742+00:00",
+      "exit_code": 0,
+      "pid": 52756,
+      "elapsed_seconds": 0.148867,
+      "resource_usage": {
+        "child_max_rss_kib": 72860,
+        "child_cpu_user_seconds": 0.392001,
+        "child_cpu_system_seconds": 0.22269899999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "T1-B",
+      "purpose": "independent-failed-prefix-watchdog-runner-and-ledger-audit"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-live-v2-20261118",
+      "status": "failed",
+      "started_at": "2026-11-18T05:53:53.884829+00:00",
+      "finished_at": null,
+      "exit_code": null,
+      "pid": 50808,
+      "reconciliation_reason": "EDQUOT during the first ledger write, then during launcher status finalization",
+      "reconciled_at": "2026-11-18T05:58:59.507557+00:00",
+      "kind": "test",
+      "stage": "T1-B",
+      "purpose": "authorized-frozen-synthetic-driver-acceptance-after-zero-call-quota-failure"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-live-v3-20261118",
+      "status": "failed",
+      "started_at": "2026-11-18T06:06:56.276292+00:00",
+      "finished_at": "2026-11-18T06:07:31.903819+00:00",
+      "exit_code": 1,
+      "pid": 51536,
+      "elapsed_seconds": 35.627553,
+      "resource_usage": {
+        "child_max_rss_kib": 56024,
+        "child_cpu_user_seconds": 5.092688,
+        "child_cpu_system_seconds": 2.609282,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1-B",
+      "purpose": "authorized-frozen-synthetic-driver-acceptance-after-two-zero-call-startup-failures"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-post-storage-20261119",
+      "status": "failed",
+      "started_at": "2026-11-19T02:59:57.236829+00:00",
+      "finished_at": "2026-11-19T03:00:59.250430+00:00",
+      "exit_code": 1,
+      "pid": 43391,
+      "elapsed_seconds": 62.013628,
+      "resource_usage": {
+        "child_max_rss_kib": 56088,
+        "child_cpu_user_seconds": 5.967025,
+        "child_cpu_system_seconds": 3.898008,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1-B",
+      "purpose": "approved-post-storage-cold-render-synthetic-acceptance"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-post-storage-failure-audit-20261119",
+      "status": "completed",
+      "started_at": "2026-11-19T03:17:48.819532+00:00",
+      "finished_at": "2026-11-19T03:17:49.016774+00:00",
+      "exit_code": 0,
+      "pid": 44445,
+      "elapsed_seconds": 0.197253,
+      "resource_usage": {
+        "child_max_rss_kib": 71732,
+        "child_cpu_user_seconds": 0.374627,
+        "child_cpu_system_seconds": 0.266192,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "analysis",
+      "stage": "T1-B",
+      "purpose": "independent-post-storage-failure-prefix-audit"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-runner-recheck-20261118",
+      "status": "failed",
+      "started_at": "2026-11-18T07:43:47.081986+00:00",
+      "finished_at": "2026-11-18T07:44:19.024035+00:00",
+      "exit_code": 120,
+      "pid": 56831,
+      "elapsed_seconds": 31.942077,
+      "resource_usage": {
+        "child_max_rss_kib": 56048,
+        "child_cpu_user_seconds": 3.721254,
+        "child_cpu_system_seconds": 1.9949379999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1-B",
+      "purpose": "approved-runner-identity-synthetic-recheck"
+    },
+    {
+      "run_id": "hpc-masbench-t1b-wiring-regression-20261118",
+      "status": "completed",
+      "started_at": "2026-11-18T04:52:33.878167+00:00",
+      "finished_at": "2026-11-18T04:52:39.467491+00:00",
+      "exit_code": 0,
+      "pid": 47721,
+      "elapsed_seconds": 5.589345,
+      "resource_usage": {
+        "child_max_rss_kib": 53436,
+        "child_cpu_user_seconds": 1.527562,
+        "child_cpu_system_seconds": 1.277182,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance.",
+      "kind": "test",
+      "stage": "T1-B-preflight",
+      "purpose": "verify-live-driver-wiring-revision-with-network-denied"
     },
     {
       "run_id": "hpc-native-adapter-contract-20261023",
@@ -3951,6 +4550,6 @@
       "purpose": "User-authorized continuation; retain historical differences: value-fidelity"
     }
   ],
-  "research_runs": 168,
+  "research_runs": 198,
   "note": "Execution status only. Local transfer completeness is recorded in receipts/."
 }

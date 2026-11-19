@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t1-runner-recovery-audit-20261118",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 1407,
+      "sha256": "35624e9864a384ddf003a3b9c520e7cb64721ee049df859566b22d3d363b08ad"
+    }
+  ]
+}

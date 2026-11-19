@@ -1,0 +1,332 @@
+{
+  "acceptance_passed": true,
+  "cases": [
+    {
+      "id": "normal",
+      "request_id": "synthetic/0",
+      "status": "completed",
+      "reserved_input": 29,
+      "reserved_output": 32,
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 29
+      },
+      "runner": {
+        "pid": 56965,
+        "stamp": "4916076832"
+      },
+      "sent_monotonic": 49160770.43610672,
+      "runner_after_response": {
+        "pid": 56965,
+        "stamp": "4916076832"
+      }
+    },
+    {
+      "id": "watchdog",
+      "request_id": "synthetic/1",
+      "status": "timeout",
+      "reserved_input": 48,
+      "reserved_output": 512,
+      "usage": null,
+      "runner": {
+        "pid": 56965,
+        "stamp": "4916076832"
+      },
+      "sent_monotonic": 49160778.73926736
+    },
+    {
+      "id": "controller",
+      "request_id": "synthetic/2",
+      "status": "interrupted",
+      "reserved_input": 38,
+      "reserved_output": 512,
+      "usage": null,
+      "runner": {
+        "pid": 57047,
+        "stamp": "4916078114"
+      },
+      "sent_monotonic": 49160783.33751115
+    },
+    {
+      "id": "recovery",
+      "request_id": "synthetic/3",
+      "status": "completed",
+      "reserved_input": 29,
+      "reserved_output": 32,
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 29
+      },
+      "runner": {
+        "pid": 57090,
+        "stamp": "4916078546"
+      },
+      "sent_monotonic": 49160787.671234734,
+      "runner_after_response": {
+        "pid": 57090,
+        "stamp": "4916078546"
+      }
+    }
+  ],
+  "cleanup_proofs": [
+    {
+      "start": {
+        "event": {
+          "kind": "unload-start",
+          "old_runners": [
+            {
+              "pid": 56965,
+              "stamp": "4916076832"
+            }
+          ],
+          "present_before_unload": [
+            {
+              "pid": 56965,
+              "stamp": "4916076832"
+            }
+          ]
+        },
+        "mono": 49160779.25432259,
+        "previous": "10879c60eee4ad69f0fd3896a9e34da208b1766ed3a3c27bcd39898af0c2aaa6",
+        "seq": 102,
+        "hash": "c4a36a60567713c392b7de2d2f42c226756ea74ba598324e4fb4f8d0c893ecd2"
+      },
+      "complete": {
+        "event": {
+          "kind": "unload-complete",
+          "observation": {
+            "ledger_seq": 33,
+            "ledger_tip": "6b971f106c3d3e5b6a847b4628f9aba73afd9b1b62216cd7d55b2914cff6b7a0",
+            "process_observations": [
+              {
+                "observed_stamp": null,
+                "pid": 56965,
+                "stamp": "4916076832"
+              }
+            ],
+            "ps": {
+              "models": []
+            },
+            "remaining_runners": [],
+            "resources_after_unload": {
+              "driver_rss": 36016128,
+              "gpu_bytes": 0,
+              "service_rss": 403410944
+            },
+            "response": {
+              "created_at": "2026-11-19T07:16:53.973825279Z",
+              "done": true,
+              "done_reason": "unload",
+              "message": {
+                "content": "",
+                "role": "assistant"
+              },
+              "model": "qwen2.5:7b"
+            },
+            "service": {
+              "pid": 37483,
+              "stamp": "4897373256"
+            }
+          }
+        },
+        "mono": 49160779.83878916,
+        "previous": "d5addd28a43832dbbdeef95f1ee818c5a9f4a22c0ee125e2c7c8cbf534141d93",
+        "seq": 124,
+        "hash": "2828bf20fbfed129145502b7f0c0dbae165dc40b9886cc1195f21dec6d49cb9b"
+      }
+    },
+    {
+      "start": {
+        "event": {
+          "kind": "unload-start",
+          "old_runners": [
+            {
+              "pid": 57047,
+              "stamp": "4916078114"
+            }
+          ],
+          "present_before_unload": [
+            {
+              "pid": 57047,
+              "stamp": "4916078114"
+            }
+          ]
+        },
+        "mono": 49160783.576692514,
+        "previous": "a88c50e22c170931c12664ddcd437e1d8b4a2991465f148a2ed2104d0e7ecec0",
+        "seq": 185,
+        "hash": "e8eeb883254b3af5ec0adf7efcb1929e418e935e9ec0779380d23f4728801205"
+      },
+      "complete": {
+        "event": {
+          "kind": "unload-complete",
+          "observation": {
+            "ledger_seq": 49,
+            "ledger_tip": "7c64912d997af4295af6ac05ebaff7abe2af5b588366a9e1e55c2b9579994a7d",
+            "process_observations": [
+              {
+                "observed_stamp": null,
+                "pid": 57047,
+                "stamp": "4916078114"
+              }
+            ],
+            "ps": {
+              "models": []
+            },
+            "remaining_runners": [],
+            "resources_after_unload": {
+              "driver_rss": 36364288,
+              "gpu_bytes": 0,
+              "service_rss": 335646720
+            },
+            "response": {
+              "created_at": "2026-11-19T07:16:58.294088277Z",
+              "done": true,
+              "done_reason": "unload",
+              "message": {
+                "content": "",
+                "role": "assistant"
+              },
+              "model": "qwen2.5:7b"
+            },
+            "service": {
+              "pid": 37483,
+              "stamp": "4897373256"
+            }
+          }
+        },
+        "mono": 49160784.15436474,
+        "previous": "1b50b167eb8cbd8c5e64090fd67193e77fbefb0405a5415868590ac2b9ba64a6",
+        "seq": 207,
+        "hash": "11cc874da9a90ad91434de788e19d1727029e9744895b265f803913463c305ef"
+      }
+    },
+    {
+      "start": {
+        "event": {
+          "kind": "unload-start",
+          "old_runners": [
+            {
+              "pid": 57090,
+              "stamp": "4916078546"
+            }
+          ],
+          "present_before_unload": [
+            {
+              "pid": 57090,
+              "stamp": "4916078546"
+            }
+          ]
+        },
+        "mono": 49160794.44591951,
+        "previous": "7914bb856496e2472ff0e6e18f40ca9a369d1179422abfb2163ba86886e9e78d",
+        "seq": 269,
+        "hash": "92194b82b7ece46cba7cc49646b30a94e67a97e21db196b4c7bf18c7d77d6837"
+      },
+      "complete": {
+        "event": {
+          "kind": "unload-complete",
+          "observation": {
+            "ledger_seq": 65,
+            "ledger_tip": "2f1c07b02c8f7a9fba3ecbd565f34d8aa17d0cc6266116e106b9b6d92a5ee41d",
+            "process_observations": [
+              {
+                "observed_stamp": null,
+                "pid": 57090,
+                "stamp": "4916078546"
+              }
+            ],
+            "ps": {
+              "models": []
+            },
+            "remaining_runners": [],
+            "resources_after_unload": {
+              "driver_rss": 36552704,
+              "gpu_bytes": 0,
+              "service_rss": 348065792
+            },
+            "response": {
+              "created_at": "2026-11-19T07:17:09.161818945Z",
+              "done": true,
+              "done_reason": "unload",
+              "message": {
+                "content": "",
+                "role": "assistant"
+              },
+              "model": "qwen2.5:7b"
+            },
+            "service": {
+              "pid": 37483,
+              "stamp": "4897373256"
+            }
+          }
+        },
+        "mono": 49160795.01679298,
+        "previous": "3aa165b7f2026cdfdd40b729bb3b69dbaaf19ec62382df063ddb33daac88f135",
+        "seq": 291,
+        "hash": "d57078ef67010d67001ee6a30cb4f0b0d7a0143a66a4e2eedd7074013307d8cd"
+      }
+    }
+  ],
+  "phase_clocks": [
+    {
+      "deadline_mono": 49160917.039516255,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49160767.039516255
+    },
+    {
+      "deadline_mono": 49160830.13513492,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49160770.13513492
+    },
+    {
+      "deadline_mono": 49160927.52746884,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49160777.52746884
+    },
+    {
+      "deadline_mono": 49160838.44338823,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49160778.44338823
+    },
+    {
+      "deadline_mono": 49160929.877542585,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49160779.877542585
+    },
+    {
+      "deadline_mono": 49160843.02364156,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49160783.02364156
+    },
+    {
+      "deadline_mono": 49160934.23445296,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49160784.23445296
+    },
+    {
+      "deadline_mono": 49160847.36094683,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49160787.36094683
+    }
+  ],
+  "final_cleanup_failure": null,
+  "control_counts": {
+    "get": 15,
+    "cleanup_get": 9,
+    "debug": 4,
+    "unload": 3
+  },
+  "native_immediate_idle_verified": false,
+  "real_task_inputs": 0,
+  "source_run": "hpc-masbench-t1b-formal-runner-retest-20261119",
+  "artifacts_verified": 58
+}

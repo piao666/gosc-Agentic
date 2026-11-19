@@ -1,0 +1,55 @@
+{
+  "run_id": "hpc-masbench-t1b-runner-recheck-20261118",
+  "files": [
+    {
+      "path": "outputs/driver/campaign/artifacts/000002-1-rpc.jsonl",
+      "size": 28073,
+      "sha256": "8d281a08fc48c279ca359480535938790d90f9404c47fb97ad84e6c6eec0add5"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000003-2-full-input-count.json",
+      "size": 37261,
+      "sha256": "01c0a61a0f77831b6de8d556fe50ea0d5155f472ca4742ea30d32dc8db304339"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000004-3-rpc.jsonl",
+      "size": 1038,
+      "sha256": "1b5d0e3b00d07b5b56ae184b6e6b717125af3ebbb9942af7c336f9654173d9d8"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000005-4-full-input-count.json",
+      "size": 716,
+      "sha256": "f56bc6b0bea86de76c0a999c17d3ee85a75adcaae14d8989a8ea31e86eff4f02"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000006-5-rpc.jsonl",
+      "size": 63,
+      "sha256": "b93c8e48afadb9e6badc6fd493dc84407f3048ec8055c96f11f5330a2b49657f"
+    },
+    {
+      "path": "outputs/driver/campaign/ledger.jsonl",
+      "size": 2142,
+      "sha256": "d6d54881881168190c0f98181de486eca717ce31fcc02a99dbe1d7eddcceebf4"
+    },
+    {
+      "path": "outputs/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "8747c4d5ece54f50776ccaa1a29ddc830513f9a5082e2c23c02a85964867cfc3"
+    },
+    {
+      "path": "outputs/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/summary.json.tmp-5c55a0ff582145619205b84e47429d5b",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "original_size": 24382109,
+  "original_sha256": "970ef0b14c8e8d427e242b82872aa8fbf438c2590d1db1dd6c8b081508f663ef",
+  "archive_size": 1719566,
+  "archive_sha256": "a806b845657edb0cf9b7889e7023583ffa83a83165e5f974e048dea245758367",
+  "original_retained_tmpfs": "/tmp/gosc-t1a-snapshot-archive-20261118/hpc-masbench-t1a-contract-v3-20261118.patch",
+  "local_gzip_copy_verified": true,
+  "restore": "gzip -dc source_changes.patch.gz > source_changes.patch"
+}

@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t1b_live.py", line 259, in <module>
+    main()
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t1b_live.py", line 217, in main
+    driver.attest(negative, first['max_output'])
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/extensions/masbench_reasoning/live_driver.py", line 475, in attest
+    value=self.rpc.call({'kind':'counter','helper':self.runtime.helper,'input':data},self.operation_deadline-time.monotonic())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/extensions/masbench_reasoning/live_driver.py", line 287, in call
+    self.trace_sink('rpc',bytes(raw));self.control.append({'kind':'rpc-end','pid':p.pid,'sent':sent,'exit':p.returncode})
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/extensions/masbench_reasoning/live_driver.py", line 390, in trace
+    self.ledger.put_artifact(f'{self.ledger.seq:06d}-{self.rpc_seq}-{kind}.{ext}',data)
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/extensions/masbench_reasoning/execution_safety.py", line 204, in put_artifact
+    self._append({'kind': 'bytes', 'path': relative, 'count': len(data), 'sha256': hashlib.sha256(data).hexdigest()})
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/extensions/masbench_reasoning/execution_safety.py", line 131, in _append
+    if self.file.write(data) != len(data):
+       ^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 122] Disk quota exceeded

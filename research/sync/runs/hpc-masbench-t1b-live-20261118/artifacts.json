@@ -1,0 +1,30 @@
+{
+  "run_id": "hpc-masbench-t1b-live-20261118",
+  "files": [
+    {
+      "path": "outputs/driver/campaign/ledger.jsonl",
+      "size": 601,
+      "sha256": "0c81ce66895e92194ab7cf5501ff05c5317c2b72dceb1fbfe099eb3ca0d00858"
+    },
+    {
+      "path": "outputs/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "51f918bbe221e4af9d82088fb617508d8c11ada89b804cfbebeac800d8d0cd68"
+    },
+    {
+      "path": "outputs/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/summary.json",
+      "size": 1256,
+      "sha256": "13acd1fbf5c9aaf9247b490a6a46cb38800488ececd7d6d5ff9a5fc9c6a81dd1"
+    }
+  ]
+}

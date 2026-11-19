@@ -1,0 +1,200 @@
+{
+  "acceptance_passed": false,
+  "cases": [
+    {
+      "id": "normal",
+      "status": "completed",
+      "reserved_input": 29,
+      "reserved_output": 32,
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 29
+      }
+    },
+    {
+      "id": "watchdog",
+      "status": "timeout",
+      "reserved_input": 48,
+      "reserved_output": 512,
+      "usage": null
+    }
+  ],
+  "http_send_monotonic": 49070216.40751001,
+  "overflow_full_input_tokens": 2697,
+  "control_timeline": {
+    "fault-trigger-armed": {
+      "event": {
+        "fault": "timeout",
+        "id": "watchdog",
+        "kind": "fault-trigger-armed"
+      },
+      "mono": 49070216.40880928,
+      "previous": "f430c2f80c7aec3a4af56bd225a4a7b62c1ce8dbd06928ffa55cbc1fa138fce3",
+      "seq": 79,
+      "hash": "2c1d7b74b49dcda087fe1419aa69a0e7715e62f3c887c3fbbd397d72f67cbaa7"
+    },
+    "rpc-timeout": {
+      "event": {
+        "kind": "rpc-timeout",
+        "pid": 51703,
+        "sent_observed": true,
+        "stamp": "4907021627"
+      },
+      "mono": 49070216.66086311,
+      "previous": "2c1d7b74b49dcda087fe1419aa69a0e7715e62f3c887c3fbbd397d72f67cbaa7",
+      "seq": 80,
+      "hash": "3e82532bc66ce1bf5ec88d9269879f030d2d9900504c1f78d80057195ce66feb"
+    },
+    "client-failure": {
+      "event": {
+        "error": "timeout",
+        "kind": "client-failure",
+        "request_id": "synthetic/1"
+      },
+      "mono": 49070216.72227553,
+      "previous": "b04738b75dc19c38e8ecc8e7fda0392bcb157639141385c8a3e5ac03d292c22b",
+      "seq": 84,
+      "hash": "a2e9accfbdc631b4187b7491886bb106d3ef8a291133bad6a0488ae96511abae"
+    },
+    "unload-start": {
+      "event": {
+        "kind": "unload-start",
+        "old_runners": []
+      },
+      "mono": 49070216.90406522,
+      "previous": "27451f5e6aea208ea9efd8acb9af1f8490b7ebf2633181f958ac632a4b51534a",
+      "seq": 92,
+      "hash": "35dec02026f0a909378cdc58118f1bf56574d28c75a2f900af39b99e3c378cf9"
+    },
+    "unload-complete": {
+      "event": {
+        "kind": "unload-complete",
+        "observation": {
+          "ledger_seq": 33,
+          "ledger_tip": "7c18a4f6df4e4252c53bbb20ba2b7b19082aaaab27cf59cbe8485131887506fe",
+          "process_observations": [],
+          "ps": {
+            "models": []
+          },
+          "response": {
+            "created_at": "2026-11-18T06:07:31.625403314Z",
+            "done": true,
+            "done_reason": "unload",
+            "message": {
+              "content": "",
+              "role": "assistant"
+            },
+            "model": "qwen2.5:7b"
+          },
+          "service_pid": 37483
+        }
+      },
+      "mono": 49070217.22528588,
+      "previous": "81eeefc8257762df23ed4dc441b960f515ceab17ad339229e389e51ef2195f85",
+      "seq": 107,
+      "hash": "e31860e5eed340cb3fbc8741100628964e4cf82e5cef29b664a81ca2bdb9ac6f"
+    },
+    "dispatch-permit-evaluated": {
+      "event": {
+        "charged_outputs": 544,
+        "charged_requests": 2,
+        "kind": "dispatch-permit-evaluated",
+        "permitted": true,
+        "remaining_seconds": 444.50573621690273
+      },
+      "mono": 49070217.238021836,
+      "previous": "e31860e5eed340cb3fbc8741100628964e4cf82e5cef29b664a81ca2bdb9ac6f",
+      "seq": 108,
+      "hash": "60873bc109640920bfcd8b2e29401bda90e245141126ea79e5c39c8e0494e996"
+    }
+  },
+  "actual_client_worker_signals": [
+    {
+      "event": {
+        "kind": "signal",
+        "pid": 51703,
+        "sent": true,
+        "signal": 15,
+        "stamp": "4907021627"
+      },
+      "mono": 49070216.66260584,
+      "previous": "3e82532bc66ce1bf5ec88d9269879f030d2d9900504c1f78d80057195ce66feb",
+      "seq": 81,
+      "hash": "292fe5b8869fede9038522e8ff4190881d8cdda529a1c804bfab3905b79db567"
+    },
+    {
+      "event": {
+        "kind": "signal",
+        "pid": 51703,
+        "sent": true,
+        "signal": 9,
+        "stamp": "4907021627"
+      },
+      "mono": 49070216.694134824,
+      "previous": "292fe5b8869fede9038522e8ff4190881d8cdda529a1c804bfab3905b79db567",
+      "seq": 82,
+      "hash": "6081fb8a94f3c043fc547eee57860b86e0935b9e86d821c85b8fd1fb4cba1fa9"
+    }
+  ],
+  "client_worker_exit": {
+    "event": {
+      "exit": -15,
+      "kind": "rpc-end",
+      "pid": 51703,
+      "sent": true
+    },
+    "mono": 49070216.710242204,
+    "previous": "6081fb8a94f3c043fc547eee57860b86e0935b9e86d821c85b8fd1fb4cba1fa9",
+    "seq": 83,
+    "hash": "b04738b75dc19c38e8ecc8e7fda0392bcb157639141385c8a3e5ac03d292c22b"
+  },
+  "utc_estimates": {
+    "fault-trigger-armed": "2026-11-18T06:07:31.046731+00:00",
+    "rpc-timeout": "2026-11-18T06:07:31.298785+00:00",
+    "client-failure": "2026-11-18T06:07:31.360198+00:00",
+    "unload-start": "2026-11-18T06:07:31.541987+00:00",
+    "unload-complete": "2026-11-18T06:07:31.863208+00:00",
+    "dispatch-permit-evaluated": "2026-11-18T06:07:31.875944+00:00",
+    "watchdog-http-sent": "2026-11-18T06:07:31.045432+00:00",
+    "signal-15": "2026-11-18T06:07:31.300528+00:00",
+    "signal-9": "2026-11-18T06:07:31.332057+00:00"
+  },
+  "unload_api_acknowledged": true,
+  "resident_models_empty_before_and_after_unload": true,
+  "runner_exit_verified": false,
+  "ledger_recorded_permit_true": true,
+  "valid_dispatch_recovery_proven": false,
+  "undispatched_cases": [
+    "controller",
+    "recovery"
+  ],
+  "source_run": "hpc-masbench-t1b-live-v3-20261118",
+  "artifacts_verified": 32,
+  "charges": {
+    "get": 7,
+    "cleanup_get": 2,
+    "debug": 2,
+    "unload": 1
+  },
+  "total_reservations": {
+    "input": 77,
+    "output": 544
+  },
+  "service_generation_log": [
+    {
+      "time": "2026/11/18 - 14:07:27",
+      "status": 200,
+      "method": "POST",
+      "route": "/v1/chat/completions"
+    },
+    {
+      "time": "2026/11/18 - 14:07:32",
+      "status": 499,
+      "method": "POST",
+      "route": "/v1/chat/completions"
+    }
+  ],
+  "service_excerpt_sha256": "40281b41156b8888ecea5cb825b3d90111c1683f37d3b3dfe107eb999cba26cc",
+  "native_immediate_idle_verified": false,
+  "real_task_inputs": 0
+}

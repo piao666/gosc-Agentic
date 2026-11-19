@@ -1,0 +1,16 @@
+{
+  "approved": true,
+  "scope": "T1-B synthetic only",
+  "exclusive_service": true,
+  "authorization": "用户：批准按提案开展 T1-B",
+  "service_exclusivity_confirmation": "用户在收到验收时段暂停其他会话使用此Ollama的确认请求后回复：批准执行。本次作为项目独占验收窗口执行，运行前和每例前复核连接。",
+  "run_id": "hpc-masbench-t1b-live-20261118",
+  "service_pid": 37483,
+  "service_stamp": "4897373256",
+  "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+  "protocol_sha256": "64fb1ad595785a073d0de0efb670d22655cc5d4645ac9d8fd9bf984ef508c715",
+  "registry_sha256": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86",
+  "plan_sha256": "f7627bfd841524a20a7b352bf3a363934e5535e8df86d6cb7b2783f9d004f443",
+  "source_sha256": "238ca074976ae0dabf7564f746fb777f4ae4ff3a619d108333045d5f271f48fa",
+  "runner_sha256": "d5e6cce12b39f21150f8229ff8a5f052a214aaf4399a844cf3fe3679e99926cf"
+}

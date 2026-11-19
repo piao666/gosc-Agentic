@@ -1,0 +1,44 @@
+test_actual_transport_requires_separate_authorization (tests_ext.test_masbench_t1_live_driver.Contracts.test_actual_transport_requires_separate_authorization) ... ok
+test_application_base_delivery (tests_ext.test_masbench_t1_live_driver.Contracts.test_application_base_delivery) ... ok
+test_application_crash_retains_started_failure (tests_ext.test_masbench_t1_live_driver.Contracts.test_application_crash_retains_started_failure) ... ok
+test_application_pair_mismatch_refused (tests_ext.test_masbench_t1_live_driver.Contracts.test_application_pair_mismatch_refused) ... ok
+test_application_protocol_delivery (tests_ext.test_masbench_t1_live_driver.Contracts.test_application_protocol_delivery) ... ok
+test_audit_failure_before_dispatch (tests_ext.test_masbench_t1_live_driver.Contracts.test_audit_failure_before_dispatch) ... ok
+test_control_partial_line_refused (tests_ext.test_masbench_t1_live_driver.Contracts.test_control_partial_line_refused) ... ok
+test_control_quota_failure_prevents_start (tests_ext.test_masbench_t1_live_driver.Contracts.test_control_quota_failure_prevents_start) ... ok
+test_control_single_writer_and_cleanup_reserve (tests_ext.test_masbench_t1_live_driver.Contracts.test_control_single_writer_and_cleanup_reserve) ... ok
+test_duplicate_id_rejected (tests_ext.test_masbench_t1_live_driver.Contracts.test_duplicate_id_rejected) ... ok
+test_empty_answer_retains_original_client_semantics (tests_ext.test_masbench_t1_live_driver.Contracts.test_empty_answer_retains_original_client_semantics) ... ok
+test_generation_cap_not_refunded (tests_ext.test_masbench_t1_live_driver.Contracts.test_generation_cap_not_refunded) ... ok
+test_http_error_retained (tests_ext.test_masbench_t1_live_driver.Contracts.test_http_error_retained) ... ok
+test_identity_validation_prevents_unload (tests_ext.test_masbench_t1_live_driver.Contracts.test_identity_validation_prevents_unload) ... ok
+test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup (tests_ext.test_masbench_t1_live_driver.Contracts.test_interrupted_inflight_keeps_unknown_cost_and_requires_cleanup) ... ok
+test_invalid_usage_fenced_and_retained (tests_ext.test_masbench_t1_live_driver.Contracts.test_invalid_usage_fenced_and_retained) ... ok
+test_kernel_disallows_network (tests_ext.test_masbench_t1_live_driver.Contracts.test_kernel_disallows_network) ... ok
+test_length_is_failure_not_success (tests_ext.test_masbench_t1_live_driver.Contracts.test_length_is_failure_not_success) ... ok
+test_missing_usage_is_failed_unknown (tests_ext.test_masbench_t1_live_driver.Contracts.test_missing_usage_is_failed_unknown) ... ok
+test_normal_fsync_full_input_and_real_client (tests_ext.test_masbench_t1_live_driver.Contracts.test_normal_fsync_full_input_and_real_client) ... ok
+test_other_campaign_cannot_bypass_recovery_after_close (tests_ext.test_masbench_t1_live_driver.Contracts.test_other_campaign_cannot_bypass_recovery_after_close) ... ok
+test_overflow_is_rejected_before_any_http (tests_ext.test_masbench_t1_live_driver.Contracts.test_overflow_is_rejected_before_any_http) ... ok
+test_paid_worker_timeout_then_cleanup_and_resumed_dispatch (tests_ext.test_masbench_t1_live_driver.Contracts.test_paid_worker_timeout_then_cleanup_and_resumed_dispatch) ... ok
+test_plain_boolean_receipt_rejected (tests_ext.test_masbench_t1_live_driver.Contracts.test_plain_boolean_receipt_rejected) ... ok
+test_render_drift_blocks (tests_ext.test_masbench_t1_live_driver.Contracts.test_render_drift_blocks) ... ok
+test_resume_keeps_deadline_and_cost_and_requires_new_barrier (tests_ext.test_masbench_t1_live_driver.Contracts.test_resume_keeps_deadline_and_cost_and_requires_new_barrier) ... ok
+test_rpc_exit_is_failure (tests_ext.test_masbench_t1_live_driver.Contracts.test_rpc_exit_is_failure) ... ok
+test_rpc_oversize_refused (tests_ext.test_masbench_t1_live_driver.Contracts.test_rpc_oversize_refused) ... ok
+test_rpc_timeout_sends_real_worker_signals (tests_ext.test_masbench_t1_live_driver.Contracts.test_rpc_timeout_sends_real_worker_signals) ... ok
+test_runtime_context_drift_blocks (tests_ext.test_masbench_t1_live_driver.Contracts.test_runtime_context_drift_blocks) ... ok
+test_schema_rejects_before_any_counter_or_http (tests_ext.test_masbench_t1_live_driver.Contracts.test_schema_rejects_before_any_counter_or_http) ... ok
+test_service_lease_single_writer (tests_ext.test_masbench_t1_live_driver.Contracts.test_service_lease_single_writer) ... ok
+test_symlink_root_rejected (tests_ext.test_masbench_t1_live_driver.Contracts.test_symlink_root_rejected) ... ok
+test_timeout_retained_then_permit_and_budget (tests_ext.test_masbench_t1_live_driver.Contracts.test_timeout_retained_then_permit_and_budget) ... ok
+test_unknown_file_blocks_before_dispatch (tests_ext.test_masbench_t1_live_driver.Contracts.test_unknown_file_blocks_before_dispatch) ... ok
+test_unload_failure_keeps_fence (tests_ext.test_masbench_t1_live_driver.Contracts.test_unload_failure_keeps_fence) ... ok
+test_window_c (tests_ext.test_masbench_t1_live_driver.Contracts.test_window_c) ... ok
+test_window_c_minus_1 (tests_ext.test_masbench_t1_live_driver.Contracts.test_window_c_minus_1) ... ok
+test_window_c_plus_1_no_dispatch (tests_ext.test_masbench_t1_live_driver.Contracts.test_window_c_plus_1_no_dispatch) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 5.293s
+
+OK

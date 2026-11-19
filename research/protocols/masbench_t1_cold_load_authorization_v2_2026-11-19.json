@@ -1,0 +1,13 @@
+{
+  "scope": "one cold render only",
+  "exclusive_service": true,
+  "authorize_old_marker_handling": true,
+  "user_confirmation": "执行",
+  "run_id": "hpc-masbench-t1-cold-load-v2-20261119",
+  "input_plan_sha256": "437bf1996bb05549a88dc02c210514a9296eaa87ce6c0808da623ea5cbf837d7",
+  "budget_sha256": "cad0a4ce9384c25e04431d466ab880ca97c324c342cb313b1a3b60fe34e378b1",
+  "source_sha256": "bcc86a80cf111519f50da98664ccc1c3c6a3d3a6e3abc901b2b84d5009c25b24",
+  "prior_run": "hpc-masbench-t1-cold-load-20261119",
+  "prior_old_get_charge": 1,
+  "continued_scope": "First guarded worker produced no HTTP send and no render. Keep its charge."
+}

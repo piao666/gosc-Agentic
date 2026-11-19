@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t1b-wiring-regression-20261118",
+  "original_sha256": "35d2ca2f11f19f51c8e0c0ba11dbda44b0d1fae918a5e04d6603576c8b23b9a9",
+  "original_size": 24390050,
+  "archive_sha256": "3f4d5a3ff798de7ecf35dc921e2798321aee690e3b69c635ff195a3ab0a295ca",
+  "archive_size": 1722538,
+  "original_retained_tmpfs": "/tmp/gosc-t1b-quota-recovery-20261118/hpc-masbench-t1b-wiring-regression-20261118.patch",
+  "local_original_sha256_verified": true,
+  "restore": "gzip -dc source_changes.patch.gz > source_changes.patch"
+}

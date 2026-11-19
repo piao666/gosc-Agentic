@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t1b-live-v2-20261118",
+  "status": "failed",
+  "started_at": "2026-11-18T05:53:53.884829+00:00",
+  "finished_at": null,
+  "exit_code": null,
+  "pid": 50808,
+  "reconciliation_reason": "EDQUOT during the first ledger write, then during launcher status finalization",
+  "reconciled_at": "2026-11-18T05:58:59.507557+00:00"
+}

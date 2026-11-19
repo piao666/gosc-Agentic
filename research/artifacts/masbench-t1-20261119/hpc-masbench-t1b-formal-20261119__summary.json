@@ -1,0 +1,137 @@
+{
+  "runtime": {
+    "root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "helper": "/tmp/gosc-hpc-masbench-context-build-v3-20261116/context-counter",
+    "service_pid": 37483,
+    "service_stamp": "4897373256",
+    "binary_sha": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+    "context": 1024,
+    "model": "qwen2.5:7b"
+  },
+  "caps": {
+    "wall": 1020,
+    "dispatch_cutoff": 920,
+    "operation": 60,
+    "requests": 4,
+    "inputs": 4096,
+    "outputs": 1088,
+    "debug": 4,
+    "unload": 4,
+    "get": 24,
+    "cleanup_get": 16,
+    "artifact_bytes": 16777216,
+    "driver_rss": 2147483648,
+    "service_rss": 17179869184,
+    "gpu_bytes": 17179869184,
+    "cpu_cores": 2,
+    "prepare": 150,
+    "render_rpc": 120,
+    "cleanup": 40
+  },
+  "cases": [
+    {
+      "id": "normal",
+      "request_id": "synthetic/0",
+      "status": "completed",
+      "reserved_input": 29,
+      "reserved_output": 32,
+      "usage": {
+        "prompt_tokens": 29,
+        "completion_tokens": 2
+      }
+    },
+    {
+      "id": "watchdog",
+      "request_id": "synthetic/1",
+      "status": "timeout",
+      "reserved_input": 48,
+      "reserved_output": 512,
+      "usage": null
+    },
+    {
+      "id": "controller",
+      "request_id": "synthetic/2",
+      "status": "interrupted",
+      "reserved_input": 38,
+      "reserved_output": 512,
+      "usage": null
+    },
+    {
+      "id": "recovery",
+      "request_id": "synthetic/3",
+      "status": "completed",
+      "reserved_input": 29,
+      "reserved_output": 32,
+      "usage": {
+        "prompt_tokens": 29,
+        "completion_tokens": 2
+      }
+    }
+  ],
+  "status": "failed",
+  "actual_task_inputs": 0,
+  "native_immediate_idle_verified": false,
+  "error": "SafetyError: old runner identity missing or changed; keep fenced",
+  "elapsed_seconds": 104.11118688434362,
+  "control_counts": {
+    "debug": 4,
+    "get": 15,
+    "cleanup_get": 8,
+    "unload": 3
+  },
+  "reservations": {
+    "requests": {
+      "synthetic/0": {
+        "kind": "request",
+        "id": "synthetic/0",
+        "episode": "synthetic",
+        "input": 29,
+        "output": 32,
+        "status": "completed",
+        "observed_usage": {
+          "prompt_tokens": 29,
+          "completion_tokens": 2
+        }
+      },
+      "synthetic/1": {
+        "kind": "request",
+        "id": "synthetic/1",
+        "episode": "synthetic",
+        "input": 48,
+        "output": 512,
+        "status": "timeout",
+        "observed_usage": null
+      },
+      "synthetic/2": {
+        "kind": "request",
+        "id": "synthetic/2",
+        "episode": "synthetic",
+        "input": 38,
+        "output": 512,
+        "status": "interrupted",
+        "observed_usage": null
+      },
+      "synthetic/3": {
+        "kind": "request",
+        "id": "synthetic/3",
+        "episode": "synthetic",
+        "input": 29,
+        "output": 32,
+        "status": "completed",
+        "observed_usage": {
+          "prompt_tokens": 29,
+          "completion_tokens": 2
+        }
+      }
+    },
+    "inputs": 144,
+    "outputs": 1088
+  },
+  "resource_samples": 203,
+  "sampled_peaks": {
+    "driver_rss": 116719616,
+    "service_rss": 5374939136,
+    "gpu_bytes": 5200936960
+  },
+  "service_marker_retained": true
+}

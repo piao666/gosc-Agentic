@@ -1,0 +1,30 @@
+{
+  "run": "hpc-masbench-t1-cold-load-20261119",
+  "generation_requests": 0,
+  "actual_task_inputs": 0,
+  "render": "not-dispatched",
+  "cold_runner_before_send": false,
+  "cache_temperature": "unknown",
+  "log_begin": null,
+  "error": "SafetyError('HTTP worker exited without a complete result')",
+  "log_end": {
+    "inode": 144115357894841977,
+    "offset": 2984115
+  },
+  "charges": {
+    "old_get": 1,
+    "get": 0,
+    "cleanup_get": 0,
+    "debug": 0,
+    "unload": 0
+  },
+  "elapsed_seconds": 0.35057346522808075,
+  "samples": 0,
+  "peaks": {
+    "driver_rss": 41205760,
+    "service_rss": 216518656,
+    "gpu_bytes": 0
+  },
+  "service_marker_retained": true,
+  "diagnostic_claimed": false
+}

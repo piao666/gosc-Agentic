@@ -6,6 +6,7 @@ HPC:   hpc_runs.py run --kind simulation --stage R3 --purpose '...' -- ...
 """
 from pathlib import Path
 import argparse
+import gzip
 import hashlib
 import json
 import os
@@ -143,9 +144,21 @@ def run(args):
         if ROOT not in p.parents or not p.is_file():
             raise RuntimeError('Config must be an existing project file')
         m['config_sha256'] = digest(p)
+    patch = subprocess.check_output(['git','-C',str(ROOT),'diff','--binary','HEAD'])
+    if args.gzip_source_patch:
+        patch_path = run_dir/'source_changes.patch.gz'
+        archive = gzip.compress(patch, compresslevel=1, mtime=0)
+        m['source_changes'] = {
+            'path':patch_path.name, 'format':'gzip',
+            'original_size':len(patch), 'original_sha256':hashlib.sha256(patch).hexdigest(),
+            'size':len(archive), 'sha256':hashlib.sha256(archive).hexdigest(),
+        }
+    else:
+        patch_path = run_dir/'source_changes.patch'
+        archive = patch
     write_json(run_dir/'manifest.json',m)
     shutil.copyfile(snapshot,run_dir/'source_snapshot.json')
-    (run_dir/'source_changes.patch').write_bytes(subprocess.check_output(['git','-C',str(ROOT),'diff','--binary','HEAD']))
+    patch_path.write_bytes(archive)
     untracked = set(x.decode('utf-8') for x in subprocess.check_output(['git','-C',str(ROOT),'ls-files','--others','--exclude-standard','-z']).split(b'\0') if x)
     with tarfile.open(run_dir/'source_untracked.tar.gz','w:gz') as archive:
         for entry in source['files']:
@@ -300,6 +313,8 @@ def main():
         q.add_argument('--cache-mode',default='not_applicable')
         q.add_argument('--config')
         q.add_argument('--cwd')
+        q.add_argument('--gzip-source-patch', action='store_true',
+                       help='Save the complete Git patch as a lossless gzip snapshot')
         q.add_argument('command',nargs=argparse.REMAINDER)
     q=sub.add_parser('pull');q.add_argument('--max-bytes',type=int)
     sub.add_parser('status');sub.add_parser('inventory')
