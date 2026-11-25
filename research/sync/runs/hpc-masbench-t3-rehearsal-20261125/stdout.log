@@ -1,0 +1,1 @@
+{"episodes": 16, "fixture_calls": 96, "legacy_ipc": {"packet_limit": 65536, "episode_limit": 524288, "terminal_packets_over_limit": 8, "episodes_over_cumulative_limit": 8}, "maxima": {"max_request_packet_bytes": 37791, "max_broker_reply_bytes": 42115, "completed_packet_bytes": 1039754, "application_to_broker_bytes": 1195616}, "real_generation": 0}

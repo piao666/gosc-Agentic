@@ -40,12 +40,13 @@ def verify_cases(control, ledger, plan):
     events = [row['event'] for row in control]
     starts = [i for i,event in enumerate(events) if event['kind']=='case-start']
     ends = [i for i,event in enumerate(events) if event['kind']=='case-end']
-    require(len(starts)==len(ends)==4, 'not four terminal cases')
+    case_count = len(plan['cases'])
+    require(len(starts)==len(ends)==case_count, 'missing terminal cases')
     require([events[i]['id'] for i in starts]==[x['id'] for x in plan['cases']], 'case order')
     requests = [row['event'] for row in ledger if row['event']['kind']=='request']
     settlements = {row['event']['id']:row['event'] for row in ledger if row['event']['kind']=='finish'}
-    require(len(requests)==len(settlements)==4, 'request/settlement count')
-    require(len({r['id'] for r in requests})==4, 'repeated request ID')
+    require(len(requests)==len(settlements)==case_count, 'request/settlement count')
+    require(len({r['id'] for r in requests})==case_count, 'repeated request ID')
     rows = []
     for case,start,end,r in zip(plan['cases'],starts,ends,requests,strict=True):
         result = settlements[r['id']]

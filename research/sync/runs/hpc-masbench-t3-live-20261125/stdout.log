@@ -1,0 +1,18 @@
+{"episode": "synthetic-short", "status": "completed"}
+{"episode": "synthetic-long", "status": "completed"}
+{"episode": "01-base-Full", "status": "completed", "reserved_requests": 3}
+{"episode": "01-base-No-A2A", "status": "completed", "reserved_requests": 4}
+{"episode": "01-protocol-No-A2A", "status": "completed", "reserved_requests": 10}
+{"episode": "01-protocol-Full", "status": "completed", "reserved_requests": 13}
+{"episode": "02-base-No-A2A", "status": "completed", "reserved_requests": 14}
+{"episode": "02-base-Full", "status": "completed", "reserved_requests": 15}
+{"episode": "02-protocol-Full", "status": "completed", "reserved_requests": 18}
+{"episode": "02-protocol-No-A2A", "status": "completed", "reserved_requests": 24}
+{"episode": "03-base-Full", "status": "completed", "reserved_requests": 25}
+{"episode": "03-base-No-A2A", "status": "completed", "reserved_requests": 26}
+{"episode": "03-protocol-No-A2A", "status": "completed", "reserved_requests": 32}
+{"episode": "03-protocol-Full", "status": "completed", "reserved_requests": 38}
+{"episode": "04-base-No-A2A", "status": "completed", "reserved_requests": 40}
+{"episode": "04-base-Full", "status": "completed", "reserved_requests": 42}
+{"episode": "04-protocol-Full", "status": "completed", "reserved_requests": 45}
+{"episode": "04-protocol-No-A2A", "status": "completed", "reserved_requests": 51}

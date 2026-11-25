@@ -1,0 +1,15 @@
+{
+  "run_id": "hpc-masbench-t3-integrated-contract-v2-20261125",
+  "files": [
+    {
+      "path": "outputs/hdd_manifest.json",
+      "size": 118767,
+      "sha256": "07fcc1b99519e6074057606abfdb1357d29bb70afbd6472512a35553ad86a6c0"
+    },
+    {
+      "path": "outputs/integration.json",
+      "size": 806,
+      "sha256": "519f23b156fdfd721c61f658cc71d39bb97d97d365c319adbc5615ff989fc389"
+    }
+  ]
+}

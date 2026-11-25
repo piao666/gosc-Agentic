@@ -33,6 +33,35 @@ elif sys.argv[1:]==['--formal-runner-retest']:
             'hpc-masbench-t1b-formal-runner-retest-audit-20261119'}
     BUNDLE_NAMES = ('t1-formal-runner-retest-transfer.tar.gz',)
     SCOPE = 't1-formal-runner-retest'
+elif sys.argv[1:]==['--t2-window-demand']:
+    RUNS = {'hpc-masbench-t2-window-demand-20261125'}
+    BUNDLE_NAMES = ('t2-window-demand-transfer.tar.gz',)
+    SCOPE = 't2-window-demand'
+elif sys.argv[1:]==['--t2-deployment']:
+    RUNS = {'hpc-masbench-t2-contract-20261125','hpc-masbench-t2-live-20261125','hpc-masbench-t2-audit-20261125',
+            'hpc-masbench-t2-contract-v2-20261125','hpc-masbench-t2-live-v2-20261125','hpc-masbench-t2-audit-v2-20261125'}
+    BUNDLE_NAMES = ('t2-deployment-transfer.tar.gz',)
+    SCOPE = 't2-deployment'
+elif sys.argv[1:]==['--t2-final']:
+    RUNS = {'hpc-masbench-t2-contract-v3-20261125','hpc-masbench-t2-live-v3-20261125','hpc-masbench-t2-audit-v3-20261125'}
+    BUNDLE_NAMES = ('t2-final-transfer.tar.gz',)
+    SCOPE = 't2-final'
+elif sys.argv[1:]==['--t3-preflight']:
+    RUNS = {'hpc-masbench-t3-rehearsal-20261125','hpc-masbench-t3-ipc-contract-20261125'}
+    BUNDLE_NAMES = ('t3-preflight-transfer.tar.gz',)
+    SCOPE = 't3-preflight'
+elif sys.argv[1:]==['--t3-storage']:
+    RUNS = {'hpc-masbench-t3-storage-contract-20261125'}
+    BUNDLE_NAMES = ('t3-storage-transfer.tar.gz',)
+    SCOPE = 't3-storage'
+elif sys.argv[1:]==['--t3-integration']:
+    RUNS = {'hpc-masbench-t3-integrated-contract-20261125','hpc-masbench-t3-integrated-contract-v2-20261125'}
+    BUNDLE_NAMES = ('t3-integration-transfer.tar.gz',)
+    SCOPE = 't3-integration'
+elif sys.argv[1:]==['--t3-live']:
+    RUNS = {'hpc-masbench-t3-live-20261125','hpc-masbench-t3-audit-20261125'}
+    BUNDLE_NAMES = ('t3-live-transfer.tar.gz',)
+    SCOPE = 't3-live'
 elif sys.argv[1:]:
     raise SystemExit('unknown receipt scope')
 data, bundle_info, encountered = [], [], set()
@@ -56,6 +85,8 @@ record = {'sync_id':ident,'direction':'hpc_to_local','source_host':'hpc',
           'scope':'Only the selected newly registered run directories','run_ids':sorted(RUNS),
           'scope_complete':True,'files':data,'bundles':bundle_info,
           'bytes_verified':sum(row['size'] for row in data)}
+if SCOPE=='t3-live':
+    record['raw_hdd_outputs_mirrored']=False
 body = (json.dumps(record,indent=2)+'\n').encode()
 destination = ROOT/'research/sync/receipts'/(ident+'.json')
 with destination.open('xb') as local:

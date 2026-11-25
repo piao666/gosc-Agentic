@@ -98,7 +98,8 @@ def inspect_live(run, artifacts, plan_path=PLAN, auth_path=AUTH, formal=False, f
     require(control[0]['event']['identity']==ledger[0]['event']['binding'], 'run journal binding')
     results = verify_cases(control,ledger,plan)
     proofs = prove_barriers(control,ledger)
-    require(len(proofs)==(2 if failed_final_cleanup else 3),'unexpected number of successful recovery barriers')
+    fault_count=sum(case['fault']!='none' for case in plan['cases'])
+    require(len(proofs)==fault_count+int(not failed_final_cleanup),'unexpected number of recovery barriers')
     for proof in proofs:
         resources = proof['complete']['event']['observation']['resources_after_unload']
         require(set(resources)=={'driver_rss','service_rss','gpu_bytes'}
@@ -113,7 +114,9 @@ def inspect_live(run, artifacts, plan_path=PLAN, auth_path=AUTH, formal=False, f
     count = [json.loads(p.read_bytes()) for p in sorted(directory.glob('*-full-input-count.json'))]
     bindings = [json.loads(p.read_bytes()) for p in sorted(directory.glob('*-binding-evidence.json'))]
     payloads = [json.loads(p.read_bytes()) for p in sorted(directory.glob('*-provider-request.json'))]
-    require(len(count)==5 and count[0]['row']['token_count']+32>1024, 'overflow control')
+    require(len(count)==len(plan['cases'])+1
+            and count[0]['row']['token_count']+plan['overflow']['max_output']>plan['runtime']['context'],
+            'overflow control')
     negative = control[:next(x['seq'] for x in control if x['event']['kind']=='case-start')]
     require(any(x['event']['kind']=='overflow-blocked-before-http' for x in negative)
             and not any(x['event']['kind']=='http-sent' for x in negative), 'overflow sent HTTP')
@@ -169,20 +172,21 @@ def inspect_live(run, artifacts, plan_path=PLAN, auth_path=AUTH, formal=False, f
             and summary['actual_task_inputs']==0, 'run completion, budget or cleanup mismatch')
     clocks = [r['event'] for r in control if r['event']['kind']=='phase-clock']
     if formal:
-        require([c['phase'] for c in clocks]==['prepare','generate']*4,'phase order')
+        require([c['phase'] for c in clocks]==['prepare','generate']*len(plan['cases']),'phase order')
         for index in range(0,len(clocks),2):
             prepare,generate=clocks[index:index+2]
             require(0<prepare['deadline_mono']-prepare['start_mono']<=150
-                    and 0<generate['deadline_mono']-generate['start_mono']<=60
+                    and 0<generate['deadline_mono']-generate['start_mono']<=plan['caps']['operation']
                     and prepare['start_mono']<=generate['start_mono']<=prepare['deadline_mono'],'separate budgets not respected')
-        watchdog, = [r for r in control if r['event']['kind']=='fault-trigger-armed' and r['event']['fault']=='timeout']
-        require(abs(watchdog['event']['watchdog_deadline_mono']-watchdog['event']['sent_mono']-.25)<1e-6,
-                'watchdog not measured from worker send')
-        generation_send, = [r for r in control if r['event']['kind']=='http-sent'
-                           and r['event']['worker_sent_mono']==watchdog['event']['sent_mono']]
-        timeout, = [r for r in control if r['event']['kind']=='rpc-timeout'
-                    and r['event']['pid']==generation_send['event']['pid']]
-        require(timeout['mono']>=watchdog['event']['watchdog_deadline_mono'],'watchdog fired before its deadline')
+        if any(case['fault']=='timeout' for case in plan['cases']):
+            watchdog, = [r for r in control if r['event']['kind']=='fault-trigger-armed' and r['event']['fault']=='timeout']
+            require(abs(watchdog['event']['watchdog_deadline_mono']-watchdog['event']['sent_mono']-.25)<1e-6,
+                    'watchdog not measured from worker send')
+            generation_send, = [r for r in control if r['event']['kind']=='http-sent'
+                               and r['event']['worker_sent_mono']==watchdog['event']['sent_mono']]
+            timeout, = [r for r in control if r['event']['kind']=='rpc-timeout'
+                        and r['event']['pid']==generation_send['event']['pid']]
+            require(timeout['mono']>=watchdog['event']['watchdog_deadline_mono'],'watchdog fired before its deadline')
         require(summary['elapsed_seconds']<=plan['caps']['wall'],'formal wall time exceeded')
     final_failure=None
     if failed_final_cleanup:
@@ -202,7 +206,7 @@ def inspect_live(run, artifacts, plan_path=PLAN, auth_path=AUTH, formal=False, f
             'real_task_inputs':0}
 
 
-def inspect_formal_failure(run, artifacts):
+def inspect_formal_failure(run, artifacts, case_ids=('normal','watchdog','controller','recovery')):
     summary=json.loads((run/'outputs/summary.json').read_bytes())
     driver=run/'outputs/driver'
     control=read_chain(driver/'control.jsonl')
@@ -230,26 +234,77 @@ def inspect_formal_failure(run, artifacts):
             and summary['actual_task_inputs']==0,'artifact or data scope exceeded')
     phases=[r['event'] for r in control if r['event']['kind']=='phase-clock']
     started=[r['event']['id'] for r in control if r['event']['kind']=='case-start']
-    require(started==['normal','watchdog','controller','recovery'][:len(started)],'partial case order')
+    require(started==list(case_ids[:len(started)]),'partial case order')
     return {'acceptance_passed':False,'failed_prefix_verified':True,'cases_started':started,'cases':summary['cases'],
             'error':summary.get('error'),'phase_clocks':phases,'charges':charges,'reservations':reserves,
             'service_marker_retained':summary['service_marker_retained'],
             'native_immediate_idle_verified':False,'real_task_inputs':0}
 
 
+def inspect_t2(run, artifacts, status, version):
+    stem={'t2':'masbench_t2_live','t2-v2':'masbench_t2_live_v2','t2-v3':'masbench_t2_live_v3'}[version]
+    plan_path=f'research/protocols/{stem}_plan.json'
+    auth_path=f'research/protocols/{stem}_authorization.json'
+    transitions=run/'outputs/service_transitions.jsonl'
+    rows=[json.loads(line) for line in transitions.read_bytes().splitlines()] if transitions.exists() else []
+    plan=json.loads((ROOT/plan_path).read_bytes())
+    if status!='completed':
+        result=inspect_formal_failure(run,artifacts,[case['id'] for case in plan['cases']]) if (run/'outputs/summary.json').exists() else {
+            'acceptance_passed':False,'summary_available':False}
+        return dict(result,service_transitions=rows)
+    result=inspect_live(run,artifacts,plan_path,auth_path,formal=True,verify_runner_reuse=True)
+    context=plan['runtime']['context']
+    require([row['stage'] for row in rows]==['baseline','candidate-profile-written','service-term','service-exited',
+            'candidate-first-start','service-term','service-exited','candidate-restart','service-term','service-exited',
+            'baseline-restart','rollback-verified'],'unexpected service lifecycle')
+    before, first, active, baseline, final = [rows[i] for i in (0,4,7,10,11)]
+    services=[row['service'] for row in (before,first,active,baseline)]
+    require([item['context'] for item in services]==[1024,context,context,1024]
+            and len({(s['service_pid'],s['service_stamp']) for s in services})==4
+            and len({s['service_binary_sha256'] for s in services})==1
+            and first['profile_exists'] and active['profile_exists'] and not final['profile_exists']
+            and final['service']==baseline['service'] and final['empty_runner'] and final['gpu_mib']==0,
+            'candidate persistence or baseline rollback evidence missing')
+    require(all(rows[i]['service']==service for i,service in zip((3,6,9),services[:3],strict=True)),
+            'wrong stopped service identity')
+    runtime=json.loads((run/'outputs/summary.json').read_bytes())['runtime']
+    require(runtime['service_pid']==active['service']['service_pid']
+            and runtime['service_stamp']==active['service']['service_stamp'], 'live campaign ran on wrong service')
+    require(result['cases'][0]['reserved_input']>=plan['min_long_prompt_tokens'], 'long case was too short')
+    if version=='t2-v3':
+        failed=run.parent/'hpc-masbench-t2-live-v2-20261125'
+        verify_artifacts(failed)
+        old_summary=failed/'outputs/summary.json'
+        require(sha_bytes(old_summary.read_bytes())==plan['previous_summary_sha256'],'prior budget identity changed')
+        old=json.loads(old_summary.read_bytes())
+        driver=failed/'outputs/driver'
+        control=read_chain(driver/'control.jsonl')
+        ledger=read_chain(driver/'campaign/ledger.jsonl')
+        proof,=prove_barriers(control,ledger)
+        request,=old['reservations']['requests'].values()
+        require(request['status']=='timeout' and request['observed_usage'] is None
+                and any(row['event']['kind']=='rpc-timeout' and row['event']['sent_observed'] for row in control)
+                and not old['service_marker_retained'],'prior timeout and recovery unverified')
+        result['previous_timeout']={'request':request,'cleanup_proof':proof}
+    return dict(result,service_transitions=rows,effective_context=context,rollback_verified=True)
+
+
 def main():
     require_hpc()
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('mode',choices=('fixture','live','formal','formal-runner-retest'))
+    parser.add_argument('mode',choices=('fixture','live','formal','formal-runner-retest','t2','t2-v2','t2-v3'))
     mode = parser.parse_args().mode
     names={'fixture':FIXTURE,'live':LIVE,'formal':'hpc-masbench-t1b-formal-20261119',
-           'formal-runner-retest':'hpc-masbench-t1b-formal-runner-retest-20261119'}
+           'formal-runner-retest':'hpc-masbench-t1b-formal-runner-retest-20261119','t2':'hpc-masbench-t2-live-20261125',
+           't2-v2':'hpc-masbench-t2-live-v2-20261125','t2-v3':'hpc-masbench-t2-live-v3-20261125'}
     run = ROOT/'research/sync/runs'/names[mode]
     status = json.loads((run/'status.json').read_bytes())['status']
-    formal = mode in {'formal','formal-runner-retest'}
+    formal = mode in {'formal','formal-runner-retest','t2','t2-v2','t2-v3'}
     require(status=='completed' or formal and status=='failed','source run did not complete')
     artifacts = verify_artifacts(run)
-    if mode=='formal-runner-retest' and status=='completed':
+    if mode in {'t2','t2-v2','t2-v3'}:
+        result=inspect_t2(run,artifacts,status,mode)
+    elif mode=='formal-runner-retest' and status=='completed':
         result=inspect_live(run,artifacts,'research/protocols/masbench_t1b_formal_runner_retest_plan.json',
                             'research/protocols/masbench_t1b_formal_runner_retest_authorization.json',
                             formal=True,verify_runner_reuse=True)

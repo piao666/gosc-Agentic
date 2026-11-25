@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t3-rehearsal-20261125",
+  "files": [
+    {
+      "path": "outputs/t3_rehearsal.json",
+      "size": 35628,
+      "sha256": "7ec5dfa36634d193dd646a619eb1d460e1980b88a5fe52cb04bce9c9c6caadc3"
+    }
+  ]
+}

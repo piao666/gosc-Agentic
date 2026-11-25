@@ -1,0 +1,119 @@
+{
+  "runtime": {
+    "root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "helper": "/tmp/gosc-hpc-masbench-context-build-v3-20261116/context-counter",
+    "service_pid": 35711,
+    "service_stamp": "4966329485",
+    "binary_sha": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+    "context": 16384,
+    "model": "qwen2.5:7b"
+  },
+  "caps": {
+    "wall": 510,
+    "dispatch_cutoff": 425,
+    "operation": 180,
+    "requests": 3,
+    "inputs": 55563,
+    "outputs": 576,
+    "debug": 3,
+    "unload": 3,
+    "get": 24,
+    "cleanup_get": 16,
+    "artifact_bytes": 25165824,
+    "driver_rss": 2147483648,
+    "service_rss": 17179869184,
+    "gpu_bytes": 17179869184,
+    "cpu_cores": 2,
+    "prepare": 150,
+    "render_rpc": 120,
+    "cleanup": 40
+  },
+  "cases": [
+    {
+      "id": "normal",
+      "request_id": "synthetic/0",
+      "status": "completed",
+      "reserved_input": 9973,
+      "reserved_output": 32,
+      "usage": {
+        "prompt_tokens": 9973,
+        "completion_tokens": 2
+      }
+    },
+    {
+      "id": "controller",
+      "request_id": "synthetic/1",
+      "status": "interrupted",
+      "reserved_input": 9679,
+      "reserved_output": 512,
+      "usage": null
+    },
+    {
+      "id": "recovery",
+      "request_id": "synthetic/2",
+      "status": "completed",
+      "reserved_input": 29,
+      "reserved_output": 32,
+      "usage": {
+        "prompt_tokens": 29,
+        "completion_tokens": 2
+      }
+    }
+  ],
+  "status": "synthetic_driver_contract_passed",
+  "actual_task_inputs": 0,
+  "native_immediate_idle_verified": false,
+  "elapsed_seconds": 105.15987831354141,
+  "control_counts": {
+    "debug": 3,
+    "get": 11,
+    "cleanup_get": 6,
+    "unload": 2
+  },
+  "reservations": {
+    "requests": {
+      "synthetic/0": {
+        "kind": "request",
+        "id": "synthetic/0",
+        "episode": "synthetic",
+        "input": 9973,
+        "output": 32,
+        "status": "completed",
+        "observed_usage": {
+          "prompt_tokens": 9973,
+          "completion_tokens": 2
+        }
+      },
+      "synthetic/1": {
+        "kind": "request",
+        "id": "synthetic/1",
+        "episode": "synthetic",
+        "input": 9679,
+        "output": 512,
+        "status": "interrupted",
+        "observed_usage": null
+      },
+      "synthetic/2": {
+        "kind": "request",
+        "id": "synthetic/2",
+        "episode": "synthetic",
+        "input": 29,
+        "output": 32,
+        "status": "completed",
+        "observed_usage": {
+          "prompt_tokens": 29,
+          "completion_tokens": 2
+        }
+      }
+    },
+    "inputs": 19681,
+    "outputs": 576
+  },
+  "resource_samples": 206,
+  "sampled_peaks": {
+    "driver_rss": 95395840,
+    "service_rss": 4256157696,
+    "gpu_bytes": 6767509504
+  },
+  "service_marker_retained": false
+}

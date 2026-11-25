@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-t2-live-v3-20261125",
+  "status": "completed",
+  "started_at": "2026-11-25T02:52:07.645445+00:00",
+  "finished_at": "2026-11-25T02:53:57.313161+00:00",
+  "exit_code": 0,
+  "pid": 35678,
+  "elapsed_seconds": 109.667734,
+  "resource_usage": {
+    "child_max_rss_kib": 4911840,
+    "child_cpu_user_seconds": 16.640864,
+    "child_cpu_system_seconds": 16.118696,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

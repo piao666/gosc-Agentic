@@ -1,5 +1,9 @@
 # 研究进度与证据入口
 
+2026-11-25 [T3 四题真实模型结果](reports/masbench_t3_execution_2026-11-25.md)完成 16 个 episode、49 次任务生成及两次合成预检。工程验收、证据审计和 1024 回滚通过。主提示族 Full 与 No-A2A 平均 F1 相同，仅一题完全答对，研究关卡 No-Go。 [禁网准入](reports/masbench_t3_preflight_2026-11-25.md)
+
+2026-11-25 [T2 窗口需求与部署验收](reports/masbench_t2_context_acceptance_2026-11-25.md)通过受测工程支持域。冻结四题首轮与六轮合成压力选出 16384，实际完成长输入、故障恢复、持久配置重启和 1024 回滚。最终服务为 1024，真实四题仍待 T3。
+
 2026-11-19 [T1 验证总报告](reports/masbench_t1_validation_archive_2026-11-19.md)整合从无模型接线到最终现场通过的 32 条登记、存储恢复和失败证据。 [运行及证据索引](artifacts/masbench-t1-20261119/README.md) · [本轮提交说明](../commit/2026-11-19-01-masbench-t1-validation-archive.md)
 
 2026-11-19 [T1 runner 更替核对与现场复验](reports/masbench_t1b_formal_runner_retest_2026-11-19.md)通过固定部署下的合成端到端验收。HPC 53 项禁网回归，真实模型四例，三次卸载及独立审计通过。旧锁已据证归档，终态服务空闲。原生即时取消未验证，T2 配置审查和真实 B1 等待各自条件。

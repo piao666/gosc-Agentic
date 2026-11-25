@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t3-audit-20261125",
+  "files": [
+    {
+      "path": "outputs/t3_audit.json",
+      "size": 10363,
+      "sha256": "63a5225cda15bf11014046e565492b438c1f214052edcf2178309bfd63f3f86d"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t3_integrated_contract.py", line 161, in <module>
+    main()
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t3_integrated_contract.py", line 131, in main
+    driver.run_episode(row['id'],fixture_agents(row['case'],row['style']),max_turns=6)
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/extensions/masbench_reasoning/live_driver.py", line 916, in run_episode
+    result=self._guard_application(agents,row,max_turns,fixture_fault)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/extensions/masbench_reasoning/live_driver.py", line 1021, in _guard_application
+    raise TimeoutError('application reply deadline')
+TimeoutError: application reply deadline

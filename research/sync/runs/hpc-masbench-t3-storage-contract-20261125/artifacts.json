@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t3-storage-contract-20261125",
+  "files": [
+    {
+      "path": "outputs/t3_storage_receipt.json",
+      "size": 601,
+      "sha256": "e6b5ab087b6c4752bdf96bd0a5e5ed69aad8db7ebd6243d18ef455928b8ce408"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "model_requests": 0,
+  "network_denied": true,
+  "task_reservations": 96,
+  "synthetic_reservations": 2,
+  "hdd_readback_verified": true,
+  "hdd_root": "/hdd/u202520081000097/gosc-t3-contracts/hpc-masbench-t3-integrated-contract-v2-20261125",
+  "live_source_sha256": "c1d45e01d58a048db1b82ffeaee67cb34d2520cf29adfadbd5a33a2190a4afa1",
+  "launcher_sha256": "4f160deb864cb0d48bd23be44de0ed6d544f3b9d8e1acf117259af83534ddc8b",
+  "ledger_tip": "9a1879f71688f530af0ba3bd007b9471f1f7f613f2d9c36b6317cacbfd5bd4a2",
+  "control_tip": "fee0f03df1dc9b4261643478ddeb88b19405b8a1a12c5516c25d2c8fa0eaad17",
+  "old_runner_barriers": 18,
+  "unknown_timeout_retained": true,
+  "reported_length_usage_retained": true,
+  "wrong_partition_and_unfrozen_task_rejected": true,
+  "later_episode_completed_after_fence": true
+}

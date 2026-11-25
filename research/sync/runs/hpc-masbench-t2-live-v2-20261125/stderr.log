@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t2_live.py", line 197, in <module>
+    main()
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t2_live.py", line 165, in main
+    campaign.main(authorization,FIXTURE,identity(restarted))
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t1b_live.py", line 246, in main
+    report['cases'].append(run_case(driver, case))
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t1b_live.py", line 168, in run_case
+    result = validate_case(driver, case, start, response, error)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t1b_live.py", line 126, in validate_case
+    raise SafetyError('normal response/usage check failed')
+extensions.masbench_reasoning.execution_safety.SafetyError: normal response/usage check failed

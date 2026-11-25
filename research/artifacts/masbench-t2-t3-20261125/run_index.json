@@ -1,0 +1,746 @@
+{
+  "runs": [
+    {
+      "run_id": "hpc-masbench-t2-audit-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.152596,
+      "source_sync_id": "20261125T023746Z",
+      "registered_outputs": 1,
+      "registered_output_bytes": 3311,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-20261125/manifest.json",
+          "bytes": 15981,
+          "sha256": "3da667e1aff06ef8f766046ded3c63803f2cd33a23f0a363109f954977bb4746"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-20261125/status.json",
+          "bytes": 553,
+          "sha256": "8509c35f252338f364e07069f0e4492298104a9c4b4834b128f5ec24394cd503"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-20261125/artifacts.json",
+          "bytes": 218,
+          "sha256": "2ea9ce7cea55f934d5838454065aadf930b3a0459866264266581486cd07e689"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-20261125/stdout.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-20261125/stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-20261125/source_snapshot.json",
+          "bytes": 440771,
+          "sha256": "285aa2ccaf4e04bbf29dd239f7713210dd969720ef713188146925d379edb68d"
+        }
+      },
+      "archived_outputs": [
+        "t2-first-attempt-audit.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-t2-audit-v2-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.168081,
+      "source_sync_id": "20261125T024348Z",
+      "registered_outputs": 1,
+      "registered_output_bytes": 4893,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-v2-20261125/manifest.json",
+          "bytes": 16444,
+          "sha256": "cb8c2cc0668f292f2dd6f228ed3a62bf89f331eb8fd5fb41e274d8624254e97b"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-v2-20261125/status.json",
+          "bytes": 545,
+          "sha256": "3b2fb96765c646454e4e2b10688f0c7556b9734335c5b95e884d323bd1ef0fe9"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-v2-20261125/artifacts.json",
+          "bytes": 221,
+          "sha256": "5596531e7469c99dcb153e67856b8cbbf90017d9b972d0bd8fbb54ba6dc499c6"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-v2-20261125/stdout.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-v2-20261125/stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-v2-20261125/source_snapshot.json",
+          "bytes": 443444,
+          "sha256": "30872692ba148de3e2f48904efdab1b589b99b70dce1168443d3a4bd89b0ca3c"
+        }
+      },
+      "archived_outputs": [
+        "t2-timeout-audit.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-t2-audit-v3-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.221966,
+      "source_sync_id": "20261125T025034Z",
+      "registered_outputs": 1,
+      "registered_output_bytes": 12490,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-v3-20261125/manifest.json",
+          "bytes": 16924,
+          "sha256": "e154ab5beeb07147921093cac631dd476dd0586106ffc3bc6f941dd363ff4ef1"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-v3-20261125/status.json",
+          "bytes": 545,
+          "sha256": "293e758eeaa157e09ff14584bdac0e0639b7025ccf3ff7f1f850284a9c9798ff"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-v3-20261125/artifacts.json",
+          "bytes": 222,
+          "sha256": "e35cc8babbd0b2b41172c8644e895bfa33b4b8e21e2744096f3087374768ec9b"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-v3-20261125/stdout.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-v3-20261125/stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-audit-v3-20261125/source_snapshot.json",
+          "bytes": 445095,
+          "sha256": "f1d7e3e18a7854594f2b60e39baa8aed80cea9cc8b43f40d72941fef44fa8206"
+        }
+      },
+      "archived_outputs": [
+        "t2-final-audit.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-t2-contract-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 7.67993,
+      "source_sync_id": "20261125T023746Z",
+      "registered_outputs": 503,
+      "registered_output_bytes": 6108715,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-20261125/manifest.json",
+          "bytes": 15790,
+          "sha256": "3f67f77b96a5e2fcbe8196dbf91c86203677fea87d3d7b4b0ce55a5f49abfb93"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-20261125/status.json",
+          "bytes": 543,
+          "sha256": "65c30ca916e46997a4727e80f54505b6964f80e9e5381ce8458589a558774063"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-20261125/artifacts.json",
+          "bytes": 116999,
+          "sha256": "cbfcdffc1f9724a9cca6d8135fa4ee6ccd58b0da847dc3c0d452d0c742f743c8"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-20261125/stdout.log",
+          "bytes": 116,
+          "sha256": "a43f7d827a267165ed11f28d6b60418c7b72f2bdc969c40e3278be7e30868dab"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-20261125/stderr.log",
+          "bytes": 7823,
+          "sha256": "2281d3effe456f6ae82af5cf30c4f47f7fd744cb31280ee0b95b7092c2052348"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-20261125/source_snapshot.json",
+          "bytes": 440771,
+          "sha256": "285aa2ccaf4e04bbf29dd239f7713210dd969720ef713188146925d379edb68d"
+        }
+      },
+      "archived_outputs": []
+    },
+    {
+      "run_id": "hpc-masbench-t2-contract-v2-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 7.356013,
+      "source_sync_id": "20261125T024348Z",
+      "registered_outputs": 503,
+      "registered_output_bytes": 6108930,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-v2-20261125/manifest.json",
+          "bytes": 16247,
+          "sha256": "5dc91ac7e41e4cc67a513a73be6776b86303b550b0098423804ea7644fe959c8"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-v2-20261125/status.json",
+          "bytes": 547,
+          "sha256": "8aaa552e0987e685b9d614f2dad6dbc3526d3435e58d242167e026f07c40ed7f"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-v2-20261125/artifacts.json",
+          "bytes": 117003,
+          "sha256": "282f02d7838d72c7e9351ba03daa20b6cf1b4a3545e3fa7568e037e87399acbe"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-v2-20261125/stdout.log",
+          "bytes": 141,
+          "sha256": "f8e89ff6b666dac6103f960211b1deda969f03700b4412fb262cb251a97429d5"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-v2-20261125/stderr.log",
+          "bytes": 7823,
+          "sha256": "351fd2ac4b5aa6a30d7e7a91e842c80e5ef9850641b1c5086e2513c7476358e7"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-v2-20261125/source_snapshot.json",
+          "bytes": 443444,
+          "sha256": "30872692ba148de3e2f48904efdab1b589b99b70dce1168443d3a4bd89b0ca3c"
+        }
+      },
+      "archived_outputs": []
+    },
+    {
+      "run_id": "hpc-masbench-t2-contract-v3-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 7.549642,
+      "source_sync_id": "20261125T025034Z",
+      "registered_outputs": 503,
+      "registered_output_bytes": 6108929,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-v3-20261125/manifest.json",
+          "bytes": 16730,
+          "sha256": "bd17bae34c168fcd1a9c5309bcdb498900ce30c57498c8ccaf3b8fabf272a84b"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-v3-20261125/status.json",
+          "bytes": 537,
+          "sha256": "18b8731251aac82200a197c21944e8f8877096c2fce140fbccb83a226b8b53fe"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-v3-20261125/artifacts.json",
+          "bytes": 117003,
+          "sha256": "883005b45e761086a1d80af8a7830206b0e8ebd13d4887317d6b82086ae78783"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-v3-20261125/stdout.log",
+          "bytes": 141,
+          "sha256": "28a9b57748650981cb27d844c6067532d6561469a4a2ff7ef3759e5f55940a86"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-v3-20261125/stderr.log",
+          "bytes": 7823,
+          "sha256": "6aff9756be49f90e5d957c1fe62ebcef24e01b2217adfd2733114b3f79043ce5"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-contract-v3-20261125/source_snapshot.json",
+          "bytes": 445095,
+          "sha256": "f1d7e3e18a7854594f2b60e39baa8aed80cea9cc8b43f40d72941fef44fa8206"
+        }
+      },
+      "archived_outputs": []
+    },
+    {
+      "run_id": "hpc-masbench-t2-live-20261125",
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 11.652744,
+      "source_sync_id": "20261125T023746Z",
+      "registered_outputs": 12,
+      "registered_output_bytes": 778010,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-20261125/manifest.json",
+          "bytes": 15872,
+          "sha256": "f0f177b804b0367acc8bd466a5507e60edfe2676a1a5c25e020f5d53d55b5c95"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-20261125/status.json",
+          "bytes": 539,
+          "sha256": "ce55e61bc4acc0df96ce62f5408edbc1701d286ce08a526def96ea508e8475be"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-20261125/artifacts.json",
+          "bytes": 2188,
+          "sha256": "06163ccbf9ced059f324ef51bda768baa0479049c6a4607c64a982d0aede513c"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-20261125/stdout.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-20261125/stderr.log",
+          "bytes": 1464,
+          "sha256": "ebc8ba9a141aa00e3de07c5771d66885632e8186c4aeb7f4a00a478ab9d93337"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-20261125/source_snapshot.json",
+          "bytes": 440771,
+          "sha256": "285aa2ccaf4e04bbf29dd239f7713210dd969720ef713188146925d379edb68d"
+        }
+      },
+      "archived_outputs": [
+        "t2-first-attempt-summary.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-t2-live-v2-20261125",
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 71.604478,
+      "source_sync_id": "20261125T024348Z",
+      "registered_outputs": 21,
+      "registered_output_bytes": 970114,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-v2-20261125/manifest.json",
+          "bytes": 16326,
+          "sha256": "6764359793cb47f3db9d0c6a01d59c096c9ca773a7bd4d1a0b5c8223980afbf1"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-v2-20261125/status.json",
+          "bytes": 534,
+          "sha256": "a179de9062e6a841fa2d68c051f054eea16330835b8c89e4efd572b09942b022"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-v2-20261125/artifacts.json",
+          "bytes": 3900,
+          "sha256": "6e8f89c50162850915abe0b2d966c5933d71d711e85913ac588b37208ad050bb"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-v2-20261125/stdout.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-v2-20261125/stderr.log",
+          "bytes": 1058,
+          "sha256": "6293082482a5ccdba7bacde52e454f98bca8a7e354d194ec65e42e2502252ae0"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-v2-20261125/source_snapshot.json",
+          "bytes": 443444,
+          "sha256": "30872692ba148de3e2f48904efdab1b589b99b70dce1168443d3a4bd89b0ca3c"
+        }
+      },
+      "archived_outputs": [
+        "t2-timeout-summary.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-t2-live-v3-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 109.667734,
+      "source_sync_id": "20261125T025034Z",
+      "registered_outputs": 46,
+      "registered_output_bytes": 1403486,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-v3-20261125/manifest.json",
+          "bytes": 16810,
+          "sha256": "44dff8361d2b104a92fbffe85586de68967e9d57415e909120e0bb0ddbe95527"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-v3-20261125/status.json",
+          "bytes": 539,
+          "sha256": "f3b853b244b126ba8e726e6939155cf16b72c539a0bd36ca0c2906f26f99dc02"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-v3-20261125/artifacts.json",
+          "bytes": 8650,
+          "sha256": "ae64e9f396f563e7a9662cf46e17058b4e150733a9c53b46cf175c8e4a1f4137"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-v3-20261125/stdout.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-v3-20261125/stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-live-v3-20261125/source_snapshot.json",
+          "bytes": 445095,
+          "sha256": "f1d7e3e18a7854594f2b60e39baa8aed80cea9cc8b43f40d72941fef44fa8206"
+        }
+      },
+      "archived_outputs": [
+        "t2-final-summary.json",
+        "t2-service-transitions.jsonl",
+        "t2-final-control.jsonl"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-t2-window-demand-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 2.844364,
+      "source_sync_id": "20261125T022954Z",
+      "registered_outputs": 1,
+      "registered_output_bytes": 71230,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-window-demand-20261125/manifest.json",
+          "bytes": 15050,
+          "sha256": "0ee7bc895a066d0187080f2432474ae9dbc248c00485aa0a16a7eea7a9ff8dd2"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-window-demand-20261125/status.json",
+          "bytes": 539,
+          "sha256": "ea5e49a959f48c137e52d44b0bdf517500018b9c4db8f25634b731dddff06645"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-window-demand-20261125/artifacts.json",
+          "bytes": 235,
+          "sha256": "5f2172e69f6808305e5b7f19cba7effe5db574b7071048d96c792c89ca0f7f91"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-window-demand-20261125/stdout.log",
+          "bytes": 764,
+          "sha256": "b584901cff3672e691c97b3d61eb82d0543a5b42312fc6f680a3ff5a0f56ea1b"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t2-window-demand-20261125/stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t2-window-demand-20261125/source_snapshot.json",
+          "bytes": 438426,
+          "sha256": "a921724b9e472885c83d5676ba35d808a878303c6bd8ddc91e9dabab2dc40ce7"
+        }
+      },
+      "archived_outputs": [
+        "t2-window-demand.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-t3-audit-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.712695,
+      "source_sync_id": "20261125T034132Z",
+      "registered_outputs": 1,
+      "registered_output_bytes": 10363,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-audit-20261125/manifest.json",
+          "bytes": 18329,
+          "sha256": "9e2e246ef57f5a7c735381451d090c8239e443a8674e1f5b4360c63988413f5d"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-audit-20261125/status.json",
+          "bytes": 542,
+          "sha256": "0b27671cb203e1c1ffd4bf2d9f6350df23b66f2f4d62d6d247ba024da9cea422"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-audit-20261125/artifacts.json",
+          "bytes": 222,
+          "sha256": "ad5639cc8bdcc355b59dc17786a78c872a73f732947ce738708b64720ca4cc10"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-audit-20261125/stdout.log",
+          "bytes": 100,
+          "sha256": "0206504e3b05934a7b3e1b0e6f2f6df2d4c1fecb356da4ef918009bdd5350880"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-audit-20261125/stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-audit-20261125/source_snapshot.json",
+          "bytes": 450072,
+          "sha256": "3d2565a885931aeeb3c4f3631606db74e59e561a5c061b45b75909a5388b15fa"
+        }
+      },
+      "archived_outputs": [
+        "t3-audit.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-t3-integrated-contract-20261125",
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 2.270753,
+      "source_sync_id": "20261125T033446Z",
+      "registered_outputs": 0,
+      "registered_output_bytes": 0,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-integrated-contract-20261125/manifest.json",
+          "bytes": 17966,
+          "sha256": "f40f111aa1013a0f99208c5574ab15038604ce0408fbedfafd82481b07907fc0"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-integrated-contract-20261125/status.json",
+          "bytes": 542,
+          "sha256": "c38d280cda972dbfba580b13ee6b1dd93f61857e364962ed738bf6749f895efb"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-integrated-contract-20261125/artifacts.json",
+          "bytes": 78,
+          "sha256": "a328cb2c023e3018be8692e6915cabb24f5f2758fa79506cc1024415175242d9"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-integrated-contract-20261125/stdout.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-integrated-contract-20261125/stderr.log",
+          "bytes": 879,
+          "sha256": "4c92ece27e5a232d5ae05703fba84e92edb5da914ac62595a3721e13a2fb62ae"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-integrated-contract-20261125/source_snapshot.json",
+          "bytes": 449287,
+          "sha256": "9050764b7b919fa9ee3f049920b7fc3717faf1e2556726c9b3cd9286a4ea14c5"
+        }
+      },
+      "archived_outputs": []
+    },
+    {
+      "run_id": "hpc-masbench-t3-integrated-contract-v2-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 49.582887,
+      "source_sync_id": "20261125T033808Z",
+      "registered_outputs": 2,
+      "registered_output_bytes": 119573,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-integrated-contract-v2-20261125/manifest.json",
+          "bytes": 18082,
+          "sha256": "0e5515ed4661ba14246c96d01e7433ac0696a5830f7a612fcb7d014a834dd589"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-integrated-contract-v2-20261125/status.json",
+          "bytes": 551,
+          "sha256": "406e019746f634cbbd265a86fcf414e0e66826a07a578d0997f6ad85ed6ff20a"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-integrated-contract-v2-20261125/artifacts.json",
+          "bytes": 401,
+          "sha256": "fe805a5b21c16530e1973bb8636e41d32942313e63846ceefabee9b6ea44f368"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-integrated-contract-v2-20261125/stdout.log",
+          "bytes": 93,
+          "sha256": "5c0abfe86d2ff944dc261f4094be41b93cfbe1c18b64f2e8eb66a0937ec57010"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-integrated-contract-v2-20261125/stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-integrated-contract-v2-20261125/source_snapshot.json",
+          "bytes": 449646,
+          "sha256": "90b440e3368219450c0f98e3f5568ead4b31961167819bbfa9f88870385a24ee"
+        }
+      },
+      "archived_outputs": [
+        "t3-integration-contract.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-t3-ipc-contract-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 7.899729,
+      "source_sync_id": "20261125T031259Z",
+      "registered_outputs": 534,
+      "registered_output_bytes": 8200640,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-ipc-contract-20261125/manifest.json",
+          "bytes": 17360,
+          "sha256": "41507492d40bcbf99d384c690692a9b002424d35d5514efab064ba31db136977"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-ipc-contract-20261125/status.json",
+          "bytes": 538,
+          "sha256": "5af0ebe1545e0e137da651d17d58624002cf51f173488d29cb56b941d439338d"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-ipc-contract-20261125/artifacts.json",
+          "bytes": 124837,
+          "sha256": "c4e64fb7043821f96b6b6c940c2defdcf91460cca45b377c3634a91423035ee3"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-ipc-contract-20261125/stdout.log",
+          "bytes": 31,
+          "sha256": "c1e312fbd68a94672cf82f9aec5047171c1d1ae6df12c75999d10a7b336f679e"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-ipc-contract-20261125/stderr.log",
+          "bytes": 8165,
+          "sha256": "470de95f351806ed15d3956d3506c3d1715cf35bc5e788c27f45af4a9220e9a9"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-ipc-contract-20261125/source_snapshot.json",
+          "bytes": 446647,
+          "sha256": "348e646b3262babe90de62162462657431d89bcb9edd875c53f18b6510623bfd"
+        }
+      },
+      "archived_outputs": []
+    },
+    {
+      "run_id": "hpc-masbench-t3-live-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 702.949756,
+      "source_sync_id": "20261125T034132Z",
+      "registered_outputs": 4,
+      "registered_output_bytes": 141096,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-live-20261125/manifest.json",
+          "bytes": 18292,
+          "sha256": "1ee444c41efe6158638919f75998583b3a4db2bc77d93e577aa71db18acf1bf9"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-live-20261125/status.json",
+          "bytes": 538,
+          "sha256": "a2aa2416053f8d452263058439f4fc600afcba962fc8b6082f6ec549409c7615"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-live-20261125/artifacts.json",
+          "bytes": 703,
+          "sha256": "0aa1cc59e80c6c4847adf38f529b331565239e074abc703780a9add63efca0f1"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-live-20261125/stdout.log",
+          "bytes": 1369,
+          "sha256": "45c3b1b3c693511a71d454831f6a946c1c1ee6c6c25b5bb275a294d99a3cf3d5"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-live-20261125/stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-live-20261125/source_snapshot.json",
+          "bytes": 450072,
+          "sha256": "3d2565a885931aeeb3c4f3631606db74e59e561a5c061b45b75909a5388b15fa"
+        }
+      },
+      "archived_outputs": [
+        "t3-live-summary.json",
+        "t3-hdd-manifest.json",
+        "t3-quota-before.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-t3-rehearsal-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 1.182084,
+      "source_sync_id": "20261125T030732Z",
+      "registered_outputs": 1,
+      "registered_output_bytes": 35628,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-rehearsal-20261125/manifest.json",
+          "bytes": 17181,
+          "sha256": "fd7bbeead602b289f6c2383292ddeaf5fd7c9caa21348bb47b1d75008a351ba7"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-rehearsal-20261125/status.json",
+          "bytes": 535,
+          "sha256": "e21086e305cae058832a54682896dd09bc3e3f12662e5cabfd3452afaeb991b8"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-rehearsal-20261125/artifacts.json",
+          "bytes": 230,
+          "sha256": "867f637b45d354f4c44e72fe98b996a136b6261c272abbe287ecedae4b9e93dd"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-rehearsal-20261125/stdout.log",
+          "bytes": 350,
+          "sha256": "7922bea1b187cc70bf10a8b36364707f4aa32d53f156f318b7bc186a7b4b5bb0"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-rehearsal-20261125/stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-rehearsal-20261125/source_snapshot.json",
+          "bytes": 446195,
+          "sha256": "cfde6e190a83d2145d0899303e94fb9cd5cb03c493738e4421ef9cf955e19c4e"
+        }
+      },
+      "archived_outputs": [
+        "t3-rehearsal.json"
+      ]
+    },
+    {
+      "run_id": "hpc-masbench-t3-storage-contract-20261125",
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 3.64073,
+      "source_sync_id": "20261125T031727Z",
+      "registered_outputs": 1,
+      "registered_output_bytes": 601,
+      "registered_records": {
+        "manifest.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-storage-contract-20261125/manifest.json",
+          "bytes": 17603,
+          "sha256": "503554be708d9814d80c52b4a9c934fde7e098861e2576306bd4322b6283df2c"
+        },
+        "status.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-storage-contract-20261125/status.json",
+          "bytes": 551,
+          "sha256": "3820b166eb1d2c6fcb8a6249ffd75b80cf485af7cb33194af2445ec189d7bc21"
+        },
+        "artifacts.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-storage-contract-20261125/artifacts.json",
+          "bytes": 241,
+          "sha256": "2dfb4f4ef4f74f8760e4903138dfa01a8b0f41a67b072a5952bcf86ce4efbabe"
+        },
+        "stdout.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-storage-contract-20261125/stdout.log",
+          "bytes": 559,
+          "sha256": "990f383d0e4cd224ceb32eefef79b35f3cb9b0dd307331a956a75c9186ba1e6c"
+        },
+        "stderr.log": {
+          "path": "research/sync/runs/hpc-masbench-t3-storage-contract-20261125/stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "source_snapshot.json": {
+          "path": "research/sync/runs/hpc-masbench-t3-storage-contract-20261125/source_snapshot.json",
+          "bytes": 447607,
+          "sha256": "bdff2cc4687a3a0ba3f1e93990a94a14431df0b0d0db0d507ee176f28a33e50a"
+        }
+      },
+      "archived_outputs": [
+        "t3-storage-contract.json"
+      ]
+    }
+  ]
+}

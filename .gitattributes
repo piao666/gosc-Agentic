@@ -132,3 +132,8 @@
 /research/sync/runs/hpc-masbench-t1*-20261119/** -text
 /research/sync/runs/resume-radio-noise-20261020/ssd_archive_location.json -text
 /research/sync/runs/resume-radio-overhead-20261020/ssd_archive_location.json -text
+# Preserve the archived T2/T3 evidence for comparison with the HPC receipts.
+/research/artifacts/masbench-t2-t3-20261125/** -text
+/research/logs/masbench-t2-2026-11-25/** -text
+/research/sync/runs/hpc-masbench-t2*-20261125/** -text
+/research/sync/runs/hpc-masbench-t3*-20261125/** -text

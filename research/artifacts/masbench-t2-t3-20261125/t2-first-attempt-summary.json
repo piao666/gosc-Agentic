@@ -1,0 +1,55 @@
+{
+  "runtime": {
+    "root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "helper": "/tmp/gosc-hpc-masbench-context-build-v3-20261116/context-counter",
+    "service_pid": 34365,
+    "service_stamp": "4966254184",
+    "binary_sha": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+    "context": 16384,
+    "model": "qwen2.5:7b"
+  },
+  "caps": {
+    "wall": 720,
+    "dispatch_cutoff": 600,
+    "operation": 60,
+    "requests": 4,
+    "inputs": 65536,
+    "outputs": 1088,
+    "debug": 4,
+    "unload": 4,
+    "get": 24,
+    "cleanup_get": 16,
+    "artifact_bytes": 25165824,
+    "driver_rss": 2147483648,
+    "service_rss": 17179869184,
+    "gpu_bytes": 17179869184,
+    "cpu_cores": 2,
+    "prepare": 150,
+    "render_rpc": 120,
+    "cleanup": 40
+  },
+  "cases": [],
+  "status": "failed",
+  "actual_task_inputs": 0,
+  "native_immediate_idle_verified": false,
+  "error": "SafetyError: case did not reach generation: normal",
+  "elapsed_seconds": 8.5634271427989,
+  "control_counts": {
+    "debug": 1,
+    "get": 1,
+    "cleanup_get": 2,
+    "unload": 1
+  },
+  "reservations": {
+    "requests": {},
+    "inputs": 0,
+    "outputs": 0
+  },
+  "resource_samples": 17,
+  "sampled_peaks": {
+    "driver_rss": 2392375296,
+    "service_rss": 2328715264,
+    "gpu_bytes": 444596224
+  },
+  "service_marker_retained": true
+}

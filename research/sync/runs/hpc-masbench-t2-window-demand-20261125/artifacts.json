@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t2-window-demand-20261125",
+  "files": [
+    {
+      "path": "outputs/window_demand.json",
+      "size": 71230,
+      "sha256": "89b9a7d2653b7378764c575e7c0da86ae7f07a173b6b81c3db595c0d13131624"
+    }
+  ]
+}

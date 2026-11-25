@@ -89,6 +89,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--host', default='hpc')
     parser.add_argument('--pull-runs', action='store_true', help='Pull HPC-owned execution records and outputs without uploading source')
+    parser.add_argument('--exclude-untracked', action='append', default=[], metavar='PATH',
+                        help='Keep this exact untracked path local during source sync')
     args = parser.parse_args()
     if args.pull_runs:
         raise SystemExit(subprocess.call([sys.executable,str(Path(__file__).with_name('hpc_runs.py')),'pull']))
@@ -107,6 +109,12 @@ def main():
             raise RuntimeError(result.stdout.decode('utf-8',errors='replace') + '\nSSH exit ' + str(result.returncode))
         return result.stdout.decode('utf-8',errors='replace')
     names = sorted(set(p.decode('utf-8') for p in git('ls-files','--cached','--others','--exclude-standard','-z').split(b'\0') if p))
+    if args.exclude_untracked:
+        untracked = {p.decode('utf-8') for p in git('ls-files','--others','--exclude-standard','-z').split(b'\0') if p}
+        excluded = set(args.exclude_untracked)
+        if not excluded <= untracked:
+            raise RuntimeError('Source exclusions must name exact untracked paths')
+        names = [n for n in names if n not in excluded]
     names = [n for n in names if not n.startswith(('research/sync/runs/','research/sync/receipts/')) and n not in {'research/sync/dashboard.json','research/sync/STATUS.md'}]
     # Refuse tracked secrets too; never copy SSH material or environment files.
     forbidden_dirs = {'.ssh','.aws','.venv','__pycache__','.pytest_cache','.local','.git'}

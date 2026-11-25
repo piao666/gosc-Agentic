@@ -1,0 +1,656 @@
+{
+  "status": "completed",
+  "failure": null,
+  "elapsed_seconds": 702.2265313491225,
+  "authorization_sha256": "0947a860bf01e9c16ca337e13bd0d05babc1281089699d52254f1d4edcf84afa",
+  "raw_mirrored": false,
+  "episodes": {
+    "synthetic-short": "completed",
+    "synthetic-long": "completed",
+    "01-base-Full": "completed",
+    "01-base-No-A2A": "completed",
+    "01-protocol-No-A2A": "completed",
+    "01-protocol-Full": "completed",
+    "02-base-No-A2A": "completed",
+    "02-base-Full": "completed",
+    "02-protocol-Full": "completed",
+    "02-protocol-No-A2A": "completed",
+    "03-base-Full": "completed",
+    "03-base-No-A2A": "completed",
+    "03-protocol-No-A2A": "completed",
+    "03-protocol-Full": "completed",
+    "04-base-No-A2A": "completed",
+    "04-base-Full": "completed",
+    "04-protocol-Full": "completed",
+    "04-protocol-No-A2A": "completed"
+  },
+  "requests": {
+    "synthetic/0": {
+      "kind": "request",
+      "id": "synthetic/0",
+      "episode": "synthetic-short",
+      "input": 29,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 29,
+        "completion_tokens": 2
+      }
+    },
+    "synthetic/1": {
+      "kind": "request",
+      "id": "synthetic/1",
+      "episode": "synthetic-long",
+      "input": 7229,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 7229,
+        "completion_tokens": 2
+      }
+    },
+    "task/2": {
+      "kind": "request",
+      "id": "task/2",
+      "episode": "01-base-Full",
+      "input": 2025,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2025,
+        "completion_tokens": 350
+      }
+    },
+    "task/3": {
+      "kind": "request",
+      "id": "task/3",
+      "episode": "01-base-No-A2A",
+      "input": 2025,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2025,
+        "completion_tokens": 350
+      }
+    },
+    "task/4": {
+      "kind": "request",
+      "id": "task/4",
+      "episode": "01-protocol-No-A2A",
+      "input": 2158,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2158,
+        "completion_tokens": 65
+      }
+    },
+    "task/5": {
+      "kind": "request",
+      "id": "task/5",
+      "episode": "01-protocol-No-A2A",
+      "input": 2527,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2527,
+        "completion_tokens": 47
+      }
+    },
+    "task/6": {
+      "kind": "request",
+      "id": "task/6",
+      "episode": "01-protocol-No-A2A",
+      "input": 2222,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2222,
+        "completion_tokens": 1
+      }
+    },
+    "task/7": {
+      "kind": "request",
+      "id": "task/7",
+      "episode": "01-protocol-No-A2A",
+      "input": 2573,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2573,
+        "completion_tokens": 1
+      }
+    },
+    "task/8": {
+      "kind": "request",
+      "id": "task/8",
+      "episode": "01-protocol-No-A2A",
+      "input": 2225,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2225,
+        "completion_tokens": 64
+      }
+    },
+    "task/9": {
+      "kind": "request",
+      "id": "task/9",
+      "episode": "01-protocol-No-A2A",
+      "input": 2576,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2576,
+        "completion_tokens": 19
+      }
+    },
+    "task/10": {
+      "kind": "request",
+      "id": "task/10",
+      "episode": "01-protocol-Full",
+      "input": 2158,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2158,
+        "completion_tokens": 65
+      }
+    },
+    "task/11": {
+      "kind": "request",
+      "id": "task/11",
+      "episode": "01-protocol-Full",
+      "input": 2596,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2596,
+        "completion_tokens": 71
+      }
+    },
+    "task/12": {
+      "kind": "request",
+      "id": "task/12",
+      "episode": "01-protocol-Full",
+      "input": 2353,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2353,
+        "completion_tokens": 114
+      }
+    },
+    "task/13": {
+      "kind": "request",
+      "id": "task/13",
+      "episode": "02-base-No-A2A",
+      "input": 2421,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2421,
+        "completion_tokens": 247
+      }
+    },
+    "task/14": {
+      "kind": "request",
+      "id": "task/14",
+      "episode": "02-base-Full",
+      "input": 2421,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2421,
+        "completion_tokens": 247
+      }
+    },
+    "task/15": {
+      "kind": "request",
+      "id": "task/15",
+      "episode": "02-protocol-Full",
+      "input": 2554,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2554,
+        "completion_tokens": 74
+      }
+    },
+    "task/16": {
+      "kind": "request",
+      "id": "task/16",
+      "episode": "02-protocol-Full",
+      "input": 2008,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2008,
+        "completion_tokens": 85
+      }
+    },
+    "task/17": {
+      "kind": "request",
+      "id": "task/17",
+      "episode": "02-protocol-Full",
+      "input": 2788,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2788,
+        "completion_tokens": 237
+      }
+    },
+    "task/18": {
+      "kind": "request",
+      "id": "task/18",
+      "episode": "02-protocol-No-A2A",
+      "input": 2554,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2554,
+        "completion_tokens": 74
+      }
+    },
+    "task/19": {
+      "kind": "request",
+      "id": "task/19",
+      "episode": "02-protocol-No-A2A",
+      "input": 1930,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 1930,
+        "completion_tokens": 61
+      }
+    },
+    "task/20": {
+      "kind": "request",
+      "id": "task/20",
+      "episode": "02-protocol-No-A2A",
+      "input": 2627,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2627,
+        "completion_tokens": 1
+      }
+    },
+    "task/21": {
+      "kind": "request",
+      "id": "task/21",
+      "episode": "02-protocol-No-A2A",
+      "input": 1990,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 1990,
+        "completion_tokens": 1
+      }
+    },
+    "task/22": {
+      "kind": "request",
+      "id": "task/22",
+      "episode": "02-protocol-No-A2A",
+      "input": 2630,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2630,
+        "completion_tokens": 101
+      }
+    },
+    "task/23": {
+      "kind": "request",
+      "id": "task/23",
+      "episode": "02-protocol-No-A2A",
+      "input": 1993,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 1993,
+        "completion_tokens": 42
+      }
+    },
+    "task/24": {
+      "kind": "request",
+      "id": "task/24",
+      "episode": "03-base-Full",
+      "input": 2903,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2903,
+        "completion_tokens": 352
+      }
+    },
+    "task/25": {
+      "kind": "request",
+      "id": "task/25",
+      "episode": "03-base-No-A2A",
+      "input": 2903,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2903,
+        "completion_tokens": 352
+      }
+    },
+    "task/26": {
+      "kind": "request",
+      "id": "task/26",
+      "episode": "03-protocol-No-A2A",
+      "input": 3036,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 3036,
+        "completion_tokens": 69
+      }
+    },
+    "task/27": {
+      "kind": "request",
+      "id": "task/27",
+      "episode": "03-protocol-No-A2A",
+      "input": 2918,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2918,
+        "completion_tokens": 31
+      }
+    },
+    "task/28": {
+      "kind": "request",
+      "id": "task/28",
+      "episode": "03-protocol-No-A2A",
+      "input": 3104,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 3104,
+        "completion_tokens": 1
+      }
+    },
+    "task/29": {
+      "kind": "request",
+      "id": "task/29",
+      "episode": "03-protocol-No-A2A",
+      "input": 2948,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2948,
+        "completion_tokens": 1
+      }
+    },
+    "task/30": {
+      "kind": "request",
+      "id": "task/30",
+      "episode": "03-protocol-No-A2A",
+      "input": 3107,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 3107,
+        "completion_tokens": 72
+      }
+    },
+    "task/31": {
+      "kind": "request",
+      "id": "task/31",
+      "episode": "03-protocol-No-A2A",
+      "input": 2951,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2951,
+        "completion_tokens": 17
+      }
+    },
+    "task/32": {
+      "kind": "request",
+      "id": "task/32",
+      "episode": "03-protocol-Full",
+      "input": 3036,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 3036,
+        "completion_tokens": 69
+      }
+    },
+    "task/33": {
+      "kind": "request",
+      "id": "task/33",
+      "episode": "03-protocol-Full",
+      "input": 2991,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2991,
+        "completion_tokens": 62
+      }
+    },
+    "task/34": {
+      "kind": "request",
+      "id": "task/34",
+      "episode": "03-protocol-Full",
+      "input": 3223,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 3223,
+        "completion_tokens": 120
+      }
+    },
+    "task/35": {
+      "kind": "request",
+      "id": "task/35",
+      "episode": "03-protocol-Full",
+      "input": 3250,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 3250,
+        "completion_tokens": 53
+      }
+    },
+    "task/36": {
+      "kind": "request",
+      "id": "task/36",
+      "episode": "03-protocol-Full",
+      "input": 3473,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 3473,
+        "completion_tokens": 127
+      }
+    },
+    "task/37": {
+      "kind": "request",
+      "id": "task/37",
+      "episode": "03-protocol-Full",
+      "input": 3523,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 3523,
+        "completion_tokens": 117
+      }
+    },
+    "task/38": {
+      "kind": "request",
+      "id": "task/38",
+      "episode": "04-base-No-A2A",
+      "input": 2414,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2414,
+        "completion_tokens": 201
+      }
+    },
+    "task/39": {
+      "kind": "request",
+      "id": "task/39",
+      "episode": "04-base-No-A2A",
+      "input": 1719,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 1719,
+        "completion_tokens": 248
+      }
+    },
+    "task/40": {
+      "kind": "request",
+      "id": "task/40",
+      "episode": "04-base-Full",
+      "input": 2414,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2414,
+        "completion_tokens": 201
+      }
+    },
+    "task/41": {
+      "kind": "request",
+      "id": "task/41",
+      "episode": "04-base-Full",
+      "input": 1924,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 1924,
+        "completion_tokens": 263
+      }
+    },
+    "task/42": {
+      "kind": "request",
+      "id": "task/42",
+      "episode": "04-protocol-Full",
+      "input": 2547,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2547,
+        "completion_tokens": 53
+      }
+    },
+    "task/43": {
+      "kind": "request",
+      "id": "task/43",
+      "episode": "04-protocol-Full",
+      "input": 1909,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 1909,
+        "completion_tokens": 78
+      }
+    },
+    "task/44": {
+      "kind": "request",
+      "id": "task/44",
+      "episode": "04-protocol-Full",
+      "input": 2745,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2745,
+        "completion_tokens": 155
+      }
+    },
+    "task/45": {
+      "kind": "request",
+      "id": "task/45",
+      "episode": "04-protocol-No-A2A",
+      "input": 2547,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2547,
+        "completion_tokens": 53
+      }
+    },
+    "task/46": {
+      "kind": "request",
+      "id": "task/46",
+      "episode": "04-protocol-No-A2A",
+      "input": 1852,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 1852,
+        "completion_tokens": 96
+      }
+    },
+    "task/47": {
+      "kind": "request",
+      "id": "task/47",
+      "episode": "04-protocol-No-A2A",
+      "input": 2599,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2599,
+        "completion_tokens": 1
+      }
+    },
+    "task/48": {
+      "kind": "request",
+      "id": "task/48",
+      "episode": "04-protocol-No-A2A",
+      "input": 1947,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 1947,
+        "completion_tokens": 1
+      }
+    },
+    "task/49": {
+      "kind": "request",
+      "id": "task/49",
+      "episode": "04-protocol-No-A2A",
+      "input": 2602,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 2602,
+        "completion_tokens": 100
+      }
+    },
+    "task/50": {
+      "kind": "request",
+      "id": "task/50",
+      "episode": "04-protocol-No-A2A",
+      "input": 1950,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 1950,
+        "completion_tokens": 72
+      }
+    }
+  },
+  "inputs_reserved": 131147,
+  "outputs_reserved": 26112,
+  "control_counts": {
+    "debug": 51,
+    "get": 171,
+    "cleanup_get": 53,
+    "unload": 18
+  },
+  "control_tip": "303c497e78d3a888fb1d3c7d54247f9b4527b24068987aea192402eca4997d76",
+  "ledger_tip": "a8238dab5fdf8e9fb37406eaf47597f6704446d7e5d0ea4b4bbd1c4a4c706741",
+  "resource_peaks": {
+    "driver_rss": 258711552,
+    "service_rss": 5444169728,
+    "gpu_bytes": 6767509504
+  }
+}

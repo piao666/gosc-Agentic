@@ -1,0 +1,65 @@
+{
+  "run_id": "hpc-masbench-t2-live-20261125",
+  "files": [
+    {
+      "path": "outputs/driver/campaign/artifacts/000002-1-rpc.jsonl",
+      "size": 171210,
+      "sha256": "8e91ddf73e928e4dd19cc093787a1d460b17223d21c36b9ffc84fb4facbb41de"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000003-2-full-input-count.json",
+      "size": 230798,
+      "sha256": "f0362138dd7bacb8f48052cbb68500685c297ed14e637900c36781d80faa68a3"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000004-3-rpc.jsonl",
+      "size": 101905,
+      "sha256": "048ba1046e8ac236a93667eb167ecd4e79565fab6b5919d6c706cb2c006c2d8d"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000005-4-full-input-count.json",
+      "size": 137101,
+      "sha256": "d34f679c0d526bad2f186b04f55fcf81357f1cd82c2620f62873b981291711e9"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000006-5-rpc.jsonl",
+      "size": 90,
+      "sha256": "086289ae33c750ddf23bdb22b5b80b37f47a82b9987a8cfe53cbbdc807dc464d"
+    },
+    {
+      "path": "outputs/driver/campaign/artifacts/000007-6-rpc.jsonl",
+      "size": 46,
+      "sha256": "d25a6fe8d289205c6a17923e74737191e5fb1982929da6798feb35e5bc3fb4b1"
+    },
+    {
+      "path": "outputs/driver/campaign/ledger.jsonl",
+      "size": 2453,
+      "sha256": "724cb6590249539e3450de0d3068f7ac8bd97443850c054c5909bb78ed87622f"
+    },
+    {
+      "path": "outputs/driver/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/driver/control.jsonl",
+      "size": 131072,
+      "sha256": "916db247f3048fb5f3951b3f04453d3f7d1035a29648640731c882fe79208ad6"
+    },
+    {
+      "path": "outputs/driver/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/service_transitions.jsonl",
+      "size": 1996,
+      "sha256": "cfc83a74209def650c6c203f00c1109360ee7520b50d9a20ce1f91c091ea5006"
+    },
+    {
+      "path": "outputs/summary.json",
+      "size": 1339,
+      "sha256": "d3a5c95f1a32b6b6610882ecfc0d5d0c587750e282f4dbb9ac076238470e7006"
+    }
+  ]
+}

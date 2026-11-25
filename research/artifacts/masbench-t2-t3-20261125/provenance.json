@@ -1,0 +1,212 @@
+{
+  "files": [
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t2-first-attempt-audit.json",
+        "bytes": 3311,
+        "sha256": "0af5ca3702267a73d95ef5726dcff7cc426285746278374b7975b738e98b87b3"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t2-audit-20261125/outputs/audit.json",
+        "bytes": 3311,
+        "sha256": "0af5ca3702267a73d95ef5726dcff7cc426285746278374b7975b738e98b87b3"
+      },
+      "run_id": "hpc-masbench-t2-audit-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t2-timeout-audit.json",
+        "bytes": 4893,
+        "sha256": "9856d4829aa9a6a87819118115bfac2af5bc2b0857f9bf23591fe7febdd05e4e"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t2-audit-v2-20261125/outputs/audit.json",
+        "bytes": 4893,
+        "sha256": "9856d4829aa9a6a87819118115bfac2af5bc2b0857f9bf23591fe7febdd05e4e"
+      },
+      "run_id": "hpc-masbench-t2-audit-v2-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t2-final-audit.json",
+        "bytes": 12490,
+        "sha256": "e28ea82a069aa096a6c62e87423370ca55b9fad3d1c43e7d2ba621d13cd434ae"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t2-audit-v3-20261125/outputs/audit.json",
+        "bytes": 12490,
+        "sha256": "e28ea82a069aa096a6c62e87423370ca55b9fad3d1c43e7d2ba621d13cd434ae"
+      },
+      "run_id": "hpc-masbench-t2-audit-v3-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t2-first-attempt-summary.json",
+        "bytes": 1339,
+        "sha256": "d3a5c95f1a32b6b6610882ecfc0d5d0c587750e282f4dbb9ac076238470e7006"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t2-live-20261125/outputs/summary.json",
+        "bytes": 1339,
+        "sha256": "d3a5c95f1a32b6b6610882ecfc0d5d0c587750e282f4dbb9ac076238470e7006"
+      },
+      "run_id": "hpc-masbench-t2-live-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t2-timeout-summary.json",
+        "bytes": 1572,
+        "sha256": "92e0dd4c084f469f4c13a57415d45946403c90aebbc3120f2cf453a501840835"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t2-live-v2-20261125/outputs/summary.json",
+        "bytes": 1572,
+        "sha256": "92e0dd4c084f469f4c13a57415d45946403c90aebbc3120f2cf453a501840835"
+      },
+      "run_id": "hpc-masbench-t2-live-v2-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t2-final-summary.json",
+        "bytes": 2816,
+        "sha256": "56f3581d82167c202674f8425d94191ccaeac4d882a9434c45a88c1ca26ac0e0"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t2-live-v3-20261125/outputs/summary.json",
+        "bytes": 2816,
+        "sha256": "56f3581d82167c202674f8425d94191ccaeac4d882a9434c45a88c1ca26ac0e0"
+      },
+      "run_id": "hpc-masbench-t2-live-v3-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t2-service-transitions.jsonl",
+        "bytes": 2922,
+        "sha256": "5d6b2a57a9dcb4b9a94cd182f61fe195d09781d5a1a2a7714503dd1d6ba26e96"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t2-live-v3-20261125/outputs/service_transitions.jsonl",
+        "bytes": 2922,
+        "sha256": "5d6b2a57a9dcb4b9a94cd182f61fe195d09781d5a1a2a7714503dd1d6ba26e96"
+      },
+      "run_id": "hpc-masbench-t2-live-v3-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t2-final-control.jsonl",
+        "bytes": 131072,
+        "sha256": "87c2d895f0d9bba3b0130aefe48a7876ab8fbad6714935f6ce19098f2f5823b0"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t2-live-v3-20261125/outputs/driver/control.jsonl",
+        "bytes": 131072,
+        "sha256": "87c2d895f0d9bba3b0130aefe48a7876ab8fbad6714935f6ce19098f2f5823b0"
+      },
+      "run_id": "hpc-masbench-t2-live-v3-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t2-window-demand.json",
+        "bytes": 71230,
+        "sha256": "89b9a7d2653b7378764c575e7c0da86ae7f07a173b6b81c3db595c0d13131624"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t2-window-demand-20261125/outputs/window_demand.json",
+        "bytes": 71230,
+        "sha256": "89b9a7d2653b7378764c575e7c0da86ae7f07a173b6b81c3db595c0d13131624"
+      },
+      "run_id": "hpc-masbench-t2-window-demand-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t3-audit.json",
+        "bytes": 10363,
+        "sha256": "63a5225cda15bf11014046e565492b438c1f214052edcf2178309bfd63f3f86d"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t3-audit-20261125/outputs/t3_audit.json",
+        "bytes": 10363,
+        "sha256": "63a5225cda15bf11014046e565492b438c1f214052edcf2178309bfd63f3f86d"
+      },
+      "run_id": "hpc-masbench-t3-audit-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t3-integration-contract.json",
+        "bytes": 806,
+        "sha256": "519f23b156fdfd721c61f658cc71d39bb97d97d365c319adbc5615ff989fc389"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t3-integrated-contract-v2-20261125/outputs/integration.json",
+        "bytes": 806,
+        "sha256": "519f23b156fdfd721c61f658cc71d39bb97d97d365c319adbc5615ff989fc389"
+      },
+      "run_id": "hpc-masbench-t3-integrated-contract-v2-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t3-live-summary.json",
+        "bytes": 15481,
+        "sha256": "39b4ef7b2960f4355f54966e4a8c8462949bec82936d0fd448016d70afec4fb2"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t3-live-20261125/outputs/live_summary.json",
+        "bytes": 15481,
+        "sha256": "39b4ef7b2960f4355f54966e4a8c8462949bec82936d0fd448016d70afec4fb2"
+      },
+      "run_id": "hpc-masbench-t3-live-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t3-hdd-manifest.json",
+        "bytes": 124229,
+        "sha256": "346fcccd44847d028feb3cccd330546bc543b18e3ce7a162ccef5f2fb427755b"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t3-live-20261125/outputs/hdd_manifest.json",
+        "bytes": 124229,
+        "sha256": "346fcccd44847d028feb3cccd330546bc543b18e3ce7a162ccef5f2fb427755b"
+      },
+      "run_id": "hpc-masbench-t3-live-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t3-quota-before.json",
+        "bytes": 1231,
+        "sha256": "31803482d6bb0c0747fe606ed75997df5e8b051627a427c53d95ebc37d3723f2"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t3-live-20261125/outputs/quota_before.json",
+        "bytes": 1231,
+        "sha256": "31803482d6bb0c0747fe606ed75997df5e8b051627a427c53d95ebc37d3723f2"
+      },
+      "run_id": "hpc-masbench-t3-live-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t3-rehearsal.json",
+        "bytes": 35628,
+        "sha256": "7ec5dfa36634d193dd646a619eb1d460e1980b88a5fe52cb04bce9c9c6caadc3"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t3-rehearsal-20261125/outputs/t3_rehearsal.json",
+        "bytes": 35628,
+        "sha256": "7ec5dfa36634d193dd646a619eb1d460e1980b88a5fe52cb04bce9c9c6caadc3"
+      },
+      "run_id": "hpc-masbench-t3-rehearsal-20261125"
+    },
+    {
+      "copy": {
+        "path": "research/artifacts/masbench-t2-t3-20261125/t3-storage-contract.json",
+        "bytes": 601,
+        "sha256": "e6b5ab087b6c4752bdf96bd0a5e5ed69aad8db7ebd6243d18ef455928b8ce408"
+      },
+      "source": {
+        "path": "research/sync/runs/hpc-masbench-t3-storage-contract-20261125/outputs/t3_storage_receipt.json",
+        "bytes": 601,
+        "sha256": "e6b5ab087b6c4752bdf96bd0a5e5ed69aad8db7ebd6243d18ef455928b8ce408"
+      },
+      "run_id": "hpc-masbench-t3-storage-contract-20261125"
+    }
+  ]
+}

@@ -316,6 +316,43 @@ class Contracts(unittest.TestCase):
     def test_application_protocol_delivery(self):
         self.assert_application_delivery('protocol')
 
+    def test_application_preserves_large_terminal_wire_evidence(self):
+        self.limits=replace(self.limits,artifact_bytes=4*1024**2)
+        d=self.application_driver('protocol')
+        text='Alice: MESSAGE ' + 'x'*8000
+        original=self.io.call
+
+        def long_fixture(spec,timeout,crash=False):
+            value=original(spec,timeout,crash)
+            if spec.get('path')=='/v1/chat/completions':
+                value['choices'][0]['message']['content']=text
+            return value
+
+        with patch.object(self.io,'call',side_effect=long_fixture):
+            result=d.run_episode('full',self.agents(),max_turns=2)
+        self.assertEqual(result['transcript'][0],text)
+        self.assertTrue(result['messages'][0]['delivered'])
+        self.assertEqual(d.ledger.state['episodes']['full'],'completed')
+        wire,=[row for row in d.ledger.artifacts.values() if row['path'].endswith('-wire-events.json')]
+        self.assertGreater(wire['count'],512*1024)
+
+    def test_application_rejects_changed_large_terminal_checksum(self):
+        d=self.application_driver('base')
+        original=live.application_frames
+
+        def corrupt(packet,limit):
+            if packet['kind']=='result':
+                packet['wire']['fixture_padding']='z'*80000
+                header,body=original(packet,limit)
+                return header,b'x'+body[1:]
+            return original(packet,limit)
+
+        with patch.object(live,'application_frames',side_effect=corrupt):
+            with self.assertRaisesRegex(SafetyError,'large application result identity changed'):
+                d.run_episode('full',self.agents(),max_turns=1)
+        self.assertEqual(d.ledger.state['episodes']['full'],'failed')
+        self.assertFalse(any(row['path'].endswith('-wire-events.json') for row in d.ledger.artifacts.values()))
+
     def test_application_pair_mismatch_refused(self):
         d = self.application_driver('base')
         d.run_episode('full', self.agents(), max_turns=1)

@@ -1,0 +1,121 @@
+{
+  "acceptance_passed": false,
+  "failed_prefix_verified": true,
+  "cases_started": [
+    "normal"
+  ],
+  "cases": [],
+  "error": "SafetyError: case did not reach generation: normal",
+  "phase_clocks": [
+    {
+      "deadline_mono": 49662693.627562374,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49662543.627562374
+    }
+  ],
+  "charges": {
+    "get": 1,
+    "cleanup_get": 2,
+    "debug": 1,
+    "unload": 1
+  },
+  "reservations": {
+    "requests": {},
+    "inputs": 0,
+    "outputs": 0
+  },
+  "service_marker_retained": true,
+  "native_immediate_idle_verified": false,
+  "real_task_inputs": 0,
+  "service_transitions": [
+    {
+      "mono": 49662540.195856445,
+      "profile_exists": false,
+      "service": {
+        "context": 1024,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 37483,
+        "service_stamp": "4897373256"
+      },
+      "stage": "baseline"
+    },
+    {
+      "context": 16384,
+      "mono": 49662540.20509858,
+      "profile_sha256": "d7d9d7dc22b8f160d37a87b5aefb4d0c855dffce148992d5e5ba27b24caaccbd",
+      "stage": "candidate-profile-written"
+    },
+    {
+      "mono": 49662540.26384123,
+      "service": {
+        "context": 1024,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 37483,
+        "service_stamp": "4897373256"
+      },
+      "signal": 15,
+      "stage": "service-term"
+    },
+    {
+      "mono": 49662540.382411376,
+      "service": {
+        "context": 1024,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 37483,
+        "service_stamp": "4897373256"
+      },
+      "stage": "service-exited"
+    },
+    {
+      "mono": 49662541.555821456,
+      "profile_exists": true,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 34344,
+        "service_stamp": "4966254041"
+      },
+      "stage": "candidate-first-start"
+    },
+    {
+      "mono": 49662541.613471545,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 34344,
+        "service_stamp": "4966254041"
+      },
+      "signal": 15,
+      "stage": "service-term"
+    },
+    {
+      "mono": 49662541.82924703,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 34344,
+        "service_stamp": "4966254041"
+      },
+      "stage": "service-exited"
+    },
+    {
+      "mono": 49662542.957794204,
+      "profile_exists": true,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 34365,
+        "service_stamp": "4966254184"
+      },
+      "stage": "candidate-restart"
+    },
+    {
+      "mono": 49662551.532735325,
+      "reason": "live recovery marker remains",
+      "stage": "rollback-fenced"
+    }
+  ],
+  "source_run": "hpc-masbench-t2-live-20261125",
+  "artifacts_verified": 12
+}

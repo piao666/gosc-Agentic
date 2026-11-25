@@ -1,4 +1,4 @@
-"""T1 synthetic live adapter. No data loader, cloud fallback or helper rebuild.
+"""Bound live adapter. No data loader, cloud fallback or helper rebuild.
 
 The fixture sandbox is deliberately not used for HTTP or vocabulary loading.
 The guardian owns the service lease; all owned RPC groups are registered before
@@ -25,14 +25,46 @@ RECHECK_BUDGET = 'research/protocols/masbench_t1b_post_storage_budget_2026-11-19
 FORMAL_AUTH = 'research/protocols/masbench_t1b_formal_runner_retest_authorization.json'
 FORMAL_PLAN = 'research/protocols/masbench_t1b_formal_runner_retest_plan.json'
 FORMAL_BUDGET = 'research/protocols/masbench_t1b_formal_runner_retest_budget_2026-11-19.md'
+T2_AUTH = 'research/protocols/masbench_t2_live_v3_authorization.json'
+T2_PLAN = 'research/protocols/masbench_t2_live_v3_plan.json'
+T2_BUDGET = 'research/protocols/masbench_t2_live_v3_budget_2026-11-25.md'
+T3_AUTH = 'research/protocols/masbench_t3_execution_authorization_2026-11-25.json'
+T3_PLAN = 'research/protocols/masbench_t3_candidate_plan_2026-11-25.json'
+T3_BUDGET = 'research/protocols/masbench_t3_budget_proposal_2026-11-25.md'
+T3_SCOPE = 'T3 frozen four development families'
+T3_CONTROL = {'debug':98,'get':312,'cleanup_get':108,'unload':18}
+T3_CONTROL_BYTES = 8 * 1024**2
+T3_HDD_BYTES = 1024**3
+T3_SERVICE_LOG_BYTES = 16 * 1024**2
+T3_DRIVER_BYTES = T3_HDD_BYTES - T3_CONTROL_BYTES - T3_SERVICE_LOG_BYTES - 1024**2
+T3_EVIDENCE_ROOT = Path('/hdd/u202520081000097/gosc-t3-runs')
+T3_SSD_BYTES = 32 * 1024**2
+T3_WALL_SECONDS = 34800
+T3_OPERATION_SECONDS = 180
+T2_WINDOWS = (1024, 2048, 4096, 8192, 16384, 32768)
 MAX_RPC_SECONDS = 60
+APPLICATION_FRAME_BYTES = 64 * 1024
+APPLICATION_REQUEST_BYTES = 512 * 1024
+APPLICATION_RESULT_BYTES = 8 * 1024**2
 
 
-def rpc_seconds(spec, formal):
+def application_frames(packet, result_limit):
+    raw = canonical(_jsonable(packet))
+    if len(raw) + 1 <= APPLICATION_FRAME_BYTES:
+        return (raw + b'\n',)
+    if packet['kind'] != 'result' or len(raw) > result_limit:
+        raise SafetyError('application IPC cap')
+    header = {'kind':'large-result','bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+    return (canonical(header)+b'\n',raw)
+
+
+def rpc_seconds(spec, formal, generation_seconds=MAX_RPC_SECONDS):
     body=spec.get('body')
     if (formal and spec.get('kind')=='http' and spec.get('method')=='POST' and spec.get('path')=='/api/chat'
             and isinstance(body,dict) and body.get('_debug_render_only') is True):
         return 120
+    if formal and spec.get('kind')=='http' and spec.get('method')=='POST' and spec.get('path')=='/v1/chat/completions':
+        return generation_seconds
     return MAX_RPC_SECONDS
 
 
@@ -42,25 +74,76 @@ def reject_links(path):
     return p
 def require_authorization(path):
     root=Path(__file__).resolve().parents[2]
-    expected=root/FORMAL_AUTH
-    if path is None or reject_links(path)!=expected or not expected.is_file():raise SafetyError('T1-B real execution not authorized')
+    if path is None:raise SafetyError('real execution not authorized')
+    expected=reject_links(path)
+    profiles={
+        root/FORMAL_AUTH:(FORMAL_PLAN,FORMAL_BUDGET,'T1-B synthetic only',
+                          'research/logs/masbench-t1-driver-2026-11-17/t1_formal_marker_recovery_applied_20261119.json'),
+        root/T2_AUTH:(T2_PLAN,T2_BUDGET,'T2 synthetic only',None),
+        root/T3_AUTH:(T3_PLAN,T3_BUDGET,T3_SCOPE,None),
+    }
+    if expected not in profiles or not expected.is_file():raise SafetyError('real execution not authorized')
+    plan_path,budget_path,scope,recovery = profiles[expected]
     data=json.loads(expected.read_bytes())
-    if data.get('approved') is not True or data.get('scope')!='T1-B synthetic only' or data.get('exclusive_service') is not True:
-        raise SafetyError('T1-B approval/exclusive-service absent')
+    if data.get('approved') is not True or data.get('scope')!=scope or data.get('exclusive_service') is not True:
+        raise SafetyError('approval/exclusive-service absent')
     for k in ['protocol_sha256','registry_sha256','plan_sha256','source_sha256']:
         if not re.fullmatch('[0-9a-f]{64}',str(data.get(k,''))):raise SafetyError('incomplete execution identity')
     if data['source_sha256']!=file_sha(__file__):raise SafetyError('authorized source drift')
-    for field, relative in [('protocol_sha256',FORMAL_BUDGET),
+    bindings = [('protocol_sha256',budget_path),
                             ('registry_sha256','research/artifacts/native-masbench-20261104/masbench_development_registry.json'),
-                            ('plan_sha256',FORMAL_PLAN),
-                            ('previous_recovery_receipt_sha256','research/logs/masbench-t1-driver-2026-11-17/'
-                             't1_formal_marker_recovery_applied_20261119.json'),
-                            ('runner_sha256','experiments_ext/masbench_t1b_live.py')]:
+                            ('plan_sha256',plan_path),('runner_sha256','experiments_ext/masbench_t1b_live.py')]
+    if recovery:
+        bindings.append(('previous_recovery_receipt_sha256',recovery))
+    if scope=='T2 synthetic only':
+        bindings.append(('launcher_sha256','experiments_ext/masbench_t2_live.py'))
+        bindings.append(('service_source_sha256','scripts/hpc_ollama.py'))
+        bindings.append(('recovery_sha256','research/logs/masbench-t2-2026-11-25/zero_dispatch_rollback.json'))
+    if scope==T3_SCOPE:
+        bindings.extend([
+            ('launcher_sha256','experiments_ext/masbench_t3_live.py'),
+            ('service_source_sha256','scripts/hpc_ollama.py'),
+            ('lifecycle_sha256','experiments_ext/masbench_t2_live.py'),
+            ('campaign_ledger_sha256','extensions/masbench_reasoning/fixture_driver.py'),
+            ('client_sha256','extensions/masbench_reasoning/client.py'),
+        ])
+    for field, relative in bindings:
         if data.get(field)!=file_sha(reject_links(root/relative)):raise SafetyError('authorized material drift: '+field)
     run = Path(os.environ.get('GOSC_RUN_DIR','/'))
     if run.parent != root/'research/sync/runs' or run.name != data.get('run_id'):
         raise SafetyError('authorization is bound to one registered run')
-    return data
+    plan=json.loads((root/plan_path).read_bytes())
+    context=plan['runtime']['context']
+    if scope=='T2 synthetic only' and (context not in T2_WINDOWS or data.get('context')!=context):
+        raise SafetyError('T2 context is not bound to the authorized plan')
+    if scope=='T1-B synthetic only' and context!=1024:
+        raise SafetyError('fixed T1 context changed')
+    seconds=plan['caps']['operation'] if scope=='T2 synthetic only' else MAX_RPC_SECONDS
+    if scope==T3_SCOPE:
+        if context!=16384 or data.get('context')!=context:
+            raise SafetyError('fixed T3 context changed')
+        seconds=T3_OPERATION_SECONDS
+    if type(seconds) is not int or not 1<=seconds<=180:
+        raise SafetyError('invalid authorized generation deadline')
+    return dict(data,plan_path=plan_path,context=context,generation_seconds=seconds)
+
+
+def t3_cases():
+    instruction = {'role':'system','content':'This is a synthetic service check. Reply only with OK.'}
+    return [
+        {'id':'synthetic-short','messages':[instruction, {'role':'user','content':'Confirm this sample.'}],
+         'max_output':512,'fault':'none'},
+        {'id':'synthetic-long','messages':[instruction, {'role':'user',
+          'content':'The sample ledger contains a blue parcel.\n'*900+'Confirm this sample.'}],
+         'max_output':512,'fault':'none'},
+    ]
+
+
+def t3_plan(candidate):
+    return [
+        {'id':case['id'],'partition':'synthetic','family':case['id'],'style':'base','condition':'No-A2A'}
+        for case in t3_cases()
+    ] + [dict(row,partition='task',family=row['family_sha256']) for row in candidate['episodes']]
 
 class ServiceLease:
     def __init__(self,path):
@@ -130,14 +213,19 @@ def stop_with_parent(parent_pid):
 
 class ControlJournal:
     """Independent fsync cleanup reserve, outside the main artifact allowance."""
-    def __init__(self,path,identity,caps=None):
+    def __init__(self,path,identity,caps=None,reserve_bytes=128*1024):
         self.path=Path(path);self.caps=caps or {'debug':4,'get':24,'cleanup_get':16,'unload':4}
+        if type(reserve_bytes) is not int or not 128*1024<=reserve_bytes<=8*1024**2:
+            raise SafetyError('invalid control reserve')
+        self.reserve_bytes=reserve_bytes
+        init={'kind':'init','identity':identity,'caps':self.caps}
+        if reserve_bytes!=128*1024:init['reserve_bytes']=reserve_bytes
         self.rows=[];self.previous='0'*64;self.used={k:0 for k in self.caps}
         reject_links(self.path)
         self.lease=ServiceLease(self.path.with_suffix('.lock'))
         exists=self.path.exists()
         if exists:
-            if self.path.stat().st_size>128*1024:raise SafetyError('control reserve exceeded')
+            if self.path.stat().st_size>reserve_bytes:raise SafetyError('control reserve exceeded')
             prefix=self.path.read_bytes().rstrip(b'\0')
             for line in prefix.splitlines(keepends=True):
                 if not line.endswith(b'\n'):raise SafetyError('partial control record')
@@ -145,21 +233,21 @@ class ControlJournal:
                 if r['seq']!=len(self.rows) or r['previous']!=self.previous or digest(r)!=h:raise SafetyError('control chain')
                 self.rows.append(r);self.previous=h
                 if r['event']['kind']=='charge':self.used[r['event']['category']]+=1
-            if not self.rows or self.rows[0]['event']!={'kind':'init','identity':identity,'caps':self.caps}:raise SafetyError('control identity changed')
+            if not self.rows or self.rows[0]['event']!=init:raise SafetyError('control identity changed')
             if any(self.used[k]>self.caps[k] for k in self.caps):raise SafetyError('persisted control over budget')
         self.path.parent.mkdir(parents=True,exist_ok=True)
         self.stream=self.path.open('r+b' if exists else 'x+b',buffering=0)
         if not exists:
-            os.posix_fallocate(self.stream.fileno(),0,128*1024)
-            self.stream.truncate(128*1024);os.fsync(self.stream.fileno())
+            os.posix_fallocate(self.stream.fileno(),0,reserve_bytes)
+            self.stream.truncate(reserve_bytes);os.fsync(self.stream.fileno())
         self.offset=len(prefix) if exists else 0
         self.stream.seek(self.offset)
-        if not self.rows:self.append({'kind':'init','identity':identity,'caps':self.caps})
+        if not self.rows:self.append(init)
         self.identity=identity
     def append(self,event):
         r={'seq':len(self.rows),'previous':self.previous,'mono':time.monotonic(),'event':event};h=digest(r)
         b=canonical(dict(r,hash=h))+b'\n'
-        if self.offset+len(b)>128*1024:raise SafetyError('control reserve exhausted')
+        if self.offset+len(b)>self.reserve_bytes:raise SafetyError('control reserve exhausted')
         if self.stream.write(b)!=len(b):raise SafetyError('short control write')
         os.fsync(self.stream.fileno());self.offset+=len(b);self.rows.append(r);self.previous=h
     def charge(self,category):
@@ -174,12 +262,32 @@ class ControlJournal:
 
 class LiveLedger(CampaignLedger):
     """Versioned recovery gate; never erases historical fenced/unknown state."""
-    def __init__(self,root,identity,limits,plan=None):
+    def __init__(self,root,identity,limits,plan=None,t3=False):
         self.last_fault=-1;self.last_barrier=-1;self.recovery_required=False;self.permanent_fence=False
         self.service={'pid':identity['runtime']['service_pid'], 'stamp':identity['runtime']['service_stamp']}
         super().__init__(root,{'schema':'t1-live-v1','binding':identity},
-            plan or [{'id':'synthetic','partition':'synthetic'}],limits,task_cap=0,synthetic_cap=limits.requests)
+            plan or [{'id':'synthetic','partition':'synthetic'}],limits,
+            task_cap=96 if t3 else 0,synthetic_cap=2 if t3 else limits.requests)
         self.recovery_required=any(v=='started' for v in self.state['episodes'].values())
+        self.partitions={row['id']:row['partition'] for row in (plan or [{'id':'synthetic','partition':'synthetic'}])}
+        self.t3=t3
+    def episode(self,episode_id,status):
+        if not (self.t3 and status=='completed' and self.state['fenced']):
+            return super().episode(episode_id,status)
+        self._admit()
+        if self.state['episodes'].get(episode_id)!='started' or any(
+                r['episode']==episode_id and r['status']!='completed' for r in self.state['requests'].values()):
+            raise SafetyError('invalid episode completion after recovery')
+        self._append({'kind':'episode','id':episode_id,'status':status})
+    def reserve_partition(self,request_id,episode_id,exact_input,max_output,partition):
+        if self.partitions.get(episode_id)!=partition:
+            raise SafetyError('episode partition mismatch')
+        if self.t3:
+            cap=6 if partition=='task' else 1
+            used=sum(r['episode']==episode_id for r in self.state['requests'].values())
+            if used>=cap or max_output!=512 or exact_input+max_output>16384:
+                raise SafetyError('T3 per-episode or token cap exceeded')
+        super().reserve_partition(request_id,episode_id,exact_input,max_output,partition)
     def _apply(self,event):
         if event['kind']=='barrier':
             self.last_barrier=self.seq
@@ -277,12 +385,13 @@ class RPC:
     def call(self,spec,timeout,crash=False):
         if crash:raise SafetyError('broker crash injection forbidden')
         spec=dict(spec)
+        seconds=MAX_RPC_SECONDS
         if spec.get('kind')!='fixture':
-            require_authorization(self.authorization)
+            seconds=require_authorization(self.authorization)['generation_seconds']
             spec['authorization']=str(self.authorization)
         payload=canonical(spec)
         if len(payload)>1024*1024:raise SafetyError('RPC input size cap')
-        deadline=min(self.deadline,time.monotonic()+min(timeout,rpc_seconds(spec,self.authorization is not None)))
+        deadline=min(self.deadline,time.monotonic()+min(timeout,rpc_seconds(spec,self.authorization is not None,seconds)))
         if deadline<=time.monotonic():raise TimeoutError()
         p=subprocess.Popen([sys.executable,'-m','extensions.masbench_reasoning.live_driver','--rpc',
                             str(os.getpid()),str(deadline)],
@@ -364,7 +473,7 @@ def rpc_worker(parent_pid, deadline):
             elif mode=='exit':os._exit(19)
             else:emit({'phase':'result','value':{'fixture':True}})
             return
-        require_authorization(spec.get('authorization'))
+        approval=require_authorization(spec.get('authorization'))
         if spec['kind']=='counter':
             helper=spec['helper']
             if file_sha(helper)!=HELPER_SHA:raise SafetyError('helper SHA')
@@ -381,7 +490,7 @@ def rpc_worker(parent_pid, deadline):
         else:raise SafetyError('method')
         # Cold render can load the runner. Follow the guardian's operation cap
         # while its separate after-send watchdog can stop generation earlier.
-        cap = rpc_seconds(spec,spec.get('authorization') is not None)
+        cap = rpc_seconds(spec,True,approval['generation_seconds'])
         remaining = min(deadline-time.monotonic(),cap)
         if not 0 < remaining <= cap:
             raise TimeoutError('HTTP dispatch deadline expired')
@@ -429,13 +538,25 @@ def runner_identities(runtime, proc=Path('/proc')):
 
 class LiveDriver:
     def __init__(self,root,runtime,limits,transport=None,validator=None,authorization=None,plan=None):
-        if plan is not None and any(e.get('partition')!='synthetic' or e.get('style') not in {'base','protocol'} or e.get('condition') not in {'Full','No-A2A'} for e in plan):
-            raise SafetyError('T1 plan is synthetic only')
         if transport is not None and getattr(transport,'is_live',True):raise SafetyError('injected transport must be explicitly no-network')
         if transport is not None and runtime.model != FIXTURE_MODEL:
             raise SafetyError('fixture transport requires separate model identity')
         approval=require_authorization(authorization) if transport is None else None
-        if approval and (validator is not None or runtime.model!='qwen2.5:7b' or runtime.context!=1024):
+        self.t3=bool(approval and approval['scope']==T3_SCOPE)
+        if self.t3:
+            candidate=json.loads((Path(runtime.root)/T3_PLAN).read_bytes())
+            if plan!=t3_plan(candidate) or len(plan)!=18:
+                raise SafetyError('frozen T3 episode order mismatch')
+            if (limits.requests,limits.metadata,limits.input_tokens,limits.output_tokens,limits.per_output,
+                limits.operation_seconds)!=(98,420,1555456,50176,512,T3_OPERATION_SECONDS):
+                raise SafetyError('T3 budget mismatch')
+            expected_root=T3_EVIDENCE_ROOT/approval['run_id']/'live'
+            if (reject_links(root)!=expected_root or limits.artifact_bytes!=T3_DRIVER_BYTES
+                    or not 0<limits.wall_seconds<=T3_WALL_SECONDS):
+                raise SafetyError('T3 storage or wall limit mismatch')
+        elif plan is not None and any(e.get('partition')!='synthetic' or e.get('style') not in {'base','protocol'} or e.get('condition') not in {'Full','No-A2A'} for e in plan):
+            raise SafetyError('unapproved plan must be synthetic only')
+        if approval and (validator is not None or runtime.model!='qwen2.5:7b' or runtime.context!=approval['context']):
             raise SafetyError('live runtime profile may not be overridden')
         self.root=reject_links(root);self.root.mkdir(parents=True,exist_ok=True);self.runtime=runtime
         self.model_manifest = MANIFEST if approval else FIXTURE_MANIFEST
@@ -443,9 +564,9 @@ class LiveDriver:
         self.validate=validator or runtime_files
         identity={'runtime':runtime.identity(),'source_sha256':file_sha(__file__),
                   'authorization_sha256':file_sha(authorization) if approval else 'fixture-only',
-                  'scope':'T1-B synthetic only' if approval else 'T1-A no-network fixture',
+                  'scope':approval['scope'] if approval else 'T1-A no-network fixture',
                   'model_manifest': self.model_manifest}
-        self.ledger=LiveLedger(self.root/'campaign',identity,limits,plan)
+        self.ledger=LiveLedger(self.root/'campaign',identity,limits,plan,t3=self.t3)
         self.lease_owner = canonical({'campaign': str(self.root), 'ledger_binding': self.ledger.binding})
         previous_owner = self.service_lease.owner()
         if previous_owner not in (b'', self.lease_owner):
@@ -453,7 +574,8 @@ class LiveDriver:
         if previous_owner:
             self.ledger.recovery_required = True
         self.plan=plan;self.current_episode='synthetic'
-        self.control=ControlJournal(self.root/'control.jsonl',self.ledger.binding)
+        self.control=ControlJournal(self.root/'control.jsonl',self.ledger.binding,
+            caps=T3_CONTROL if self.t3 else None,reserve_bytes=T3_CONTROL_BYTES if self.t3 else 128*1024)
         self.operation_deadline=0;self.pending=None;self.counted=None;self.rpc_seq=0
         self.authorization=authorization;self.approval=approval
         self.rpc=transport or RPC(self.control,time.monotonic()+max(0,self.ledger.remaining()),self.trace,authorization)
@@ -471,6 +593,7 @@ class LiveDriver:
         self.resource_monitor = None
         self.armed_case = None
         self.attested_runner = None
+        self.task_packet = None
         if not plan and self.ledger.state['episodes']['synthetic']=='unstarted':self.ledger.episode('synthetic','started')
     def trace(self,kind,data):
         self.check_storage()
@@ -488,7 +611,7 @@ class LiveDriver:
                 rel=p.relative_to(self.root).as_posix()
                 if not rel.startswith('campaign/') and rel not in allowed:raise SafetyError('unregistered outer artifact')
                 size+=p.stat().st_size
-        if size>self.ledger.public_limits.artifact_bytes+128*1024:raise SafetyError('physical campaign+control cap')
+        if size>self.ledger.public_limits.artifact_bytes+self.control.reserve_bytes:raise SafetyError('physical campaign+control cap')
     def http(self,path,body=None,category='get',cleanup=False):
         if not cleanup:
             self.ledger._admit()
@@ -618,19 +741,34 @@ class LiveDriver:
         self.counted=(messages,row['token_count'])
         tokenizer = 'ollama01111-vocabonly-full-render' if self.backend.is_live else 't1-fixture-counter'
         return ContextBinding(self.model_manifest,self.runtime.context,tokenizer,digest(evidence),ok)
-    def generate(self,messages,max_output=None,network_timeout=60,crash=False):
+    def generate(self,messages,max_output=None,network_timeout=None,crash=False):
         case = self.armed_case if self.approval else None
+        partition = self.ledger.partitions.get(self.current_episode)
         if self.approval:
-            path=Path(__file__).resolve().parents[2]/FORMAL_PLAN
-            frozen_cases=json.loads(path.read_bytes())['cases']
-            started=[r['event']['id'] for r in self.control.rows if r['event']['kind']=='case-start']
-            if (case not in frozen_cases or case['messages']!=messages or not started or started[-1]!=case['id']
-                    or started!=[x['id'] for x in frozen_cases[:len(started)]]):
-                raise SafetyError('generation is outside the frozen synthetic case')
-            if max_output is not None and max_output!=case['max_output']:raise SafetyError('case output cap drift')
-            max_output=case['max_output']
+            if self.t3 and partition=='task':
+                if (case is not None or self.active_controller is None or self.task_packet is not messages
+                        or self.ledger.state['episodes'][self.current_episode]!='started'):
+                    raise SafetyError('task request is outside the guarded application')
+                self.ledger._admit()
+                self.task_packet=None
+                cap=512
+            else:
+                path=Path(__file__).resolve().parents[2]/self.approval['plan_path']
+                frozen_cases=t3_cases() if self.t3 else json.loads(path.read_bytes())['cases']
+                started=[r['event']['id'] for r in self.control.rows if r['event']['kind']=='case-start']
+                if (case not in frozen_cases or case['messages']!=messages or not started or started[-1]!=case['id']
+                        or started!=[x['id'] for x in frozen_cases[:len(started)]]
+                        or self.t3 and self.current_episode!=case['id']):
+                    raise SafetyError('generation is outside the frozen synthetic case')
+                cap=case['max_output']
+            if max_output is not None and max_output!=cap:raise SafetyError('output cap drift')
+            max_output=cap
+            authorized_timeout=self.approval['generation_seconds']
             self.armed_case=None
-        elif max_output is None:max_output=min(32,self.ledger.limits.per_output)
+        else:
+            authorized_timeout=MAX_RPC_SECONDS
+            if max_output is None:max_output=min(32,self.ledger.limits.per_output)
+        network_timeout=authorized_timeout if network_timeout is None else min(network_timeout,authorized_timeout)
         if (not isinstance(messages,list) or not messages or any(not isinstance(m,dict) or set(m)!={'role','content'} or
             m['role'] not in ({'system'} if i==0 else {'user','assistant'}) or not isinstance(m['content'],str) for i,m in enumerate(messages))):
             raise ClientFailure('request_schema')
@@ -657,13 +795,15 @@ class LiveDriver:
                     raise SafetyError('new dispatch deadline')
                 if not driver.attested_runner or runner_identities(driver.runtime)!=[driver.attested_runner]:
                     raise SafetyError('observed runner changed before dispatch')
-                request_id='synthetic/'+str(len(driver.ledger.state['requests']))
+                request_id=partition+'/'+str(len(driver.ledger.state['requests']))
                 driver.control.append({'kind':'runner-dispatch-bound','request_id':request_id,
                                        'runner':driver.attested_runner,'service':service_identity(driver.runtime),
                                        'payload_sha256':digest(payload)})
-                driver.ledger.reserve_partition(request_id,driver.current_episode,driver.counted[1],max_output,'synthetic')
+                driver.ledger.reserve_partition(request_id,driver.current_episode,driver.counted[1],max_output,partition)
                 driver.pending=request_id
-                driver.emit('provider-request',{'request_id':driver.pending,'payload':payload})
+                proof={'request_id':request_id,'payload':payload}
+                if driver.t3:proof['episode_id']=driver.current_episode
+                driver.emit('provider-request',proof)
                 response = driver.rpc.call({'kind':'http','method':'POST','path':'/v1/chat/completions','body':payload},
                     min(timeout,network_timeout,driver.operation_deadline-time.monotonic()),crash)
                 try:
@@ -737,12 +877,22 @@ class LiveDriver:
                 if self.pending:
                     row=inner.audit[-1];u=row.get('usage')
                     usage={k:u[k] for k in ['prompt_tokens','completion_tokens']} if success and u else None
+                    if self.t3 and not success and isinstance(row.get('response'),dict):
+                        reported=row['response'].get('usage')
+                        if isinstance(reported,dict):
+                            p,c,total=(reported.get(k) for k in ('prompt_tokens','completion_tokens','total_tokens'))
+                            if (type(p) is int and type(c) is int and type(total) is int
+                                    and p==self.counted[1] and 0<=c<=max_output and total==p+c):
+                                usage={'prompt_tokens':p,'completion_tokens':c}
                     outcome = 'completed' if success else {'timeout':'timeout','application controller exited':'interrupted'}.get(failure,'failed')
                     self.ledger.finish_request(self.pending,outcome,usage,not success)
                 if not success:
                     self.control.append({'kind':'client-failure','request_id':self.pending,'error':failure})
             finally:
-                if not success and self.service_touched:
+                # The task controller must receive its terminal failure and emit
+                # its partial wire/result record before the episode-level unload.
+                if (not success and self.service_touched
+                        and not (self.t3 and partition=='task' and self.active_controller is not None)):
                     self.recover()
     def run_episode(self,episode_id,agents,max_turns=2,fixture_fault=None):
         if not self.plan:raise SafetyError('application plan required')
@@ -752,6 +902,13 @@ class LiveDriver:
         if fixture_fault and self.backend.is_live:raise SafetyError('fixture fault injection not a live execution mode')
         proof={'id':episode_id,'family':row['family'],'style':row['style'],
                'views':digest([asdict(a.view) for a in agents]),'initial_requests':digest([a.request() for a in agents])}
+        if self.t3:
+            from .registry import digest as registry_digest
+            expected=next((key for key,value in self.ledger.state['episodes'].items() if value=='unstarted'),None)
+            if (row['partition']!='task' or expected!=episode_id or max_turns!=6
+                    or proof['views']!=row['private_view_sha256']
+                    or [registry_digest(a.request()) for a in agents]!=row['initial_request_sha256']):
+                raise SafetyError('T3 episode/view/initial prompt is outside the frozen plan')
         for record in self.ledger.artifacts.values():
             if record['path'].endswith('-pair-binding.json'):
                 old=json.loads((self.ledger.root/'artifacts'/record['path']).read_bytes())
@@ -761,7 +918,7 @@ class LiveDriver:
         self.emit('pair-binding',proof)
         try:
             result=self._guard_application(agents,row,max_turns,fixture_fault)
-            self.emit('application-result',result)
+            self.emit('application-result',dict(result,id=episode_id) if self.t3 else result)
             self.ledger.episode(episode_id,'failed' if result['error_flags'] else 'completed')
             return result
         except BaseException:
@@ -774,6 +931,7 @@ class LiveDriver:
         case_seconds=(self.ledger.limits.operation_seconds+(self.prepare_seconds or 0))*max_turns
         deadline=time.monotonic()+min(self.ledger.remaining()-reserve,case_seconds)
         parent_pid=os.getpid()
+        result_limit=min(APPLICATION_RESULT_BYTES,self.ledger.public_limits.artifact_bytes)
         pid=os.fork()
         if pid==0:
             stop_with_parent(parent_pid)
@@ -784,9 +942,9 @@ class LiveDriver:
                     if fd not in {requests_w,answers_r}:os.close(fd)
                 except OSError:pass
             def send(value):
-                b=canonical(_jsonable(value))+b'\n'
-                if len(b)>65536:raise SafetyError('application IPC cap')
-                while b:b=b[os.write(requests_w,b):]
+                for block in application_frames(value,result_limit):
+                    pending=memoryview(block)
+                    while pending:pending=pending[os.write(requests_w,pending):]
             try:
                 _sandbox(requests_w)
                 if fixture_fault=='exit':os._exit(73)
@@ -816,6 +974,7 @@ class LiveDriver:
         os.close(requests_w);os.close(answers_r)
         stamp=proc_stamp(pid)
         sel=selectors.DefaultSelector();sel.register(requests_r,selectors.EVENT_READ);buffer=bytearray();received=0
+        large_result=None
         def exited():
             try:return Path('/proc',str(pid),'stat').read_text().split(') ')[1].startswith('Z')
             except FileNotFoundError:return True
@@ -831,16 +990,34 @@ class LiveDriver:
                 for key,_ in sel.select(.02):
                     b=os.read(requests_r,4096)
                     if not b:raise SafetyError('application exited before result')
-                    buffer.extend(b);received+=len(b)
-                    if received>512*1024 or len(buffer)>65536:raise SafetyError('application IPC cap')
-                    while b'\n' in buffer:
-                        line,_,rest=buffer.partition(b'\n');buffer=bytearray(rest);packet=json.loads(line)
+                    buffer.extend(b)
+                    while True:
+                        if large_result is not None:
+                            size,checksum=large_result
+                            if len(buffer)>size:raise SafetyError('trailing large application result')
+                            if len(buffer)<size:break
+                            if hashlib.sha256(buffer).hexdigest()!=checksum:
+                                raise SafetyError('large application result identity changed')
+                            packet=json.loads(buffer)
+                            if packet.get('kind')!='result':raise SafetyError('invalid large application result')
+                            self.emit('wire-events',packet['wire']);ok=True;return packet['value']
+                        line,sep,rest=buffer.partition(b'\n')
+                        if len(line)+len(sep)>APPLICATION_FRAME_BYTES or received+len(line)+len(sep)>APPLICATION_REQUEST_BYTES:
+                            raise SafetyError('application IPC cap')
+                        if not sep:break
+                        received+=len(line)+1
+                        buffer=bytearray(rest);packet=json.loads(line)
                         if packet['kind']=='generate':
                             self.check_storage()
+                            if self.t3:
+                                if row['partition']!='task':
+                                    raise SafetyError('invalid application generation partition')
+                                self.task_packet=packet['messages']
                             try:
                                 text=self.generate(packet['messages'])
                                 reply={'text':text,'audit':self.audit[-1]}
                             except ClientFailure as e:reply={'error':e.reason}
+                            finally:self.task_packet=None
                             data=canonical(reply)+b'\n'
                             if len(data)>65536:raise SafetyError('broker reply cap')
                             while data:
@@ -850,6 +1027,12 @@ class LiveDriver:
                                 except BlockingIOError:time.sleep(.01)
                         elif packet['kind']=='result':
                             self.emit('wire-events',packet['wire']);ok=True;return packet['value']
+                        elif packet['kind']=='large-result':
+                            size,checksum=packet['bytes'],packet['sha256']
+                            if (type(size) is not int or not APPLICATION_FRAME_BYTES<=size<=result_limit
+                                    or not isinstance(checksum,str) or not re.fullmatch(r'[0-9a-f]{64}',checksum)):
+                                raise SafetyError('invalid large application result header')
+                            large_result=(size,checksum)
                         else:raise SafetyError('application failure '+str(packet))
         finally:
             self.rpc.abort_check=None

@@ -1,0 +1,3428 @@
+{
+  "hdd_root": "/hdd/u202520081000097/gosc-t3-runs/hpc-masbench-t3-live-20261125",
+  "bytes": 16983131,
+  "files": [
+    {
+      "path": "live/campaign/artifacts/000002-1-rpc.jsonl",
+      "size": 1026,
+      "sha256": "d01f416bc070b054e508a252cd2d22fb3afa6ba831bf93bccd25dc260e25f482"
+    },
+    {
+      "path": "live/campaign/artifacts/000003-2-full-input-count.json",
+      "size": 697,
+      "sha256": "b027bb53716451c78ed5a00813d08be86fc706dfb0a8a6858caa2ea43e204c1a"
+    },
+    {
+      "path": "live/campaign/artifacts/000004-3-rpc.jsonl",
+      "size": 90,
+      "sha256": "9b562a414a5a66bb18e7df546ac7e62b023878da1adaf2d859eba2878e083afb"
+    },
+    {
+      "path": "live/campaign/artifacts/000005-4-rpc.jsonl",
+      "size": 347,
+      "sha256": "cf197a5da19e351d1125a50d23f81c768300bc5293a7d78287ab4b1c995c0ea8"
+    },
+    {
+      "path": "live/campaign/artifacts/000006-5-rpc.jsonl",
+      "size": 487,
+      "sha256": "3cc221510bf313d3ea1e9d793504c97c6eaa872fc2b6c8feef5d5cfc3c18c3fa"
+    },
+    {
+      "path": "live/campaign/artifacts/000007-6-rpc.jsonl",
+      "size": 98,
+      "sha256": "bdec6fb19399beb2fb9467a385c77b350602259e3bfead176dbeb6f8f30d60e5"
+    },
+    {
+      "path": "live/campaign/artifacts/000008-7-binding-evidence.json",
+      "size": 1111,
+      "sha256": "9786331e8465581472642eba4a9e1f633b528dd1be11fee43f203fb383e80272"
+    },
+    {
+      "path": "live/campaign/artifacts/000009-8-client.json",
+      "size": 528,
+      "sha256": "6f38f57000d66133ba6c30083a04eb5573881d0f616be557095ea7d42675aea5"
+    },
+    {
+      "path": "live/campaign/artifacts/000010-9-rpc.jsonl",
+      "size": 487,
+      "sha256": "b1c904327265ba5eb98c1e1528cbdeef1abe7f930f2a776abd8d73e58516b0b9"
+    },
+    {
+      "path": "live/campaign/artifacts/000011-10-client.json",
+      "size": 1099,
+      "sha256": "600edbe0746a45f8e340aecb7c5106d9adfdcf1830e6434bc402ccac12beff08"
+    },
+    {
+      "path": "live/campaign/artifacts/000013-11-provider-request.json",
+      "size": 289,
+      "sha256": "c1cd34a37b72cabe6684bb9e6c5172019c89645de576a4ee67a536d7a4fb81ba"
+    },
+    {
+      "path": "live/campaign/artifacts/000014-12-rpc.jsonl",
+      "size": 387,
+      "sha256": "1943ccfb0c9fa9621eba5090126a480f9b8a05ef9fd43761f1d35ffb5b09040e"
+    },
+    {
+      "path": "live/campaign/artifacts/000015-13-client.json",
+      "size": 1515,
+      "sha256": "14ffec264216af1ba85ef025f74ae518c9b891e504a7d75f738357669f896a2f"
+    },
+    {
+      "path": "live/campaign/artifacts/000020-14-rpc.jsonl",
+      "size": 82030,
+      "sha256": "328fede7b2542adff0d9b88de1e0d285f2320fc9b9eadf2a0f78e0627b819096"
+    },
+    {
+      "path": "live/campaign/artifacts/000021-15-full-input-count.json",
+      "size": 113201,
+      "sha256": "46b1797c199c49c186b4d129e41bea971a0b18b11004548a345cecd314bcd1f3"
+    },
+    {
+      "path": "live/campaign/artifacts/000022-16-rpc.jsonl",
+      "size": 90,
+      "sha256": "7883431ae4b7cda2b2a05dced85cc21e9c6fb41e3f8fd31daaf78c5aa8b456c9"
+    },
+    {
+      "path": "live/campaign/artifacts/000023-17-rpc.jsonl",
+      "size": 39048,
+      "sha256": "ed1670f260eda5bfb25fbb90ba0614c05d6e08384ded879031c3c47d74884c36"
+    },
+    {
+      "path": "live/campaign/artifacts/000024-18-rpc.jsonl",
+      "size": 487,
+      "sha256": "b4609c445aff4a9eff4633c51862b41befe8258dbc9762fa0ae8c88e66f64219"
+    },
+    {
+      "path": "live/campaign/artifacts/000025-19-rpc.jsonl",
+      "size": 98,
+      "sha256": "cbec6ca46a20631840ded640fbed374cd4075be83099877d434ab35a6f0791ad"
+    },
+    {
+      "path": "live/campaign/artifacts/000026-20-binding-evidence.json",
+      "size": 39812,
+      "sha256": "698603f71bab360cce122addf5f5199ba36a907bedbe8c1a9c15097bc68dd4ab"
+    },
+    {
+      "path": "live/campaign/artifacts/000027-21-client.json",
+      "size": 527,
+      "sha256": "03d81728174ac58bb349c73f7ebd10fb8ba90e81836083b81e8bf4c245f120d6"
+    },
+    {
+      "path": "live/campaign/artifacts/000028-22-rpc.jsonl",
+      "size": 487,
+      "sha256": "8d4f93a9bbd01fd2a0d46c87766141b56a66c05d129470ddd8c056c22a57bba8"
+    },
+    {
+      "path": "live/campaign/artifacts/000029-23-client.json",
+      "size": 39800,
+      "sha256": "ce9a421013df2e914c8938c0032206a287448c78923c4ef43604514e1ad42b48"
+    },
+    {
+      "path": "live/campaign/artifacts/000031-24-provider-request.json",
+      "size": 38988,
+      "sha256": "7e5910d25b3bb207bcd660b8a21520b59600d60d6dc63f3bdaef7b6f0d71fd85"
+    },
+    {
+      "path": "live/campaign/artifacts/000032-25-rpc.jsonl",
+      "size": 391,
+      "sha256": "f7d7fd06319885b4f67d03231e389ce442e0fac37b4b519b2c1feed55e7b97f4"
+    },
+    {
+      "path": "live/campaign/artifacts/000033-26-client.json",
+      "size": 1524,
+      "sha256": "5bc3fd56aa28f39836b51ff97b6065577b9992838dd2adf4db2a384dbbf1518c"
+    },
+    {
+      "path": "live/campaign/artifacts/000038-27-pair-binding.json",
+      "size": 273,
+      "sha256": "52a436b7bc776bfc0be101eb411f414a9ee199f70cc04577ad08d3b59fede35c"
+    },
+    {
+      "path": "live/campaign/artifacts/000039-28-rpc.jsonl",
+      "size": 22006,
+      "sha256": "87a0197bf9f50d55f2c8914baed2dcc043d879e3d8753651a0a427bc59fb27a2"
+    },
+    {
+      "path": "live/campaign/artifacts/000040-29-full-input-count.json",
+      "size": 29168,
+      "sha256": "9f3829e12cf074773b79a64056b7a37192d5932cd5a889566b943d0096e72fff"
+    },
+    {
+      "path": "live/campaign/artifacts/000041-30-rpc.jsonl",
+      "size": 90,
+      "sha256": "c0ee0eb931c053195fab28249fe44b44b140137c4319600eacde8e7f44c8bca0"
+    },
+    {
+      "path": "live/campaign/artifacts/000042-31-rpc.jsonl",
+      "size": 9834,
+      "sha256": "c340f7be356e09e27a8270e0e570f0e47df20bc780e69de4f2ecef26f9fecc8f"
+    },
+    {
+      "path": "live/campaign/artifacts/000043-32-rpc.jsonl",
+      "size": 487,
+      "sha256": "8f6966cc3cc6e2b89a31f9769c700a1275f3febc593cc52c71095c1d287cebce"
+    },
+    {
+      "path": "live/campaign/artifacts/000044-33-rpc.jsonl",
+      "size": 98,
+      "sha256": "05a70de1d5f50ddd2d10d68dcf0874ea3abe6f7b31fd853407399adb6e6e87e6"
+    },
+    {
+      "path": "live/campaign/artifacts/000045-34-binding-evidence.json",
+      "size": 10598,
+      "sha256": "cc1013a8876c9ee07ba6d2ba5c4cdd4ec0ad8866a4be88b58c6fe63220efd992"
+    },
+    {
+      "path": "live/campaign/artifacts/000046-35-client.json",
+      "size": 527,
+      "sha256": "deff3b1d5aec6f2c4c7b09caf59a720f95b238a3a70766ea54bd9522fe12292e"
+    },
+    {
+      "path": "live/campaign/artifacts/000047-36-rpc.jsonl",
+      "size": 488,
+      "sha256": "7bb3d0a1316b325b47e009ca103d4314f1f6d7a4beaa43c3ae143bb046acc07a"
+    },
+    {
+      "path": "live/campaign/artifacts/000048-37-client.json",
+      "size": 10587,
+      "sha256": "2ffd5c0c37fcb66478a3d0ebbbf51f7d203e4d8591a0853d386f59548586a53d"
+    },
+    {
+      "path": "live/campaign/artifacts/000050-38-provider-request.json",
+      "size": 9768,
+      "sha256": "de092c24cead3245261e40622bd3a00071cbe05d9b7ef7cf6e7d37b0b7e7d5f6"
+    },
+    {
+      "path": "live/campaign/artifacts/000051-39-rpc.jsonl",
+      "size": 1824,
+      "sha256": "1ca772f233468dfcf5bf672d748b98e36e76cc008d08a5d3f8e9063dd443b59e"
+    },
+    {
+      "path": "live/campaign/artifacts/000052-40-client.json",
+      "size": 2959,
+      "sha256": "b26e2f6b840faef0a0ec1d44be6efe90b76948bdc53125880edb78ae8cc4adfe"
+    },
+    {
+      "path": "live/campaign/artifacts/000054-41-wire-events.json",
+      "size": 146473,
+      "sha256": "582e570391ecede9279b87e8933f2cb0d4b71ab428106422ad9a66127da44f07"
+    },
+    {
+      "path": "live/campaign/artifacts/000055-42-application-result.json",
+      "size": 8143,
+      "sha256": "fda634032aa417b2286391f4aa582f6d14b00fa232cc34ddd07f9a0de536042f"
+    },
+    {
+      "path": "live/campaign/artifacts/000059-43-pair-binding.json",
+      "size": 275,
+      "sha256": "2b86e2067f2aa4fbdbe9c477bb340ca9cd5be8ae16daa8bcc4e87be8dfdd016a"
+    },
+    {
+      "path": "live/campaign/artifacts/000060-44-rpc.jsonl",
+      "size": 22006,
+      "sha256": "87a0197bf9f50d55f2c8914baed2dcc043d879e3d8753651a0a427bc59fb27a2"
+    },
+    {
+      "path": "live/campaign/artifacts/000061-45-full-input-count.json",
+      "size": 29168,
+      "sha256": "9f3829e12cf074773b79a64056b7a37192d5932cd5a889566b943d0096e72fff"
+    },
+    {
+      "path": "live/campaign/artifacts/000062-46-rpc.jsonl",
+      "size": 88,
+      "sha256": "aaf313d3d6208b9017f7cebc6cea18eac2dc8cc5057161ad9ef0821d262296eb"
+    },
+    {
+      "path": "live/campaign/artifacts/000063-47-rpc.jsonl",
+      "size": 9834,
+      "sha256": "86f2464b6c02b1e727393870a23a4857e8350c4caedd958bab6bafea47c48767"
+    },
+    {
+      "path": "live/campaign/artifacts/000064-48-rpc.jsonl",
+      "size": 487,
+      "sha256": "2786628092b8451ac08bea28a368fd0e7973a5898ede2090a54845a1672aa8d8"
+    },
+    {
+      "path": "live/campaign/artifacts/000065-49-rpc.jsonl",
+      "size": 98,
+      "sha256": "bb2074a6120aa2867206ef1da6ca88c061ccc961f526bb93e48821d38e404823"
+    },
+    {
+      "path": "live/campaign/artifacts/000066-50-binding-evidence.json",
+      "size": 10598,
+      "sha256": "e65915930eb00658777fa2fe8bfb0d5a91aa62baf85f41f2d1432e3455f0d252"
+    },
+    {
+      "path": "live/campaign/artifacts/000067-51-client.json",
+      "size": 527,
+      "sha256": "582e7d6783cbf8d302ba90fd7c5dbc3e4e22a5cb1509d14fceec06696e60d620"
+    },
+    {
+      "path": "live/campaign/artifacts/000068-52-rpc.jsonl",
+      "size": 487,
+      "sha256": "c32de33c0db6750a5d7da2f43e085a3446bdb29f0559a44db18464aa4dbc879a"
+    },
+    {
+      "path": "live/campaign/artifacts/000069-53-client.json",
+      "size": 10587,
+      "sha256": "2b5cf58d34e050043b426a23302d82464294728473a43c64ae9b91973e6f72a4"
+    },
+    {
+      "path": "live/campaign/artifacts/000071-54-provider-request.json",
+      "size": 9770,
+      "sha256": "46ec18e44b7bf643dea93a3770c1e798e90a90c853b1a38e685a267dd4585d63"
+    },
+    {
+      "path": "live/campaign/artifacts/000072-55-rpc.jsonl",
+      "size": 1824,
+      "sha256": "08e443e889a0a297dd0665aef7bbe7c98f5ed434312876d323ba7d46611629f7"
+    },
+    {
+      "path": "live/campaign/artifacts/000073-56-client.json",
+      "size": 2961,
+      "sha256": "18c42ad3844728714ac9f8d36c753712ee46dd2de95d5c24096e280103a2de52"
+    },
+    {
+      "path": "live/campaign/artifacts/000075-57-wire-events.json",
+      "size": 291,
+      "sha256": "3a274b410ec7ca48af436e906fd4b0e85139f1ec09a67e035d0da01c09532c03"
+    },
+    {
+      "path": "live/campaign/artifacts/000076-58-application-result.json",
+      "size": 3816,
+      "sha256": "853848a98a064a8b4257d4cd4028ec01ad2252ad9338de2f92082fa97c185a77"
+    },
+    {
+      "path": "live/campaign/artifacts/000080-59-pair-binding.json",
+      "size": 283,
+      "sha256": "21e927d031bfb365fc841dbfad605e52d2ad18c013b62a8aa38a1a17ce4dd75d"
+    },
+    {
+      "path": "live/campaign/artifacts/000081-60-rpc.jsonl",
+      "size": 23159,
+      "sha256": "47ace4092154ddd77e2fc9608b6e9315c6eea0c5e5ec6e9cf987b7f4525b8795"
+    },
+    {
+      "path": "live/campaign/artifacts/000082-61-full-input-count.json",
+      "size": 30629,
+      "sha256": "e56c77e6203223072458924e051f959a6c5312780e5145dabd39d23e77addbeb"
+    },
+    {
+      "path": "live/campaign/artifacts/000083-62-rpc.jsonl",
+      "size": 91,
+      "sha256": "04c44fb6b7cb27e9196a413b78db806156acb280085c263b6dc376de94a1d4f0"
+    },
+    {
+      "path": "live/campaign/artifacts/000084-63-rpc.jsonl",
+      "size": 10276,
+      "sha256": "2f33877e20e4667792f8a0051fcdf586906c864a098656e7fae81c9bd10e3b7c"
+    },
+    {
+      "path": "live/campaign/artifacts/000085-64-rpc.jsonl",
+      "size": 487,
+      "sha256": "1b2c12b474c61a9af6d69337c518e396cfde3ae389c6adfba8ad57598ccfcaf9"
+    },
+    {
+      "path": "live/campaign/artifacts/000086-65-rpc.jsonl",
+      "size": 98,
+      "sha256": "2a8cc3abd53149f54e8d6c0e81cb7027cfe2534d28f2727833f6581576aad5fa"
+    },
+    {
+      "path": "live/campaign/artifacts/000087-66-binding-evidence.json",
+      "size": 11039,
+      "sha256": "3a96ca85cd49983d50422329d99ebc4c600ed4d23f7604b8fafb384bdec0a0e7"
+    },
+    {
+      "path": "live/campaign/artifacts/000088-67-client.json",
+      "size": 527,
+      "sha256": "c09d6c2fd01f1119b5d62544ef8737f761c4f13d306d28271e851f77db71b794"
+    },
+    {
+      "path": "live/campaign/artifacts/000089-68-rpc.jsonl",
+      "size": 487,
+      "sha256": "1df6a94eebe4279a39c94d535668423808b0fa99f27875a18b7cf33319e7d35e"
+    },
+    {
+      "path": "live/campaign/artifacts/000090-69-client.json",
+      "size": 11028,
+      "sha256": "79752f0b9fef55a62b3720a29ebbf97e4d34d51e35c3d5cea90b2e20c51af55d"
+    },
+    {
+      "path": "live/campaign/artifacts/000092-70-provider-request.json",
+      "size": 10215,
+      "sha256": "dd9226d27317fd6e6e3530dfbe0dd1f836a6a012c58ceecb245049d95ce8eb62"
+    },
+    {
+      "path": "live/campaign/artifacts/000093-71-rpc.jsonl",
+      "size": 593,
+      "sha256": "383c661603ebaf914392ad8aee4f62efa7cecf69c22366ac487cb895e8ca37f1"
+    },
+    {
+      "path": "live/campaign/artifacts/000094-72-client.json",
+      "size": 1728,
+      "sha256": "ea87a96342d7e8206b345728531e8ddebeb841eed07e2bd43e1842f1d27ba4b3"
+    },
+    {
+      "path": "live/campaign/artifacts/000096-73-rpc.jsonl",
+      "size": 27402,
+      "sha256": "ece7ad90fa8c7162fb02ed9cb5120c562ed23eadc558caa5f08f4a7bca5ba858"
+    },
+    {
+      "path": "live/campaign/artifacts/000097-74-full-input-count.json",
+      "size": 36569,
+      "sha256": "fcbe6abd1c8af4ff45b2608dd93a957c40e2d71f04cc277964d057a3db8a944a"
+    },
+    {
+      "path": "live/campaign/artifacts/000098-75-rpc.jsonl",
+      "size": 12341,
+      "sha256": "605ee8bd82f38be19fb65d1fe907f3a089f5fb8b4c8bb45dfbdfed40d79e2178"
+    },
+    {
+      "path": "live/campaign/artifacts/000099-76-rpc.jsonl",
+      "size": 488,
+      "sha256": "3f918cc23c3230a6adb0b635b80182682b3b75eb86ff831b5041bd4d1c7122f6"
+    },
+    {
+      "path": "live/campaign/artifacts/000100-77-rpc.jsonl",
+      "size": 99,
+      "sha256": "07ce2c7dbf3639b397ba92197445bbd448f4c66b3a4cda9bcdbceb0fc2267f36"
+    },
+    {
+      "path": "live/campaign/artifacts/000101-78-binding-evidence.json",
+      "size": 13105,
+      "sha256": "11eaf30fad8332fc69b53883867f67787f13ea003509ae50ce3691157852aff1"
+    },
+    {
+      "path": "live/campaign/artifacts/000102-79-client.json",
+      "size": 528,
+      "sha256": "61ceb37193a93f2a57eb2b05e91cdda8f09ecb8f7dc1023084f4584d4073832b"
+    },
+    {
+      "path": "live/campaign/artifacts/000103-80-rpc.jsonl",
+      "size": 487,
+      "sha256": "058e5296128db98e946c537378bb437cdbcbf1a5a683fe42258af382c9d2c7c2"
+    },
+    {
+      "path": "live/campaign/artifacts/000104-81-client.json",
+      "size": 13095,
+      "sha256": "c33736147942578df937bd13de7dd39d713c4aa5acb94ffe7933a01dcc195c2a"
+    },
+    {
+      "path": "live/campaign/artifacts/000106-82-provider-request.json",
+      "size": 12281,
+      "sha256": "400003cdba7511ab4283652b2fb91af3588937ccc9d409888dfaf7e5d22cc6bc"
+    },
+    {
+      "path": "live/campaign/artifacts/000107-83-rpc.jsonl",
+      "size": 532,
+      "sha256": "9a2969ab96fab48bb224bb8571fa2a275f47dbf5d39b378edc95e074d6eeff91"
+    },
+    {
+      "path": "live/campaign/artifacts/000108-84-client.json",
+      "size": 1668,
+      "sha256": "3d1103bcd70198e693522f1ee33433d66e7dc0dbaf14ccb64630ce204df282a3"
+    },
+    {
+      "path": "live/campaign/artifacts/000110-85-rpc.jsonl",
+      "size": 23724,
+      "sha256": "92195ff96b6f009afdbf24b4eacba1215527ba6bdd507ef269b44d1b0d22ec7c"
+    },
+    {
+      "path": "live/campaign/artifacts/000111-86-full-input-count.json",
+      "size": 31367,
+      "sha256": "09a089f8e882f3b581f594517161d0bfb3b49ae541acb109f31247ed51437a1d"
+    },
+    {
+      "path": "live/campaign/artifacts/000112-87-rpc.jsonl",
+      "size": 10479,
+      "sha256": "84865796cb6a58720a39050964313ac5f83af85c1f6661de0371cfd42f80a4a7"
+    },
+    {
+      "path": "live/campaign/artifacts/000113-88-rpc.jsonl",
+      "size": 487,
+      "sha256": "c7e0fc9077cc07b6b3977392d1827e058fc1983265e60de896f1e612fb209dcc"
+    },
+    {
+      "path": "live/campaign/artifacts/000114-89-rpc.jsonl",
+      "size": 99,
+      "sha256": "d5013ec65c34ebad81f8e770b44a071356ea3008a9f854d1f7b4b2921145d2fe"
+    },
+    {
+      "path": "live/campaign/artifacts/000115-90-binding-evidence.json",
+      "size": 11242,
+      "sha256": "78076b702dea206cd5171a319a91105c415ac087286cb47489474c5da3a38468"
+    },
+    {
+      "path": "live/campaign/artifacts/000116-91-client.json",
+      "size": 527,
+      "sha256": "a84edda2839c65d2e62c1c5e7670f1d31e6eaa84d53967fc92add2681c6a8e7b"
+    },
+    {
+      "path": "live/campaign/artifacts/000117-92-rpc.jsonl",
+      "size": 487,
+      "sha256": "23f51e42706c7858fc36a44c126a561ab98b1f3ccd3f7e784f9f5dad76978ef6"
+    },
+    {
+      "path": "live/campaign/artifacts/000118-93-client.json",
+      "size": 11265,
+      "sha256": "b170ed93b478b3897fc34f1ea652ae81446b9c9c774bc8402b5eacdddd4499c9"
+    },
+    {
+      "path": "live/campaign/artifacts/000120-94-provider-request.json",
+      "size": 10452,
+      "sha256": "c171ded3fa7c94c7850aecb2225b04756ad70afc323bd4d902340307131040a9"
+    },
+    {
+      "path": "live/campaign/artifacts/000121-95-rpc.jsonl",
+      "size": 389,
+      "sha256": "60afb3f2905625b924f1f5b80af001058bf9a1e15d54fb1a6d356449844b6b3c"
+    },
+    {
+      "path": "live/campaign/artifacts/000122-96-client.json",
+      "size": 1523,
+      "sha256": "a78b1902835b6c496e5b6a382b6ce1aa8176a820d31ded2c798382e2ff19d0cf"
+    },
+    {
+      "path": "live/campaign/artifacts/000124-97-rpc.jsonl",
+      "size": 27801,
+      "sha256": "ca84dac1e2cd843e616ae41aba3899d73f874c725ce33dc2f269967416b9add2"
+    },
+    {
+      "path": "live/campaign/artifacts/000125-98-full-input-count.json",
+      "size": 37098,
+      "sha256": "b040e0f6d61e5c9c31d55e526370bbfdf02c10bd04488bb9653f6a89a8879ae7"
+    },
+    {
+      "path": "live/campaign/artifacts/000126-99-rpc.jsonl",
+      "size": 12483,
+      "sha256": "61b28a158b397ac2ed5a4256fedc4128f5e7f643294737af4d772cac1101af28"
+    },
+    {
+      "path": "live/campaign/artifacts/000127-100-rpc.jsonl",
+      "size": 488,
+      "sha256": "3df9c3d9af1c4b0f6d3e411d4b2ed45a3c2eae49f87c3bbfaaadd22493a8241d"
+    },
+    {
+      "path": "live/campaign/artifacts/000128-101-rpc.jsonl",
+      "size": 98,
+      "sha256": "d31b0c14db31c125972e3982db3fc68874b922b65ea6a3781583027c5ca7da2d"
+    },
+    {
+      "path": "live/campaign/artifacts/000129-102-binding-evidence.json",
+      "size": 13247,
+      "sha256": "ed725c17b599e0f76efc9c9bf3baa4f20c455fe9efbf1153158be7135474071f"
+    },
+    {
+      "path": "live/campaign/artifacts/000130-103-client.json",
+      "size": 527,
+      "sha256": "7d112c21921c9f20092091c203e9869f526f0fa94608135eb2082c2e183aa938"
+    },
+    {
+      "path": "live/campaign/artifacts/000131-104-rpc.jsonl",
+      "size": 487,
+      "sha256": "6388b6e4b64a1a35c559b8ca6d6ddbab1b9c79246410a75a8a25cf5869da4641"
+    },
+    {
+      "path": "live/campaign/artifacts/000132-105-client.json",
+      "size": 13270,
+      "sha256": "ff8159503e63dc1d2b119f17c15611c96150d305c8636cb5f8a7eecc42bf29df"
+    },
+    {
+      "path": "live/campaign/artifacts/000134-106-provider-request.json",
+      "size": 12457,
+      "sha256": "453911635b491631fd5289c84ca0c4986acb9fc3be1251376c4f777e7590c679"
+    },
+    {
+      "path": "live/campaign/artifacts/000135-107-rpc.jsonl",
+      "size": 389,
+      "sha256": "7028ac9029c9479a5d03bbeb318dedd7d25c468a3053e43d877c3b290e801b34"
+    },
+    {
+      "path": "live/campaign/artifacts/000136-108-client.json",
+      "size": 1522,
+      "sha256": "36322ab5d3fa603dc5f674b65be40009357692fc4a253708f90a84010446db2e"
+    },
+    {
+      "path": "live/campaign/artifacts/000138-109-rpc.jsonl",
+      "size": 23753,
+      "sha256": "9eff10ff44f8412c9b8cfe52a1f27f6049311e493edfbed9d755b56aa4fbd5dc"
+    },
+    {
+      "path": "live/campaign/artifacts/000139-110-full-input-count.json",
+      "size": 31434,
+      "sha256": "13809591288e18ae9b580b4b59c935b1ec7734f397b9514bb3f21fb248cda4b5"
+    },
+    {
+      "path": "live/campaign/artifacts/000140-111-rpc.jsonl",
+      "size": 10488,
+      "sha256": "b4ef76479e5ec03009a0d3447af596dc26f7ad56032bb479b644a090fc9ebe02"
+    },
+    {
+      "path": "live/campaign/artifacts/000141-112-rpc.jsonl",
+      "size": 488,
+      "sha256": "cb87823b27cc702e790728878d1ec26d0d52674b2894313a16c274036a7aa0fa"
+    },
+    {
+      "path": "live/campaign/artifacts/000142-113-rpc.jsonl",
+      "size": 98,
+      "sha256": "db34988eec11593c09e0533e75d11a3ee771562163b9fac2b62d365e1f4032b9"
+    },
+    {
+      "path": "live/campaign/artifacts/000143-114-binding-evidence.json",
+      "size": 11252,
+      "sha256": "b2b3ee4dc0b08f9e78677a9e1bdf789287b05f43615f204cb4ec6c3bf0887d61"
+    },
+    {
+      "path": "live/campaign/artifacts/000144-115-client.json",
+      "size": 528,
+      "sha256": "54d87df4b9908f927e3027e07642f1a7e2630e35d2e30fd11d92af84c685e601"
+    },
+    {
+      "path": "live/campaign/artifacts/000145-116-rpc.jsonl",
+      "size": 488,
+      "sha256": "10389256ff3e567860727e48390b06fb4263c9b39c39337da4838f65e2af46fe"
+    },
+    {
+      "path": "live/campaign/artifacts/000146-117-client.json",
+      "size": 11307,
+      "sha256": "e1b0a7423234e83dde0b7f6171c5a646f15884260edc843c0a526848580b5fc3"
+    },
+    {
+      "path": "live/campaign/artifacts/000148-118-provider-request.json",
+      "size": 10493,
+      "sha256": "6c4f1a8d1a368e0f3a531123f476fee74cdf64aa08907bf7e90b823dba3c719e"
+    },
+    {
+      "path": "live/campaign/artifacts/000149-119-rpc.jsonl",
+      "size": 628,
+      "sha256": "1725a041cc45e17c6fa57838f9fe61e4735849d1bc20fc6b7d211404c6239108"
+    },
+    {
+      "path": "live/campaign/artifacts/000150-120-client.json",
+      "size": 1764,
+      "sha256": "adba40970442265b0fade1449acacbb9df9e5b6132fc6e536342c60e21ab332c"
+    },
+    {
+      "path": "live/campaign/artifacts/000152-121-rpc.jsonl",
+      "size": 27828,
+      "sha256": "9107f928e702f199a09e39f4d701ebd217e23cf470fa8ac37b95f057be7e0b60"
+    },
+    {
+      "path": "live/campaign/artifacts/000153-122-full-input-count.json",
+      "size": 37161,
+      "sha256": "5217e0b684f57a820009baa6916b3beed4d56445ed2d33f8f12e8a09135afaeb"
+    },
+    {
+      "path": "live/campaign/artifacts/000154-123-rpc.jsonl",
+      "size": 12492,
+      "sha256": "d1ce836fef2025b7423b3ba665c6d2aa84dc90cdb4019fa1d28ccea9c33e6a7d"
+    },
+    {
+      "path": "live/campaign/artifacts/000155-124-rpc.jsonl",
+      "size": 486,
+      "sha256": "4b3e8fc7abb110adfff842b6d7619d6a9073edc96c6e6253f900bff1547cfda6"
+    },
+    {
+      "path": "live/campaign/artifacts/000156-125-rpc.jsonl",
+      "size": 98,
+      "sha256": "3a55c94994cf349d273da6327dfe6f52eda69db7ee320babbc9e5dd0affb66cb"
+    },
+    {
+      "path": "live/campaign/artifacts/000157-126-binding-evidence.json",
+      "size": 13256,
+      "sha256": "d588747be50ba342bacaea9e7a307fdfde402d0e35974eeb0d9099b3836fb86f"
+    },
+    {
+      "path": "live/campaign/artifacts/000158-127-client.json",
+      "size": 527,
+      "sha256": "c5cc356a7d7f47bd66d09d59a5d841d91553d6bb08887651cf6aa8f34e380fb5"
+    },
+    {
+      "path": "live/campaign/artifacts/000159-128-rpc.jsonl",
+      "size": 488,
+      "sha256": "903a4c741780743add0e86d299634753aa959cbc5fdf7a8e2290f2b1979fb8ff"
+    },
+    {
+      "path": "live/campaign/artifacts/000160-129-client.json",
+      "size": 13309,
+      "sha256": "aa33906eff1e870653d2e71d991c21de2af31ed04d60523aef23c734c8864962"
+    },
+    {
+      "path": "live/campaign/artifacts/000162-130-provider-request.json",
+      "size": 12496,
+      "sha256": "d59350f89ade46f7cf1fd05ae5f1efedff40cc7a833bf8890991005d03139bdd"
+    },
+    {
+      "path": "live/campaign/artifacts/000163-131-rpc.jsonl",
+      "size": 489,
+      "sha256": "6f0e8b0aa83c6e00297b9d6bf7c774e8261d533274768e3ac15a309440a45bfb"
+    },
+    {
+      "path": "live/campaign/artifacts/000164-132-client.json",
+      "size": 1624,
+      "sha256": "48b0a18ad14658a451b13788a8a0e209824b2076f3e1ad60345d35932e01d8ea"
+    },
+    {
+      "path": "live/campaign/artifacts/000166-133-wire-events.json",
+      "size": 1581,
+      "sha256": "07dbffc3eccb3ed49de89737416ef4cc594abcc2b23489f787391a01cdcb2fd5"
+    },
+    {
+      "path": "live/campaign/artifacts/000167-134-application-result.json",
+      "size": 5823,
+      "sha256": "4ef659f6335e6d4a50c9c21151a7b8b124461f9102c085e29ebf216ae016f5c2"
+    },
+    {
+      "path": "live/campaign/artifacts/000171-135-pair-binding.json",
+      "size": 281,
+      "sha256": "b65b26541d857cbb1d14d7667afd1ac102dcc1527a34c9fa5c9a06804cd93a0a"
+    },
+    {
+      "path": "live/campaign/artifacts/000172-136-rpc.jsonl",
+      "size": 23159,
+      "sha256": "47ace4092154ddd77e2fc9608b6e9315c6eea0c5e5ec6e9cf987b7f4525b8795"
+    },
+    {
+      "path": "live/campaign/artifacts/000173-137-full-input-count.json",
+      "size": 30629,
+      "sha256": "e56c77e6203223072458924e051f959a6c5312780e5145dabd39d23e77addbeb"
+    },
+    {
+      "path": "live/campaign/artifacts/000174-138-rpc.jsonl",
+      "size": 90,
+      "sha256": "85f0f974c0e541843f5284dd30581b099e40814a7659ef62434de96aad7ecba5"
+    },
+    {
+      "path": "live/campaign/artifacts/000175-139-rpc.jsonl",
+      "size": 10275,
+      "sha256": "ce96a8ab88bce6ad0d38fc6dcf4c4c403f7058ceab8d715fae7f1973c920c2d4"
+    },
+    {
+      "path": "live/campaign/artifacts/000176-140-rpc.jsonl",
+      "size": 486,
+      "sha256": "53be3255b145fd74ada67240ea7204e3772e3c096a8ce87d209e9b2b877bebf6"
+    },
+    {
+      "path": "live/campaign/artifacts/000177-141-rpc.jsonl",
+      "size": 99,
+      "sha256": "53b9e6f0c1e9b328f7896e317affa1f734b2082df369621e42eda3782b4b891c"
+    },
+    {
+      "path": "live/campaign/artifacts/000178-142-binding-evidence.json",
+      "size": 11039,
+      "sha256": "12f9925434d18a56595fd8edae9f41f42792ececdff3317888ce30029d9851ff"
+    },
+    {
+      "path": "live/campaign/artifacts/000179-143-client.json",
+      "size": 527,
+      "sha256": "5d3906b4c64e93601606c4b9c93f21ccf8f4975a15555fb8fcbe4bed9d594937"
+    },
+    {
+      "path": "live/campaign/artifacts/000180-144-rpc.jsonl",
+      "size": 487,
+      "sha256": "f8982f7826631083c35094c92a73c476c07ef13ce342fbaf0fb020efe4a44757"
+    },
+    {
+      "path": "live/campaign/artifacts/000181-145-client.json",
+      "size": 11028,
+      "sha256": "99cd6975c8aa3fd096e82552bf1cee51869e93f8ba235c9914644b1139cec5a2"
+    },
+    {
+      "path": "live/campaign/artifacts/000183-146-provider-request.json",
+      "size": 10214,
+      "sha256": "4e4606ecb78b3eff9d6bd43d0518be45f9975450b6a5e655b0ebf544c2697f7e"
+    },
+    {
+      "path": "live/campaign/artifacts/000184-147-rpc.jsonl",
+      "size": 594,
+      "sha256": "5ea0589baa5bcacd86b5965ecd547d063e7e64c6278c05f79dbe9478351dd0d2"
+    },
+    {
+      "path": "live/campaign/artifacts/000185-148-client.json",
+      "size": 1729,
+      "sha256": "0fcb1456f1f57a79a15f3c35f479725c49f3179cf1d50c534757bbd662312b50"
+    },
+    {
+      "path": "live/campaign/artifacts/000187-149-rpc.jsonl",
+      "size": 28027,
+      "sha256": "bfb1967d7829aa4973fe214939c2c7a02d0b5caa7881bcfa2fe67aa33d6069c5"
+    },
+    {
+      "path": "live/campaign/artifacts/000188-150-full-input-count.json",
+      "size": 37357,
+      "sha256": "cff597fd18f12b6ca864bdc4d05b2920de59ee0ff1b99ccd4bafc33b5fd0a412"
+    },
+    {
+      "path": "live/campaign/artifacts/000189-151-rpc.jsonl",
+      "size": 12574,
+      "sha256": "96b02a046ac01d083624b087397fbbd61c86f9afcd3e509530e8722e85868b0f"
+    },
+    {
+      "path": "live/campaign/artifacts/000190-152-rpc.jsonl",
+      "size": 487,
+      "sha256": "837eb86db390072d39837a319890bcf2246103c15f40be21185b75f457191bf3"
+    },
+    {
+      "path": "live/campaign/artifacts/000191-153-rpc.jsonl",
+      "size": 98,
+      "sha256": "bc9f92221e4a7906ca0580baef56e7705c9cb1a643bb658afd0de1d907004f39"
+    },
+    {
+      "path": "live/campaign/artifacts/000192-154-binding-evidence.json",
+      "size": 13338,
+      "sha256": "c53c2d43a1872da63d3a74cb5e6d9274a6b6d80220e175ae946a61fc1fd47217"
+    },
+    {
+      "path": "live/campaign/artifacts/000193-155-client.json",
+      "size": 527,
+      "sha256": "4ad50dcc1c94304e6b001f297ba713214a04ed2ea2429264c5d2e9836a12a17d"
+    },
+    {
+      "path": "live/campaign/artifacts/000194-156-rpc.jsonl",
+      "size": 487,
+      "sha256": "587096bd00e18302a4c9476963db63af8750e7341022cec2a0729daaa48d75e7"
+    },
+    {
+      "path": "live/campaign/artifacts/000195-157-client.json",
+      "size": 13326,
+      "sha256": "cb529193073b74d28b5e33d7d0bcbe8befc3b95f8b6a7cf0e204817467fed295"
+    },
+    {
+      "path": "live/campaign/artifacts/000197-158-provider-request.json",
+      "size": 12512,
+      "sha256": "e1983325ee01049520e22778333dee514c26c982d110628551cf482ba6028c0c"
+    },
+    {
+      "path": "live/campaign/artifacts/000198-159-rpc.jsonl",
+      "size": 613,
+      "sha256": "78756f2c8094b8a828016b392af42951c72806068aaff0918f18edeebc65558e"
+    },
+    {
+      "path": "live/campaign/artifacts/000199-160-client.json",
+      "size": 1749,
+      "sha256": "612c955bd3984819dae3b525d1bc467dbcfc06ce693b8a18d7c3e4ec5f038570"
+    },
+    {
+      "path": "live/campaign/artifacts/000201-161-rpc.jsonl",
+      "size": 24981,
+      "sha256": "66857a24bf269bb20586258d0bde4b2403ab0ddde02b8ade83fcc859bd9a0343"
+    },
+    {
+      "path": "live/campaign/artifacts/000202-162-full-input-count.json",
+      "size": 32969,
+      "sha256": "1d1726a2399f5c495f32d092757b459b783e0ec7dd1a63c49c67625908e642a8"
+    },
+    {
+      "path": "live/campaign/artifacts/000203-163-rpc.jsonl",
+      "size": 10989,
+      "sha256": "d5460be55d8ed5e12dd25801973898196212735c84c7e5c8b8c3fc95aaa64687"
+    },
+    {
+      "path": "live/campaign/artifacts/000204-164-rpc.jsonl",
+      "size": 488,
+      "sha256": "0acc157c23bc206860ca071453e1d6e9d0bc37d9aee41e18ce2e05a5d0c75fb6"
+    },
+    {
+      "path": "live/campaign/artifacts/000205-165-rpc.jsonl",
+      "size": 98,
+      "sha256": "8439fcfe0b6d06fd4914c56b1f985fa5cac848d3db02b31e866a79a3e4bbbd19"
+    },
+    {
+      "path": "live/campaign/artifacts/000206-166-binding-evidence.json",
+      "size": 11753,
+      "sha256": "5202b68562cba11d680c26fbbd3e3bd8bcca3b0542be97161c35c3a8f47912bd"
+    },
+    {
+      "path": "live/campaign/artifacts/000207-167-client.json",
+      "size": 527,
+      "sha256": "47eb7a969754f095dccaed9bc08de1173313038fd33f1b896ef4fd5dbcc9e82a"
+    },
+    {
+      "path": "live/campaign/artifacts/000208-168-rpc.jsonl",
+      "size": 487,
+      "sha256": "d7d6f20de28dec9d6cb4505791a5613e88f64f6df73835b22761723de014ca8d"
+    },
+    {
+      "path": "live/campaign/artifacts/000209-169-client.json",
+      "size": 11741,
+      "sha256": "e143844ae9c0ee9bd0bc135f3999fbeefb8d9c54196cbdb5c17ad521ae17a8cc"
+    },
+    {
+      "path": "live/campaign/artifacts/000211-170-provider-request.json",
+      "size": 10927,
+      "sha256": "6697f953ea0415fb0fdab9f2259bee872fd9ca4f225bb0e77452de745fcacca8"
+    },
+    {
+      "path": "live/campaign/artifacts/000212-171-rpc.jsonl",
+      "size": 814,
+      "sha256": "3836d3b0967754440d7faa46957e19af5c820c62c74975ab9fb7d14b03e78d86"
+    },
+    {
+      "path": "live/campaign/artifacts/000213-172-client.json",
+      "size": 1950,
+      "sha256": "11d3bd39df592e0aad6aae35671546d9ad65d38d7a76b6a8db309e39eae10d7a"
+    },
+    {
+      "path": "live/campaign/artifacts/000215-173-wire-events.json",
+      "size": 89480,
+      "sha256": "0fa6081e63d3d878a0439ae7f3f1a299570bf2963e79013ac2b082ad92c8a1f2"
+    },
+    {
+      "path": "live/campaign/artifacts/000216-174-application-result.json",
+      "size": 7562,
+      "sha256": "b61999975b3a030b6db640f9db8791f2e746e3e27c60dcbb75a403f43e55ef07"
+    },
+    {
+      "path": "live/campaign/artifacts/000220-175-pair-binding.json",
+      "size": 275,
+      "sha256": "ceedf3a5cd4b9e85cc84d7a8d46123da73b727605aa0179f499b32de361b970b"
+    },
+    {
+      "path": "live/campaign/artifacts/000221-176-rpc.jsonl",
+      "size": 26911,
+      "sha256": "f43bb05d57e1fdcf3af65b685526cf8baec630fa96e30427fef35bd953e98335"
+    },
+    {
+      "path": "live/campaign/artifacts/000222-177-full-input-count.json",
+      "size": 36245,
+      "sha256": "6d3de55bc02ca95d1de6918d44c5ed952948baeeb965f1242062d53719b53eaf"
+    },
+    {
+      "path": "live/campaign/artifacts/000223-178-rpc.jsonl",
+      "size": 91,
+      "sha256": "fc1ae2cfc8ae5ae26c212b49af3409a1c03bb40d744438615fee73861cef6959"
+    },
+    {
+      "path": "live/campaign/artifacts/000224-179-rpc.jsonl",
+      "size": 12402,
+      "sha256": "06322d85c740afc14b14c2c701a992d63c52f1193da5f7c7d7e0b2627d71dc8d"
+    },
+    {
+      "path": "live/campaign/artifacts/000225-180-rpc.jsonl",
+      "size": 487,
+      "sha256": "27c973460ee5d433567e29d368edbfd39cbac239c13e8624e975244bea4c722c"
+    },
+    {
+      "path": "live/campaign/artifacts/000226-181-rpc.jsonl",
+      "size": 99,
+      "sha256": "dd293243287ebc42cee9b72e04d70247b2e99b7824922f6e96984aac727cc474"
+    },
+    {
+      "path": "live/campaign/artifacts/000227-182-binding-evidence.json",
+      "size": 13166,
+      "sha256": "a449a586d5028bd92a3ec316a427928246d6024f7ec1baa5daa3b11811aa4c84"
+    },
+    {
+      "path": "live/campaign/artifacts/000228-183-client.json",
+      "size": 528,
+      "sha256": "14c771ccaaebd86945bbca544862c7e93947afe612dc788778014d2eccfa28e8"
+    },
+    {
+      "path": "live/campaign/artifacts/000229-184-rpc.jsonl",
+      "size": 487,
+      "sha256": "7353785153f5c08670eab730172dc8559db2f939b456f4bd80eeadfc51a04351"
+    },
+    {
+      "path": "live/campaign/artifacts/000230-185-client.json",
+      "size": 13156,
+      "sha256": "071053d3f3d44f28a403a7d2f29ee08485970faf19037871250274ca89717b24"
+    },
+    {
+      "path": "live/campaign/artifacts/000232-186-provider-request.json",
+      "size": 12339,
+      "sha256": "ac76345d0ee4c18a6bbe4ab9aaff76a410711cfcdfb0fb469e0f33119293fd18"
+    },
+    {
+      "path": "live/campaign/artifacts/000233-187-rpc.jsonl",
+      "size": 1569,
+      "sha256": "971eec9c0140644787288ca89c9e5211d76d30d4ce812cc9b22d95818de061cb"
+    },
+    {
+      "path": "live/campaign/artifacts/000234-188-client.json",
+      "size": 2705,
+      "sha256": "2615c783da5e41a57182e4bb88987fd387ad6b88f1cfee3e1a669d822a954a19"
+    },
+    {
+      "path": "live/campaign/artifacts/000236-189-wire-events.json",
+      "size": 291,
+      "sha256": "3e41153c7cc9089c956da371d5e1275916e5a6b7bbeb597372d24cf300b0681f"
+    },
+    {
+      "path": "live/campaign/artifacts/000237-190-application-result.json",
+      "size": 3298,
+      "sha256": "7959321fd7545484b94aff26962278a8fceb1d0b70700414e12c2ca68f2ef8fe"
+    },
+    {
+      "path": "live/campaign/artifacts/000241-191-pair-binding.json",
+      "size": 273,
+      "sha256": "f562957b0c0ad933fd33f8547617062af9438f8719dd30a7539ecd57a5d682aa"
+    },
+    {
+      "path": "live/campaign/artifacts/000242-192-rpc.jsonl",
+      "size": 26911,
+      "sha256": "f43bb05d57e1fdcf3af65b685526cf8baec630fa96e30427fef35bd953e98335"
+    },
+    {
+      "path": "live/campaign/artifacts/000243-193-full-input-count.json",
+      "size": 36245,
+      "sha256": "6d3de55bc02ca95d1de6918d44c5ed952948baeeb965f1242062d53719b53eaf"
+    },
+    {
+      "path": "live/campaign/artifacts/000244-194-rpc.jsonl",
+      "size": 90,
+      "sha256": "02c8e43c60f34b8b5df5e57feb9df74fcf1ca32f2448b9c98d65cb7489f30f8f"
+    },
+    {
+      "path": "live/campaign/artifacts/000245-195-rpc.jsonl",
+      "size": 12402,
+      "sha256": "5a5c9e83b54965658d6e4cbebb383e9f604f87c490bee30d47d16ce024ed2ed3"
+    },
+    {
+      "path": "live/campaign/artifacts/000246-196-rpc.jsonl",
+      "size": 487,
+      "sha256": "8404dc0e7fcae583c7c13a2fca0d9907a669bfe9ed590d3fe26798888f6e92d3"
+    },
+    {
+      "path": "live/campaign/artifacts/000247-197-rpc.jsonl",
+      "size": 97,
+      "sha256": "a9e23f41f0828ac13551fbad56eb393010ab0df8e3b2de90ae5ed2ecb342264e"
+    },
+    {
+      "path": "live/campaign/artifacts/000248-198-binding-evidence.json",
+      "size": 13166,
+      "sha256": "d49f00f026cd612fcfdb18aa295fa802e2a9c60b7a48452be58009cd4bebc3cf"
+    },
+    {
+      "path": "live/campaign/artifacts/000249-199-client.json",
+      "size": 527,
+      "sha256": "116d55e7b75872e4a5c909eb141fb42e18b918b62bc005282b69a30aadaef41a"
+    },
+    {
+      "path": "live/campaign/artifacts/000250-200-rpc.jsonl",
+      "size": 487,
+      "sha256": "b4a7bad02bcc2574d1832204c8d37810a6d2a1cd40eaf52e6e40fd9d4d53f356"
+    },
+    {
+      "path": "live/campaign/artifacts/000251-201-client.json",
+      "size": 13155,
+      "sha256": "949dfe07f0ecc4d6f3e1dca9252c9c4b1f94daa7acad38ae7a97a6509a84e5f6"
+    },
+    {
+      "path": "live/campaign/artifacts/000253-202-provider-request.json",
+      "size": 12337,
+      "sha256": "69dafb179f4ce4de460d9943ab789d6d614e4c8fdefaebd23203ccc081cfc464"
+    },
+    {
+      "path": "live/campaign/artifacts/000254-203-rpc.jsonl",
+      "size": 1565,
+      "sha256": "e43f18034c54f5c9d1406254c053805762a96adad9246839cb5f76b09dd69043"
+    },
+    {
+      "path": "live/campaign/artifacts/000255-204-client.json",
+      "size": 2700,
+      "sha256": "74ec63bd9d7b348d57cc5d407ac07298eab5a1baa82e908d964f044a958b8dd5"
+    },
+    {
+      "path": "live/campaign/artifacts/000257-205-wire-events.json",
+      "size": 120261,
+      "sha256": "a152685cdbce5c8594382e63f1ce5d1597c34a57014c512e2bce0655fd2acea8"
+    },
+    {
+      "path": "live/campaign/artifacts/000258-206-application-result.json",
+      "size": 6847,
+      "sha256": "73e57a6312f55777d6c41a9224185be807c4126121cdff927b017d1cad098fb1"
+    },
+    {
+      "path": "live/campaign/artifacts/000262-207-pair-binding.json",
+      "size": 281,
+      "sha256": "101fb4973d41f2bd72824dcf9bf2bb18f6e7d11497cadedfed0359620c89f442"
+    },
+    {
+      "path": "live/campaign/artifacts/000263-208-rpc.jsonl",
+      "size": 28064,
+      "sha256": "abb1459e694f7c9b27f33b514cf5ac3c230dcafe0de1c454427e6c6aac3c7344"
+    },
+    {
+      "path": "live/campaign/artifacts/000264-209-full-input-count.json",
+      "size": 37706,
+      "sha256": "371cfabc26d27f199f3aa5d2601463be1b100da784542c35b02f3cd61a639aa4"
+    },
+    {
+      "path": "live/campaign/artifacts/000265-210-rpc.jsonl",
+      "size": 90,
+      "sha256": "84ebee5187344e28c54170bd75fad895c0b4e16fed91a096c7b0095cca0bbdf7"
+    },
+    {
+      "path": "live/campaign/artifacts/000266-211-rpc.jsonl",
+      "size": 12842,
+      "sha256": "38bd5049349f1c0ac8d96b88a6c2c5f4d80b0fc1a7c366bb4f98cd4262bdd623"
+    },
+    {
+      "path": "live/campaign/artifacts/000267-212-rpc.jsonl",
+      "size": 487,
+      "sha256": "2b903743d431c6cd5cbb63b91034e0a795fdd6de8bee9cbfacb9a6177b76922e"
+    },
+    {
+      "path": "live/campaign/artifacts/000268-213-rpc.jsonl",
+      "size": 99,
+      "sha256": "131883d986b329c81e6537ed5896a4f88955a6169b6492afa7bb9cfef9cd8307"
+    },
+    {
+      "path": "live/campaign/artifacts/000269-214-binding-evidence.json",
+      "size": 13606,
+      "sha256": "6c566f057eea7ba7bb0196c5901da88459cd024e322c329125604d6d120999da"
+    },
+    {
+      "path": "live/campaign/artifacts/000270-215-client.json",
+      "size": 527,
+      "sha256": "70218fd70ed498ec3208863113a51a2138d0caf903efbb6fc2fc4a57595f6f41"
+    },
+    {
+      "path": "live/campaign/artifacts/000271-216-rpc.jsonl",
+      "size": 487,
+      "sha256": "326e277e754164e991f6251f4285301d90ae4ee014ae7fe4c66c1ca8c72a890d"
+    },
+    {
+      "path": "live/campaign/artifacts/000272-217-client.json",
+      "size": 13596,
+      "sha256": "f75008f80249535ac95dceb08f8b29bd7e6f8a0180c0f4178d2828be4e78782f"
+    },
+    {
+      "path": "live/campaign/artifacts/000274-218-provider-request.json",
+      "size": 12782,
+      "sha256": "3b51e7b3adf3af4a13d2dc910e7220f463aa12b5b9ce0465da53555759b23fc4"
+    },
+    {
+      "path": "live/campaign/artifacts/000275-219-rpc.jsonl",
+      "size": 688,
+      "sha256": "98091ded15c2399a5550d35a4d03622c06ff45ef21b0a5b3ef2f2db1a7bd21f3"
+    },
+    {
+      "path": "live/campaign/artifacts/000276-220-client.json",
+      "size": 1823,
+      "sha256": "c3190fb9f32fe8ce5757ab0bd6bf359dbccac19cc6950ef33eb81803d4daf78e"
+    },
+    {
+      "path": "live/campaign/artifacts/000278-221-rpc.jsonl",
+      "size": 22069,
+      "sha256": "0cc54e56f81acfb2332d415e92c3cd811b1531dcda1f0508a2a8ab371fb3a0db"
+    },
+    {
+      "path": "live/campaign/artifacts/000279-222-full-input-count.json",
+      "size": 29436,
+      "sha256": "20cbd50dabcb1d0230af0470cc63db86e11a011d32e7643d38b19be5946052c8"
+    },
+    {
+      "path": "live/campaign/artifacts/000280-223-rpc.jsonl",
+      "size": 10023,
+      "sha256": "30422bdd7f9c61008acc8bea5ddecbf363f4ed12c9683cddf43b37529414bd3d"
+    },
+    {
+      "path": "live/campaign/artifacts/000281-224-rpc.jsonl",
+      "size": 487,
+      "sha256": "75a02b3ee2619fdb3d6b8167d76274ad5a7f291fbcbae1c26bbd34ff345dfc65"
+    },
+    {
+      "path": "live/campaign/artifacts/000282-225-rpc.jsonl",
+      "size": 98,
+      "sha256": "46d64570a4344ca0cc76c0392675d9508e3fc2570e4266d895199b9b3afe4c1f"
+    },
+    {
+      "path": "live/campaign/artifacts/000283-226-binding-evidence.json",
+      "size": 10787,
+      "sha256": "668546f53eeb2d5c4c2e0c174a4a3a136679d3cc23c8bb194aee742c4594f7fa"
+    },
+    {
+      "path": "live/campaign/artifacts/000284-227-client.json",
+      "size": 527,
+      "sha256": "e2dbda5a227b2dc8a143d26395f8180435e915c530f7e2e22e7a350779a3746d"
+    },
+    {
+      "path": "live/campaign/artifacts/000285-228-rpc.jsonl",
+      "size": 487,
+      "sha256": "647da6ab89826193dbe474dce14afd6ab758a48746550d95c1ad1c490a453674"
+    },
+    {
+      "path": "live/campaign/artifacts/000286-229-client.json",
+      "size": 10775,
+      "sha256": "e23f0b5c3ab0e01a7814356b87458dce4fffdd5cf6c78bce04384142666a3b4b"
+    },
+    {
+      "path": "live/campaign/artifacts/000288-230-provider-request.json",
+      "size": 9961,
+      "sha256": "75dc690c503cd71145dfc98f35fef931d2f602cb1d6d813d3ef2e9f731448eed"
+    },
+    {
+      "path": "live/campaign/artifacts/000289-231-rpc.jsonl",
+      "size": 738,
+      "sha256": "5b152d2ea4277438c6dcc41400f9b273cd23613af2d89e615610c032b7977d81"
+    },
+    {
+      "path": "live/campaign/artifacts/000290-232-client.json",
+      "size": 1873,
+      "sha256": "0459d8b2a369cf4338be8d3b639b648ae35c562903abb05118dec0129f8b3744"
+    },
+    {
+      "path": "live/campaign/artifacts/000292-233-rpc.jsonl",
+      "size": 30469,
+      "sha256": "dc0babf15eb2644764da51b8f9ef60531fd88b59a57df27e8c4f4f2bf3f7564b"
+    },
+    {
+      "path": "live/campaign/artifacts/000293-234-full-input-count.json",
+      "size": 40918,
+      "sha256": "29a7604ba4de1b00a5756473589975bbeb2d6f62d1971904b40d41592c8ce191"
+    },
+    {
+      "path": "live/campaign/artifacts/000294-235-rpc.jsonl",
+      "size": 13886,
+      "sha256": "791d9107a6b24cf5bf09d5c283ab8e77b0138cacd1d367291280b2d13cb1503e"
+    },
+    {
+      "path": "live/campaign/artifacts/000295-236-rpc.jsonl",
+      "size": 487,
+      "sha256": "30049c86a4fdc3ff293a852312dc25dc273d24fbd37031743dd5d0c23848724c"
+    },
+    {
+      "path": "live/campaign/artifacts/000296-237-rpc.jsonl",
+      "size": 99,
+      "sha256": "c9db4e671974b13d865285ea593a0eb4f94f28904db778b72885b3156b744ca9"
+    },
+    {
+      "path": "live/campaign/artifacts/000297-238-binding-evidence.json",
+      "size": 14650,
+      "sha256": "1c9be16ff3e4d107d11061e38a6a067d4b9eac1ab951792dcf4089fdb7ffffc2"
+    },
+    {
+      "path": "live/campaign/artifacts/000298-239-client.json",
+      "size": 528,
+      "sha256": "d64cb8802287c0d9630484b87fd40e355639816585d162a2db461c917cd2effa"
+    },
+    {
+      "path": "live/campaign/artifacts/000299-240-rpc.jsonl",
+      "size": 487,
+      "sha256": "b78f4e08e02d14968661519c9ae31bdfcaaf307ebe6bf3befd2e1ba5af90735a"
+    },
+    {
+      "path": "live/campaign/artifacts/000300-241-client.json",
+      "size": 14638,
+      "sha256": "27d8c9ff120b2c134937229e44537b7c9ae5ea7c88b388b1b6a3a3a38913559d"
+    },
+    {
+      "path": "live/campaign/artifacts/000302-242-provider-request.json",
+      "size": 13823,
+      "sha256": "7d4de9bf8d9fbbb36169f15f55d999ba7e70d1fdd0e08d5f079249252e52558d"
+    },
+    {
+      "path": "live/campaign/artifacts/000303-243-rpc.jsonl",
+      "size": 1460,
+      "sha256": "2bca9077fb9a52f9c9bafff599e1a060c46bf4b159851a4223b4057d6f5a58a1"
+    },
+    {
+      "path": "live/campaign/artifacts/000304-244-client.json",
+      "size": 2597,
+      "sha256": "8b0c75bee110a24b4cb2c969ebc549bd67c530fe4e38e803c11927367a7f02d1"
+    },
+    {
+      "path": "live/campaign/artifacts/000306-245-wire-events.json",
+      "size": 176968,
+      "sha256": "141c394ca8b7a4568c73c718a8d13cac135ab7adc219489452a606a3f7198240"
+    },
+    {
+      "path": "live/campaign/artifacts/000307-246-application-result.json",
+      "size": 11904,
+      "sha256": "9e8235ede6857aebcb3bb8ce57812e85f7e9c0f809273ca9aa7c916ee0f2967d"
+    },
+    {
+      "path": "live/campaign/artifacts/000311-247-pair-binding.json",
+      "size": 283,
+      "sha256": "7e8b897aeadf7b77a629c27f03ef8b916b8aadd7600e618fa0492fd1d95ab91a"
+    },
+    {
+      "path": "live/campaign/artifacts/000312-248-rpc.jsonl",
+      "size": 28064,
+      "sha256": "abb1459e694f7c9b27f33b514cf5ac3c230dcafe0de1c454427e6c6aac3c7344"
+    },
+    {
+      "path": "live/campaign/artifacts/000313-249-full-input-count.json",
+      "size": 37706,
+      "sha256": "371cfabc26d27f199f3aa5d2601463be1b100da784542c35b02f3cd61a639aa4"
+    },
+    {
+      "path": "live/campaign/artifacts/000314-250-rpc.jsonl",
+      "size": 91,
+      "sha256": "f2eadbd4037af0c9f1dbe6a87f9f6a17d124e1e6d36d14b815456e0f33634d18"
+    },
+    {
+      "path": "live/campaign/artifacts/000315-251-rpc.jsonl",
+      "size": 12843,
+      "sha256": "e02c308c8b54bac65d97e3c5e47034f6a4788212788cd73869d39de09488b0bc"
+    },
+    {
+      "path": "live/campaign/artifacts/000316-252-rpc.jsonl",
+      "size": 487,
+      "sha256": "e398cfa38d9ef20c76da4fdd21fd4548f40cbd6a4186831a987deb7d299c377f"
+    },
+    {
+      "path": "live/campaign/artifacts/000317-253-rpc.jsonl",
+      "size": 98,
+      "sha256": "9d357600c394ae1886b4cbd25da3b2c32ad565cdb3477a8a8538a0541141cb3a"
+    },
+    {
+      "path": "live/campaign/artifacts/000318-254-binding-evidence.json",
+      "size": 13607,
+      "sha256": "12dc774b515152fc3fce8704d5f3217e7a094a2518448f891f096f888be68a03"
+    },
+    {
+      "path": "live/campaign/artifacts/000319-255-client.json",
+      "size": 527,
+      "sha256": "5d361d795f6ee18f1ad1376bd36b5f632b90cc60dbe62bd20d86a1d8a25c1928"
+    },
+    {
+      "path": "live/campaign/artifacts/000320-256-rpc.jsonl",
+      "size": 486,
+      "sha256": "3e69ca5fe0905e30af42b91c8d36fd7136a459d8410af30d9393767e2536fcde"
+    },
+    {
+      "path": "live/campaign/artifacts/000321-257-client.json",
+      "size": 13596,
+      "sha256": "fabce5928d0e15d6b7106786b91a4b87d678382c09b9b7402a96e8a1a7e0cb90"
+    },
+    {
+      "path": "live/campaign/artifacts/000323-258-provider-request.json",
+      "size": 12784,
+      "sha256": "a64a8134cbc10494982d3420d4ae80b1b487f3697e954e9937fd161fcf2d5e5f"
+    },
+    {
+      "path": "live/campaign/artifacts/000324-259-rpc.jsonl",
+      "size": 688,
+      "sha256": "0ce41f91ecc2d3d07f21e9f63354de1b9af04fb7c2186afc11211055be54ab69"
+    },
+    {
+      "path": "live/campaign/artifacts/000325-260-client.json",
+      "size": 1823,
+      "sha256": "ea155a579cd519708982c01b42e6508cc081e974b020df23cc5ecdb1da349eb5"
+    },
+    {
+      "path": "live/campaign/artifacts/000327-261-rpc.jsonl",
+      "size": 21298,
+      "sha256": "15a77f8757cf2b2910832a7390f11d5c0f751a4a640d418f54e6ed7b7591f802"
+    },
+    {
+      "path": "live/campaign/artifacts/000328-262-full-input-count.json",
+      "size": 28416,
+      "sha256": "dab12cca91a829a3cbe2c4985541d393df7c91ec8f9305675d8fbbc55be54080"
+    },
+    {
+      "path": "live/campaign/artifacts/000329-263-rpc.jsonl",
+      "size": 9696,
+      "sha256": "6e6a0ad662541f0b3e3166aee00d0f64d9be1abc90bd333d703379231b7284a6"
+    },
+    {
+      "path": "live/campaign/artifacts/000330-264-rpc.jsonl",
+      "size": 488,
+      "sha256": "c52bb91edc03923fdbc6a647c2ab7994f8e9d5d8aee4ba20510761a6810909d4"
+    },
+    {
+      "path": "live/campaign/artifacts/000331-265-rpc.jsonl",
+      "size": 98,
+      "sha256": "c79c34bb02f2c60ff612f11c1a0d1eeadd0247f53a5b5cc18c5971859b99224d"
+    },
+    {
+      "path": "live/campaign/artifacts/000332-266-binding-evidence.json",
+      "size": 10459,
+      "sha256": "e187d0d40608a61132f6daea46696b327317286d5b5fb75744a0ae1596156fb8"
+    },
+    {
+      "path": "live/campaign/artifacts/000333-267-client.json",
+      "size": 527,
+      "sha256": "8d0ecf0b49ba8ede82db9f0a5e63c08c49ef56985a2e936bb649004cab110625"
+    },
+    {
+      "path": "live/campaign/artifacts/000334-268-rpc.jsonl",
+      "size": 487,
+      "sha256": "9d0d4fc463aa9bdd747e2b41766534063680409342dad72a167e29541b59d988"
+    },
+    {
+      "path": "live/campaign/artifacts/000335-269-client.json",
+      "size": 10448,
+      "sha256": "66dba58c842ee3bf78b59a8831a93d783e80b779d784d70f000c921937047ceb"
+    },
+    {
+      "path": "live/campaign/artifacts/000337-270-provider-request.json",
+      "size": 9636,
+      "sha256": "62d89577042bd2529b5ca361ac9815117752a79ffc607d4f831f88b0231008a7"
+    },
+    {
+      "path": "live/campaign/artifacts/000338-271-rpc.jsonl",
+      "size": 658,
+      "sha256": "8e7f39ac3a2d65dbfadeb3647e2e7a0aead271d448ce3306523d09b61e2af14d"
+    },
+    {
+      "path": "live/campaign/artifacts/000339-272-client.json",
+      "size": 1794,
+      "sha256": "60fae9e971b0ef49d226442529d5e13b19493809d6f158dcf7eb91ceea2af2ae"
+    },
+    {
+      "path": "live/campaign/artifacts/000341-273-rpc.jsonl",
+      "size": 28774,
+      "sha256": "ad971a7952fd0e6ed5da6f3647d387a7febf548aec200ceb1214373111ed4636"
+    },
+    {
+      "path": "live/campaign/artifacts/000342-274-full-input-count.json",
+      "size": 38675,
+      "sha256": "fcafcf94e6d93fb7b094b788c2ab9ea74a94eec6ae8980fc7bbae5fb3ba7cf70"
+    },
+    {
+      "path": "live/campaign/artifacts/000343-275-rpc.jsonl",
+      "size": 13141,
+      "sha256": "9ebd73cbef2b9d2b2394a3732ddfebd29f8f62d096ef5e6f658b661adfc7893e"
+    },
+    {
+      "path": "live/campaign/artifacts/000344-276-rpc.jsonl",
+      "size": 488,
+      "sha256": "71a04bbe2c21862c778e8d37ab2149106dd68c397b789c731238cc10ac6c87fa"
+    },
+    {
+      "path": "live/campaign/artifacts/000345-277-rpc.jsonl",
+      "size": 98,
+      "sha256": "7f76a61fd0fc2a3357e1eae6f2820435bed14e317190648b8a5436b72aa491f1"
+    },
+    {
+      "path": "live/campaign/artifacts/000346-278-binding-evidence.json",
+      "size": 13905,
+      "sha256": "b0450c1789ee4904a59f49ef7310a3eea12905b33b81cf7dd6eab6a0d06e3bb7"
+    },
+    {
+      "path": "live/campaign/artifacts/000347-279-client.json",
+      "size": 528,
+      "sha256": "15542f38f9273f7ab7c4a9931133e56cb74bc9c1db7ccff43e5c77187d5d0261"
+    },
+    {
+      "path": "live/campaign/artifacts/000348-280-rpc.jsonl",
+      "size": 487,
+      "sha256": "bf898011ac76ba2b22a617c8839a96037a9b178f4dcd7d92a52da3c02d20ea75"
+    },
+    {
+      "path": "live/campaign/artifacts/000349-281-client.json",
+      "size": 13929,
+      "sha256": "15dd9d5fec2f444c7378067cfe0101c1b5084b721150d9d0fb36bb627ffcb527"
+    },
+    {
+      "path": "live/campaign/artifacts/000351-282-provider-request.json",
+      "size": 13116,
+      "sha256": "8d08c4a1b41672218230e79ad07835d1ced8a702cd159af9409394cc6457af5e"
+    },
+    {
+      "path": "live/campaign/artifacts/000352-283-rpc.jsonl",
+      "size": 389,
+      "sha256": "3b7e7e243859651f3d465de2733b369fd6e2f9c65129ec827f7fc75d24bad2bc"
+    },
+    {
+      "path": "live/campaign/artifacts/000353-284-client.json",
+      "size": 1522,
+      "sha256": "c21ea5227e972aa8a86bf6af232d265fc46fc4fa5e4020a6a3e6eb279901fb0e"
+    },
+    {
+      "path": "live/campaign/artifacts/000355-285-rpc.jsonl",
+      "size": 21906,
+      "sha256": "3fe50d57b9120ba981aecad79ffa02646235aaa2973c1ce71dd172fe4cc0c0ca"
+    },
+    {
+      "path": "live/campaign/artifacts/000356-286-full-input-count.json",
+      "size": 29266,
+      "sha256": "1d31db1fd38a67b8cf78378e9d999c5a71032cb872407c0be6386e63b8442e41"
+    },
+    {
+      "path": "live/campaign/artifacts/000357-287-rpc.jsonl",
+      "size": 9963,
+      "sha256": "af74ace9aa136ee9914d4ce4be73046a43adbcedd77f68eb8ad017796f4bb0c0"
+    },
+    {
+      "path": "live/campaign/artifacts/000358-288-rpc.jsonl",
+      "size": 487,
+      "sha256": "950483c6446fd4cdab53a40ef1e1c3e9ca3122d9edcdb19c2138c6a4f1983617"
+    },
+    {
+      "path": "live/campaign/artifacts/000359-289-rpc.jsonl",
+      "size": 98,
+      "sha256": "43093702a8e3c16b0f52985442d46bf635e649adfdd3d25556f7086e7b5c0d85"
+    },
+    {
+      "path": "live/campaign/artifacts/000360-290-binding-evidence.json",
+      "size": 10727,
+      "sha256": "8480d251b6a19b6c20346f2f73982c0646b5f7f35f71b3e0ce27607457a876e8"
+    },
+    {
+      "path": "live/campaign/artifacts/000361-291-client.json",
+      "size": 527,
+      "sha256": "3a8c150263445861211397e6388e3188130da7f2adf994356c6b01b8f8b03675"
+    },
+    {
+      "path": "live/campaign/artifacts/000362-292-rpc.jsonl",
+      "size": 488,
+      "sha256": "2a651980d6d188cee1ea6867a941700617d23bd52005f5cc86bd14a161ef5e89"
+    },
+    {
+      "path": "live/campaign/artifacts/000363-293-client.json",
+      "size": 10750,
+      "sha256": "3da0aa91464060684fb3f0f88b6185aeb15f7c1e1eb7ff6e6933b7a77c0e920d"
+    },
+    {
+      "path": "live/campaign/artifacts/000365-294-provider-request.json",
+      "size": 9938,
+      "sha256": "7a0188edc551276c41001f93f0ff0fcdf95959d38d64b3ee96bb234789f3a7e7"
+    },
+    {
+      "path": "live/campaign/artifacts/000366-295-rpc.jsonl",
+      "size": 388,
+      "sha256": "eb8eea4919f5661973395f1c7300eee32357a0716dd1ae3b26561cf95473bce4"
+    },
+    {
+      "path": "live/campaign/artifacts/000367-296-client.json",
+      "size": 1521,
+      "sha256": "fc7e5910eebb9f1acc13c15ae802bd4f3fe36d08121a92f753e26973bdd4225a"
+    },
+    {
+      "path": "live/campaign/artifacts/000369-297-rpc.jsonl",
+      "size": 28802,
+      "sha256": "a1ae25db60ccfafb289c9e07aa63d591b2f1ac8b224bddd9ed86918711ca1beb"
+    },
+    {
+      "path": "live/campaign/artifacts/000370-298-full-input-count.json",
+      "size": 38741,
+      "sha256": "54898853e3b016a577a46162c4db92ad284eb618a5a164f056ea8f66a57b8e09"
+    },
+    {
+      "path": "live/campaign/artifacts/000371-299-rpc.jsonl",
+      "size": 13152,
+      "sha256": "228d873458e1d384e997757c350c23f871ec31b4e14fe080c37b897c18a6bf98"
+    },
+    {
+      "path": "live/campaign/artifacts/000372-300-rpc.jsonl",
+      "size": 487,
+      "sha256": "509ac45f0793802270da082ce89f3e666bb5a6bbd66da5710e6d14b19899041c"
+    },
+    {
+      "path": "live/campaign/artifacts/000373-301-rpc.jsonl",
+      "size": 98,
+      "sha256": "31e700350883abbc9ad7033d9ee296961efaba30468c7ff12f095521579c1dd0"
+    },
+    {
+      "path": "live/campaign/artifacts/000374-302-binding-evidence.json",
+      "size": 13916,
+      "sha256": "4d793828df26b14648ea88d896e28c72cf4c5236fb59e9eec0ba2d8c17345ba9"
+    },
+    {
+      "path": "live/campaign/artifacts/000375-303-client.json",
+      "size": 527,
+      "sha256": "9c90d2df6d2bbdb0c9717908483aa874a206431c10db9e7706d5a366b30ee155"
+    },
+    {
+      "path": "live/campaign/artifacts/000376-304-rpc.jsonl",
+      "size": 488,
+      "sha256": "5b1936400464354d7d0a71e1963cd259a6bbd9568d942c954428e7d0f3b6a003"
+    },
+    {
+      "path": "live/campaign/artifacts/000377-305-client.json",
+      "size": 13969,
+      "sha256": "ada6682d8922d32b2226882835c2617b3536f36abf368ac6e9665ab77d023d6d"
+    },
+    {
+      "path": "live/campaign/artifacts/000379-306-provider-request.json",
+      "size": 13157,
+      "sha256": "4be46fde7c2a8fc350d797e6acda0ac8b8068453aa3d243671b3bfe01a9a3170"
+    },
+    {
+      "path": "live/campaign/artifacts/000380-307-rpc.jsonl",
+      "size": 928,
+      "sha256": "9bd4c66109dab94d02640283873d544a04df413d71e45c8cc1269e06062662e8"
+    },
+    {
+      "path": "live/campaign/artifacts/000381-308-client.json",
+      "size": 2065,
+      "sha256": "0dca731d5bd703ec9ec18970a0aba838c1d32ec8e1e7dc5886a47be6ef67fd28"
+    },
+    {
+      "path": "live/campaign/artifacts/000383-309-rpc.jsonl",
+      "size": 21933,
+      "sha256": "c88f9705e6f02f74fecb2a1e84876874486e3d2dee16b177f79c227f48fd538e"
+    },
+    {
+      "path": "live/campaign/artifacts/000384-310-full-input-count.json",
+      "size": 29329,
+      "sha256": "cd4e7cabe25ff011ee0d78e443a62e47cc713b19f582c5e1177b8045ff1cb1fd"
+    },
+    {
+      "path": "live/campaign/artifacts/000385-311-rpc.jsonl",
+      "size": 9972,
+      "sha256": "3487484662ebe80a2bdffa8775fdd27dd9e494294f1b31722f6234af31ba1897"
+    },
+    {
+      "path": "live/campaign/artifacts/000386-312-rpc.jsonl",
+      "size": 486,
+      "sha256": "14a42a702800b4b2c5f80ad3ed639cd61f1f36fc0a5ffad774196cb6fc477bdc"
+    },
+    {
+      "path": "live/campaign/artifacts/000387-313-rpc.jsonl",
+      "size": 98,
+      "sha256": "4a5bf591f017513dba9a81f1f68215028083295ff89975999d7e2685a6c7074f"
+    },
+    {
+      "path": "live/campaign/artifacts/000388-314-binding-evidence.json",
+      "size": 10736,
+      "sha256": "9bc3b6e2020acc3cc00fd99543e82471853907def0bbe0e5f379d496d4ec3189"
+    },
+    {
+      "path": "live/campaign/artifacts/000389-315-client.json",
+      "size": 527,
+      "sha256": "a45543da4fe069df9c10552d8c52a58a85449704979ff3ea1458d1f0ea9ee37c"
+    },
+    {
+      "path": "live/campaign/artifacts/000390-316-rpc.jsonl",
+      "size": 487,
+      "sha256": "dc97637e593d654eba39f7eccce644658aa25caf45ea853ab4b0d8e84c590533"
+    },
+    {
+      "path": "live/campaign/artifacts/000391-317-client.json",
+      "size": 10789,
+      "sha256": "d0e69b99c1f74b755064a541065c385e7419a7039c9fa3fed8fc51297440c773"
+    },
+    {
+      "path": "live/campaign/artifacts/000393-318-provider-request.json",
+      "size": 9977,
+      "sha256": "f59f491ecb4c72967a34a7f742ae256425c520d1e39e53394b300b3c770f5d9f"
+    },
+    {
+      "path": "live/campaign/artifacts/000394-319-rpc.jsonl",
+      "size": 616,
+      "sha256": "72ba25c0f97fde85a9a56c27b30ee56a124ac2dec41ef4105010181ba4e6ef79"
+    },
+    {
+      "path": "live/campaign/artifacts/000395-320-client.json",
+      "size": 1751,
+      "sha256": "bcd4f0d8d2d7e784ec0f24c5a8e306a6c7788c11a643520d00b105677e1cf659"
+    },
+    {
+      "path": "live/campaign/artifacts/000397-321-wire-events.json",
+      "size": 1581,
+      "sha256": "5ec7ad25105c248151244df41931df4c9afdfcaf2f0000a5bdce8272cd726b73"
+    },
+    {
+      "path": "live/campaign/artifacts/000398-322-application-result.json",
+      "size": 7115,
+      "sha256": "23f9ed17c031375a275f6002178e5698aa2cf5d671a5f85c84a3026ff1755612"
+    },
+    {
+      "path": "live/campaign/artifacts/000402-323-pair-binding.json",
+      "size": 273,
+      "sha256": "58689113b6ddda59c214d5b9404fbd1eb20d305cd89547a0072e8252bda8bb44"
+    },
+    {
+      "path": "live/campaign/artifacts/000403-324-rpc.jsonl",
+      "size": 33987,
+      "sha256": "cae82022764ca05c5f1be5cee37fe44b49720305ba00ffa6a4277347195157f8"
+    },
+    {
+      "path": "live/campaign/artifacts/000404-325-full-input-count.json",
+      "size": 46801,
+      "sha256": "3a2e0a569529f813f4b492384f98f85625f77dab322006d782ba3a0f217b8dcf"
+    },
+    {
+      "path": "live/campaign/artifacts/000405-326-rpc.jsonl",
+      "size": 91,
+      "sha256": "fd39621e592aebe11fb0c852821091431645e29d921d0944f0f0b7b92f652928"
+    },
+    {
+      "path": "live/campaign/artifacts/000406-327-rpc.jsonl",
+      "size": 16363,
+      "sha256": "75208729f1e6d6d30ba9e9559c2b4c913a4ae6adf9926351cfd5412b6932f514"
+    },
+    {
+      "path": "live/campaign/artifacts/000407-328-rpc.jsonl",
+      "size": 487,
+      "sha256": "0d0f739e15ef621fbd29f2273cb24e8ceb9a18a0c902618ffff3c03d988298a1"
+    },
+    {
+      "path": "live/campaign/artifacts/000408-329-rpc.jsonl",
+      "size": 98,
+      "sha256": "0fdc5e8016287016f3805bbd9d897496008d0b36706b8f5161f4a2f323c523cd"
+    },
+    {
+      "path": "live/campaign/artifacts/000409-330-binding-evidence.json",
+      "size": 17127,
+      "sha256": "cf5e55b5e8e823ccc9f5a26000a125a4bafd6a3c284bdd478bfc5b976c1694f1"
+    },
+    {
+      "path": "live/campaign/artifacts/000410-331-client.json",
+      "size": 527,
+      "sha256": "a6e029116977ca879c6700fcfb5868a9e9cd81cff0e84d9bf19c14fcc70db543"
+    },
+    {
+      "path": "live/campaign/artifacts/000411-332-rpc.jsonl",
+      "size": 487,
+      "sha256": "8dd1b239ef8661b0b7a009ce0987f281c8589c3cb591395306394e8d9afd6c2e"
+    },
+    {
+      "path": "live/campaign/artifacts/000412-333-client.json",
+      "size": 17117,
+      "sha256": "f4fa55c383dc3163c1d23e5728d22b8f18288168a7164108e2c13a3c40540e3d"
+    },
+    {
+      "path": "live/campaign/artifacts/000414-334-provider-request.json",
+      "size": 16299,
+      "sha256": "e457788a897e6291b2acd45c10f9459d6fcc45b3a5f7414a228b5fe258a2a3aa"
+    },
+    {
+      "path": "live/campaign/artifacts/000415-335-rpc.jsonl",
+      "size": 2266,
+      "sha256": "1833ba514da2e614b7b3ae02b6a4f0a6a2e018d4573983a8e657f611dfbe9aa6"
+    },
+    {
+      "path": "live/campaign/artifacts/000416-336-client.json",
+      "size": 3402,
+      "sha256": "8c91b48b37fc17562e5080007d6b64aff010138f95d68420615e37cedfe6eba6"
+    },
+    {
+      "path": "live/campaign/artifacts/000418-337-wire-events.json",
+      "size": 192915,
+      "sha256": "c062f3bf92586e9d21fe652832f29a815c884285fa4c290def0f44ecf3aceae8"
+    },
+    {
+      "path": "live/campaign/artifacts/000419-338-application-result.json",
+      "size": 10356,
+      "sha256": "7cae4edcbc2f60f3bb50ab1f986fd65cd12d415118468142efc9e8f0983c56cf"
+    },
+    {
+      "path": "live/campaign/artifacts/000423-339-pair-binding.json",
+      "size": 275,
+      "sha256": "2afdc15a01f117423c09df5da134579251ec260d2ceb48cbc7a20b7edf48e232"
+    },
+    {
+      "path": "live/campaign/artifacts/000424-340-rpc.jsonl",
+      "size": 33987,
+      "sha256": "cae82022764ca05c5f1be5cee37fe44b49720305ba00ffa6a4277347195157f8"
+    },
+    {
+      "path": "live/campaign/artifacts/000425-341-full-input-count.json",
+      "size": 46801,
+      "sha256": "3a2e0a569529f813f4b492384f98f85625f77dab322006d782ba3a0f217b8dcf"
+    },
+    {
+      "path": "live/campaign/artifacts/000426-342-rpc.jsonl",
+      "size": 90,
+      "sha256": "ab13e20b03e780afbc6e55034acdbcf1ca36ae4d3e0f0364c61893ecbfca3596"
+    },
+    {
+      "path": "live/campaign/artifacts/000427-343-rpc.jsonl",
+      "size": 16364,
+      "sha256": "93e1694177fc7c19e82db70041f8da70a6763de256b41a8eeea533f6463316f9"
+    },
+    {
+      "path": "live/campaign/artifacts/000428-344-rpc.jsonl",
+      "size": 488,
+      "sha256": "5bad73e1159e19930ea8802463d81a984e2b5a0d3b383049d10fb33581e4c8a9"
+    },
+    {
+      "path": "live/campaign/artifacts/000429-345-rpc.jsonl",
+      "size": 96,
+      "sha256": "a15b16c0508ed62fb817fbefa18b61ee85c6f5846eb64ea0d868775da727b436"
+    },
+    {
+      "path": "live/campaign/artifacts/000430-346-binding-evidence.json",
+      "size": 17128,
+      "sha256": "9f57240b3822ba9f5b84511b001d43760b3e47ae0355e240c46376e97cabdd8c"
+    },
+    {
+      "path": "live/campaign/artifacts/000431-347-client.json",
+      "size": 528,
+      "sha256": "2cb2406093a9755f18ca510c0dfeddeadd6153e6dd3a3d2cd7be2a34afdb7669"
+    },
+    {
+      "path": "live/campaign/artifacts/000432-348-rpc.jsonl",
+      "size": 486,
+      "sha256": "0f0668b00afcba72db6529a3a83eef40487a2fa180b7a54b181b88ac5e6633f5"
+    },
+    {
+      "path": "live/campaign/artifacts/000433-349-client.json",
+      "size": 17118,
+      "sha256": "9c88b57dc4782b0a3d540a94665361948e6c08f504e526e44c46a9a9201a8e0c"
+    },
+    {
+      "path": "live/campaign/artifacts/000435-350-provider-request.json",
+      "size": 16301,
+      "sha256": "24d8bf169eadd39954169ca8bbfd359c3125379dc4c1318ebf3870e0e8229a0f"
+    },
+    {
+      "path": "live/campaign/artifacts/000436-351-rpc.jsonl",
+      "size": 2266,
+      "sha256": "fbaa063ba2d8f7613af4049051448e773a91095a926cd6460a4c6f8d57bec58d"
+    },
+    {
+      "path": "live/campaign/artifacts/000437-352-client.json",
+      "size": 3404,
+      "sha256": "c4bf59f094bacbc52f58adf7fccf849ecd050208da1025fbc287ef5bf4c1d18b"
+    },
+    {
+      "path": "live/campaign/artifacts/000439-353-wire-events.json",
+      "size": 291,
+      "sha256": "68acf2bdfdb91c5dc59927d51c7aee69c27456526b9ffd7c2114dc20336b6afd"
+    },
+    {
+      "path": "live/campaign/artifacts/000440-354-application-result.json",
+      "size": 4700,
+      "sha256": "28c63dbbaac44d2b811bc5d8c9bea85ede6c1d0706c686bd4679082bf64528dd"
+    },
+    {
+      "path": "live/campaign/artifacts/000444-355-pair-binding.json",
+      "size": 283,
+      "sha256": "0269fe79e4362ea1ce87d6634beb38306e355c240623f518b43ef4189e562159"
+    },
+    {
+      "path": "live/campaign/artifacts/000445-356-rpc.jsonl",
+      "size": 35140,
+      "sha256": "630daa52a30c183ac6c27929e1bf297ff0142f90014d2e7fc7ba199beaaf3b63"
+    },
+    {
+      "path": "live/campaign/artifacts/000446-357-full-input-count.json",
+      "size": 48262,
+      "sha256": "ce68ecc01245a7869331d3aad8bff2655bcac4102aa650b707a7fcc2ec89e3b8"
+    },
+    {
+      "path": "live/campaign/artifacts/000447-358-rpc.jsonl",
+      "size": 90,
+      "sha256": "026395cdbac8f721129aa69990fe12f6583639fe7b028ce1432058d89766b584"
+    },
+    {
+      "path": "live/campaign/artifacts/000448-359-rpc.jsonl",
+      "size": 16804,
+      "sha256": "93ca92a7060fd11b660c3e3603f1eb1f8feb85a0ac1e01f02f256e74f8601ce9"
+    },
+    {
+      "path": "live/campaign/artifacts/000449-360-rpc.jsonl",
+      "size": 486,
+      "sha256": "5085d4d0d62ffdfffc4b561aa18efd58d347126a72640ae8790012d8d942425f"
+    },
+    {
+      "path": "live/campaign/artifacts/000450-361-rpc.jsonl",
+      "size": 98,
+      "sha256": "66f0ed4e96c21762d7e424f676ff5486b02f060b5a7a1a111e0e96c0b9f6693e"
+    },
+    {
+      "path": "live/campaign/artifacts/000451-362-binding-evidence.json",
+      "size": 17569,
+      "sha256": "dcabd5eed80855ae07915daad477eb462fe9814a6c12b6bc63ee24942e78319e"
+    },
+    {
+      "path": "live/campaign/artifacts/000452-363-client.json",
+      "size": 528,
+      "sha256": "fa1fae2cec2dbe4abbc7e24d6dd9570d5f7ee57402efbffc6a40e8a3ca11ef50"
+    },
+    {
+      "path": "live/campaign/artifacts/000453-364-rpc.jsonl",
+      "size": 487,
+      "sha256": "bd694f524349d1f187bd9fa777ffbbdda45b4d063377e6c672c0ec3f6970c382"
+    },
+    {
+      "path": "live/campaign/artifacts/000454-365-client.json",
+      "size": 17559,
+      "sha256": "4c56f6039297fa61af403194959a90db943ad98f1b79c0717b00ea7d15cad2fd"
+    },
+    {
+      "path": "live/campaign/artifacts/000456-366-provider-request.json",
+      "size": 16746,
+      "sha256": "18111197a6b3a8a5577d692b2089393f840e078075efe06005ea5299c5d371b3"
+    },
+    {
+      "path": "live/campaign/artifacts/000457-367-rpc.jsonl",
+      "size": 672,
+      "sha256": "5f7c5df16cb7c006e079336bba23b7c2886e63410235900abe4697f295a111ce"
+    },
+    {
+      "path": "live/campaign/artifacts/000458-368-client.json",
+      "size": 1808,
+      "sha256": "c814c616ea85b61a452447ebe66db547a0026172be80e79db2c37d9f474ef011"
+    },
+    {
+      "path": "live/campaign/artifacts/000460-369-rpc.jsonl",
+      "size": 34148,
+      "sha256": "4af3e48187ff2fa44d41d71547df7ca223e5ffd17c35cb3da1972c31e1be66c6"
+    },
+    {
+      "path": "live/campaign/artifacts/000461-370-full-input-count.json",
+      "size": 47093,
+      "sha256": "700614dacc504cf39838509170c1e4cab9c1cdde5b576a2c7236010faff16125"
+    },
+    {
+      "path": "live/campaign/artifacts/000462-371-rpc.jsonl",
+      "size": 16510,
+      "sha256": "186a0ffa4f6878465473e8bc080b08305e21dd743ac61a9430031f24cc40f57b"
+    },
+    {
+      "path": "live/campaign/artifacts/000463-372-rpc.jsonl",
+      "size": 487,
+      "sha256": "3b63743afec94e599afd6c09abf4ebb40461191e7faf62071bc32f4ccde52838"
+    },
+    {
+      "path": "live/campaign/artifacts/000464-373-rpc.jsonl",
+      "size": 98,
+      "sha256": "23174717687b64b01e752c6b9d1577ef9293f4f7394285cc9fd608b780045086"
+    },
+    {
+      "path": "live/campaign/artifacts/000465-374-binding-evidence.json",
+      "size": 17274,
+      "sha256": "81db82b90a311c370a8a094d260fb01742fed6c0faf639242a7e03b77ea455ed"
+    },
+    {
+      "path": "live/campaign/artifacts/000466-375-client.json",
+      "size": 527,
+      "sha256": "5453f339493bc55dde761ad98afb031ac9b3dfedd65b7dee9d49f4e350cd92e9"
+    },
+    {
+      "path": "live/campaign/artifacts/000467-376-rpc.jsonl",
+      "size": 487,
+      "sha256": "1b7e6bae163defb56329f11c649c87893370ee6fd8c054e09c24ddc1a3e8c5f1"
+    },
+    {
+      "path": "live/campaign/artifacts/000468-377-client.json",
+      "size": 17263,
+      "sha256": "96112c3dbe39694cafc6602fcb5bab82248e83d385e6769b5a43746e8516e23c"
+    },
+    {
+      "path": "live/campaign/artifacts/000470-378-provider-request.json",
+      "size": 16451,
+      "sha256": "38b3c5b6892067003e7442bed17415fa812df324c8eb3874af1c996a5857d505"
+    },
+    {
+      "path": "live/campaign/artifacts/000471-379-rpc.jsonl",
+      "size": 504,
+      "sha256": "8ccfbc692e7cab1f66ab3329e64efc7f39b39e32f0f7d6a552605adf02ea632c"
+    },
+    {
+      "path": "live/campaign/artifacts/000472-380-client.json",
+      "size": 1640,
+      "sha256": "83d579337471c83d9f09a432faa72e51730bc81e78b679d20d39a30898256b4c"
+    },
+    {
+      "path": "live/campaign/artifacts/000474-381-rpc.jsonl",
+      "size": 35796,
+      "sha256": "eab9ef85a342ac67b75a932168856067e3c9c47bb68058bbfcb2fda624187e62"
+    },
+    {
+      "path": "live/campaign/artifacts/000475-382-full-input-count.json",
+      "size": 49165,
+      "sha256": "66f6ae09f81bb84eb243c453359f4742fe49001d1fd7399704fe6bdc86b43ce5"
+    },
+    {
+      "path": "live/campaign/artifacts/000476-383-rpc.jsonl",
+      "size": 17086,
+      "sha256": "1d863530ff26116da3c92f988bcc9673705fe743c8a2044b39839776e3a787be"
+    },
+    {
+      "path": "live/campaign/artifacts/000477-384-rpc.jsonl",
+      "size": 487,
+      "sha256": "26af9cdbfa09e158c9aaf0558e8a44f0766b2e32586689bfeb555b1a860d6f05"
+    },
+    {
+      "path": "live/campaign/artifacts/000478-385-rpc.jsonl",
+      "size": 98,
+      "sha256": "be9c99c44a43f85e2f702cc6f4746da02452841886aa56f12589f40b2bf9fe04"
+    },
+    {
+      "path": "live/campaign/artifacts/000479-386-binding-evidence.json",
+      "size": 17850,
+      "sha256": "a2417900f3805c7a34a056b9b9c41044e5ec896b389f237807c0ed35556dc707"
+    },
+    {
+      "path": "live/campaign/artifacts/000480-387-client.json",
+      "size": 527,
+      "sha256": "c0662fa48438b24ed2eac1a0f278af38281d2d3155b1e76176890dab933ab252"
+    },
+    {
+      "path": "live/campaign/artifacts/000481-388-rpc.jsonl",
+      "size": 487,
+      "sha256": "9166487661fb5a91813b2af65bc1eef03eb3a4d8459fadfaff0de015fb858305"
+    },
+    {
+      "path": "live/campaign/artifacts/000482-389-client.json",
+      "size": 17873,
+      "sha256": "d251ceeb86ab5d6a31f942536c9cee0023c9daf8ad42dd43f4661e148f2b290f"
+    },
+    {
+      "path": "live/campaign/artifacts/000484-390-provider-request.json",
+      "size": 17061,
+      "sha256": "4e55f0a286565839b9d738ad84592e390124a685f17227316c1126814d05a117"
+    },
+    {
+      "path": "live/campaign/artifacts/000485-391-rpc.jsonl",
+      "size": 389,
+      "sha256": "84510886d0056fb75a33662e2cf1a81f3131e4d4f8793735cd5a6a23fed34554"
+    },
+    {
+      "path": "live/campaign/artifacts/000486-392-client.json",
+      "size": 1522,
+      "sha256": "c60906b82aaacd903d41ac119bbcf1c9e3093948ebdd09ee53183b558fe9323d"
+    },
+    {
+      "path": "live/campaign/artifacts/000488-393-rpc.jsonl",
+      "size": 34434,
+      "sha256": "f33c081961f5ce551bf600bc898fb9217685140b3791fac97cb3e65712cf85c1"
+    },
+    {
+      "path": "live/campaign/artifacts/000489-394-full-input-count.json",
+      "size": 47498,
+      "sha256": "f66700e25184b56af4a5e6f7b237d22cf5ba558bfb80d42e5eebe50a17cc1c4e"
+    },
+    {
+      "path": "live/campaign/artifacts/000490-395-rpc.jsonl",
+      "size": 16625,
+      "sha256": "3e6c02fb6847d5ec20945329caf415d754eaec956530c17e54eaf0d694f51117"
+    },
+    {
+      "path": "live/campaign/artifacts/000491-396-rpc.jsonl",
+      "size": 488,
+      "sha256": "825aeb6d32dba7023df4f5d130727d93af7b4de92be44fc91194c2c76de04181"
+    },
+    {
+      "path": "live/campaign/artifacts/000492-397-rpc.jsonl",
+      "size": 98,
+      "sha256": "e33ef1a7a56e21e69191b8e9d986e5b453fb80dbc90177f0d7a8685dc99fa49b"
+    },
+    {
+      "path": "live/campaign/artifacts/000493-398-binding-evidence.json",
+      "size": 17389,
+      "sha256": "9ad4a65e152701aed6e9e045ee480e100ef03aebd19ceee49213aece9b6727b5"
+    },
+    {
+      "path": "live/campaign/artifacts/000494-399-client.json",
+      "size": 527,
+      "sha256": "3fe8c3a34094893cd8702d8b82437d8ef85af108223fdf62520547b16a686787"
+    },
+    {
+      "path": "live/campaign/artifacts/000495-400-rpc.jsonl",
+      "size": 487,
+      "sha256": "61a3630e5d4f5c8d89f445622fc6e785f53c2c858b41ec73c1cee503f96a0897"
+    },
+    {
+      "path": "live/campaign/artifacts/000496-401-client.json",
+      "size": 17412,
+      "sha256": "7dd931dc429f33b7ae79ba46dd83ef54b7c89b63eaf400e85b54675b1d55d77c"
+    },
+    {
+      "path": "live/campaign/artifacts/000498-402-provider-request.json",
+      "size": 16600,
+      "sha256": "9db9384e5167c215490333ced57be27b14f0dbabe352434e67faff5badd9ebf7"
+    },
+    {
+      "path": "live/campaign/artifacts/000499-403-rpc.jsonl",
+      "size": 390,
+      "sha256": "8fd9396279d4c9b9af9608cbb546fff5f08c8bcbc52eb3ef0317bdfba4ac8e4e"
+    },
+    {
+      "path": "live/campaign/artifacts/000500-404-client.json",
+      "size": 1523,
+      "sha256": "b165f753778c7b0d5319ff27c626c4f103648d59661017b78aa4ff31e658a2cd"
+    },
+    {
+      "path": "live/campaign/artifacts/000502-405-rpc.jsonl",
+      "size": 35824,
+      "sha256": "f707141aa803688c19271a803e2268da9ae7a79b60ec62bdbc92a3fcb6183ea4"
+    },
+    {
+      "path": "live/campaign/artifacts/000503-406-full-input-count.json",
+      "size": 49231,
+      "sha256": "c4fb83b8093d0e89bd16e26833afd997d1efeb10e1ee0fa66ed792729f7ba500"
+    },
+    {
+      "path": "live/campaign/artifacts/000504-407-rpc.jsonl",
+      "size": 17097,
+      "sha256": "c1962224ca225fdb821930f1c10644038e363aea18860b0c09c098e789e61efb"
+    },
+    {
+      "path": "live/campaign/artifacts/000505-408-rpc.jsonl",
+      "size": 487,
+      "sha256": "9c30edbd13b46908c2031062e583ad2f646cb6d06fc5c147b17a162477998a6d"
+    },
+    {
+      "path": "live/campaign/artifacts/000506-409-rpc.jsonl",
+      "size": 98,
+      "sha256": "2dc938ddbfe55427d76148bf7422f4f5fffcd2f8752f815230f9ef93d3b9b4da"
+    },
+    {
+      "path": "live/campaign/artifacts/000507-410-binding-evidence.json",
+      "size": 17861,
+      "sha256": "320f75980ff36502b72b30db58b6cf07e9100f856fe4256be16712ce0aac600a"
+    },
+    {
+      "path": "live/campaign/artifacts/000508-411-client.json",
+      "size": 528,
+      "sha256": "74d48a6f924a69ee1216199f4bb916013062d7d6fec98f70248fec0c989cd332"
+    },
+    {
+      "path": "live/campaign/artifacts/000509-412-rpc.jsonl",
+      "size": 488,
+      "sha256": "f856e411d94f83eb42c1b785faa85a99a2ac8c61fc97e66ff2349bb136b539b3"
+    },
+    {
+      "path": "live/campaign/artifacts/000510-413-client.json",
+      "size": 17915,
+      "sha256": "9a9ddf4021c3eb840abe3027a36c9a66312fb3b3c0e02343b9792381ac70d799"
+    },
+    {
+      "path": "live/campaign/artifacts/000512-414-provider-request.json",
+      "size": 17102,
+      "sha256": "2e9036803380deba39104c000c7f2009bb5bc281df61f0e125aca252e309052d"
+    },
+    {
+      "path": "live/campaign/artifacts/000513-415-rpc.jsonl",
+      "size": 727,
+      "sha256": "9dbd04728464efa83b3a51a930ebf2eb91c1d521eb241e90d07772c20d60293f"
+    },
+    {
+      "path": "live/campaign/artifacts/000514-416-client.json",
+      "size": 1863,
+      "sha256": "00d7a2571ae708bc02faf9011e98f517d6e7b3f9656a6d9bff24edb14b388017"
+    },
+    {
+      "path": "live/campaign/artifacts/000516-417-rpc.jsonl",
+      "size": 34461,
+      "sha256": "545dc35af4363e89d8077c4acbb83a47ed109d79aa46770b44e960a59fb7c8eb"
+    },
+    {
+      "path": "live/campaign/artifacts/000517-418-full-input-count.json",
+      "size": 47561,
+      "sha256": "e89fe9370aa3b1991cb45312070425abcfc24df4a9089d0dc3cfeef2efe23a9d"
+    },
+    {
+      "path": "live/campaign/artifacts/000518-419-rpc.jsonl",
+      "size": 16634,
+      "sha256": "6b5affb7fb537ed1b681a6206d0fc1fb0586ad061d449f4eb5de65530483ac57"
+    },
+    {
+      "path": "live/campaign/artifacts/000519-420-rpc.jsonl",
+      "size": 488,
+      "sha256": "6864a2893ee055ebda0858b7ec9a8ff4e40da0182638ec35e9c69c3303141d3a"
+    },
+    {
+      "path": "live/campaign/artifacts/000520-421-rpc.jsonl",
+      "size": 99,
+      "sha256": "a0ff1cd009f82e8098fa8ebbccc07b10d7002a98c6c71a0f76613e4af79b65bc"
+    },
+    {
+      "path": "live/campaign/artifacts/000521-422-binding-evidence.json",
+      "size": 17398,
+      "sha256": "0f3e0cb7f4d7cc6261d69da94eb8e31eaab0ea7ac81d413290fe1030ffb39a2e"
+    },
+    {
+      "path": "live/campaign/artifacts/000522-423-client.json",
+      "size": 527,
+      "sha256": "d2559038674885717f0c301cda6eba2503038d01f77b067b5cc100a923b0157c"
+    },
+    {
+      "path": "live/campaign/artifacts/000523-424-rpc.jsonl",
+      "size": 487,
+      "sha256": "9c50948dbb4a10e92cf3ff3bb869e63896cc5b1f115e2bbe0ed28a012eb47c12"
+    },
+    {
+      "path": "live/campaign/artifacts/000524-425-client.json",
+      "size": 17451,
+      "sha256": "c790a73c70dafa5edbddcc207bad2426c2488250de1866118d0952caaf7b0a3e"
+    },
+    {
+      "path": "live/campaign/artifacts/000526-426-provider-request.json",
+      "size": 16639,
+      "sha256": "1cf88224086cf2d307fc17d052affb042116648cef90e2eafe9aa9c4b40b3a28"
+    },
+    {
+      "path": "live/campaign/artifacts/000527-427-rpc.jsonl",
+      "size": 480,
+      "sha256": "ebc31744e07f443498656604b2b82929c685bb809d941b1f1aa45e08810170fe"
+    },
+    {
+      "path": "live/campaign/artifacts/000528-428-client.json",
+      "size": 1614,
+      "sha256": "07beda137709374c7ab8b94802591cbb23e6b024972b28be60a03ce33085ea78"
+    },
+    {
+      "path": "live/campaign/artifacts/000530-429-wire-events.json",
+      "size": 1580,
+      "sha256": "bf74c90239831ec5b0afec02c9331fd6f793697bfa46deb5c5f3cea8c942795f"
+    },
+    {
+      "path": "live/campaign/artifacts/000531-430-application-result.json",
+      "size": 6099,
+      "sha256": "7af6547bdbde727c051131f3860e677b0d3a80e41b48d429c5b25f79e6c8fd06"
+    },
+    {
+      "path": "live/campaign/artifacts/000535-431-pair-binding.json",
+      "size": 281,
+      "sha256": "bdbf5caf949f3475dbda41b819c2a3e2335eb1e2580dfa5e6069d0d4734c5ae7"
+    },
+    {
+      "path": "live/campaign/artifacts/000536-432-rpc.jsonl",
+      "size": 35140,
+      "sha256": "630daa52a30c183ac6c27929e1bf297ff0142f90014d2e7fc7ba199beaaf3b63"
+    },
+    {
+      "path": "live/campaign/artifacts/000537-433-full-input-count.json",
+      "size": 48262,
+      "sha256": "ce68ecc01245a7869331d3aad8bff2655bcac4102aa650b707a7fcc2ec89e3b8"
+    },
+    {
+      "path": "live/campaign/artifacts/000538-434-rpc.jsonl",
+      "size": 91,
+      "sha256": "3e83fc96f216cd16369210ce1d663ee28729b385c00e057bf5862419a1a95f8c"
+    },
+    {
+      "path": "live/campaign/artifacts/000539-435-rpc.jsonl",
+      "size": 16804,
+      "sha256": "b6b03d7b89c1efb20f251a479dab8c563234754952a4df9444e2ec13d7575182"
+    },
+    {
+      "path": "live/campaign/artifacts/000540-436-rpc.jsonl",
+      "size": 487,
+      "sha256": "1ba24e14ceb2037ac4e50e41911a534f92987ef54422f9fb1b007a7d6044b0f9"
+    },
+    {
+      "path": "live/campaign/artifacts/000541-437-rpc.jsonl",
+      "size": 98,
+      "sha256": "646b4643dcc99b13b118a060f913c62310bdb4d0b99e1193ca413a0eda8026b4"
+    },
+    {
+      "path": "live/campaign/artifacts/000542-438-binding-evidence.json",
+      "size": 17569,
+      "sha256": "446963b5f871e6507727f53282165fd0235f9b7f96e93b2f86038fb58396a8a1"
+    },
+    {
+      "path": "live/campaign/artifacts/000543-439-client.json",
+      "size": 527,
+      "sha256": "7013a1a6647f23a17e3bc220061b93c59246178b667691cded5c37b5416dec8a"
+    },
+    {
+      "path": "live/campaign/artifacts/000544-440-rpc.jsonl",
+      "size": 487,
+      "sha256": "d7ae2421e09642935f2442f0c1ac885d905b7427dcac444fd70001bdf924eaa8"
+    },
+    {
+      "path": "live/campaign/artifacts/000545-441-client.json",
+      "size": 17558,
+      "sha256": "8d8044a576d067f1487cb5b7ed87f977d4941f77f994b748c34e828649b6f492"
+    },
+    {
+      "path": "live/campaign/artifacts/000547-442-provider-request.json",
+      "size": 16744,
+      "sha256": "2970306c4e1595464fa7a02678d809ff1c50a504919cc55ac1e64a69f0258f85"
+    },
+    {
+      "path": "live/campaign/artifacts/000548-443-rpc.jsonl",
+      "size": 670,
+      "sha256": "dff9882794a90dead11ae94883ddced61a6e812ccc547321ff2d04ffb6b2711b"
+    },
+    {
+      "path": "live/campaign/artifacts/000549-444-client.json",
+      "size": 1806,
+      "sha256": "dc45c8ffcefd012218a973a307bba17619002ad39f056dc71883defe6dee8dbd"
+    },
+    {
+      "path": "live/campaign/artifacts/000551-445-rpc.jsonl",
+      "size": 34865,
+      "sha256": "017ccb3a309008028de47c70a47ea04611261b92d56712fc4ca46bc7c50e8221"
+    },
+    {
+      "path": "live/campaign/artifacts/000552-446-full-input-count.json",
+      "size": 48047,
+      "sha256": "d734e8f21e95ea8fe3dacbdab96351b85f55e34978cd74dc8272e67fac2d97b3"
+    },
+    {
+      "path": "live/campaign/artifacts/000553-447-rpc.jsonl",
+      "size": 16821,
+      "sha256": "d39abab44c4eb8a21eef6c7980e03f929c28c9c6b34aca086d0df76ee96d71c1"
+    },
+    {
+      "path": "live/campaign/artifacts/000554-448-rpc.jsonl",
+      "size": 485,
+      "sha256": "14f86a6c0d64e6da89da81c2f759ccd1f6697b826f7e35031cbe69946ca87749"
+    },
+    {
+      "path": "live/campaign/artifacts/000555-449-rpc.jsonl",
+      "size": 98,
+      "sha256": "5a6eeffc2e43e2aeaff022b3459f91a2b8ac33c74b8a1c85c62aeb48493140c3"
+    },
+    {
+      "path": "live/campaign/artifacts/000556-450-binding-evidence.json",
+      "size": 17585,
+      "sha256": "d3614f4f21f2ffec21fcda24a651e085486a2a4051e97acfeaa862c74dbb1acc"
+    },
+    {
+      "path": "live/campaign/artifacts/000557-451-client.json",
+      "size": 527,
+      "sha256": "4b834f96a483c9650155824cbefe0fb51be0271d9b5d083e88bda716904472ef"
+    },
+    {
+      "path": "live/campaign/artifacts/000558-452-rpc.jsonl",
+      "size": 487,
+      "sha256": "e59e87fc2dde9c50e7c679db3759764f6e5b80eb9a636898fd21fa12add89dbd"
+    },
+    {
+      "path": "live/campaign/artifacts/000559-453-client.json",
+      "size": 17573,
+      "sha256": "e0ea7d61c770a08f93779748a07af6307d3b00c77d826665c36ce8bc2b87933c"
+    },
+    {
+      "path": "live/campaign/artifacts/000561-454-provider-request.json",
+      "size": 16759,
+      "sha256": "498c5bb39887de6446902d309bae43d6e86eb0ce005f280a505c4e5d6c0cb9b3"
+    },
+    {
+      "path": "live/campaign/artifacts/000562-455-rpc.jsonl",
+      "size": 606,
+      "sha256": "5d3f1d301e726cb7860b6b5dcab5b254e73cb0faee1e12f76ed8d1f8a4d068f3"
+    },
+    {
+      "path": "live/campaign/artifacts/000563-456-client.json",
+      "size": 1741,
+      "sha256": "3924e1e787e1adb91296e7e88bc706a2775788c45f7b7f09e166956ce7685071"
+    },
+    {
+      "path": "live/campaign/artifacts/000565-457-rpc.jsonl",
+      "size": 36967,
+      "sha256": "98d6024597234362c13a786bc7dccbf726d6391fd2693ecc57ca1eb2e1467467"
+    },
+    {
+      "path": "live/campaign/artifacts/000566-458-full-input-count.json",
+      "size": 50687,
+      "sha256": "aebf6c56a227e7476f551c8552aff964866114be7fbafec9e3619dca3fcfae88"
+    },
+    {
+      "path": "live/campaign/artifacts/000567-459-rpc.jsonl",
+      "size": 17592,
+      "sha256": "67ac22d3e6473abb48bfb5b24cdd6e87be6e21a0aee0c5df3ea58f16bcafb003"
+    },
+    {
+      "path": "live/campaign/artifacts/000568-460-rpc.jsonl",
+      "size": 486,
+      "sha256": "72c156c4c54d7c780a21e46a6183282dd01166c18fcb2bb4f06dd13beb8beaaa"
+    },
+    {
+      "path": "live/campaign/artifacts/000569-461-rpc.jsonl",
+      "size": 98,
+      "sha256": "a05d2ed47546d531234346dfc84c9f652149e4f68fa287beda299dabb39d44b8"
+    },
+    {
+      "path": "live/campaign/artifacts/000570-462-binding-evidence.json",
+      "size": 18355,
+      "sha256": "dcbb993959ab6028b74241e17027103f880a01f56a5eec66ae6990eded96ce96"
+    },
+    {
+      "path": "live/campaign/artifacts/000571-463-client.json",
+      "size": 528,
+      "sha256": "089250ae597fc139c72823c244998b89a24c101763eea4a526972f8eef5ad356"
+    },
+    {
+      "path": "live/campaign/artifacts/000572-464-rpc.jsonl",
+      "size": 486,
+      "sha256": "67fdc80f7765977ebd55626cc52f11e6a67164f979942f7850acbaa01ce82dfb"
+    },
+    {
+      "path": "live/campaign/artifacts/000573-465-client.json",
+      "size": 18344,
+      "sha256": "fb6832144f626cc3deae6802d345cfeee8e971ce3fec3b57ed1b4980baaadc4b"
+    },
+    {
+      "path": "live/campaign/artifacts/000575-466-provider-request.json",
+      "size": 17529,
+      "sha256": "b2ffff0f0dc066b136842845df7d4c9a9bbee37a98b473d5354f0b087dfd4c24"
+    },
+    {
+      "path": "live/campaign/artifacts/000576-467-rpc.jsonl",
+      "size": 966,
+      "sha256": "dec4bc4b0c85793d60723b47570a3dcaf151d38ba25fdef79034e0011082023c"
+    },
+    {
+      "path": "live/campaign/artifacts/000577-468-client.json",
+      "size": 2102,
+      "sha256": "9b97e92d2d3637b10a01495f3120bdb3ea13d85ea1e1c68085e08b04e0755d92"
+    },
+    {
+      "path": "live/campaign/artifacts/000579-469-rpc.jsonl",
+      "size": 37527,
+      "sha256": "3319e0653374eac2ce45ddb6f67203ec9544263966ddfe1b992d84cd2b92a895"
+    },
+    {
+      "path": "live/campaign/artifacts/000580-470-full-input-count.json",
+      "size": 51635,
+      "sha256": "b13f345b0af3fd204f9bf94041c047a34fad1100adcb36c5cbff9b6f49d87ac6"
+    },
+    {
+      "path": "live/campaign/artifacts/000581-471-rpc.jsonl",
+      "size": 18008,
+      "sha256": "c8144e5b27de03f1475426fd98c08848bb35d92e2a3d54d2f5eb5dd87d8dc5f3"
+    },
+    {
+      "path": "live/campaign/artifacts/000582-472-rpc.jsonl",
+      "size": 488,
+      "sha256": "f339b18b8bc7ecd05dd39114003c3018be8af0bab6f565f237f654042e7a915a"
+    },
+    {
+      "path": "live/campaign/artifacts/000583-473-rpc.jsonl",
+      "size": 98,
+      "sha256": "f08e110e28b544ab44bafee8cd0694889fa4216fda87e7a64e012ae9fb3c6ecd"
+    },
+    {
+      "path": "live/campaign/artifacts/000584-474-binding-evidence.json",
+      "size": 18772,
+      "sha256": "6d43837a983f7ada5245cc03bfeeb3abfd2923e7a6f0315012ff46ed5868b82b"
+    },
+    {
+      "path": "live/campaign/artifacts/000585-475-client.json",
+      "size": 528,
+      "sha256": "742464e99ef0253208bfdf72b495a5f58f27dd4609911fd94f9de18dac90a28a"
+    },
+    {
+      "path": "live/campaign/artifacts/000586-476-rpc.jsonl",
+      "size": 488,
+      "sha256": "84a20ef7139680e613e1cfb3ebeba9ae65ee7caa5acca936b4910863e8da2864"
+    },
+    {
+      "path": "live/campaign/artifacts/000587-477-client.json",
+      "size": 18759,
+      "sha256": "9a8f6c5b81af7909ac2b75372127537945adba00764347618d43153451f77b96"
+    },
+    {
+      "path": "live/campaign/artifacts/000589-478-provider-request.json",
+      "size": 17944,
+      "sha256": "0ec2f2987b7f3a5761c24ff697f00317d3f17c2539ac15146456fd143bc3f5e1"
+    },
+    {
+      "path": "live/campaign/artifacts/000590-479-rpc.jsonl",
+      "size": 630,
+      "sha256": "2da3ecd97b06238f530bffc85b51b2f6173c970392dcde82f0ecfae22b6fd209"
+    },
+    {
+      "path": "live/campaign/artifacts/000591-480-client.json",
+      "size": 1767,
+      "sha256": "51b955f317b14cfb087101a2bd48123bd9bb642e4c91b967ac50a72af4b89a6a"
+    },
+    {
+      "path": "live/campaign/artifacts/000593-481-rpc.jsonl",
+      "size": 39620,
+      "sha256": "4f54165b9b9173139f20b16132014cc91b5fa48aac252e1b2c056eaea0a54447"
+    },
+    {
+      "path": "live/campaign/artifacts/000594-482-full-input-count.json",
+      "size": 54301,
+      "sha256": "79355c0dde539b8667ddfd736f99c5e190d093d5bce1e04df9610e6b708075c9"
+    },
+    {
+      "path": "live/campaign/artifacts/000595-483-rpc.jsonl",
+      "size": 18805,
+      "sha256": "51dc9c3c8cc12240b41ff90bb447a8aea3e6e24357efd7cf3e76299c8cd79e43"
+    },
+    {
+      "path": "live/campaign/artifacts/000596-484-rpc.jsonl",
+      "size": 487,
+      "sha256": "9b8fe4d6ae53509207a3d010f4203531b80f6e3c0d749ab9c168916a94d6f8e8"
+    },
+    {
+      "path": "live/campaign/artifacts/000597-485-rpc.jsonl",
+      "size": 98,
+      "sha256": "1586f84777dcb9e36ebca73a7d9bb4ccbc6e92f06d7cbd383e1f27c924ef0a07"
+    },
+    {
+      "path": "live/campaign/artifacts/000598-486-binding-evidence.json",
+      "size": 19569,
+      "sha256": "8075d5c01a2023f77b33d592d7b6f1eef895475d44c97f9b13cf47e7c7e3e5ec"
+    },
+    {
+      "path": "live/campaign/artifacts/000599-487-client.json",
+      "size": 527,
+      "sha256": "82494751edca6fc8431b65608e4383cf4360a27a73e4a64d32965e650111473a"
+    },
+    {
+      "path": "live/campaign/artifacts/000600-488-rpc.jsonl",
+      "size": 487,
+      "sha256": "d0ed3a402f8a25ab60dfc1f5ebafbf987e67cc14b6942af601327201936ac8e5"
+    },
+    {
+      "path": "live/campaign/artifacts/000601-489-client.json",
+      "size": 19554,
+      "sha256": "3a4c2ace43626357fcbe355284d1e7ba8b33656a4b41017b7205d73eb39ed375"
+    },
+    {
+      "path": "live/campaign/artifacts/000603-490-provider-request.json",
+      "size": 18740,
+      "sha256": "8cd2a99bc9e0d20c353e982a0587fdb90d9e377cb4d7423682746a3440ede985"
+    },
+    {
+      "path": "live/campaign/artifacts/000604-491-rpc.jsonl",
+      "size": 970,
+      "sha256": "ecf594077b3ded9cbb1c30c37afa032020767bc8838b27a639431ae1988a9112"
+    },
+    {
+      "path": "live/campaign/artifacts/000605-492-client.json",
+      "size": 2105,
+      "sha256": "30fdf685a55a153e9036a70d9275e94dabd8d1fe1ff1b17c456b4e0840a54865"
+    },
+    {
+      "path": "live/campaign/artifacts/000607-493-rpc.jsonl",
+      "size": 40374,
+      "sha256": "2b0e94dabcf4d95f816ac4544e047cb5980adb25adcf465fe82748ef1f75e32a"
+    },
+    {
+      "path": "live/campaign/artifacts/000608-494-full-input-count.json",
+      "size": 55500,
+      "sha256": "3f336e38c94c36950b6ed67c04ab0b632ab291600a42fb29ba0448858fc6199d"
+    },
+    {
+      "path": "live/campaign/artifacts/000609-495-rpc.jsonl",
+      "size": 19301,
+      "sha256": "cd3aa59418b04564227bbf77730373397511a4c01c2252ca6ace1c0f8af0fdab"
+    },
+    {
+      "path": "live/campaign/artifacts/000610-496-rpc.jsonl",
+      "size": 487,
+      "sha256": "d6313b35eed4d09a69338235b436c7f1663912a6920c22f7318ed33667124252"
+    },
+    {
+      "path": "live/campaign/artifacts/000611-497-rpc.jsonl",
+      "size": 98,
+      "sha256": "7aab8e46f7bbd6f465aa361b1054ff60e08e29a3f50518531d7bde3b8425bde0"
+    },
+    {
+      "path": "live/campaign/artifacts/000612-498-binding-evidence.json",
+      "size": 20065,
+      "sha256": "62f8bcdf505181fa85d7ab20268d982a89e72a5b6d31bd444dbeb7cfaa9f5481"
+    },
+    {
+      "path": "live/campaign/artifacts/000613-499-client.json",
+      "size": 528,
+      "sha256": "0294c1c2fe4ab9302aa22af5ce1e1e45f46dd7b56f6dc264f00dc8f3ebb1e652"
+    },
+    {
+      "path": "live/campaign/artifacts/000614-500-rpc.jsonl",
+      "size": 487,
+      "sha256": "e03d250a8889304c382f5cf9e64e97f8059602ed7a264017fc337a9823435af8"
+    },
+    {
+      "path": "live/campaign/artifacts/000615-501-client.json",
+      "size": 20050,
+      "sha256": "42a9162b6aa882e6164b55950731430fa0261471a7cc758092631914107d828e"
+    },
+    {
+      "path": "live/campaign/artifacts/000617-502-provider-request.json",
+      "size": 19235,
+      "sha256": "c0165f3f699a55bab7986409eddcd6f97464f2e250a6905aff58e3aeefc44f98"
+    },
+    {
+      "path": "live/campaign/artifacts/000618-503-rpc.jsonl",
+      "size": 843,
+      "sha256": "574a37fed8dde713a5cd520145e0b4ca8e8f2a87952dee1043754913aaa72439"
+    },
+    {
+      "path": "live/campaign/artifacts/000619-504-client.json",
+      "size": 1978,
+      "sha256": "24e35c14a4502c631daaf240319bf11de024a7b3e53d453ffc955ad47ab640b2"
+    },
+    {
+      "path": "live/campaign/artifacts/000621-505-wire-events.json",
+      "size": 244332,
+      "sha256": "7622dc60daffe1224c65a5323124c3e37fedd7a486183d3680c337c2c24ee0b4"
+    },
+    {
+      "path": "live/campaign/artifacts/000622-506-application-result.json",
+      "size": 18213,
+      "sha256": "30b3508e9d7a2f52fc5a4833a773de277b445f0caa42e42f14cbdf8a3ef32b90"
+    },
+    {
+      "path": "live/campaign/artifacts/000626-507-pair-binding.json",
+      "size": 275,
+      "sha256": "8dda434272d154886cb780dd5b6fc40ddb02efb06d0eb599818465ab18c4b4d3"
+    },
+    {
+      "path": "live/campaign/artifacts/000627-508-rpc.jsonl",
+      "size": 27337,
+      "sha256": "22da4aba3cb6c4b2dfa6b56041f40996529a4643e84df950df13abb8324c5055"
+    },
+    {
+      "path": "live/campaign/artifacts/000628-509-full-input-count.json",
+      "size": 37096,
+      "sha256": "1e6e55c5cfea29c4e1fdf08aced20e754f5bbc24597f4085fa3423ba15267deb"
+    },
+    {
+      "path": "live/campaign/artifacts/000629-510-rpc.jsonl",
+      "size": 90,
+      "sha256": "f158cb4d4efc551b7a531c2af3831892a60e8f2dada37a49d628619d19afe242"
+    },
+    {
+      "path": "live/campaign/artifacts/000630-511-rpc.jsonl",
+      "size": 12821,
+      "sha256": "62e3aa1bcd9283563b246cd581cb7826377cfcf8588dcf722ec3904a8d67946e"
+    },
+    {
+      "path": "live/campaign/artifacts/000631-512-rpc.jsonl",
+      "size": 487,
+      "sha256": "06a1f19146155daf7e8216b1411020f9bf2fb612c5d0d206a340b5516ad8c5fc"
+    },
+    {
+      "path": "live/campaign/artifacts/000632-513-rpc.jsonl",
+      "size": 98,
+      "sha256": "f368fb67d7a058a0b40672b9e07116ca5c3454e161aa0c1c69ae52505d9d82e7"
+    },
+    {
+      "path": "live/campaign/artifacts/000633-514-binding-evidence.json",
+      "size": 13584,
+      "sha256": "b1c8a29c4e8942cf3cbf6ce17a5fb2cdcc58efdb34294625eb085a89508782f9"
+    },
+    {
+      "path": "live/campaign/artifacts/000634-515-client.json",
+      "size": 527,
+      "sha256": "3a82a9af057f1f4d33889c00d0584cb1c9f246f30fb53e12d0459a31e9882ebb"
+    },
+    {
+      "path": "live/campaign/artifacts/000635-516-rpc.jsonl",
+      "size": 487,
+      "sha256": "0a493ef7ed05c3959fa822d61cf4f8ea1a908c2966cd0e2f260b2f1a70da09ea"
+    },
+    {
+      "path": "live/campaign/artifacts/000636-517-client.json",
+      "size": 13573,
+      "sha256": "779cc973eca0384aee92e240b8d99623c80373c18c01b61804386b7bccda4bc4"
+    },
+    {
+      "path": "live/campaign/artifacts/000638-518-provider-request.json",
+      "size": 12757,
+      "sha256": "dbe396149543d6c54d9b0f327c92b71313540202c7cbf685a82d94746224718e"
+    },
+    {
+      "path": "live/campaign/artifacts/000639-519-rpc.jsonl",
+      "size": 1429,
+      "sha256": "141774e640ad4a2fffa5c1ec98296d1cd23a173a13c64af7c8c6669a9dc38acc"
+    },
+    {
+      "path": "live/campaign/artifacts/000640-520-client.json",
+      "size": 2565,
+      "sha256": "fb9ba7e624b921cc8b14e83681e14cdaaddb1f49e78df88b8862ead648079109"
+    },
+    {
+      "path": "live/campaign/artifacts/000642-521-rpc.jsonl",
+      "size": 19450,
+      "sha256": "893772797ed5c5867f71dbb42fa5a09bc6946077356255b1ba5589516ba25fe3"
+    },
+    {
+      "path": "live/campaign/artifacts/000643-522-full-input-count.json",
+      "size": 26045,
+      "sha256": "2c08be241c313e9ebcf47f7ed3d51f405b9dd12f3f0c7851c254f9cc17529104"
+    },
+    {
+      "path": "live/campaign/artifacts/000644-523-rpc.jsonl",
+      "size": 8961,
+      "sha256": "6d30c97e48b2b50a51af7dbf7fed8bf0705626db720895444799f5c3754e61cf"
+    },
+    {
+      "path": "live/campaign/artifacts/000645-524-rpc.jsonl",
+      "size": 488,
+      "sha256": "6d85ae5108f0325c0e77cb47d43015caa2007a16946e8af77209b34ffcaf52e0"
+    },
+    {
+      "path": "live/campaign/artifacts/000646-525-rpc.jsonl",
+      "size": 97,
+      "sha256": "46a631fc81a8d2bb0b35390b45797e40c8772b3eca66eb2ddc7fe2a07d372422"
+    },
+    {
+      "path": "live/campaign/artifacts/000647-526-binding-evidence.json",
+      "size": 9725,
+      "sha256": "33dbb56459557ad24a30b0b0db8119a1bc16adec12225491c6bb162cd4a88e6e"
+    },
+    {
+      "path": "live/campaign/artifacts/000648-527-client.json",
+      "size": 527,
+      "sha256": "c55c7a7073988de188a97facb56f7505dfd6f2331c49338cad9e3ee76d00abb3"
+    },
+    {
+      "path": "live/campaign/artifacts/000649-528-rpc.jsonl",
+      "size": 488,
+      "sha256": "06696d53d78794d558d59d26ccaabb13c46fa419b96c77d2a95c833ab6219e05"
+    },
+    {
+      "path": "live/campaign/artifacts/000650-529-client.json",
+      "size": 9714,
+      "sha256": "c8c06c2e4920f179f1c2118f34c0012ff6ab43815b78f0dac78144b299e4818c"
+    },
+    {
+      "path": "live/campaign/artifacts/000652-530-provider-request.json",
+      "size": 8898,
+      "sha256": "21a1617222693a830f4bcbc3991c24567c5c5366f7f1b23497b3f4a5ae62d101"
+    },
+    {
+      "path": "live/campaign/artifacts/000653-531-rpc.jsonl",
+      "size": 1690,
+      "sha256": "001059a88227768f9bfa75a4b9c9848ff5c79615b33fdc7ad846e69eef595ebc"
+    },
+    {
+      "path": "live/campaign/artifacts/000654-532-client.json",
+      "size": 2826,
+      "sha256": "cbcfdae9d32cfab808a0837d528cc90ad27c51c91b225947a27c46b2dc26ca0e"
+    },
+    {
+      "path": "live/campaign/artifacts/000656-533-wire-events.json",
+      "size": 550,
+      "sha256": "2a39e034eb51b9985a4c137a25d8fbcc421229dd218ee2abd05a47db6b1da382"
+    },
+    {
+      "path": "live/campaign/artifacts/000657-534-application-result.json",
+      "size": 6318,
+      "sha256": "843bd64ed8c68d9a99189f7962aad5da46bf0ecd15c2706573dcd83c104a5ba3"
+    },
+    {
+      "path": "live/campaign/artifacts/000661-535-pair-binding.json",
+      "size": 273,
+      "sha256": "29a9817d01d6e1bed872250d4561e2731c488e4b4db1cb71e5574f097c673c8a"
+    },
+    {
+      "path": "live/campaign/artifacts/000662-536-rpc.jsonl",
+      "size": 27337,
+      "sha256": "22da4aba3cb6c4b2dfa6b56041f40996529a4643e84df950df13abb8324c5055"
+    },
+    {
+      "path": "live/campaign/artifacts/000663-537-full-input-count.json",
+      "size": 37096,
+      "sha256": "1e6e55c5cfea29c4e1fdf08aced20e754f5bbc24597f4085fa3423ba15267deb"
+    },
+    {
+      "path": "live/campaign/artifacts/000664-538-rpc.jsonl",
+      "size": 91,
+      "sha256": "5d567b0efd818a8a330a852f037589be7205538e84c06e2e76930027222fc716"
+    },
+    {
+      "path": "live/campaign/artifacts/000665-539-rpc.jsonl",
+      "size": 12820,
+      "sha256": "6bf0fafee97f9020a0f012eb101df1040c210514b316745569e9e6293fddc570"
+    },
+    {
+      "path": "live/campaign/artifacts/000666-540-rpc.jsonl",
+      "size": 486,
+      "sha256": "084cb0cbd466d7f52697f73d5e8f348d0e7c85e78321e5967cabbb544aeed499"
+    },
+    {
+      "path": "live/campaign/artifacts/000667-541-rpc.jsonl",
+      "size": 99,
+      "sha256": "8112bfa1052c4b706b35f7b6d3c86e72bc19d6bf03198f45ee0d22a2dd42040d"
+    },
+    {
+      "path": "live/campaign/artifacts/000668-542-binding-evidence.json",
+      "size": 13584,
+      "sha256": "dc4ca34657c9c3f2824ef6f562b879808cf2cbb619a9f7a001049aa979f8d966"
+    },
+    {
+      "path": "live/campaign/artifacts/000669-543-client.json",
+      "size": 527,
+      "sha256": "0c306e308e604e249c401f76b9949174494f2f96ac001f107b4dc8a8f500517f"
+    },
+    {
+      "path": "live/campaign/artifacts/000670-544-rpc.jsonl",
+      "size": 487,
+      "sha256": "99b51cc7781305a10dc02d9046d9a1d76fda65e00e7bc722065ccde1061f36c9"
+    },
+    {
+      "path": "live/campaign/artifacts/000671-545-client.json",
+      "size": 13573,
+      "sha256": "b57efdf5b75f50509965761f96f0626e176fce1dbc2e6952eb1c7e7ab8dd1dfe"
+    },
+    {
+      "path": "live/campaign/artifacts/000673-546-provider-request.json",
+      "size": 12755,
+      "sha256": "1e21d9df24bdd14d876710e0affac0a98325d8873d00abfaf5be4746fc1d5569"
+    },
+    {
+      "path": "live/campaign/artifacts/000674-547-rpc.jsonl",
+      "size": 1429,
+      "sha256": "621fb31503aaf0315910ca048ee1fbf01a44364d21fd26c0b6213cfbfa8c0bd6"
+    },
+    {
+      "path": "live/campaign/artifacts/000675-548-client.json",
+      "size": 2565,
+      "sha256": "7fcab1c1abd22ffe31e89494a204b67ea605ac2c2cc269d15af0a8d1773eddd6"
+    },
+    {
+      "path": "live/campaign/artifacts/000677-549-rpc.jsonl",
+      "size": 21695,
+      "sha256": "501d6a5dd2f29e030712c05aeb6bc1a104acf2a3334098b915ebc34da75eff41"
+    },
+    {
+      "path": "live/campaign/artifacts/000678-550-full-input-count.json",
+      "size": 29152,
+      "sha256": "21acdbc92e2be290116adf242d34d498af8bbd2f76360eb3a342687ae7563f2c"
+    },
+    {
+      "path": "live/campaign/artifacts/000679-551-rpc.jsonl",
+      "size": 10029,
+      "sha256": "02057900a925b9de8b538748d75ffb79106f49e35fe48508ef963a99e0a3118f"
+    },
+    {
+      "path": "live/campaign/artifacts/000680-552-rpc.jsonl",
+      "size": 487,
+      "sha256": "8eb49047f2f59335613c3562a8fd5e9aeed1876b14c684530dde65006f7ce2ef"
+    },
+    {
+      "path": "live/campaign/artifacts/000681-553-rpc.jsonl",
+      "size": 98,
+      "sha256": "1576ddf7759942f75cf9a21da0e0656aa798d3e4a3f8a4c72e65bd012cc79c21"
+    },
+    {
+      "path": "live/campaign/artifacts/000682-554-binding-evidence.json",
+      "size": 10792,
+      "sha256": "b9e11a1ce95e7540982c43b66470764d74eb054f81e5982f56cea0a712cdf501"
+    },
+    {
+      "path": "live/campaign/artifacts/000683-555-client.json",
+      "size": 528,
+      "sha256": "fa6a74b3e47ea576fe73ee67df970203ac89c3b397ebfd97ab11f216760a82fb"
+    },
+    {
+      "path": "live/campaign/artifacts/000684-556-rpc.jsonl",
+      "size": 487,
+      "sha256": "da569dc01ed4d9c76c11cf75c3edf0cff3182f88967f4546c60f59bff68e129c"
+    },
+    {
+      "path": "live/campaign/artifacts/000685-557-client.json",
+      "size": 10782,
+      "sha256": "5d7d21aefcc716bad498f5feee85b94cf58629ae3bfab188c1ce7cbefcb10b66"
+    },
+    {
+      "path": "live/campaign/artifacts/000687-558-provider-request.json",
+      "size": 9963,
+      "sha256": "f7d1f3140b5c747ba9311464a8145e6a39bcdbb44f49ead2d099e744bb55bb29"
+    },
+    {
+      "path": "live/campaign/artifacts/000688-559-rpc.jsonl",
+      "size": 1737,
+      "sha256": "0cf71252e59f9fc58f598838d645875409c74f5fb9cfdf8cde7cde2ec1b532df"
+    },
+    {
+      "path": "live/campaign/artifacts/000689-560-client.json",
+      "size": 2874,
+      "sha256": "23186612c3a15985d7c0640845a7a1aee37f8518214cac7f2db6806e159e9dac"
+    },
+    {
+      "path": "live/campaign/artifacts/000691-561-wire-events.json",
+      "size": 246146,
+      "sha256": "6677a3e7f831d9c9ac90a04230a8615b9bf7261e9bb973d3ead4077b4c06f534"
+    },
+    {
+      "path": "live/campaign/artifacts/000692-562-application-result.json",
+      "size": 13623,
+      "sha256": "6a3bf437ce9da3ac44d9e464b37e325bb879d06b2ee610c61afa8186f4872f29"
+    },
+    {
+      "path": "live/campaign/artifacts/000696-563-pair-binding.json",
+      "size": 281,
+      "sha256": "c756a217513a46e91f41ad4f64690c4203752ef81a7110a5b49f51999db168c6"
+    },
+    {
+      "path": "live/campaign/artifacts/000697-564-rpc.jsonl",
+      "size": 28490,
+      "sha256": "910f9173240477daae919590c2bc820a3e1f429b29b4871bf52c8a94fe8c68f0"
+    },
+    {
+      "path": "live/campaign/artifacts/000698-565-full-input-count.json",
+      "size": 38557,
+      "sha256": "f269490502877b996d50693d555d204c5cc74eebce021c1a670652b9a3560735"
+    },
+    {
+      "path": "live/campaign/artifacts/000699-566-rpc.jsonl",
+      "size": 90,
+      "sha256": "3cd518ad91cf3a74d2d63185e0938d3c605f6de61fc231df5ea91d071e630836"
+    },
+    {
+      "path": "live/campaign/artifacts/000700-567-rpc.jsonl",
+      "size": 13261,
+      "sha256": "6fd78d1157ed6bf60e6882d55de55dc35dda311bfc4f98d1a8f7b5bc68d7acf1"
+    },
+    {
+      "path": "live/campaign/artifacts/000701-568-rpc.jsonl",
+      "size": 487,
+      "sha256": "cefc8c905e19fccac8a4978bda5e607954e31c17c71b6c5a99d9ee07e04e3d30"
+    },
+    {
+      "path": "live/campaign/artifacts/000702-569-rpc.jsonl",
+      "size": 98,
+      "sha256": "8d53147ea4e900fcd4e265dd9266d35d825e4c291f186d81c5dd630aa194e4f2"
+    },
+    {
+      "path": "live/campaign/artifacts/000703-570-binding-evidence.json",
+      "size": 14025,
+      "sha256": "e9e3e4344447029d3a87be1e786e481c4afe899bc7d0a6c427b30d93ecd80cdb"
+    },
+    {
+      "path": "live/campaign/artifacts/000704-571-client.json",
+      "size": 527,
+      "sha256": "0f86fd522e21575c7f5c619b6f595ff8128b5178f31005a8fd54bf1d82880d46"
+    },
+    {
+      "path": "live/campaign/artifacts/000705-572-rpc.jsonl",
+      "size": 487,
+      "sha256": "2a140e74930d8e4b1967f1ba06ca8c0a81fd4db98833a69783e826135c0b073e"
+    },
+    {
+      "path": "live/campaign/artifacts/000706-573-client.json",
+      "size": 14014,
+      "sha256": "50d58ef2c10ae40ae1f4ff1bd9cdb3d79fedffcd57b34c3c8ad5198f14b26f90"
+    },
+    {
+      "path": "live/campaign/artifacts/000708-574-provider-request.json",
+      "size": 13200,
+      "sha256": "17dbd00d678dc4f63e0af6104020b2f10c75cfb02755e45d75c3be1adb196517"
+    },
+    {
+      "path": "live/campaign/artifacts/000709-575-rpc.jsonl",
+      "size": 588,
+      "sha256": "7b42609981503263068e2132363cc76d16afc6139911256b7d1bff2e21e3a550"
+    },
+    {
+      "path": "live/campaign/artifacts/000710-576-client.json",
+      "size": 1723,
+      "sha256": "ecbe8cb64d8d21060fe6565313010b730942b602bb109e3ddd8a7f2b2dabae69"
+    },
+    {
+      "path": "live/campaign/artifacts/000712-577-rpc.jsonl",
+      "size": 21154,
+      "sha256": "60783228f7ac3ff6bbfdbaac296b8b450bb9d248b41132bb4470d4912ee786d3"
+    },
+    {
+      "path": "live/campaign/artifacts/000713-578-full-input-count.json",
+      "size": 28229,
+      "sha256": "b90944b406f1d0dcf2fa8b739e96d9d9eff6af217f66499eeb09222709354929"
+    },
+    {
+      "path": "live/campaign/artifacts/000714-579-rpc.jsonl",
+      "size": 9632,
+      "sha256": "06ffcf2486b2c8a7c1bb72e2e2dea40fc568e393c44ac74f5c2cdb7e106157c7"
+    },
+    {
+      "path": "live/campaign/artifacts/000715-580-rpc.jsonl",
+      "size": 488,
+      "sha256": "48a4bd53d764c064493f2211590085fe581630eb2181111709b79f284ced48f5"
+    },
+    {
+      "path": "live/campaign/artifacts/000716-581-rpc.jsonl",
+      "size": 98,
+      "sha256": "3e62d5f4a47d02a11cfa97f1eedd9531b320f9cb41ced7709a0290e34c7b5f09"
+    },
+    {
+      "path": "live/campaign/artifacts/000717-582-binding-evidence.json",
+      "size": 10396,
+      "sha256": "816632405b4baedaea323047c26b6577388b425033ebbaaca1056810d02c7dd6"
+    },
+    {
+      "path": "live/campaign/artifacts/000718-583-client.json",
+      "size": 527,
+      "sha256": "bd32f79b919af8696617d306ef02e1894f88ac21c4a079fb0213954e76d371e7"
+    },
+    {
+      "path": "live/campaign/artifacts/000719-584-rpc.jsonl",
+      "size": 487,
+      "sha256": "e08900d76972635507209b030a63384b650943a48eb681f630e44af964d32d65"
+    },
+    {
+      "path": "live/campaign/artifacts/000720-585-client.json",
+      "size": 10384,
+      "sha256": "fa29d96ca2f54da18cf2f24030a7faa18aa43744fead5955b31cf3921a76ffb7"
+    },
+    {
+      "path": "live/campaign/artifacts/000722-586-provider-request.json",
+      "size": 9570,
+      "sha256": "ba041c3b8890300dec0e017bdf7a091394d5bd927dc4f0411f62beaaff3a9e58"
+    },
+    {
+      "path": "live/campaign/artifacts/000723-587-rpc.jsonl",
+      "size": 736,
+      "sha256": "b1418923fbc8a940b678579e31b5aded21186a81b9aeb28fd97bb6e4a4925318"
+    },
+    {
+      "path": "live/campaign/artifacts/000724-588-client.json",
+      "size": 1871,
+      "sha256": "3345746bfd1d16fd997dc00f28f0d341889f4c58bd8dc9252e8716f28c87ee40"
+    },
+    {
+      "path": "live/campaign/artifacts/000726-589-rpc.jsonl",
+      "size": 30571,
+      "sha256": "3218a15ddd5ae0b3f9c7877fcdebacefd67f6ed7da40d65b37ff1080309c2f55"
+    },
+    {
+      "path": "live/campaign/artifacts/000727-590-full-input-count.json",
+      "size": 41370,
+      "sha256": "26a87a63a508445926903d16af4fed30429537af6ada225a6718524e15d8d206"
+    },
+    {
+      "path": "live/campaign/artifacts/000728-591-rpc.jsonl",
+      "size": 14193,
+      "sha256": "48cc394943ec6b1b8721ddd76da5af3c09af001c60389d6b0ad2662fd1f0bbfd"
+    },
+    {
+      "path": "live/campaign/artifacts/000729-592-rpc.jsonl",
+      "size": 488,
+      "sha256": "7fbede70667187f2afa186ac8f9ff8c0efc0e936d74a1c36329d9b577a4cf5b0"
+    },
+    {
+      "path": "live/campaign/artifacts/000730-593-rpc.jsonl",
+      "size": 97,
+      "sha256": "b48f916b653c011bb9b94decb0576fb322906317e02dfa82f0ce6fee72ef3b14"
+    },
+    {
+      "path": "live/campaign/artifacts/000731-594-binding-evidence.json",
+      "size": 14957,
+      "sha256": "e07171319b574ac098b713fcddad5260d17bf343d88c3ddce4a9c655158075e2"
+    },
+    {
+      "path": "live/campaign/artifacts/000732-595-client.json",
+      "size": 528,
+      "sha256": "9d078b2c940a5a8068d176f3bdb1dafacca4ee14729eb310521667b6658c9da0"
+    },
+    {
+      "path": "live/campaign/artifacts/000733-596-rpc.jsonl",
+      "size": 487,
+      "sha256": "912cee192ad63f2d2427c154bd58312adef57c4ae25f1633f2ec88c14def2a32"
+    },
+    {
+      "path": "live/campaign/artifacts/000734-597-client.json",
+      "size": 14945,
+      "sha256": "3d40d1364f05cc94ec018cad54a725f3c08df1ed657efa5c81b125893b9160dc"
+    },
+    {
+      "path": "live/campaign/artifacts/000736-598-provider-request.json",
+      "size": 14130,
+      "sha256": "4daf305117e9126b242a7912f18132ffde03aa7d1ea78a52e55d79390bcf5fea"
+    },
+    {
+      "path": "live/campaign/artifacts/000737-599-rpc.jsonl",
+      "size": 1119,
+      "sha256": "d0ea732ee7465b22de56f9a07521b4c0c7a325a833280144c7c5a8e2149390e4"
+    },
+    {
+      "path": "live/campaign/artifacts/000738-600-client.json",
+      "size": 2256,
+      "sha256": "639b4ec6e15db7b7e39b8938b96f802852e729c7c75e879bd74ea546a43f2fac"
+    },
+    {
+      "path": "live/campaign/artifacts/000740-601-wire-events.json",
+      "size": 132355,
+      "sha256": "de69cf0ee2cd6564a50ed831f60854954b94872d418d84918992bc469d6366ec"
+    },
+    {
+      "path": "live/campaign/artifacts/000741-602-application-result.json",
+      "size": 9731,
+      "sha256": "c509511eb1a92158e84ea23975ada036d108e9074ac1714c1e2c24a1ce1eacc2"
+    },
+    {
+      "path": "live/campaign/artifacts/000745-603-pair-binding.json",
+      "size": 283,
+      "sha256": "d18b2cc2088a36b0854cffaa51ff988503e674f635a79f902964288c233c37be"
+    },
+    {
+      "path": "live/campaign/artifacts/000746-604-rpc.jsonl",
+      "size": 28490,
+      "sha256": "910f9173240477daae919590c2bc820a3e1f429b29b4871bf52c8a94fe8c68f0"
+    },
+    {
+      "path": "live/campaign/artifacts/000747-605-full-input-count.json",
+      "size": 38557,
+      "sha256": "f269490502877b996d50693d555d204c5cc74eebce021c1a670652b9a3560735"
+    },
+    {
+      "path": "live/campaign/artifacts/000748-606-rpc.jsonl",
+      "size": 90,
+      "sha256": "9dc346af127c17ba93808d6ed9594e2f26e83da05a3e3206f68940b4eece786b"
+    },
+    {
+      "path": "live/campaign/artifacts/000749-607-rpc.jsonl",
+      "size": 13261,
+      "sha256": "9db3da8f4487515693c3cc5140af5b67da483a2a0206606092bbe2aa41bd5c00"
+    },
+    {
+      "path": "live/campaign/artifacts/000750-608-rpc.jsonl",
+      "size": 486,
+      "sha256": "42852d717ec12f4d1f608b7a616792cbc6e4eeaabb6cda5e612d15c61b8aa721"
+    },
+    {
+      "path": "live/campaign/artifacts/000751-609-rpc.jsonl",
+      "size": 99,
+      "sha256": "d2c2cdd19896f3001daeb4cdb9a54ece243f3996b83290fced635cb99653a377"
+    },
+    {
+      "path": "live/campaign/artifacts/000752-610-binding-evidence.json",
+      "size": 14025,
+      "sha256": "791e081f37bd85f19579b540ba542d73bde3992a575dc0eeb61f715275c4e83b"
+    },
+    {
+      "path": "live/campaign/artifacts/000753-611-client.json",
+      "size": 527,
+      "sha256": "fddef80863ca3d523fe7d8474e7284967b35b9fe21793fcc29ad728bd60e9b4b"
+    },
+    {
+      "path": "live/campaign/artifacts/000754-612-rpc.jsonl",
+      "size": 487,
+      "sha256": "f4d681a8132cbbd9f18d0298d5068a2a58b2c1b1a38b9d45f7ca28e60ac65468"
+    },
+    {
+      "path": "live/campaign/artifacts/000755-613-client.json",
+      "size": 14014,
+      "sha256": "da6f09ac172ceb5d476b66de547e601430d927ac40c3e0e74ab32ad6360dfe7f"
+    },
+    {
+      "path": "live/campaign/artifacts/000757-614-provider-request.json",
+      "size": 13202,
+      "sha256": "8c0adec007d5dfa15eb9123c8678c3f8d4e2d1e1b83540a091a28ae0118bb88b"
+    },
+    {
+      "path": "live/campaign/artifacts/000758-615-rpc.jsonl",
+      "size": 589,
+      "sha256": "1f1e6bee8f55e3021ead3728879f48b4664078642dd4fcaed57d82b46fcf2301"
+    },
+    {
+      "path": "live/campaign/artifacts/000759-616-client.json",
+      "size": 1723,
+      "sha256": "4af0392b8b1d80c5e3d4f598aa6f532dbbe9fcd265c3f16ff3a18383f17f65aa"
+    },
+    {
+      "path": "live/campaign/artifacts/000761-617-rpc.jsonl",
+      "size": 20605,
+      "sha256": "58766b744fb9ee65ac093ae620a34f5ecce421def7a0d02329d4ca348c9c3fde"
+    },
+    {
+      "path": "live/campaign/artifacts/000762-618-full-input-count.json",
+      "size": 27510,
+      "sha256": "f830cb7e2409777b72a57c573edd3ad492ed44e48157f75353bd79e943189fef"
+    },
+    {
+      "path": "live/campaign/artifacts/000763-619-rpc.jsonl",
+      "size": 9404,
+      "sha256": "07051c8d13e1e4ae4376dec55da4d923838f57fa1e639397238f8a83b818c3d1"
+    },
+    {
+      "path": "live/campaign/artifacts/000764-620-rpc.jsonl",
+      "size": 487,
+      "sha256": "5010826ace3b7c8acc26b76dd1e5c6942565b0713719b601869963708b0c459a"
+    },
+    {
+      "path": "live/campaign/artifacts/000765-621-rpc.jsonl",
+      "size": 98,
+      "sha256": "dc2cc00fd389f9006963e95d308e1adad9e1bbd56e0c42d521873ac3cfd0ab73"
+    },
+    {
+      "path": "live/campaign/artifacts/000766-622-binding-evidence.json",
+      "size": 10168,
+      "sha256": "4d83ce2a0a5c236065e6fe931a4e05a8805150c88c64a0d67378aff39f769a9e"
+    },
+    {
+      "path": "live/campaign/artifacts/000767-623-client.json",
+      "size": 527,
+      "sha256": "9367b6502e2642b94213d56ba75cb50f6c6371eeffe2fef384864e8cb738a1d3"
+    },
+    {
+      "path": "live/campaign/artifacts/000768-624-rpc.jsonl",
+      "size": 488,
+      "sha256": "cd273d74af89e7b03e3a4b1d1171c7924f523ac3ca72a34926df6b76b79ee86e"
+    },
+    {
+      "path": "live/campaign/artifacts/000769-625-client.json",
+      "size": 10157,
+      "sha256": "b26f024ef756789ff1d52ed6938099f0ba2d1a82b3ec58ff54b549639a075747"
+    },
+    {
+      "path": "live/campaign/artifacts/000771-626-provider-request.json",
+      "size": 9345,
+      "sha256": "a1b1d2a49e1d947306210b69eada3c5937895e2488a21b1ad77a49a59dbca5ca"
+    },
+    {
+      "path": "live/campaign/artifacts/000772-627-rpc.jsonl",
+      "size": 779,
+      "sha256": "788d6a471cdba7161f48a52eb4ffaf5e935662a35c5894efbc44e2916a54e23c"
+    },
+    {
+      "path": "live/campaign/artifacts/000773-628-client.json",
+      "size": 1914,
+      "sha256": "09d4889dcbeab60648c0ccbe89fb9992b23bd5335769744b2ba2907e114daf4c"
+    },
+    {
+      "path": "live/campaign/artifacts/000775-629-rpc.jsonl",
+      "size": 28978,
+      "sha256": "5b327391c2ac593f27bcf850005034efceb1b04e9a603f33a6922bda4053b195"
+    },
+    {
+      "path": "live/campaign/artifacts/000776-630-full-input-count.json",
+      "size": 39225,
+      "sha256": "5bc14290fc0e2ef988437f617449052fce546418937044faeb4dfa85ea0b50cd"
+    },
+    {
+      "path": "live/campaign/artifacts/000777-631-rpc.jsonl",
+      "size": 13459,
+      "sha256": "227aa2bb994e039c4de295f6707221738dc6e4465f7fedb8b0313d8d09d40818"
+    },
+    {
+      "path": "live/campaign/artifacts/000778-632-rpc.jsonl",
+      "size": 488,
+      "sha256": "e78176b05487ece66e3bb1e1972613898d9383fa13f5a9089a6bfe67fc2cce49"
+    },
+    {
+      "path": "live/campaign/artifacts/000779-633-rpc.jsonl",
+      "size": 99,
+      "sha256": "c2017371308bab74b1e756d738cf183d7fe349a210ad984deaf51af5fa270c8d"
+    },
+    {
+      "path": "live/campaign/artifacts/000780-634-binding-evidence.json",
+      "size": 14223,
+      "sha256": "cf43c215dfd9f8ae0cff1ebcb1e1a525bc4938dd87e56579f0ff110b710eb7ec"
+    },
+    {
+      "path": "live/campaign/artifacts/000781-635-client.json",
+      "size": 527,
+      "sha256": "c9a4d8a30ee488b2c7070fa670432d35d31d9a4f08bdbed3b87715fc29213888"
+    },
+    {
+      "path": "live/campaign/artifacts/000782-636-rpc.jsonl",
+      "size": 486,
+      "sha256": "2dcfb107150f639b91c388f94ebb04a93e15f23b858a547e93b90c96d08d34ae"
+    },
+    {
+      "path": "live/campaign/artifacts/000783-637-client.json",
+      "size": 14246,
+      "sha256": "51445ec55e7cc3be1d6a2e2d63159aed9ffb2b0ba527e452b1e576e15f986802"
+    },
+    {
+      "path": "live/campaign/artifacts/000785-638-provider-request.json",
+      "size": 13434,
+      "sha256": "5b146ec3e5232e17304015230f7d540dff2d59c0c7b4696b09c806630d198e55"
+    },
+    {
+      "path": "live/campaign/artifacts/000786-639-rpc.jsonl",
+      "size": 388,
+      "sha256": "1532275522fdf40bed68bad8ce82fa54f44fa2decb06d311bc4b820162eff6a2"
+    },
+    {
+      "path": "live/campaign/artifacts/000787-640-client.json",
+      "size": 1522,
+      "sha256": "2d51a95ee6c00dd6d5b1d9a96bba7e9821314e5dfffdf42f3420b631b5c3b8da"
+    },
+    {
+      "path": "live/campaign/artifacts/000789-641-rpc.jsonl",
+      "size": 21526,
+      "sha256": "4475c7a686e51e457383ebc2b7ed50a96606a2ab7e214a997dee16ed6d5e5be2"
+    },
+    {
+      "path": "live/campaign/artifacts/000790-642-full-input-count.json",
+      "size": 28759,
+      "sha256": "b284eb72e1924d15da8377850a1506ec83725c6c59f625d620bafb537c776646"
+    },
+    {
+      "path": "live/campaign/artifacts/000791-643-rpc.jsonl",
+      "size": 9794,
+      "sha256": "285e8b3824d804fded418f62bb853d6bf163cb735fd63236cbf9ed6df453af56"
+    },
+    {
+      "path": "live/campaign/artifacts/000792-644-rpc.jsonl",
+      "size": 486,
+      "sha256": "8c0ce72c6d726e6fe85172b3dd004046802178f729b75a75e75554c7f40f26ba"
+    },
+    {
+      "path": "live/campaign/artifacts/000793-645-rpc.jsonl",
+      "size": 99,
+      "sha256": "5bc87f2cbefc3fc0ad1f21bc1cdd106adb9e535f933a1ce5de73615981ee3260"
+    },
+    {
+      "path": "live/campaign/artifacts/000794-646-binding-evidence.json",
+      "size": 10556,
+      "sha256": "e46f4ba47004a52a3934ef91aba7c72bae1c1c8c6f19891e999aab856c29a330"
+    },
+    {
+      "path": "live/campaign/artifacts/000795-647-client.json",
+      "size": 527,
+      "sha256": "9be84d2a8750cf86a0464035e2552ac307376d5a34706024848410fe532e0727"
+    },
+    {
+      "path": "live/campaign/artifacts/000796-648-rpc.jsonl",
+      "size": 486,
+      "sha256": "485647a33c63cc1f70138de0ffd41db37af9a8985e7dee5122f806b91369a44b"
+    },
+    {
+      "path": "live/campaign/artifacts/000797-649-client.json",
+      "size": 10580,
+      "sha256": "d0393d2e7370f26d5b3e93443def8d798a1ac724226fefb48ad91b842571b830"
+    },
+    {
+      "path": "live/campaign/artifacts/000799-650-provider-request.json",
+      "size": 9768,
+      "sha256": "4e550913bb3cb929aae871089cdf6cf3f877a7722c9c760c86d227f0ddde6e89"
+    },
+    {
+      "path": "live/campaign/artifacts/000800-651-rpc.jsonl",
+      "size": 389,
+      "sha256": "8ef8f0f7c84ee8ff878838550faecbfdfeb955bbe33cdee5587101f59954d0a8"
+    },
+    {
+      "path": "live/campaign/artifacts/000801-652-client.json",
+      "size": 1521,
+      "sha256": "146ad5a980e5641c660c69f18d815f612d84d844cf2b41af49cfaea47d12fdda"
+    },
+    {
+      "path": "live/campaign/artifacts/000803-653-rpc.jsonl",
+      "size": 29007,
+      "sha256": "64120c16bf706ea8fe07f8dac8c762fc8d2b20a85837b0ec41ed4522dd0df0da"
+    },
+    {
+      "path": "live/campaign/artifacts/000804-654-full-input-count.json",
+      "size": 39292,
+      "sha256": "9f63e1a5485e5dedb1d8202dd0c7951aa87772875a2e26096b6786dce724765c"
+    },
+    {
+      "path": "live/campaign/artifacts/000805-655-rpc.jsonl",
+      "size": 13470,
+      "sha256": "5cecffb8cace08f8b6ce2d0d15ef774ea540090ca7caf9f001f58d4c84ee3b3b"
+    },
+    {
+      "path": "live/campaign/artifacts/000806-656-rpc.jsonl",
+      "size": 487,
+      "sha256": "f26d9d43bec6beeee862031086fa3c641ea602f1caccc296b31532c799350c3c"
+    },
+    {
+      "path": "live/campaign/artifacts/000807-657-rpc.jsonl",
+      "size": 98,
+      "sha256": "fc0bc61348db5559b316899d0be219ec0f67a204b33b071f92d2dd107319057b"
+    },
+    {
+      "path": "live/campaign/artifacts/000808-658-binding-evidence.json",
+      "size": 14234,
+      "sha256": "85a21c33e11277fdea1b32ec81760fb7190c708d7728a20dcfcda5cdfabe846c"
+    },
+    {
+      "path": "live/campaign/artifacts/000809-659-client.json",
+      "size": 527,
+      "sha256": "7aa779f1d8f5264fc50925f0e891dad4c06eba366b1579b5bba4a6e491f6319e"
+    },
+    {
+      "path": "live/campaign/artifacts/000810-660-rpc.jsonl",
+      "size": 488,
+      "sha256": "367a0783c828babbfef4f6bad2195a02cec7c4874b60a5de96dc88f2e8130940"
+    },
+    {
+      "path": "live/campaign/artifacts/000811-661-client.json",
+      "size": 14287,
+      "sha256": "34e16cd9648cbc5e74a1d3dd345bb71c1dbb4b3c2aee391734e8a000b0752d7c"
+    },
+    {
+      "path": "live/campaign/artifacts/000813-662-provider-request.json",
+      "size": 13475,
+      "sha256": "5da25b577c8841438ec07b1417eda3b155fb67623a241dff485cf0d4fb87a189"
+    },
+    {
+      "path": "live/campaign/artifacts/000814-663-rpc.jsonl",
+      "size": 942,
+      "sha256": "32f856b594c9300d2b61982826b8b2c93aab088b960e04197216257bd549d209"
+    },
+    {
+      "path": "live/campaign/artifacts/000815-664-client.json",
+      "size": 2078,
+      "sha256": "2479011f904fb246587aed55c3a19a71e37cd56afaca493ab2dcf4502a3abbc7"
+    },
+    {
+      "path": "live/campaign/artifacts/000817-665-rpc.jsonl",
+      "size": 21553,
+      "sha256": "c6a8ff9b1d53e303d0e901e74e1c3e6b0be05b70c80713cf398e422417f8b306"
+    },
+    {
+      "path": "live/campaign/artifacts/000818-666-full-input-count.json",
+      "size": 28822,
+      "sha256": "c2e8350a60612f62ceb12496900e55d58845c781ecaa75db8b2e7422d442ac92"
+    },
+    {
+      "path": "live/campaign/artifacts/000819-667-rpc.jsonl",
+      "size": 9802,
+      "sha256": "0a2ae1193c28bfccbe63056e114e8ee9f58cb0301ec87af7671a99ad7496c99d"
+    },
+    {
+      "path": "live/campaign/artifacts/000820-668-rpc.jsonl",
+      "size": 487,
+      "sha256": "a2a1e95e9bb2b02cbfc6d8c2602160df5ab2a07fe0bcd9234f90c011bfc0ed28"
+    },
+    {
+      "path": "live/campaign/artifacts/000821-669-rpc.jsonl",
+      "size": 99,
+      "sha256": "cc1d5453ecee469c4f1434de5da5cff5e99e553d3c19a41bb6dfcc302482f0e9"
+    },
+    {
+      "path": "live/campaign/artifacts/000822-670-binding-evidence.json",
+      "size": 10566,
+      "sha256": "10c109a3263c51a1a17a870c7226052c31ffb1eedf926215f47fda9c661cf771"
+    },
+    {
+      "path": "live/campaign/artifacts/000823-671-client.json",
+      "size": 528,
+      "sha256": "bab57364f0112c38556e09fb3674b7bb245b86a63bcfb12a664f5e3f2036b421"
+    },
+    {
+      "path": "live/campaign/artifacts/000824-672-rpc.jsonl",
+      "size": 487,
+      "sha256": "a9053ef2ca00939216700b692702bf16606aaf962fcad1aeeaddda8f4b2e7644"
+    },
+    {
+      "path": "live/campaign/artifacts/000825-673-client.json",
+      "size": 10620,
+      "sha256": "5e7882688971308e5e66a0f0bd3c7a6047503891ba88d1e9aa7ebf2023f30d25"
+    },
+    {
+      "path": "live/campaign/artifacts/000827-674-provider-request.json",
+      "size": 9807,
+      "sha256": "f23f67482398e1d46c1b3281b089c0070c434a37a1e67e21b89a3908ced8946f"
+    },
+    {
+      "path": "live/campaign/artifacts/000828-675-rpc.jsonl",
+      "size": 743,
+      "sha256": "5b202e6363cb39c94fa27242d2f0ae0ce2a7a85f0c7e0d1d144d48f7ff48b38d"
+    },
+    {
+      "path": "live/campaign/artifacts/000829-676-client.json",
+      "size": 1880,
+      "sha256": "c40de7380e8e42a08513a1644a2d5fb03b2609d49bb48bde3212c37c43e38a6d"
+    },
+    {
+      "path": "live/campaign/artifacts/000831-677-wire-events.json",
+      "size": 1581,
+      "sha256": "111316da4614f82ea82a4fc909c9fe36a3dfd6eb62fde9bcb4399d929e70ca5a"
+    },
+    {
+      "path": "live/campaign/artifacts/000832-678-application-result.json",
+      "size": 7440,
+      "sha256": "8775471f20eaf9359357b5ffa307de9de945b28361d3e6c206ad00931ca6d53e"
+    },
+    {
+      "path": "live/campaign/ledger.jsonl",
+      "size": 255180,
+      "sha256": "8b55f990b4da4d9e78198e7b16362bb4a7d77e649e963d844352a9b3b24a481b"
+    },
+    {
+      "path": "live/campaign/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "live/control.jsonl",
+      "size": 8388608,
+      "sha256": "1a3faa0a91d0b0340946bae5acc97c086bb35a18908a6363eddd1d40193f44ad"
+    },
+    {
+      "path": "live/control.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "service.log",
+      "size": 344782,
+      "sha256": "d74d096fae306e6305f348e0f3049b511ea344985e17a5cfd032d7f9a768dfc7"
+    },
+    {
+      "path": "service_transitions.jsonl",
+      "size": 2113,
+      "sha256": "96d1966c6c3755a60939ca40abee4b3a68972885187e2baf99ef539c4c9e3d0c"
+    }
+  ],
+  "readback_verified": true,
+  "raw_mirrored": false
+}

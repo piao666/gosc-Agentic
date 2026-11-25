@@ -1,0 +1,177 @@
+{
+  "acceptance_passed": false,
+  "failed_prefix_verified": true,
+  "cases_started": [
+    "normal"
+  ],
+  "cases": [],
+  "error": "SafetyError: normal response/usage check failed",
+  "phase_clocks": [
+    {
+      "deadline_mono": 49663032.36869447,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49662882.36869447
+    },
+    {
+      "deadline_mono": 49662948.02649629,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49662888.02649629
+    }
+  ],
+  "charges": {
+    "get": 4,
+    "cleanup_get": 3,
+    "debug": 1,
+    "unload": 1
+  },
+  "reservations": {
+    "requests": {
+      "synthetic/0": {
+        "kind": "request",
+        "id": "synthetic/0",
+        "episode": "synthetic",
+        "input": 9973,
+        "output": 32,
+        "status": "timeout",
+        "observed_usage": null
+      }
+    },
+    "inputs": 9973,
+    "outputs": 32
+  },
+  "service_marker_retained": false,
+  "native_immediate_idle_verified": false,
+  "real_task_inputs": 0,
+  "service_transitions": [
+    {
+      "mono": 49662878.985520214,
+      "profile_exists": false,
+      "service": {
+        "context": 1024,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 34669,
+        "service_stamp": "4966273345"
+      },
+      "stage": "baseline"
+    },
+    {
+      "context": 16384,
+      "mono": 49662878.99669259,
+      "profile_sha256": "d7d9d7dc22b8f160d37a87b5aefb4d0c855dffce148992d5e5ba27b24caaccbd",
+      "stage": "candidate-profile-written"
+    },
+    {
+      "mono": 49662879.05487514,
+      "service": {
+        "context": 1024,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 34669,
+        "service_stamp": "4966273345"
+      },
+      "signal": 15,
+      "stage": "service-term"
+    },
+    {
+      "mono": 49662879.17014569,
+      "service": {
+        "context": 1024,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 34669,
+        "service_stamp": "4966273345"
+      },
+      "stage": "service-exited"
+    },
+    {
+      "mono": 49662880.30919877,
+      "profile_exists": true,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 34901,
+        "service_stamp": "4966287918"
+      },
+      "stage": "candidate-first-start"
+    },
+    {
+      "mono": 49662880.3634788,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 34901,
+        "service_stamp": "4966287918"
+      },
+      "signal": 15,
+      "stage": "service-term"
+    },
+    {
+      "mono": 49662880.5801689,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 34901,
+        "service_stamp": "4966287918"
+      },
+      "stage": "service-exited"
+    },
+    {
+      "mono": 49662881.72074029,
+      "profile_exists": true,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 34922,
+        "service_stamp": "4966288058"
+      },
+      "stage": "candidate-restart"
+    },
+    {
+      "mono": 49662948.991724655,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 34922,
+        "service_stamp": "4966288058"
+      },
+      "signal": 15,
+      "stage": "service-term"
+    },
+    {
+      "mono": 49662949.20713793,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 34922,
+        "service_stamp": "4966288058"
+      },
+      "stage": "service-exited"
+    },
+    {
+      "mono": 49662950.3428359,
+      "profile_exists": false,
+      "service": {
+        "context": 1024,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 35206,
+        "service_stamp": "4966294922"
+      },
+      "stage": "baseline-restart"
+    },
+    {
+      "empty_runner": true,
+      "gpu_mib": 0,
+      "mono": 49662950.34615872,
+      "profile_exists": false,
+      "service": {
+        "context": 1024,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 35206,
+        "service_stamp": "4966294922"
+      },
+      "stage": "rollback-verified"
+    }
+  ],
+  "source_run": "hpc-masbench-t2-live-v2-20261125",
+  "artifacts_verified": 21
+}

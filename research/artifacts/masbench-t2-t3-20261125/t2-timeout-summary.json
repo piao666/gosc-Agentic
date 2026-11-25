@@ -1,0 +1,65 @@
+{
+  "runtime": {
+    "root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "helper": "/tmp/gosc-hpc-masbench-context-build-v3-20261116/context-counter",
+    "service_pid": 34922,
+    "service_stamp": "4966288058",
+    "binary_sha": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+    "context": 16384,
+    "model": "qwen2.5:7b"
+  },
+  "caps": {
+    "wall": 720,
+    "dispatch_cutoff": 600,
+    "operation": 60,
+    "requests": 4,
+    "inputs": 65536,
+    "outputs": 1088,
+    "debug": 4,
+    "unload": 4,
+    "get": 24,
+    "cleanup_get": 16,
+    "artifact_bytes": 25165824,
+    "driver_rss": 2147483648,
+    "service_rss": 17179869184,
+    "gpu_bytes": 17179869184,
+    "cpu_cores": 2,
+    "prepare": 150,
+    "render_rpc": 120,
+    "cleanup": 40
+  },
+  "cases": [],
+  "status": "failed",
+  "actual_task_inputs": 0,
+  "native_immediate_idle_verified": false,
+  "error": "SafetyError: normal response/usage check failed",
+  "elapsed_seconds": 67.15167628973722,
+  "control_counts": {
+    "debug": 1,
+    "get": 4,
+    "cleanup_get": 3,
+    "unload": 1
+  },
+  "reservations": {
+    "requests": {
+      "synthetic/0": {
+        "kind": "request",
+        "id": "synthetic/0",
+        "episode": "synthetic",
+        "input": 9973,
+        "output": 32,
+        "status": "timeout",
+        "observed_usage": null
+      }
+    },
+    "inputs": 9973,
+    "outputs": 32
+  },
+  "resource_samples": 131,
+  "sampled_peaks": {
+    "driver_rss": 63352832,
+    "service_rss": 5172088832,
+    "gpu_bytes": 6767509504
+  },
+  "service_marker_retained": false
+}

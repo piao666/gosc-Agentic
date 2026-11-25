@@ -19,6 +19,7 @@ sys.path.insert(0, str(ROOT))
 CONFIG = ROOT / 'research/protocols/ollama_hpc_v1.json'
 STATE = ROOT / '.local/ollama'
 BASE = 'http://127.0.0.1:11434'
+CONTEXT_PROFILE = STATE / 'context_profile.json'
 
 
 def api(path, body=None, timeout=30):
@@ -28,14 +29,20 @@ def api(path, body=None, timeout=30):
         return json.load(response)
 
 
-def settings():
+def settings(base_env=None):
     cfg = json.loads(CONFIG.read_text())
+    if CONTEXT_PROFILE.exists():
+        profile = json.loads(CONTEXT_PROFILE.read_bytes())
+        context = profile.get('context_tokens')
+        if set(profile) != {'context_tokens'} or type(context) is not int or context not in (1024, 2048, 4096, 8192, 16384, 32768):
+            raise RuntimeError('Invalid persistent Ollama context profile')
+        cfg['num_ctx'] = context
     prefix = STATE / 'runtime' / cfg['version']
     models = ROOT.parents[1] / 'models/ollama-gosc'
-    env = os.environ.copy()
+    env = os.environ.copy() if base_env is None else dict(base_env)
     env.update(OLLAMA_HOST=cfg['bind'], OLLAMA_MODELS=str(models),
                OLLAMA_NUM_PARALLEL='1', OLLAMA_MAX_LOADED_MODELS='1',
-               OLLAMA_MAX_QUEUE='4', OLLAMA_CONTEXT_LENGTH='1024',
+               OLLAMA_MAX_QUEUE='4', OLLAMA_CONTEXT_LENGTH=str(cfg['num_ctx']),
                OMP_NUM_THREADS='2', OPENBLAS_NUM_THREADS='2', MKL_NUM_THREADS='2',
                OLLAMA_KEEP_ALIVE='5m', OLLAMA_NO_CLOUD='1')
     return cfg, prefix, models, env
@@ -48,8 +55,8 @@ def ready():
         return None
 
 
-def start():
-    cfg, prefix, models, env = settings()
+def start(base_env=None, log_path=None, log_file_limit=None):
+    cfg, prefix, models, env = settings(base_env)
     current = ready()
     if current:
         if current.get('version') != cfg['version']:
@@ -60,14 +67,19 @@ def start():
         raise RuntimeError('Pinned runtime not installed')
     STATE.mkdir(parents=True, exist_ok=True)
     models.mkdir(parents=True, exist_ok=True)
-    log = STATE / 'service.log'
+    log = Path(log_path) if log_path is not None else STATE / 'service.log'
+    def limit_file():
+        import resource
+        resource.setrlimit(resource.RLIMIT_FSIZE, (log_file_limit, log_file_limit))
     with log.open('ab') as stream:
         proc = subprocess.Popen([str(binary), 'serve'], env=env, stdin=subprocess.DEVNULL,
-                                stdout=stream, stderr=stream, start_new_session=True)
+                                stdout=stream, stderr=stream, start_new_session=True,
+                                preexec_fn=limit_file if log_file_limit is not None else None)
     write_json(STATE / 'service.json', {'pid': proc.pid, 'binary': str(binary),
                'bind': cfg['bind'], 'models': str(models), 'version': cfg['version'],
                'started_at_unix': time.time(), 'log': str(log), 'auto_restart_after_container_reboot': False})
-    for _ in range(60):
+    deadline = time.monotonic() + 60
+    while time.monotonic() < deadline:
         if proc.poll() is not None:
             raise RuntimeError('Ollama service exited; inspect .local/ollama/service.log')
         value = ready()

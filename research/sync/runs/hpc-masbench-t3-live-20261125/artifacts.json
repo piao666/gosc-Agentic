@@ -1,0 +1,25 @@
+{
+  "run_id": "hpc-masbench-t3-live-20261125",
+  "files": [
+    {
+      "path": "outputs/hdd_manifest.json",
+      "size": 124229,
+      "sha256": "346fcccd44847d028feb3cccd330546bc543b18e3ce7a162ccef5f2fb427755b"
+    },
+    {
+      "path": "outputs/live_summary.json",
+      "size": 15481,
+      "sha256": "39b4ef7b2960f4355f54966e4a8c8462949bec82936d0fd448016d70afec4fb2"
+    },
+    {
+      "path": "outputs/quota_before.json",
+      "size": 1231,
+      "sha256": "31803482d6bb0c0747fe606ed75997df5e8b051627a427c53d95ebc37d3723f2"
+    },
+    {
+      "path": "outputs/raw_location.json",
+      "size": 155,
+      "sha256": "f3c535bbed6fab9f063539ae3e01549a71e22c37b781e881cf7a6c31ae48caab"
+    }
+  ]
+}

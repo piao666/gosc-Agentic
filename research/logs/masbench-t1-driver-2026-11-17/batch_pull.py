@@ -46,6 +46,17 @@ selections = {
     '--t1-formal-runner-retest-fixture': ['hpc-masbench-t1b-formal-runner-retest-contract-20261119'],
     '--t1-formal-runner-retest': ['hpc-masbench-t1b-formal-runner-retest-20261119',
                                   'hpc-masbench-t1b-formal-runner-retest-audit-20261119'],
+    '--t2-window-demand': ['hpc-masbench-t2-window-demand-20261125'],
+    '--t2-deployment': ['hpc-masbench-t2-contract-20261125','hpc-masbench-t2-live-20261125',
+                        'hpc-masbench-t2-audit-20261125','hpc-masbench-t2-contract-v2-20261125',
+                        'hpc-masbench-t2-live-v2-20261125','hpc-masbench-t2-audit-v2-20261125'],
+    '--t2-final': ['hpc-masbench-t2-contract-v3-20261125','hpc-masbench-t2-live-v3-20261125',
+                   'hpc-masbench-t2-audit-v3-20261125'],
+    '--t3-preflight': ['hpc-masbench-t3-rehearsal-20261125','hpc-masbench-t3-ipc-contract-20261125'],
+    '--t3-storage': ['hpc-masbench-t3-storage-contract-20261125'],
+    '--t3-integration': ['hpc-masbench-t3-integrated-contract-20261125',
+                         'hpc-masbench-t3-integrated-contract-v2-20261125'],
+    '--t3-live': ['hpc-masbench-t3-live-20261125','hpc-masbench-t3-audit-20261125'],
 }
 if len(sys.argv) != 1:
     selection, = sys.argv[1:]
@@ -82,7 +93,9 @@ with tarfile.open(out,'x:gz',compresslevel=1) as archive:
 """
 import shlex
 limit = {'--t1-cold-load':48,'--t1-formal-fixture':56,'--t1-formal':56,'--t1-formal-audit-detail':56,
-         '--t1-formal-runner-retest-fixture':56,'--t1-formal-runner-retest':56}.get(
+         '--t1-formal-runner-retest-fixture':56,'--t1-formal-runner-retest':56,
+         '--t2-window-demand':16,'--t2-deployment':56,'--t2-final':56,'--t3-preflight':32,
+         '--t3-storage':16,'--t3-integration':16,'--t3-live':16}.get(
     sys.argv[1] if len(sys.argv)>1 else '',100)
 remote = shlex.join([remote_root+'/.venv/bin/python','-',remote_root,json.dumps(paths),remote_archive,str(limit*1024**2)])
 subprocess.run(['ssh','-o','BatchMode=yes','-o','ConnectTimeout=10','hpc',remote],

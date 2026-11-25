@@ -1,0 +1,448 @@
+{
+  "acceptance_passed": true,
+  "cases": [
+    {
+      "id": "normal",
+      "request_id": "synthetic/0",
+      "status": "completed",
+      "reserved_input": 9973,
+      "reserved_output": 32,
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 9973
+      },
+      "runner": {
+        "pid": 35751,
+        "stamp": "4966329791"
+      },
+      "sent_monotonic": 49663300.07440803,
+      "runner_after_response": {
+        "pid": 35751,
+        "stamp": "4966329791"
+      }
+    },
+    {
+      "id": "controller",
+      "request_id": "synthetic/1",
+      "status": "interrupted",
+      "reserved_input": 9679,
+      "reserved_output": 512,
+      "usage": null,
+      "runner": {
+        "pid": 35751,
+        "stamp": "4966329791"
+      },
+      "sent_monotonic": 49663386.62817753
+    },
+    {
+      "id": "recovery",
+      "request_id": "synthetic/2",
+      "status": "completed",
+      "reserved_input": 29,
+      "reserved_output": 32,
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 29
+      },
+      "runner": {
+        "pid": 36058,
+        "stamp": "4966338866"
+      },
+      "sent_monotonic": 49663390.92345113,
+      "runner_after_response": {
+        "pid": 36058,
+        "stamp": "4966338866"
+      }
+    }
+  ],
+  "cleanup_proofs": [
+    {
+      "start": {
+        "event": {
+          "kind": "unload-start",
+          "old_runners": [
+            {
+              "pid": 35751,
+              "stamp": "4966329791"
+            }
+          ],
+          "present_before_unload": [
+            {
+              "pid": 35751,
+              "stamp": "4966329791"
+            }
+          ]
+        },
+        "mono": 49663386.861532375,
+        "previous": "5cf04b49c97dc7ebb56bd5727c3013c548802660a7d8d8d1388230e98cec4e77",
+        "seq": 104,
+        "hash": "77500227fa36481ef4730351a53eaa27b7be4efa467d7d1fd52dee30b144e2a2"
+      },
+      "complete": {
+        "event": {
+          "kind": "unload-complete",
+          "observation": {
+            "ledger_seq": 33,
+            "ledger_tip": "68a714c2f041f229e898baa26458e454673d50c7ab829dd5732e596fb783ac3d",
+            "process_observations": [
+              {
+                "observed_stamp": null,
+                "pid": 35751,
+                "stamp": "4966329791"
+              }
+            ],
+            "ps": {
+              "models": []
+            },
+            "remaining_runners": [],
+            "resources_after_unload": {
+              "driver_rss": 39370752,
+              "gpu_bytes": 0,
+              "service_rss": 122556416
+            },
+            "response": {
+              "created_at": "2026-11-25T02:53:41.578740508Z",
+              "done": true,
+              "done_reason": "unload",
+              "message": {
+                "content": "",
+                "role": "assistant"
+              },
+              "model": "qwen2.5:7b"
+            },
+            "service": {
+              "pid": 35711,
+              "stamp": "4966329485"
+            }
+          }
+        },
+        "mono": 49663387.4240214,
+        "previous": "03939fac71476e859fb54a15ec63348e53d602e4c8dfc6114c61bc05103d8169",
+        "seq": 126,
+        "hash": "17b76ca70a19892693e7a27417c306b6804ebef1609310786682e0fcfb047299"
+      }
+    },
+    {
+      "start": {
+        "event": {
+          "kind": "unload-start",
+          "old_runners": [
+            {
+              "pid": 36058,
+              "stamp": "4966338866"
+            }
+          ],
+          "present_before_unload": [
+            {
+              "pid": 36058,
+              "stamp": "4966338866"
+            }
+          ]
+        },
+        "mono": 49663400.525789194,
+        "previous": "ff0021bcf0bffd15c8ec6a9579a36855eda7e636fad77f6ea9d772a3081dfb03",
+        "seq": 188,
+        "hash": "3283b0d2e4dc2e9b8c92a527006fb7b790bdf9429d7723dc9e20fcfc9a2773d1"
+      },
+      "complete": {
+        "event": {
+          "kind": "unload-complete",
+          "observation": {
+            "ledger_seq": 49,
+            "ledger_tip": "86ad0aab90f24a66865740af3a376c3a72a92df76840d83325734ebbddf4ca19",
+            "process_observations": [
+              {
+                "observed_stamp": null,
+                "pid": 36058,
+                "stamp": "4966338866"
+              }
+            ],
+            "ps": {
+              "models": []
+            },
+            "remaining_runners": [],
+            "resources_after_unload": {
+              "driver_rss": 39370752,
+              "gpu_bytes": 0,
+              "service_rss": 144482304
+            },
+            "response": {
+              "created_at": "2026-11-25T02:53:55.246538199Z",
+              "done": true,
+              "done_reason": "unload",
+              "message": {
+                "content": "",
+                "role": "assistant"
+              },
+              "model": "qwen2.5:7b"
+            },
+            "service": {
+              "pid": 35711,
+              "stamp": "4966329485"
+            }
+          }
+        },
+        "mono": 49663401.11136577,
+        "previous": "19dbec026c7b6d58a7347967f8a11944ce138b554a60f6cb564e29f59d36ad60",
+        "seq": 210,
+        "hash": "4dd5e3a1ca7983aed1673455e7ac89fa9ed38d6e57965658a03601a801dc510f"
+      }
+    }
+  ],
+  "phase_clocks": [
+    {
+      "deadline_mono": 49663446.63667391,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49663296.63667391
+    },
+    {
+      "deadline_mono": 49663479.77790245,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49663299.77790245
+    },
+    {
+      "deadline_mono": 49663535.38253558,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49663385.38253558
+    },
+    {
+      "deadline_mono": 49663566.32956019,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49663386.32956019
+    },
+    {
+      "deadline_mono": 49663537.497936375,
+      "kind": "phase-clock",
+      "phase": "prepare",
+      "start_mono": 49663387.497936375
+    },
+    {
+      "deadline_mono": 49663570.60852108,
+      "kind": "phase-clock",
+      "phase": "generate",
+      "start_mono": 49663390.60852108
+    }
+  ],
+  "final_cleanup_failure": null,
+  "control_counts": {
+    "get": 11,
+    "cleanup_get": 6,
+    "debug": 3,
+    "unload": 2
+  },
+  "native_immediate_idle_verified": false,
+  "real_task_inputs": 0,
+  "previous_timeout": {
+    "request": {
+      "kind": "request",
+      "id": "synthetic/0",
+      "episode": "synthetic",
+      "input": 9973,
+      "output": 32,
+      "status": "timeout",
+      "observed_usage": null
+    },
+    "cleanup_proof": {
+      "start": {
+        "event": {
+          "kind": "unload-start",
+          "old_runners": [
+            {
+              "pid": 34972,
+              "stamp": "4966288363"
+            }
+          ],
+          "present_before_unload": [
+            {
+              "pid": 34972,
+              "stamp": "4966288363"
+            }
+          ]
+        },
+        "mono": 49662948.26722502,
+        "previous": "9a5b45bfd3eaae7bf91d23b9942ce0680e4c2aa58fbb2aebfe5beacd1f18e9b5",
+        "seq": 60,
+        "hash": "eccc324f48e661df565fa1ae0a300b578dfa635d238f7df38ce0d40bc18a3417"
+      },
+      "complete": {
+        "event": {
+          "kind": "unload-complete",
+          "observation": {
+            "ledger_seq": 19,
+            "ledger_tip": "70c43a338d3832a6d0d2543d2d912fd3cd60d42b9f0bae1f4d584ea2dc0c9f3d",
+            "process_observations": [
+              {
+                "observed_stamp": null,
+                "pid": 34972,
+                "stamp": "4966288363"
+              }
+            ],
+            "ps": {
+              "models": []
+            },
+            "remaining_runners": [],
+            "resources_after_unload": {
+              "driver_rss": 38961152,
+              "gpu_bytes": 0,
+              "service_rss": 126644224
+            },
+            "response": {
+              "created_at": "2026-11-25T02:46:22.987507436Z",
+              "done": true,
+              "done_reason": "unload",
+              "message": {
+                "content": "",
+                "role": "assistant"
+              },
+              "model": "qwen2.5:7b"
+            },
+            "service": {
+              "pid": 34922,
+              "stamp": "4966288058"
+            }
+          }
+        },
+        "mono": 49662948.866093226,
+        "previous": "a1ece1948fb13783a9b0144ee7993742620b356ebdd4f7b5c3194b7fe3eb709f",
+        "seq": 82,
+        "hash": "dc9d84227d9022374d92b8eb3ff6c0ea0fada112a944b9dfc342c31316e6909b"
+      }
+    }
+  },
+  "service_transitions": [
+    {
+      "mono": 49663293.23685533,
+      "profile_exists": false,
+      "service": {
+        "context": 1024,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 35206,
+        "service_stamp": "4966294922"
+      },
+      "stage": "baseline"
+    },
+    {
+      "context": 16384,
+      "mono": 49663293.24890089,
+      "profile_sha256": "d7d9d7dc22b8f160d37a87b5aefb4d0c855dffce148992d5e5ba27b24caaccbd",
+      "stage": "candidate-profile-written"
+    },
+    {
+      "mono": 49663293.30782097,
+      "service": {
+        "context": 1024,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 35206,
+        "service_stamp": "4966294922"
+      },
+      "signal": 15,
+      "stage": "service-term"
+    },
+    {
+      "mono": 49663293.42199285,
+      "service": {
+        "context": 1024,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 35206,
+        "service_stamp": "4966294922"
+      },
+      "stage": "service-exited"
+    },
+    {
+      "mono": 49663294.56155473,
+      "profile_exists": true,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 35690,
+        "service_stamp": "4966329343"
+      },
+      "stage": "candidate-first-start"
+    },
+    {
+      "mono": 49663294.62489429,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 35690,
+        "service_stamp": "4966329343"
+      },
+      "signal": 15,
+      "stage": "service-term"
+    },
+    {
+      "mono": 49663294.84192062,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 35690,
+        "service_stamp": "4966329343"
+      },
+      "stage": "service-exited"
+    },
+    {
+      "mono": 49663295.98995622,
+      "profile_exists": true,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 35711,
+        "service_stamp": "4966329485"
+      },
+      "stage": "candidate-restart"
+    },
+    {
+      "mono": 49663401.27028946,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 35711,
+        "service_stamp": "4966329485"
+      },
+      "signal": 15,
+      "stage": "service-term"
+    },
+    {
+      "mono": 49663401.486491986,
+      "service": {
+        "context": 16384,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 35711,
+        "service_stamp": "4966329485"
+      },
+      "stage": "service-exited"
+    },
+    {
+      "mono": 49663402.64786625,
+      "profile_exists": false,
+      "service": {
+        "context": 1024,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 36124,
+        "service_stamp": "4966340149"
+      },
+      "stage": "baseline-restart"
+    },
+    {
+      "empty_runner": true,
+      "gpu_mib": 0,
+      "mono": 49663402.65098033,
+      "profile_exists": false,
+      "service": {
+        "context": 1024,
+        "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+        "service_pid": 36124,
+        "service_stamp": "4966340149"
+      },
+      "stage": "rollback-verified"
+    }
+  ],
+  "effective_context": 16384,
+  "rollback_verified": true,
+  "source_run": "hpc-masbench-t2-live-v3-20261125",
+  "artifacts_verified": 46
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-masbench-t2-audit-v2-20261125",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 4893,
+      "sha256": "9856d4829aa9a6a87819118115bfac2af5bc2b0857f9bf23591fe7febdd05e4e"
+    }
+  ]
+}

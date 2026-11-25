@@ -1,0 +1,17 @@
+{
+  "hdd_directory": "/hdd/u202520081000097/gosc-t3-contracts/hpc-masbench-t3-storage-contract-20261125",
+  "ssd_directory": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3-storage-contract-20261125/outputs",
+  "control_counts": {
+    "debug": 98,
+    "get": 312,
+    "cleanup_get": 108,
+    "unload": 18
+  },
+  "hdd_control_bytes": 8388608,
+  "control_sha256": "7679f380248bf7ef626e1d4286a1cfc50892c50c56ca68a1f59291f0e61aaef9",
+  "control_records": 2681,
+  "reopened_exact_budget": true,
+  "model_requests": 0,
+  "http": 0,
+  "scope": "synthetic storage contract"
+}

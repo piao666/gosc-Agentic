@@ -1,0 +1,20 @@
+{
+  "approved": true,
+  "scope": "T2 synthetic only",
+  "exclusive_service": true,
+  "service_exclusivity_confirmation": "用户授权按既定顺序执行 T2，包括合成现场及回滚。",
+  "run_id": "hpc-masbench-t2-live-v3-20261125",
+  "context": 16384,
+  "service_pid": 35206,
+  "service_stamp": "4966294922",
+  "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+  "source_sha256": "83bc9de551ab74cabdca63b389ed1b83945b3f87a470ed4844151f31a765d72a",
+  "runner_sha256": "f49d7d831e39806f718319995993e84c9c6bfc67763e1f15b496bcbe1ab57cac",
+  "launcher_sha256": "b5652d7ca06ae4a3e1e28388d0dda9d735c1be8bafb3f8c0f53505b9f3e62752",
+  "service_source_sha256": "7b71a408bc49387444f765084220d4f43d825a8fe44d3ae6f62eef8a27efc1d6",
+  "registry_sha256": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86",
+  "protocol_sha256": "d5a7307ba00944e205b8dd486a6a0ce0151a3322be67dc8dd6560f33f09cd2f3",
+  "plan_sha256": "6aab8469b9420e2a1f42e96a7331f47eea64d0548700a9c11b6c960c68184b75",
+  "recovery_sha256": "febdbc604fb18ff38e71cf2abcbc1d3c9d839e48c3925fff82371e3f410ad29d",
+  "previous_live_run": "hpc-masbench-t2-live-v2-20261125"
+}

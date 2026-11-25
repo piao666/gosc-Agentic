@@ -1,0 +1,141 @@
+{
+  "receipts": [
+    {
+      "path": "research/sync/receipts/20261125T023334Z-t2-window-demand-scoped.json",
+      "bytes": 2700,
+      "sha256": "4002aca5fb2e2dca13c89b0250ffb7393bd46fb365e997d54c0bace3cc13e96c",
+      "sync_id": "20261125T023334Z-t2-window-demand-scoped",
+      "run_ids": [
+        "hpc-masbench-t2-window-demand-20261125"
+      ],
+      "bytes_verified": 2251250,
+      "file_count": 9,
+      "bundles": [
+        {
+          "name": "t2-window-demand-transfer.tar.gz",
+          "bytes": 1720792,
+          "sha256": "916bb3fa672d91abd622feac7e938a88fd7f043172c768175e933eb744bd9a89"
+        }
+      ]
+    },
+    {
+      "path": "research/sync/receipts/20261125T024832Z-t2-deployment-scoped.json",
+      "bytes": 345240,
+      "sha256": "48cde8dbbdab00e22a97c22f68f690fe902e50432a2a08157a9540a8b75b8604",
+      "sync_id": "20261125T024832Z-t2-deployment-scoped",
+      "run_ids": [
+        "hpc-masbench-t2-audit-20261125",
+        "hpc-masbench-t2-audit-v2-20261125",
+        "hpc-masbench-t2-contract-20261125",
+        "hpc-masbench-t2-contract-v2-20261125",
+        "hpc-masbench-t2-live-20261125",
+        "hpc-masbench-t2-live-v2-20261125"
+      ],
+      "bytes_verified": 27459253,
+      "file_count": 1089,
+      "bundles": [
+        {
+          "name": "t2-deployment-transfer.tar.gz",
+          "bytes": 10903768,
+          "sha256": "023161b17f02fdfcb50093237871388954cbc00a38aee426c7724a1c3ec11b75"
+        }
+      ]
+    },
+    {
+      "path": "research/sync/receipts/20261125T025439Z-t2-final-scoped.json",
+      "bytes": 181821,
+      "sha256": "cc2cde9588c42a05e49b295b088efea02beb3aaa3be8c0860b9c66a9395a18e1",
+      "sync_id": "20261125T025439Z-t2-final-scoped",
+      "run_ids": [
+        "hpc-masbench-t2-audit-v3-20261125",
+        "hpc-masbench-t2-contract-v3-20261125",
+        "hpc-masbench-t2-live-v3-20261125"
+      ],
+      "bytes_verified": 14318050,
+      "file_count": 574,
+      "bundles": [
+        {
+          "name": "t2-final-transfer.tar.gz",
+          "bytes": 5521789,
+          "sha256": "1e0d4f776fee3725883917ef61f4afe0c54d3380d99dc680397cf9d2ab62089b"
+        }
+      ]
+    },
+    {
+      "path": "research/sync/receipts/20261125T031613Z-t3-preflight-scoped.json",
+      "bytes": 178528,
+      "sha256": "b072d3c22ed3fff5cfd87ed40f1c78010b3522032cd2ae0117cd6a964e5f0513",
+      "sync_id": "20261125T031613Z-t3-preflight-scoped",
+      "run_ids": [
+        "hpc-masbench-t3-ipc-contract-20261125",
+        "hpc-masbench-t3-rehearsal-20261125"
+      ],
+      "bytes_verified": 12834238,
+      "file_count": 551,
+      "bundles": [
+        {
+          "name": "t3-preflight-transfer.tar.gz",
+          "bytes": 3944611,
+          "sha256": "2636bac8c1f90793dd3f55bbc0f195395b87e3f03548c0615b2782c12bf6e2ab"
+        }
+      ]
+    },
+    {
+      "path": "research/sync/receipts/20261125T032026Z-t3-storage-scoped.json",
+      "bytes": 2722,
+      "sha256": "58c9e17dfe7bc3f462cfae2605b8477b278344ecf10cc9ef791bedbf1d1f391f",
+      "sync_id": "20261125T032026Z-t3-storage-scoped",
+      "run_ids": [
+        "hpc-masbench-t3-storage-contract-20261125"
+      ],
+      "bytes_verified": 2241044,
+      "file_count": 9,
+      "bundles": [
+        {
+          "name": "t3-storage-transfer.tar.gz",
+          "bytes": 1750645,
+          "sha256": "52e09a76cd72f6ab2dd3a051fe2106cf2fd47cfecff203cfdf189b7234293b5e"
+        }
+      ]
+    },
+    {
+      "path": "research/sync/receipts/20261125T034217Z-t3-integration-scoped.json",
+      "bytes": 5085,
+      "sha256": "1f0509fcf93e0e44480bf7844c7316aae0810a65378d38a2945ad593fd06dcd6",
+      "sync_id": "20261125T034217Z-t3-integration-scoped",
+      "run_ids": [
+        "hpc-masbench-t3-integrated-contract-20261125",
+        "hpc-masbench-t3-integrated-contract-v2-20261125"
+      ],
+      "bytes_verified": 4637287,
+      "file_count": 18,
+      "bundles": [
+        {
+          "name": "t3-integration-transfer.tar.gz",
+          "bytes": 3575902,
+          "sha256": "8277e7687e65b4d3a6e6008064c2e1e0fb3be0fcbc837b85ea2f9590c0fbe772"
+        }
+      ]
+    },
+    {
+      "path": "research/sync/receipts/20261125T035957Z-t3-live-scoped.json",
+      "bytes": 5516,
+      "sha256": "28c37963a739e8c111b02ff19896855cf1be2398d94e01e053f326c5df18d303",
+      "sync_id": "20261125T035957Z-t3-live-scoped",
+      "run_ids": [
+        "hpc-masbench-t3-audit-20261125",
+        "hpc-masbench-t3-live-20261125"
+      ],
+      "bytes_verified": 4679051,
+      "file_count": 21,
+      "bundles": [
+        {
+          "name": "t3-live-transfer.tar.gz",
+          "bytes": 3589121,
+          "sha256": "a55f530856d7f993a28285e27b7e515f2feeebd6f82102f076565e1889e29888"
+        }
+      ],
+      "raw_hdd_outputs_mirrored": false
+    }
+  ]
+}

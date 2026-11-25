@@ -38,7 +38,26 @@ def own_listener(runtime):
             raise SafetyError('active connection on project service')
 
 
-def process_tree_rss(root_pid):
+def process_rss(driver_pid, service_pid, rows=None):
+    if rows is None:
+        rows = process_rows()
+
+    def descendants(root_pid):
+        found = {root_pid}
+        while True:
+            expanded = found | {pid for pid, (parent, _) in rows.items() if parent in found}
+            if expanded == found:
+                return found
+            found = expanded
+
+    page = os.sysconf('SC_PAGE_SIZE')
+    service = descendants(service_pid)
+    driver = descendants(driver_pid) - service
+    return (sum(rows[pid][1] for pid in driver if pid in rows) * page,
+            sum(rows[pid][1] for pid in service if pid in rows) * page)
+
+
+def process_rows():
     rows = {}
     for proc in Path('/proc').iterdir():
         if not proc.name.isdigit():
@@ -48,13 +67,7 @@ def process_tree_rss(root_pid):
             rows[int(proc.name)] = (int(fields[1]), max(0, int(fields[21])))
         except (OSError, ValueError, IndexError):
             continue
-    descendants = {root_pid}
-    while True:
-        next_set = descendants | {pid for pid, (parent, _) in rows.items() if parent in descendants}
-        if next_set == descendants:
-            break
-        descendants = next_set
-    return sum(rows[pid][1] for pid in descendants if pid in rows) * os.sysconf('SC_PAGE_SIZE')
+    return rows
 
 
 class Monitor:
@@ -78,9 +91,10 @@ class Monitor:
                 raise SafetyError('service PID drift')
             gpu = command('nvidia-smi', '--query-gpu=memory.used',
                           '--format=csv,noheader,nounits', timeout=.45)
+            driver_rss,service_rss = process_rss(os.getpid(),self.runtime.service_pid)
             values = {
-                'driver_rss': process_tree_rss(os.getpid()),
-                'service_rss': process_tree_rss(self.runtime.service_pid),
+                'driver_rss': driver_rss,
+                'service_rss': service_rss,
                 'gpu_bytes': sum(int(line) for line in gpu.splitlines()) * 1024**2,
             }
             self.samples += 1
@@ -156,15 +170,16 @@ def run_case(driver, case):
     return result
 
 
-def main():
+def main(authorization=AUTH, fixture_id='hpc-masbench-t1b-formal-runner-retest-contract-20261119',
+         expected_service=None):
     begin = time.monotonic()
     require_hpc()
-    approval = live.require_authorization(AUTH)
-    plan = json.loads(PLAN.read_bytes())
+    approval = live.require_authorization(authorization)
+    plan = json.loads((ROOT/approval['plan_path']).read_bytes())
     caps = plan['caps']
     if approval['run_id'] != plan['run_id']:
         raise SafetyError('wrong frozen run identity')
-    fixture = ROOT/'research/sync/runs/hpc-masbench-t1b-formal-runner-retest-contract-20261119'
+    fixture = ROOT/'research/sync/runs'/fixture_id
     if json.loads((fixture/'status.json').read_bytes())['status']!='completed':
         raise SafetyError('formal no-network fixture did not pass')
     if approval.get('service_exclusivity_confirmation', '') == '':
@@ -175,9 +190,10 @@ def main():
     state = json.loads((ROOT/'.local/ollama/service.json').read_bytes())
     pid = state['pid']
     binary = ROOT/'.local/ollama/runtime/0.11.11/bin/ollama'
-    runtime = live.Runtime(str(ROOT), HELPER, pid, live.proc_stamp(pid), live.file_sha(binary))
-    if (pid != approval.get('service_pid') or runtime.service_stamp != approval.get('service_stamp')
-            or runtime.binary_sha != approval.get('service_binary_sha256')):
+    runtime = live.Runtime(str(ROOT), HELPER, pid, live.proc_stamp(pid), live.file_sha(binary), approval['context'])
+    service = approval if expected_service is None else expected_service
+    if (pid != service.get('service_pid') or runtime.service_stamp != service.get('service_stamp')
+            or runtime.binary_sha != service.get('service_binary_sha256')):
         raise SafetyError('frozen service identity changed')
     live.runtime_files(runtime)
     own_listener(runtime)
@@ -198,7 +214,7 @@ def main():
     campaign = out/'driver'
     if campaign.exists():
         raise SafetyError('frozen campaign cannot be replayed')
-    driver = live.LiveDriver(campaign, runtime, limits, authorization=AUTH)
+    driver = live.LiveDriver(campaign, runtime, limits, authorization=authorization)
     monitor = Monitor(runtime, caps, driver.control)
     driver.resource_monitor = monitor
     driver.rpc.monitor = monitor

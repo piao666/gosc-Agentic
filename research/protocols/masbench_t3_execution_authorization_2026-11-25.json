@@ -1,0 +1,23 @@
+{
+  "approved": true,
+  "scope": "T3 frozen four development families",
+  "exclusive_service": true,
+  "user_confirmation": "确认",
+  "response_annotation_id": "f929f31c-7790-41b5-a821-1f157f1ae486",
+  "run_id": "hpc-masbench-t3-live-20261125",
+  "context": 16384,
+  "service_pid": 36124,
+  "service_stamp": "4966340149",
+  "service_binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+  "source_sha256": "c1d45e01d58a048db1b82ffeaee67cb34d2520cf29adfadbd5a33a2190a4afa1",
+  "runner_sha256": "f49d7d831e39806f718319995993e84c9c6bfc67763e1f15b496bcbe1ab57cac",
+  "launcher_sha256": "4f160deb864cb0d48bd23be44de0ed6d544f3b9d8e1acf117259af83534ddc8b",
+  "lifecycle_sha256": "6b39db5fd8034afa1a1075a77716bcc1f98a6b9628d44b93f5f0bbff837f9813",
+  "service_source_sha256": "f3afc556d9b47f64351e22988ea120ef84df1c5373175e0ca77aecc69af48bba",
+  "campaign_ledger_sha256": "bf0e8737cb7c7ef1c0e08253742d247714c23eb1257e6e42c40ce8d37c2fcc41",
+  "client_sha256": "3c236505a3db6283cdc3201ecef6e31e26e7aa552670777ce082c428f9f983fd",
+  "registry_sha256": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86",
+  "protocol_sha256": "4db51b7ce4664b7333653a71e62fa10f83b51bc8bb58e3438a7b4802a3472794",
+  "plan_sha256": "f46587da804438d7e2a6adba437eb214224638dd7606e47ae24165f891cd2189",
+  "contract_receipt_sha256": "519f23b156fdfd721c61f658cc71d39bb97d97d365c319adbc5615ff989fc389"
+}

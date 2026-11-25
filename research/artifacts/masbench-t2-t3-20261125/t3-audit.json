@@ -1,0 +1,375 @@
+{
+  "registered_status": "completed",
+  "live_status": "completed",
+  "failure": null,
+  "hdd_bytes": 16983131,
+  "hdd_files": 684,
+  "raw_mirrored": false,
+  "raw_hdd_sha256_verified": true,
+  "science_disposition": "no_go",
+  "engineering_complete": true,
+  "rollback_verified": true,
+  "old_runner_barriers": 18,
+  "requests": 51,
+  "partition_use": {
+    "synthetic": 2,
+    "task": 49
+  },
+  "inputs_reserved": 131147,
+  "outputs_reserved": 26112,
+  "unknown_requests": [],
+  "unknown_reserved_inputs": 0,
+  "unknown_reserved_outputs": 0,
+  "known_prompt_tokens": 131147,
+  "known_completion_tokens": 5286,
+  "full_correct_families_base": 1,
+  "base_positive_delivery_pair": false,
+  "scopes": {
+    "base/Full": {
+      "N_planned": 4,
+      "N_started": 4,
+      "N_completed": 4,
+      "N_error": 0,
+      "N_unanswered": 0,
+      "N_not_started": 0,
+      "not_started_ids": [],
+      "mean_F1_all": 0.3117402882205514,
+      "EM_all_added": 0.25,
+      "legacy_mean_F1_nonNone": 0.3117402882205514,
+      "complete_planned_set": true,
+      "error_unanswered_overlap": true
+    },
+    "base/No-A2A": {
+      "N_planned": 4,
+      "N_started": 4,
+      "N_completed": 4,
+      "N_error": 0,
+      "N_unanswered": 0,
+      "N_not_started": 0,
+      "not_started_ids": [],
+      "mean_F1_all": 0.3117402882205514,
+      "EM_all_added": 0.25,
+      "legacy_mean_F1_nonNone": 0.3117402882205514,
+      "complete_planned_set": true,
+      "error_unanswered_overlap": true
+    },
+    "protocol/Full": {
+      "N_planned": 4,
+      "N_started": 4,
+      "N_completed": 4,
+      "N_error": 0,
+      "N_unanswered": 0,
+      "N_not_started": 0,
+      "not_started_ids": [],
+      "mean_F1_all": 0.27792276369101415,
+      "EM_all_added": 0.0,
+      "legacy_mean_F1_nonNone": 0.27792276369101415,
+      "complete_planned_set": true,
+      "error_unanswered_overlap": true
+    },
+    "protocol/No-A2A": {
+      "N_planned": 4,
+      "N_started": 4,
+      "N_completed": 4,
+      "N_error": 0,
+      "N_unanswered": 4,
+      "N_not_started": 0,
+      "not_started_ids": [],
+      "mean_F1_all": 0.0,
+      "EM_all_added": 0.0,
+      "legacy_mean_F1_nonNone": null,
+      "complete_planned_set": true,
+      "error_unanswered_overlap": true
+    }
+  },
+  "episodes": [
+    {
+      "id": "01-base-Full",
+      "end_reason": "answer",
+      "EM": 0.0,
+      "F1": 0.11428571428571428,
+      "requests": 1,
+      "receiver_next_requests": [],
+      "wire_bytes": 12814,
+      "channel_uses": 25628
+    },
+    {
+      "id": "01-base-No-A2A",
+      "end_reason": "answer",
+      "EM": 0.0,
+      "F1": 0.11428571428571428,
+      "requests": 1,
+      "receiver_next_requests": [],
+      "wire_bytes": 0,
+      "channel_uses": 0
+    },
+    {
+      "id": "01-protocol-No-A2A",
+      "end_reason": "turn_limit",
+      "EM": 0.0,
+      "F1": 0.0,
+      "requests": 6,
+      "receiver_next_requests": [],
+      "wire_bytes": 0,
+      "channel_uses": 0
+    },
+    {
+      "id": "01-protocol-Full",
+      "end_reason": "answer",
+      "EM": 0.0,
+      "F1": 0.5263157894736842,
+      "requests": 3,
+      "receiver_next_requests": [
+        {
+          "turn": 1,
+          "payload_sha256": "26351b431cee4a5a34c9197ce507d92364fe5a6023bde99103a1a946f55e8872",
+          "receiver_request_sha256": "c8f89ceb8c9c3189204eafe023cd98bebb9865cd3d541eea83e55cf67b8f48ae"
+        },
+        {
+          "turn": 2,
+          "payload_sha256": "354cbda6a8b71a1b9bbae961d38d1c91870732c52a83ac6895e9ca1dff1ededd",
+          "receiver_request_sha256": "0db69d11ce3c6dc1a405e2fa5d8f65b9aefa99cfbc19bf6f6ec9796eea3b56c0"
+        }
+      ],
+      "wire_bytes": 7736,
+      "channel_uses": 15472
+    },
+    {
+      "id": "02-base-No-A2A",
+      "end_reason": "answer",
+      "EM": 0.0,
+      "F1": 0.0625,
+      "requests": 1,
+      "receiver_next_requests": [],
+      "wire_bytes": 0,
+      "channel_uses": 0
+    },
+    {
+      "id": "02-base-Full",
+      "end_reason": "answer",
+      "EM": 0.0,
+      "F1": 0.0625,
+      "requests": 1,
+      "receiver_next_requests": [],
+      "wire_bytes": 10500,
+      "channel_uses": 21000
+    },
+    {
+      "id": "02-protocol-Full",
+      "end_reason": "answer",
+      "EM": 0.0,
+      "F1": 0.2191780821917808,
+      "requests": 3,
+      "receiver_next_requests": [
+        {
+          "turn": 1,
+          "payload_sha256": "86328f0f3792ba305f9422c1c3bfe07d4bcabbe2af79db9e84d84875da60d967",
+          "receiver_request_sha256": "4eade64d60237e7146ce8343d51e46ae1930c414fac294f067c8eddbcea6a35d"
+        },
+        {
+          "turn": 2,
+          "payload_sha256": "e30e44b13cb5b6941e18ae49a5b683b9825e42587f84636efa8c93f1e4bff19e",
+          "receiver_request_sha256": "b7fd305efca63c815ff58fd7ab581b816f7bdbf1f1a9f95a8358d0eba394f2bc"
+        }
+      ],
+      "wire_bytes": 15378,
+      "channel_uses": 30756
+    },
+    {
+      "id": "02-protocol-No-A2A",
+      "end_reason": "turn_limit",
+      "EM": 0.0,
+      "F1": 0.0,
+      "requests": 6,
+      "receiver_next_requests": [],
+      "wire_bytes": 0,
+      "channel_uses": 0
+    },
+    {
+      "id": "03-base-Full",
+      "end_reason": "answer",
+      "EM": 1.0,
+      "F1": 1.0,
+      "requests": 1,
+      "receiver_next_requests": [],
+      "wire_bytes": 16834,
+      "channel_uses": 33668
+    },
+    {
+      "id": "03-base-No-A2A",
+      "end_reason": "answer",
+      "EM": 1.0,
+      "F1": 1.0,
+      "requests": 1,
+      "receiver_next_requests": [],
+      "wire_bytes": 0,
+      "channel_uses": 0
+    },
+    {
+      "id": "03-protocol-No-A2A",
+      "end_reason": "turn_limit",
+      "EM": 0.0,
+      "F1": 0.0,
+      "requests": 6,
+      "receiver_next_requests": [],
+      "wire_bytes": 0,
+      "channel_uses": 0
+    },
+    {
+      "id": "03-protocol-Full",
+      "end_reason": "answer",
+      "EM": 0.0,
+      "F1": 0.0,
+      "requests": 6,
+      "receiver_next_requests": [
+        {
+          "turn": 1,
+          "payload_sha256": "86f7d81b345b96fdd7fc3272d299a0ab123066fcd61660aec7be65a46a1e1ec5",
+          "receiver_request_sha256": "986a56ac540761f47666f095bca26735133fc97114f9af3f06fe744755ca733f"
+        },
+        {
+          "turn": 2,
+          "payload_sha256": "0880fb671eecb1082a163d25bd5ee81036a68fdfa90d39a28c9ad869f3011e8c",
+          "receiver_request_sha256": "da26fff4e1830f55bc181204c3f270980a739a2ec8bc30b5122fcb2e13297298"
+        },
+        {
+          "turn": 3,
+          "payload_sha256": "49a9ee50b41a6bc7aab81ab2c09fc47ed39726bddfb0203899c9321da12d5e91",
+          "receiver_request_sha256": "99479a1a471da5c52cb87cd82190e784ad66d8631b3d2bdb12490d890116d8a7"
+        },
+        {
+          "turn": 4,
+          "payload_sha256": "1ff44c834635cb62f9d7f6b02df1f8ba15201bd155eb7a24a88c2174e1069add",
+          "receiver_request_sha256": "513720360e5d7027a9fcdfe1ce0924513079e5e9edddff70f87d3bd555ba3620"
+        },
+        {
+          "turn": 5,
+          "payload_sha256": "50f369cd64f70eb946308a078194472488bc0afafd3c0f9dc068fe7faa75ac15",
+          "receiver_request_sha256": "8851c37e62b716ec7d0cd6c8b599ef216a991eb9ef78bcf51bf8a1dffab8c864"
+        }
+      ],
+      "wire_bytes": 21086,
+      "channel_uses": 42172
+    },
+    {
+      "id": "04-base-No-A2A",
+      "end_reason": "answer",
+      "EM": 0.0,
+      "F1": 0.07017543859649122,
+      "requests": 2,
+      "receiver_next_requests": [],
+      "wire_bytes": 0,
+      "channel_uses": 0
+    },
+    {
+      "id": "04-base-Full",
+      "end_reason": "answer",
+      "EM": 0.0,
+      "F1": 0.07017543859649122,
+      "requests": 2,
+      "receiver_next_requests": [
+        {
+          "turn": 1,
+          "payload_sha256": "efe7a47161ece12028c28a2a578a19a44064ae44878dda860d9b8e7933229bee",
+          "receiver_request_sha256": "c65783dfc4f222d6efc8398d7627b9607cbc34901b8627455a7232156f4e1b58"
+        }
+      ],
+      "wire_bytes": 21412,
+      "channel_uses": 42824
+    },
+    {
+      "id": "04-protocol-Full",
+      "end_reason": "answer",
+      "EM": 0.0,
+      "F1": 0.36619718309859156,
+      "requests": 3,
+      "receiver_next_requests": [
+        {
+          "turn": 1,
+          "payload_sha256": "3720aa6f8312a1aa7dff2948501c9fc33caded2bf4246d0aec291c3305ce930e",
+          "receiver_request_sha256": "fb5d1bcf875ee7628ca8f69ff1472a5972be785dc8caa713e55003631b915441"
+        },
+        {
+          "turn": 2,
+          "payload_sha256": "3ac320cbec2d69a472defde9015194df8a08f74f38473d8e861a0ba1d4f2a8d6",
+          "receiver_request_sha256": "8cda6f3d5a4d38b70369f355e605f2e43df17d2588c5ead0801d0815aebff89f"
+        }
+      ],
+      "wire_bytes": 11480,
+      "channel_uses": 22960
+    },
+    {
+      "id": "04-protocol-No-A2A",
+      "end_reason": "turn_limit",
+      "EM": 0.0,
+      "F1": 0.0,
+      "requests": 6,
+      "receiver_next_requests": [],
+      "wire_bytes": 0,
+      "channel_uses": 0
+    }
+  ],
+  "pairs": [
+    {
+      "full": "01-base-Full",
+      "no_a2a": "01-base-No-A2A",
+      "style": "base",
+      "F1_difference": 0.0,
+      "full_has_receiver_request": false
+    },
+    {
+      "full": "01-protocol-Full",
+      "no_a2a": "01-protocol-No-A2A",
+      "style": "protocol",
+      "F1_difference": 0.5263157894736842,
+      "full_has_receiver_request": true
+    },
+    {
+      "full": "02-base-Full",
+      "no_a2a": "02-base-No-A2A",
+      "style": "base",
+      "F1_difference": 0.0,
+      "full_has_receiver_request": false
+    },
+    {
+      "full": "02-protocol-Full",
+      "no_a2a": "02-protocol-No-A2A",
+      "style": "protocol",
+      "F1_difference": 0.2191780821917808,
+      "full_has_receiver_request": true
+    },
+    {
+      "full": "03-base-Full",
+      "no_a2a": "03-base-No-A2A",
+      "style": "base",
+      "F1_difference": 0.0,
+      "full_has_receiver_request": false
+    },
+    {
+      "full": "03-protocol-Full",
+      "no_a2a": "03-protocol-No-A2A",
+      "style": "protocol",
+      "F1_difference": 0.0,
+      "full_has_receiver_request": true
+    },
+    {
+      "full": "04-base-Full",
+      "no_a2a": "04-base-No-A2A",
+      "style": "base",
+      "F1_difference": 0.0,
+      "full_has_receiver_request": true
+    },
+    {
+      "full": "04-protocol-Full",
+      "no_a2a": "04-protocol-No-A2A",
+      "style": "protocol",
+      "F1_difference": 0.36619718309859156,
+      "full_has_receiver_request": true
+    }
+  ],
+  "resource_peaks": {
+    "driver_rss": 258711552,
+    "service_rss": 5444169728,
+    "gpu_bytes": 6767509504
+  }
+}

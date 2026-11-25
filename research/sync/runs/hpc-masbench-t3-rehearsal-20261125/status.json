@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-masbench-t3-rehearsal-20261125",
+  "status": "completed",
+  "started_at": "2026-11-25T03:10:20.247093+00:00",
+  "finished_at": "2026-11-25T03:10:21.429156+00:00",
+  "exit_code": 0,
+  "pid": 37099,
+  "elapsed_seconds": 1.182084,
+  "resource_usage": {
+    "child_max_rss_kib": 92196,
+    "child_cpu_user_seconds": 1.335725,
+    "child_cpu_system_seconds": 0.341194,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

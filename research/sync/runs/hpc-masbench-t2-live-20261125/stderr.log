@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t2_live.py", line 165, in main
+    campaign.main(authorization,FIXTURE,identity(restarted))
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t1b_live.py", line 232, in main
+    report['cases'].append(run_case(driver, case))
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t1b_live.py", line 154, in run_case
+    result = validate_case(driver, case, start, response, error)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t1b_live.py", line 109, in validate_case
+    raise SafetyError(f'case did not reach generation: {case["id"]}')
+extensions.masbench_reasoning.execution_safety.SafetyError: case did not reach generation: normal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t2_live.py", line 197, in <module>
+    main()
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t2_live.py", line 172, in main
+    raise SafetyError('rollback awaits owned runner recovery evidence')
+extensions.masbench_reasoning.execution_safety.SafetyError: rollback awaits owned runner recovery evidence

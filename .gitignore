@@ -40,3 +40,8 @@ research/sync/*.partial-*
 /research/sync/receipts/20261119T*-t1-*-scoped.json
 # Empty temporary T1 metadata writes from interrupted finalization.
 /research/sync/runs/hpc-masbench-t1*/*.tmp-*
+# T2/T3 full transfer receipts and repeated source inventories stay in the run store.
+/research/sync/receipts/20261125T*-t2-*-scoped.json
+/research/sync/receipts/20261125T*-t3-*-scoped.json
+/research/sync/runs/hpc-masbench-t2*-20261125/source_snapshot.json
+/research/sync/runs/hpc-masbench-t3*-20261125/source_snapshot.json
