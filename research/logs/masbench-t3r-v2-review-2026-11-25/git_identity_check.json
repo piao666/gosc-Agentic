@@ -1,0 +1,40 @@
+{
+  "verified_on": "2026-11-25 Asia/Shanghai",
+  "local_head": "f91d01070740703dc1ee845510569c0b31e66c51",
+  "branch_search": {
+    "branches": [
+      {
+        "branch": "research/progress-audit-2026-10-19"
+      }
+    ],
+    "cursor": "MQ"
+  },
+  "compare": {
+    "repository_full_name": "piao666/gosc-Agentic",
+    "base": "f91d01070740703dc1ee845510569c0b31e66c51",
+    "head": "research/progress-audit-2026-10-19",
+    "status": "identical",
+    "ahead_by": 0,
+    "behind_by": 0,
+    "total_commits": 0,
+    "too_large": null,
+    "base_commit": {
+      "sha": "f91d01070740703dc1ee845510569c0b31e66c51",
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/commits/f91d01070740703dc1ee845510569c0b31e66c51",
+      "html_url": "https://github.com/piao666/gosc-Agentic/commit/f91d01070740703dc1ee845510569c0b31e66c51"
+    },
+    "merge_base_commit": {
+      "sha": "f91d01070740703dc1ee845510569c0b31e66c51",
+      "url": "https://api.github.com/repos/piao666/gosc-Agentic/commits/f91d01070740703dc1ee845510569c0b31e66c51",
+      "html_url": "https://github.com/piao666/gosc-Agentic/commit/f91d01070740703dc1ee845510569c0b31e66c51"
+    },
+    "files": []
+  },
+  "cli_attempt": {
+    "command": "git ls-remote origin refs/heads/research/progress-audit-2026-10-19",
+    "exit_code": 1,
+    "error": "fatal: unable to access 'https://github.com/piao666/gosc-Agentic.git/': getaddrinfo() thread failed to start",
+    "fallback": "read-only GitHub connector compare_commits; status identical"
+  },
+  "mutations": false
+}

@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-25T17:36:56.6302232+08:00",
+  "scope": "lightweight local document/link/SHA/Git management only, not a test or scientific audit",
+  "head": "f91d01070740703dc1ee845510569c0b31e66c51",
+  "branch": "research/progress-audit-2026-10-19",
+  "tracked_diff": [],
+  "staged_diff": [],
+  "status": [
+    "?? .workbuddy/",
+    "?? 11-17审阅任务安排.md",
+    "?? T3-R_科研失败归因与研究前提复核任务书.md",
+    "?? research/logs/masbench-t3r-v2-review-2026-11-25/",
+    "?? research/protocols/masbench_t3r_v2_contract_matrix_v1.md",
+    "?? research/protocols/masbench_t3r_v2_fair_final_spec_v1.md",
+    "?? research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+    "?? research/reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md"
+  ],
+  "source_checks": [
+    {
+      "path": "AGENTS.md",
+      "expected": "4f84b14645fd47e5b7264345a8a26ac382ffb839de92c38b74e621812702e926",
+      "actual": "4f84b14645fd47e5b7264345a8a26ac382ffb839de92c38b74e621812702e926",
+      "matches": true
+    },
+    {
+      "path": "硕士论文研究与实施说明书.md",
+      "expected": "2ee0dfdadfe46c4fd7443c9f84dc0bbd4fdac75ae6dc00ee569ed44c8238f122",
+      "actual": "2ee0dfdadfe46c4fd7443c9f84dc0bbd4fdac75ae6dc00ee569ed44c8238f122",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3_trace_diagnosis_2026-11-25.md",
+      "expected": "0c3e8bdd90b9a70f65d3af320a36060d1ea8a7361ade688f71e392651406aa14",
+      "actual": "0c3e8bdd90b9a70f65d3af320a36060d1ea8a7361ade688f71e392651406aa14",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3_failure_attribution_review_2026-11-25.md",
+      "expected": "8d28bc9558f9fc87294c6abd0cf624c672698c4f3b13826a35ba5e2ce78547c1",
+      "actual": "8d28bc9558f9fc87294c6abd0cf624c672698c4f3b13826a35ba5e2ce78547c1",
+      "matches": true
+    },
+    {
+      "path": "research/protocols/masbench_t3_revision_gate_review_v1.md",
+      "expected": "625b56215907cf6506cf1b542adfcbbaed5ec3a2f8a84fe0a908585a95155bd7",
+      "actual": "625b56215907cf6506cf1b542adfcbbaed5ec3a2f8a84fe0a908585a95155bd7",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3_research_decision_2026-11-25.md",
+      "expected": "c42e750759f16062715d1354d2cad29b2a8700d1b3d78029f579f15e5d86c877",
+      "actual": "c42e750759f16062715d1354d2cad29b2a8700d1b3d78029f579f15e5d86c877",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/evidence_inventory.json",
+      "expected": "67d023ec64ee73233447b6dda04d685555ab1756f2798ed1530262ac1945345a",
+      "actual": "67d023ec64ee73233447b6dda04d685555ab1756f2798ed1530262ac1945345a",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/episode_trace_index.json",
+      "expected": "1b1b8089db1f6c3e0b612f157bb0418212c9de1f5d4231a8e682de475a3e39a1",
+      "actual": "1b1b8089db1f6c3e0b612f157bb0418212c9de1f5d4231a8e682de475a3e39a1",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/verification_summary.json",
+      "expected": "1723edd8ac5c05b10d17e0d8609b62a0322764ac538567bfd2647b78f2632139",
+      "actual": "1723edd8ac5c05b10d17e0d8609b62a0322764ac538567bfd2647b78f2632139",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/native-masbench-20261104/masbench_development_registry.json",
+      "expected": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86",
+      "actual": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/native-masbench-20261104/masbench_registry_summary.json",
+      "expected": "5f0db1d8b97ab9c6fc298f81ec60b780508dfd0582954ef63c1f025ea44991a2",
+      "actual": "5f0db1d8b97ab9c6fc298f81ec60b780508dfd0582954ef63c1f025ea44991a2",
+      "matches": true
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/outputs/preflight.json",
+      "expected": "5dfeccee6517581874e81f977b49d4892605cbb3b0fccf19b5a8a221c1ef311f",
+      "actual": "5dfeccee6517581874e81f977b49d4892605cbb3b0fccf19b5a8a221c1ef311f",
+      "matches": true
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-t3-live-20261125/manifest.json",
+      "expected": "1ee444c41efe6158638919f75998583b3a4db2bc77d93e577aa71db18acf1bf9",
+      "actual": "1ee444c41efe6158638919f75998583b3a4db2bc77d93e577aa71db18acf1bf9",
+      "matches": true
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-t3-live-20261125/source_snapshot.json",
+      "expected": "3d2565a885931aeeb3c4f3631606db74e59e561a5c061b45b75909a5388b15fa",
+      "actual": "3d2565a885931aeeb3c4f3631606db74e59e561a5c061b45b75909a5388b15fa",
+      "matches": true
+    },
+    {
+      "path": "research/protocols/masbench_t3_execution_authorization_2026-11-25.json",
+      "expected": "0947a860bf01e9c16ca337e13bd0d05babc1281089699d52254f1d4edcf84afa",
+      "actual": "0947a860bf01e9c16ca337e13bd0d05babc1281089699d52254f1d4edcf84afa",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/application.py",
+      "expected": "a369f4d134e50984f69a92fa243449069849cef7c97142953dfb7cf27e801b78",
+      "actual": "a369f4d134e50984f69a92fa243449069849cef7c97142953dfb7cf27e801b78",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/client.py",
+      "expected": "3c236505a3db6283cdc3201ecef6e31e26e7aa552670777ce082c428f9f983fd",
+      "actual": "3c236505a3db6283cdc3201ecef6e31e26e7aa552670777ce082c428f9f983fd",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/evaluation.py",
+      "expected": "780743faa4d310eb9cd86285e9aeee67fcdba77d80e97d26f70d5f07206f2bf7",
+      "actual": "780743faa4d310eb9cd86285e9aeee67fcdba77d80e97d26f70d5f07206f2bf7",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/registry.py",
+      "expected": "d4dea830a2c2d99df0bddaff1114aede1ea7f03782154241569e54193a852f10",
+      "actual": "d4dea830a2c2d99df0bddaff1114aede1ea7f03782154241569e54193a852f10",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/wire.py",
+      "expected": "1504e95b20fe5fb8af0a9fb3fafd43356f852ea7274f280edcfe5ba1f080e17f",
+      "actual": "1504e95b20fe5fb8af0a9fb3fafd43356f852ea7274f280edcfe5ba1f080e17f",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/live_driver.py",
+      "expected": "c1d45e01d58a048db1b82ffeaee67cb34d2520cf29adfadbd5a33a2190a4afa1",
+      "actual": "c1d45e01d58a048db1b82ffeaee67cb34d2520cf29adfadbd5a33a2190a4afa1",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/fixture_driver.py",
+      "expected": "bf0e8737cb7c7ef1c0e08253742d247714c23eb1257e6e42c40ce8d37c2fcc41",
+      "actual": "bf0e8737cb7c7ef1c0e08253742d247714c23eb1257e6e42c40ce8d37c2fcc41",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/execution_safety.py",
+      "expected": "3fe213773b0c1a94e27afaccc2e68156e17181690dcb20e8b33a45668a8dc7de",
+      "actual": "3fe213773b0c1a94e27afaccc2e68156e17181690dcb20e8b33a45668a8dc7de",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t1b_live.py",
+      "expected": "f49d7d831e39806f718319995993e84c9c6bfc67763e1f15b496bcbe1ab57cac",
+      "actual": "f49d7d831e39806f718319995993e84c9c6bfc67763e1f15b496bcbe1ab57cac",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t2_live.py",
+      "expected": "6b39db5fd8034afa1a1075a77716bcc1f98a6b9628d44b93f5f0bbff837f9813",
+      "actual": "6b39db5fd8034afa1a1075a77716bcc1f98a6b9628d44b93f5f0bbff837f9813",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t3_live.py",
+      "expected": "4f160deb864cb0d48bd23be44de0ed6d544f3b9d8e1acf117259af83534ddc8b",
+      "actual": "4f160deb864cb0d48bd23be44de0ed6d544f3b9d8e1acf117259af83534ddc8b",
+      "matches": true
+    },
+    {
+      "path": "scripts/hpc_ollama.py",
+      "expected": "80fd84dfa4d498cf8db38b38c86654a0accc064560e17618fb7da98d2ba111f7",
+      "actual": "80fd84dfa4d498cf8db38b38c86654a0accc064560e17618fb7da98d2ba111f7",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t1_validation_archive_2026-11-19.md",
+      "expected": "a83bc66cc7eb6a52a2beccfd63ddda96874c048f4bf535529a3ffa8ca244ab85",
+      "actual": "a83bc66cc7eb6a52a2beccfd63ddda96874c048f4bf535529a3ffa8ca244ab85",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t2_context_acceptance_2026-11-25.md",
+      "expected": "09933a24be99b4a48ab6c8305947093a2076caa11219bee32d8b8752e285da22",
+      "actual": "09933a24be99b4a48ab6c8305947093a2076caa11219bee32d8b8752e285da22",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3_execution_2026-11-25.md",
+      "expected": "a5183a79d07b256b64027961d7a6452d34860f1d09ce8b59bc51504c010da69a",
+      "actual": "a5183a79d07b256b64027961d7a6452d34860f1d09ce8b59bc51504c010da69a",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/README.md",
+      "expected": "8f72f6043ad1915c7d83fa2fc8018c52f20d1fe8b34dec9b5b8b5fee74e13125",
+      "actual": "8f72f6043ad1915c7d83fa2fc8018c52f20d1fe8b34dec9b5b8b5fee74e13125",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/acceptance_matrix.md",
+      "expected": "b31ffb629984f9d3c445f29083177b3e043e9e9f9520600ed9010a0d649cd625",
+      "actual": "b31ffb629984f9d3c445f29083177b3e043e9e9f9520600ed9010a0d649cd625",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/masbench-t2-t3-20261125/t3-hdd-manifest.json",
+      "expected": "346fcccd44847d028feb3cccd330546bc543b18e3ce7a162ccef5f2fb427755b",
+      "actual": "346fcccd44847d028feb3cccd330546bc543b18e3ce7a162ccef5f2fb427755b",
+      "matches": true
+    }
+  ],
+  "markdown_links": [
+    {
+      "document": "research/protocols/masbench_t3r_v2_fair_final_spec_v1.md",
+      "target": "../logs/masbench-t3r-v2-review-2026-11-25/source_inventory.json",
+      "exists": true
+    },
+    {
+      "document": "research/protocols/masbench_t3r_v2_fair_final_spec_v1.md",
+      "target": "../reports/masbench_t3_trace_diagnosis_2026-11-25.md",
+      "exists": true
+    },
+    {
+      "document": "research/protocols/masbench_t3r_v2_fair_final_spec_v1.md",
+      "target": "../reports/masbench_t3_failure_attribution_review_2026-11-25.md",
+      "exists": true
+    },
+    {
+      "document": "research/protocols/masbench_t3r_v2_fair_final_spec_v1.md",
+      "target": "../logs/masbench-t3r-v2-review-2026-11-25/prompt_contract_hashes.json",
+      "exists": true
+    },
+    {
+      "document": "research/protocols/masbench_t3r_v2_fair_final_spec_v1.md",
+      "target": "masbench_t3r_v2_contract_matrix_v1.md",
+      "exists": true
+    },
+    {
+      "document": "research/protocols/masbench_t3r_v2_fair_final_spec_v1.md",
+      "target": "../reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "target": "../protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "target": "../protocols/masbench_t3r_v2_fair_final_spec_v1.md",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "target": "../logs/masbench-t3r-v2-review-2026-11-25/source_inventory.json",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "target": "../logs/masbench-t3r-v2-review-2026-11-25/d1_existing_aggregates.json",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "target": "masbench_t1_validation_archive_2026-11-19.md",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "target": "masbench_t2_context_acceptance_2026-11-25.md",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "target": "masbench_t3_execution_2026-11-25.md",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "target": "../logs/masbench-t3r-2026-11-25/README.md",
+      "exists": true
+    },
+    {
+      "document": "research/protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "target": "masbench_t3r_v2_fair_final_spec_v1.md",
+      "exists": true
+    },
+    {
+      "document": "research/protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "target": "../reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "exists": true
+    },
+    {
+      "document": "research/protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "target": "../reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md",
+      "exists": true
+    },
+    {
+      "document": "research/protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "target": "../logs/masbench-t3r-v2-review-2026-11-25/source_inventory.json",
+      "exists": true
+    },
+    {
+      "document": "research/protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "target": "../logs/masbench-t3r-2026-11-25/acceptance_matrix.md",
+      "exists": true
+    },
+    {
+      "document": "research/protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "target": "../logs/masbench-t3r-2026-11-25/README.md",
+      "exists": true
+    },
+    {
+      "document": "research/protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "target": "../reports/masbench_t1_validation_archive_2026-11-19.md",
+      "exists": true
+    },
+    {
+      "document": "research/protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "target": "../reports/masbench_t2_context_acceptance_2026-11-25.md",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md",
+      "target": "../protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md",
+      "target": "../logs/masbench-t3r-v2-review-2026-11-25/README.md",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md",
+      "target": "../logs/masbench-t3r-2026-11-25/README.md",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md",
+      "target": "../protocols/masbench_t3r_v2_fair_final_spec_v1.md",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md",
+      "target": "../logs/masbench-t3r-v2-review-2026-11-25/d1_existing_aggregates.json",
+      "exists": true
+    },
+    {
+      "document": "research/reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md",
+      "target": "masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "exists": true
+    },
+    {
+      "document": "E:\\gosc\\research\\logs\\masbench-t3r-v2-review-2026-11-25\\README.md",
+      "target": "../../protocols/masbench_t3r_v2_fair_final_spec_v1.md",
+      "exists": true
+    },
+    {
+      "document": "E:\\gosc\\research\\logs\\masbench-t3r-v2-review-2026-11-25\\README.md",
+      "target": "../../reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "exists": true
+    },
+    {
+      "document": "E:\\gosc\\research\\logs\\masbench-t3r-v2-review-2026-11-25\\README.md",
+      "target": "../../protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "exists": true
+    },
+    {
+      "document": "E:\\gosc\\research\\logs\\masbench-t3r-v2-review-2026-11-25\\README.md",
+      "target": "../../reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md",
+      "exists": true
+    },
+    {
+      "document": "E:\\gosc\\research\\logs\\masbench-t3r-v2-review-2026-11-25\\README.md",
+      "target": "../masbench-t3r-2026-11-25/README.md",
+      "exists": true
+    }
+  ],
+  "protected_user_files": [
+    {
+      "path": "11-17审阅任务安排.md",
+      "sha256": "9a335d95feab5d42725db95bc288f5f7ebe9bec5dcb846fca3fc39852dc6657e",
+      "note": "end-state hash only; no initial hash comparison asserted; excluded from every write"
+    },
+    {
+      "path": "T3-R_科研失败归因与研究前提复核任务书.md",
+      "sha256": "7685a1f61c099a0ecff5674ad5251f131b4f44fa552dee48d3153c8f1f3d8a0d",
+      "note": "end-state hash only; no initial hash comparison asserted; excluded from every write"
+    }
+  ],
+  "workbuddy_read": false,
+  "prompt_identity": "documentation SHA only; no model tokenizer or task input instantiated",
+  "new_model_calls": 0,
+  "new_hpc_runs": 0,
+  "new_tests_run": 0,
+  "registry_changed": false,
+  "git_commit_or_push": false,
+  "scientific_state": "T3/G1/GP-ID No-Go retained; real v2 run Blocked",
+  "limitations": [
+    "684 HPC raw files were not rescanned this turn; relies on historical T3-R A0 evidence",
+    "source hash checks cover the explicitly listed local inputs only",
+    "synthetic vectors and 32 new contracts were specified, not executed",
+    "no live HPC quota/service verification",
+    "no new task/question/gold bodies opened"
+  ]
+}

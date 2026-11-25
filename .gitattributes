@@ -144,3 +144,9 @@
 /research/reports/masbench_t3_failure_attribution_review_2026-11-25.md -text
 /research/reports/masbench_t3_research_decision_2026-11-25.md -text
 /research/protocols/masbench_t3_revision_gate_review_v1.md -text
+# Preserve only the new T3-R-v2 static review documents and their SHA contracts.
+/research/logs/masbench-t3r-v2-review-2026-11-25/** -text whitespace=cr-at-eol
+/research/protocols/masbench_t3r_v2_fair_final_spec_v1.md -text
+/research/protocols/masbench_t3r_v2_contract_matrix_v1.md -text
+/research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md -text
+/research/reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md -text

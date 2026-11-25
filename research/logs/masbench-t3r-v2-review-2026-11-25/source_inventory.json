@@ -1,0 +1,233 @@
+{
+  "created_at": "2026-11-25T17:18:28.074986+08:00",
+  "local_head": "f91d01070740703dc1ee845510569c0b31e66c51",
+  "github_head": "f91d01070740703dc1ee845510569c0b31e66c51",
+  "historical_T3_head": "b05ea731277a9467a8baa0b3ed184f1e1c3f5bf0",
+  "historical_T3_sync_id": "20261125T034132Z",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 37806,
+      "sha256": "4f84b14645fd47e5b7264345a8a26ac382ffb839de92c38b74e621812702e926"
+    },
+    {
+      "path": "硕士论文研究与实施说明书.md",
+      "bytes": 52299,
+      "sha256": "2ee0dfdadfe46c4fd7443c9f84dc0bbd4fdac75ae6dc00ee569ed44c8238f122"
+    },
+    {
+      "path": "research/reports/masbench_t3_trace_diagnosis_2026-11-25.md",
+      "bytes": 15452,
+      "sha256": "0c3e8bdd90b9a70f65d3af320a36060d1ea8a7361ade688f71e392651406aa14"
+    },
+    {
+      "path": "research/reports/masbench_t3_failure_attribution_review_2026-11-25.md",
+      "bytes": 12789,
+      "sha256": "8d28bc9558f9fc87294c6abd0cf624c672698c4f3b13826a35ba5e2ce78547c1"
+    },
+    {
+      "path": "research/protocols/masbench_t3_revision_gate_review_v1.md",
+      "bytes": 11958,
+      "sha256": "625b56215907cf6506cf1b542adfcbbaed5ec3a2f8a84fe0a908585a95155bd7"
+    },
+    {
+      "path": "research/reports/masbench_t3_research_decision_2026-11-25.md",
+      "bytes": 10652,
+      "sha256": "c42e750759f16062715d1354d2cad29b2a8700d1b3d78029f579f15e5d86c877"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/evidence_inventory.json",
+      "bytes": 364813,
+      "sha256": "67d023ec64ee73233447b6dda04d685555ab1756f2798ed1530262ac1945345a"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/episode_trace_index.json",
+      "bytes": 304390,
+      "sha256": "1b1b8089db1f6c3e0b612f157bb0418212c9de1f5d4231a8e682de475a3e39a1"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/verification_summary.json",
+      "bytes": 32824,
+      "sha256": "1723edd8ac5c05b10d17e0d8609b62a0322764ac538567bfd2647b78f2632139"
+    },
+    {
+      "path": "research/artifacts/native-masbench-20261104/masbench_development_registry.json",
+      "bytes": 84943,
+      "sha256": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86"
+    },
+    {
+      "path": "research/artifacts/native-masbench-20261104/masbench_registry_summary.json",
+      "bytes": 2278,
+      "sha256": "5f0db1d8b97ab9c6fc298f81ec60b780508dfd0582954ef63c1f025ea44991a2"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-b1-preflight-20261110/outputs/preflight.json",
+      "bytes": 8898,
+      "sha256": "5dfeccee6517581874e81f977b49d4892605cbb3b0fccf19b5a8a221c1ef311f"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-t3-live-20261125/manifest.json",
+      "bytes": 18292,
+      "sha256": "1ee444c41efe6158638919f75998583b3a4db2bc77d93e577aa71db18acf1bf9"
+    },
+    {
+      "path": "research/sync/runs/hpc-masbench-t3-live-20261125/source_snapshot.json",
+      "bytes": 450072,
+      "sha256": "3d2565a885931aeeb3c4f3631606db74e59e561a5c061b45b75909a5388b15fa"
+    },
+    {
+      "path": "research/protocols/masbench_t3_execution_authorization_2026-11-25.json",
+      "bytes": 1411,
+      "sha256": "0947a860bf01e9c16ca337e13bd0d05babc1281089699d52254f1d4edcf84afa"
+    },
+    {
+      "path": "extensions/masbench_reasoning/application.py",
+      "bytes": 7353,
+      "sha256": "a369f4d134e50984f69a92fa243449069849cef7c97142953dfb7cf27e801b78"
+    },
+    {
+      "path": "extensions/masbench_reasoning/client.py",
+      "bytes": 18467,
+      "sha256": "3c236505a3db6283cdc3201ecef6e31e26e7aa552670777ce082c428f9f983fd"
+    },
+    {
+      "path": "extensions/masbench_reasoning/evaluation.py",
+      "bytes": 4020,
+      "sha256": "780743faa4d310eb9cd86285e9aeee67fcdba77d80e97d26f70d5f07206f2bf7"
+    },
+    {
+      "path": "extensions/masbench_reasoning/registry.py",
+      "bytes": 8056,
+      "sha256": "d4dea830a2c2d99df0bddaff1114aede1ea7f03782154241569e54193a852f10"
+    },
+    {
+      "path": "extensions/masbench_reasoning/wire.py",
+      "bytes": 14209,
+      "sha256": "1504e95b20fe5fb8af0a9fb3fafd43356f852ea7274f280edcfe5ba1f080e17f"
+    },
+    {
+      "path": "extensions/masbench_reasoning/live_driver.py",
+      "bytes": 65937,
+      "sha256": "c1d45e01d58a048db1b82ffeaee67cb34d2520cf29adfadbd5a33a2190a4afa1"
+    },
+    {
+      "path": "extensions/masbench_reasoning/fixture_driver.py",
+      "bytes": 20823,
+      "sha256": "bf0e8737cb7c7ef1c0e08253742d247714c23eb1257e6e42c40ce8d37c2fcc41"
+    },
+    {
+      "path": "extensions/masbench_reasoning/execution_safety.py",
+      "bytes": 12961,
+      "sha256": "3fe213773b0c1a94e27afaccc2e68156e17181690dcb20e8b33a45668a8dc7de"
+    },
+    {
+      "path": "experiments_ext/masbench_t1b_live.py",
+      "bytes": 12870,
+      "sha256": "f49d7d831e39806f718319995993e84c9c6bfc67763e1f15b496bcbe1ab57cac"
+    },
+    {
+      "path": "experiments_ext/masbench_t2_live.py",
+      "bytes": 9463,
+      "sha256": "6b39db5fd8034afa1a1075a77716bcc1f98a6b9628d44b93f5f0bbff837f9813"
+    },
+    {
+      "path": "experiments_ext/masbench_t3_live.py",
+      "bytes": 13411,
+      "sha256": "4f160deb864cb0d48bd23be44de0ed6d544f3b9d8e1acf117259af83534ddc8b"
+    },
+    {
+      "path": "scripts/hpc_ollama.py",
+      "bytes": 12046,
+      "sha256": "80fd84dfa4d498cf8db38b38c86654a0accc064560e17618fb7da98d2ba111f7"
+    },
+    {
+      "path": "research/reports/masbench_t1_validation_archive_2026-11-19.md",
+      "bytes": 8664,
+      "sha256": "a83bc66cc7eb6a52a2beccfd63ddda96874c048f4bf535529a3ffa8ca244ab85"
+    },
+    {
+      "path": "research/reports/masbench_t2_context_acceptance_2026-11-25.md",
+      "bytes": 8277,
+      "sha256": "09933a24be99b4a48ab6c8305947093a2076caa11219bee32d8b8752e285da22"
+    },
+    {
+      "path": "research/reports/masbench_t3_execution_2026-11-25.md",
+      "bytes": 6375,
+      "sha256": "a5183a79d07b256b64027961d7a6452d34860f1d09ce8b59bc51504c010da69a"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/README.md",
+      "bytes": 4403,
+      "sha256": "8f72f6043ad1915c7d83fa2fc8018c52f20d1fe8b34dec9b5b8b5fee74e13125"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/acceptance_matrix.md",
+      "bytes": 2657,
+      "sha256": "b31ffb629984f9d3c445f29083177b3e043e9e9f9520600ed9010a0d649cd625"
+    },
+    {
+      "path": "research/artifacts/masbench-t2-t3-20261125/t3-hdd-manifest.json",
+      "bytes": 124229,
+      "sha256": "346fcccd44847d028feb3cccd330546bc543b18e3ce7a162ccef5f2fb427755b"
+    }
+  ],
+  "execution_source_bindings": [
+    {
+      "path": "extensions/masbench_reasoning/application.py",
+      "local_LF_sha256": "a369f4d134e50984f69a92fa243449069849cef7c97142953dfb7cf27e801b78",
+      "T3_snapshot_sha256": "a369f4d134e50984f69a92fa243449069849cef7c97142953dfb7cf27e801b78",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/evaluation.py",
+      "local_LF_sha256": "780743faa4d310eb9cd86285e9aeee67fcdba77d80e97d26f70d5f07206f2bf7",
+      "T3_snapshot_sha256": "780743faa4d310eb9cd86285e9aeee67fcdba77d80e97d26f70d5f07206f2bf7",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/wire.py",
+      "local_LF_sha256": "1504e95b20fe5fb8af0a9fb3fafd43356f852ea7274f280edcfe5ba1f080e17f",
+      "T3_snapshot_sha256": "1504e95b20fe5fb8af0a9fb3fafd43356f852ea7274f280edcfe5ba1f080e17f",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/registry.py",
+      "local_LF_sha256": "d4dea830a2c2d99df0bddaff1114aede1ea7f03782154241569e54193a852f10",
+      "T3_snapshot_sha256": "d4dea830a2c2d99df0bddaff1114aede1ea7f03782154241569e54193a852f10",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/client.py",
+      "local_LF_sha256": "3c236505a3db6283cdc3201ecef6e31e26e7aa552670777ce082c428f9f983fd",
+      "T3_snapshot_sha256": "3c236505a3db6283cdc3201ecef6e31e26e7aa552670777ce082c428f9f983fd",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/live_driver.py",
+      "local_LF_sha256": "c1d45e01d58a048db1b82ffeaee67cb34d2520cf29adfadbd5a33a2190a4afa1",
+      "T3_snapshot_sha256": "c1d45e01d58a048db1b82ffeaee67cb34d2520cf29adfadbd5a33a2190a4afa1",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t3_live.py",
+      "local_LF_sha256": "4f160deb864cb0d48bd23be44de0ed6d544f3b9d8e1acf117259af83534ddc8b",
+      "T3_snapshot_sha256": "4f160deb864cb0d48bd23be44de0ed6d544f3b9d8e1acf117259af83534ddc8b",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t3_audit.py",
+      "local_LF_sha256": "014a0adc9020bf5f0b18c457897056aade321faec1d7e135bd6d559d118ab285",
+      "T3_snapshot_sha256": "014a0adc9020bf5f0b18c457897056aade321faec1d7e135bd6d559d118ab285",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-adapter-contract-2026-11-03/reference/Reasoning/src/prompts.py",
+      "local_LF_sha256": "899ede188d08d34e3b8a587de7449a760c12fa751780fe2e5c60bb111f025cce",
+      "T3_snapshot_sha256": "899ede188d08d34e3b8a587de7449a760c12fa751780fe2e5c60bb111f025cce",
+      "matches": true
+    }
+  ],
+  "data_body_read": false,
+  "new_experiment": false,
+  "new_model_calls": 0
+}

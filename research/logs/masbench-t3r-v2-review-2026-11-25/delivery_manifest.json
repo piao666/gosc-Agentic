@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-25 Asia/Shanghai",
+  "scope": "new static documentation and non-private management metadata",
+  "files": [
+    {
+      "path": "research/logs/masbench-t3r-v2-review-2026-11-25/closeout_checks.json",
+      "bytes": 17913,
+      "sha256": "4c18f15db5d75ac945249163e273aab91e43745f6e2de210997870b6a6020693"
+    },
+    {
+      "path": "research/logs/masbench-t3r-v2-review-2026-11-25/d1_existing_aggregates.json",
+      "bytes": 2265,
+      "sha256": "ced1a0d5dfe3076675f2d90927b1ec51a9477aec2f5b7bda93d1aa3668cf0e52"
+    },
+    {
+      "path": "research/logs/masbench-t3r-v2-review-2026-11-25/git_identity_check.json",
+      "bytes": 1533,
+      "sha256": "103e556817e081b336e9f287a1042c88af89c837ed8770e2d5300e9d1626b7c1"
+    },
+    {
+      "path": "research/logs/masbench-t3r-v2-review-2026-11-25/prompt_contract_hashes.json",
+      "bytes": 2511,
+      "sha256": "784fb9f54847e815d65fe592f6677a70513ee0fd03b43fd55908b89ae651e978"
+    },
+    {
+      "path": "research/logs/masbench-t3r-v2-review-2026-11-25/README.md",
+      "bytes": 2141,
+      "sha256": "aa62ff2f470bd510a780485157563ce6070ac9f3e7ef039d75fb7ca5b053c777"
+    },
+    {
+      "path": "research/logs/masbench-t3r-v2-review-2026-11-25/source_inventory.json",
+      "bytes": 9437,
+      "sha256": "f97ddd83fe7863bd995a918379c1ec75d1cb8d29ff75afa05b74912280333a24"
+    },
+    {
+      "path": "research/logs/masbench-t3r-v2-review-2026-11-25/task_brief.md",
+      "bytes": 2483,
+      "sha256": "900cc840f3c3030e672da6bc525dd5147b426baa900a0157a7356245c574b437"
+    },
+    {
+      "path": "research/logs/masbench-t3r-v2-review-2026-11-25/task_log.md",
+      "bytes": 7070,
+      "sha256": "8f5ba439b601f630e31537a47d69c3d959603358621044cc5a5b4e6c65fd1319"
+    },
+    {
+      "path": "research/protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "bytes": 13893,
+      "sha256": "a2261e40cbbe0ca204397abd3d6942018aacb959e9280168871e9124ba53d4d6"
+    },
+    {
+      "path": "research/protocols/masbench_t3r_v2_fair_final_spec_v1.md",
+      "bytes": 18413,
+      "sha256": "cd29ab711a4fb243b96dad09bfb99051bb0b1f9ebd4c849cdfd3f76700c741b3"
+    },
+    {
+      "path": "research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "bytes": 19370,
+      "sha256": "b7d0d974c029e6fb09d2da5f46047b493b2b9d92420d4fa2958cc9133aca20f9"
+    },
+    {
+      "path": "research/reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md",
+      "bytes": 11867,
+      "sha256": "345e9a09a9f26c8f4cf38f7b28dc76980c5e06e16148c03afdc5a3da5d83cdde"
+    }
+  ],
+  "self_hash_excluded": true,
+  "historical_results_modified": false,
+  "tests_or_model_execution": false,
+  "git_submission": false
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "scope": "documentation literal only; not an implemented prompt or execution approval",
+  "encoding": "UTF-8 no BOM",
+  "system_line_endings": "LF with exactly one trailing LF",
+  "template_bytes": 2559,
+  "template_sha256": "00c91af181b4bcedf62acbfee2ab77b8555392d07a52196d3878936d4a375fb4",
+  "role_systems": [
+    {
+      "role": "Alice",
+      "bytes": 2553,
+      "sha256": "32a381227d081a3cb9e968ae4ba3312379f9bd61a0883dcaf979b01d641ca3e9"
+    },
+    {
+      "role": "Bob",
+      "bytes": 2549,
+      "sha256": "df0073267f3d594c6597dedbf92f07c70e3e3db647399f1c0e15778b9e1d1da1"
+    }
+  ],
+  "public_clock_encoding": "canonical compact JSON, sorted keys, no trailing LF",
+  "public_clocks": [
+    {
+      "turn": "t0",
+      "literal": "{\"kind\":\"PUBLIC_CLOCK\",\"protocol\":\"T3-R-v2-fair-final-candidate-v1\",\"speaker\":\"Alice\",\"stage\":\"exchange\",\"turn\":\"t0\"}",
+      "sha256": "dff10b03c978f3c6999dc033e176f7d389fea0621420e30f60f89f016f75df31"
+    },
+    {
+      "turn": "t1",
+      "literal": "{\"kind\":\"PUBLIC_CLOCK\",\"protocol\":\"T3-R-v2-fair-final-candidate-v1\",\"speaker\":\"Bob\",\"stage\":\"exchange\",\"turn\":\"t1\"}",
+      "sha256": "de2569332afd48985a397ed6837d9308daae2fefa0f31c01ff080cb1616dd378"
+    },
+    {
+      "turn": "t2",
+      "literal": "{\"kind\":\"PUBLIC_CLOCK\",\"protocol\":\"T3-R-v2-fair-final-candidate-v1\",\"speaker\":\"Alice\",\"stage\":\"exchange\",\"turn\":\"t2\"}",
+      "sha256": "505b3d4ba517fe9c5be53468ec1227f61db6ed988ba2cf4cbdaf71c7a2cbb0ef"
+    },
+    {
+      "turn": "t3",
+      "literal": "{\"kind\":\"PUBLIC_CLOCK\",\"protocol\":\"T3-R-v2-fair-final-candidate-v1\",\"speaker\":\"Bob\",\"stage\":\"exchange\",\"turn\":\"t3\"}",
+      "sha256": "27d00c7389d3ee41301af729296325afe50231841fde24b84941f8a1c459a4b6"
+    },
+    {
+      "turn": "t4",
+      "literal": "{\"kind\":\"PUBLIC_CLOCK\",\"protocol\":\"T3-R-v2-fair-final-candidate-v1\",\"speaker\":\"Alice\",\"stage\":\"local_final\",\"turn\":\"t4\"}",
+      "sha256": "4bf08fa117d3d86b2cf35734861afa5093987c0875741aa04a65ec81d6e9f15f"
+    },
+    {
+      "turn": "t5",
+      "literal": "{\"kind\":\"PUBLIC_CLOCK\",\"protocol\":\"T3-R-v2-fair-final-candidate-v1\",\"speaker\":\"Bob\",\"stage\":\"local_final\",\"turn\":\"t5\"}",
+      "sha256": "25bd17c6bc5cef4c4b0c0570c1fead3df36f1ceb605edd0161bc64132674727c"
+    }
+  ],
+  "task_instantiated": false,
+  "new_tokenizer_calls": 0,
+  "new_model_calls": 0
+}
