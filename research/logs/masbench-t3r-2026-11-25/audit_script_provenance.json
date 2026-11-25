@@ -1,0 +1,26 @@
+[
+  {
+    "bytes": 6693,
+    "remote_path": "/tmp/gosc-t3r-audit-20261125-a0.py",
+    "sha256": "19436609e70deb100c464efc48b34bdb74e9edcb6c8dbc4cbdb1e496d15703d3",
+    "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc_scripts\\gosc-t3r-audit-20261125-a0.py"
+  },
+  {
+    "bytes": 21130,
+    "remote_path": "/tmp/gosc-t3r-audit-20261125-a1.py",
+    "sha256": "94f6f7ec1d1f69c4b0df08052fc0e1128496dfa80c7fe7e77bd4c8431fb92e0c",
+    "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc_scripts\\gosc-t3r-audit-20261125-a1.py"
+  },
+  {
+    "bytes": 25447,
+    "remote_path": "/tmp/gosc-t3r-audit-20261125-a1v2.py",
+    "sha256": "e0e387157b1da1257b52756fdaf6542961214ac2217b03c712cdf828616e1007",
+    "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc_scripts\\gosc-t3r-audit-20261125-a1v2.py"
+  },
+  {
+    "bytes": 26844,
+    "remote_path": "/tmp/gosc-t3r-audit-20261125-bindings.py",
+    "sha256": "80527d29a2c05c37e4241cda33f630215563c1f4370d195efcd5770ab6fc4620",
+    "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc_scripts\\gosc-t3r-audit-20261125-bindings.py"
+  }
+]

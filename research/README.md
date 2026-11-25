@@ -1,5 +1,7 @@
 # 研究进度与证据入口
 
+2026-11-25 [T3-R研究决策](reports/masbench_t3_research_decision_2026-11-25.md)完成A原始轨迹→B非互斥失败归因→条件C静态候选→D决策。684/684文件SHA与字节一致，16 episode、49任务+2合成旧请求及18栅栏复核无差异；机制识别Partial，T3科学No-Go保持。公平终答候选仅静态Conditional Go，真实运行、T4、正式test和训练仍未授权。本轮模型调用0，用户随后仅授权一次归档提交推送供远端审阅，历史运行身份不改。[A轨迹](reports/masbench_t3_trace_diagnosis_2026-11-25.md) · [B归因](reports/masbench_t3_failure_attribution_review_2026-11-25.md) · [C候选](protocols/masbench_t3_revision_gate_review_v1.md) · [审计附件](logs/masbench-t3r-2026-11-25/README.md)
+
 2026-11-25 [T3 四题真实模型结果](reports/masbench_t3_execution_2026-11-25.md)完成 16 个 episode、49 次任务生成及两次合成预检。工程验收、证据审计和 1024 回滚通过。主提示族 Full 与 No-A2A 平均 F1 相同，仅一题完全答对，研究关卡 No-Go。 [禁网准入](reports/masbench_t3_preflight_2026-11-25.md)
 
 2026-11-25 [T2 窗口需求与部署验收](reports/masbench_t2_context_acceptance_2026-11-25.md)通过受测工程支持域。冻结四题首轮与六轮合成压力选出 16384，实际完成长输入、故障恢复、持久配置重启和 1024 回滚。最终服务为 1024，真实四题仍待 T3。

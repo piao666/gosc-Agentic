@@ -1,0 +1,1685 @@
+[
+  {
+    "path": "live/campaign/artifacts/000013-11-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000031-24-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000050-38-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000054-41-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 714",
+      "events": "list 892",
+      "offers": "list 1"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000055-42-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 2",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "str",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 1",
+      "request_audit_indices": "list 1",
+      "started": "bool",
+      "transcript": "list 1",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000071-54-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000075-57-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 0",
+      "events": "list 2",
+      "offers": "list 1"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000076-58-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 2",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "str",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 1",
+      "request_audit_indices": "list 1",
+      "started": "bool",
+      "transcript": "list 1",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000092-70-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000106-82-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000120-94-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000134-106-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000148-118-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000162-130-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000166-133-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 0",
+      "events": "list 12",
+      "offers": "list 6"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000167-134-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 12",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "NoneType",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 6",
+      "request_audit_indices": "list 6",
+      "started": "bool",
+      "transcript": "list 6",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000183-146-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000197-158-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000211-170-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000215-173-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 438",
+      "events": "list 546",
+      "offers": "list 3"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000216-174-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 6",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "str",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 3",
+      "request_audit_indices": "list 3",
+      "started": "bool",
+      "transcript": "list 3",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000232-186-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000236-189-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 0",
+      "events": "list 2",
+      "offers": "list 1"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000237-190-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 2",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "str",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 1",
+      "request_audit_indices": "list 1",
+      "started": "bool",
+      "transcript": "list 1",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000253-202-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000257-205-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 586",
+      "events": "list 732",
+      "offers": "list 1"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000258-206-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 2",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "str",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 1",
+      "request_audit_indices": "list 1",
+      "started": "bool",
+      "transcript": "list 1",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000274-218-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000288-230-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000302-242-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000306-245-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 862",
+      "events": "list 1076",
+      "offers": "list 3"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000307-246-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 6",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "str",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 3",
+      "request_audit_indices": "list 3",
+      "started": "bool",
+      "transcript": "list 3",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000323-258-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000337-270-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000351-282-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000365-294-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000379-306-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000393-318-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000397-321-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 0",
+      "events": "list 12",
+      "offers": "list 6"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000398-322-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 12",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "NoneType",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 6",
+      "request_audit_indices": "list 6",
+      "started": "bool",
+      "transcript": "list 6",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000414-334-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000418-337-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 938",
+      "events": "list 1172",
+      "offers": "list 1"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000419-338-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 2",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "str",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 1",
+      "request_audit_indices": "list 1",
+      "started": "bool",
+      "transcript": "list 1",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000435-350-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000439-353-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 0",
+      "events": "list 2",
+      "offers": "list 1"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000440-354-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 2",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "str",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 1",
+      "request_audit_indices": "list 1",
+      "started": "bool",
+      "transcript": "list 1",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000456-366-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000470-378-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000484-390-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000498-402-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000512-414-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000526-426-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000530-429-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 0",
+      "events": "list 12",
+      "offers": "list 6"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000531-430-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 12",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "NoneType",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 6",
+      "request_audit_indices": "list 6",
+      "started": "bool",
+      "transcript": "list 6",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000547-442-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000561-454-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000575-466-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000589-478-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000603-490-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000617-502-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000621-505-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 1188",
+      "events": "list 1482",
+      "offers": "list 6"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000622-506-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 12",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "str",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 6",
+      "request_audit_indices": "list 6",
+      "started": "bool",
+      "transcript": "list 6",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000638-518-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000652-530-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000656-533-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 0",
+      "events": "list 4",
+      "offers": "list 2"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000657-534-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 4",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "str",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 2",
+      "request_audit_indices": "list 2",
+      "started": "bool",
+      "transcript": "list 2",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000673-546-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000687-558-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000691-561-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 1196",
+      "events": "list 1494",
+      "offers": "list 2"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000692-562-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 4",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "str",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 2",
+      "request_audit_indices": "list 2",
+      "started": "bool",
+      "transcript": "list 2",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000708-574-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000722-586-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000736-598-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000740-601-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 646",
+      "events": "list 806",
+      "offers": "list 3"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000741-602-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 6",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "str",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 3",
+      "request_audit_indices": "list 3",
+      "started": "bool",
+      "transcript": "list 3",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000757-614-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000771-626-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000785-638-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000799-650-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000813-662-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000827-674-provider-request.json",
+    "shape": [
+      "episode_id",
+      "payload",
+      "request_id"
+    ],
+    "nested": {
+      "episode_id": "str",
+      "payload": [
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "temperature"
+      ],
+      "request_id": "str"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000831-677-wire-events.json",
+    "shape": [
+      "cpu",
+      "events",
+      "offers"
+    ],
+    "nested": {
+      "cpu": "list 0",
+      "events": "list 12",
+      "offers": "list 6"
+    }
+  },
+  {
+    "path": "live/campaign/artifacts/000832-678-application-result.json",
+    "shape": [
+      "backend_is_live",
+      "cpu_process_ns",
+      "end_reason",
+      "error_flags",
+      "final_answer",
+      "id",
+      "memory",
+      "messages",
+      "request_audit_indices",
+      "started",
+      "transcript",
+      "usage_missing"
+    ],
+    "nested": {
+      "backend_is_live": "bool",
+      "cpu_process_ns": "list 12",
+      "end_reason": "str",
+      "error_flags": "list 0",
+      "final_answer": "NoneType",
+      "id": "str",
+      "memory": "list 2",
+      "messages": "list 6",
+      "request_audit_indices": "list 6",
+      "started": "bool",
+      "transcript": "list 6",
+      "usage_missing": "bool"
+    }
+  },
+  {
+    "path": "live/campaign/ledger.jsonl",
+    "shape": [
+      "event",
+      "hash",
+      "previous",
+      "seq"
+    ],
+    "nested": {}
+  }
+]

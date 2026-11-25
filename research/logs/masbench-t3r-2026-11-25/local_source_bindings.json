@@ -1,0 +1,56 @@
+[
+  {
+    "path": "extensions/masbench_reasoning/application.py",
+    "local_LF_sha256": "a369f4d134e50984f69a92fa243449069849cef7c97142953dfb7cf27e801b78",
+    "matches": true,
+    "T3_snapshot_sha256": "a369f4d134e50984f69a92fa243449069849cef7c97142953dfb7cf27e801b78"
+  },
+  {
+    "path": "extensions/masbench_reasoning/evaluation.py",
+    "local_LF_sha256": "780743faa4d310eb9cd86285e9aeee67fcdba77d80e97d26f70d5f07206f2bf7",
+    "matches": true,
+    "T3_snapshot_sha256": "780743faa4d310eb9cd86285e9aeee67fcdba77d80e97d26f70d5f07206f2bf7"
+  },
+  {
+    "path": "extensions/masbench_reasoning/wire.py",
+    "local_LF_sha256": "1504e95b20fe5fb8af0a9fb3fafd43356f852ea7274f280edcfe5ba1f080e17f",
+    "matches": true,
+    "T3_snapshot_sha256": "1504e95b20fe5fb8af0a9fb3fafd43356f852ea7274f280edcfe5ba1f080e17f"
+  },
+  {
+    "path": "extensions/masbench_reasoning/registry.py",
+    "local_LF_sha256": "d4dea830a2c2d99df0bddaff1114aede1ea7f03782154241569e54193a852f10",
+    "matches": true,
+    "T3_snapshot_sha256": "d4dea830a2c2d99df0bddaff1114aede1ea7f03782154241569e54193a852f10"
+  },
+  {
+    "path": "extensions/masbench_reasoning/client.py",
+    "local_LF_sha256": "3c236505a3db6283cdc3201ecef6e31e26e7aa552670777ce082c428f9f983fd",
+    "matches": true,
+    "T3_snapshot_sha256": "3c236505a3db6283cdc3201ecef6e31e26e7aa552670777ce082c428f9f983fd"
+  },
+  {
+    "path": "extensions/masbench_reasoning/live_driver.py",
+    "local_LF_sha256": "c1d45e01d58a048db1b82ffeaee67cb34d2520cf29adfadbd5a33a2190a4afa1",
+    "matches": true,
+    "T3_snapshot_sha256": "c1d45e01d58a048db1b82ffeaee67cb34d2520cf29adfadbd5a33a2190a4afa1"
+  },
+  {
+    "path": "experiments_ext/masbench_t3_live.py",
+    "local_LF_sha256": "4f160deb864cb0d48bd23be44de0ed6d544f3b9d8e1acf117259af83534ddc8b",
+    "matches": true,
+    "T3_snapshot_sha256": "4f160deb864cb0d48bd23be44de0ed6d544f3b9d8e1acf117259af83534ddc8b"
+  },
+  {
+    "path": "experiments_ext/masbench_t3_audit.py",
+    "local_LF_sha256": "014a0adc9020bf5f0b18c457897056aade321faec1d7e135bd6d559d118ab285",
+    "matches": true,
+    "T3_snapshot_sha256": "014a0adc9020bf5f0b18c457897056aade321faec1d7e135bd6d559d118ab285"
+  },
+  {
+    "path": "research/logs/masbench-adapter-contract-2026-11-03/reference/Reasoning/src/prompts.py",
+    "local_LF_sha256": "899ede188d08d34e3b8a587de7449a760c12fa751780fe2e5c60bb111f025cce",
+    "matches": true,
+    "T3_snapshot_sha256": "899ede188d08d34e3b8a587de7449a760c12fa751780fe2e5c60bb111f025cce"
+  }
+]

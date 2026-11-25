@@ -1,0 +1,571 @@
+{
+  "created_at": "2026-11-25T15:47:07.9334035+08:00",
+  "base_head": "bda3027e17883c1c41dd4ed6d1dd431f0a0657ba",
+  "checked_staged_files_excluding_self": 62,
+  "self_excluded": "research/logs/git-publish-t3r-2026-11-25/staging_checks.json",
+  "problems": [],
+  "delivery_manifest_files_verified": 52,
+  "whitespace_exit": 0,
+  "whitespace_diagnostics": [],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9117,
+      "working_sha256": "ce3f91b4b4871fb008b3e9c9a4544f0a7d79b2a237edd1e5c0e593d3c8ea3d2c",
+      "staged_blob": "760b0cc809c9c0ccb2c012ad1f2bccf1680d330c",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 16943,
+      "working_sha256": "660c8671a92641456780ff60f91d8bef4f01efea48291a6a3891ab07b61c7cf2",
+      "staged_blob": "617bdf2467bce9b4b14f8ceb742b5681589eb424",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "commit/2026-11-25-02-masbench-t3r-evidence-and-decision-review.md",
+      "bytes": 5473,
+      "working_sha256": "081c4c06908413d6a2f1c2ea4623c29894f7aa3b973839803e0fe127d3d8e5fb",
+      "staged_blob": "19eb0e5c21ed5e3c9ae8ece59e2364480c090c94",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "commit/README.md",
+      "bytes": 3143,
+      "working_sha256": "2127d16d74eff27c23200579f3a7e60d2fbadd28a747e3c8d36bd5231562d478",
+      "staged_blob": "b3899123c6d32e91d3ba110caeaf777899493677",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 27190,
+      "working_sha256": "1d067e5453dd3d763c3acae427356948450dc43b6215ea5037c445148be0a1e0",
+      "staged_blob": "d81989c30f4da0587ad5e9c7112e9f40f739c486",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/git-publish-t3r-2026-11-25/initial_whitespace_check.json",
+      "bytes": 886,
+      "working_sha256": "299bf872b1d20d71d555ecc5821323d6df61a83c6b791d00c85e71737f68e627",
+      "staged_blob": "8644607404631fe0a98f8cb9c7a83e4ddf8f08c9",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/git-publish-t3r-2026-11-25/task_brief.md",
+      "bytes": 1021,
+      "working_sha256": "050d5d6827ca6f2e788f5aa3afd7bf23dfd9707cb17dc55a4fcd80059366aa72",
+      "staged_blob": "30c0acffb0d1b4e733858ad6f4500aba7f5dce80",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/git-publish-t3r-2026-11-25/task_log.md",
+      "bytes": 2821,
+      "working_sha256": "7d1b998e09b1e466f3e87bb38ffdddaf9bc6b88a3c0d4617ea401a1b0c85c723",
+      "staged_blob": "e75803d677a0e04a931ef240f7ac71e8133cefe0",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/README.md",
+      "bytes": 4403,
+      "working_sha256": "8f72f6043ad1915c7d83fa2fc8018c52f20d1fe8b34dec9b5b8b5fee74e13125",
+      "staged_blob": "409c0c6fab825d6b8b2281b5da4fbfaa05331f0b",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/acceptance_matrix.md",
+      "bytes": 2657,
+      "working_sha256": "b31ffb629984f9d3c445f29083177b3e043e9e9f9520600ed9010a0d649cd625",
+      "staged_blob": "6394648b6f3dc61224bec6b6b761e54c80bc2e96",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/archive_copy_checks.json",
+      "bytes": 3158,
+      "working_sha256": "acbe6d4e8373833430a5346b13eaa7ffdb66ce1872c481db016558a3dc7c2ab2",
+      "staged_blob": "3b632c6a1850f916f956ae3bc981e998f80a8562",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/audit_script_provenance.json",
+      "bytes": 1172,
+      "working_sha256": "502fa13bb99e547c4818ab349baa2aae91994a721863f551503177a3cabaf4e0",
+      "staged_blob": "206bfe259d0f8e46ef5cbbe52d5eeac63b058b24",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/audit_t3r.py",
+      "bytes": 26844,
+      "working_sha256": "80527d29a2c05c37e4241cda33f630215563c1f4370d195efcd5770ab6fc4620",
+      "staged_blob": "a269e59c53bff2e17d00674374b68aee208ed9e9",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/bindings_receipt.json",
+      "bytes": 3282,
+      "working_sha256": "dd7812f5b998fb8bb0ee6f4793a58c345e6ab2927f242679c2fcbead25c113c0",
+      "staged_blob": "beca096e462aa4fefb2efaa901fa753c92afbb44",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/closeout_checks.json",
+      "bytes": 982,
+      "working_sha256": "cb48574477668bae431b44acb6111ad4cbcc85a6946423c023776dbd809365a6",
+      "staged_blob": "bb41830aa273e49574e6530c140faf310653bc81",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/collect_t3r.ps1",
+      "bytes": 2228,
+      "working_sha256": "8399bbd9d0f49e4221312d30b3719148f303a4f38f93b5bbdb2c615322ee78a3",
+      "staged_blob": "ba7fb23ab72c2fcfce0e02cf9970599d312e49fc",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/delivery_manifest.json",
+      "bytes": 11712,
+      "working_sha256": "33d7e1ba80537540a36c93507488c2a5251fc6729a46d2d85ce1719d33dfcf87",
+      "staged_blob": "9c2c3546395776ff3eaad5331ba0e9b6edb9186b",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/episode_trace_index.json",
+      "bytes": 304390,
+      "working_sha256": "1b1b8089db1f6c3e0b612f157bb0418212c9de1f5d4231a8e682de475a3e39a1",
+      "staged_blob": "2f3add04be01727b882c788a7d4f11567dd03b50",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/evidence_inventory.json",
+      "bytes": 364813,
+      "working_sha256": "67d023ec64ee73233447b6dda04d685555ab1756f2798ed1530262ac1945345a",
+      "staged_blob": "ec731410b4ec0bf59f78aeec4d6abcd5ecedaf12",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/artifacts.json",
+      "bytes": 581,
+      "working_sha256": "f728492bf03222989fcec9157c6f9e7ce2b79d390a7056b0d0d464750a879058",
+      "staged_blob": "03f87c263cd9fd3ca3b348433706a76563ef5dc5",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/manifest.json",
+      "bytes": 18566,
+      "working_sha256": "d9b97a7d65250f8e351c5e72f6e32f21017c905becb127e38dd289e5dd0e8964",
+      "staged_blob": "deced68615ceb1e92962caea38966b9c4d4f4855",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/outputs/episode_trace_index.json",
+      "bytes": 304390,
+      "working_sha256": "1b1b8089db1f6c3e0b612f157bb0418212c9de1f5d4231a8e682de475a3e39a1",
+      "staged_blob": "2f3add04be01727b882c788a7d4f11567dd03b50",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/outputs/verification_summary.json",
+      "bytes": 32824,
+      "working_sha256": "1723edd8ac5c05b10d17e0d8609b62a0322764ac538567bfd2647b78f2632139",
+      "staged_blob": "ca4cbe4b53e46e97515fc7e028adbacc9d058b50",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/status.json",
+      "bytes": 535,
+      "working_sha256": "79faa222def5b9607acd8ebfffd8877431ec57709f5bff55d86b8a273107fcec",
+      "staged_blob": "79c7dd770dd379086f6c8eb70aeec3ccf9c624e7",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/stderr.log",
+      "bytes": 0,
+      "working_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "staged_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/stdout.log",
+      "bytes": 20448,
+      "working_sha256": "c273e0391e2392d0a7db0750ea78f23befe3cc0e7950669077fac7e2798bc2c6",
+      "staged_blob": "a95d3015e4cf42676c8d156e7cbda12078bf5977",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/artifacts.json",
+      "bytes": 580,
+      "working_sha256": "0a4c0b76732ea8bb415dd5b029222c1e56693211cd18df23c2cb396f73d190dd",
+      "staged_blob": "c526fb60ebd1d6a273851ce1b016da07c4844feb",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/manifest.json",
+      "bytes": 18507,
+      "working_sha256": "d351abc5fd0bbceb9e2dfa899a97f38246c3523488f4c7788274fe61651fe0b0",
+      "staged_blob": "8597547d8aea2cf4d4a4b133e0ddf499674fc292",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/outputs/episode_trace_index.json",
+      "bytes": 278714,
+      "working_sha256": "4503286542d22e84362198bebefe99505952710da4c032a7e8f17adb0370609b",
+      "staged_blob": "b27a129f226bf51a3bd1f8d0afd796dcf7ae07ff",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/outputs/verification_summary.json",
+      "bytes": 32763,
+      "working_sha256": "d1b96889c891cf0bcd8ab7c71cb36a071d76140c4c5a4f688f562844353758f5",
+      "staged_blob": "e03ad86d85ac5b7af7d87e6374492115ad4116be",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/status.json",
+      "bytes": 544,
+      "working_sha256": "2a52af18c8358c3720f51215d04edab98e399e772701a536a56c6418651f96c7",
+      "staged_blob": "1570f91efd78c4f29f4458c8f4890e4f3576ffc7",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/stderr.log",
+      "bytes": 0,
+      "working_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "staged_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/stdout.log",
+      "bytes": 20402,
+      "working_sha256": "63e3c472d739879f740d775c32935626b0902f8902666265b888999956656ae4",
+      "staged_blob": "db6061d33f3d8af6afdef1a0c8c88b1c20e2f555",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/artifacts.json",
+      "bytes": 399,
+      "working_sha256": "b74f302e0ca13ad13ad29211bb7e70fbb3295c795c4e04aebdcacb2f944fd7c8",
+      "staged_blob": "1baedb8fdbb0c9166a2f83ebff8b950b2a409625",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/manifest.json",
+      "bytes": 18372,
+      "working_sha256": "b9a585820ac60005c4fa7ad529bc696eab7785039311a5ea661f1d0fd7dab531",
+      "staged_blob": "489a2fe59897fab3203ce69931915de97b22225c",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/outputs/evidence_inventory.json",
+      "bytes": 364813,
+      "working_sha256": "67d023ec64ee73233447b6dda04d685555ab1756f2798ed1530262ac1945345a",
+      "staged_blob": "ec731410b4ec0bf59f78aeec4d6abcd5ecedaf12",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/outputs/source_shapes.json",
+      "bytes": 34075,
+      "working_sha256": "ce53b5d1e7284b47715e44c863b70809e94499529bba9a4367b83af7a52949fb",
+      "staged_blob": "31a6f8bfcf67c5a227d0296c4f8f980fa4a8dce8",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/status.json",
+      "bytes": 556,
+      "working_sha256": "3a37630000c2c3ad5d9c1085a24dc54120a7ca93ea88c7b3696e81858b79a7e0",
+      "staged_blob": "df0c616188d961d9dddccb827fef2c3c7343cb23",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/stderr.log",
+      "bytes": 0,
+      "working_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "staged_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/stdout.log",
+      "bytes": 761,
+      "working_sha256": "be25656b3ed6b4fa412c0f01954df0da22fa0eaca2657cbad0fcf94160c058c2",
+      "staged_blob": "b51f7ec2559b6f6c7bba72aed3d1a7207ba89316",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/artifacts.json",
+      "bytes": 578,
+      "working_sha256": "a6d157803ccb52e0226688d31fabfb7a095cf9b73c100c463a22f32c8a9bf1ed",
+      "staged_blob": "2d138351e08e1d7808d6fc2bd0648692ce2633b4",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/manifest.json",
+      "bytes": 18437,
+      "working_sha256": "9bbe78f04a521e0523e55696c5667a6430eae2a209c804cc4020896dd5d73b11",
+      "staged_blob": "bfb388ebee6de81e57c45af369ea50eb90ba2b8a",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/outputs/episode_trace_index.json",
+      "bytes": 274263,
+      "working_sha256": "fedc655e72c498d02d955ba774216429a7eb2049a2b7c3073034a8dd74e2e7c7",
+      "staged_blob": "5f65a43df54cfaaecbf3a1a16bcfec830c989fe0",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/outputs/verification_summary.json",
+      "bytes": 5740,
+      "working_sha256": "9148d6d2de28887d847e0f3867ce73f363c110a26a5d9bb2d3260ac89c00ae03",
+      "staged_blob": "2ab4d4fe8498e515b40f957c072efff10c3730f0",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/status.json",
+      "bytes": 554,
+      "working_sha256": "607ae4982dc7bd516a76e878a00dbc4eaa248df72057d6ea8e1584e92f6669d0",
+      "staged_blob": "484d95561f980d3b2554d8f097f52370157a5640",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/stderr.log",
+      "bytes": 0,
+      "working_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "staged_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/stdout.log",
+      "bytes": 570,
+      "working_sha256": "64e4f31ae728273df802123c7d5e3837df95ae9c12569f654d9319d5262cd56b",
+      "staged_blob": "b13d57f0d3ee91ecfc3dcac721ee7adc63d9b8a5",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc_scripts/gosc-t3r-audit-20261125-a0.py",
+      "bytes": 6693,
+      "working_sha256": "19436609e70deb100c464efc48b34bdb74e9edcb6c8dbc4cbdb1e496d15703d3",
+      "staged_blob": "1a829100c9bc944bdef48f115938b76872c8b2d5",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc_scripts/gosc-t3r-audit-20261125-a1.py",
+      "bytes": 21130,
+      "working_sha256": "94f6f7ec1d1f69c4b0df08052fc0e1128496dfa80c7fe7e77bd4c8431fb92e0c",
+      "staged_blob": "851a0e982057b99889703fdd1168878a018d5824",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc_scripts/gosc-t3r-audit-20261125-a1v2.py",
+      "bytes": 25447,
+      "working_sha256": "e0e387157b1da1257b52756fdaf6542961214ac2217b03c712cdf828616e1007",
+      "staged_blob": "2c734ec42bcad6b5da00bd971beca5e4cb731776",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc_scripts/gosc-t3r-audit-20261125-bindings.py",
+      "bytes": 26844,
+      "working_sha256": "80527d29a2c05c37e4241cda33f630215563c1f4370d195efcd5770ab6fc4620",
+      "staged_blob": "a269e59c53bff2e17d00674374b68aee208ed9e9",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/local_source_bindings.json",
+      "bytes": 2533,
+      "working_sha256": "03f4cbddad3fee98c6bacf02ed46ef1df1c361a5020aeaa5eb3568f438e5a18d",
+      "staged_blob": "047df28b8c97eac61a6e7391cb49fe8ca549fa2f",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/receipt_publication.json",
+      "bytes": 659,
+      "working_sha256": "810c89ce43cd23627a95fcf5151fdb1f359d010b44161d6c523b2df299f4b183",
+      "staged_blob": "1209410bbb25c0a8db6d61e7847a1e3748e6c9be",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/scoped_receipt.json",
+      "bytes": 9259,
+      "working_sha256": "13e14b0a42260d30bd2f8642b92d582ff5bf9d9f844c4b46229e9e21a02b84e0",
+      "staged_blob": "4671ae6e0d7d03cb51f6193d7a18ab35ca552210",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/task_brief.md",
+      "bytes": 2836,
+      "working_sha256": "9eb593a5da2e69a455a5e71a565cec61fc781438fa3d87de0a1f9ae7c054dd36",
+      "staged_blob": "93f31bf2fd77dff6a2eeecc373f2c0903eed3d40",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/task_log.md",
+      "bytes": 9048,
+      "working_sha256": "1b7e444073c84fb24701227417617b8be448fcf9211e6d030b3f29970e0e5c05",
+      "staged_blob": "c37a54d1e65ba728569c33cf58a7ccd66db37548",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/verification_summary.json",
+      "bytes": 32824,
+      "working_sha256": "1723edd8ac5c05b10d17e0d8609b62a0322764ac538567bfd2647b78f2632139",
+      "staged_blob": "ca4cbe4b53e46e97515fc7e028adbacc9d058b50",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/protocols/masbench_t3_revision_gate_review_v1.md",
+      "bytes": 11958,
+      "working_sha256": "625b56215907cf6506cf1b542adfcbbaed5ec3a2f8a84fe0a908585a95155bd7",
+      "staged_blob": "8121b9ac9402b333394fb7ad1b88a3a530d647dd",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/reports/masbench_t3_failure_attribution_review_2026-11-25.md",
+      "bytes": 12789,
+      "working_sha256": "8d28bc9558f9fc87294c6abd0cf624c672698c4f3b13826a35ba5e2ce78547c1",
+      "staged_blob": "cc210e323d1bfc76dbee68228d3fa1acba17cd09",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/reports/masbench_t3_research_decision_2026-11-25.md",
+      "bytes": 10652,
+      "working_sha256": "c42e750759f16062715d1354d2cad29b2a8700d1b3d78029f579f15e5d86c877",
+      "staged_blob": "359f3b47c8ab092222b4a7dad7c3fc8b802f6626",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/reports/masbench_t3_trace_diagnosis_2026-11-25.md",
+      "bytes": 15452,
+      "working_sha256": "0c3e8bdd90b9a70f65d3af320a36060d1ea8a7361ade688f71e392651406aa14",
+      "staged_blob": "dbe2377faed2ef2dd4b2512137289f3b296061c5",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    },
+    {
+      "path": "research/sync/plans/next_steps.md",
+      "bytes": 39499,
+      "working_sha256": "b076169642311c5593fb388a4e4d368128e3e4d6cb0a73e0b815f88a6fb01f1d",
+      "staged_blob": "eca724c437ba21a3fea6dbee3d487361257a204f",
+      "raw_blob_matches": true,
+      "filtered_blob_matches": true,
+      "allowed": true
+    }
+  ],
+  "scope": "local Git/file management only; no HPC computation or model call"
+}

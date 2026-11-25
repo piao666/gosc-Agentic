@@ -12,6 +12,8 @@
 
 ## 索引（最新在前）
 
+- [2026-11-25 / 02：T3-R原始证据、失败归因与研究决策审阅归档](2026-11-25-02-masbench-t3r-evidence-and-decision-review.md)
+
 - [2026-11-25 / 01：MASBench T2/T3 验收与四题诊断归档](2026-11-25-01-masbench-t2-t3-validation-and-diagnostic.md)
 
 - [2026-11-19 / 01：MASBench T1 全过程验收归档](2026-11-19-01-masbench-t1-validation-archive.md)

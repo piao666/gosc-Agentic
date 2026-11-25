@@ -1,0 +1,2 @@
+{"schema_version": 1, "episodes": 16, "task_requests": 49, "synthetic_requests": 2, "all_requests": 51, "usage": {"prompt_tokens": 131147, "completion_tokens": 5286}, "ledger_records": 835, "control_records": 2733, "raw_comparison_discrepancies": [], "new_model_calls": 0, "historical_results_modified": false, "original_task_or_code_modified": false, "causal_content_effect": "Unidentifiable; no intervention", "independent_new_family_N": 0}
+{"wall_seconds": 0.6066509932279587, "usage": [0.29047, 0.202931, 79908, 0, 0, 0, 23227, 0, 0, 23744, 616, 0, 0, 0, 1510, 29]}

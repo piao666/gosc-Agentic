@@ -137,3 +137,10 @@
 /research/logs/masbench-t2-2026-11-25/** -text
 /research/sync/runs/hpc-masbench-t2*-20261125/** -text
 /research/sync/runs/hpc-masbench-t3*-20261125/** -text
+# Preserve the exact T3-R audit exports, reports and file-hash contracts.
+/research/logs/masbench-t3r-2026-11-25/** -text whitespace=cr-at-eol
+/research/logs/git-publish-t3r-2026-11-25/** -text whitespace=cr-at-eol
+/research/reports/masbench_t3_trace_diagnosis_2026-11-25.md -text
+/research/reports/masbench_t3_failure_attribution_review_2026-11-25.md -text
+/research/reports/masbench_t3_research_decision_2026-11-25.md -text
+/research/protocols/masbench_t3_revision_gate_review_v1.md -text

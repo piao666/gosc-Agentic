@@ -1,0 +1,15 @@
+{
+  "run_id": "hpc-masbench-t3r-inventory-20261125",
+  "files": [
+    {
+      "path": "outputs/evidence_inventory.json",
+      "size": 364813,
+      "sha256": "67d023ec64ee73233447b6dda04d685555ab1756f2798ed1530262ac1945345a"
+    },
+    {
+      "path": "outputs/source_shapes.json",
+      "size": 34075,
+      "sha256": "ce53b5d1e7284b47715e44c863b70809e94499529bba9a4367b83af7a52949fb"
+    }
+  ]
+}

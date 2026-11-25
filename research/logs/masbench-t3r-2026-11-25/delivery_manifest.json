@@ -1,0 +1,271 @@
+{
+  "created_at": "2026-11-25T15:34:11.5877444+08:00",
+  "base_head": "bda3027e17883c1c41dd4ed6d1dd431f0a0657ba",
+  "scope": "new T3-R artifacts only",
+  "files": [
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/acceptance_matrix.md",
+      "bytes": 2657,
+      "sha256": "b31ffb629984f9d3c445f29083177b3e043e9e9f9520600ed9010a0d649cd625"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/archive_copy_checks.json",
+      "bytes": 3158,
+      "sha256": "acbe6d4e8373833430a5346b13eaa7ffdb66ce1872c481db016558a3dc7c2ab2"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/audit_script_provenance.json",
+      "bytes": 1172,
+      "sha256": "502fa13bb99e547c4818ab349baa2aae91994a721863f551503177a3cabaf4e0"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/audit_t3r.py",
+      "bytes": 26844,
+      "sha256": "80527d29a2c05c37e4241cda33f630215563c1f4370d195efcd5770ab6fc4620"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/bindings_receipt.json",
+      "bytes": 3282,
+      "sha256": "dd7812f5b998fb8bb0ee6f4793a58c345e6ab2927f242679c2fcbead25c113c0"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/closeout_checks.json",
+      "bytes": 982,
+      "sha256": "cb48574477668bae431b44acb6111ad4cbcc85a6946423c023776dbd809365a6"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/collect_t3r.ps1",
+      "bytes": 2228,
+      "sha256": "8399bbd9d0f49e4221312d30b3719148f303a4f38f93b5bbdb2c615322ee78a3"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/episode_trace_index.json",
+      "bytes": 304390,
+      "sha256": "1b1b8089db1f6c3e0b612f157bb0418212c9de1f5d4231a8e682de475a3e39a1"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/evidence_inventory.json",
+      "bytes": 364813,
+      "sha256": "67d023ec64ee73233447b6dda04d685555ab1756f2798ed1530262ac1945345a"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/local_source_bindings.json",
+      "bytes": 2533,
+      "sha256": "03f4cbddad3fee98c6bacf02ed46ef1df1c361a5020aeaa5eb3568f438e5a18d"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/README.md",
+      "bytes": 4403,
+      "sha256": "8f72f6043ad1915c7d83fa2fc8018c52f20d1fe8b34dec9b5b8b5fee74e13125"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/receipt_publication.json",
+      "bytes": 659,
+      "sha256": "810c89ce43cd23627a95fcf5151fdb1f359d010b44161d6c523b2df299f4b183"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/scoped_receipt.json",
+      "bytes": 9259,
+      "sha256": "13e14b0a42260d30bd2f8642b92d582ff5bf9d9f844c4b46229e9e21a02b84e0"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/task_brief.md",
+      "bytes": 2836,
+      "sha256": "9eb593a5da2e69a455a5e71a565cec61fc781438fa3d87de0a1f9ae7c054dd36"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/task_log.md",
+      "bytes": 9048,
+      "sha256": "1b7e444073c84fb24701227417617b8be448fcf9211e6d030b3f29970e0e5c05"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/verification_summary.json",
+      "bytes": 32824,
+      "sha256": "1723edd8ac5c05b10d17e0d8609b62a0322764ac538567bfd2647b78f2632139"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/artifacts.json",
+      "bytes": 581,
+      "sha256": "f728492bf03222989fcec9157c6f9e7ce2b79d390a7056b0d0d464750a879058"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/manifest.json",
+      "bytes": 18566,
+      "sha256": "d9b97a7d65250f8e351c5e72f6e32f21017c905becb127e38dd289e5dd0e8964"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/status.json",
+      "bytes": 535,
+      "sha256": "79faa222def5b9607acd8ebfffd8877431ec57709f5bff55d86b8a273107fcec"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/stdout.log",
+      "bytes": 20448,
+      "sha256": "c273e0391e2392d0a7db0750ea78f23befe3cc0e7950669077fac7e2798bc2c6"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/outputs/episode_trace_index.json",
+      "bytes": 304390,
+      "sha256": "1b1b8089db1f6c3e0b612f157bb0418212c9de1f5d4231a8e682de475a3e39a1"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-bindings-20261125/outputs/verification_summary.json",
+      "bytes": 32824,
+      "sha256": "1723edd8ac5c05b10d17e0d8609b62a0322764ac538567bfd2647b78f2632139"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/artifacts.json",
+      "bytes": 580,
+      "sha256": "0a4c0b76732ea8bb415dd5b029222c1e56693211cd18df23c2cb396f73d190dd"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/manifest.json",
+      "bytes": 18507,
+      "sha256": "d351abc5fd0bbceb9e2dfa899a97f38246c3523488f4c7788274fe61651fe0b0"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/status.json",
+      "bytes": 544,
+      "sha256": "2a52af18c8358c3720f51215d04edab98e399e772701a536a56c6418651f96c7"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/stdout.log",
+      "bytes": 20402,
+      "sha256": "63e3c472d739879f740d775c32935626b0902f8902666265b888999956656ae4"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/outputs/episode_trace_index.json",
+      "bytes": 278714,
+      "sha256": "4503286542d22e84362198bebefe99505952710da4c032a7e8f17adb0370609b"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-context-20261125/outputs/verification_summary.json",
+      "bytes": 32763,
+      "sha256": "d1b96889c891cf0bcd8ab7c71cb36a071d76140c4c5a4f688f562844353758f5"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/artifacts.json",
+      "bytes": 399,
+      "sha256": "b74f302e0ca13ad13ad29211bb7e70fbb3295c795c4e04aebdcacb2f944fd7c8"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/manifest.json",
+      "bytes": 18372,
+      "sha256": "b9a585820ac60005c4fa7ad529bc696eab7785039311a5ea661f1d0fd7dab531"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/status.json",
+      "bytes": 556,
+      "sha256": "3a37630000c2c3ad5d9c1085a24dc54120a7ca93ea88c7b3696e81858b79a7e0"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/stdout.log",
+      "bytes": 761,
+      "sha256": "be25656b3ed6b4fa412c0f01954df0da22fa0eaca2657cbad0fcf94160c058c2"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/outputs/evidence_inventory.json",
+      "bytes": 364813,
+      "sha256": "67d023ec64ee73233447b6dda04d685555ab1756f2798ed1530262ac1945345a"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-inventory-20261125/outputs/source_shapes.json",
+      "bytes": 34075,
+      "sha256": "ce53b5d1e7284b47715e44c863b70809e94499529bba9a4367b83af7a52949fb"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/artifacts.json",
+      "bytes": 578,
+      "sha256": "a6d157803ccb52e0226688d31fabfb7a095cf9b73c100c463a22f32c8a9bf1ed"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/manifest.json",
+      "bytes": 18437,
+      "sha256": "9bbe78f04a521e0523e55696c5667a6430eae2a209c804cc4020896dd5d73b11"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/status.json",
+      "bytes": 554,
+      "sha256": "607ae4982dc7bd516a76e878a00dbc4eaa248df72057d6ea8e1584e92f6669d0"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/stdout.log",
+      "bytes": 570,
+      "sha256": "64e4f31ae728273df802123c7d5e3837df95ae9c12569f654d9319d5262cd56b"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/outputs/episode_trace_index.json",
+      "bytes": 274263,
+      "sha256": "fedc655e72c498d02d955ba774216429a7eb2049a2b7c3073034a8dd74e2e7c7"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc/hpc-masbench-t3r-traces-20261125/outputs/verification_summary.json",
+      "bytes": 5740,
+      "sha256": "9148d6d2de28887d847e0f3867ce73f363c110a26a5d9bb2d3260ac89c00ae03"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc_scripts/gosc-t3r-audit-20261125-a0.py",
+      "bytes": 6693,
+      "sha256": "19436609e70deb100c464efc48b34bdb74e9edcb6c8dbc4cbdb1e496d15703d3"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc_scripts/gosc-t3r-audit-20261125-a1.py",
+      "bytes": 21130,
+      "sha256": "94f6f7ec1d1f69c4b0df08052fc0e1128496dfa80c7fe7e77bd4c8431fb92e0c"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc_scripts/gosc-t3r-audit-20261125-a1v2.py",
+      "bytes": 25447,
+      "sha256": "e0e387157b1da1257b52756fdaf6542961214ac2217b03c712cdf828616e1007"
+    },
+    {
+      "path": "research/logs/masbench-t3r-2026-11-25/hpc_scripts/gosc-t3r-audit-20261125-bindings.py",
+      "bytes": 26844,
+      "sha256": "80527d29a2c05c37e4241cda33f630215563c1f4370d195efcd5770ab6fc4620"
+    },
+    {
+      "path": "research/reports/masbench_t3_trace_diagnosis_2026-11-25.md",
+      "bytes": 15452,
+      "sha256": "0c3e8bdd90b9a70f65d3af320a36060d1ea8a7361ade688f71e392651406aa14"
+    },
+    {
+      "path": "research/reports/masbench_t3_failure_attribution_review_2026-11-25.md",
+      "bytes": 12789,
+      "sha256": "8d28bc9558f9fc87294c6abd0cf624c672698c4f3b13826a35ba5e2ce78547c1"
+    },
+    {
+      "path": "research/protocols/masbench_t3_revision_gate_review_v1.md",
+      "bytes": 11958,
+      "sha256": "625b56215907cf6506cf1b542adfcbbaed5ec3a2f8a84fe0a908585a95155bd7"
+    },
+    {
+      "path": "research/reports/masbench_t3_research_decision_2026-11-25.md",
+      "bytes": 10652,
+      "sha256": "c42e750759f16062715d1354d2cad29b2a8700d1b3d78029f579f15e5d86c877"
+    }
+  ],
+  "self_hash_excluded": true,
+  "model_calls": 0,
+  "original_source_or_results_modified": false,
+  "git_commit_or_push": false
+}

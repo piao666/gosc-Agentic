@@ -1,0 +1,21 @@
+{
+  "required_files": [
+    "research/reports/masbench_t3_trace_diagnosis_2026-11-25.md",
+    "research/reports/masbench_t3_failure_attribution_review_2026-11-25.md",
+    "research/protocols/masbench_t3_revision_gate_review_v1.md",
+    "research/reports/masbench_t3_research_decision_2026-11-25.md",
+    "research/logs/masbench-t3r-2026-11-25/task_brief.md",
+    "research/logs/masbench-t3r-2026-11-25/task_log.md",
+    "research/logs/masbench-t3r-2026-11-25/evidence_inventory.json",
+    "research/logs/masbench-t3r-2026-11-25/episode_trace_index.json",
+    "research/logs/masbench-t3r-2026-11-25/verification_summary.json"
+  ],
+  "json_files_checked": 29,
+  "issues": [],
+  "tracked_diff": [],
+  "git_diff_check_exit": 0,
+  "scope": "local lightweight deliverable integrity management only; not scientific test",
+  "new_models": 0,
+  "unrelated_workbuddy_directory": "appeared during session; untouched",
+  "checked_at": "2026-11-25T15:33:29.6752243+08:00"
+}

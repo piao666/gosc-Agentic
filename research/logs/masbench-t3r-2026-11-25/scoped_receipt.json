@@ -1,0 +1,162 @@
+{
+  "files": [
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-inventory-20261125\\manifest.json",
+      "sha256": "b9a585820ac60005c4fa7ad529bc696eab7785039311a5ea661f1d0fd7dab531",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-inventory-20261125/manifest.json",
+      "bytes": 18372,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-inventory-20261125\\status.json",
+      "sha256": "3a37630000c2c3ad5d9c1085a24dc54120a7ca93ea88c7b3696e81858b79a7e0",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-inventory-20261125/status.json",
+      "bytes": 556,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-inventory-20261125\\artifacts.json",
+      "sha256": "b74f302e0ca13ad13ad29211bb7e70fbb3295c795c4e04aebdcacb2f944fd7c8",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-inventory-20261125/artifacts.json",
+      "bytes": 399,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-inventory-20261125\\stdout.log",
+      "sha256": "be25656b3ed6b4fa412c0f01954df0da22fa0eaca2657cbad0fcf94160c058c2",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-inventory-20261125/stdout.log",
+      "bytes": 761,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-inventory-20261125\\stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-inventory-20261125/stderr.log",
+      "bytes": 0,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-inventory-20261125\\outputs\\evidence_inventory.json",
+      "sha256": "67d023ec64ee73233447b6dda04d685555ab1756f2798ed1530262ac1945345a",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-inventory-20261125/outputs/evidence_inventory.json",
+      "bytes": 364813,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-inventory-20261125\\outputs\\source_shapes.json",
+      "sha256": "ce53b5d1e7284b47715e44c863b70809e94499529bba9a4367b83af7a52949fb",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-inventory-20261125/outputs/source_shapes.json",
+      "bytes": 34075,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-traces-20261125\\manifest.json",
+      "sha256": "9bbe78f04a521e0523e55696c5667a6430eae2a209c804cc4020896dd5d73b11",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-traces-20261125/manifest.json",
+      "bytes": 18437,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-traces-20261125\\status.json",
+      "sha256": "607ae4982dc7bd516a76e878a00dbc4eaa248df72057d6ea8e1584e92f6669d0",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-traces-20261125/status.json",
+      "bytes": 554,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-traces-20261125\\artifacts.json",
+      "sha256": "a6d157803ccb52e0226688d31fabfb7a095cf9b73c100c463a22f32c8a9bf1ed",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-traces-20261125/artifacts.json",
+      "bytes": 578,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-traces-20261125\\stdout.log",
+      "sha256": "64e4f31ae728273df802123c7d5e3837df95ae9c12569f654d9319d5262cd56b",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-traces-20261125/stdout.log",
+      "bytes": 570,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-traces-20261125\\stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-traces-20261125/stderr.log",
+      "bytes": 0,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-traces-20261125\\outputs\\episode_trace_index.json",
+      "sha256": "fedc655e72c498d02d955ba774216429a7eb2049a2b7c3073034a8dd74e2e7c7",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-traces-20261125/outputs/episode_trace_index.json",
+      "bytes": 274263,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-traces-20261125\\outputs\\verification_summary.json",
+      "sha256": "9148d6d2de28887d847e0f3867ce73f363c110a26a5d9bb2d3260ac89c00ae03",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-traces-20261125/outputs/verification_summary.json",
+      "bytes": 5740,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-context-20261125\\manifest.json",
+      "sha256": "d351abc5fd0bbceb9e2dfa899a97f38246c3523488f4c7788274fe61651fe0b0",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-context-20261125/manifest.json",
+      "bytes": 18507,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-context-20261125\\status.json",
+      "sha256": "2a52af18c8358c3720f51215d04edab98e399e772701a536a56c6418651f96c7",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-context-20261125/status.json",
+      "bytes": 544,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-context-20261125\\artifacts.json",
+      "sha256": "0a4c0b76732ea8bb415dd5b029222c1e56693211cd18df23c2cb396f73d190dd",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-context-20261125/artifacts.json",
+      "bytes": 580,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-context-20261125\\stdout.log",
+      "sha256": "63e3c472d739879f740d775c32935626b0902f8902666265b888999956656ae4",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-context-20261125/stdout.log",
+      "bytes": 20402,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-context-20261125\\stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-context-20261125/stderr.log",
+      "bytes": 0,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-context-20261125\\outputs\\episode_trace_index.json",
+      "sha256": "4503286542d22e84362198bebefe99505952710da4c032a7e8f17adb0370609b",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-context-20261125/outputs/episode_trace_index.json",
+      "bytes": 278714,
+      "verified": true
+    },
+    {
+      "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\hpc\\hpc-masbench-t3r-context-20261125\\outputs\\verification_summary.json",
+      "sha256": "d1b96889c891cf0bcd8ab7c71cb36a071d76140c4c5a4f688f562844353758f5",
+      "remote_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-masbench-t3r-context-20261125/outputs/verification_summary.json",
+      "bytes": 32763,
+      "verified": true
+    }
+  ],
+  "source_host": "hpc",
+  "purpose": "T3-R scoped non-private evidence mirror",
+  "intentionally_not_pulled": [
+    "controlled_read_aid.private.json",
+    "historical raw 684 files",
+    "source patch and untracked archive"
+  ],
+  "all_run_outputs_mirrored": false,
+  "schema_version": 1,
+  "created_at": "2026-11-25T15:18:35.5841879+08:00",
+  "all_selected_files_verified": true
+}

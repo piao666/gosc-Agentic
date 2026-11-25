@@ -1,0 +1,14 @@
+[
+  {
+    "verified": true,
+    "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\scoped_receipt.json",
+    "hpc_receipt": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/receipts/20261125-t3r-scoped.json",
+    "sha256": "13e14b0a42260d30bd2f8642b92d582ff5bf9d9f844c4b46229e9e21a02b84e0"
+  },
+  {
+    "verified": true,
+    "local_path": "E:\\gosc\\research\\logs\\masbench-t3r-2026-11-25\\bindings_receipt.json",
+    "hpc_receipt": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/receipts/20261125-t3r-bindings.json",
+    "sha256": "dd7812f5b998fb8bb0ee6f4793a58c345e6ab2927f242679c2fcbead25c113c0"
+  }
+]

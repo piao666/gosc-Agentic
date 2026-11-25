@@ -1,0 +1,17 @@
+{
+  "command": "git diff --cached --check",
+  "exit_code": 2,
+  "diagnostic_lines": 1386,
+  "affected_files": [
+    "research/logs/masbench-t3r-2026-11-25/archive_copy_checks.json",
+    "research/logs/masbench-t3r-2026-11-25/audit_script_provenance.json",
+    "research/logs/masbench-t3r-2026-11-25/bindings_receipt.json",
+    "research/logs/masbench-t3r-2026-11-25/closeout_checks.json",
+    "research/logs/masbench-t3r-2026-11-25/delivery_manifest.json",
+    "research/logs/masbench-t3r-2026-11-25/local_source_bindings.json",
+    "research/logs/masbench-t3r-2026-11-25/receipt_publication.json",
+    "research/logs/masbench-t3r-2026-11-25/scoped_receipt.json"
+  ],
+  "interpretation": "CRLF audit/receipt bytes preserved under -text; do not normalize immutable exports",
+  "followup": "Set per-path whitespace=cr-at-eol; recheck actual trailing spaces separately"
+}

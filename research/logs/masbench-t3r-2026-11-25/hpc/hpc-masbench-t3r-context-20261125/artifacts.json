@@ -1,0 +1,20 @@
+{
+  "run_id": "hpc-masbench-t3r-context-20261125",
+  "files": [
+    {
+      "path": "outputs/controlled_read_aid.private.json",
+      "size": 32742,
+      "sha256": "c6bbda54cb703680db7fb671f80361299cd73e66dfd3defdacebb89b4fd5b9cf"
+    },
+    {
+      "path": "outputs/episode_trace_index.json",
+      "size": 278714,
+      "sha256": "4503286542d22e84362198bebefe99505952710da4c032a7e8f17adb0370609b"
+    },
+    {
+      "path": "outputs/verification_summary.json",
+      "size": 32763,
+      "sha256": "d1b96889c891cf0bcd8ab7c71cb36a071d76140c4c5a4f688f562844353758f5"
+    }
+  ]
+}

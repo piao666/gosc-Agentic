@@ -1,5 +1,7 @@
 # GOSC: Resource-Efficient Semantic Communication for Heterogeneous Agentic Teams
 
+**Nov25 T3-R review:** [Research decision](research/reports/masbench_t3_research_decision_2026-11-25.md) and [audit attachments](research/logs/masbench-t3r-2026-11-25/README.md) complete the existing-evidence trace and failure review: 684 files verified, 16 episodes and 51 historical requests reconciled. T3 scientific No-Go is retained; the fair-final revision is a static candidate only. No new model call or experiment. [Commit note](commit/2026-11-25-02-masbench-t3r-evidence-and-decision-review.md)
+
 **Nov19 T1 validation:** The fixed 1024-token deployment passed the four-case synthetic driver retest and an independent evidence audit. The archive retains all 32 registrations, including prior failures. [Validation report](research/reports/masbench_t1_validation_archive_2026-11-19.md) · [Evidence index](research/artifacts/masbench-t1-20261119/README.md)
 
 **Nov16 archive:** [B1 preparation summary](research/reports/masbench_b1_archive_summary_2026-11-16.md), [commit note](commit/2026-11-16-01-masbench-b1-safety-and-delivery.md), and [six immutable small outputs](research/artifacts/masbench-b1-20261116/README.md) distinguish model-free engineering acceptance from unresolved deployment and scientific gates. Historical final integration: 24 contracts passed; no new tests or model calls during archiving. Real B1 remains Blocked; G1/GP-ID scientific No-Go is preserved.
