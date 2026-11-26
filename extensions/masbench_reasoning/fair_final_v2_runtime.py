@@ -18,7 +18,8 @@ def run_episode(views, driver, condition, episode_id):
         raise SafetyError("episode_configuration")
     from .fair_final_v2_guard import FixtureDriver
     from .fair_final_v2_live import LiveDriver
-    if type(driver) not in (FixtureDriver, LiveDriver):
+    from .fair_final_v2_task import TaskDriver, TaskFixtureDriver
+    if type(driver) not in (FixtureDriver, LiveDriver, TaskDriver, TaskFixtureDriver):
         raise SafetyError("independent_v2_driver_required")
     if type(driver) is LiveDriver and driver.approval["scope"] != "T3-R-v2 full task campaign":
         raise SafetyError("six_slot_real_tasks_not_authorized_by_probe_approval")
@@ -69,12 +70,17 @@ def run_episode(views, driver, condition, episode_id):
                 result["finals"][speaker.view.name] = parsed
         driver.end(episode_id)
         result["completed"] = True
-    except (ClientFailure, SafetyError, UnicodeError) as exc:
+    except (ClientFailure, SafetyError, UnicodeError, TimeoutError, OSError) as exc:
+        if isinstance(exc,(TimeoutError,OSError)) and type(driver) not in (TaskDriver,TaskFixtureDriver):raise
         result["error"] = getattr(exc, "reason", str(exc))
         active = next((s for s in result["slots"] if s["status"] == "preparing"), None)
         if active:
             active["status"] = "failed"
-        driver.abort(episode_id, result["error"])
+        if type(driver) in (TaskDriver,TaskFixtureDriver):
+            try:driver.abort(episode_id,result['error'])
+            except (ClientFailure,SafetyError,OSError) as cleanup_error:
+                result['cleanup_error']=str(cleanup_error)
+        else:driver.abort(episode_id, result["error"])
     result["memory"] = [json.loads(canonical(a._history)) for a in agents]
     result["received_sources"] = [dict(a._received) for a in agents]
     result["wire_totals"] = driver.transport.totals()
@@ -85,6 +91,6 @@ def run_episode(views, driver, condition, episode_id):
         observed_input=sum((r.get("observed_usage") or {}).get("prompt_tokens", 0) for r in requests),
         observed_output=sum((r.get("observed_usage") or {}).get("completion_tokens", 0) for r in requests),
         http={k: v - driver.epoch_http[k] for k, v in driver.ledger.state["http"].items()},
-        scope="synthetic backend and fixture-counter units; no real inference")
+        scope=getattr(driver,'accounting_scope',"synthetic backend and fixture-counter units; no real inference"))
     driver.packets.result(result)
     return result

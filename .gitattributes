@@ -150,3 +150,10 @@
 /research/protocols/masbench_t3r_v2_contract_matrix_v1.md -text
 /research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md -text
 /research/reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md -text
+
+# Preserve the archived T3-R-v2-T evidence and the audited source bytes.
+/research/artifacts/masbench-t3rv2t-20261126/*.json -text
+/research/sync/runs/hpc-t3rv2i-task-*/status.json -text
+/research/sync/runs/hpc-t3rv2i-task-contract-20261126/stdout.log -text
+/experiments_ext/masbench_t3rv2t_audit.py whitespace=-blank-at-eof
+/research/logs/masbench-t3rv2t-2026-11-26/collect_evidence.py whitespace=-blank-at-eof

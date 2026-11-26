@@ -1,0 +1,148 @@
+{
+  "passed": false,
+  "tests": 24,
+  "cases": [
+    {
+      "name": "test_T01_full_plan_reset_isolation_and_fixture_label",
+      "passed": true
+    },
+    {
+      "name": "test_T02_early_empty_illegal_exchange_never_shortens[None]",
+      "passed": true
+    },
+    {
+      "name": "test_T02_early_empty_illegal_exchange_never_shortens[]",
+      "passed": true
+    },
+    {
+      "name": "test_T02_early_empty_illegal_exchange_never_shortens[Alice: MESSAGE\\n<A>early</A>]",
+      "passed": true
+    },
+    {
+      "name": "test_T02_early_empty_illegal_exchange_never_shortens[Alice: MESSAGE\\n<R>x</R>\\n<A>x</A>]",
+      "passed": true
+    },
+    {
+      "name": "test_T03_final_source_abstain_no_repair[Alice: FINAL\\n<E>LOCAL; PEER:t0</E>\\n<A>x</A>-False-invalid_final]",
+      "passed": true
+    },
+    {
+      "name": "test_T03_final_source_abstain_no_repair[Alice: FINAL\\n<E>LOCAL</E>\\n<U>INSUFFICIENT_EVIDENCE</U>-True-abstain]",
+      "passed": true
+    },
+    {
+      "name": "test_T03_final_source_abstain_no_repair[Alice: FINAL\\n<E>LOCAL</E>\\n<A>answer</A>-False-invalid_final]",
+      "passed": true
+    },
+    {
+      "name": "test_T04_strict_bundle_rejects_gold_and_unbound_views",
+      "passed": true
+    },
+    {
+      "name": "test_T05_probe_and_unapproved_task_authority_rejected",
+      "passed": true
+    },
+    {
+      "name": "test_T06_partial_failure_denominator_no_retry_persistent[modes0]",
+      "passed": true
+    },
+    {
+      "name": "test_T06_partial_failure_denominator_no_retry_persistent[modes1]",
+      "passed": true
+    },
+    {
+      "name": "test_T07_initial_full_input_count_and_window",
+      "passed": true
+    },
+    {
+      "name": "test_T08_limits_and_no_generated_calls_on_overwindow",
+      "passed": true
+    },
+    {
+      "name": "test_T09_exit_barrier_and_return_failure_stop_plan",
+      "passed": true
+    },
+    {
+      "name": "test_T10_storage_reservation_and_operation_caps",
+      "passed": true
+    },
+    {
+      "name": "test_T11_task_real_adapter_all_48_are_only_simulated",
+      "passed": false
+    },
+    {
+      "name": "test_T12_task_adapter_unknown_usage_count_identity[missing]",
+      "passed": true
+    },
+    {
+      "name": "test_T12_task_adapter_unknown_usage_count_identity[wrong_count]",
+      "passed": true
+    },
+    {
+      "name": "test_T12_task_adapter_unknown_usage_count_identity[drift]",
+      "passed": true
+    },
+    {
+      "name": "test_T13_scoring_does_not_substitute_engineering",
+      "passed": true
+    },
+    {
+      "name": "test_T14_plan_order_and_alias_refuse",
+      "passed": true
+    },
+    {
+      "name": "test_T15_literal_prompt_frozen_and_probe_caps_intact",
+      "passed": true
+    },
+    {
+      "name": "test_T16_no_cache_or_scoring_in_task_orchestrator",
+      "passed": true
+    }
+  ],
+  "labels": {
+    "T01": 1,
+    "T02": 4,
+    "T03": 3,
+    "T04": 1,
+    "T05": 1,
+    "T06": 2,
+    "T07": 1,
+    "T08": 1,
+    "T09": 1,
+    "T10": 1,
+    "T11": 0,
+    "T12": 3,
+    "T13": 1,
+    "T14": 1,
+    "T15": 1,
+    "T16": 1
+  },
+  "elapsed_seconds": 7.05200320482254,
+  "fixture_bytes": 1279030,
+  "source_files": {
+    "extensions/masbench_reasoning/fair_final_v2_task.py": "518f64eacb5905921f7516c034c651b598302a1047d2993597a60f91a32c8d54",
+    "extensions/masbench_reasoning/fair_final_v2_task_campaign.py": "76f9cd06a1fb62366b8404bd29be20e3246fe391af8c59faef345f3af19e48c6",
+    "extensions/masbench_reasoning/fair_final_v2_runtime.py": "50a028734192622041481fc5563718baea53972af9d3575e13233646e9e5b8d7",
+    "extensions/masbench_reasoning/fair_final_v2.py": "e4b87f56938f31a19a09a880de01fd6fc9c1a7274f52ff8f2423bc902a719e39",
+    "extensions/masbench_reasoning/fair_final_v2_prompt.txt": "00c91af181b4bcedf62acbfee2ab77b8555392d07a52196d3878936d4a375fb4",
+    "extensions/masbench_reasoning/fair_final_v2_live.py": "b2c5a921c2b9f2676fd308af913b13127a575fe8571e1d30c0f2e0a5d8728d89",
+    "extensions/masbench_reasoning/fair_final_v2_guard.py": "d6272d74fefc36870a32c19ec053a2701b24f1accc511a276dd80ed158307c99",
+    "extensions/masbench_reasoning/application.py": "a369f4d134e50984f69a92fa243449069849cef7c97142953dfb7cf27e801b78",
+    "extensions/masbench_reasoning/client.py": "3c236505a3db6283cdc3201ecef6e31e26e7aa552670777ce082c428f9f983fd",
+    "extensions/masbench_reasoning/execution_safety.py": "3fe213773b0c1a94e27afaccc2e68156e17181690dcb20e8b33a45668a8dc7de",
+    "extensions/masbench_reasoning/live_driver.py": "c1d45e01d58a048db1b82ffeaee67cb34d2520cf29adfadbd5a33a2190a4afa1",
+    "extensions/masbench_reasoning/wire.py": "1504e95b20fe5fb8af0a9fb3fafd43356f852ea7274f280edcfe5ba1f080e17f",
+    "experiments_ext/masbench_t3rv2_live_probe.py": "1c837678730626613953a635db7d381ba0e100cbf684cf16a9c76cd6d955b325",
+    "experiments_ext/masbench_t3rv2t_task.py": "994b00c7705ff2d8b9295df96fe67a3656ace70a46f0de304cf6dbcd8442ade6",
+    "research/protocols/masbench_t3rv2t_plan_2026-11-26.json": "b1d9ce5b430659f117a06527b69f273129ca928be5051fc1ebb9e8ebeafb1a77",
+    "tests_ext/test_masbench_t3rv2t_task.py": "db3359a7669dcdf22dade362f5f154ba083e13284d6bb3cc533a55ddeecdae53",
+    "experiments_ext/masbench_t3rv2t_contract.py": "eaf1c55338b213cca702a79b26105566c82a0a21f1edd609de1200560522ea62"
+  },
+  "model_calls": 0,
+  "real_HTTP": 0,
+  "real_helper_calls": 0,
+  "service_switches": 0,
+  "real_task_records_read": 0,
+  "fixture_AS_bytes": 268435456,
+  "max_workers": 1
+}

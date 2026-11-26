@@ -1,0 +1,79 @@
+{
+  "schema": "t3rv2t-fixed-task-plan-v1",
+  "approved": false,
+  "episodes": [
+    {
+      "id": "f1-Full",
+      "family": "f7d17aa841ccabd837d2ed52a30f454449f8b7b7cb132e8ce94d49792cc98842",
+      "condition": "Full",
+      "partition": "task",
+      "private_view_sha256": "0a7a71aa80229b0b68bb006d58952b8c7f00ae23a46cadffea41cb5e42b96c7a"
+    },
+    {
+      "id": "f1-No-A2A",
+      "family": "f7d17aa841ccabd837d2ed52a30f454449f8b7b7cb132e8ce94d49792cc98842",
+      "condition": "No-A2A",
+      "partition": "task",
+      "private_view_sha256": "0a7a71aa80229b0b68bb006d58952b8c7f00ae23a46cadffea41cb5e42b96c7a"
+    },
+    {
+      "id": "f2-No-A2A",
+      "family": "9e12ae37c81d0ea46b40fb070ccfbe78aff5c56b3ce2198ff6a61c8293e784a0",
+      "condition": "No-A2A",
+      "partition": "task",
+      "private_view_sha256": "1b09052334c9969ab2e7bb667fe5fd8b4da869e55aa634fcfa190b2b93c565d1"
+    },
+    {
+      "id": "f2-Full",
+      "family": "9e12ae37c81d0ea46b40fb070ccfbe78aff5c56b3ce2198ff6a61c8293e784a0",
+      "condition": "Full",
+      "partition": "task",
+      "private_view_sha256": "1b09052334c9969ab2e7bb667fe5fd8b4da869e55aa634fcfa190b2b93c565d1"
+    },
+    {
+      "id": "f3-Full",
+      "family": "4725a6878e3318f34dec0bdfe43c78306287b8c2546bb9f1d909135bf09c100f",
+      "condition": "Full",
+      "partition": "task",
+      "private_view_sha256": "9e6ba2fffc6b4a9e167e0d84b7ad1bd56a454c4cd5002546ace51f85427ed84c"
+    },
+    {
+      "id": "f3-No-A2A",
+      "family": "4725a6878e3318f34dec0bdfe43c78306287b8c2546bb9f1d909135bf09c100f",
+      "condition": "No-A2A",
+      "partition": "task",
+      "private_view_sha256": "9e6ba2fffc6b4a9e167e0d84b7ad1bd56a454c4cd5002546ace51f85427ed84c"
+    },
+    {
+      "id": "f4-No-A2A",
+      "family": "f183c55b84c30ba5d0c450ba1d1f21a6d53dc154a815ddc41185c8d7d527a660",
+      "condition": "No-A2A",
+      "partition": "task",
+      "private_view_sha256": "62d77827eeef5ae9331475290deb5c815ec6d9fe04f5887a5327cfcf72fa56a7"
+    },
+    {
+      "id": "f4-Full",
+      "family": "f183c55b84c30ba5d0c450ba1d1f21a6d53dc154a815ddc41185c8d7d527a660",
+      "condition": "Full",
+      "partition": "task",
+      "private_view_sha256": "62d77827eeef5ae9331475290deb5c815ec6d9fe04f5887a5327cfcf72fa56a7"
+    }
+  ],
+  "scope": "only original four exposed families",
+  "parent_probe": {
+    "run_id": "hpc-t3rv2i-live-probe-20261126",
+    "generations_consumed": 2,
+    "ledger_sha256": "314f853404d1e0b5c60f80583c9c134e58ba7dfa7dab5df3a0ab580cebd1f79c",
+    "started_mono": 49751956.782184586,
+    "original_wall_seconds": 2000,
+    "continuous_closeout_met": false
+  },
+  "scientific_thresholds": {
+    "paired_families": 4,
+    "Full_both_EM1_min": 2,
+    "mean_delta_F1_min": 0.1,
+    "positive_valid_pair_families_min": 2,
+    "L1_required": true,
+    "independently_reviewed_L2_required": true
+  }
+}

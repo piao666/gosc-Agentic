@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-t3rv2i-task-contract-r2-20261126",
+  "status": "completed",
+  "started_at": "2026-11-26T07:46:53.063409+00:00",
+  "finished_at": "2026-11-26T07:47:04.609003+00:00",
+  "exit_code": 0,
+  "pid": 53641,
+  "elapsed_seconds": 11.545622,
+  "resource_usage": {
+    "child_max_rss_kib": 40608,
+    "child_cpu_user_seconds": 1.7833899999999998,
+    "child_cpu_system_seconds": 2.266769,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

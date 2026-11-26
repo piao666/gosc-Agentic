@@ -1,0 +1,371 @@
+{
+  "runs": [
+    {
+      "run_id": "hpc-t3rv2i-task-contract-20261126",
+      "kind": "test",
+      "purpose": "task_profile_artificial_8x6_no_model",
+      "execution_host": "n1",
+      "git_commit": "c0621a1ab2cc249bbb6acb3b81cf1cec14591bcd",
+      "source_sync_id": "20261126T073948Z",
+      "source_manifest_sha256": "54a3a75c5913bfac9f5ce74ebb7dfeb7c85e7d43e23de37869a07f84f7394294",
+      "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+      "resource_limits": {
+        "cpu_quota": "200000",
+        "cpu_period": "100000",
+        "cpuset": "0-1",
+        "memory_bytes": "25769803776",
+        "gpu_settings": {
+          "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+          "CUDA_DEVICE_SM_LIMIT": "75"
+        }
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "-m",
+        "experiments_ext.masbench_t3rv2t_contract"
+      ],
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 7.276632,
+      "dirty": true,
+      "summary_copy": "research/artifacts/masbench-t3rv2t-20261126/contract-first.json",
+      "original_summary": "research/sync/runs/hpc-t3rv2i-task-contract-20261126/outputs/contract.json",
+      "summary_sha256": "dc109d323f61b2497f47b02abaf3165539d27685c2c0d7d65e81e768d4f7e3e0",
+      "summary_bytes": 5405,
+      "original_files": {
+        "artifacts.json": {
+          "sha256": "af4ecbc890f11170bfce99905440ffde5e65e9bf481bbe928bd27983342d2640",
+          "bytes": 860
+        },
+        "manifest.json": {
+          "sha256": "ba501f112112977c1fc6b6ff79ba9176cebeb70c17ef9cd22c2345fbf031ed73",
+          "bytes": 16900
+        },
+        "source_changes.patch.gz": {
+          "sha256": "5b99482ec7d51c03371113101d29684ece713acbb8ba8186dc3c963a4436690d",
+          "bytes": 378983
+        },
+        "source_snapshot.json": {
+          "sha256": "54a3a75c5913bfac9f5ce74ebb7dfeb7c85e7d43e23de37869a07f84f7394294",
+          "bytes": 527295
+        },
+        "source_untracked.tar.gz": {
+          "sha256": "76274d9cf765e7399cec6ab5fc6dd5c21491b5dfd1c9aace7a8bc0bced035116",
+          "bytes": 23369
+        },
+        "status.json": {
+          "sha256": "7c890ca1e45e91673856e32d0643cf61246dfc74b423f5bb2b8b596d99d601c1",
+          "bytes": 531
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stdout.log": {
+          "sha256": "16ea6cf9562f79dd2eab3bc84dc49eeab80ef0c3b03e7144344a180f3af28f12",
+          "bytes": 5849
+        },
+        "outputs/contract.json": {
+          "sha256": "dc109d323f61b2497f47b02abaf3165539d27685c2c0d7d65e81e768d4f7e3e0",
+          "bytes": 5405
+        },
+        "outputs/fixture_raw.tar.gz": {
+          "sha256": "9bdd2c1bbc0f0be765b272500af7b1a96a3be0ea465d67920c5daeafa162d73e",
+          "bytes": 198435
+        },
+        "outputs/hdd_inventory.json": {
+          "sha256": "9a5fb66daeb9ed5edca7a39897490e1d6f49568d16ed9b08e91619fca438292f",
+          "bytes": 92204
+        },
+        "outputs/pytest.xml": {
+          "sha256": "1caec307344e4ecde8c73c4b47509977b2edcd837c14be6da2c1eda7da50e529",
+          "bytes": 4538
+        },
+        "outputs/task_fixture.json": {
+          "sha256": "623b9aee14704f06e71e4accd6e695044815c718ab48619463a81c5f9e71c594",
+          "bytes": 468895
+        }
+      }
+    },
+    {
+      "run_id": "hpc-t3rv2i-task-contract-r2-20261126",
+      "kind": "test",
+      "purpose": "task_cleanup_journal_fix_and_full_8x6_acceptance",
+      "execution_host": "n1",
+      "git_commit": "c0621a1ab2cc249bbb6acb3b81cf1cec14591bcd",
+      "source_sync_id": "20261126T074535Z",
+      "source_manifest_sha256": "50b44877cb6495270763a3cbedc3445e005a85bb2408add8b87ac702558281eb",
+      "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+      "resource_limits": {
+        "cpu_quota": "200000",
+        "cpu_period": "100000",
+        "cpuset": "0-1",
+        "memory_bytes": "25769803776",
+        "gpu_settings": {
+          "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+          "CUDA_DEVICE_SM_LIMIT": "75"
+        }
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "-m",
+        "experiments_ext.masbench_t3rv2t_contract"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 11.545622,
+      "dirty": true,
+      "summary_copy": "research/artifacts/masbench-t3rv2t-20261126/contract-r2.json",
+      "original_summary": "research/sync/runs/hpc-t3rv2i-task-contract-r2-20261126/outputs/contract.json",
+      "summary_sha256": "0e0b76c9b3a79e2a044806dce0b50728b6766c4e2dc066e70007629aafc51a21",
+      "summary_bytes": 5405,
+      "original_files": {
+        "artifacts.json": {
+          "sha256": "626d935e3f9375ce3f999c7534d64bc2db1059d063df5d304d917d1bf9178ec8",
+          "bytes": 864
+        },
+        "manifest.json": {
+          "sha256": "ab672e6fcf68f693444a7613b2114c7dfe7c36af792270770bde2b8f788bc3be",
+          "bytes": 17049
+        },
+        "source_changes.patch.gz": {
+          "sha256": "5b99482ec7d51c03371113101d29684ece713acbb8ba8186dc3c963a4436690d",
+          "bytes": 378983
+        },
+        "source_snapshot.json": {
+          "sha256": "50b44877cb6495270763a3cbedc3445e005a85bb2408add8b87ac702558281eb",
+          "bytes": 527780
+        },
+        "source_untracked.tar.gz": {
+          "sha256": "cf8f3c4ad6b25265eae25d0dce06581f68764fb560ed98b4056bf7d013174dfb",
+          "bytes": 27799
+        },
+        "status.json": {
+          "sha256": "bb7509cdc2b345b0ae377b5b00eeb4a2f31a5dba1ebe78700a9139eff7e4595d",
+          "bytes": 548
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stdout.log": {
+          "sha256": "bb933fe16e0aeebf76b8cdfe8db90280cc8ccad3118414e4562ebd61c48fdc3c",
+          "bytes": 4803
+        },
+        "outputs/contract.json": {
+          "sha256": "0e0b76c9b3a79e2a044806dce0b50728b6766c4e2dc066e70007629aafc51a21",
+          "bytes": 5405
+        },
+        "outputs/fixture_raw.tar.gz": {
+          "sha256": "49349806aa06376a4100098f10cb9a46678c3b766351e24d81f9b18c1507eeac",
+          "bytes": 274224
+        },
+        "outputs/hdd_inventory.json": {
+          "sha256": "b7bae46c4da457a0203c1946395c701f1eec1320b014656e097ef85ab60b7ea4",
+          "bytes": 144948
+        },
+        "outputs/pytest.xml": {
+          "sha256": "e4465b1d88e29b53e9035f8a39ad66b657108086e6221bb07ee063ecbe8dc9f4",
+          "bytes": 3787
+        },
+        "outputs/task_fixture.json": {
+          "sha256": "eb1fc3b1fea911bce4aa6557d3654ce3cdd7092c55cab98fb9c00fc07842fc83",
+          "bytes": 468899
+        }
+      }
+    },
+    {
+      "run_id": "hpc-t3rv2i-task-contract-r3-20261126",
+      "kind": "test",
+      "purpose": "final_source_receipt_binding_task_contract",
+      "execution_host": "n1",
+      "git_commit": "c0621a1ab2cc249bbb6acb3b81cf1cec14591bcd",
+      "source_sync_id": "20261126T074815Z",
+      "source_manifest_sha256": "d0f3d14dbe76606c143933bdbd20eba3c2ee210538376610fe4c8a4e0ebb878d",
+      "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+      "resource_limits": {
+        "cpu_quota": "200000",
+        "cpu_period": "100000",
+        "cpuset": "0-1",
+        "memory_bytes": "25769803776",
+        "gpu_settings": {
+          "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+          "CUDA_DEVICE_SM_LIMIT": "75"
+        }
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "-m",
+        "experiments_ext.masbench_t3rv2t_contract"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 15.176301,
+      "dirty": true,
+      "summary_copy": "research/artifacts/masbench-t3rv2t-20261126/contract-final.json",
+      "original_summary": "research/sync/runs/hpc-t3rv2i-task-contract-r3-20261126/outputs/contract.json",
+      "summary_sha256": "1f96a152e3413733c3cb6b9ba0590fa5267889ea8c95beddd074ff7ab0a5ed53",
+      "summary_bytes": 5508,
+      "original_files": {
+        "artifacts.json": {
+          "sha256": "7f0fd4c68addb2021f04f38ffe4749f5a5594c83eefa345a38f24098ed92b738",
+          "bytes": 864
+        },
+        "manifest.json": {
+          "sha256": "e1242b35e2a3799755d7fefdc6b67730ca3724764a657a87c274980077e65616",
+          "bytes": 17104
+        },
+        "source_changes.patch.gz": {
+          "sha256": "5b99482ec7d51c03371113101d29684ece713acbb8ba8186dc3c963a4436690d",
+          "bytes": 378983
+        },
+        "source_snapshot.json": {
+          "sha256": "d0f3d14dbe76606c143933bdbd20eba3c2ee210538376610fe4c8a4e0ebb878d",
+          "bytes": 527780
+        },
+        "source_untracked.tar.gz": {
+          "sha256": "fa6268d869e908638501f2f410263478c42f79ada677178c009d77618d4295bf",
+          "bytes": 28517
+        },
+        "status.json": {
+          "sha256": "8f636a59585b10b5a8860bdbf7bdae3fed7a111c315a79b44ce28d1a672de9ca",
+          "bytes": 547
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stdout.log": {
+          "sha256": "a8e7a3320dce905b72a504a2f367ff47852578872020e4c4533cf33bafcdd9b3",
+          "bytes": 4884
+        },
+        "outputs/contract.json": {
+          "sha256": "1f96a152e3413733c3cb6b9ba0590fa5267889ea8c95beddd074ff7ab0a5ed53",
+          "bytes": 5508
+        },
+        "outputs/fixture_raw.tar.gz": {
+          "sha256": "af0683596095cbb9346ed6249382f1550f34c76637fd0a41d5487818fc8c0a15",
+          "bytes": 276668
+        },
+        "outputs/hdd_inventory.json": {
+          "sha256": "8e0ce71b11d1868e42c85944d8d3f8699aff09c537efcf4bc9baaccafff85f00",
+          "bytes": 148966
+        },
+        "outputs/pytest.xml": {
+          "sha256": "0dccc5c2b1615f79fb9dd36e3f9155d708a4281a2ec65d89b41fd20d8f6524ec",
+          "bytes": 3920
+        },
+        "outputs/task_fixture.json": {
+          "sha256": "7d06bce497c8126a748933f3759e0f87144d0ce643a351ee418b19a6163ad6c2",
+          "bytes": 468913
+        }
+      }
+    },
+    {
+      "run_id": "hpc-t3rv2i-task-audit-20261126",
+      "kind": "analysis",
+      "purpose": "independent_task_fixture_journal_and_frozen_source_audit",
+      "execution_host": "n1",
+      "git_commit": "c0621a1ab2cc249bbb6acb3b81cf1cec14591bcd",
+      "source_sync_id": "20261126T074815Z",
+      "source_manifest_sha256": "d0f3d14dbe76606c143933bdbd20eba3c2ee210538376610fe4c8a4e0ebb878d",
+      "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+      "resource_limits": {
+        "cpu_quota": "200000",
+        "cpu_period": "100000",
+        "cpuset": "0-1",
+        "memory_bytes": "25769803776",
+        "gpu_settings": {
+          "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+          "CUDA_DEVICE_SM_LIMIT": "75"
+        }
+      },
+      "command": [
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "-m",
+        "experiments_ext.masbench_t3rv2t_audit"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.383877,
+      "dirty": true,
+      "summary_copy": "research/artifacts/masbench-t3rv2t-20261126/independent-audit.json",
+      "original_summary": "research/sync/runs/hpc-t3rv2i-task-audit-20261126/outputs/audit.json",
+      "summary_sha256": "14443cb0cf32bdb33cc6de6484952c22323d53d982f4fe38d65016b4264fad25",
+      "summary_bytes": 4016,
+      "original_files": {
+        "artifacts.json": {
+          "sha256": "b12212620ac8f1306a2a008a1f6ef8505bc8b763fb3a4a40313065214cf6d61f",
+          "bytes": 218
+        },
+        "manifest.json": {
+          "sha256": "893686f2acd5361338b3883afb27a7ce1f489ced5926118f8904b8a140640393",
+          "bytes": 17174
+        },
+        "source_changes.patch.gz": {
+          "sha256": "5b99482ec7d51c03371113101d29684ece713acbb8ba8186dc3c963a4436690d",
+          "bytes": 378983
+        },
+        "source_snapshot.json": {
+          "sha256": "d0f3d14dbe76606c143933bdbd20eba3c2ee210538376610fe4c8a4e0ebb878d",
+          "bytes": 527780
+        },
+        "source_untracked.tar.gz": {
+          "sha256": "c2dc67efa1549fb5753677cfe25f9167444bb098eca0baadf78c8b686ebb01c1",
+          "bytes": 28517
+        },
+        "status.json": {
+          "sha256": "3fc65cae4c7f405af9f962bb70f5dddd181b0ad11314d92fd9a6af26b99796dc",
+          "bytes": 553
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stdout.log": {
+          "sha256": "88f0692fa286b395eed6fe87d696d96bbaf926c80df9d263e6f71c1ee5352d0a",
+          "bytes": 3866
+        },
+        "outputs/audit.json": {
+          "sha256": "14443cb0cf32bdb33cc6de6484952c22323d53d982f4fe38d65016b4264fad25",
+          "bytes": 4016
+        }
+      }
+    }
+  ],
+  "receipts": [
+    {
+      "path": "research/sync/receipts/20261126-t3rv2t-39cfb51354.json",
+      "sha256": "8b543d9905bbf256a8d97a192164b5cf00986bc48ba82d7f8a5b1e57633546b1",
+      "run_ids": [
+        "hpc-t3rv2i-task-audit-20261126"
+      ],
+      "files": 9,
+      "bytes": 961107,
+      "all_outputs_mirrored": true
+    },
+    {
+      "path": "research/sync/receipts/20261126-t3rv2t-925e22a879.json",
+      "sha256": "d0b3aed9a62634513127ce09315f86aeea425dfcfa984dedd83a1f793cd14a11",
+      "run_ids": [
+        "hpc-t3rv2i-task-contract-r2-20261126",
+        "hpc-t3rv2i-task-contract-r3-20261126"
+      ],
+      "files": 1262,
+      "bytes": 7854786,
+      "all_outputs_mirrored": true
+    },
+    {
+      "path": "research/sync/receipts/20261126-t3rv2t-fca11334f6.json",
+      "sha256": "fb06e8f63a9cc89decd239b244f1fb732bc4a063d045f697ac7b98d3d2b55b1b",
+      "run_ids": [
+        "hpc-t3rv2i-task-contract-20261126"
+      ],
+      "files": 412,
+      "bytes": 3002294,
+      "all_outputs_mirrored": true
+    }
+  ],
+  "verified_local_files": 1683,
+  "verified_local_bytes": 11818187
+}
