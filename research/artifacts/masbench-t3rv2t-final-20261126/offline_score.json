@@ -1,0 +1,665 @@
+{
+  "N_families": 4,
+  "N_pairs_started": 4,
+  "complete_pairs": true,
+  "pairs": [
+    {
+      "family": "f7d17aa841ccabd837d2ed52a30f454449f8b7b7cb132e8ce94d49792cc98842",
+      "delta": 0.0,
+      "valid_both_conditions": false
+    },
+    {
+      "family": "9e12ae37c81d0ea46b40fb070ccfbe78aff5c56b3ce2198ff6a61c8293e784a0",
+      "delta": 0.0,
+      "valid_both_conditions": false
+    },
+    {
+      "family": "4725a6878e3318f34dec0bdfe43c78306287b8c2546bb9f1d909135bf09c100f",
+      "delta": 0.0,
+      "valid_both_conditions": false
+    },
+    {
+      "family": "f183c55b84c30ba5d0c450ba1d1f21a6d53dc154a815ddc41185c8d7d527a660",
+      "delta": 0.0,
+      "valid_both_conditions": false
+    }
+  ],
+  "conditions": {
+    "Full": {
+      "N_started": 4,
+      "N_not_started": 0,
+      "mean_F1": 0.0,
+      "mean_EM": 0.0,
+      "both_correct_families": 0,
+      "joint": {
+        "00": 4,
+        "01": 0,
+        "10": 0,
+        "11": 0
+      },
+      "valid_answer_rate": 0.0,
+      "valid_format_rate": 0.125
+    },
+    "No-A2A": {
+      "N_started": 4,
+      "N_not_started": 0,
+      "mean_F1": 0.0,
+      "mean_EM": 0.0,
+      "both_correct_families": 0,
+      "joint": {
+        "00": 4,
+        "01": 0,
+        "10": 0,
+        "11": 0
+      },
+      "valid_answer_rate": 0.0,
+      "valid_format_rate": 0.0
+    }
+  },
+  "Delta_F1": 0.0,
+  "independent_problem_unit": "family; article-component dependence remains",
+  "positive_valid_families": [],
+  "positive_full_l1_linked_families": [],
+  "positive_full_l1_final_citation_candidates": [],
+  "numeric_continue_gate": false,
+  "independent_l2_completed": false,
+  "scientific_continue_gate": false,
+  "run_id": "hpc-t3rv2i-task-live-final-20261126",
+  "reference_source_sha256": "c6bbda54cb703680db7fb671f80361299cd73e66dfd3defdacebb89b4fd5b9cf",
+  "score_script_sha256": "6f775d0f6ed7cd467a4afc28d03169db4302c394a30ff73cf7d9b6ccb4f57223",
+  "episodes": [
+    {
+      "id": "f1-Full",
+      "family": "f7d17aa841ccabd837d2ed52a30f454449f8b7b7cb132e8ce94d49792cc98842",
+      "condition": "Full",
+      "score": {
+        "started": true,
+        "completed": true,
+        "scores": {
+          "Alice": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          },
+          "Bob": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": true,
+            "valid_answer": false,
+            "abstain": true,
+            "reason": "abstain"
+          }
+        },
+        "mean_F1": 0.0,
+        "mean_EM": 0.0,
+        "joint": "00",
+        "both_correct": false,
+        "agreement": "at_least_one_unanswered",
+        "valid_answer_rate": 0.0,
+        "valid_format_rate": 0.5,
+        "unanswered_rate": 1.0,
+        "abstain_rate": 0.5,
+        "format_failure_rate": 0.5
+      },
+      "source_sha256": "52d5b03581676452bc1b823ae6050f3d35dac96c095bc894180dec9a950582ff",
+      "representation_links": [
+        {
+          "turn": 0,
+          "receiver": "Bob",
+          "payload_sha256": "0eda57941c65c6b316bfb80c7e1bf9303775a6b5eacb2aea7f4e5a1b68e6f1d9",
+          "next_request_sha256": "c4e2995610293451c31f874527e204dac03e420b2aec34493f52913b5f314a00",
+          "final_request_sha256": "930601ac0e8612c0932f0e7a1bec2bacccde00e1f979051175560ea627202282",
+          "final_cites_source": false
+        },
+        {
+          "turn": 1,
+          "receiver": "Alice",
+          "payload_sha256": "7a4a026163dc7890211fd2a96f800d2f585bf3f069cd49db06c47568e3aa614c",
+          "next_request_sha256": "b206d8b369b510281dad5bbb65e1015b50f109336f842cca522321c11a62c35c",
+          "final_request_sha256": "083449ccbdfd700f443817e3a884235f4bf518b6a94825b7eaa0bb715c8eaa4d",
+          "final_cites_source": false
+        }
+      ],
+      "error": null,
+      "wire_totals": {
+        "cpu_process_ns": 2199886,
+        "dl_uses": 4138,
+        "logical_slots": 294,
+        "payload_offered_bytes": 445,
+        "ul_uses": 4138,
+        "wire_bytes": 4138
+      },
+      "accounting": {
+        "http": {
+          "cleanup_get": 2,
+          "generation": 6,
+          "get": 19,
+          "lifecycle_get": 0,
+          "render": 6,
+          "unload": 1
+        },
+        "observed_input": 16140,
+        "observed_output": 416,
+        "reserved_input": 16140,
+        "reserved_output": 3072,
+        "reserved_requests": 6,
+        "scope": "task_real: exact deployed qwen usage and actual task HTTP",
+        "unknown_usage": 0
+      }
+    },
+    {
+      "id": "f1-No-A2A",
+      "family": "f7d17aa841ccabd837d2ed52a30f454449f8b7b7cb132e8ce94d49792cc98842",
+      "condition": "No-A2A",
+      "score": {
+        "started": true,
+        "completed": true,
+        "scores": {
+          "Alice": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          },
+          "Bob": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          }
+        },
+        "mean_F1": 0.0,
+        "mean_EM": 0.0,
+        "joint": "00",
+        "both_correct": false,
+        "agreement": "at_least_one_unanswered",
+        "valid_answer_rate": 0.0,
+        "valid_format_rate": 0.0,
+        "unanswered_rate": 1.0,
+        "abstain_rate": 0.0,
+        "format_failure_rate": 1.0
+      },
+      "source_sha256": "4f12d89cd6b1aa870b5e5ea1563df76f9ed66bc24bd6db5eacd45857afb6baa5",
+      "representation_links": [],
+      "error": null,
+      "wire_totals": {
+        "cpu_process_ns": 0,
+        "dl_uses": 0,
+        "logical_slots": 8,
+        "payload_offered_bytes": 916,
+        "ul_uses": 0,
+        "wire_bytes": 0
+      },
+      "accounting": {
+        "http": {
+          "cleanup_get": 2,
+          "generation": 6,
+          "get": 19,
+          "lifecycle_get": 0,
+          "render": 6,
+          "unload": 1
+        },
+        "observed_input": 15698,
+        "observed_output": 373,
+        "reserved_input": 15698,
+        "reserved_output": 3072,
+        "reserved_requests": 6,
+        "scope": "task_real: exact deployed qwen usage and actual task HTTP",
+        "unknown_usage": 0
+      }
+    },
+    {
+      "id": "f2-No-A2A",
+      "family": "9e12ae37c81d0ea46b40fb070ccfbe78aff5c56b3ce2198ff6a61c8293e784a0",
+      "condition": "No-A2A",
+      "score": {
+        "started": true,
+        "completed": true,
+        "scores": {
+          "Alice": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          },
+          "Bob": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          }
+        },
+        "mean_F1": 0.0,
+        "mean_EM": 0.0,
+        "joint": "00",
+        "both_correct": false,
+        "agreement": "at_least_one_unanswered",
+        "valid_answer_rate": 0.0,
+        "valid_format_rate": 0.0,
+        "unanswered_rate": 1.0,
+        "abstain_rate": 0.0,
+        "format_failure_rate": 1.0
+      },
+      "source_sha256": "5ed96b9604d125fe9a591f65157061d91ebc916928911ef2f1ca33934fe6cd3b",
+      "representation_links": [],
+      "error": null,
+      "wire_totals": {
+        "cpu_process_ns": 0,
+        "dl_uses": 0,
+        "logical_slots": 8,
+        "payload_offered_bytes": 1129,
+        "ul_uses": 0,
+        "wire_bytes": 0
+      },
+      "accounting": {
+        "http": {
+          "cleanup_get": 2,
+          "generation": 6,
+          "get": 19,
+          "lifecycle_get": 0,
+          "render": 6,
+          "unload": 1
+        },
+        "observed_input": 15152,
+        "observed_output": 403,
+        "reserved_input": 15152,
+        "reserved_output": 3072,
+        "reserved_requests": 6,
+        "scope": "task_real: exact deployed qwen usage and actual task HTTP",
+        "unknown_usage": 0
+      }
+    },
+    {
+      "id": "f2-Full",
+      "family": "9e12ae37c81d0ea46b40fb070ccfbe78aff5c56b3ce2198ff6a61c8293e784a0",
+      "condition": "Full",
+      "score": {
+        "started": true,
+        "completed": true,
+        "scores": {
+          "Alice": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          },
+          "Bob": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          }
+        },
+        "mean_F1": 0.0,
+        "mean_EM": 0.0,
+        "joint": "00",
+        "both_correct": false,
+        "agreement": "at_least_one_unanswered",
+        "valid_answer_rate": 0.0,
+        "valid_format_rate": 0.0,
+        "unanswered_rate": 1.0,
+        "abstain_rate": 0.0,
+        "format_failure_rate": 1.0
+      },
+      "source_sha256": "a0efd522a5a2f8a73078d61abc94cdecc2e988386aabcc2fecd4a5093e9b1e7e",
+      "representation_links": [
+        {
+          "turn": 0,
+          "receiver": "Bob",
+          "payload_sha256": "ba60184a62962fc7176a192454b148aa4d23f6bad133f78aaa89f162b964453d",
+          "next_request_sha256": "01423c523710ce159f41acb5a735ee803eb1df9d8a9e3a2ef73d95983f6a567c",
+          "final_request_sha256": "3547f234581d212cc1134041ef1c8fc391cca56489f7be2d6039a288caac6448",
+          "final_cites_source": false
+        },
+        {
+          "turn": 2,
+          "receiver": "Bob",
+          "payload_sha256": "82fc167bbbfe4346e896734f759e66882b08ad56a399e9e4dc1eb1671a3726c8",
+          "next_request_sha256": "809b9ec847fcf780a23111e8dce2325352bb1c07d7718878cf007b8e665d1ddb",
+          "final_request_sha256": "3547f234581d212cc1134041ef1c8fc391cca56489f7be2d6039a288caac6448",
+          "final_cites_source": false
+        }
+      ],
+      "error": null,
+      "wire_totals": {
+        "cpu_process_ns": 2699652,
+        "dl_uses": 4736,
+        "logical_slots": 334,
+        "payload_offered_bytes": 520,
+        "ul_uses": 4736,
+        "wire_bytes": 4736
+      },
+      "accounting": {
+        "http": {
+          "cleanup_get": 2,
+          "generation": 6,
+          "get": 19,
+          "lifecycle_get": 0,
+          "render": 6,
+          "unload": 1
+        },
+        "observed_input": 15699,
+        "observed_output": 600,
+        "reserved_input": 15699,
+        "reserved_output": 3072,
+        "reserved_requests": 6,
+        "scope": "task_real: exact deployed qwen usage and actual task HTTP",
+        "unknown_usage": 0
+      }
+    },
+    {
+      "id": "f3-Full",
+      "family": "4725a6878e3318f34dec0bdfe43c78306287b8c2546bb9f1d909135bf09c100f",
+      "condition": "Full",
+      "score": {
+        "started": true,
+        "completed": true,
+        "scores": {
+          "Alice": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          },
+          "Bob": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          }
+        },
+        "mean_F1": 0.0,
+        "mean_EM": 0.0,
+        "joint": "00",
+        "both_correct": false,
+        "agreement": "at_least_one_unanswered",
+        "valid_answer_rate": 0.0,
+        "valid_format_rate": 0.0,
+        "unanswered_rate": 1.0,
+        "abstain_rate": 0.0,
+        "format_failure_rate": 1.0
+      },
+      "source_sha256": "fff8f75e20fe519fb8f58e1a7a4a5b40f046111ec8c4ef1a197d54b190ee8b68",
+      "representation_links": [
+        {
+          "turn": 0,
+          "receiver": "Bob",
+          "payload_sha256": "c1418e2304dfaf4a97bfc1b4e84ebeb98e732874902ea5d6f34b66d803d8616c",
+          "next_request_sha256": "95adb9aa0f1fce4df16d5f231ee1a28fe1998e620686a8c4dc34ef9dbeb6892f",
+          "final_request_sha256": "7501f621ef9cf4cebc6a5e11c7cfcf38512aed173604f8452d65a9c256c939de",
+          "final_cites_source": false
+        },
+        {
+          "turn": 2,
+          "receiver": "Bob",
+          "payload_sha256": "ca82448708e820654695bf8e1332bc9544b1a8aaf4f37f889ee20c8b4dd549c7",
+          "next_request_sha256": "f44200cf5c94437091071c3b3b79c67a175a6cf87b3a590f04113dc1439efb1f",
+          "final_request_sha256": "7501f621ef9cf4cebc6a5e11c7cfcf38512aed173604f8452d65a9c256c939de",
+          "final_cites_source": false
+        }
+      ],
+      "error": null,
+      "wire_totals": {
+        "cpu_process_ns": 1867742,
+        "dl_uses": 3868,
+        "logical_slots": 274,
+        "payload_offered_bytes": 422,
+        "ul_uses": 3868,
+        "wire_bytes": 3868
+      },
+      "accounting": {
+        "http": {
+          "cleanup_get": 2,
+          "generation": 6,
+          "get": 19,
+          "lifecycle_get": 0,
+          "render": 6,
+          "unload": 1
+        },
+        "observed_input": 19750,
+        "observed_output": 377,
+        "reserved_input": 19750,
+        "reserved_output": 3072,
+        "reserved_requests": 6,
+        "scope": "task_real: exact deployed qwen usage and actual task HTTP",
+        "unknown_usage": 0
+      }
+    },
+    {
+      "id": "f3-No-A2A",
+      "family": "4725a6878e3318f34dec0bdfe43c78306287b8c2546bb9f1d909135bf09c100f",
+      "condition": "No-A2A",
+      "score": {
+        "started": true,
+        "completed": true,
+        "scores": {
+          "Alice": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          },
+          "Bob": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          }
+        },
+        "mean_F1": 0.0,
+        "mean_EM": 0.0,
+        "joint": "00",
+        "both_correct": false,
+        "agreement": "at_least_one_unanswered",
+        "valid_answer_rate": 0.0,
+        "valid_format_rate": 0.0,
+        "unanswered_rate": 1.0,
+        "abstain_rate": 0.0,
+        "format_failure_rate": 1.0
+      },
+      "source_sha256": "148e544df97f5288a8fbe6f0d1847598371f023262528bbe62837fb45a248f0f",
+      "representation_links": [],
+      "error": null,
+      "wire_totals": {
+        "cpu_process_ns": 0,
+        "dl_uses": 0,
+        "logical_slots": 4,
+        "payload_offered_bytes": 422,
+        "ul_uses": 0,
+        "wire_bytes": 0
+      },
+      "accounting": {
+        "http": {
+          "cleanup_get": 2,
+          "generation": 6,
+          "get": 19,
+          "lifecycle_get": 0,
+          "render": 6,
+          "unload": 1
+        },
+        "observed_input": 19574,
+        "observed_output": 495,
+        "reserved_input": 19574,
+        "reserved_output": 3072,
+        "reserved_requests": 6,
+        "scope": "task_real: exact deployed qwen usage and actual task HTTP",
+        "unknown_usage": 0
+      }
+    },
+    {
+      "id": "f4-No-A2A",
+      "family": "f183c55b84c30ba5d0c450ba1d1f21a6d53dc154a815ddc41185c8d7d527a660",
+      "condition": "No-A2A",
+      "score": {
+        "started": true,
+        "completed": true,
+        "scores": {
+          "Alice": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          },
+          "Bob": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          }
+        },
+        "mean_F1": 0.0,
+        "mean_EM": 0.0,
+        "joint": "00",
+        "both_correct": false,
+        "agreement": "at_least_one_unanswered",
+        "valid_answer_rate": 0.0,
+        "valid_format_rate": 0.0,
+        "unanswered_rate": 1.0,
+        "abstain_rate": 0.0,
+        "format_failure_rate": 1.0
+      },
+      "source_sha256": "0c12f1ca29da99d8484675ef874d56dce0fb1a98e3924e7327460bef8ea2e201",
+      "representation_links": [],
+      "error": null,
+      "wire_totals": {
+        "cpu_process_ns": 0,
+        "dl_uses": 0,
+        "logical_slots": 8,
+        "payload_offered_bytes": 950,
+        "ul_uses": 0,
+        "wire_bytes": 0
+      },
+      "accounting": {
+        "http": {
+          "cleanup_get": 2,
+          "generation": 6,
+          "get": 19,
+          "lifecycle_get": 0,
+          "render": 6,
+          "unload": 1
+        },
+        "observed_input": 14788,
+        "observed_output": 403,
+        "reserved_input": 14788,
+        "reserved_output": 3072,
+        "reserved_requests": 6,
+        "scope": "task_real: exact deployed qwen usage and actual task HTTP",
+        "unknown_usage": 0
+      }
+    },
+    {
+      "id": "f4-Full",
+      "family": "f183c55b84c30ba5d0c450ba1d1f21a6d53dc154a815ddc41185c8d7d527a660",
+      "condition": "Full",
+      "score": {
+        "started": true,
+        "completed": true,
+        "scores": {
+          "Alice": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          },
+          "Bob": {
+            "F1": 0.0,
+            "EM": 0,
+            "valid_format": false,
+            "valid_answer": false,
+            "abstain": false,
+            "reason": "invalid_final"
+          }
+        },
+        "mean_F1": 0.0,
+        "mean_EM": 0.0,
+        "joint": "00",
+        "both_correct": false,
+        "agreement": "at_least_one_unanswered",
+        "valid_answer_rate": 0.0,
+        "valid_format_rate": 0.0,
+        "unanswered_rate": 1.0,
+        "abstain_rate": 0.0,
+        "format_failure_rate": 1.0
+      },
+      "source_sha256": "e42360171fd34fa6a99d5b2a0f0dcb0eb4997c50edeaa37e6ce7bdad499ad3b7",
+      "representation_links": [
+        {
+          "turn": 0,
+          "receiver": "Bob",
+          "payload_sha256": "2b37f3e82384ff6a6cc95d499e16a529eefde314bb0bd20bf1253fc642df2128",
+          "next_request_sha256": "8962a98fe82af57dea5244ca581611af6fa070529e89f004bca868aab483b97a",
+          "final_request_sha256": "6888ad4a9b2b0bb600d6f2489276f7d0e1b6995c790ca1248518510b17484bb4",
+          "final_cites_source": false
+        },
+        {
+          "turn": 2,
+          "receiver": "Bob",
+          "payload_sha256": "a7ae45240ec63a4d9a59d2cdcdd21c190d4ea74cff99b44a619e9c00a17d3aa1",
+          "next_request_sha256": "9015f71f9613b469263fd6533cf9db55ce1eebb1602644cca977150d824e6dcf",
+          "final_request_sha256": "6888ad4a9b2b0bb600d6f2489276f7d0e1b6995c790ca1248518510b17484bb4",
+          "final_cites_source": false
+        }
+      ],
+      "error": null,
+      "wire_totals": {
+        "cpu_process_ns": 1882603,
+        "dl_uses": 3722,
+        "logical_slots": 264,
+        "payload_offered_bytes": 405,
+        "ul_uses": 3722,
+        "wire_bytes": 3722
+      },
+      "accounting": {
+        "http": {
+          "cleanup_get": 2,
+          "generation": 6,
+          "get": 19,
+          "lifecycle_get": 0,
+          "render": 6,
+          "unload": 1
+        },
+        "observed_input": 15113,
+        "observed_output": 383,
+        "reserved_input": 15113,
+        "reserved_output": 3072,
+        "reserved_requests": 6,
+        "scope": "task_real: exact deployed qwen usage and actual task HTTP",
+        "unknown_usage": 0
+      }
+    }
+  ],
+  "infra": {
+    "independent_audit_passed": true,
+    "all_outputs_mirrored": true,
+    "deadline_met": true
+  }
+}

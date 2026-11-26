@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-t3rv2i-task-live-final-20261126",
+  "user_reply": "批准",
+  "scope": "single execution, independent audit, complete return",
+  "candidate_sha256": "84e7a1fe3fa3484ca11d770d1a2dd4a0612bfd9099064fd0c51ae99a5af4ec61",
+  "actual_sha256": "18fcf092ce99b6ddd5e41d27490a5c1882738a8d68a372edf546c46979c413a2",
+  "base": "4a7ab227a3051013ce808f6e0407541bdaaa8f7c",
+  "recorded_at": "2026-11-26T17:32:55.609185+08:00",
+  "only_field_changed": "approved"
+}

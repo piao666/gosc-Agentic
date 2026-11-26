@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "runtime_bound": true,
+  "resource_monitor_passed": true,
+  "rollback_verified": true,
+  "ledger_started_utc": 1795685647.042346,
+  "task_requests": 48,
+  "hdd_bytes": 10767382,
+  "inventory_sha256": "1658d71d4f74ddf770922288718474cbc98c809723d2ee349456d53ebdbd2e8f",
+  "run_id": "hpc-t3rv2i-task-live-final-20261126",
+  "audit_seconds": 0.48416394740343094
+}

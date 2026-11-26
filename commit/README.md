@@ -12,6 +12,8 @@
 
 ## 索引（最新在前）
 
+- [2026-11-26 / 03：T3-R-v2-T 最终准入、真实诊断与失败归因归档](2026-11-26-03-masbench-t3rv2t-final-diagnosis.md)
+
 - [2026-11-26 / 02：T3-R-v2-T 任务 Profile 与无模型验收归档](2026-11-26-02-masbench-t3rv2t-task-profile.md)
 
 - [2026-11-26 / 01：公平终答实现、部署与事后证据闭环归档](2026-11-26-01-fair-final-implementation-deployment-and-evidence.md)

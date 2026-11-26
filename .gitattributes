@@ -157,3 +157,9 @@
 /research/sync/runs/hpc-t3rv2i-task-contract-20261126/stdout.log -text
 /experiments_ext/masbench_t3rv2t_audit.py whitespace=-blank-at-eof
 /research/logs/masbench-t3rv2t-2026-11-26/collect_evidence.py whitespace=-blank-at-eof
+
+# Keep SHA-bound final T3-R-v2-T archive and recorded offline script bytes.
+/research/artifacts/masbench-t3rv2t-final-20261126/*.json -text
+/research/protocols/masbench_t3rv2t_authorization_2026-11-26.json -text
+/research/logs/masbench-t3rv2t-final-admission-2026-11-26/offline_score.py -text whitespace=cr-at-eol
+/research/logs/masbench-t3rv2t-final-attribution-2026-11-26/audit_final_attribution.py -text whitespace=cr-at-eol

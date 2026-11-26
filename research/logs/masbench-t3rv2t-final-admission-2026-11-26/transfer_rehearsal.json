@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "files": 19,
+  "bytes": 1914048,
+  "archive_bytes": 1955840,
+  "archive_sha256": "ec5d907379aec82ead3299050c2265fc717b5538d12b38be7b584a6c7fc3df4d",
+  "stream_and_restore_seconds": 1.2029999999940628,
+  "scope": "two offline registered runs; same stream and SHA restore; no live ACK or full-volume timing"
+}

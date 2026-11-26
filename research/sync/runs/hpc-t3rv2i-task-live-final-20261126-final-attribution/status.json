@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-t3rv2i-task-live-final-20261126-final-attribution",
+  "status": "completed",
+  "started_at": "2026-11-26T09:52:36.525312+00:00",
+  "finished_at": "2026-11-26T09:52:36.624166+00:00",
+  "exit_code": 0,
+  "pid": 1868,
+  "elapsed_seconds": 0.09888,
+  "resource_usage": {
+    "child_max_rss_kib": 25708,
+    "child_cpu_user_seconds": 0.17304799999999998,
+    "child_cpu_system_seconds": 0.220655,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

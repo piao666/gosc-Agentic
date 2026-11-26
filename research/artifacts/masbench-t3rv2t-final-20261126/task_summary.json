@@ -1,0 +1,53 @@
+{
+  "completed": {
+    "passed": true,
+    "errors": []
+  },
+  "execution_and_rollback_passed": true,
+  "episode_ids": [
+    "f1-Full",
+    "f1-No-A2A",
+    "f2-No-A2A",
+    "f2-Full",
+    "f3-Full",
+    "f3-No-A2A",
+    "f4-No-A2A",
+    "f4-Full"
+  ],
+  "error": null,
+  "restored": {
+    "root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "helper": "/tmp/gosc-hpc-masbench-context-build-v3-20261116/context-counter",
+    "service_pid": 1245,
+    "service_stamp": "4977443721",
+    "binary_sha": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+    "context": 1024,
+    "model": "qwen2.5:7b"
+  },
+  "http": {
+    "generation": 48,
+    "render": 48,
+    "get": 152,
+    "cleanup_get": 16,
+    "unload": 8,
+    "lifecycle_get": 10
+  },
+  "operations": {
+    "counter": 48,
+    "precount": 8,
+    "start": 2,
+    "stop": 2
+  },
+  "history_link": "314f853404d1e0b5c60f80583c9c134e58ba7dfa7dab5df3a0ab580cebd1f79c",
+  "task_count": 48,
+  "synthetic_generations": 0,
+  "monitor": {
+    "peaks": {
+      "driver_rss": 123908096,
+      "service_rss": 5401538560,
+      "gpu_bytes": 6767509504
+    },
+    "samples": 5330,
+    "max_active_gap": 0.293039433658123
+  }
+}

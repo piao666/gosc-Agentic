@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-t3rv2i-task-live-final-20261126-offline-score",
+  "status": "completed",
+  "started_at": "2026-11-26T09:45:16.644549+00:00",
+  "finished_at": "2026-11-26T09:45:16.815200+00:00",
+  "exit_code": 0,
+  "pid": 1409,
+  "elapsed_seconds": 0.170678,
+  "resource_usage": {
+    "child_max_rss_kib": 32576,
+    "child_cpu_user_seconds": 0.25136,
+    "child_cpu_system_seconds": 0.208058,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

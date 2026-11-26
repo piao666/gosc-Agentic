@@ -1,0 +1,12 @@
+{
+  "all_outputs_mirrored": true,
+  "archive_sha256": "249d8113d07ebf679520b49649bd7eeb06a298b8eb9ddf5ce965885aaa6f9719",
+  "bytes": 12795849,
+  "deadline_met": true,
+  "elapsed_since_registered_start_seconds": 649.002721786499,
+  "files": 616,
+  "independent_audit_passed": true,
+  "ledger_sha256": "f8cc4b71c7ff51715c9f3d2ee5c0dceccfe22733a29b5f7140332f008b9acb56",
+  "live_inventory_sha256": "1658d71d4f74ddf770922288718474cbc98c809723d2ee349456d53ebdbd2e8f",
+  "run_id": "hpc-t3rv2i-task-live-final-20261126"
+}

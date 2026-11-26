@@ -47,6 +47,12 @@ MATERIAL_FILES=(
     'extensions/masbench_reasoning/wire.py',
     'experiments_ext/masbench_t3rv2_live_probe.py',
     'experiments_ext/masbench_t3rv2t_task.py',
+    'experiments_ext/masbench_t3rv2t_admission.py',
+    'experiments_ext/masbench_t3rv2t_admission_paths.py',
+    'experiments_ext/masbench_t3rv2t_live_audit.py',
+    'experiments_ext/masbench_t3rv2t_closeout.py',
+    'experiments_ext/masbench_t3rv2i_register.py',
+    'scripts/hpc_runs.py',
     'research/protocols/masbench_t3rv2t_plan_2026-11-26.json')
 
 
@@ -205,22 +211,77 @@ def engineering_complete(plan,results,ledger,*,require_real):
     return dict(passed=not errors,errors=sorted(set(errors)))
 
 
-def scientific_gate(plan,results,ledger,paired,l2_verified_families,*,infrastructure=None):
-    engineering=engineering_complete(plan,results,ledger,require_real=True)
-    positive=[p for p in paired.get('pairs',[]) if p.get('delta') is not None and p['delta']>0 and p['valid_both_conditions']]
-    full=paired.get('conditions',{}).get('Full',{})
-    delivered={r['id'] for r in results if any(m.get('delivered') for m in r.get('messages',[]))}
-    reviewed=set(l2_verified_families)
-    required=('runtime_bound','resource_monitor_passed','rollback_verified','independent_audit_passed','all_outputs_mirrored','deadline_met')
-    infra_pass=all((infrastructure or {}).get(k) is True for k in required)
-    eligible=(engineering['passed'] and infra_pass and paired.get('complete_pairs') is True and paired.get('N_families')==4
-              and full.get('both_correct_families',0)>=2 and (paired.get('Delta_F1') or 0)>=.10
-              and len(positive)>=2 and bool(reviewed) and reviewed<={r['family'] for r in plan}
-              and bool(delivered))
-    return dict(passed=bool(eligible),engineering=engineering,
-                infrastructure_passed=infra_pass,
-                L2='external independent evidence review required; E self-report is insufficient',
+def evidence_links(episode):
+    """Bind a delivered peer message to the next request and the recipient's final."""
+    from .fair_final_v2 import canonical as app_json, sha
+
+    slots = {slot['turn']: slot for slot in episode.get('slots', [])}
+    links = []
+    for delivery in episode.get('messages', []):
+        source = delivery.get('source', {})
+        turn = source.get('turn')
+        if delivery.get('delivered') is not True or type(turn) is not int or turn not in range(4):
+            continue
+        sender = 'Alice' if turn % 2 == 0 else 'Bob'
+        receiver = 'Bob' if sender == 'Alice' else 'Alice'
+        sent, received, final = (slots.get(n, {}) for n in (turn, turn + 1, 5 if receiver == 'Bob' else 4))
+        text = sent.get('parsed', {}).get('text')
+        if not isinstance(text, str) or not sent.get('parsed', {}).get('valid_format'):
+            continue
+        body = delivery.get('body')
+        if body not in (text.encode(), {'utf8_or_wire_hex': text.encode().hex()}):
+            continue
+        if (source.get('sender') != sender or source.get('payload_sha256') != sha(text)
+                or source.get('request_sha256') != sent.get('request_sha256')
+                or source.get('response_sha256') != sent.get('client_audit', {}).get('response_sha256')):
+            continue
+        peer = {'role': 'user', 'content': app_json(dict(kind='PEER_MESSAGE', sender=sender, turn=f't{turn}', text=text))}
+        if any(slot.get('speaker') != receiver or slot.get('status') != 'returned'
+               or peer not in slot.get('request', [])
+               or slot.get('request_sha256') != sha(app_json(slot['request'])) for slot in (received, final)):
+            continue
+        answer = episode.get('finals', {}).get(receiver, {})
+        links.append(dict(turn=turn, receiver=receiver, payload_sha256=sha(text),
+                          next_request_sha256=received['request_sha256'], final_request_sha256=final['request_sha256'],
+                          final_cites_source=answer.get('valid_answer') is True and f't{turn}' in answer.get('provenance', [])))
+    return links
+
+
+def scientific_gate(plan, results, ledger, paired, l2_reviews, *, infrastructure=None):
+    engineering = engineering_complete(plan, results, ledger, require_real=True)
+    planned = {row['family'] for row in plan}
+    pairs = paired.get('pairs', [])
+    pair_families = [pair.get('family') for pair in pairs]
+    unique_pairs = len(pair_families) == len(planned) and set(pair_families) == planned
+    positive = {pair['family'] for pair in pairs if pair.get('family') in planned
+                and pair.get('delta') is not None and pair['delta'] > 0
+                and pair.get('valid_both_conditions') is True}
+    full = paired.get('conditions', {}).get('Full', {})
+    by_id = {row['id']: row for row in results}
+    linked = set()
+    for row in plan:
+        family, episode_id = row['family'], row['id']
+        if row['condition'] != 'Full' or family not in positive or episode_id not in by_id:
+            continue
+        for link in evidence_links(by_id[episode_id]):
+            if not link['final_cites_source']:
+                continue
+            for review in l2_reviews:
+                if (isinstance(review, dict) and review.get('family') == family
+                        and review.get('episode_id') == episode_id and review.get('supports_final') is True
+                        and isinstance(review.get('rationale'), str) and review['rationale'].strip()
+                        and all(review.get(key) == value for key, value in link.items() if key != 'final_cites_source')):
+                    linked.add(family)
+    required = ('runtime_bound', 'resource_monitor_passed', 'rollback_verified',
+                'independent_audit_passed', 'all_outputs_mirrored', 'deadline_met')
+    infra_pass = all((infrastructure or {}).get(key) is True for key in required)
+    eligible = (engineering['passed'] and infra_pass and unique_pairs and paired.get('complete_pairs') is True
+                and paired.get('N_families') == 4 and full.get('both_correct_families', 0) >= 2
+                and (paired.get('Delta_F1') or 0) >= .10 and len(positive) >= 2 and bool(linked))
+    return dict(passed=bool(eligible), engineering=engineering, infrastructure_passed=infra_pass,
+                positive_valid_families=sorted(positive), positive_families_with_linked_L1_L2=sorted(linked),
                 independent_confirmation=False)
+
 
 # Bounded RPC/worker is an authorization-specialized copy of the already tested
 # probe I/O, retaining its process/size/timeout implementation unchanged. Its

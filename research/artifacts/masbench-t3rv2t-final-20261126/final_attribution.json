@@ -1,0 +1,597 @@
+{
+  "run_id": "hpc-t3rv2i-task-live-final-20261126-final-attribution",
+  "reviewed_run": "hpc-t3rv2i-task-live-final-20261126",
+  "source_receipt_sha256": "487aaa0bfec874b170f6ad8cdb496d8cd7b488d9b533524542c7ddc7ec5b6774",
+  "official_score_sha256": "33fa41f8cadce06d5625b9df10f8556413cd030e5d3f6db9016e3fed84bac263",
+  "script_sha256": "c53fd79b4df0abe4ab985cf0fd88ca11b15a2f874b34683d844f21e17fb2922d",
+  "parser_sha256": "e4b87f56938f31a19a09a880de01fd6fc9c1a7274f52ff8f2423bc902a719e39",
+  "model_calls": 0,
+  "client_slots_crosschecked": 31,
+  "counts": {
+    "reason": {
+      "invalid_final": 15,
+      "abstain": 1
+    },
+    "detail": {
+      "invalid_provenance": 15,
+      "none": 1
+    },
+    "explicit_block": {
+      "A": 14,
+      "U": 2
+    },
+    "declared_self": 14,
+    "declared_unreceived": 14,
+    "comma_space": 12,
+    "comma_space_only_pass": 1
+  },
+  "exact_same_final_across_conditions": [
+    "f2/Alice",
+    "f3/Alice",
+    "f4/Alice"
+  ],
+  "exchange_counts": {
+    "Full": {
+      "message": 8,
+      "invalid_exchange": 8
+    },
+    "No-A2A": {
+      "message": 14,
+      "invalid_exchange": 2
+    }
+  },
+  "official_metrics": {
+    "Delta_F1": 0.0,
+    "scientific_continue_gate": false
+  },
+  "terminals": [
+    {
+      "episode": "f1-Full",
+      "condition": "Full",
+      "role": "Alice",
+      "turn": 4,
+      "raw_sha256": "c7af7d7379c46547bf3ebabb9cb7ad4a62a74c0719fd66f1669ee8f7bb5cce51",
+      "response_sha256": "023286d0297a677d1c5ba029f809dbe0481209161c0f102f0c81aa57acd0aa3a",
+      "request_sha256": "083449ccbdfd700f443817e3a884235f4bf518b6a94825b7eaa0bb715c8eaa4d",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [
+        "t1"
+      ],
+      "declared": [
+        "t1",
+        "t2"
+      ],
+      "declared_self": [
+        "t2"
+      ],
+      "declared_unreceived": [
+        "t2"
+      ],
+      "comma_space": true,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f1-Full",
+      "condition": "Full",
+      "role": "Bob",
+      "turn": 5,
+      "raw_sha256": "1e3667ba6dac10d9abad3134c0841d3af14b31a6c9a682bd323ac961d68d55aa",
+      "response_sha256": "1f05ee18e87c5b33b6dd44ffeffd6c94958644f1f499659267a30c2a08834b3b",
+      "request_sha256": "930601ac0e8612c0932f0e7a1bec2bacccde00e1f979051175560ea627202282",
+      "reason": "abstain",
+      "detail": null,
+      "explicit_block": "U",
+      "received": [
+        "t0"
+      ],
+      "declared": [],
+      "declared_self": [],
+      "declared_unreceived": [],
+      "comma_space": false,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f1-No-A2A",
+      "condition": "No-A2A",
+      "role": "Alice",
+      "turn": 4,
+      "raw_sha256": "4af35a1ef2e61cabdec0059f7e6e774967b664e6ab6de26777d5c942d63413f0",
+      "response_sha256": "ab17412f81054392a1c46a60388665595f0009e3c4d96acc1f845a4d5614804e",
+      "request_sha256": "1641d09f1dceed7f2f23ec42d61b4009c486d2c9c0ab307a80bd3916da0052f7",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "U",
+      "received": [],
+      "declared": [
+        "t0",
+        "t2"
+      ],
+      "declared_self": [
+        "t0",
+        "t2"
+      ],
+      "declared_unreceived": [
+        "t0",
+        "t2"
+      ],
+      "comma_space": true,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f1-No-A2A",
+      "condition": "No-A2A",
+      "role": "Bob",
+      "turn": 5,
+      "raw_sha256": "e3f27a18f0f08ced58d967d93cf36a8fb81f0353830976adaddbd088ef40c297",
+      "response_sha256": "3fb12dbf60fc21980d69ad63243b77a93370ee482f7fd461787c5bc0e1fb155a",
+      "request_sha256": "a75e9ef4a47a192fb2988a41f59fecfb837025fd978cccc799d312dffa6e2b40",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [],
+      "declared": [
+        "t1",
+        "t3"
+      ],
+      "declared_self": [
+        "t1",
+        "t3"
+      ],
+      "declared_unreceived": [
+        "t1",
+        "t3"
+      ],
+      "comma_space": true,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f2-Full",
+      "condition": "Full",
+      "role": "Alice",
+      "turn": 4,
+      "raw_sha256": "6ca8a7fd1b7c6a045ad12146452d2d0106cf0b1d0cdf1c18c42e88d8169f474f",
+      "response_sha256": "37025bd2f198e41465921b9c04d5035475a01c251a49abde23df64eaf23c7fc7",
+      "request_sha256": "ccbcd89886dba85636fa971098d5d79c3d3ab70e4414914eff07e435cf465613",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [],
+      "declared": [
+        "t0",
+        "t2"
+      ],
+      "declared_self": [
+        "t0",
+        "t2"
+      ],
+      "declared_unreceived": [
+        "t0",
+        "t2"
+      ],
+      "comma_space": true,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f2-Full",
+      "condition": "Full",
+      "role": "Bob",
+      "turn": 5,
+      "raw_sha256": "e487c48b09cfa8cb0927ab866687dbe68075f080c8d080c8bbb26e75591fc949",
+      "response_sha256": "fe51a5bcc23472858c1975d45547f134fe203f000dfcb77add3d1577af25fb84",
+      "request_sha256": "3547f234581d212cc1134041ef1c8fc391cca56489f7be2d6039a288caac6448",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [
+        "t0",
+        "t2"
+      ],
+      "declared": [
+        "t0",
+        "t1",
+        "t2"
+      ],
+      "declared_self": [
+        "t1"
+      ],
+      "declared_unreceived": [
+        "t1"
+      ],
+      "comma_space": true,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f2-No-A2A",
+      "condition": "No-A2A",
+      "role": "Alice",
+      "turn": 4,
+      "raw_sha256": "6ca8a7fd1b7c6a045ad12146452d2d0106cf0b1d0cdf1c18c42e88d8169f474f",
+      "response_sha256": "d525f2de2b7f6a54b938f13f648caa24d97bc4c11784cfb09d78f7a1eceebadb",
+      "request_sha256": "ccbcd89886dba85636fa971098d5d79c3d3ab70e4414914eff07e435cf465613",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [],
+      "declared": [
+        "t0",
+        "t2"
+      ],
+      "declared_self": [
+        "t0",
+        "t2"
+      ],
+      "declared_unreceived": [
+        "t0",
+        "t2"
+      ],
+      "comma_space": true,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f2-No-A2A",
+      "condition": "No-A2A",
+      "role": "Bob",
+      "turn": 5,
+      "raw_sha256": "8b65e2e2f7cc51e0d37210ef0f8ade90d072b416634c96a226d0660ea81bc82c",
+      "response_sha256": "8e9fde21968506be78a93ffb1cf7c859298c17a41940c8f551e1c21a3a7b66b6",
+      "request_sha256": "32dfb18624d121c110c442846541f756d4a9f3d43e8d5e8bf6aaa14d3745e9af",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [],
+      "declared": [
+        "t1",
+        "t3"
+      ],
+      "declared_self": [
+        "t1",
+        "t3"
+      ],
+      "declared_unreceived": [
+        "t1",
+        "t3"
+      ],
+      "comma_space": true,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f3-Full",
+      "condition": "Full",
+      "role": "Alice",
+      "turn": 4,
+      "raw_sha256": "73c42e99f75f3bd6c9df643f2010996f9ad34e88142b3857b847d9ba8be571af",
+      "response_sha256": "6b32c639e93c841e55ef5c7e0ca78c2dbf2f4f3e57cfbc96807e9f504ff05a30",
+      "request_sha256": "8e9d13eddb2ae274e5e8d79c74ea74c267d5c713a5cfc01d10b3549139ca2d0f",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [],
+      "declared": [
+        "t0",
+        "t2"
+      ],
+      "declared_self": [
+        "t0",
+        "t2"
+      ],
+      "declared_unreceived": [
+        "t0",
+        "t2"
+      ],
+      "comma_space": true,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f3-Full",
+      "condition": "Full",
+      "role": "Bob",
+      "turn": 5,
+      "raw_sha256": "b3ac4becf7a5f7070761459412f17a87326e293112157f37e8ec8b8a57196114",
+      "response_sha256": "29e5c3361a211abc72beb5a61a7c2d538f7cef92f64fe4e47026cfb5c40602a1",
+      "request_sha256": "7501f621ef9cf4cebc6a5e11c7cfcf38512aed173604f8452d65a9c256c939de",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [
+        "t0",
+        "t2"
+      ],
+      "declared": [
+        "t0",
+        "t2",
+        "t3"
+      ],
+      "declared_self": [
+        "t3"
+      ],
+      "declared_unreceived": [
+        "t3"
+      ],
+      "comma_space": false,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f3-No-A2A",
+      "condition": "No-A2A",
+      "role": "Alice",
+      "turn": 4,
+      "raw_sha256": "73c42e99f75f3bd6c9df643f2010996f9ad34e88142b3857b847d9ba8be571af",
+      "response_sha256": "6f746b9ee188c4bf3a896f18627f9cbb816264bfeb7a6d8d3aedf8a69b03e08e",
+      "request_sha256": "8e9d13eddb2ae274e5e8d79c74ea74c267d5c713a5cfc01d10b3549139ca2d0f",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [],
+      "declared": [
+        "t0",
+        "t2"
+      ],
+      "declared_self": [
+        "t0",
+        "t2"
+      ],
+      "declared_unreceived": [
+        "t0",
+        "t2"
+      ],
+      "comma_space": true,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f3-No-A2A",
+      "condition": "No-A2A",
+      "role": "Bob",
+      "turn": 5,
+      "raw_sha256": "efc57c906594281d745c48af6702e65adfcf49b2d4e0f5fd40f2ef8636ed566e",
+      "response_sha256": "eee34066aac613362d67354e6c9dc70a63ee66ac7a62d32071294698b8f2e41d",
+      "request_sha256": "34fb733085e07d4c0bca8ca144e87ed96f02cdb56fe7aa610e8cc889af7027f5",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [],
+      "declared": [
+        "t1",
+        "t3"
+      ],
+      "declared_self": [
+        "t1",
+        "t3"
+      ],
+      "declared_unreceived": [
+        "t1",
+        "t3"
+      ],
+      "comma_space": false,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f4-Full",
+      "condition": "Full",
+      "role": "Alice",
+      "turn": 4,
+      "raw_sha256": "10be8a28ea328cad7ddf4e534911187668a4cd2bd7305dd07f8d07e87d3b51d4",
+      "response_sha256": "d8d4a8a7438e15223d3b5f794f06123dbc48a0ea63b68fb0847f8c25dd112352",
+      "request_sha256": "090073776e6d61c89bcf29912b98be6eac72e02f2304d3bf7d503c7528a6e5e5",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [],
+      "declared": [
+        "t0",
+        "t2"
+      ],
+      "declared_self": [
+        "t0",
+        "t2"
+      ],
+      "declared_unreceived": [
+        "t0",
+        "t2"
+      ],
+      "comma_space": true,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f4-Full",
+      "condition": "Full",
+      "role": "Bob",
+      "turn": 5,
+      "raw_sha256": "54fa517f4d80b0967ad02563bf122f6f3566c66ae1ffda77e34888c261fee8de",
+      "response_sha256": "084a0cbf9c0b5e7b4e2f9030ef58e83ddfd2d41e8fc3edc7b9f93edafd472a28",
+      "request_sha256": "6888ad4a9b2b0bb600d6f2489276f7d0e1b6995c790ca1248518510b17484bb4",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [
+        "t0",
+        "t2"
+      ],
+      "declared": [
+        "t0",
+        "t2"
+      ],
+      "declared_self": [],
+      "declared_unreceived": [],
+      "comma_space": true,
+      "comma_space_only_pass": true
+    },
+    {
+      "episode": "f4-No-A2A",
+      "condition": "No-A2A",
+      "role": "Alice",
+      "turn": 4,
+      "raw_sha256": "10be8a28ea328cad7ddf4e534911187668a4cd2bd7305dd07f8d07e87d3b51d4",
+      "response_sha256": "f32f1af1420d249150fc1250a676fd31aa82b7be2b403f5e6d0dcadf204793eb",
+      "request_sha256": "090073776e6d61c89bcf29912b98be6eac72e02f2304d3bf7d503c7528a6e5e5",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [],
+      "declared": [
+        "t0",
+        "t2"
+      ],
+      "declared_self": [
+        "t0",
+        "t2"
+      ],
+      "declared_unreceived": [
+        "t0",
+        "t2"
+      ],
+      "comma_space": true,
+      "comma_space_only_pass": false
+    },
+    {
+      "episode": "f4-No-A2A",
+      "condition": "No-A2A",
+      "role": "Bob",
+      "turn": 5,
+      "raw_sha256": "5d70fb6ce8f53d5a5860e538dd9e066ef6c705f64010900ce6fd2e3f18a41b06",
+      "response_sha256": "0baf229d365a9d88dcffa8687062b974bad3bde57d0d3ee426d4261124c5a131",
+      "request_sha256": "5e9dd97700a9ddf3c6ebac0ff5c1e51856a9236305b90fd830ce1e3f27233cdb",
+      "reason": "invalid_final",
+      "detail": "invalid_provenance",
+      "explicit_block": "A",
+      "received": [],
+      "declared": [
+        "t1",
+        "t3"
+      ],
+      "declared_self": [
+        "t1",
+        "t3"
+      ],
+      "declared_unreceived": [
+        "t1",
+        "t3"
+      ],
+      "comma_space": false,
+      "comma_space_only_pass": false
+    }
+  ],
+  "l1": [
+    {
+      "episode": "f1-Full",
+      "sender": "Alice",
+      "receiver": "Bob",
+      "turn": 0,
+      "next_turn": 1,
+      "final_turn": 5,
+      "payload_sha256": "0eda57941c65c6b316bfb80c7e1bf9303775a6b5eacb2aea7f4e5a1b68e6f1d9",
+      "next_request_sha256": "c4e2995610293451c31f874527e204dac03e420b2aec34493f52913b5f314a00",
+      "final_request_sha256": "930601ac0e8612c0932f0e7a1bec2bacccde00e1f979051175560ea627202282",
+      "next_reply_sha256": "7a4a026163dc7890211fd2a96f800d2f585bf3f069cd49db06c47568e3aa614c",
+      "next_reply_reason": "message",
+      "final_raw_sha256": "1e3667ba6dac10d9abad3134c0841d3af14b31a6c9a682bd323ac961d68d55aa",
+      "final_cites_source": false
+    },
+    {
+      "episode": "f1-Full",
+      "sender": "Bob",
+      "receiver": "Alice",
+      "turn": 1,
+      "next_turn": 2,
+      "final_turn": 4,
+      "payload_sha256": "7a4a026163dc7890211fd2a96f800d2f585bf3f069cd49db06c47568e3aa614c",
+      "next_request_sha256": "b206d8b369b510281dad5bbb65e1015b50f109336f842cca522321c11a62c35c",
+      "final_request_sha256": "083449ccbdfd700f443817e3a884235f4bf518b6a94825b7eaa0bb715c8eaa4d",
+      "next_reply_sha256": "eb4c62964a96e1974af33cceab207e64d4c18f5019ac1b587f85301bffa0ef88",
+      "next_reply_reason": "invalid_exchange",
+      "final_raw_sha256": "c7af7d7379c46547bf3ebabb9cb7ad4a62a74c0719fd66f1669ee8f7bb5cce51",
+      "final_cites_source": false
+    },
+    {
+      "episode": "f2-Full",
+      "sender": "Alice",
+      "receiver": "Bob",
+      "turn": 0,
+      "next_turn": 1,
+      "final_turn": 5,
+      "payload_sha256": "ba60184a62962fc7176a192454b148aa4d23f6bad133f78aaa89f162b964453d",
+      "next_request_sha256": "01423c523710ce159f41acb5a735ee803eb1df9d8a9e3a2ef73d95983f6a567c",
+      "final_request_sha256": "3547f234581d212cc1134041ef1c8fc391cca56489f7be2d6039a288caac6448",
+      "next_reply_sha256": "f57639222f577ff985d3a006c944ec97700ff37820b6c9860b1d365c2458fcd9",
+      "next_reply_reason": "invalid_exchange",
+      "final_raw_sha256": "e487c48b09cfa8cb0927ab866687dbe68075f080c8d080c8bbb26e75591fc949",
+      "final_cites_source": false
+    },
+    {
+      "episode": "f2-Full",
+      "sender": "Alice",
+      "receiver": "Bob",
+      "turn": 2,
+      "next_turn": 3,
+      "final_turn": 5,
+      "payload_sha256": "82fc167bbbfe4346e896734f759e66882b08ad56a399e9e4dc1eb1671a3726c8",
+      "next_request_sha256": "809b9ec847fcf780a23111e8dce2325352bb1c07d7718878cf007b8e665d1ddb",
+      "final_request_sha256": "3547f234581d212cc1134041ef1c8fc391cca56489f7be2d6039a288caac6448",
+      "next_reply_sha256": "dd8d534e4fed92e0221882940c19895bca10925669adab1abdf3af28a2ffbd48",
+      "next_reply_reason": "invalid_exchange",
+      "final_raw_sha256": "e487c48b09cfa8cb0927ab866687dbe68075f080c8d080c8bbb26e75591fc949",
+      "final_cites_source": false
+    },
+    {
+      "episode": "f3-Full",
+      "sender": "Alice",
+      "receiver": "Bob",
+      "turn": 0,
+      "next_turn": 1,
+      "final_turn": 5,
+      "payload_sha256": "c1418e2304dfaf4a97bfc1b4e84ebeb98e732874902ea5d6f34b66d803d8616c",
+      "next_request_sha256": "95adb9aa0f1fce4df16d5f231ee1a28fe1998e620686a8c4dc34ef9dbeb6892f",
+      "final_request_sha256": "7501f621ef9cf4cebc6a5e11c7cfcf38512aed173604f8452d65a9c256c939de",
+      "next_reply_sha256": "15daa2a25c6e72f82023170db70ce5d464e7e79926beaf261ce46d370d461ac8",
+      "next_reply_reason": "invalid_exchange",
+      "final_raw_sha256": "b3ac4becf7a5f7070761459412f17a87326e293112157f37e8ec8b8a57196114",
+      "final_cites_source": false
+    },
+    {
+      "episode": "f3-Full",
+      "sender": "Alice",
+      "receiver": "Bob",
+      "turn": 2,
+      "next_turn": 3,
+      "final_turn": 5,
+      "payload_sha256": "ca82448708e820654695bf8e1332bc9544b1a8aaf4f37f889ee20c8b4dd549c7",
+      "next_request_sha256": "f44200cf5c94437091071c3b3b79c67a175a6cf87b3a590f04113dc1439efb1f",
+      "final_request_sha256": "7501f621ef9cf4cebc6a5e11c7cfcf38512aed173604f8452d65a9c256c939de",
+      "next_reply_sha256": "5929cf91d9da7278861596c3e8615385ce41ffe23744991f1c7fe8c2a4e78cb0",
+      "next_reply_reason": "invalid_exchange",
+      "final_raw_sha256": "b3ac4becf7a5f7070761459412f17a87326e293112157f37e8ec8b8a57196114",
+      "final_cites_source": false
+    },
+    {
+      "episode": "f4-Full",
+      "sender": "Alice",
+      "receiver": "Bob",
+      "turn": 0,
+      "next_turn": 1,
+      "final_turn": 5,
+      "payload_sha256": "2b37f3e82384ff6a6cc95d499e16a529eefde314bb0bd20bf1253fc642df2128",
+      "next_request_sha256": "8962a98fe82af57dea5244ca581611af6fa070529e89f004bca868aab483b97a",
+      "final_request_sha256": "6888ad4a9b2b0bb600d6f2489276f7d0e1b6995c790ca1248518510b17484bb4",
+      "next_reply_sha256": "2d94c79ad74df2346d11c84a88653dfec76e9d2c6d3154f441a55e2060379f99",
+      "next_reply_reason": "invalid_exchange",
+      "final_raw_sha256": "54fa517f4d80b0967ad02563bf122f6f3566c66ae1ffda77e34888c261fee8de",
+      "final_cites_source": false
+    },
+    {
+      "episode": "f4-Full",
+      "sender": "Alice",
+      "receiver": "Bob",
+      "turn": 2,
+      "next_turn": 3,
+      "final_turn": 5,
+      "payload_sha256": "a7ae45240ec63a4d9a59d2cdcdd21c190d4ea74cff99b44a619e9c00a17d3aa1",
+      "next_request_sha256": "9015f71f9613b469263fd6533cf9db55ce1eebb1602644cca977150d824e6dcf",
+      "final_request_sha256": "6888ad4a9b2b0bb600d6f2489276f7d0e1b6995c790ca1248518510b17484bb4",
+      "next_reply_sha256": "67ada0e716c1c9c05c94d2d3a8dca9c331bc1cf57f97cdc71c39cd8a7d5570f0",
+      "next_reply_reason": "invalid_exchange",
+      "final_raw_sha256": "54fa517f4d80b0967ad02563bf122f6f3566c66ae1ffda77e34888c261fee8de",
+      "final_cites_source": false
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # GOSC: Resource-Efficient Semantic Communication for Heterogeneous Agentic Teams
 
+**Nov26 final T3-R-v2-T diagnosis:** [Review package](research/artifacts/masbench-t3rv2t-final-20261126/README.md) includes the one-time 48-generation run, independently verified closeout, and offline attribution. Both conditions yielded zero valid answers across the four exposed development families. The scientific continuation gate remains No-Go.
+
 **Nov26 fair-final archive:** [Cloud review entry](research/reports/masbench_t3rv2_rounds_review_2026-11-26.md) integrates the independent six-slot implementation, model-free contracts, HDD storage recovery and two real synthetic service probes. Evidence/rollback passed in the tested scope; the long response failed format and the original continuous closeout deadline was missed. Task capability and T4 remain unapproved. [Commit note](commit/2026-11-26-01-fair-final-implementation-deployment-and-evidence.md)
 
 **Nov25 T3-R review:** [Research decision](research/reports/masbench_t3_research_decision_2026-11-25.md) and [audit attachments](research/logs/masbench-t3r-2026-11-25/README.md) complete the existing-evidence trace and failure review: 684 files verified, 16 episodes and 51 historical requests reconciled. T3 scientific No-Go is retained; the fair-final revision is a static candidate only. No new model call or experiment. [Commit note](commit/2026-11-25-02-masbench-t3r-evidence-and-decision-review.md)

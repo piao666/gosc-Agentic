@@ -1,0 +1,49 @@
+{
+  "run_id": "hpc-t3rv2i-task-live-final-20261126",
+  "facts": {
+    "episodes": 8,
+    "real_requests": 48,
+    "full_return_files": 616,
+    "full_return_bytes": 12795849,
+    "deadline_met": true,
+    "scientific_continue_gate": false
+  },
+  "evidence": {
+    ".local/hpc-runs/hpc-t3rv2i-task-live-final-20261126/first/receipt.json": {
+      "bytes": 515,
+      "sha256": "487aaa0bfec874b170f6ad8cdb496d8cd7b488d9b533524542c7ddc7ec5b6774"
+    },
+    ".local/hpc-runs/hpc-t3rv2i-task-live-final-20261126/first/mirror/run/manifest.json": {
+      "bytes": 18274,
+      "sha256": "14636b0d2b81420475a6ded352a12f060a78097901178fc1b02a4bbc55fc92c7"
+    },
+    ".local/hpc-runs/hpc-t3rv2i-task-live-final-20261126/first/mirror/run/status.json": {
+      "bytes": 543,
+      "sha256": "58b64f477d53673b5254dd4f85489582ef325844d672aaa8e5aa81eed31e79ed"
+    },
+    ".local/hpc-runs/hpc-t3rv2i-task-live-final-20261126/first/mirror/run/outputs/task_summary.json": {
+      "bytes": 1188,
+      "sha256": "a0f0b4ebf4bba0432a1f9e043612f95a80c82a03419040b06ae0a2dc89d12194"
+    },
+    ".local/hpc-runs/hpc-t3rv2i-task-live-final-20261126/first/mirror/audit/status.json": {
+      "bytes": 563,
+      "sha256": "40e788fd4f67bfbd96dca1629c3b86939b1bce5b003881357aa778c9248cd729"
+    },
+    ".local/hpc-runs/hpc-t3rv2i-task-live-final-20261126/first/mirror/audit/outputs/live_audit.json": {
+      "bytes": 382,
+      "sha256": "e150ccbc76bcec5dd90132a46c71a312df1ac3af7ad5b7543703185a9485c071"
+    },
+    ".local/hpc-runs/hpc-t3rv2i-task-live-final-20261126/first/mirror/hdd/authorization.json": {
+      "bytes": 5556,
+      "sha256": "18fcf092ce99b6ddd5e41d27490a5c1882738a8d68a372edf546c46979c413a2"
+    },
+    "research/sync/runs/hpc-t3rv2i-task-live-final-20261126-offline-score/outputs/offline_score.json": {
+      "bytes": 19956,
+      "sha256": "33fa41f8cadce06d5625b9df10f8556413cd030e5d3f6db9016e3fed84bac263"
+    },
+    "research/logs/masbench-t3rv2t-final-admission-2026-11-26/offline_score.py": {
+      "bytes": 5589,
+      "sha256": "6f775d0f6ed7cd467a4afc28d03169db4302c394a30ff73cf7d9b6ccb4f57223"
+    }
+  }
+}

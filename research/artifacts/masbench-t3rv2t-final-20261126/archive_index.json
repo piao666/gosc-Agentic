@@ -1,0 +1,181 @@
+{
+  "live_run": "hpc-t3rv2i-task-live-final-20261126",
+  "runs": {
+    "hpc-t3rv2i-task-live-final-20261126": {
+      "git_commit": "4a7ab227a3051013ce808f6e0407541bdaaa8f7c",
+      "source_sync_id": "20261126T093309Z",
+      "source_manifest_sha256": "e11d78e751fe937bcc7d44c8b493477dc562de06e6fc659863ea3b0e1919ba7f",
+      "execution_host": "n1",
+      "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+      "status": "completed",
+      "exit_code": 0,
+      "started_at": "2026-11-26T09:34:06.596205+00:00",
+      "finished_at": "2026-11-26T09:44:33.298657+00:00",
+      "elapsed_seconds": 626.70248,
+      "dirty": true,
+      "manifest_sha256": "14636b0d2b81420475a6ded352a12f060a78097901178fc1b02a4bbc55fc92c7",
+      "status_sha256": "58b64f477d53673b5254dd4f85489582ef325844d672aaa8e5aa81eed31e79ed"
+    },
+    "hpc-t3rv2i-task-live-final-20261126-audit": {
+      "git_commit": "4a7ab227a3051013ce808f6e0407541bdaaa8f7c",
+      "source_sync_id": "20261126T093309Z",
+      "source_manifest_sha256": "e11d78e751fe937bcc7d44c8b493477dc562de06e6fc659863ea3b0e1919ba7f",
+      "execution_host": "n1",
+      "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+      "status": "completed",
+      "exit_code": 0,
+      "started_at": "2026-11-26T09:44:33.851628+00:00",
+      "finished_at": "2026-11-26T09:44:34.399865+00:00",
+      "elapsed_seconds": 0.548274,
+      "dirty": true,
+      "manifest_sha256": "114332139e1dd51e223371f2fe46ba56009e6aa139d74c959fa6c62315d9560f",
+      "status_sha256": "40e788fd4f67bfbd96dca1629c3b86939b1bce5b003881357aa778c9248cd729"
+    },
+    "hpc-t3rv2i-task-final-contract-20261126": {
+      "git_commit": "4a7ab227a3051013ce808f6e0407541bdaaa8f7c",
+      "source_sync_id": "20261126T092125Z",
+      "source_manifest_sha256": "7e4d0514e771336a4c4b56ca2e4e32b6f3eee5d0458c18c7830f6ae8bc9cc730",
+      "execution_host": "n1",
+      "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+      "status": "completed",
+      "exit_code": 0,
+      "started_at": "2026-11-26T09:24:20.484208+00:00",
+      "finished_at": "2026-11-26T09:24:21.580948+00:00",
+      "elapsed_seconds": 1.096769,
+      "dirty": true,
+      "manifest_sha256": "8a9676ad545edc91ff853d0c22c8845c0633896be23c2576037d8d5ef288257d",
+      "status_sha256": "85d309af7bd40da1873a39e6eb9cefeafefd706380ba26f62d13e012de0d4bec"
+    },
+    "hpc-t3rv2i-task-admission-20261126": {
+      "git_commit": "4a7ab227a3051013ce808f6e0407541bdaaa8f7c",
+      "source_sync_id": "20261126T092125Z",
+      "source_manifest_sha256": "7e4d0514e771336a4c4b56ca2e4e32b6f3eee5d0458c18c7830f6ae8bc9cc730",
+      "execution_host": "n1",
+      "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+      "status": "completed",
+      "exit_code": 0,
+      "started_at": "2026-11-26T09:24:22.310143+00:00",
+      "finished_at": "2026-11-26T09:24:30.002868+00:00",
+      "elapsed_seconds": 7.692747,
+      "dirty": true,
+      "manifest_sha256": "275a209dad30c907ad80a69f5fdc7ae4e4fcaec8125fc3d3814f5fdf61363a94",
+      "status_sha256": "bfe17b5e7afebc63a36b4625356d59023519384a1aafa1088f8d414eba13bee6"
+    },
+    "hpc-t3rv2i-task-live-final-20261126-offline-score": {
+      "git_commit": "4a7ab227a3051013ce808f6e0407541bdaaa8f7c",
+      "source_sync_id": "20261126T093309Z",
+      "source_manifest_sha256": "e11d78e751fe937bcc7d44c8b493477dc562de06e6fc659863ea3b0e1919ba7f",
+      "execution_host": "n1",
+      "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+      "status": "completed",
+      "exit_code": 0,
+      "started_at": "2026-11-26T09:45:16.644549+00:00",
+      "finished_at": "2026-11-26T09:45:16.815200+00:00",
+      "elapsed_seconds": 0.170678,
+      "dirty": true,
+      "manifest_sha256": "67ba0423d025194f6c7c6d4c224657c2fee08ef314df096d8016fa161e2612cf",
+      "status_sha256": "3394a29e98453e66c5911876b1804550cd5fe51feed08ebb256ac283aa0f7697"
+    },
+    "hpc-t3rv2i-task-live-final-20261126-final-attribution": {
+      "git_commit": "4a7ab227a3051013ce808f6e0407541bdaaa8f7c",
+      "source_sync_id": "20261126T093309Z",
+      "source_manifest_sha256": "e11d78e751fe937bcc7d44c8b493477dc562de06e6fc659863ea3b0e1919ba7f",
+      "execution_host": "n1",
+      "runner_python_version": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+      "status": "completed",
+      "exit_code": 0,
+      "started_at": "2026-11-26T09:52:36.525312+00:00",
+      "finished_at": "2026-11-26T09:52:36.624166+00:00",
+      "elapsed_seconds": 0.09888,
+      "dirty": true,
+      "manifest_sha256": "b8e3d63fceb5543817c83aa4debb2e6b52c5d899cb1666e88a5c3f3126ebb033",
+      "status_sha256": "8e0ed06e69b7de278bfd91e0c285fe58dfdecd14c5931fb516e26e0dd33d6b34"
+    }
+  },
+  "files": {
+    "contract.json": {
+      "original": "research/sync/runs/hpc-t3rv2i-task-final-contract-20261126/outputs/contract.json",
+      "sha256": "bba78a6a3ae1acaddde46a8446bd3f2e35669da7dcdbbe8fb419788d2fb5eff3",
+      "bytes": 3076
+    },
+    "admission.json": {
+      "original": "research/sync/runs/hpc-t3rv2i-task-admission-20261126/outputs/admission.json",
+      "sha256": "68d2e5119483166df48bc8906049b781be3475d26ffef45ba36bdcf553bc1bae",
+      "bytes": 6303
+    },
+    "task_summary.json": {
+      "original": ".local/hpc-runs/hpc-t3rv2i-task-live-final-20261126/first/mirror/run/outputs/task_summary.json",
+      "sha256": "a0f0b4ebf4bba0432a1f9e043612f95a80c82a03419040b06ae0a2dc89d12194",
+      "bytes": 1188
+    },
+    "live_audit.json": {
+      "original": ".local/hpc-runs/hpc-t3rv2i-task-live-final-20261126/first/mirror/audit/outputs/live_audit.json",
+      "sha256": "e150ccbc76bcec5dd90132a46c71a312df1ac3af7ad5b7543703185a9485c071",
+      "bytes": 382
+    },
+    "live_receipt.json": {
+      "original": ".local/hpc-runs/hpc-t3rv2i-task-live-final-20261126/first/receipt.json",
+      "sha256": "487aaa0bfec874b170f6ad8cdb496d8cd7b488d9b533524542c7ddc7ec5b6774",
+      "bytes": 515
+    },
+    "offline_score.json": {
+      "original": "research/sync/runs/hpc-t3rv2i-task-live-final-20261126-offline-score/outputs/offline_score.json",
+      "sha256": "33fa41f8cadce06d5625b9df10f8556413cd030e5d3f6db9016e3fed84bac263",
+      "bytes": 19956
+    },
+    "final_attribution.json": {
+      "original": "research/sync/runs/hpc-t3rv2i-task-live-final-20261126-final-attribution/outputs/final_attribution.json",
+      "sha256": "dea4a3d7ef250ea81d5649032b059fdbd84a76626b814fd2f531902c5184ab21",
+      "bytes": 18861
+    }
+  },
+  "live_return_verified": {
+    "all_outputs_mirrored": true,
+    "archive_sha256": "249d8113d07ebf679520b49649bd7eeb06a298b8eb9ddf5ce965885aaa6f9719",
+    "bytes": 12795849,
+    "deadline_met": true,
+    "elapsed_since_registered_start_seconds": 649.002721786499,
+    "files": 616,
+    "independent_audit_passed": true,
+    "ledger_sha256": "f8cc4b71c7ff51715c9f3d2ee5c0dceccfe22733a29b5f7140332f008b9acb56",
+    "live_inventory_sha256": "1658d71d4f74ddf770922288718474cbc98c809723d2ee349456d53ebdbd2e8f",
+    "run_id": "hpc-t3rv2i-task-live-final-20261126"
+  },
+  "additional_receipts": [
+    {
+      "path": "research/sync/receipts/20261126-t3rv2t-d8d717f105.json",
+      "sha256": "a5f4f3654323dd25772e23bbe0301fb8383f3d6cd44d7b01d383ca9ea8ba76b9",
+      "run_ids": [
+        "hpc-t3rv2i-task-final-contract-20261126",
+        "hpc-t3rv2i-task-admission-20261126"
+      ],
+      "files": 19,
+      "bytes": 1914048
+    },
+    {
+      "path": "research/sync/receipts/20261126-t3rv2t-0ca62a9e61.json",
+      "sha256": "e8e4e8fad0525dd5c33274b6f0e69eb6e7d8df6eabb22676fc1b28d901bef454",
+      "run_ids": [
+        "hpc-t3rv2i-task-live-final-20261126-offline-score"
+      ],
+      "files": 9,
+      "bytes": 981989
+    },
+    {
+      "path": "research/sync/receipts/20261126-t3rv2t-8ad3b70d51.json",
+      "sha256": "f221b26fb01c33e1fb51e19de4f891650d9e91bebdaf0b8f2a05c546b7c64ffb",
+      "run_ids": [
+        "hpc-t3rv2i-task-live-final-20261126-final-attribution"
+      ],
+      "files": 9,
+      "bytes": 981289
+    }
+  ],
+  "archived_authorization": {
+    "path": "research/protocols/masbench_t3rv2t_authorization_2026-11-26.json",
+    "approved": false,
+    "candidate_sha256": "84e7a1fe3fa3484ca11d770d1a2dd4a0612bfd9099064fd0c51ae99a5af4ec61",
+    "actual_run_sha256": "18fcf092ce99b6ddd5e41d27490a5c1882738a8d68a372edf546c46979c413a2",
+    "actual_byte_record": "protected HPC/local live evidence"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "source_commit": "4a7ab227a3051013ce808f6e0407541bdaaa8f7c",
+  "source_sync_id": "20261126T092125Z",
+  "run_id": "hpc-t3rv2i-task-live-final-20261126",
+  "file_hashes": {
+    "research/sync/runs/hpc-t3rv2i-task-final-contract-20261126/outputs/contract.json": {
+      "sha256": "bba78a6a3ae1acaddde46a8446bd3f2e35669da7dcdbbe8fb419788d2fb5eff3",
+      "bytes": 3076
+    },
+    "research/sync/runs/hpc-t3rv2i-task-admission-20261126/outputs/admission.json": {
+      "sha256": "68d2e5119483166df48bc8906049b781be3475d26ffef45ba36bdcf553bc1bae",
+      "bytes": 6303
+    },
+    "research/sync/receipts/20261126-t3rv2t-d8d717f105.json": {
+      "sha256": "a5f4f3654323dd25772e23bbe0301fb8383f3d6cd44d7b01d383ca9ea8ba76b9",
+      "bytes": 9950
+    },
+    "research/logs/masbench-t3rv2t-final-admission-2026-11-26/transfer_rehearsal.json": {
+      "sha256": "b4a585f12d2034e78c21dd0c86f4f52977777b7d976bf27b97158ad8335266bb",
+      "bytes": 330
+    }
+  },
+  "verified_mirror_files": 19,
+  "verified_mirror_bytes": 1914048,
+  "private_bundle_HDD_only": true
+}

@@ -1,0 +1,153 @@
+{
+  "passed": true,
+  "run_id": "hpc-t3rv2i-task-admission-20261126",
+  "view_bundle_path": "/hdd/u202520081000097/gosc-t3rv2t-admission/hpc-t3rv2i-task-admission-20261126/views.json",
+  "view_bundle_sha256": "fe026f1f18716883ef1d75a87a5e015074f5c1bce8c4dc44a434af0111abdcab",
+  "view_count": 8,
+  "counts": [
+    {
+      "family": "f7d17aa841ccabd837d2ed52a30f454449f8b7b7cb132e8ce94d49792cc98842",
+      "role": "Alice",
+      "request_sha256": "d8db051fefc2a82af6fded21905f323786ae606c6f2404e38076553b861aa47c",
+      "tokens": 2313,
+      "request_bytes": 10766,
+      "rendered_sha256": "17b8aba8bcccfed3315b0dd7ab8d3a789dc68b779cc23bc9e9b9cdfb1f332ce5",
+      "token_ids_sha256": "dee75553b4f4eeec8d818b098b4b05dcf49fd1b5222046e3ca065314abda88b7"
+    },
+    {
+      "family": "f7d17aa841ccabd837d2ed52a30f454449f8b7b7cb132e8ce94d49792cc98842",
+      "role": "Bob",
+      "request_sha256": "cc39a9a9610223a4fa6459e3d3b89b850288e43f1bff27e36e61aa90afce5fde",
+      "tokens": 2698,
+      "request_bytes": 12843,
+      "rendered_sha256": "36110dbc35ceaa77e257e0a4c3f57cf79ce3f3835dbd6b09ea8c1c8c06f3c345",
+      "token_ids_sha256": "777afb86b749d135160e04e94ff9911b07531ae7fd1e9dd5ff1b8a6e94aea80a"
+    },
+    {
+      "family": "9e12ae37c81d0ea46b40fb070ccfbe78aff5c56b3ce2198ff6a61c8293e784a0",
+      "role": "Alice",
+      "request_sha256": "4502bfcf7405478bf5be01eb5d6faaa1aef93de79c328c8411857c54df956c55",
+      "tokens": 2744,
+      "request_bytes": 13383,
+      "rendered_sha256": "c8dd9f440399be6003c0d51af7eb0826a721b69aa0bb82439a688bf4535019c1",
+      "token_ids_sha256": "feac1d6b1249060b729b7a3db88e575c3d9bcbad1c5ce8d6747468bbc665ff36"
+    },
+    {
+      "family": "9e12ae37c81d0ea46b40fb070ccfbe78aff5c56b3ce2198ff6a61c8293e784a0",
+      "role": "Bob",
+      "request_sha256": "bcce678eeed41494f5a23d27074966e48b446f50d868b40b95289df15c749a37",
+      "tokens": 2088,
+      "request_bytes": 10187,
+      "rendered_sha256": "451fca58355e79c87f375564a7c64a8299a034f4c44a5d9a96807f1b6a886ae5",
+      "token_ids_sha256": "8eb09b5b95f6b6dd01bfa3d5f8d70121c1529965c823c59e83d2c9f95dfd1c6a"
+    },
+    {
+      "family": "4725a6878e3318f34dec0bdfe43c78306287b8c2546bb9f1d909135bf09c100f",
+      "role": "Alice",
+      "request_sha256": "669afd4bd206deb8e8745cb2ba4722f0d493ed11e97f8896e37869413d396c02",
+      "tokens": 3202,
+      "request_bytes": 17313,
+      "rendered_sha256": "7a1db892e1d94f2eed8e90267b255132b71f87dee31671d50e8549808d3b85c4",
+      "token_ids_sha256": "e95ddc4c812cd02a0f5fd3bc51a6de0348df07c65e9458d4e36980153e93faff"
+    },
+    {
+      "family": "4725a6878e3318f34dec0bdfe43c78306287b8c2546bb9f1d909135bf09c100f",
+      "role": "Bob",
+      "request_sha256": "cc93b837a6e566a24b078d4dfbfa77c6acf8e7fbd9c5ecb2c2d15f3360655a65",
+      "tokens": 3085,
+      "request_bytes": 17006,
+      "rendered_sha256": "971289e0e695f2286f48824e798c09821b7b4cb057f48117eda77d573df31dbc",
+      "token_ids_sha256": "d19b7f362f635168f1a3b31d4d49662b6c1f2c00f2930059159a1d334f6d0f66"
+    },
+    {
+      "family": "f183c55b84c30ba5d0c450ba1d1f21a6d53dc154a815ddc41185c8d7d527a660",
+      "role": "Alice",
+      "request_sha256": "eb4a22c2230e8ec4dfa1400d7bd2956f36a6c3fea0e2c3af34ee39ed613e7929",
+      "tokens": 2731,
+      "request_bytes": 13783,
+      "rendered_sha256": "8eb3d027df231d6be13362878815d24fc9c4428642bfa70148408237e238f144",
+      "token_ids_sha256": "34c4c9755477863f0fb287542687e21daf3ae91668c42aeb43446b5c34ddcda4"
+    },
+    {
+      "family": "f183c55b84c30ba5d0c450ba1d1f21a6d53dc154a815ddc41185c8d7d527a660",
+      "role": "Bob",
+      "request_sha256": "491e3a084f1377a1e93f3cdda4d43db8481337537e056a115ba9d5de6a6ce34b",
+      "tokens": 2000,
+      "request_bytes": 9877,
+      "rendered_sha256": "49f5b7a2d02f39982ea23fad38c1e55f4fcb6ac5f86ba1fd80cf9e4fbc7a2b14",
+      "token_ids_sha256": "d1b075fc0984262f3065eb6c46c0146b337d3a00e83d091e971378892c61f6c6"
+    }
+  ],
+  "helper_calls": 8,
+  "model_calls": 0,
+  "service_http_calls": 0,
+  "baseline_pid": 42070,
+  "baseline_stamp": "4975206358",
+  "baseline_context": 1024,
+  "binary_sha256": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+  "helper_sha256": "e4d2da192c9bfcf126462eddfa2a8b8519b9d8293ff47bf500007ca2d82a66d5",
+  "model_manifest_sha256": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "weight_sha256": "2bada8a7450677000f678be90653b85d364de7db25eb5ea54136ada5f3933730",
+  "template_sha256": "eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175",
+  "plan_sha256": "381186179958124b9a134bfc832c0e8103364f1ba3aa2b79ac606ea37db5e420",
+  "historical_index_sha256": "1b1b8089db1f6c3e0b612f157bb0418212c9de1f5d4231a8e682de475a3e39a1",
+  "quotas": {
+    "host": "n1",
+    "queried_at": "2026-11-26T09:24:22.445988+00:00",
+    "uid": 8301880,
+    "interface": "read-only Lustre user quota ioctl",
+    "volumes": {
+      "ssd": {
+        "mount": "/home/u202520081000097",
+        "quota_status": 0,
+        "id": 8301880,
+        "type": 0,
+        "hard_limit_bytes": 107374182400,
+        "used_bytes": 107297378304,
+        "remaining_to_hard_limit_bytes": 76804096,
+        "raw_quota_fields": {
+          "bhardlimit": 104857600,
+          "bsoftlimit": 0,
+          "curspace": 107297378304,
+          "ihardlimit": 0,
+          "isoftlimit": 0,
+          "curinodes": 429602,
+          "btime": 0,
+          "itime": 281474976710656,
+          "valid": 63
+        }
+      },
+      "hdd": {
+        "mount": "/hdd/u202520081000097",
+        "quota_status": 0,
+        "id": 8301880,
+        "type": 0,
+        "hard_limit_bytes": 536870912000,
+        "used_bytes": 19167838208,
+        "remaining_to_hard_limit_bytes": 517703073792,
+        "raw_quota_fields": {
+          "bhardlimit": 524288000,
+          "bsoftlimit": 0,
+          "curspace": 19167838208,
+          "ihardlimit": 0,
+          "isoftlimit": 0,
+          "curinodes": 152354,
+          "btime": 281474976710656,
+          "itime": 281474976710656,
+          "valid": 63
+        }
+      }
+    }
+  },
+  "limits": {
+    "cpu_quota": "200000",
+    "cpu_period": "100000",
+    "cpuset": "0-1",
+    "memory_bytes": "25769803776",
+    "gpu_settings": {
+      "CUDA_DEVICE_MEMORY_LIMIT": "34304m",
+      "CUDA_DEVICE_SM_LIMIT": "75"
+    }
+  },
+  "elapsed_seconds": 7.561546146869659
+}
