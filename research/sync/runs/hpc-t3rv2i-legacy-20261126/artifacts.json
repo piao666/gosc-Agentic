@@ -1,0 +1,20 @@
+{
+  "run_id": "hpc-t3rv2i-legacy-20261126",
+  "files": [
+    {
+      "path": "outputs/fixture-journals.tar.gz",
+      "size": 101,
+      "sha256": "7c51e0ea506b6cc85d682d3d50e8e27f4beea8733131ef7d3179bcbd120f9277"
+    },
+    {
+      "path": "outputs/legacy_results.json",
+      "size": 48472,
+      "sha256": "2903eac6fa59912ea959e143f84021acd918dd0204e859f38558b5f44bd8ff1b"
+    },
+    {
+      "path": "outputs/pytest.xml",
+      "size": 10719,
+      "sha256": "e4535dfbfc6ab28ad8cbe82f361fb0777dc632dbba5e542959338dbc658bc064"
+    }
+  ]
+}

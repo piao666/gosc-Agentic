@@ -1,0 +1,192 @@
+{
+  "date": "2026-11-25 Asia/Shanghai",
+  "kind": "local lightweight file/hash protection; no Python/tests executed",
+  "base": "458a96f59b620a02e6872d038b87912eb39e92e4",
+  "source_checks": [
+    {
+      "path": "experiments_ext/masbench_t1b_live.py",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t2_live.py",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t3_live.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/__init__.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/application.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/client.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/evaluation.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/execution_safety.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/fixture_driver.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/LICENSE.MASBench",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/live_driver.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/registry.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/wire.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/__init__.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/agent.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/belief.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/channel.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/config.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/environment.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/joint.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/llm_agent.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/messages.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/realistic.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/rescue.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/schemes.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/simulator.py",
+      "matches": true
+    },
+    {
+      "path": "gosc/voi.py",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/native-masbench-20261104/masbench_development_registry.json",
+      "matches": true
+    },
+    {
+      "path": "research/protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "matches": true
+    },
+    {
+      "path": "research/protocols/masbench_t3r_v2_fair_final_spec_v1.md",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md",
+      "matches": true
+    },
+    {
+      "path": "scripts/hpc_ollama.py",
+      "matches": true
+    },
+    {
+      "path": "scripts/hpc_runs.py",
+      "matches": true
+    },
+    {
+      "path": "scripts/sync_hpc.py",
+      "matches": true
+    },
+    {
+      "path": "tests_ext/test_masbench_b1_safety.py",
+      "matches": true
+    },
+    {
+      "path": "tests_ext/test_masbench_fixture_driver.py",
+      "matches": true
+    },
+    {
+      "path": "tests_ext/test_masbench_reasoning_adapter.py",
+      "matches": true
+    },
+    {
+      "path": "tests_ext/test_masbench_t1_live_driver.py",
+      "matches": true
+    }
+  ],
+  "protected_user_files": [
+    {
+      "path": "11-17审阅任务安排.md",
+      "matches": true
+    },
+    {
+      "path": "T3-R_科研失败归因与研究前提复核任务书.md",
+      "matches": true
+    }
+  ],
+  "literal_prompt_bindings": [
+    {
+      "role": "Alice",
+      "bytes": 2553,
+      "sha256": "32a381227d081a3cb9e968ae4ba3312379f9bd61a0883dcaf979b01d641ca3e9"
+    },
+    {
+      "role": "Bob",
+      "bytes": 2549,
+      "sha256": "df0073267f3d594c6597dedbf92f07c70e3e3db647399f1c0e15778b9e1d1da1"
+    }
+  ],
+  "tracked_diff": [],
+  "staged_diff": [],
+  "HPC_tests_run": 0,
+  "real_model_calls": 0,
+  "source_sync": "not_performed; pending HPC Git metadata decision",
+  "acceptance": "Blocked, not passed",
+  "git_commit_push": false
+}

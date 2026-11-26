@@ -1,0 +1,254 @@
+{
+  "date": "2026-11-26 Asia/Shanghai",
+  "base": "458a96f59b620a02e6872d038b87912eb39e92e4",
+  "scope": "T3-R-v2-I new implementation, reports, administrative tools and nonprivate evidence summaries; raw run mirrors referenced separately",
+  "self_excluded": true,
+  "raw_run_receipt": "research/sync/receipts/20261126-t3rv2i-206d68da03.json",
+  "all_outputs_mirrored": true,
+  "engineering": "Go in model-free scope",
+  "real_deployment": "Pending",
+  "scientific_capability": "not established",
+  "git_commit_or_push": false,
+  "files": [
+    {
+      "path": "experiments_ext/masbench_t3r_v2_audit.py",
+      "bytes": 15238,
+      "sha256": "057c4a0d010b6467c5cd696548d0b581468f72017dbb65b6eecbe0e04ddcdf0c"
+    },
+    {
+      "path": "experiments_ext/masbench_t3r_v2_contract.py",
+      "bytes": 4543,
+      "sha256": "bd2e8761d19615fcd6ee7c48ebce6c57e4fd7572927d731642a36081d92ea137"
+    },
+    {
+      "path": "experiments_ext/masbench_t3r_v2_counter_recheck.py",
+      "bytes": 7063,
+      "sha256": "b9bcc6221d771d97766e5d91c18862ebe8aab9e9518143f6e6cb9644af87d497"
+    },
+    {
+      "path": "experiments_ext/masbench_t3r_v2_pressure.py",
+      "bytes": 7973,
+      "sha256": "06de6c95662395923efa590f98970593695f24745d6177342451d183ec1227ea"
+    },
+    {
+      "path": "experiments_ext/masbench_t3r_v2_pressure_summary.py",
+      "bytes": 3593,
+      "sha256": "73764c2463cb4cdb666e3a11bd0ea7bec2e85621fd31e581942b65a284f2f07e"
+    },
+    {
+      "path": "experiments_ext/masbench_t3rv2i_register.py",
+      "bytes": 1725,
+      "sha256": "703ac1f7a5a17001d503a5a125c6f17626695b05723d415f3e6cda8b2d6aec32"
+    },
+    {
+      "path": "extensions/masbench_reasoning/fair_final_v2.py",
+      "bytes": 11905,
+      "sha256": "e4b87f56938f31a19a09a880de01fd6fc9c1a7274f52ff8f2423bc902a719e39"
+    },
+    {
+      "path": "extensions/masbench_reasoning/fair_final_v2_guard.py",
+      "bytes": 19857,
+      "sha256": "d6272d74fefc36870a32c19ec053a2701b24f1accc511a276dd80ed158307c99"
+    },
+    {
+      "path": "extensions/masbench_reasoning/fair_final_v2_prompt.txt",
+      "bytes": 2559,
+      "sha256": "00c91af181b4bcedf62acbfee2ab77b8555392d07a52196d3878936d4a375fb4"
+    },
+    {
+      "path": "extensions/masbench_reasoning/fair_final_v2_scoring.py",
+      "bytes": 4064,
+      "sha256": "a2e9c2f2c96eaea5e7abb28406097da50f1322e3eff35e52d6b21a4f13902fca"
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/contract_results.json",
+      "bytes": 77407,
+      "sha256": "3b76a493df61f9c30b1fae879337b6d8dee727acc3e2ad2902476d4473e53bce"
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/copy_provenance.json",
+      "bytes": 2015,
+      "sha256": "c9b1745491dff1d22b6b2e3f4af3d3df6296326194c968c6eea13b4158adede1"
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/counter_process.json",
+      "bytes": 318,
+      "sha256": "3348b66a0031e3fe1cfd17169d4d383931e5c600fda82fcc255d889888283ea6"
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/counter_recheck.json",
+      "bytes": 10783,
+      "sha256": "3f0b37a71049e55e66bd6c27f6a91ff9d8b8c7f485516e7b3d164d8a5d05c35b"
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/independent_audit.json",
+      "bytes": 3766,
+      "sha256": "2ebb055b227ccb364d90eefcc0bda6f89080e29933136a8e52432fba75398f33"
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/legacy_results.json",
+      "bytes": 48472,
+      "sha256": "2903eac6fa59912ea959e143f84021acd918dd0204e859f38558b5f44bd8ff1b"
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/pressure_summary.json",
+      "bytes": 8456,
+      "sha256": "fe28e4723fe0123fc8121dcbe730267253440c81c6a87f472bd6acf1e790f44e"
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/README.md",
+      "bytes": 1941,
+      "sha256": "0b11852851d7b2fe8ec63d31df1ae350c5eced404bb7149da1cdea96a16cc384"
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/run_index.json",
+      "bytes": 8587,
+      "sha256": "62b2a086b260998a0c8c4b2218773657a153eaf604d452657b7d2704dca602b9"
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/scoped_receipt.json",
+      "bytes": 42111,
+      "sha256": "07417d06ac74c47a2aa0646927df84407011075c1ed295b7ef7ab68ee4e0ca2d"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/acceptance_matrix.md",
+      "bytes": 6437,
+      "sha256": "4582d327ea7b2f11914f27e4c1af4b4710e558d702df4413ef5e44f9ea69ed94"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/acceptance_matrix_2026-11-25_pending.md",
+      "bytes": 5536,
+      "sha256": "ad1e3953b84195055f9a70900387b6c178a96ca092b88161675b14ccae3311db"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/closeout_2026-11-26.json",
+      "bytes": 7671,
+      "sha256": "f5c03f00df5e0b09ba20840a08b5d56c5bd37dc7f2b18bfb53dceee888161375"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/collect_hpc_runs.py",
+      "bytes": 6292,
+      "sha256": "eb586d387a10aa7c61e2e3c2b0ae1ba80ec1737fd6839c8ae677748e4ee7e135"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/continuation_2026-11-26.md",
+      "bytes": 1109,
+      "sha256": "9f8c80309a05eaf655467f7924613656113ff02d0ecf55052bb4b5819ab5f994"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/delivery_check_2026-11-26.json",
+      "bytes": 237,
+      "sha256": "fe3cb1484aaf8a9f5f11830be8f1c825b7707ccce338ea5c0e8ec635a4ce91fa"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/delivery_manifest_2026-11-25_pending.json",
+      "bytes": 3793,
+      "sha256": "10d9080460dbba78d9dc506a15da72e86425c7e4b2fbbd90ee70354d46bd2356"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/frozen_baseline.json",
+      "bytes": 10599,
+      "sha256": "5e3d4373f5cddf171490da032cccd3f81018a6886d834c4ba4aa8cc4d78a9b25"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/hpc-management/fetch-failure.json",
+      "bytes": 417,
+      "sha256": "d272d3653c63460f0e55f4c2829d1dbfe3007ca1080f8898ed65b34d2a5a582f"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/hpc-management/git-reconcile-receipt.json",
+      "bytes": 1148,
+      "sha256": "288430d6dfb43e69a9a3df0600697bd62633bbb07c6c2a5c6e0727b22c7ffa11"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/hpc-management/pytest-preservation.json",
+      "bytes": 836,
+      "sha256": "56f19c195e52b49ba011e2f70113dafd5fbb98d7da3fad3eec984e9a67978339"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/hpc-management/source-byte-dedup.json",
+      "bytes": 1453,
+      "sha256": "60abe240a691a240e1afe0506e5dd146b56771fcb63cf181be5fd97e0aed0203"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/local_closeout.json",
+      "bytes": 4510,
+      "sha256": "a6fab50c5eeb04f028d08ca775a02819780112f9a432a694841e95506981d113"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/README.md",
+      "bytes": 3286,
+      "sha256": "5809657442af8eae0a7c5df037caaf5796854cc9cef7db033099a371b709d9ff"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/reconcile_hpc_git.py",
+      "bytes": 4302,
+      "sha256": "bc9b8bf2146b9bcd492d0730e771ab3b5727d01c52534085cb619fa65d032690"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/reconcile_hpc_git_delta.py",
+      "bytes": 4309,
+      "sha256": "50d9888eba68f26569b47ab28d3fe038e6d26fd8be032a5e5ce1ddff6580c557"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/task_brief.md",
+      "bytes": 2486,
+      "sha256": "9d399eb7ff41475a084bf8258fdee62751d88666fbca75521ea7eec7b45c057b"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/task_log.md",
+      "bytes": 10118,
+      "sha256": "f255c0d7bed2ad2dcd2e3ae81f28abd4026a355c865f62160607b75eef925868"
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2i_counter_authorization_2026-11-26.json",
+      "bytes": 1041,
+      "sha256": "d1820dba9328613977f153f9c5ec50edd4834a2542fec81335d5687d2ad2e1e1"
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2i_counter_budget_revision_v2_2026-11-26.md",
+      "bytes": 3967,
+      "sha256": "fc7b86d2d1b34cfa051c9b5c7fbade0abfd6e197809c52e4729a8888ebd2516f"
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2i_model_free_budget_v1_2026-11-25.json",
+      "bytes": 1902,
+      "sha256": "b452f9c0d648ff29c5e81443aed474b15c7c09712360daae38d0e7652492328a"
+    },
+    {
+      "path": "research/reports/masbench_t3rv2i_implementation_acceptance_2026-11-25.md",
+      "bytes": 7949,
+      "sha256": "d059ebe4ba1635a49aecd36e4f121eb7975ffc78ff0a754129fbcb9b405ad097"
+    },
+    {
+      "path": "research/reports/masbench_t3rv2i_implementation_acceptance_2026-11-26.md",
+      "bytes": 8917,
+      "sha256": "d61e30276cde63d1acece116acdfc7dd779ba26a861538bcbbf6d4cc9327db96"
+    },
+    {
+      "path": "research/reports/masbench_t3rv2i_legacy_protection_2026-11-25.md",
+      "bytes": 2230,
+      "sha256": "d7d27a252d967e2c772448562259b9d5ebc4a288bf1d7563003a28cf87169094"
+    },
+    {
+      "path": "research/reports/masbench_t3rv2i_legacy_protection_2026-11-26.md",
+      "bytes": 1842,
+      "sha256": "d4a2eb309a3aa90e6bb1ad642c8293d3966bc59bf92e059ec4b085bb15eeeca3"
+    },
+    {
+      "path": "research/reports/masbench_t3rv2i_pressure_resources_2026-11-25.md",
+      "bytes": 4768,
+      "sha256": "a7b3a2649697d6551c92dd7545500697b3fa07481455bb7395b512e0c4fffaec"
+    },
+    {
+      "path": "research/reports/masbench_t3rv2i_pressure_resources_2026-11-26.md",
+      "bytes": 3599,
+      "sha256": "d6fec78b997a1c63c5de461fca4f63294fc626a8b72e57cdcce42fe4d05df6c5"
+    },
+    {
+      "path": "tests_ext/test_masbench_fair_final_v2.py",
+      "bytes": 23777,
+      "sha256": "a1e0311a7d0d9eb2712a6783a41b45fe64b281bdfb5d1e53a3c96fefbe0e32f0"
+    }
+  ]
+}

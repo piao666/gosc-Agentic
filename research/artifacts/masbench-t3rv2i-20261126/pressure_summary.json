@@ -1,0 +1,295 @@
+{
+  "schema": "t3rv2i-retained-byte-pressure-audit-v1",
+  "source_run": "hpc-t3rv2i-pressure-v3-20261126",
+  "rows": [
+    {
+      "case": "ascii",
+      "condition": "Full",
+      "turn": 0,
+      "serialized_bytes": 23362,
+      "sha256": "b5ab1822d463c25e8d1f0b520fca9840ccbb179414f1896eb7fbc51c651aec33"
+    },
+    {
+      "case": "ascii",
+      "condition": "Full",
+      "turn": 1,
+      "serialized_bytes": 27559,
+      "sha256": "ef74e4b7a8cbd398d3b8d0f9f0e150dd3202717d25f8c5b64ab2dc605142a6fa"
+    },
+    {
+      "case": "ascii",
+      "condition": "Full",
+      "turn": 2,
+      "serialized_bytes": 31856,
+      "sha256": "5b5e7aa016d587a4e719b586daa322d13d7a022fb6988cc6afc604d2e25657b0"
+    },
+    {
+      "case": "ascii",
+      "condition": "Full",
+      "turn": 3,
+      "serialized_bytes": 36053,
+      "sha256": "afad3f55fde0cd081b9639e4549637ca5438b9418730af88da403c96760d57fb"
+    },
+    {
+      "case": "ascii",
+      "condition": "Full",
+      "turn": 4,
+      "serialized_bytes": 40353,
+      "sha256": "be903921ae4c61c995e160424880af6ef88f106018664b52e3ddbe508c16ccc4"
+    },
+    {
+      "case": "ascii",
+      "condition": "Full",
+      "turn": 5,
+      "serialized_bytes": 40347,
+      "sha256": "67fa19120a8c5dffe3564d581e0aa353fa374d7bb311c0fedf447a94d4ffa977"
+    },
+    {
+      "case": "ascii",
+      "condition": "No-A2A",
+      "turn": 0,
+      "serialized_bytes": 23362,
+      "sha256": "b5ab1822d463c25e8d1f0b520fca9840ccbb179414f1896eb7fbc51c651aec33"
+    },
+    {
+      "case": "ascii",
+      "condition": "No-A2A",
+      "turn": 1,
+      "serialized_bytes": 23356,
+      "sha256": "a89c83a29bbea171ca75386de631ab58e3206b3b6185275949a8db4c69c16e63"
+    },
+    {
+      "case": "ascii",
+      "condition": "No-A2A",
+      "turn": 2,
+      "serialized_bytes": 27657,
+      "sha256": "b67c6a1610f7b835c87074a825a6ec7b1805202445d09b469de9c2bc799f4d8d"
+    },
+    {
+      "case": "ascii",
+      "condition": "No-A2A",
+      "turn": 3,
+      "serialized_bytes": 27647,
+      "sha256": "c0978fe5d7356f63f89706c95c29de495debea75cc56e930092c31763ecf9573"
+    },
+    {
+      "case": "ascii",
+      "condition": "No-A2A",
+      "turn": 4,
+      "serialized_bytes": 31955,
+      "sha256": "f69ea8aab63c1d1f7f7788897503ec02d0d118b4b8e08c13c3b61d3603227209"
+    },
+    {
+      "case": "ascii",
+      "condition": "No-A2A",
+      "turn": 5,
+      "serialized_bytes": 31941,
+      "sha256": "a28eb6820f064c5f974cd8f08e2517e17c85ea40d07c8ce0b9944d2a68713d09"
+    },
+    {
+      "case": "multibyte",
+      "condition": "Full",
+      "turn": 0,
+      "serialized_bytes": 23362,
+      "sha256": "b5ab1822d463c25e8d1f0b520fca9840ccbb179414f1896eb7fbc51c651aec33"
+    },
+    {
+      "case": "multibyte",
+      "condition": "Full",
+      "turn": 1,
+      "serialized_bytes": 27558,
+      "sha256": "1fa606d6299eaba01f0e03e5caf6c9ceb1cbe6e402d0b40dfbdf0b2f0cf7c32d"
+    },
+    {
+      "case": "multibyte",
+      "condition": "Full",
+      "turn": 2,
+      "serialized_bytes": 31854,
+      "sha256": "1b7c5b0d89fad583aaea4612ed5401aabf577ad2c43244d8f335e8c35c659853"
+    },
+    {
+      "case": "multibyte",
+      "condition": "Full",
+      "turn": 3,
+      "serialized_bytes": 36050,
+      "sha256": "98c07e3a732025626cdd6a6f9af142fca64d786a126c2623de6553ff08e62a34"
+    },
+    {
+      "case": "multibyte",
+      "condition": "Full",
+      "turn": 4,
+      "serialized_bytes": 40349,
+      "sha256": "fc52e76749a31463d462f2cadb3fba683dced8e5b180ad753bcbfd88871b4cf1"
+    },
+    {
+      "case": "multibyte",
+      "condition": "Full",
+      "turn": 5,
+      "serialized_bytes": 40343,
+      "sha256": "1268796ac683253a26bd3d31e1dee88f56a52ac6b24a8c0da2177b66cb3eec2f"
+    },
+    {
+      "case": "multibyte",
+      "condition": "No-A2A",
+      "turn": 0,
+      "serialized_bytes": 23362,
+      "sha256": "b5ab1822d463c25e8d1f0b520fca9840ccbb179414f1896eb7fbc51c651aec33"
+    },
+    {
+      "case": "multibyte",
+      "condition": "No-A2A",
+      "turn": 1,
+      "serialized_bytes": 23356,
+      "sha256": "a89c83a29bbea171ca75386de631ab58e3206b3b6185275949a8db4c69c16e63"
+    },
+    {
+      "case": "multibyte",
+      "condition": "No-A2A",
+      "turn": 2,
+      "serialized_bytes": 27656,
+      "sha256": "131b0a3b84b42956ec306d196f5de73ff744761c0eb5d40471561ba789b44e10"
+    },
+    {
+      "case": "multibyte",
+      "condition": "No-A2A",
+      "turn": 3,
+      "serialized_bytes": 27646,
+      "sha256": "d7be76cf72a0450ef41a4faa11ee70fb04e243121fe3368e989366ac3b894aac"
+    },
+    {
+      "case": "multibyte",
+      "condition": "No-A2A",
+      "turn": 4,
+      "serialized_bytes": 31953,
+      "sha256": "b0a80669576fb5069bd7d6e330866f9dcd2af2ba6620692c0b9d313a0624d63a"
+    },
+    {
+      "case": "multibyte",
+      "condition": "No-A2A",
+      "turn": 5,
+      "serialized_bytes": 31939,
+      "sha256": "6721dfb86151cd98e13cd57f10b75a568da4f55b0c882fa0b319df3e60c37a6f"
+    },
+    {
+      "case": "json_escape",
+      "condition": "Full",
+      "turn": 0,
+      "serialized_bytes": 23362,
+      "sha256": "b5ab1822d463c25e8d1f0b520fca9840ccbb179414f1896eb7fbc51c651aec33"
+    },
+    {
+      "case": "json_escape",
+      "condition": "Full",
+      "turn": 1,
+      "serialized_bytes": 39775,
+      "sha256": "db7d2cc7af30d153aab6d94fc23843daaea586e91ecce32351a4c4bf8ee9df62"
+    },
+    {
+      "case": "json_escape",
+      "condition": "Full",
+      "turn": 2,
+      "serialized_bytes": 48144,
+      "sha256": "e268a61d99429bfc00fdea949c55b44bb857b6a8693471d9cb712bb7656edd71"
+    },
+    {
+      "case": "json_escape",
+      "condition": "Full",
+      "turn": 3,
+      "serialized_bytes": 64557,
+      "sha256": "1ba24bf7810be0f5ba5e3f8b1c1edef6297f98c93377bb2b6233ee8714ed356c"
+    },
+    {
+      "case": "json_escape",
+      "condition": "Full",
+      "turn": 4,
+      "serialized_bytes": 72929,
+      "sha256": "4f8ceb436bceac25300b9453256e7b5941ade4184364957f59431bacfa565eb4"
+    },
+    {
+      "case": "json_escape",
+      "condition": "No-A2A",
+      "turn": 0,
+      "serialized_bytes": 23362,
+      "sha256": "b5ab1822d463c25e8d1f0b520fca9840ccbb179414f1896eb7fbc51c651aec33"
+    },
+    {
+      "case": "json_escape",
+      "condition": "No-A2A",
+      "turn": 1,
+      "serialized_bytes": 23356,
+      "sha256": "a89c83a29bbea171ca75386de631ab58e3206b3b6185275949a8db4c69c16e63"
+    },
+    {
+      "case": "json_escape",
+      "condition": "No-A2A",
+      "turn": 2,
+      "serialized_bytes": 31729,
+      "sha256": "a65a12d4e0f19f32bdf3f170d6ebcf4ccb54da94c8a9c5e8c7ce7c9874c85cb4"
+    },
+    {
+      "case": "json_escape",
+      "condition": "No-A2A",
+      "turn": 3,
+      "serialized_bytes": 31719,
+      "sha256": "39fb5a2348543679c07aaacccf88752f7e76ff89192f12a6dff2b31a38115ade"
+    },
+    {
+      "case": "json_escape",
+      "condition": "No-A2A",
+      "turn": 4,
+      "serialized_bytes": 40099,
+      "sha256": "70c26196241a01f4430c9fd81f88de45590a990bd86a049605b2b81fc461dda9"
+    },
+    {
+      "case": "json_escape",
+      "condition": "No-A2A",
+      "turn": 5,
+      "serialized_bytes": 40085,
+      "sha256": "31493107681dca287179d62278b11e13b2a58e32726b2fbb9c8e8ca2d3f707b2"
+    }
+  ],
+  "case_states": {
+    "ascii-Full": {
+      "status": "completed",
+      "fences": []
+    },
+    "ascii-No-A2A": {
+      "status": "completed",
+      "fences": []
+    },
+    "multibyte-Full": {
+      "status": "completed",
+      "fences": []
+    },
+    "multibyte-No-A2A": {
+      "status": "completed",
+      "fences": []
+    },
+    "json_escape-Full": {
+      "status": "failed",
+      "fences": [
+        "IPC_packet_or_cumulative_cap"
+      ]
+    },
+    "json_escape-No-A2A": {
+      "status": "completed",
+      "fences": []
+    }
+  },
+  "input_path": "/home/u202520081000097/jupyterlab/Paper/gosc/research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/outputs/synthetic-requests.json",
+  "requests_sha256": "55eb321df2acde7171562910fb0f05e4fb855e196ce7ec8fe8861f02b1e46c6d",
+  "counter_input_sha256": "f74a175d813aa004fa2135a13799e95575b3c68b6c443f7901bea6be3c4da0c2",
+  "counter_stderr_sha256": "861236c6b6f5e0379573cacdb482be2b9b4761bed058d966e2e1edfc7553ff00",
+  "exact_counter": {
+    "status": "failed_resource_limit",
+    "valid_reply": false,
+    "attempts": 1,
+    "tokens": null,
+    "reason": "Go runtime allocation failure under inherited 1GiB AS"
+  },
+  "byte_pressure_verified": true,
+  "model_calls": 0,
+  "additional_fake_generations": 0,
+  "additional_helper_calls": 0,
+  "max_serialized_bytes": 72929
+}

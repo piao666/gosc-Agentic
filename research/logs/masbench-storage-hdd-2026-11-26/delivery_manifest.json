@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-26 Asia/Shanghai",
+  "base": "458a96f59b620a02e6872d038b87912eb39e92e4",
+  "scope": "new administrative storage tools, policy and SHA receipts; no old archive content included",
+  "storage_decision": "Go for this migration and current quota only",
+  "real_deployment": "Pending/Blocked",
+  "self_excluded": true,
+  "git_commit_or_push": false,
+  "files": [
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/copy_verified.json",
+      "bytes": 160,
+      "sha256": "13a0647cc793821f3d1b7b5d0c3f9f79f0726b0449a7ae643fcc27a2ef4dcdfc"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/delivery_check.json",
+      "bytes": 161,
+      "sha256": "fc424bf3638783a86ab451f36fc2a1acabe4ef9f46772fc806606d097812ffd3"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/hpc_receipt_sha256.txt",
+      "bytes": 445,
+      "sha256": "f821714be4a253503f1425735b7a1d4750971bfaecc4b8ec77d6a18e22791aae"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/independent_readback.json",
+      "bytes": 1773,
+      "sha256": "27b06c1203e4eac4cb92290a24bb7c11cf3bc5c0cc763902d8f3af0ea21aa43f"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/independent_readback_stdout.json",
+      "bytes": 1362,
+      "sha256": "455286e1a2bd3360bd37c1df66623ee5d6f9475cdf10f8501ffd55abf9110381"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/inspection_before.txt",
+      "bytes": 1290,
+      "sha256": "e817eb7b72f6640905eae9a8770753e4f73e455b9dde5e7e0e02514cf7bb9086"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/migration_plan.json",
+      "bytes": 347372,
+      "sha256": "0ef6092faf2cc5654569f2e5c3df82ea22e5f736df6fb916778c1398bb423328"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/migration_receipt.json",
+      "bytes": 3282,
+      "sha256": "ea124312b64cb9ef1e37c92b387e5cbf63715d06378512a1070c4fffc09715bc"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/migration_stdout.json",
+      "bytes": 2477,
+      "sha256": "6530c50436e92e6552c62314103f913404433fb3d3bb68e7effea5fce8144916"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/protection_check.json",
+      "bytes": 7611,
+      "sha256": "f92f9832cfb6786ba79994ac11803faa3dcee876e11eabfdb9650c4833d1242d"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/README.md",
+      "bytes": 1594,
+      "sha256": "fd7ffbcf661bdd469a70bc4ea28ea593986d773795cbde04f9cb51be6fae52a5"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/relocate_archives.py",
+      "bytes": 8691,
+      "sha256": "515a357efd35e5272ebb6274db671abe2959f4a8af6bbe2c88c65fd8dab328ab"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/removal_journal.jsonl",
+      "bytes": 241470,
+      "sha256": "ee68180ff3ef0ac9250e55202cac7d9b860b461ed4221a9cc367d21432a62973"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/task_brief.md",
+      "bytes": 2194,
+      "sha256": "e8ce52fa10c7eb48966a14a261f74ac1c42e2605bd027640a78877277a0467b9"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/task_log.md",
+      "bytes": 3066,
+      "sha256": "3670ca1124fd2afad3ab7b463015a368889aa2a157ede7e447aec6dd4e8d3e07"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/transfer_receipt.json",
+      "bytes": 2144,
+      "sha256": "3fc27a624a058a42def402a92a8b4afe6a1c372d6b3fb50513722da305d8aa7c"
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/verify_archive.py",
+      "bytes": 2496,
+      "sha256": "8fe3316b47174d0df0485b280e5bae481e2a19360e2d699f036e46da3876fb14"
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2_hdd_storage_policy_v1_2026-11-26.md",
+      "bytes": 3784,
+      "sha256": "28c01cbd57537d0c60a4aca187ad6d0d384d2f315f6d3709aef360a3d73d28f2"
+    },
+    {
+      "path": "research/reports/masbench_t3rv2_storage_resolution_2026-11-26.md",
+      "bytes": 5377,
+      "sha256": "99ce347333824d0d57b30b072b5248d5134d96142fb7914ec6a3a7fc4b5da328"
+    }
+  ]
+}

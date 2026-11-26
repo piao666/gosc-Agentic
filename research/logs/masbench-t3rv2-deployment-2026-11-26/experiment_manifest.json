@@ -1,0 +1,35 @@
+{
+  "schema": "administrative-task-not-an-experiment-v1",
+  "date": "2026-11-26 Asia/Shanghai",
+  "experiment_id": null,
+  "execution_host": "HPC n1 for read-only management only",
+  "remote_workdir": "/home/u202520081000097/jupyterlab/Paper/gosc",
+  "git_commit": "458a96f59b620a02e6872d038b87912eb39e92e4",
+  "working_tree_dirty": "prior authorized untracked implementation retained; tracked/staged diff empty",
+  "sync_id": null,
+  "status": "blocked_before_sync_or_registered_tests",
+  "reason": [
+    "personal SSD quota 6594560 bytes below frozen 16MiB working budget",
+    "new true live entry and authorization path absent",
+    "independent service/driver/GPU hard bound not verified"
+  ],
+  "registered_runs": [],
+  "new_tests": 0,
+  "generations": 0,
+  "helper_invocations": 0,
+  "http": {
+    "GET_version": 1,
+    "GET_ps": 1,
+    "GET_tags": 1,
+    "render": 0,
+    "unload": 0
+  },
+  "service_changes": 0,
+  "data": "artificial specification assets only; no task/registry parsing",
+  "seeds": [],
+  "model_inference_tokens": 0,
+  "gpu_peak": null,
+  "source": "readonly_inventory.py via SSH stdin; full stdout hpc_readonly_inventory.json",
+  "prior_delivery_files_SHA_unchanged": 48,
+  "git_commit_or_push": false
+}

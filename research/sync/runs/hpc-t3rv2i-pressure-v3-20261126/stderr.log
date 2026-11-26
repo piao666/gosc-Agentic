@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t3r_v2_pressure.py", line 130, in <module>
+    main()
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t3r_v2_pressure.py", line 116, in main
+    counts = vocab_count(ROOT, requests, out) if args.vocab_only else dict(status="not_run", scope="fixture counts only")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u202520081000097/jupyterlab/Paper/gosc/experiments_ext/masbench_t3r_v2_pressure.py", line 49, in vocab_count
+    raise RuntimeError("vocabulary_counter_exit_or_output")
+RuntimeError: vocabulary_counter_exit_or_output

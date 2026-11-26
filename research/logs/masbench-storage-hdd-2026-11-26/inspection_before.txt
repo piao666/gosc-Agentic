@@ -1,0 +1,10 @@
+uid=8301880(u202520081000097) gid=8301880(u202520081000097) groups=8301880(u202520081000097),8400001(prjg8400001),8400390(prjg8400390)
+n1
+458a96f59b620a02e6872d038b87912eb39e92e4
+Python 3.11.15
+{"host": "n1", "queried_at": "2026-11-26T02:50:54.129513+00:00", "uid": 8301880, "interface": "read-only Lustre user quota ioctl", "volumes": {"ssd": {"mount": "/home/u202520081000097", "quota_status": 0, "id": 8301880, "type": 0, "hard_limit_bytes": 107374182400, "used_bytes": 107367587840, "remaining_to_hard_limit_bytes": 6594560, "raw_quota_fields": {"bhardlimit": 104857600, "bsoftlimit": 0, "curspace": 107367587840, "ihardlimit": 0, "isoftlimit": 0, "curinodes": 429838, "btime": 0, "itime": 281474976710656, "valid": 63}}, "hdd": {"mount": "/hdd/u202520081000097", "quota_status": 0, "id": 8301880, "type": 0, "hard_limit_bytes": 536870912000, "used_bytes": 19058028544, "remaining_to_hard_limit_bytes": 517812883456, "raw_quota_fields": {"bhardlimit": 524288000, "bsoftlimit": 0, "curspace": 19058028544, "ihardlimit": 0, "isoftlimit": 0, "curinodes": 147844, "btime": 281474976710656, "itime": 281474976710656, "valid": 63}}}}
+35086336	.local/diagnostic-wheels
+12984320	.local/sync-backups
+44244992	.local/git-checkpoints
+12288	.local/hpc-launches
+28672	.local/git-reconcile

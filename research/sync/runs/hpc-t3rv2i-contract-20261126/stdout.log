@@ -1,0 +1,20 @@
+.............F........................................                   [100%]
+=================================== FAILURES ===================================
+_____________________ test_C08_admission_and_condition_pin _____________________
+
+make = <function make.<locals>.build at 0x1492e6cf4220>
+
+    def test_C08_admission_and_condition_pin(make):
+        a, _ = execute(make)
+        b, d = execute(make, "No-A2A")
+        assert len(a["messages"]) == len(b["messages"]) == 4
+        assert all(m["delivered"] for m in a["messages"])
+        assert all(not m["delivered"] and m["reason"] == "blocked_by_condition" for m in b["messages"])
+>       assert all(v == 0 for k, v in d.transport.totals().items() if "bytes" in k or "uses" in k)
+E       assert False
+E        +  where False = all(<generator object test_C08_admission_and_condition_pin.<locals>.<genexpr> at 0x1492e6d62880>)
+
+tests_ext/test_masbench_fair_final_v2.py:155: AssertionError
+=========================== short test summary info ============================
+FAILED tests_ext/test_masbench_fair_final_v2.py::test_C08_admission_and_condition_pin
+1 failed, 53 passed in 9.47s

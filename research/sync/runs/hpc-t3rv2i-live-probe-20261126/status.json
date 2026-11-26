@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-t3rv2i-live-probe-20261126",
+  "status": "completed",
+  "started_at": "2026-11-26T03:29:51.252973+00:00",
+  "finished_at": "2026-11-26T03:31:39.344111+00:00",
+  "exit_code": 0,
+  "pid": 40895,
+  "elapsed_seconds": 108.091165,
+  "resource_usage": {
+    "child_max_rss_kib": 4911472,
+    "child_cpu_user_seconds": 16.71537,
+    "child_cpu_system_seconds": 20.882277,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

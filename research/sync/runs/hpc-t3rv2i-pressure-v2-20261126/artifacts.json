@@ -1,0 +1,460 @@
+{
+  "run_id": "hpc-t3rv2i-pressure-v2-20261126",
+  "files": [
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t0/completed.json",
+      "size": 5348,
+      "sha256": "2319398c40490a1fe9c65f0286bec975e76072664ab9f9977144ac44b171b2ba"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t0/request_ready.json",
+      "size": 24175,
+      "sha256": "48bd804dde3038835e2f85ea1443dedd8615faef94a220db08d77cd35f3d6997"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t0/started.json",
+      "size": 364,
+      "sha256": "7bdea925e849d9a31dc623d68c1dc807e124a7776d732992858174382f4a7227"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t1/completed.json",
+      "size": 5345,
+      "sha256": "18ccffbace8f4ff0ca21add65bb0050b5ac8980d19409450838dfc4985322e4a"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t1/request_ready.json",
+      "size": 28373,
+      "sha256": "e827d438ecf83cb4f933ef505cb355c4cb5ba941e14de228b54a3d41f4589eb3"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t1/started.json",
+      "size": 365,
+      "sha256": "5ee41c9a7d3ac9ae4872573dd7e838b1d189ebc0b2369267cd0313838099419f"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t2/completed.json",
+      "size": 5347,
+      "sha256": "02c3ded2ffdafffc3ca4efdea264a521ea33052d80db61abf414b2b83ccd64e7"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t2/request_ready.json",
+      "size": 32669,
+      "sha256": "69a885bbb118fd6814ae9230de5357d2e69348fcc54629ee6464e920abd02b4c"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t2/started.json",
+      "size": 364,
+      "sha256": "4b25a5f572cb61a4d248f88e3da28273be296304146e020010f5e4b188a6d8fb"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t3/completed.json",
+      "size": 5345,
+      "sha256": "742e668222be1086b109f1b2ffaebe2a45dd7ac9206ff1a970c2fb06cbef4326"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t3/request_ready.json",
+      "size": 36867,
+      "sha256": "23674215a561136caecc431d2b4ede68437b7f3a4af09848c731230d65ebcc14"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t3/started.json",
+      "size": 365,
+      "sha256": "6a9b8106f77b4fd12bf8e0198f4f3b7eef4071c1aa61b4664ed5b5e831b81642"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t4/completed.json",
+      "size": 1301,
+      "sha256": "ed6ac5a5f2aeacd001e3187b16ff28a55aa7f1b3297e5bb46ab00f2742e26c19"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t4/request_ready.json",
+      "size": 41168,
+      "sha256": "8d935917c8901f9e2c0666f55a5801bd6d03e43d6df37a66baab1ba74f8a6c30"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t4/started.json",
+      "size": 365,
+      "sha256": "0cc8ebf5ed96659d29760c58a3a0e82862de4dbc72c6aa63a0742ce6f484affd"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t5/completed.json",
+      "size": 1297,
+      "sha256": "efd2b5fd68fca072f00cc8efe5c3ec2f7581d1eaf1d66299891f837cc29887e4"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t5/request_ready.json",
+      "size": 41161,
+      "sha256": "ada9390c7870b38081dff111f58e2615df874ae4138b5d8d84c70dec1e09ca4f"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t5/started.json",
+      "size": 364,
+      "sha256": "750831e463a9dcf44e80af426b9d93794c36c6bf91251cb1c0e6a3930483ba01"
+    },
+    {
+      "path": "outputs/ascii-Full/ledger.jsonl",
+      "size": 27630,
+      "sha256": "2e7e8f4033317685aa4cb890a8d36d557e2785cb157b398b30843bc1e6a5f0d7"
+    },
+    {
+      "path": "outputs/ascii-Full/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t0/completed.json",
+      "size": 5348,
+      "sha256": "219b8759945f0f23150b92deb466fd7b2ecf6e00767068ffd092e29c80db4eca"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t0/request_ready.json",
+      "size": 24175,
+      "sha256": "62d075a85dc16d4d5e9ec559ff6637c1a98f5975b703347306ed298d903457ed"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t0/started.json",
+      "size": 364,
+      "sha256": "67468bbc2050e393a7899d4524d08a0394e9b5d2981ab5d164ff2a883869508c"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t1/completed.json",
+      "size": 5345,
+      "sha256": "2598d88492b4d0677d86b7725a414ad91353b48ea958d2980c07597b40d447a8"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t1/request_ready.json",
+      "size": 24169,
+      "sha256": "56b1d8d4e1993ebc97b13555e36fb7571dbf826b72ac1eee7bd3601cabea1032"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t1/started.json",
+      "size": 364,
+      "sha256": "2af82d5687f088acd544ae402cecfce83fe7709bc5b0e74d3596c022f11f3d10"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t2/completed.json",
+      "size": 5347,
+      "sha256": "185f76ec7ba063120f2984f8148b549a0bef870753adf0fc57556f00ab4131b4"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t2/request_ready.json",
+      "size": 28470,
+      "sha256": "074a2318cf582c252b51e17363244cbf67a9053dd8a437dcceefffdfeaef1696"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t2/started.json",
+      "size": 364,
+      "sha256": "f1f1cab62dd396cb9fbdcc830ce84eab1626a745ea44ab40962d5e27739c5dfc"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t3/completed.json",
+      "size": 5346,
+      "sha256": "13884599fecb7f2c700b4209c2318c8394b7bbbd3cdcd80bbef247ad86cd8fa4"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t3/request_ready.json",
+      "size": 28461,
+      "sha256": "c511b118c5d8a9d5656156cdaf8627bbe5928dc98ec9271b89e995d922dc8945"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t3/started.json",
+      "size": 365,
+      "sha256": "909b1634856d40bad2c29a0620b46b1613c8190dc1eafadb2793eb295fafb453"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t4/completed.json",
+      "size": 1296,
+      "sha256": "b6cb89dadfec3df0253af92bcc1b7adf763befa881185837e614f7c9b03ce214"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t4/request_ready.json",
+      "size": 32768,
+      "sha256": "1af2dd3e1a5e661c8af17901460f70f3c1b1397b58cf342c02308a81e7043de7"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t4/started.json",
+      "size": 364,
+      "sha256": "3601d936d57d4562d0cf790015d121a965e12ed4dc9affadd6e860eb4f4ae01d"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t5/completed.json",
+      "size": 1293,
+      "sha256": "d6d18841ba031565470dbfbbc2b0f2382a3e71a6f794b1bb8153bb01a5069afe"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t5/request_ready.json",
+      "size": 32754,
+      "sha256": "e79a2638873c5998ecdffe99fdbd0733cfdb0b51392c68b639b2948b18cf9abc"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/artifacts/invented-pressure/t5/started.json",
+      "size": 364,
+      "sha256": "80aed0fd661d39c3806f247ed597a1015c3d740d92b231b06e9e6efe24ab7d00"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/ledger.jsonl",
+      "size": 27627,
+      "sha256": "9b4fdd3395d2cdb960c67d769588d359ec0f2400c4c4c37484b25601016361b2"
+    },
+    {
+      "path": "outputs/ascii-No-A2A/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/json_escape-Full/artifacts/invented-pressure/t0/completed.json",
+      "size": 9418,
+      "sha256": "eb8f688034aa960bdc0c0b55eefc58b6e5b819b1fd26c0b593c4ba6f88ae8828"
+    },
+    {
+      "path": "outputs/json_escape-Full/artifacts/invented-pressure/t0/request_ready.json",
+      "size": 24174,
+      "sha256": "ebd2d9945f21a28dc5d0c198b5e58b06736787996d5505018547b9c103ef44d5"
+    },
+    {
+      "path": "outputs/json_escape-Full/artifacts/invented-pressure/t0/started.json",
+      "size": 363,
+      "sha256": "de264a89be4118ff90be8875101e1642d5f14f0e1743ffe7c2733bc82f341ab1"
+    },
+    {
+      "path": "outputs/json_escape-Full/artifacts/invented-pressure/t1/completed.json",
+      "size": 9416,
+      "sha256": "37c7ce97c328a4b504ebe1a8cf60bd6887ef97b28fc77dd8c589085b0e9259d7"
+    },
+    {
+      "path": "outputs/json_escape-Full/artifacts/invented-pressure/t1/request_ready.json",
+      "size": 40587,
+      "sha256": "d05176d3c3fdf20a30619cf04ae377624f5340dd8aa77cc5590ce9b4632f60fb"
+    },
+    {
+      "path": "outputs/json_escape-Full/artifacts/invented-pressure/t1/started.json",
+      "size": 363,
+      "sha256": "99787b064cc30174e9ef0359b2480247d848ad03e614e1519195a73757ab4c0c"
+    },
+    {
+      "path": "outputs/json_escape-Full/artifacts/invented-pressure/t2/completed.json",
+      "size": 9425,
+      "sha256": "90af76fa49e91bd8fc17bfb3dc238ac2b12c13819588d9d1e55dbd70cd8ea622"
+    },
+    {
+      "path": "outputs/json_escape-Full/artifacts/invented-pressure/t2/request_ready.json",
+      "size": 48958,
+      "sha256": "151268a0564fff5a8b5ba052e9aabbb93a250d0bc0e85b6e70b723a099459ad3"
+    },
+    {
+      "path": "outputs/json_escape-Full/artifacts/invented-pressure/t2/started.json",
+      "size": 364,
+      "sha256": "0523cfe5d9f5bc3225eb3e9fd9ae0c12f4f42c98851b52de6ffaa2bf4e251552"
+    },
+    {
+      "path": "outputs/json_escape-Full/ledger.jsonl",
+      "size": 15683,
+      "sha256": "1b108e9377582b625253c7fb2a6c9be69f8921f39074edcd4dd0a2da045d1039"
+    },
+    {
+      "path": "outputs/json_escape-Full/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t0/completed.json",
+      "size": 5346,
+      "sha256": "4d5dbf4ccb307ad390cd747222f55ebe33c64ca6f8d7d78e0426d3413aba52dd"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t0/request_ready.json",
+      "size": 24176,
+      "sha256": "a1a209af3583fb3cb5ba42183dbedc3a0ab2e4bf4d385e391242a9c011e6b212"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t0/started.json",
+      "size": 365,
+      "sha256": "9a207b5aa6db24eb45e2fb2e1fee4a2f650785cd7f0063c8dc3b737c46dd7a8f"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t1/completed.json",
+      "size": 5343,
+      "sha256": "6448e9036e662b4e2de82a16300577db44f09c1156ca2ae8387fbd7bfaa72f31"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t1/request_ready.json",
+      "size": 28371,
+      "sha256": "2b0c66d38e66341f933e528377955c197c126c0f8d26837d2396012582c26aeb"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t1/started.json",
+      "size": 364,
+      "sha256": "1ea178335d286143ef8448996408cdf1f7a388eeb14af3b2c40928c871d18477"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t2/completed.json",
+      "size": 5347,
+      "sha256": "3370ea750a6397e6714a385e29c72919ce423907826529c4c05007f842efe250"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t2/request_ready.json",
+      "size": 32667,
+      "sha256": "c10c4cc8af7691e0511dff7341c1d91ac3070e808f16180d58fa0417860cdf3a"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t2/started.json",
+      "size": 364,
+      "sha256": "470668f87a6faf987cd930e5270f8f730b117d52517c58eb33b7b6548609db32"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t3/completed.json",
+      "size": 5344,
+      "sha256": "11197bf981985957f711a19e217804f9f6407f2ff0d102b121ba4dcd2229abc0"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t3/request_ready.json",
+      "size": 36863,
+      "sha256": "620266cb16b02df1de25ecc6c02e8d3d2483e66a3971346507e5901efa151d73"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t3/started.json",
+      "size": 364,
+      "sha256": "92ecf96c2d307c878bd4a9f6a486681d0418c07d944f0165efb1d7fba52b87d6"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t4/completed.json",
+      "size": 1300,
+      "sha256": "0972577f4b2c2174255d83c148778e740eee81917d86f08df401a8147d6f8680"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t4/request_ready.json",
+      "size": 41163,
+      "sha256": "2eb115bd79289838682488c5e35e1b618d7e46d01e82f88151bfd22f47cf4eca"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t4/started.json",
+      "size": 364,
+      "sha256": "3b5837ef313f3d67f44a03a3f0dd820a3cac227125154688a796a1f2be3c931a"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t5/completed.json",
+      "size": 1297,
+      "sha256": "b764b6726c44f4b36ad701a3a432a8e45dc2c7bdf925485f677c5989417aec05"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t5/request_ready.json",
+      "size": 41157,
+      "sha256": "ccbb12c5b2f3d370fbc27dff1d78aeaf56d96aede05b70038fdd4a87418695d8"
+    },
+    {
+      "path": "outputs/multibyte-Full/artifacts/invented-pressure/t5/started.json",
+      "size": 364,
+      "sha256": "3418126cf63c2e761f8a32aafc922c72d20c94e318672742d46967faa77f4a07"
+    },
+    {
+      "path": "outputs/multibyte-Full/ledger.jsonl",
+      "size": 27630,
+      "sha256": "43d9431ef0cf8fe6fcc58e4a6feb66751f650a4876a407a6be85d60feea0119d"
+    },
+    {
+      "path": "outputs/multibyte-Full/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t0/completed.json",
+      "size": 5346,
+      "sha256": "4f9f7fcec2dd7c376c1660efc932efd2e701feadc2f562a625d97bad8c58354f"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t0/request_ready.json",
+      "size": 24175,
+      "sha256": "83894adacf246aa6c1a26784dfaa0710884b697a9ac8775515439a9490f6d9d6"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t0/started.json",
+      "size": 364,
+      "sha256": "fa16203e59cd34790a075149bc8342f128662088fdcc3f2db8040c59e95318c3"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t1/completed.json",
+      "size": 5345,
+      "sha256": "e33f2ee04b21248b638f4868416d8b34a1a561849a090e49595e0b161bd9a5d8"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t1/request_ready.json",
+      "size": 24169,
+      "sha256": "143cce8dac75c7c9c06c9a0fbeab123fbf22651af761b7c51c910d24d267b854"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t1/started.json",
+      "size": 364,
+      "sha256": "726d47dc34ff926fb12ffc115f5883652a1dcb3b6ff836ba8cd4a2250d337560"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t2/completed.json",
+      "size": 5346,
+      "sha256": "d8c31d56c189b079f3e470b132c4ee6d5243f02b6d56574017882e6e04e16b09"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t2/request_ready.json",
+      "size": 28469,
+      "sha256": "b5ce0f41c3a5338ec66fda8dd062328f88ac92809b5456be63480c16cc0e1088"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t2/started.json",
+      "size": 364,
+      "sha256": "3da32a5def309a8dca2e68e3af3b650cad2ba79f840e8a8c33331b49da572145"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t3/completed.json",
+      "size": 5344,
+      "sha256": "dd1b1e4f11c957a0b7242dd4bf08c4e2c2ea47f248806619f00ce000b725bead"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t3/request_ready.json",
+      "size": 28459,
+      "sha256": "d4200e75d8a3a21dcd9617f6b876f4a0349419bb0eef24bf353319f6a7dcb605"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t3/started.json",
+      "size": 364,
+      "sha256": "e899a88293579688aa353672cff00949a8681683b1731727d27f0573f4a6ab0b"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t4/completed.json",
+      "size": 1295,
+      "sha256": "541dc2f95ae40b214875fd70ef811a541aecebbf60cfed572e2c301364c9542b"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t4/request_ready.json",
+      "size": 32766,
+      "sha256": "ea5b880eeddfe343619c8479f19a984a5435493c8802ed32ed766df89ca0db1b"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t4/started.json",
+      "size": 364,
+      "sha256": "da4b671d4bc8375eeb47f7603e0c6b9699efd5ff1571fa80a65591812eced44d"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t5/completed.json",
+      "size": 1294,
+      "sha256": "ef31bf2551ff45ac1b642375786e5c6cf507f4477dac835e679a77520dadbec6"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t5/request_ready.json",
+      "size": 32753,
+      "sha256": "de37821082590276a780c2fee85a66cd8141221cd393931cbf3f5ffd2d0b293e"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/artifacts/invented-pressure/t5/started.json",
+      "size": 365,
+      "sha256": "c81ed8974cc64ca2f2443154006b95e46c2f83b76358d5dedd6110334d27bb18"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/ledger.jsonl",
+      "size": 27626,
+      "sha256": "e4f6774b0c0d72788d45de4facca98b18cb4081ae8b415677906af722c7ad24e"
+    },
+    {
+      "path": "outputs/multibyte-No-A2A/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

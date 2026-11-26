@@ -1,0 +1,127 @@
+{
+  "schema": "t3rv2-deployment-probe-candidate-v1",
+  "approved": false,
+  "date": "2026-11-26 Asia/Shanghai",
+  "scope": "two artificial service probes only; no task records or capability evaluation",
+  "run_id_candidate": "hpc-t3rv2-deployment-probe-20261126",
+  "release_prerequisites": [
+    "SSD >= 64MiB and HDD >= 256MiB available personal quota",
+    "new independent live adapter and D01-D12 passed",
+    "resource hard isolation evidence or explicit approved monitoring-contract revision",
+    "current idle service PID/start stamp and all source/plan/protocol SHAs bound in a new approval"
+  ],
+  "runtime": {
+    "model": "qwen2.5:7b",
+    "service": "0.11.11",
+    "context": 16384,
+    "baseline_context": 1024,
+    "temperature": 0,
+    "stream": false,
+    "retries": 0,
+    "max_output": 512
+  },
+  "cases": [
+    {
+      "id": "deploy-short",
+      "role": "Alice",
+      "turn": "t0",
+      "stage": "exchange",
+      "question": "What colour is the synthetic parcel?",
+      "information": "The synthetic parcel is blue."
+    },
+    {
+      "id": "deploy-long",
+      "role": "Alice",
+      "turn": "t0",
+      "stage": "exchange",
+      "question": "What colour is the synthetic parcel?",
+      "information_repeat_literal": "This synthetic note concerns a blue parcel.\n",
+      "information_repeat_count": 900,
+      "required_exact_input_tokens_min_exclusive": 1024
+    }
+  ],
+  "input_contract": {
+    "system_asset": "extensions/masbench_reasoning/fair_final_v2_prompt.txt",
+    "system_template_sha256": "00c91af181b4bcedf62acbfee2ab77b8555392d07a52196d3878936d4a375fb4",
+    "constructor": "literal serialization of existing v2-I LOCAL_TASK/PUBLIC_CLOCK specification; exact Agent.request(t0) equality must be tested on HPC before release",
+    "request_assets": "research/logs/masbench-t3rv2-deployment-2026-11-26/probe_inputs.json",
+    "request_assets_sha256": "9a1c1191f1a41a70f24c787f8698cec354ea78fbc0afc9d6366b2f2188cb104a",
+    "input_max_each": 15872,
+    "input_reserve_total": 31744,
+    "output_reserve_total": 1024,
+    "no_truncation_or_input_repair": true
+  },
+  "generation_attempts": 2,
+  "counter_invocations": 2,
+  "counter_hard_as_bytes": 2147483648,
+  "counter_seconds_each": 20,
+  "http_caps": {
+    "generation": 2,
+    "render": 2,
+    "get": 8,
+    "cleanup_get": 14,
+    "unload": 2,
+    "lifecycle_get": 128
+  },
+  "total_http_attempts": 156,
+  "start_calls_max": 2,
+  "stop_calls_max": 2,
+  "seconds": {
+    "prepare": 300,
+    "generate": 360,
+    "cleanup": 80,
+    "lifecycle_including_weight_sha": 600,
+    "application": 120,
+    "independent_audit": 120,
+    "full_transfer": 300,
+    "failure_reserve": 120,
+    "total": 2000
+  },
+  "storage_bytes": {
+    "ssd_new": 33554432,
+    "hdd_new": 134217728,
+    "service_log": 16777216,
+    "control": 8388608,
+    "emergency_index": 1048576,
+    "other_hdd": 108003328,
+    "full_pull_cap": 167772160
+  },
+  "resources": {
+    "cpu_cores_max": 2,
+    "workers": 1,
+    "driver_tree_bytes": 2147483648,
+    "service_tree_bytes": 17179869184,
+    "gpu_bytes": 17179869184,
+    "hard_isolation": "not verified; monitoring alternative requires explicit approval"
+  },
+  "failures": {
+    "stop_whole_stage": true,
+    "unknown_usage_refund": false,
+    "rerun": false,
+    "extra_generation": false,
+    "cleanup": "one attempt in the already-owned epoch only",
+    "rollback": "only verified own idle service; unknown lease remains fenced"
+  },
+  "future_task_stage_separate_approval": {
+    "families": 4,
+    "episodes": 8,
+    "task_generations": 48,
+    "additional_synthetic_generations": 0,
+    "http_attempts": 440,
+    "wall_seconds": 18360,
+    "status": "not released before real deployment passes"
+  },
+  "both_true_stages_parent_caps_candidate": {
+    "generations": 50,
+    "http_attempts": 596,
+    "wall_seconds": 20360,
+    "input_reserve_tokens": 793600,
+    "output_reserve_tokens": 25600,
+    "lifecycle_get": 256,
+    "start_calls": 4,
+    "stop_calls": 4,
+    "approved": false,
+    "clock_release": "UNRESOLVED: strict continuous parent deadline includes approval waiting; staged active-time alternative requires explicit revision, no execution release"
+  },
+  "identity_sha_bindings": "pending new adapter, contract receipt, current PID and plan freeze; old T3 authorization forbidden"
+}

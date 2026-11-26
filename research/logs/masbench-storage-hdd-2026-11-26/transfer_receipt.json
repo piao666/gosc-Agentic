@@ -1,0 +1,46 @@
+{
+  "kind": "administrative evidence transfer; not hpc_runs test receipt",
+  "date": "2026-11-26 Asia/Shanghai",
+  "all_five_management_files_mirrored": true,
+  "archive_contents_mirrored": false,
+  "archive_contents_location": "HPC HDD retained, intentionally not downloaded",
+  "files": [
+    {
+      "hpc_path": "/hdd/u202520081000097/gosc-admin-archives/20261126-deployment-admission/migration_plan.json",
+      "local_path": "research/logs/masbench-storage-hdd-2026-11-26/migration_plan.json",
+      "bytes": 347372,
+      "sha256": "0ef6092faf2cc5654569f2e5c3df82ea22e5f736df6fb916778c1398bb423328",
+      "matches": true
+    },
+    {
+      "hpc_path": "/hdd/u202520081000097/gosc-admin-archives/20261126-deployment-admission/copy_verified.json",
+      "local_path": "research/logs/masbench-storage-hdd-2026-11-26/copy_verified.json",
+      "bytes": 160,
+      "sha256": "13a0647cc793821f3d1b7b5d0c3f9f79f0726b0449a7ae643fcc27a2ef4dcdfc",
+      "matches": true
+    },
+    {
+      "hpc_path": "/hdd/u202520081000097/gosc-admin-archives/20261126-deployment-admission/migration_receipt.json",
+      "local_path": "research/logs/masbench-storage-hdd-2026-11-26/migration_receipt.json",
+      "bytes": 3282,
+      "sha256": "ea124312b64cb9ef1e37c92b387e5cbf63715d06378512a1070c4fffc09715bc",
+      "matches": true
+    },
+    {
+      "hpc_path": "/hdd/u202520081000097/gosc-admin-archives/20261126-deployment-admission/removal_journal.jsonl",
+      "local_path": "research/logs/masbench-storage-hdd-2026-11-26/removal_journal.jsonl",
+      "bytes": 241470,
+      "sha256": "ee68180ff3ef0ac9250e55202cac7d9b860b461ed4221a9cc367d21432a62973",
+      "matches": true
+    },
+    {
+      "hpc_path": "/hdd/u202520081000097/gosc-admin-archives/20261126-deployment-admission/independent_readback.json",
+      "local_path": "research/logs/masbench-storage-hdd-2026-11-26/independent_readback.json",
+      "bytes": 1773,
+      "sha256": "27b06c1203e4eac4cb92290a24bb7c11cf3bc5c0cc763902d8f3af0ea21aa43f",
+      "matches": true
+    }
+  ],
+  "total_downloaded_original_bytes": 594057,
+  "new_model_calls": 0
+}

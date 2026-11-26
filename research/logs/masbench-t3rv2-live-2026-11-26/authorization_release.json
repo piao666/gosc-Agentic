@@ -1,0 +1,60 @@
+{
+  "schema": "t3rv2-synthetic-live-approval-v1",
+  "approved": true,
+  "scope": "T3-R-v2 two immutable artificial service probes only",
+  "run_id": "hpc-t3rv2i-live-probe-20261126",
+  "generation_cap": 2,
+  "task_generation_cap": 0,
+  "monitoring_approved": true,
+  "context": 16384,
+  "http_caps": {
+    "generation": 2,
+    "render": 2,
+    "get": 8,
+    "cleanup_get": 14,
+    "unload": 2,
+    "lifecycle_get": 128
+  },
+  "wall_seconds": 2000,
+  "max_output": 512,
+  "helper_attempts": 2,
+  "protocol_sha256": "113c809f41d1a55f18e1fb02e3b3c198d770538397aff53e6caf7da8603bd929",
+  "registry_sha256": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86",
+  "baseline_pid": 42172,
+  "baseline_stamp": "4966705858",
+  "contract_receipt": "research/sync/runs/hpc-t3rv2i-live-contract-v2-20261126/outputs/contract.json",
+  "contract_sha256": "015e85507300ee7d1ff62eb89f835f3105c727dfc671dc2f8574e3e43354bcd0",
+  "bound_files": {
+    "experiments_ext/masbench_t3rv2_live_contract.py": "f0744c50bb16779ef87aa9234f2dea14c37a978d82afb642e2be4fd6db8da41f",
+    "experiments_ext/masbench_t3rv2_live_probe.py": "a64eea5844d08b226ca60ee2065f000fdf2cb0a4effc36ecfed7525ced4115bb",
+    "experiments_ext/masbench_t3rv2i_register.py": "703ac1f7a5a17001d503a5a125c6f17626695b05723d415f3e6cda8b2d6aec32",
+    "extensions/masbench_reasoning/application.py": "a369f4d134e50984f69a92fa243449069849cef7c97142953dfb7cf27e801b78",
+    "extensions/masbench_reasoning/client.py": "3c236505a3db6283cdc3201ecef6e31e26e7aa552670777ce082c428f9f983fd",
+    "extensions/masbench_reasoning/execution_safety.py": "3fe213773b0c1a94e27afaccc2e68156e17181690dcb20e8b33a45668a8dc7de",
+    "extensions/masbench_reasoning/fair_final_v2.py": "e4b87f56938f31a19a09a880de01fd6fc9c1a7274f52ff8f2423bc902a719e39",
+    "extensions/masbench_reasoning/fair_final_v2_guard.py": "d6272d74fefc36870a32c19ec053a2701b24f1accc511a276dd80ed158307c99",
+    "extensions/masbench_reasoning/fair_final_v2_live.py": "b2c5a921c2b9f2676fd308af913b13127a575fe8571e1d30c0f2e0a5d8728d89",
+    "extensions/masbench_reasoning/fair_final_v2_prompt.txt": "00c91af181b4bcedf62acbfee2ab77b8555392d07a52196d3878936d4a375fb4",
+    "extensions/masbench_reasoning/fair_final_v2_runtime.py": "c7382a062880ca55f41406c47477d2dff18bd75e93643c81b66909f987b7dc12",
+    "extensions/masbench_reasoning/fixture_driver.py": "bf0e8737cb7c7ef1c0e08253742d247714c23eb1257e6e42c40ce8d37c2fcc41",
+    "extensions/masbench_reasoning/live_driver.py": "c1d45e01d58a048db1b82ffeaee67cb34d2520cf29adfadbd5a33a2190a4afa1",
+    "extensions/masbench_reasoning/wire.py": "1504e95b20fe5fb8af0a9fb3fafd43356f852ea7274f280edcfe5ba1f080e17f",
+    "research/logs/masbench-t3rv2-deployment-2026-11-26/probe_inputs.json": "e5fc5904d18f089c62f5574d45aac842e8a24011ff7233ba1841a46461295c2e",
+    "research/protocols/masbench_t3rv2_live_budget_2026-11-26.md": "113c809f41d1a55f18e1fb02e3b3c198d770538397aff53e6caf7da8603bd929",
+    "research/protocols/masbench_t3rv2_live_plan_2026-11-26.json": "f9e0cecb21c81f4c12f4b0cc642a66e27224cbc37d104ee074b808f381b390eb",
+    "scripts/hpc_ollama.py": "f3afc556d9b47f64351e22988ea120ef84df1c5373175e0ca77aecc69af48bba",
+    "tests_ext/test_masbench_t3rv2_live.py": "3894efc0a6a8140db7d860a97a36da3b7fcd6de30066656fab3da835207bc149"
+  },
+  "user_authorization": {
+    "real_validation": "完成真实部署和真实模型验证。",
+    "resource_revision": "接受该监测停止合同，继续有界合成真实验证",
+    "question_call": "call_66ce45b43aab4601b7ff10059e9794cf"
+  },
+  "restrictions": [
+    "two fixed artificial requests only",
+    "no retries or replacement",
+    "no real MASBench records",
+    "no T4/training/calibration/heldout",
+    "no Git commit/push"
+  ]
+}

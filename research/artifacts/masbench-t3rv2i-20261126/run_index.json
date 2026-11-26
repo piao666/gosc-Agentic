@@ -1,0 +1,243 @@
+{
+  "runs": [
+    {
+      "run_id": "hpc-t3rv2i-contract-20261126",
+      "status": "failed",
+      "exit_code": 1,
+      "wall_seconds": 11.153242,
+      "resource_usage": {
+        "child_max_rss_kib": 53860,
+        "child_cpu_user_seconds": 2.058961,
+        "child_cpu_system_seconds": 2.72946,
+        "peak_gpu_memory": null
+      },
+      "git_commit": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "source_sync_id": "20261126T014239Z",
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "120s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "-m",
+        "experiments_ext.masbench_t3r_v2_contract"
+      ],
+      "source_changes_scope": null,
+      "manifest_sha256": "858447834016b2a8487d2bc6b76263f61dd541e623a349f926ba1af52114051b"
+    },
+    {
+      "run_id": "hpc-t3rv2i-contract-v2-20261126",
+      "status": "completed",
+      "exit_code": 0,
+      "wall_seconds": 9.869166,
+      "resource_usage": {
+        "child_max_rss_kib": 54008,
+        "child_cpu_user_seconds": 1.8230439999999999,
+        "child_cpu_system_seconds": 2.610146,
+        "peak_gpu_memory": null
+      },
+      "git_commit": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "source_sync_id": "20261126T014515Z",
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "120s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "-m",
+        "experiments_ext.masbench_t3r_v2_contract"
+      ],
+      "source_changes_scope": null,
+      "manifest_sha256": "e0c0232c921ff02377e3b788f123b44edd3877b13dc3db275bdc24aecc727dbc"
+    },
+    {
+      "run_id": "hpc-t3rv2i-legacy-20261126",
+      "status": "completed",
+      "exit_code": 0,
+      "wall_seconds": 1.29243,
+      "resource_usage": {
+        "child_max_rss_kib": 52876,
+        "child_cpu_user_seconds": 0.885759,
+        "child_cpu_system_seconds": 0.31182899999999997,
+        "peak_gpu_memory": null
+      },
+      "git_commit": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "source_sync_id": "20261126T014515Z",
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "60s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "-m",
+        "experiments_ext.masbench_t3r_v2_contract",
+        "--legacy"
+      ],
+      "source_changes_scope": null,
+      "manifest_sha256": "8ab6ce32c4887e0d1b0476810384d216bb2e8b0849dcd664894722b6977c8cab"
+    },
+    {
+      "run_id": "hpc-t3rv2i-pressure-20261126",
+      "status": "failed",
+      "exit_code": 1,
+      "wall_seconds": 0.330209,
+      "resource_usage": {
+        "child_max_rss_kib": 54020,
+        "child_cpu_user_seconds": 0.459648,
+        "child_cpu_system_seconds": 0.21620499999999998,
+        "peak_gpu_memory": null
+      },
+      "git_commit": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "source_sync_id": "20261126T014515Z",
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "60s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "-m",
+        "experiments_ext.masbench_t3r_v2_pressure",
+        "--vocab-only"
+      ],
+      "source_changes_scope": null,
+      "manifest_sha256": "54c2da170c1ad8fec7d95ea4e312ea416f2f68800bcbb8a14b767a69027dc0b2"
+    },
+    {
+      "run_id": "hpc-t3rv2i-pressure-v2-20261126",
+      "status": "failed",
+      "exit_code": 1,
+      "wall_seconds": 1.640527,
+      "resource_usage": {
+        "child_max_rss_kib": 53976,
+        "child_cpu_user_seconds": 0.832378,
+        "child_cpu_system_seconds": 0.46269899999999997,
+        "peak_gpu_memory": null
+      },
+      "git_commit": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "source_sync_id": "20261126T014515Z",
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "59s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "-m",
+        "experiments_ext.masbench_t3r_v2_pressure",
+        "--vocab-only"
+      ],
+      "source_changes_scope": null,
+      "manifest_sha256": "b663a7e29ab393c64e4cbc5e041346b460266e8e78e377e54e45a33dc28dbfc3"
+    },
+    {
+      "run_id": "hpc-t3rv2i-pressure-v3-20261126",
+      "status": "failed",
+      "exit_code": 1,
+      "wall_seconds": 2.005989,
+      "resource_usage": {
+        "child_max_rss_kib": 58816,
+        "child_cpu_user_seconds": 0.928109,
+        "child_cpu_system_seconds": 0.527658,
+        "peak_gpu_memory": null
+      },
+      "git_commit": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "source_sync_id": "20261126T015248Z",
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "57s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "-m",
+        "experiments_ext.masbench_t3r_v2_pressure",
+        "--vocab-only"
+      ],
+      "source_changes_scope": null,
+      "manifest_sha256": "d0b08513944a0bb09a77a950b6fc09ce634d88bf18dd8dedaaa9fe092ea8570a"
+    },
+    {
+      "run_id": "hpc-t3rv2i-pressure-summary-20261126",
+      "status": "completed",
+      "exit_code": 0,
+      "wall_seconds": 0.160858,
+      "resource_usage": {
+        "child_max_rss_kib": 25908,
+        "child_cpu_user_seconds": 0.22483199999999998,
+        "child_cpu_system_seconds": 0.11765199999999999,
+        "peak_gpu_memory": null
+      },
+      "git_commit": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "source_sync_id": "20261126T020919Z",
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "10s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "-m",
+        "experiments_ext.masbench_t3r_v2_pressure_summary",
+        "--pressure-run",
+        "hpc-t3rv2i-pressure-v3-20261126"
+      ],
+      "source_changes_scope": "all worktree source except declared HPC-owned runtime lane",
+      "manifest_sha256": "c7b9f705b2de2df105b076f9942a2deb74d059390d903aaad8b4ee89dcae1f4e"
+    },
+    {
+      "run_id": "hpc-t3rv2i-counter-v2-20261126",
+      "status": "completed",
+      "exit_code": 0,
+      "wall_seconds": 2.22915,
+      "resource_usage": {
+        "child_max_rss_kib": 73272,
+        "child_cpu_user_seconds": 0.97642,
+        "child_cpu_system_seconds": 0.243632,
+        "peak_gpu_memory": null
+      },
+      "git_commit": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "source_sync_id": "20261126T020919Z",
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "40s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "-m",
+        "experiments_ext.masbench_t3r_v2_counter_recheck"
+      ],
+      "source_changes_scope": "all worktree source except declared HPC-owned runtime lane",
+      "manifest_sha256": "d4ceb87cb797e678f6df5262da076b43dd5852f8411d000b66d1b9101c180921"
+    },
+    {
+      "run_id": "hpc-t3rv2i-audit-20261126",
+      "status": "completed",
+      "exit_code": 0,
+      "wall_seconds": 1.332291,
+      "resource_usage": {
+        "child_max_rss_kib": 38284,
+        "child_cpu_user_seconds": 1.368684,
+        "child_cpu_system_seconds": 0.10684099999999999,
+        "peak_gpu_memory": null
+      },
+      "git_commit": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "source_sync_id": "20261126T020919Z",
+      "command": [
+        "timeout",
+        "--kill-after=2s",
+        "30s",
+        "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+        "-m",
+        "experiments_ext.masbench_t3r_v2_audit",
+        "--contract-run",
+        "hpc-t3rv2i-contract-v2-20261126",
+        "--legacy-run",
+        "hpc-t3rv2i-legacy-20261126",
+        "--pressure-summary-run",
+        "hpc-t3rv2i-pressure-summary-20261126",
+        "--counter-recheck-run",
+        "hpc-t3rv2i-counter-v2-20261126",
+        "--baseline",
+        "research/logs/masbench-t3rv2i-2026-11-25/frozen_baseline.json"
+      ],
+      "source_changes_scope": "all worktree source except declared HPC-owned runtime lane",
+      "manifest_sha256": "2c0d4b83f95331b296afc6f154dfe11a52735df977432f7c4f67c8eb90f52da8"
+    }
+  ],
+  "registered_wall_seconds": 30.013862,
+  "registered_child_cpu_seconds": 16.883957,
+  "scope": "runner command execution and child metadata only, not total human/admin/sync time",
+  "real_model_calls": 0,
+  "receipts": "20261126-t3rv2i-206d68da03.json",
+  "original_artifacts_verified": 259,
+  "all_outputs_mirrored": true
+}

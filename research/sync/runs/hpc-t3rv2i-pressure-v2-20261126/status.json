@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-t3rv2i-pressure-v2-20261126",
+  "status": "failed",
+  "started_at": "2026-11-26T01:51:53.389606+00:00",
+  "finished_at": "2026-11-26T01:51:55.030115+00:00",
+  "exit_code": 1,
+  "pid": 35063,
+  "elapsed_seconds": 1.640527,
+  "resource_usage": {
+    "child_max_rss_kib": 53976,
+    "child_cpu_user_seconds": 0.832378,
+    "child_cpu_system_seconds": 0.46269899999999997,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

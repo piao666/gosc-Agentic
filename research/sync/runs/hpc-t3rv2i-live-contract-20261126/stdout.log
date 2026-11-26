@@ -1,0 +1,35 @@
+...................F..........                                           [100%]
+=================================== FAILURES ===================================
+___________ test_D06_independent_six_slots_match_frozen_entry[Full] ____________
+
+tmp_path = PosixPath('/hdd/u202520081000097/gosc-t3rv2-contracts/hpc-t3rv2i-live-contract-20261126/pytest-tmp/test_D06_independent_six_slots0')
+condition = 'Full'
+
+    @pytest.mark.parametrize('condition',['Full','No-A2A'])
+    def test_D06_independent_six_slots_match_frozen_entry(tmp_path,condition):
+        outputs=['Alice: MESSAGE\n<R>Alpha is red.</R>','Bob: MESSAGE\n<R>Beta is blue.</R>',
+                 'Alice: MESSAGE\n<R>Alpha is red.</R>','Bob: MESSAGE\n<R>Beta is blue.</R>',
+                 'Alice: FINAL\n<E>LOCAL</E>\n<A>PRIVATE_ALPHA_FINAL</A>',
+                 'Bob: FINAL\n<E>LOCAL</E>\n<A>PRIVATE_BETA_FINAL</A>']
+        views=[PrivateView('Alice','Bob','Artificial question','PRIVATE_ALPHA'),
+               PrivateView('Bob','Alice','Artificial question','PRIVATE_BETA')]
+        results=[]
+        for i,entry in enumerate((frozen.run_episode,newapp.run_episode)):
+            plan=[dict(id='e',family='artificial',condition=condition,partition='task')]
+            with FairLedger(tmp_path/str(i),plan) as l:
+                d=FixtureDriver(l,outputs)
+                r=entry(views,d,condition,'e');assert r['completed'];results.append(r)
+        for key in ('memory','received_sources','finals','wire_totals','accounting'):
+>           assert results[0][key]==results[1][key]
+E           AssertionError: assert {'wire_bytes'...es': 136, ...} == {'wire_bytes'...es': 136, ...}
+E             
+E             Omitting 5 identical items, use -vv to show
+E             Differing items:
+E             {'cpu_process_ns': 968387} != {'cpu_process_ns': 891618}
+E             Use -v to get more diff
+
+tests_ext/test_masbench_t3rv2_live.py:108: AssertionError
+=========================== short test summary info ============================
+FAILED tests_ext/test_masbench_t3rv2_live.py::test_D06_independent_six_slots_match_frozen_entry[Full]
+1 failed, 29 passed in 1.48s
+{"passed": false, "tests": 30, "labels": {"D01": 6, "D02": 1, "D03": 6, "D04": 4, "D05": 2, "D06": 1, "D07": 1, "D08": 1, "D09": 2, "D10": 1, "D11": 3, "D12": 1}}

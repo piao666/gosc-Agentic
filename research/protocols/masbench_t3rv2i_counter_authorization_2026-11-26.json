@@ -1,0 +1,23 @@
+{
+  "schema": "t3rv2i-single-vocab-counter-resource-authorization-v2",
+  "approved": true,
+  "user_confirmation": "批准这1次计数及2GiB AS修订",
+  "question_call_id": "call_85b74b42d4e644eaaceddc0a601dac02",
+  "run_id": "hpc-t3rv2i-counter-v2-20261126",
+  "additional_helper_attempts": 1,
+  "source_pressure_run": "hpc-t3rv2i-pressure-v3-20261126",
+  "input_sha256": "f74a175d813aa004fa2135a13799e95575b3c68b6c443f7901bea6be3c4da0c2",
+  "synthetic_requests_sha256": "55eb321df2acde7171562910fb0f05e4fb855e196ce7ec8fe8861f02b1e46c6d",
+  "helper_sha256": "e4d2da192c9bfcf126462eddfa2a8b8519b9d8293ff47bf500007ca2d82a66d5",
+  "per_process_hard_AS_bytes": 2147483648,
+  "RSS_observation_stop_bytes": 536870912,
+  "RSS_is_hard_limit": false,
+  "helper_timeout_seconds": 20,
+  "count_only_registered_wall_seconds": 40,
+  "independent_recheck_seconds": 30,
+  "existing_total_wall_cpu_and_storage_caps_unchanged": true,
+  "real_model_calls": 0,
+  "service_requests": 0,
+  "additional_fake_generations": 0,
+  "stop_after_any_failure": true
+}

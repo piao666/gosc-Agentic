@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-t3rv2i-live-postaudit-20261126",
+  "files": [
+    {
+      "path": "outputs/audit.json",
+      "size": 1552,
+      "sha256": "daaf841c99843248b280df5a0d060784e22de4ed07ef5257c48cc7cfa032b89b"
+    }
+  ]
+}

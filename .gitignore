@@ -45,3 +45,7 @@ research/sync/*.partial-*
 /research/sync/receipts/20261125T*-t3-*-scoped.json
 /research/sync/runs/hpc-masbench-t2*-20261125/source_snapshot.json
 /research/sync/runs/hpc-masbench-t3*-20261125/source_snapshot.json
+# Nov26 fair-final rounds: full source inventories and transfer receipts stay
+# on HPC/local; the public archive carries SHA-bound compact indexes.
+/research/sync/runs/hpc-t3rv2i-*/source_snapshot.json
+/research/sync/receipts/20261126-t3rv2*.json

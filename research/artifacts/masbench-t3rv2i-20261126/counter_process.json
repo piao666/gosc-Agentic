@@ -1,0 +1,11 @@
+{
+  "pid": 36425,
+  "returncode": 0,
+  "elapsed_seconds": 2.0367299020290375,
+  "peak_RSS_observed_bytes": 75030528,
+  "hard_AS_bytes": 2147483648,
+  "failure": null,
+  "model_inference": false,
+  "raw_stdout_sha256": "89100991863c06172981e4020568cb6819190caf7d434f4487e0de7718567abc",
+  "raw_stdout_bytes": 2175709
+}

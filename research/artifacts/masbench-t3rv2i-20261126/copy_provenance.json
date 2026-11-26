@@ -1,0 +1,44 @@
+[
+  {
+    "source": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/contract_results.json",
+    "copy": "research/artifacts/masbench-t3rv2i-20261126/contract_results.json",
+    "sha256": "3b76a493df61f9c30b1fae879337b6d8dee727acc3e2ad2902476d4473e53bce",
+    "bytes": 77407
+  },
+  {
+    "source": "research/sync/runs/hpc-t3rv2i-legacy-20261126/outputs/legacy_results.json",
+    "copy": "research/artifacts/masbench-t3rv2i-20261126/legacy_results.json",
+    "sha256": "2903eac6fa59912ea959e143f84021acd918dd0204e859f38558b5f44bd8ff1b",
+    "bytes": 48472
+  },
+  {
+    "source": "research/sync/runs/hpc-t3rv2i-audit-20261126/outputs/independent_audit.json",
+    "copy": "research/artifacts/masbench-t3rv2i-20261126/independent_audit.json",
+    "sha256": "2ebb055b227ccb364d90eefcc0bda6f89080e29933136a8e52432fba75398f33",
+    "bytes": 3766
+  },
+  {
+    "source": "research/sync/runs/hpc-t3rv2i-pressure-summary-20261126/outputs/pressure_summary.json",
+    "copy": "research/artifacts/masbench-t3rv2i-20261126/pressure_summary.json",
+    "sha256": "fe28e4723fe0123fc8121dcbe730267253440c81c6a87f472bd6acf1e790f44e",
+    "bytes": 8456
+  },
+  {
+    "source": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/outputs/counter_recheck.json",
+    "copy": "research/artifacts/masbench-t3rv2i-20261126/counter_recheck.json",
+    "sha256": "3f0b37a71049e55e66bd6c27f6a91ff9d8b8c7f485516e7b3d164d8a5d05c35b",
+    "bytes": 10783
+  },
+  {
+    "source": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/outputs/process.json",
+    "copy": "research/artifacts/masbench-t3rv2i-20261126/counter_process.json",
+    "sha256": "3348b66a0031e3fe1cfd17169d4d383931e5c600fda82fcc255d889888283ea6",
+    "bytes": 318
+  },
+  {
+    "source": "research/sync/receipts/20261126-t3rv2i-206d68da03.json",
+    "copy": "research/artifacts/masbench-t3rv2i-20261126/scoped_receipt.json",
+    "sha256": "07417d06ac74c47a2aa0646927df84407011075c1ed295b7ef7ab68ee4e0ca2d",
+    "bytes": 42111
+  }
+]

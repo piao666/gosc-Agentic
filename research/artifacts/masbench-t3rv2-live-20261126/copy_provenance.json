@@ -1,0 +1,26 @@
+[
+  {
+    "source": "research/sync/runs/hpc-t3rv2i-live-contract-v3-20261126/outputs/contract.json",
+    "copy": "research/artifacts/masbench-t3rv2-live-20261126/contract.json",
+    "sha256": "0b40a03b905503e670093c1769d5b523aca1f6eb23e22107e18d543b6bd82b48",
+    "bytes": 4202
+  },
+  {
+    "source": "research/sync/runs/hpc-t3rv2i-live-probe-20261126/outputs/summary.json",
+    "copy": "research/artifacts/masbench-t3rv2-live-20261126/live_summary.json",
+    "sha256": "179be8d79d21c1b8fe5c33e0700cd29562dac970b3a583901d67bd342ad31d72",
+    "bytes": 5152
+  },
+  {
+    "source": "research/sync/runs/hpc-t3rv2i-live-postaudit-20261126/outputs/audit.json",
+    "copy": "research/artifacts/masbench-t3rv2-live-20261126/independent_audit.json",
+    "sha256": "daaf841c99843248b280df5a0d060784e22de4ed07ef5257c48cc7cfa032b89b",
+    "bytes": 1552
+  },
+  {
+    "source": "research/logs/masbench-t3rv2-live-2026-11-26/run_index.json",
+    "copy": "research/artifacts/masbench-t3rv2-live-20261126/run_index.json",
+    "sha256": "a01128fcf9a206fb6d48241fa7bda4693639293c798c90dc66893ecb62be7146",
+    "bytes": 2365
+  }
+]

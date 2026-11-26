@@ -1,0 +1,408 @@
+{
+  "previous_files": [
+    {
+      "path": "experiments_ext/masbench_t3r_v2_audit.py",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t3r_v2_contract.py",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t3r_v2_counter_recheck.py",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t3r_v2_pressure.py",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t3r_v2_pressure_summary.py",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t3rv2i_register.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/fair_final_v2.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/fair_final_v2_guard.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/fair_final_v2_prompt.txt",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/fair_final_v2_scoring.py",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/contract_results.json",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/copy_provenance.json",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/counter_process.json",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/counter_recheck.json",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/independent_audit.json",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/legacy_results.json",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/pressure_summary.json",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/README.md",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/run_index.json",
+      "matches": true
+    },
+    {
+      "path": "research/artifacts/masbench-t3rv2i-20261126/scoped_receipt.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/acceptance_matrix.md",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/acceptance_matrix_2026-11-25_pending.md",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/closeout_2026-11-26.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/collect_hpc_runs.py",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/continuation_2026-11-26.md",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/delivery_check_2026-11-26.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/delivery_manifest_2026-11-25_pending.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/frozen_baseline.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/hpc-management/fetch-failure.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/hpc-management/git-reconcile-receipt.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/hpc-management/pytest-preservation.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/hpc-management/source-byte-dedup.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/local_closeout.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/README.md",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/reconcile_hpc_git.py",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/reconcile_hpc_git_delta.py",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/task_brief.md",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2i-2026-11-25/task_log.md",
+      "matches": true
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2i_counter_authorization_2026-11-26.json",
+      "matches": true
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2i_counter_budget_revision_v2_2026-11-26.md",
+      "matches": true
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2i_model_free_budget_v1_2026-11-25.json",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3rv2i_implementation_acceptance_2026-11-25.md",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3rv2i_implementation_acceptance_2026-11-26.md",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3rv2i_legacy_protection_2026-11-25.md",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3rv2i_legacy_protection_2026-11-26.md",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3rv2i_pressure_resources_2026-11-25.md",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3rv2i_pressure_resources_2026-11-26.md",
+      "matches": true
+    },
+    {
+      "path": "tests_ext/test_masbench_fair_final_v2.py",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/admission_matrix.md",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/delivery_check.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/experiment_manifest.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/hpc_readonly_inventory.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/probe_inputs.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/protection_check.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/README.md",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/readonly_inventory.py",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/task_brief.md",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/task_log.md",
+      "matches": true
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2_deployment_admission_v1_2026-11-26.md",
+      "matches": true
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2_deployment_probe_candidate_2026-11-26.json",
+      "matches": true
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2_deployment_remediation_request_2026-11-26.md",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3rv2_deployment_admission_2026-11-26.md",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/copy_verified.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/delivery_check.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/hpc_receipt_sha256.txt",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/independent_readback.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/independent_readback_stdout.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/inspection_before.txt",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/migration_plan.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/migration_receipt.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/migration_stdout.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/protection_check.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/README.md",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/relocate_archives.py",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/removal_journal.jsonl",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/task_brief.md",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/task_log.md",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/transfer_receipt.json",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-storage-hdd-2026-11-26/verify_archive.py",
+      "matches": true
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2_hdd_storage_policy_v1_2026-11-26.md",
+      "matches": true
+    },
+    {
+      "path": "research/reports/masbench_t3rv2_storage_resolution_2026-11-26.md",
+      "matches": true
+    }
+  ],
+  "live_source_bindings": [
+    {
+      "path": "experiments_ext/masbench_t3rv2_live_contract.py",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t3rv2_live_probe.py",
+      "matches": true
+    },
+    {
+      "path": "experiments_ext/masbench_t3rv2i_register.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/application.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/client.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/execution_safety.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/fair_final_v2.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/fair_final_v2_guard.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/fair_final_v2_live.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/fair_final_v2_prompt.txt",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/fair_final_v2_runtime.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/fixture_driver.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/live_driver.py",
+      "matches": true
+    },
+    {
+      "path": "extensions/masbench_reasoning/wire.py",
+      "matches": true
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/probe_inputs.json",
+      "matches": true
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2_live_budget_2026-11-26.md",
+      "matches": true
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2_live_plan_2026-11-26.json",
+      "matches": true
+    },
+    {
+      "path": "scripts/hpc_ollama.py",
+      "matches": true
+    },
+    {
+      "path": "tests_ext/test_masbench_t3rv2_live.py",
+      "matches": true
+    }
+  ],
+  "all_unchanged": true,
+  "actual_authorization_LF_sha256": "8ee5cdd329bf8a73ffe7b9dd9bdb713e7e236e01d1849c240b9083e4a7a36fcd"
+}

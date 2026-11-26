@@ -1,0 +1,15 @@
+{
+  "run_id": "hpc-t3rv2i-live-probe-20261126",
+  "files": [
+    {
+      "path": "outputs/hdd_inventory.json",
+      "size": 7283,
+      "sha256": "e285f6a77b459f4ccd9d4247352f57dba9cde7180bbb1d6437983eb6c6c2be1e"
+    },
+    {
+      "path": "outputs/summary.json",
+      "size": 5152,
+      "sha256": "179be8d79d21c1b8fe5c33e0700cd29562dac970b3a583901d67bd342ad31d72"
+    }
+  ]
+}

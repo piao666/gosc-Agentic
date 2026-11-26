@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-t3rv2i-live-contract-v3-20261126",
+  "status": "completed",
+  "started_at": "2026-11-26T03:27:35.958261+00:00",
+  "finished_at": "2026-11-26T03:27:38.019197+00:00",
+  "exit_code": 0,
+  "pid": 40659,
+  "elapsed_seconds": 2.060965,
+  "resource_usage": {
+    "child_max_rss_kib": 40144,
+    "child_cpu_user_seconds": 0.763783,
+    "child_cpu_system_seconds": 0.701338,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

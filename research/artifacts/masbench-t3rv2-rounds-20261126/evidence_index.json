@@ -1,0 +1,183 @@
+{
+  "scope": "SHA index only; full originals retained on HPC and controlled local mirrors",
+  "receipts": [
+    {
+      "original_path": "research/sync/receipts/20261126-t3rv2-live-d81f79a776.json",
+      "bytes": 247920,
+      "sha256": "0603a3ef72466eac1d0f8a99ffa6df6adc1dd17caa596b686af1d232a1b8b0a7",
+      "all_outputs_mirrored": true,
+      "files": 458,
+      "mirrored_bytes": 7763327,
+      "run_ids": [
+        "hpc-t3rv2i-live-contract-20261126",
+        "hpc-t3rv2i-live-contract-v2-20261126",
+        "hpc-t3rv2i-live-contract-v3-20261126",
+        "hpc-t3rv2i-live-probe-20261126",
+        "hpc-t3rv2i-live-postaudit-20261126"
+      ]
+    },
+    {
+      "original_path": "research/sync/receipts/20261126-t3rv2i-04009015a8.json",
+      "bytes": 59975,
+      "sha256": "77af90eeb8f22d84210756888e79b0e26ed2eb362c1fb08b0e388423be3aefec",
+      "all_outputs_mirrored": true,
+      "files": 175,
+      "mirrored_bytes": 14421970,
+      "run_ids": [
+        "hpc-t3rv2i-contract-20261126",
+        "hpc-t3rv2i-contract-v2-20261126",
+        "hpc-t3rv2i-legacy-20261126",
+        "hpc-t3rv2i-pressure-20261126",
+        "hpc-t3rv2i-pressure-v2-20261126"
+      ]
+    },
+    {
+      "original_path": "research/sync/receipts/20261126-t3rv2i-206d68da03.json",
+      "bytes": 42111,
+      "sha256": "07417d06ac74c47a2aa0646927df84407011075c1ed295b7ef7ab68ee4e0ca2d",
+      "all_outputs_mirrored": true,
+      "files": 119,
+      "mirrored_bytes": 21131910,
+      "run_ids": [
+        "hpc-t3rv2i-contract-20261126",
+        "hpc-t3rv2i-contract-v2-20261126",
+        "hpc-t3rv2i-legacy-20261126",
+        "hpc-t3rv2i-pressure-20261126",
+        "hpc-t3rv2i-pressure-v2-20261126",
+        "hpc-t3rv2i-pressure-v3-20261126",
+        "hpc-t3rv2i-pressure-summary-20261126",
+        "hpc-t3rv2i-counter-v2-20261126",
+        "hpc-t3rv2i-audit-20261126"
+      ]
+    }
+  ],
+  "source_snapshots": [
+    {
+      "run_id": "hpc-t3rv2i-audit-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-audit-20261126/source_snapshot.json",
+      "bytes": 491612,
+      "sha256": "3c9e53fe41db3764c72d964f6ce7ac8d22c5abfba7000a7eee63d1e8285da68c",
+      "sync_id": "20261126T020919Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1434
+    },
+    {
+      "run_id": "hpc-t3rv2i-contract-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-contract-20261126/source_snapshot.json",
+      "bytes": 488931,
+      "sha256": "782300e006436ad5f5f5b154bd90421e140fa56ced525e9ee06521719187f7e2",
+      "sync_id": "20261126T014239Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1428
+    },
+    {
+      "run_id": "hpc-t3rv2i-contract-v2-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/source_snapshot.json",
+      "bytes": 488931,
+      "sha256": "2109271a5fe3607e4b7ae5d6885408e36a1f71248ce1b43e258f2755513934a8",
+      "sync_id": "20261126T014515Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1428
+    },
+    {
+      "run_id": "hpc-t3rv2i-counter-v2-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/source_snapshot.json",
+      "bytes": 491612,
+      "sha256": "3c9e53fe41db3764c72d964f6ce7ac8d22c5abfba7000a7eee63d1e8285da68c",
+      "sync_id": "20261126T020919Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1434
+    },
+    {
+      "run_id": "hpc-t3rv2i-legacy-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-legacy-20261126/source_snapshot.json",
+      "bytes": 488931,
+      "sha256": "2109271a5fe3607e4b7ae5d6885408e36a1f71248ce1b43e258f2755513934a8",
+      "sync_id": "20261126T014515Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1428
+    },
+    {
+      "run_id": "hpc-t3rv2i-live-contract-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-live-contract-20261126/source_snapshot.json",
+      "bytes": 515760,
+      "sha256": "555da50713b39f266edb41f6f8c88544a367248dedbe6f7f509c16c11e54a60a",
+      "sync_id": "20261126T031508Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1499
+    },
+    {
+      "run_id": "hpc-t3rv2i-live-contract-v2-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-live-contract-v2-20261126/source_snapshot.json",
+      "bytes": 516134,
+      "sha256": "639f81a048ade2809bc69469f9ee38bafc7a5a239be2844c0e977f96efa6b6ff",
+      "sync_id": "20261126T031926Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1500
+    },
+    {
+      "run_id": "hpc-t3rv2i-live-contract-v3-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-live-contract-v3-20261126/source_snapshot.json",
+      "bytes": 517977,
+      "sha256": "6b4f8089e8f3769dfe6e207f3da349301614586a24b582e9bac472509593d5b8",
+      "sync_id": "20261126T032558Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1505
+    },
+    {
+      "run_id": "hpc-t3rv2i-live-postaudit-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-live-postaudit-20261126/source_snapshot.json",
+      "bytes": 519104,
+      "sha256": "af797a932b7d16e9b4009ccee21b5608b68d1bfa0ec652b06ee4c577f96c8a53",
+      "sync_id": "20261126T064855Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1508
+    },
+    {
+      "run_id": "hpc-t3rv2i-live-probe-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-live-probe-20261126/source_snapshot.json",
+      "bytes": 518680,
+      "sha256": "834ffb36b048d1b5c46dd36db108c2833d2c66fa5b0aedc48a71017b5924e4cf",
+      "sync_id": "20261126T032819Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1507
+    },
+    {
+      "run_id": "hpc-t3rv2i-pressure-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-pressure-20261126/source_snapshot.json",
+      "bytes": 488931,
+      "sha256": "2109271a5fe3607e4b7ae5d6885408e36a1f71248ce1b43e258f2755513934a8",
+      "sync_id": "20261126T014515Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1428
+    },
+    {
+      "run_id": "hpc-t3rv2i-pressure-summary-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-pressure-summary-20261126/source_snapshot.json",
+      "bytes": 491612,
+      "sha256": "3c9e53fe41db3764c72d964f6ce7ac8d22c5abfba7000a7eee63d1e8285da68c",
+      "sync_id": "20261126T020919Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1434
+    },
+    {
+      "run_id": "hpc-t3rv2i-pressure-v2-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-pressure-v2-20261126/source_snapshot.json",
+      "bytes": 488931,
+      "sha256": "2109271a5fe3607e4b7ae5d6885408e36a1f71248ce1b43e258f2755513934a8",
+      "sync_id": "20261126T014515Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1428
+    },
+    {
+      "run_id": "hpc-t3rv2i-pressure-v3-20261126",
+      "original_path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/source_snapshot.json",
+      "bytes": 489272,
+      "sha256": "f86c8fe402b16eec00b8199666eb6df60370d614d91f16bbb972a57edee43b6f",
+      "sync_id": "20261126T015248Z",
+      "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+      "files": 1429
+    }
+  ],
+  "raw_outputs_published": false
+}

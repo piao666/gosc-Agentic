@@ -1,0 +1,15 @@
+{
+  "run_id": "hpc-t3rv2i-live-contract-20261126",
+  "files": [
+    {
+      "path": "outputs/contract.json",
+      "size": 3926,
+      "sha256": "1894226cc4022a29c0e7b3fc3a3fd3c24b708a29804a1bb1d93b8c2ee2e266ef"
+    },
+    {
+      "path": "outputs/pytest.xml",
+      "size": 6163,
+      "sha256": "ac888f47b0ff3eabb7f4854a1990518f81f5d4d186429171cc30e7d09333e558"
+    }
+  ]
+}

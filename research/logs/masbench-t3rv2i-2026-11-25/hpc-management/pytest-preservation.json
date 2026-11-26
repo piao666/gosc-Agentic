@@ -1,0 +1,23 @@
+[
+  {
+    "run": "hpc-t3rv2i-contract-20261126",
+    "regular_files": 598,
+    "archive_sha256": "cdcb55305f2595ea6abceaa318e26cadb97846769e916f6bdb0352f3b8e275b1",
+    "raw_copy": "/tmp/gosc-t3rv2i-pytest-preserved-20261126/hpc-t3rv2i-contract-20261126",
+    "archive_and_raw_SHA_verified": true
+  },
+  {
+    "run": "hpc-t3rv2i-contract-v2-20261126",
+    "regular_files": 600,
+    "archive_sha256": "c65f33b148dc0f2da4242d38a7b23a996b65486780971be749b475494581b059",
+    "raw_copy": "/tmp/gosc-t3rv2i-pytest-preserved-20261126/hpc-t3rv2i-contract-v2-20261126",
+    "archive_and_raw_SHA_verified": true
+  },
+  {
+    "run": "hpc-t3rv2i-legacy-20261126",
+    "regular_files": 0,
+    "archive_sha256": "7c51e0ea506b6cc85d682d3d50e8e27f4beea8733131ef7d3179bcbd120f9277",
+    "raw_copy": null,
+    "archive_and_raw_SHA_verified": true
+  }
+]

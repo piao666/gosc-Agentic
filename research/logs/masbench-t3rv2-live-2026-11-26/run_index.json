@@ -1,0 +1,68 @@
+[
+  {
+    "run_id": "hpc-t3rv2i-live-contract-20261126",
+    "status": "failed",
+    "wall": 2.276027,
+    "command": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "experiments_ext.masbench_t3rv2_live_contract"
+    ],
+    "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+    "sync": "20261126T031508Z",
+    "source_manifest_sha256": "555da50713b39f266edb41f6f8c88544a367248dedbe6f7f509c16c11e54a60a"
+  },
+  {
+    "run_id": "hpc-t3rv2i-live-contract-v2-20261126",
+    "status": "completed",
+    "wall": 1.859611,
+    "command": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "experiments_ext.masbench_t3rv2_live_contract"
+    ],
+    "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+    "sync": "20261126T031926Z",
+    "source_manifest_sha256": "639f81a048ade2809bc69469f9ee38bafc7a5a239be2844c0e977f96efa6b6ff"
+  },
+  {
+    "run_id": "hpc-t3rv2i-live-contract-v3-20261126",
+    "status": "completed",
+    "wall": 2.060965,
+    "command": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "experiments_ext.masbench_t3rv2_live_contract"
+    ],
+    "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+    "sync": "20261126T032558Z",
+    "source_manifest_sha256": "6b4f8089e8f3769dfe6e207f3da349301614586a24b582e9bac472509593d5b8"
+  },
+  {
+    "run_id": "hpc-t3rv2i-live-postaudit-20261126",
+    "status": "completed",
+    "wall": 0.500649,
+    "command": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "experiments_ext.masbench_t3rv2_live_audit",
+      "--post-deadline-review"
+    ],
+    "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+    "sync": "20261126T064855Z",
+    "source_manifest_sha256": "af797a932b7d16e9b4009ccee21b5608b68d1bfa0ec652b06ee4c577f96c8a53"
+  },
+  {
+    "run_id": "hpc-t3rv2i-live-probe-20261126",
+    "status": "completed",
+    "wall": 108.091165,
+    "command": [
+      "/home/u202520081000097/jupyterlab/Paper/gosc/.venv/bin/python",
+      "-m",
+      "experiments_ext.masbench_t3rv2_live_probe"
+    ],
+    "git": "458a96f59b620a02e6872d038b87912eb39e92e4",
+    "sync": "20261126T032819Z",
+    "source_manifest_sha256": "834ffb36b048d1b5c46dd36db108c2833d2c66fa5b0aedc48a71017b5924e4cf"
+  }
+]

@@ -1,0 +1,1214 @@
+{
+  "exit_code": 0,
+  "reports": [
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses0-base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.013106711208820343
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses0-base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0023872777819633484
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses0-base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00012683123350143433
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses0-protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0002511143684387207
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses0-protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0010847151279449463
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses0-protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 9.320676326751709e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses1-base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00022014230489730835
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses1-base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.000694863498210907
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses1-base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 8.679181337356567e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses1-protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0002069622278213501
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses1-protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0008676648139953613
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses1-protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 8.943676948547363e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses2-base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0002086833119392395
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses2-base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00037904828786849976
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses2-base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 8.183717727661133e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses2-protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00019897520542144775
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses2-protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0004022344946861267
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses2-protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.99521803855896e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses3-base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00019644200801849365
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses3-base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00037503987550735474
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses3-base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.893890142440796e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses3-protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001968592405319214
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses3-protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0003986060619354248
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses3-protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 8.274614810943604e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses4-base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00019475072622299194
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses4-base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.000470869243144989
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses4-base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.66366720199585e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses4-protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001895427703857422
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses4-protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0005037933588027954
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses4-protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.811188697814941e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses5-base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00019074976444244385
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses5-base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0007417574524879456
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses5-base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.759779691696167e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses5-protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00020407140254974365
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses5-protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0008272081613540649
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses5-protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.940083742141724e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses6-base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00019633769989013672
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses6-base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0004399791359901428
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses6-base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.653981447219849e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses6-protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00018797069787979126
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses6-protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0005159378051757812
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses6-protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.628649473190308e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses7-base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001997724175453186
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses7-base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.003605194389820099
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses7-base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00010099261999130249
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses7-protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00019752979278564453
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses7-protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0008921846747398376
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses7-protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00012986361980438232
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses8-base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0003180205821990967
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses8-base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0009264945983886719
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses8-base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00012796372175216675
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses8-protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00031334906816482544
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses8-protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0009921714663505554
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses8-protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0001260712742805481
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses9-base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0003146156668663025
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses9-base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0005064010620117188
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses9-base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0001231655478477478
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses9-protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00033017992973327637
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses9-protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0005449950695037842
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses9-protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00012254714965820312
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses10-base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0003076419234275818
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses10-base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0006880089640617371
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses10-base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00012518465518951416
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses10-protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.000308305025100708
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses10-protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0007552802562713623
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses10-protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 9.413063526153564e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses11-base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001855120062828064
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses11-base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0007117241621017456
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses11-base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.692724466323853e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses11-protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00018861889839172363
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses11-protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0007919073104858398
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_identity_all_requests_memory_stop_and_legacy[responses11-protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.81714916229248e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00014149397611618042
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 7.38874077796936e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.621330976486206e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A>answer</A>]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00013655424118041992
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A>answer</A>]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 7.442384958267212e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A>answer</A>]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.483495235443115e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A>answer.</A>]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00013539940118789673
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A>answer.</A>]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 7.196515798568726e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A>answer.</A>]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.429105997085571e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A>x</A><A></A>]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001329481601715088
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A>x</A><A></A>]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 7.207691669464111e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A>x</A><A></A>]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.309151649475098e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A>x..</A>]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00013040006160736084
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A>x..</A>]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 7.175654172897339e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A>x..</A>]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.347894668579102e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<a>x</a>]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001306682825088501
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<a>x</a>]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 6.875395774841309e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<a>x</a>]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.327778100967407e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[\\\\boxed{a}]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00013381242752075195
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[\\\\boxed{a}]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 7.179379463195801e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[\\\\boxed{a}]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.687641143798828e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A> answer: </A>]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00013199448585510254
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A> answer: </A>]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 7.31050968170166e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_native_parser_exact_edge_cases[<A> answer: </A>]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.30989670753479e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_private_view_has_no_peer_gold_or_loader_backreference",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 7.29486346244812e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_private_view_has_no_peer_gold_or_loader_backreference",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 9.195506572723389e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_private_view_has_no_peer_gold_or_loader_backreference",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 5.568563938140869e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_lost_fact_never_reappears_via_board",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 7.347017526626587e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_lost_fact_never_reappears_via_board",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0006579756736755371
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_lost_fact_never_reappears_via_board",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.290525197982788e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_no_a2a_preserves_local_answer_and_private_inputs[base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00014478713274002075
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_no_a2a_preserves_local_answer_and_private_inputs[base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00015104562044143677
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_no_a2a_preserves_local_answer_and_private_inputs[base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.740540266036987e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_no_a2a_preserves_local_answer_and_private_inputs[protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001372992992401123
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_no_a2a_preserves_local_answer_and_private_inputs[protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00016167014837265015
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_no_a2a_preserves_local_answer_and_private_inputs[protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 8.6955726146698e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_duplicate_delivery_is_idempotent",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 7.608532905578613e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_duplicate_delivery_is_idempotent",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00010225176811218262
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_duplicate_delivery_is_idempotent",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 5.590170621871948e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00012983381748199463
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0017968565225601196
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.094442844390869e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[x]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00013124197721481323
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[x]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0002004578709602356
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[x]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.002055644989014e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[xxxxxxxxxxxxxxxx]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001322031021118164
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[xxxxxxxxxxxxxxxx]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0001898929476737976
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[xxxxxxxxxxxxxxxx]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.836652755737305e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[xxxxxxxxxxxxxxxxx]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00015104562044143677
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[xxxxxxxxxxxxxxxxx]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00025697797536849976
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[xxxxxxxxxxxxxxxxx]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.747990846633911e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001262873411178589
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00046066194772720337
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_wire_actual_bytes_integer_budget_and_independent_ledger[\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95\\xe8\\xb7\\xa8\\xe7\\x89\\x87\\xf0\\x9f\\x99\\x82\\xe6\\xb5\\x8b\\xe8\\xaf\\x95]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.78524374961853e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[drop-1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001788213849067688
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[drop-1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0001923888921737671
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[drop-1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.412582635879517e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[drop-2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00017365068197250366
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[drop-2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00021205097436904907
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[drop-2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.300078868865967e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[drop-3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001717880368232727
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[drop-3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00018528103828430176
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[drop-3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.303059101104736e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[drop-4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001722201704978943
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[drop-4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00019760429859161377
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[drop-4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.139146327972412e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[corrupt-1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001720041036605835
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[corrupt-1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00018740445375442505
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[corrupt-1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.306784391403198e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[corrupt-2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00017305463552474976
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[corrupt-2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00020500272512435913
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[corrupt-2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.32317566871643e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[corrupt-3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00017302483320236206
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[corrupt-3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00021245330572128296
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[corrupt-3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.43865966796875e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[corrupt-4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00017312169075012207
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[corrupt-4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0002051815390586853
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_each_hop_fault_retries_are_paid_causal_and_identical[corrupt-4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.298588752746582e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_all_ul_data_losses_exhaust_at_three",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 6.315857172012329e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_all_ul_data_losses_exhaust_at_three",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00012777745723724365
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_all_ul_data_losses_exhaust_at_three",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 5.770474672317505e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_all_final_dl_ack_losses_do_not_revoke_delivery",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 7.615238428115845e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_all_final_dl_ack_losses_do_not_revoke_delivery",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00023590028285980225
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_all_final_dl_ack_losses_do_not_revoke_delivery",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 5.825608968734741e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_ul_ack_exhaustion_does_not_destroy_edge_data",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 6.175786256790161e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_ul_ack_exhaustion_does_not_destroy_edge_data",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0002044886350631714
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_ul_ack_exhaustion_does_not_destroy_edge_data",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 5.725771188735962e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_partial_service_preserves_cost_without_visible_prefix[config0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00012956559658050537
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_partial_service_preserves_cost_without_visible_prefix[config0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00013314932584762573
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_partial_service_preserves_cost_without_visible_prefix[config0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.49765133857727e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_partial_service_preserves_cost_without_visible_prefix[config1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00012653321027755737
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_partial_service_preserves_cost_without_visible_prefix[config1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00013180822134017944
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_partial_service_preserves_cost_without_visible_prefix[config1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.549060344696045e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_unfit_frame_is_unserved_not_free_success",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 6.170570850372314e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_unfit_frame_is_unserved_not_free_success",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00010608881711959839
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_unfit_frame_is_unserved_not_free_success",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 5.574524402618408e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_deadline_cannot_publish_late_answer",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 7.593631744384766e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_deadline_cannot_publish_late_answer",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00015649199485778809
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_deadline_cannot_publish_late_answer",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 5.7309865951538086e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_capacity_reject_identifier_and_invalid_utf8",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 6.096065044403076e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_capacity_reject_identifier_and_invalid_utf8",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00012508034706115723
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_capacity_reject_identifier_and_invalid_utf8",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 5.716830492019653e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_frame_crc_length_header_and_ack_validation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 6.254762411117554e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_frame_crc_length_header_and_ack_validation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00012917816638946533
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_frame_crc_length_header_and_ack_validation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 5.608797073364258e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_all_started_denominator_and_unstarted_explicit",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 7.499009370803833e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_all_started_denominator_and_unstarted_explicit",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0002603381872177124
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_all_started_denominator_and_unstarted_explicit",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 5.988031625747681e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_invalid_gold_duplicate_and_unplanned_records_fail",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 6.320327520370483e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_invalid_gold_duplicate_and_unplanned_records_fail",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00011834502220153809
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_invalid_gold_duplicate_and_unplanned_records_fail",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 5.632638931274414e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_gosc_probability_uses_actual_frame_n_and_explicit_public_draws[outage]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00019615888595581055
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_gosc_probability_uses_actual_frame_n_and_explicit_public_draws[outage]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.7871749177575111
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_gosc_probability_uses_actual_frame_n_and_explicit_public_draws[outage]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00011485815048217773
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_gosc_probability_uses_actual_frame_n_and_explicit_public_draws[fbl]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00020614266395568848
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_gosc_probability_uses_actual_frame_n_and_explicit_public_draws[fbl]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.02537471055984497
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_gosc_probability_uses_actual_frame_n_and_explicit_public_draws[fbl]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0002336055040359497
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_frame_kind_route_and_integer_service_rejected",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00023717433214187622
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_frame_kind_route_and_integer_service_rejected",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00031935423612594604
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_frame_kind_route_and_integer_service_rejected",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.048381328582764e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_legacy_summary_all_fields_and_zero_denominator[base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00016877800226211548
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_legacy_summary_all_fields_and_zero_denominator[base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00020156800746917725
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_legacy_summary_all_fields_and_zero_denominator[base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.186084985733032e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_legacy_summary_all_fields_and_zero_denominator[protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0001455545425415039
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_legacy_summary_all_fields_and_zero_denominator[protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00019288063049316406
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_legacy_summary_all_fields_and_zero_denominator[protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 7.017701864242554e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_visibility_after_application_cpu_and_next_request",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 8.139759302139282e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_visibility_after_application_cpu_and_next_request",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0003200620412826538
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_reasoning_adapter.py::test_visibility_after_application_cpu_and_next_request",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 9.63360071182251e-05
+    }
+  ],
+  "elapsed_seconds": 1.0582782551646233,
+  "real_model_calls": 0,
+  "scope": "fresh legacy synthetic regression, not evidence for C01-C32"
+}

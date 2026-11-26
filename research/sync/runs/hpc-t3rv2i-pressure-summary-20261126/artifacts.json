@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-t3rv2i-pressure-summary-20261126",
+  "files": [
+    {
+      "path": "outputs/pressure_summary.json",
+      "size": 8456,
+      "sha256": "fe28e4723fe0123fc8121dcbe730267253440c81c6a87f472bd6acf1e790f44e"
+    }
+  ]
+}

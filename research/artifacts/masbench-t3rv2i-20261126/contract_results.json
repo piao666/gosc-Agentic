@@ -1,0 +1,2135 @@
+{
+  "schema": "fair-final-v2-contract-evidence-v1",
+  "exit_code": 0,
+  "cases": {
+    "C01": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C01_six_opportunities",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0031279101967811584
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C01_six_opportunities",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.5395759716629982
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C01_six_opportunities",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.001287803053855896
+        }
+      ]
+    },
+    "C02": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C02_clock_and_prompt_bytes",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0036566555500030518
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C02_clock_and_prompt_bytes",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.47844918817281723
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C02_clock_and_prompt_bytes",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0011350959539413452
+        }
+      ]
+    },
+    "C03": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C03_no_a2a_final_not_waiting",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.002710483968257904
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C03_no_a2a_final_not_waiting",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.23360124230384827
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C03_no_a2a_final_not_waiting",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0006966143846511841
+        }
+      ]
+    },
+    "C04": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C04_early_answer_not_terminal",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.002565227448940277
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C04_early_answer_not_terminal",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.2439623773097992
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C04_early_answer_not_terminal",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0009914785623550415
+        }
+      ]
+    },
+    "C05": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C05_full_string_no_fallback",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0002179667353630066
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C05_full_string_no_fallback",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.0003006681799888611
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C05_full_string_no_fallback",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00011070817708969116
+        }
+      ]
+    },
+    "C06": {
+      "outcome": "passed",
+      "call_variants": 7,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[None-empty_null]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.002714969217777252
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[None-empty_null]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.23037336021661758
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[None-empty_null]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0008901581168174744
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[-empty_response]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0028159916400909424
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[-empty_response]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.2616078406572342
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[-empty_response]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0007226690649986267
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[ \\t\\r\\n-empty_response]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.003134399652481079
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[ \\t\\r\\n-empty_response]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.2565131187438965
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[ \\t\\r\\n-empty_response]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0009737908840179443
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Bob: MESSAGE\\n<R>red</R>-invalid_exchange]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0038780122995376587
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Bob: MESSAGE\\n<R>red</R>-invalid_exchange]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.25097450613975525
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Bob: MESSAGE\\n<R>red</R>-invalid_exchange]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0012632757425308228
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Alice: MESSAGE\\n<r>red</r>-invalid_exchange]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.003988474607467651
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Alice: MESSAGE\\n<r>red</r>-invalid_exchange]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.2607972174882889
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Alice: MESSAGE\\n<r>red</r>-invalid_exchange]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0009784772992134094
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[\\\\boxed{red}-invalid_exchange]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.002469167113304138
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[\\\\boxed{red}-invalid_exchange]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.2563496306538582
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[\\\\boxed{red}-invalid_exchange]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0009353384375572205
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Alice: MESSAGE\\n<R> </R>-invalid_exchange]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.003092452883720398
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Alice: MESSAGE\\n<R> </R>-invalid_exchange]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.23672887682914734
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Alice: MESSAGE\\n<R> </R>-invalid_exchange]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0006456449627876282
+        }
+      ]
+    },
+    "C07": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C07_repeat_and_wrong_facts_not_fixed",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0022807493805885315
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C07_repeat_and_wrong_facts_not_fixed",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.2488601952791214
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C07_repeat_and_wrong_facts_not_fixed",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0008971169590950012
+        }
+      ]
+    },
+    "C08": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C08_admission_and_condition_pin",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0024252086877822876
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C08_admission_and_condition_pin",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.5045829266309738
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C08_admission_and_condition_pin",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0011670663952827454
+        }
+      ]
+    },
+    "C09": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C09_last_exchange_delivery_and_source",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.00234975665807724
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C09_last_exchange_delivery_and_source",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.2513152211904526
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C09_last_exchange_delivery_and_source",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0009454712271690369
+        }
+      ]
+    },
+    "C10": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C10_final_isolation",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.004735104739665985
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C10_final_isolation",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.24546371400356293
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C10_final_isolation",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0008044764399528503
+        }
+      ]
+    },
+    "C11": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C11_private_and_gold_boundary",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.002609841525554657
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C11_private_and_gold_boundary",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.23658110201358795
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C11_private_and_gold_boundary",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0009286627173423767
+        }
+      ]
+    },
+    "C12": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C12_no_controller_injection",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.002157174050807953
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C12_no_controller_injection",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.005811028182506561
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C12_no_controller_injection",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00046882033348083496
+        }
+      ]
+    },
+    "C13": {
+      "outcome": "passed",
+      "call_variants": 9,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A>-True-True]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0004228726029396057
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A>-True-True]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.00041841715574264526
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A>-True-True]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00014835596084594727
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<U>INSUFFICIENT_EVIDENCE</U>-True-False]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0003928765654563904
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<U>INSUFFICIENT_EVIDENCE</U>-True-False]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.0002302229404449463
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<U>INSUFFICIENT_EVIDENCE</U>-True-False]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00014591962099075317
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL; PEER:t1</E>\\n<A>red blue</A>-False-False]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.00037835538387298584
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL; PEER:t1</E>\\n<A>red blue</A>-False-False]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.0002189427614212036
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL; PEER:t1</E>\\n<A>red blue</A>-False-False]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00014243274927139282
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>answer</A>-False-False]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.00037783384323120117
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>answer</A>-False-False]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.0002183467149734497
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>answer</A>-False-False]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00013811886310577393
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>your answer</A>-False-False]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.00042138993740081787
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>your answer</A>-False-False]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.0002195015549659729
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>your answer</A>-False-False]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00012745708227157593
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>THE</A>-False-False]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.00022460520267486572
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>THE</A>-False-False]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.00012931227684020996
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>THE</A>-False-False]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 8.703768253326416e-05
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A></A>-False-False]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.00022536516189575195
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A></A>-False-False]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.0001259148120880127
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A></A>-False-False]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 8.221715688705444e-05
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A><A>red</A>-False-False]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0002262592315673828
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A><A>red</A>-False-False]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.00012637674808502197
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A><A>red</A>-False-False]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 9.137392044067383e-05
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A><U>INSUFFICIENT_EVIDENCE</U>-False-False]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.00022167712450027466
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A><U>INSUFFICIENT_EVIDENCE</U>-False-False]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.00012771785259246826
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A><U>INSUFFICIENT_EVIDENCE</U>-False-False]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 8.153170347213745e-05
+        }
+      ]
+    },
+    "C14": {
+      "outcome": "passed",
+      "call_variants": 5,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red blue-red-blue-@INVALID-0.8333333333333334-0.3333333333333333-0.5]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0003975033760070801
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red blue-red-blue-@INVALID-0.8333333333333334-0.3333333333333333-0.5]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.00213053822517395
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red blue-red-blue-@INVALID-0.8333333333333334-0.3333333333333333-0.5]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00012974441051483154
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red blue-red blue-@U-@U-1-0-1]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.000420495867729187
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red blue-red blue-@U-@U-1-0-1]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.001976810395717621
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red blue-red blue-@U-@U-1-0-1]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0001366734504699707
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red-blue-red-blue-0.6666666666666666-0.6666666666666666-0]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0004247799515724182
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red-blue-red-blue-0.6666666666666666-0.6666666666666666-0]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.0030624717473983765
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red-blue-red-blue-0.6666666666666666-0.6666666666666666-0]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00021232664585113525
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[@DUP--green-@U-0-0-0]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.000696524977684021
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[@DUP--green-@U-0-0-0]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.0024935901165008545
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[@DUP--green-@U-0-0-0]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00022833049297332764
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red red-green-red-green-0.25-0.3333333333333333--0.08333333333333333]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0006937384605407715
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red red-green-red-green-0.25-0.3333333333333333--0.08333333333333333]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.004033699631690979
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red red-green-red-green-0.25-0.3333333333333333--0.08333333333333333]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00013755261898040771
+        }
+      ]
+    },
+    "C15": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C15_no_real_data_or_scoring_import",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 6.992369890213013e-05
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C15_no_real_data_or_scoring_import",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.0004693567752838135
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C15_no_real_data_or_scoring_import",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 6.965547800064087e-05
+        }
+      ]
+    },
+    "C16": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C16_disagreement_and_rates",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 6.793439388275146e-05
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C16_disagreement_and_rates",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.00023174285888671875
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C16_disagreement_and_rates",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 6.502866744995117e-05
+        }
+      ]
+    },
+    "C17": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C17_started_and_not_started_denominators",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0018587857484817505
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C17_started_and_not_started_denominators",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.04973626136779785
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C17_started_and_not_started_denominators",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0008552074432373047
+        }
+      ]
+    },
+    "C18": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C18_full_input_boundaries",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.003070622682571411
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C18_full_input_boundaries",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.24462468177080154
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C18_full_input_boundaries",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0009062662720680237
+        }
+      ]
+    },
+    "C19": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C19_identity_and_counter_drift",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0021893009543418884
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C19_identity_and_counter_drift",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.04701090604066849
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C19_identity_and_counter_drift",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0032017603516578674
+        }
+      ]
+    },
+    "C20": {
+      "outcome": "passed",
+      "call_variants": 4,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode0-usage_unknown]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0065569207072257996
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode0-usage_unknown]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.05829576402902603
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode0-usage_unknown]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0008072555065155029
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode1-output_truncated]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0026870742440223694
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode1-output_truncated]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.0634237602353096
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode1-output_truncated]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0005685165524482727
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode2-fixture_worker_RuntimeError]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0026453211903572083
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode2-fixture_worker_RuntimeError]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.060941509902477264
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode2-fixture_worker_RuntimeError]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0008568167686462402
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode3-timeout]",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0035183802247047424
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode3-timeout]",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.5427740886807442
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode3-timeout]",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.000889994204044342
+        }
+      ]
+    },
+    "C21": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C21_all_http_caps_and_partition",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0022649019956588745
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C21_all_http_caps_and_partition",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.6517332717776299
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C21_all_http_caps_and_partition",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0001773834228515625
+        }
+      ]
+    },
+    "C22": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C22_epoch_get_and_readiness",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0024572014808654785
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C22_epoch_get_and_readiness",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.3975210636854172
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C22_epoch_get_and_readiness",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0007897764444351196
+        }
+      ]
+    },
+    "C23": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C23_seven_get_one_unload",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.002674385905265808
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C23_seven_get_one_unload",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.2546418830752373
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C23_seven_get_one_unload",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0008727684617042542
+        }
+      ]
+    },
+    "C24": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C24_unbound_foreign_and_drift",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0023437291383743286
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C24_unbound_foreign_and_drift",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.5020685791969299
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C24_unbound_foreign_and_drift",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0031012073159217834
+        }
+      ]
+    },
+    "C25": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C25_real_owned_worker_exit_and_crash_fence",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.002695530652999878
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C25_real_owned_worker_exit_and_crash_fence",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.08452817797660828
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C25_real_owned_worker_exit_and_crash_fence",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00022915750741958618
+        }
+      ]
+    },
+    "C26": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C26_stage_and_tail_reserve",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.00209779292345047
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C26_stage_and_tail_reserve",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.007533259689807892
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C26_stage_and_tail_reserve",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0005437880754470825
+        }
+      ]
+    },
+    "C27": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C27_resources_are_observations",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.00012373924255371094
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C27_resources_are_observations",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.00028495490550994873
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C27_resources_are_observations",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00011231005191802979
+        }
+      ]
+    },
+    "C28": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C28_size_and_storage_no_truncate",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.002210482954978943
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C28_size_and_storage_no_truncate",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.027227014303207397
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C28_size_and_storage_no_truncate",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0010511204600334167
+        }
+      ]
+    },
+    "C29": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C29_wire_loss_crc_and_ttl",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.002137206494808197
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C29_wire_loss_crc_and_ttl",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.6925767138600349
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C29_wire_loss_crc_and_ttl",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0012709647417068481
+        }
+      ]
+    },
+    "C30": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C30_registry_pin_no_body_loader",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0022985488176345825
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C30_registry_pin_no_body_loader",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.00030169636011123657
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C30_registry_pin_no_body_loader",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00013633817434310913
+        }
+      ]
+    },
+    "C31": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C31_synthetic_failure_consumes_no_task",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.0025810077786445618
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C31_synthetic_failure_consumes_no_task",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.052659302949905396
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C31_synthetic_failure_consumes_no_task",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.0008092373609542847
+        }
+      ]
+    },
+    "C32": {
+      "outcome": "passed",
+      "call_variants": 1,
+      "reports": [
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C32_receipt_failures_separate_execution",
+          "phase": "setup",
+          "outcome": "passed",
+          "duration": 0.00013366341590881348
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C32_receipt_failures_separate_execution",
+          "phase": "call",
+          "outcome": "passed",
+          "duration": 0.00017784535884857178
+        },
+        {
+          "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C32_receipt_failures_separate_execution",
+          "phase": "teardown",
+          "outcome": "passed",
+          "duration": 0.00010982155799865723
+        }
+      ]
+    }
+  },
+  "reports": [
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C01_six_opportunities",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0031279101967811584
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C01_six_opportunities",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.5395759716629982
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C01_six_opportunities",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.001287803053855896
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C02_clock_and_prompt_bytes",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0036566555500030518
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C02_clock_and_prompt_bytes",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.47844918817281723
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C02_clock_and_prompt_bytes",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0011350959539413452
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C03_no_a2a_final_not_waiting",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.002710483968257904
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C03_no_a2a_final_not_waiting",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.23360124230384827
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C03_no_a2a_final_not_waiting",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0006966143846511841
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C04_early_answer_not_terminal",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.002565227448940277
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C04_early_answer_not_terminal",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.2439623773097992
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C04_early_answer_not_terminal",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0009914785623550415
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C05_full_string_no_fallback",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0002179667353630066
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C05_full_string_no_fallback",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0003006681799888611
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C05_full_string_no_fallback",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00011070817708969116
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[None-empty_null]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.002714969217777252
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[None-empty_null]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.23037336021661758
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[None-empty_null]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0008901581168174744
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[-empty_response]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0028159916400909424
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[-empty_response]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.2616078406572342
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[-empty_response]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0007226690649986267
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[ \\t\\r\\n-empty_response]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.003134399652481079
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[ \\t\\r\\n-empty_response]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.2565131187438965
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[ \\t\\r\\n-empty_response]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0009737908840179443
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Bob: MESSAGE\\n<R>red</R>-invalid_exchange]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0038780122995376587
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Bob: MESSAGE\\n<R>red</R>-invalid_exchange]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.25097450613975525
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Bob: MESSAGE\\n<R>red</R>-invalid_exchange]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0012632757425308228
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Alice: MESSAGE\\n<r>red</r>-invalid_exchange]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.003988474607467651
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Alice: MESSAGE\\n<r>red</r>-invalid_exchange]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.2607972174882889
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Alice: MESSAGE\\n<r>red</r>-invalid_exchange]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0009784772992134094
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[\\\\boxed{red}-invalid_exchange]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.002469167113304138
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[\\\\boxed{red}-invalid_exchange]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.2563496306538582
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[\\\\boxed{red}-invalid_exchange]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0009353384375572205
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Alice: MESSAGE\\n<R> </R>-invalid_exchange]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.003092452883720398
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Alice: MESSAGE\\n<R> </R>-invalid_exchange]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.23672887682914734
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C06_empty_and_invalid[Alice: MESSAGE\\n<R> </R>-invalid_exchange]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0006456449627876282
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C07_repeat_and_wrong_facts_not_fixed",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0022807493805885315
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C07_repeat_and_wrong_facts_not_fixed",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.2488601952791214
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C07_repeat_and_wrong_facts_not_fixed",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0008971169590950012
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C08_admission_and_condition_pin",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0024252086877822876
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C08_admission_and_condition_pin",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.5045829266309738
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C08_admission_and_condition_pin",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0011670663952827454
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C09_last_exchange_delivery_and_source",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00234975665807724
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C09_last_exchange_delivery_and_source",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.2513152211904526
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C09_last_exchange_delivery_and_source",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0009454712271690369
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C10_final_isolation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.004735104739665985
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C10_final_isolation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.24546371400356293
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C10_final_isolation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0008044764399528503
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C11_private_and_gold_boundary",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.002609841525554657
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C11_private_and_gold_boundary",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.23658110201358795
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C11_private_and_gold_boundary",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0009286627173423767
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C12_no_controller_injection",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.002157174050807953
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C12_no_controller_injection",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.005811028182506561
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C12_no_controller_injection",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00046882033348083496
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A>-True-True]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0004228726029396057
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A>-True-True]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00041841715574264526
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A>-True-True]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00014835596084594727
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<U>INSUFFICIENT_EVIDENCE</U>-True-False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0003928765654563904
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<U>INSUFFICIENT_EVIDENCE</U>-True-False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0002302229404449463
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<U>INSUFFICIENT_EVIDENCE</U>-True-False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00014591962099075317
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL; PEER:t1</E>\\n<A>red blue</A>-False-False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00037835538387298584
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL; PEER:t1</E>\\n<A>red blue</A>-False-False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0002189427614212036
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL; PEER:t1</E>\\n<A>red blue</A>-False-False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00014243274927139282
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>answer</A>-False-False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00037783384323120117
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>answer</A>-False-False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0002183467149734497
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>answer</A>-False-False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00013811886310577393
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>your answer</A>-False-False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00042138993740081787
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>your answer</A>-False-False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0002195015549659729
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>your answer</A>-False-False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00012745708227157593
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>THE</A>-False-False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00022460520267486572
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>THE</A>-False-False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00012931227684020996
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>THE</A>-False-False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 8.703768253326416e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A></A>-False-False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00022536516189575195
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A></A>-False-False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0001259148120880127
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A></A>-False-False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 8.221715688705444e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A><A>red</A>-False-False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0002262592315673828
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A><A>red</A>-False-False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00012637674808502197
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A><A>red</A>-False-False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 9.137392044067383e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A><U>INSUFFICIENT_EVIDENCE</U>-False-False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00022167712450027466
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A><U>INSUFFICIENT_EVIDENCE</U>-False-False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00012771785259246826
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C13_final_syntax[Alice: FINAL\\n<E>LOCAL</E>\\n<A>red blue</A><U>INSUFFICIENT_EVIDENCE</U>-False-False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 8.153170347213745e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red blue-red-blue-@INVALID-0.8333333333333334-0.3333333333333333-0.5]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0003975033760070801
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red blue-red-blue-@INVALID-0.8333333333333334-0.3333333333333333-0.5]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00213053822517395
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red blue-red-blue-@INVALID-0.8333333333333334-0.3333333333333333-0.5]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00012974441051483154
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red blue-red blue-@U-@U-1-0-1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.000420495867729187
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red blue-red blue-@U-@U-1-0-1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.001976810395717621
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red blue-red blue-@U-@U-1-0-1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0001366734504699707
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red-blue-red-blue-0.6666666666666666-0.6666666666666666-0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0004247799515724182
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red-blue-red-blue-0.6666666666666666-0.6666666666666666-0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0030624717473983765
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red-blue-red-blue-0.6666666666666666-0.6666666666666666-0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00021232664585113525
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[@DUP--green-@U-0-0-0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.000696524977684021
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[@DUP--green-@U-0-0-0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0024935901165008545
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[@DUP--green-@U-0-0-0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00022833049297332764
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red red-green-red-green-0.25-0.3333333333333333--0.08333333333333333]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0006937384605407715
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red red-green-red-green-0.25-0.3333333333333333--0.08333333333333333]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.004033699631690979
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C14_fixed_scoring_vectors[red red-green-red-green-0.25-0.3333333333333333--0.08333333333333333]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00013755261898040771
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C15_no_real_data_or_scoring_import",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 6.992369890213013e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C15_no_real_data_or_scoring_import",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0004693567752838135
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C15_no_real_data_or_scoring_import",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.965547800064087e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C16_disagreement_and_rates",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 6.793439388275146e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C16_disagreement_and_rates",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00023174285888671875
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C16_disagreement_and_rates",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 6.502866744995117e-05
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C17_started_and_not_started_denominators",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0018587857484817505
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C17_started_and_not_started_denominators",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.04973626136779785
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C17_started_and_not_started_denominators",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0008552074432373047
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C18_full_input_boundaries",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.003070622682571411
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C18_full_input_boundaries",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.24462468177080154
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C18_full_input_boundaries",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0009062662720680237
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C19_identity_and_counter_drift",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0021893009543418884
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C19_identity_and_counter_drift",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.04701090604066849
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C19_identity_and_counter_drift",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0032017603516578674
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode0-usage_unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0065569207072257996
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode0-usage_unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.05829576402902603
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode0-usage_unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0008072555065155029
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode1-output_truncated]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0026870742440223694
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode1-output_truncated]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0634237602353096
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode1-output_truncated]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005685165524482727
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode2-fixture_worker_RuntimeError]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0026453211903572083
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode2-fixture_worker_RuntimeError]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.060941509902477264
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode2-fixture_worker_RuntimeError]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0008568167686462402
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode3-timeout]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0035183802247047424
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode3-timeout]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.5427740886807442
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C20_failure_no_replay[mode3-timeout]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.000889994204044342
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C21_all_http_caps_and_partition",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0022649019956588745
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C21_all_http_caps_and_partition",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.6517332717776299
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C21_all_http_caps_and_partition",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0001773834228515625
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C22_epoch_get_and_readiness",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0024572014808654785
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C22_epoch_get_and_readiness",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.3975210636854172
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C22_epoch_get_and_readiness",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0007897764444351196
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C23_seven_get_one_unload",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.002674385905265808
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C23_seven_get_one_unload",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.2546418830752373
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C23_seven_get_one_unload",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0008727684617042542
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C24_unbound_foreign_and_drift",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0023437291383743286
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C24_unbound_foreign_and_drift",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.5020685791969299
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C24_unbound_foreign_and_drift",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0031012073159217834
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C25_real_owned_worker_exit_and_crash_fence",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.002695530652999878
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C25_real_owned_worker_exit_and_crash_fence",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.08452817797660828
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C25_real_owned_worker_exit_and_crash_fence",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00022915750741958618
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C26_stage_and_tail_reserve",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00209779292345047
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C26_stage_and_tail_reserve",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.007533259689807892
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C26_stage_and_tail_reserve",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0005437880754470825
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C27_resources_are_observations",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00012373924255371094
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C27_resources_are_observations",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00028495490550994873
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C27_resources_are_observations",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00011231005191802979
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C28_size_and_storage_no_truncate",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.002210482954978943
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C28_size_and_storage_no_truncate",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.027227014303207397
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C28_size_and_storage_no_truncate",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0010511204600334167
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C29_wire_loss_crc_and_ttl",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.002137206494808197
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C29_wire_loss_crc_and_ttl",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.6925767138600349
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C29_wire_loss_crc_and_ttl",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0012709647417068481
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C30_registry_pin_no_body_loader",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0022985488176345825
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C30_registry_pin_no_body_loader",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00030169636011123657
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C30_registry_pin_no_body_loader",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00013633817434310913
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C31_synthetic_failure_consumes_no_task",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.0025810077786445618
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C31_synthetic_failure_consumes_no_task",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.052659302949905396
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C31_synthetic_failure_consumes_no_task",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.0008092373609542847
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C32_receipt_failures_separate_execution",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00013366341590881348
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C32_receipt_failures_separate_execution",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.00017784535884857178
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_C32_receipt_failures_separate_execution",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00010982155799865723
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_legacy_semantics_unchanged",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration": 0.00011087954044342041
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_legacy_semantics_unchanged",
+      "phase": "call",
+      "outcome": "passed",
+      "duration": 0.0004440993070602417
+    },
+    {
+      "nodeid": "tests_ext/test_masbench_fair_final_v2.py::test_legacy_semantics_unchanged",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration": 0.00025200098752975464
+    }
+  ],
+  "elapsed_seconds": 9.63691446185112,
+  "self_max_rss_kib": 48000,
+  "real_model_calls": 0,
+  "service_requests": 0,
+  "data_bodies_used": false,
+  "counter_scope": "fixture units, not qwen tokens",
+  "network_policy": "Python audit hook + fixture seccomp",
+  "actual_deployment": "not_run",
+  "scientific_capability": "not_evaluated"
+}

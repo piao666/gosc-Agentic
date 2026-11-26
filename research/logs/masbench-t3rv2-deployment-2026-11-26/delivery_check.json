@@ -1,0 +1,9 @@
+{
+  "kind": "local lightweight link/hash management check, not test",
+  "local_links": 21,
+  "missing_targets": [],
+  "previous_delivery48_verified_unchanged": true,
+  "new_registered_tests": 0,
+  "new_model_calls": 0,
+  "decision": "Blocked before deployment"
+}

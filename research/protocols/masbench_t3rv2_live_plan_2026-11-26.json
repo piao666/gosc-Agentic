@@ -1,0 +1,18 @@
+{
+  "schema": "t3rv2-synthetic-deployment-plan-v1",
+  "scope": "T3-R-v2 two immutable artificial service probes only",
+  "input_assets": "research/logs/masbench-t3rv2-deployment-2026-11-26/probe_inputs.json",
+  "input_assets_sha256": "9a1c1191f1a41a70f24c787f8698cec354ea78fbc0afc9d6366b2f2188cb104a",
+  "episode_order": ["deploy-short", "deploy-long"],
+  "task_episodes": 0,
+  "model": "qwen2.5:7b",
+  "context": 16384,
+  "baseline_context": 1024,
+  "generation_attempts": 2,
+  "max_output": 512,
+  "helper_attempts": 2,
+  "wall_seconds": 2000,
+  "monitoring_semantics": "explicit user accepted observation-stop, no hard subtree/GPU isolation",
+  "source": "user request plus call_66ce45b43aab4601b7ff10059e9794cf affirmative answer",
+  "scientific_capability_evaluation": false
+}

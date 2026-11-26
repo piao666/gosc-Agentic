@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-26 Asia/Shanghai",
+  "self_excluded": true,
+  "scope": "new deployment admission documents, administrative-only evidence and unapproved plans",
+  "status": "Blocked; not completed deployment",
+  "tests_executed": 0,
+  "model_calls": 0,
+  "git_commit_or_push": false,
+  "files": [
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/admission_matrix.md",
+      "bytes": 2774,
+      "sha256": "1837d36a5da404b26a7db34738761137f6980867c89ba3629bdd2e09a4011930"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/delivery_check.json",
+      "bytes": 272,
+      "sha256": "dd3bc879208a09afe9aaae4c47e88e8d2c5a47da9d688511a8f41119becbc528"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/experiment_manifest.json",
+      "bytes": 1266,
+      "sha256": "e53e7db905417f5bb3f7d702a6b523333908a026ab4860db9a4f6f33150f71ca"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/hpc_readonly_inventory.json",
+      "bytes": 6479,
+      "sha256": "87e32aa26f96914aebc172ca597c09662b3128eb4457941adec9aee5d50b29f6"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/probe_inputs.json",
+      "bytes": 48123,
+      "sha256": "9a1c1191f1a41a70f24c787f8698cec354ea78fbc0afc9d6366b2f2188cb104a"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/protection_check.json",
+      "bytes": 5994,
+      "sha256": "3c47d32c090ae74936608bdf5c9ab8f57f0852512bb9b63c29f2d5cb2a2fe797"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/README.md",
+      "bytes": 1763,
+      "sha256": "9f45f256930d8d9981f20c28a439fcba4808b8d09fc04d84ab9189bb67652d3e"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/readonly_inventory.py",
+      "bytes": 5321,
+      "sha256": "ca3263d9841bb21367010a3325e0179e67e7c0348b0cb8113861982f5ee22c86"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/task_brief.md",
+      "bytes": 2756,
+      "sha256": "1653267ee0575da66977b3ffba87aef2f7d809d5715980a2d5d607ed763b81c4"
+    },
+    {
+      "path": "research/logs/masbench-t3rv2-deployment-2026-11-26/task_log.md",
+      "bytes": 5052,
+      "sha256": "3bed0ff91a36ebfcdbf8ec8096550fb485e751880386be77e86d565872cbbf03"
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2_deployment_admission_v1_2026-11-26.md",
+      "bytes": 9247,
+      "sha256": "80148e10e7624bbca7fec1ffccdb11c843001dda9f7bd917d1808e3a4a054a63"
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2_deployment_probe_candidate_2026-11-26.json",
+      "bytes": 4445,
+      "sha256": "ada462531e6f102a1020aae7ad4d7ee846a073a0ad4b96abb71028bb6ebb4c65"
+    },
+    {
+      "path": "research/protocols/masbench_t3rv2_deployment_remediation_request_2026-11-26.md",
+      "bytes": 3459,
+      "sha256": "1d7893be10928e663b62df92738f86e5d9fda8cc0550e9bde8dc1214c0cf5cb1"
+    },
+    {
+      "path": "research/reports/masbench_t3rv2_deployment_admission_2026-11-26.md",
+      "bytes": 8080,
+      "sha256": "87e4d38bbe8295d75b0f6817fcb940b775c363decc8ada4df3bc6b6e5431392a"
+    }
+  ]
+}

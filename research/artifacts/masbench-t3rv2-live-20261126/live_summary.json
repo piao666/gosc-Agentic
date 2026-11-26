@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "run_id": "hpc-t3rv2i-live-probe-20261126",
+  "scope": "T3-R-v2 two immutable artificial service probes only",
+  "error": null,
+  "results": [
+    {
+      "id": "deploy-short",
+      "raw": "Alice: MESSAGE\n<R>The synthetic parcel is blue.</R>",
+      "parsed": {
+        "valid_format": true,
+        "valid_answer": false,
+        "answer": null,
+        "provenance": [],
+        "text": "Alice: MESSAGE\n<R>The synthetic parcel is blue.</R>",
+        "reason": "message",
+        "raw_is_null": false,
+        "raw_bytes": 51,
+        "raw_sha256": "1f51262d10498ef6ffc0000a1529cf5c0bec466a4ef76c0410863e6ee87fb1aa",
+        "text_sha256": "1f51262d10498ef6ffc0000a1529cf5c0bec466a4ef76c0410863e6ee87fb1aa"
+      },
+      "usage": {
+        "prompt_tokens": 625,
+        "completion_tokens": 14,
+        "total_tokens": 639
+      },
+      "request_sha256": "df27073746e1c307aa29d7755d2854a77a7ebfc0d44e86409ed9ee40d866694a"
+    },
+    {
+      "id": "deploy-long",
+      "raw": "Alice: MESSAGE <Q>Is the parcel blue?</Q>",
+      "parsed": {
+        "valid_format": false,
+        "valid_answer": false,
+        "answer": null,
+        "provenance": [],
+        "text": "Alice: MESSAGE <Q>Is the parcel blue?</Q>",
+        "reason": "invalid_exchange",
+        "raw_is_null": false,
+        "raw_bytes": 41,
+        "raw_sha256": "41527ac02f372a8a5af0172d9ba3c01eb50726819b19f2e6804988aaeef31640",
+        "text_sha256": "41527ac02f372a8a5af0172d9ba3c01eb50726819b19f2e6804988aaeef31640"
+      },
+      "usage": {
+        "prompt_tokens": 8720,
+        "completion_tokens": 14,
+        "total_tokens": 8734
+      },
+      "request_sha256": "edfc14320123969e72ace8e70919ee5dfa460fb74b12d850b99e51b64ada625d"
+    }
+  ],
+  "restored": {
+    "root": "/home/u202520081000097/jupyterlab/Paper/gosc",
+    "helper": "/tmp/gosc-hpc-masbench-context-build-v3-20261116/context-counter",
+    "service_pid": 42070,
+    "service_stamp": "4975206358",
+    "binary_sha": "e014750cd656db3a77f3bf6b45903f646c76075e58b835cc9787fb5fc8a8a600",
+    "context": 1024,
+    "model": "qwen2.5:7b"
+  },
+  "http": {
+    "generation": 2,
+    "render": 2,
+    "get": 8,
+    "cleanup_get": 4,
+    "unload": 2,
+    "lifecycle_get": 10
+  },
+  "operations": {
+    "counter": 2,
+    "start": 2,
+    "stop": 2
+  },
+  "requests": {
+    "deploy-short/t0": {
+      "kind": "request",
+      "id": "deploy-short/t0",
+      "episode": "deploy-short",
+      "input": 625,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 625,
+        "completion_tokens": 14
+      }
+    },
+    "deploy-long/t0": {
+      "kind": "request",
+      "id": "deploy-long/t0",
+      "episode": "deploy-long",
+      "input": 8720,
+      "output": 512,
+      "status": "completed",
+      "observed_usage": {
+        "prompt_tokens": 8720,
+        "completion_tokens": 14
+      }
+    }
+  },
+  "episodes": {
+    "deploy-short": "completed",
+    "deploy-long": "completed"
+  },
+  "cleanup": {
+    "deploy-short": "verified",
+    "deploy-long": "verified"
+  },
+  "monitor": {
+    "samples": 962,
+    "peaks": {
+      "driver_rss": 106934272,
+      "service_rss": 5251112960,
+      "gpu_bytes": 6767509504
+    },
+    "max_active_sample_start_gap_seconds": 0.23771806061267853,
+    "hard_isolation": false
+  },
+  "quota_before": {
+    "host": "n1",
+    "queried_at": "2026-11-26T03:29:51.391510+00:00",
+    "uid": 8301880,
+    "interface": "read-only Lustre user quota ioctl",
+    "volumes": {
+      "ssd": {
+        "mount": "/home/u202520081000097",
+        "quota_status": 0,
+        "id": 8301880,
+        "type": 0,
+        "hard_limit_bytes": 107374182400,
+        "used_bytes": 107283705856,
+        "remaining_to_hard_limit_bytes": 90476544,
+        "raw_quota_fields": {
+          "bhardlimit": 104857600,
+          "bsoftlimit": 0,
+          "curspace": 107283705856,
+          "ihardlimit": 0,
+          "isoftlimit": 0,
+          "curinodes": 429367,
+          "btime": 0,
+          "itime": 281474976710656,
+          "valid": 63
+        }
+      },
+      "hdd": {
+        "mount": "/hdd/u202520081000097",
+        "quota_status": 0,
+        "id": 8301880,
+        "type": 0,
+        "hard_limit_bytes": 536870912000,
+        "used_bytes": 19153883136,
+        "remaining_to_hard_limit_bytes": 517717028864,
+        "raw_quota_fields": {
+          "bhardlimit": 524288000,
+          "bsoftlimit": 0,
+          "curspace": 19153883136,
+          "ihardlimit": 0,
+          "isoftlimit": 0,
+          "curinodes": 149908,
+          "btime": 281474976710656,
+          "itime": 281474976710656,
+          "valid": 63
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 107.8321793153882,
+  "identity": {
+    "schema": "T3-R-v2-independent-live-v1",
+    "approval_sha256": "8ee5cdd329bf8a73ffe7b9dd9bdb713e7e236e01d1849c240b9083e4a7a36fcd",
+    "plan_sha256": "f9e0cecb21c81f4c12f4b0cc642a66e27224cbc37d104ee074b808f381b390eb",
+    "system_template_sha256": "00c91af181b4bcedf62acbfee2ab77b8555392d07a52196d3878936d4a375fb4"
+  },
+  "evidence_root": "/hdd/u202520081000097/gosc-t3rv2-live/hpc-t3rv2i-live-probe-20261126",
+  "task_generations": 0
+}

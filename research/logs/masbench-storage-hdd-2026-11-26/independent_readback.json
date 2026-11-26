@@ -1,0 +1,61 @@
+{
+  "all_original_bytes_retained_on_HDD": true,
+  "bytes_checked": 87764721,
+  "elapsed_seconds": 0.22127632051706314,
+  "files_checked": 634,
+  "kind": "independent administrative SHA readback, not test",
+  "manifest_sha256": "0ef6092faf2cc5654569f2e5c3df82ea22e5f736df6fb916778c1398bb423328",
+  "model_calls": 0,
+  "old_run_manifests_modified": false,
+  "passed": true,
+  "protected_files_unchanged": 19,
+  "quota_now": {
+    "host": "n1",
+    "interface": "read-only Lustre user quota ioctl",
+    "queried_at": "2026-11-26T02:54:48.336433+00:00",
+    "uid": 8301880,
+    "volumes": {
+      "hdd": {
+        "hard_limit_bytes": 536870912000,
+        "id": 8301880,
+        "mount": "/hdd/u202520081000097",
+        "quota_status": 0,
+        "raw_quota_fields": {
+          "bhardlimit": 524288000,
+          "bsoftlimit": 0,
+          "btime": 281474976710656,
+          "curinodes": 149272,
+          "curspace": 19150954496,
+          "ihardlimit": 0,
+          "isoftlimit": 0,
+          "itime": 281474976710656,
+          "valid": 63
+        },
+        "remaining_to_hard_limit_bytes": 517719957504,
+        "type": 0,
+        "used_bytes": 19150954496
+      },
+      "ssd": {
+        "hard_limit_bytes": 107374182400,
+        "id": 8301880,
+        "mount": "/home/u202520081000097",
+        "quota_status": 0,
+        "raw_quota_fields": {
+          "bhardlimit": 104857600,
+          "bsoftlimit": 0,
+          "btime": 0,
+          "curinodes": 429207,
+          "curspace": 107278520320,
+          "ihardlimit": 0,
+          "isoftlimit": 0,
+          "itime": 281474976710656,
+          "valid": 63
+        },
+        "remaining_to_hard_limit_bytes": 95662080,
+        "type": 0,
+        "used_bytes": 107278520320
+      }
+    }
+  },
+  "service_changes": 0
+}

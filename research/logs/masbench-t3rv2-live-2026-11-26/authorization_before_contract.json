@@ -1,0 +1,7 @@
+{
+  "schema": "t3rv2-synthetic-live-approval-v1",
+  "approved": false,
+  "scope": "T3-R-v2 two immutable artificial service probes only",
+  "run_id": "hpc-t3rv2i-live-probe-20261126",
+  "reason_pending": "user authorized real probes and monitoring; waiting actual new D01-D12 contract receipt and source bindings before release"
+}

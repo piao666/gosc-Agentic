@@ -1,0 +1,242 @@
+{
+  "base": "458a96f59b620a02e6872d038b87912eb39e92e4",
+  "scope": "Read-only byte protection. Registry is hashed only, never parsed; no task-body file opened.",
+  "frozen_files": [
+    {
+      "path": "experiments_ext/masbench_t1b_live.py",
+      "bytes": 12870,
+      "raw_sha256": "f49d7d831e39806f718319995993e84c9c6bfc67763e1f15b496bcbe1ab57cac",
+      "LF_sha256": "f49d7d831e39806f718319995993e84c9c6bfc67763e1f15b496bcbe1ab57cac"
+    },
+    {
+      "path": "experiments_ext/masbench_t2_live.py",
+      "bytes": 9463,
+      "raw_sha256": "6b39db5fd8034afa1a1075a77716bcc1f98a6b9628d44b93f5f0bbff837f9813",
+      "LF_sha256": "6b39db5fd8034afa1a1075a77716bcc1f98a6b9628d44b93f5f0bbff837f9813"
+    },
+    {
+      "path": "experiments_ext/masbench_t3_live.py",
+      "bytes": 13411,
+      "raw_sha256": "4f160deb864cb0d48bd23be44de0ed6d544f3b9d8e1acf117259af83534ddc8b",
+      "LF_sha256": "4f160deb864cb0d48bd23be44de0ed6d544f3b9d8e1acf117259af83534ddc8b"
+    },
+    {
+      "path": "extensions/masbench_reasoning/__init__.py",
+      "bytes": 85,
+      "raw_sha256": "94e904d18374a69eb828a15b771829465ef8fc3a4a047e5ebab7d0233b9e15f5",
+      "LF_sha256": "94e904d18374a69eb828a15b771829465ef8fc3a4a047e5ebab7d0233b9e15f5"
+    },
+    {
+      "path": "extensions/masbench_reasoning/application.py",
+      "bytes": 7353,
+      "raw_sha256": "a369f4d134e50984f69a92fa243449069849cef7c97142953dfb7cf27e801b78",
+      "LF_sha256": "a369f4d134e50984f69a92fa243449069849cef7c97142953dfb7cf27e801b78"
+    },
+    {
+      "path": "extensions/masbench_reasoning/client.py",
+      "bytes": 18467,
+      "raw_sha256": "3c236505a3db6283cdc3201ecef6e31e26e7aa552670777ce082c428f9f983fd",
+      "LF_sha256": "3c236505a3db6283cdc3201ecef6e31e26e7aa552670777ce082c428f9f983fd"
+    },
+    {
+      "path": "extensions/masbench_reasoning/evaluation.py",
+      "bytes": 4020,
+      "raw_sha256": "780743faa4d310eb9cd86285e9aeee67fcdba77d80e97d26f70d5f07206f2bf7",
+      "LF_sha256": "780743faa4d310eb9cd86285e9aeee67fcdba77d80e97d26f70d5f07206f2bf7"
+    },
+    {
+      "path": "extensions/masbench_reasoning/execution_safety.py",
+      "bytes": 12961,
+      "raw_sha256": "3fe213773b0c1a94e27afaccc2e68156e17181690dcb20e8b33a45668a8dc7de",
+      "LF_sha256": "3fe213773b0c1a94e27afaccc2e68156e17181690dcb20e8b33a45668a8dc7de"
+    },
+    {
+      "path": "extensions/masbench_reasoning/fixture_driver.py",
+      "bytes": 20823,
+      "raw_sha256": "bf0e8737cb7c7ef1c0e08253742d247714c23eb1257e6e42c40ce8d37c2fcc41",
+      "LF_sha256": "bf0e8737cb7c7ef1c0e08253742d247714c23eb1257e6e42c40ce8d37c2fcc41"
+    },
+    {
+      "path": "extensions/masbench_reasoning/LICENSE.MASBench",
+      "bytes": 1066,
+      "raw_sha256": "ed8a87c18796959225079ce0650ae78e46d85030c931f98660a942665d24e4ef",
+      "LF_sha256": "ed8a87c18796959225079ce0650ae78e46d85030c931f98660a942665d24e4ef"
+    },
+    {
+      "path": "extensions/masbench_reasoning/live_driver.py",
+      "bytes": 65937,
+      "raw_sha256": "c1d45e01d58a048db1b82ffeaee67cb34d2520cf29adfadbd5a33a2190a4afa1",
+      "LF_sha256": "c1d45e01d58a048db1b82ffeaee67cb34d2520cf29adfadbd5a33a2190a4afa1"
+    },
+    {
+      "path": "extensions/masbench_reasoning/registry.py",
+      "bytes": 8056,
+      "raw_sha256": "d4dea830a2c2d99df0bddaff1114aede1ea7f03782154241569e54193a852f10",
+      "LF_sha256": "d4dea830a2c2d99df0bddaff1114aede1ea7f03782154241569e54193a852f10"
+    },
+    {
+      "path": "extensions/masbench_reasoning/wire.py",
+      "bytes": 14209,
+      "raw_sha256": "1504e95b20fe5fb8af0a9fb3fafd43356f852ea7274f280edcfe5ba1f080e17f",
+      "LF_sha256": "1504e95b20fe5fb8af0a9fb3fafd43356f852ea7274f280edcfe5ba1f080e17f"
+    },
+    {
+      "path": "gosc/__init__.py",
+      "bytes": 309,
+      "raw_sha256": "3f25df10963a0ab99e27ccf22222639949af0e6199f36a5246d06b4d5e29c1f3",
+      "LF_sha256": "aefc86c81d4433defb481dbad8bc43ab7921bbd4bdc2e9008ac178da28eb3df1"
+    },
+    {
+      "path": "gosc/agent.py",
+      "bytes": 2464,
+      "raw_sha256": "a2c3d232f59a7c00fe9b830515d1f2486c717827c6d953d60dcb17461139295a",
+      "LF_sha256": "a6f98f610ba19935de867f567e28715a0fba814bea3f49ef038132913f88834f"
+    },
+    {
+      "path": "gosc/belief.py",
+      "bytes": 1838,
+      "raw_sha256": "e3d1fd4b0a37cb23bd802f7187b5ae76c544d4129d07ac45e58be091b7beefc3",
+      "LF_sha256": "6f662ffdf36b8c0b1c5bdae48bd49d1816965b27c88182ecef4546d1912659e6"
+    },
+    {
+      "path": "gosc/channel.py",
+      "bytes": 4264,
+      "raw_sha256": "c80185c01709a06ce0410fb0eb826edc8727e2abd85b0ae42cd93844aec58338",
+      "LF_sha256": "3d0f8cf5620a6c812414223ebfd46da88e6e2657c5683e969e69141eeca68362"
+    },
+    {
+      "path": "gosc/config.py",
+      "bytes": 5452,
+      "raw_sha256": "4c0d962efa6a4bfd5f0aa6f2e523001172d410182a10f24579c6d560b30c595d",
+      "LF_sha256": "e6f0df2ec3df7d9f0ed269bf5418c3bc56f665885fdc42fc27de40f3d444208a"
+    },
+    {
+      "path": "gosc/environment.py",
+      "bytes": 1814,
+      "raw_sha256": "8d7b9d27d08001159db0cac23f53f1e7306bc7f82f94107603c350a75125f5dd",
+      "LF_sha256": "5f035d17315fad47ef990d1506563e8ba2aaa943be7fa094a268beba305a2ff6"
+    },
+    {
+      "path": "gosc/joint.py",
+      "bytes": 6948,
+      "raw_sha256": "a3d72fc0dc11f3189f5ff56418c1d62d15331fe9a7da9ec32afef1f8b66cf625",
+      "LF_sha256": "d657a91c1200d6b35ab175bea06bdacf9b7f359170872fcc972990ad884cf0d2"
+    },
+    {
+      "path": "gosc/llm_agent.py",
+      "bytes": 8121,
+      "raw_sha256": "4ff9f71bff545e761f72b45b0c7da4ba6c805ca643fec093aca1ef9d8ca77aae",
+      "LF_sha256": "f651ad267e3e33f70a193698fad0426a181b535e7616a3d31258a481571c1443"
+    },
+    {
+      "path": "gosc/messages.py",
+      "bytes": 3691,
+      "raw_sha256": "af6977e7e58c657815d1bcde0a29c2c4aadd337acd1f0c8d7d9388a510a7b092",
+      "LF_sha256": "d4519ec9b5e2c76ed3dc2f90fa81f8c91ea8124b1aa36b83bb80e49f0716e0ba"
+    },
+    {
+      "path": "gosc/realistic.py",
+      "bytes": 23128,
+      "raw_sha256": "46a212ca5a437dc02e996d3f43d7dfcdf77ba645691525cb94bbadbb9131eadb",
+      "LF_sha256": "c3aaef63eeb8648abe17d1695a7ee72eea106cfbcf5de26749f5ce5c7c9e0e40"
+    },
+    {
+      "path": "gosc/rescue.py",
+      "bytes": 3119,
+      "raw_sha256": "313e0bd6eb4cefc15018d3348c09f163fe0b6986ecf49dd1e3e4c9400a6c2f56",
+      "LF_sha256": "bd97ce9f0966144fd452afedd91491e568ce2044e50526f62f1015e39ad531f2"
+    },
+    {
+      "path": "gosc/schemes.py",
+      "bytes": 23807,
+      "raw_sha256": "606e35bed232ad1d0937c056174a4f3c0266050f1e731f89de5b4281a1235de1",
+      "LF_sha256": "cb0a1d6e4270bca49e2f5bccb6813f27d6db6b3875c1b5ec13987d0768453626"
+    },
+    {
+      "path": "gosc/simulator.py",
+      "bytes": 16468,
+      "raw_sha256": "96b5482e787b9a204236f02aae48e124a66ba586e05f3ea7369a2b709c3fd876",
+      "LF_sha256": "01af448b5d62d9c0492e037e552d3e30e86c27211ec002caaa2011fc7828be31"
+    },
+    {
+      "path": "gosc/voi.py",
+      "bytes": 6788,
+      "raw_sha256": "bab3847479626954bcf7ff0c1e259dc43634456901c858e482dc2dd5e98089a2",
+      "LF_sha256": "3b358bd072584a95aa8d3eb03d77bd8c201adba99b724043a944480853c8017b"
+    },
+    {
+      "path": "research/artifacts/native-masbench-20261104/masbench_development_registry.json",
+      "bytes": 84943,
+      "raw_sha256": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86",
+      "LF_sha256": "6d14229ae0dd85a5b3c88b9309fcf86e54fab2523a3701914a7f7ebc06500a86"
+    },
+    {
+      "path": "research/protocols/masbench_t3r_v2_contract_matrix_v1.md",
+      "bytes": 13893,
+      "raw_sha256": "a2261e40cbbe0ca204397abd3d6942018aacb959e9280168871e9124ba53d4d6",
+      "LF_sha256": "a2261e40cbbe0ca204397abd3d6942018aacb959e9280168871e9124ba53d4d6"
+    },
+    {
+      "path": "research/protocols/masbench_t3r_v2_fair_final_spec_v1.md",
+      "bytes": 18413,
+      "raw_sha256": "cd29ab711a4fb243b96dad09bfb99051bb0b1f9ebd4c849cdfd3f76700c741b3",
+      "LF_sha256": "cd29ab711a4fb243b96dad09bfb99051bb0b1f9ebd4c849cdfd3f76700c741b3"
+    },
+    {
+      "path": "research/reports/masbench_t3r_v2_d1_budget_review_2026-11-25.md",
+      "bytes": 19370,
+      "raw_sha256": "b7d0d974c029e6fb09d2da5f46047b493b2b9d92420d4fa2958cc9133aca20f9",
+      "LF_sha256": "b7d0d974c029e6fb09d2da5f46047b493b2b9d92420d4fa2958cc9133aca20f9"
+    },
+    {
+      "path": "research/reports/masbench_t3r_v2_preimplementation_decision_2026-11-25.md",
+      "bytes": 11867,
+      "raw_sha256": "345e9a09a9f26c8f4cf38f7b28dc76980c5e06e16148c03afdc5a3da5d83cdde",
+      "LF_sha256": "345e9a09a9f26c8f4cf38f7b28dc76980c5e06e16148c03afdc5a3da5d83cdde"
+    },
+    {
+      "path": "scripts/hpc_ollama.py",
+      "bytes": 12046,
+      "raw_sha256": "80fd84dfa4d498cf8db38b38c86654a0accc064560e17618fb7da98d2ba111f7",
+      "LF_sha256": "f3afc556d9b47f64351e22988ea120ef84df1c5373175e0ca77aecc69af48bba"
+    },
+    {
+      "path": "scripts/hpc_runs.py",
+      "bytes": 16439,
+      "raw_sha256": "69c293ac952e78d3671fdd63f20485c4a6e1628a2e5c00dea2618768429fc83a",
+      "LF_sha256": "69c293ac952e78d3671fdd63f20485c4a6e1628a2e5c00dea2618768429fc83a"
+    },
+    {
+      "path": "scripts/sync_hpc.py",
+      "bytes": 10827,
+      "raw_sha256": "9e769b2172022665036663f7c157267cd64fe676e219487f15387a26b36f5dc8",
+      "LF_sha256": "5770994bd7200f9adcabc00114dc4f27931c57cd194c5ab7f0dbc79346aa5e40"
+    },
+    {
+      "path": "tests_ext/test_masbench_b1_safety.py",
+      "bytes": 9181,
+      "raw_sha256": "aa7ea236a2a3bc072e008aaac5b12d38426e5d45b82282e3e22b63a7ed32d75b",
+      "LF_sha256": "aa7ea236a2a3bc072e008aaac5b12d38426e5d45b82282e3e22b63a7ed32d75b"
+    },
+    {
+      "path": "tests_ext/test_masbench_fixture_driver.py",
+      "bytes": 15245,
+      "raw_sha256": "5890d5043e8ec9b17ed322b27e78428a86456377308547f9c4eea28169a2d17d",
+      "LF_sha256": "5890d5043e8ec9b17ed322b27e78428a86456377308547f9c4eea28169a2d17d"
+    },
+    {
+      "path": "tests_ext/test_masbench_reasoning_adapter.py",
+      "bytes": 17457,
+      "raw_sha256": "89b2bf614fcfb1b01adcf3bc844592f1a83e26558d54b95e07ee3ef08e1a7488",
+      "LF_sha256": "89b2bf614fcfb1b01adcf3bc844592f1a83e26558d54b95e07ee3ef08e1a7488"
+    },
+    {
+      "path": "tests_ext/test_masbench_t1_live_driver.py",
+      "bytes": 30591,
+      "raw_sha256": "b9826499e7d63c846cbe03ff3aeb24271000e754e9cf52d802b3335b402bba80",
+      "LF_sha256": "b9826499e7d63c846cbe03ff3aeb24271000e754e9cf52d802b3335b402bba80"
+    }
+  ],
+  "tracked_diff": [],
+  "new_tests_run": 0
+}

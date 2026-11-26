@@ -1,0 +1,33 @@
+{
+  "old_head": "b05ea731277a9467a8baa0b3ed184f1e1c3f5bf0",
+  "target_head": "458a96f59b620a02e6872d038b87912eb39e92e4",
+  "backup": "/home/u202520081000097/jupyterlab/Paper/gosc/.local/t3rv2i-git-meta-20261126-delta",
+  "original_metadata": {
+    "HEAD": {
+      "bytes": 51,
+      "sha256": "47018ba322721af880506529b910c66548f38741745e60e2eb02e5f9230e5b69"
+    },
+    "index": {
+      "bytes": 257817,
+      "sha256": "f3d3134a4e017e059d894210cc12481eeafa554855153844a157c0c91fb09cf6"
+    },
+    "FETCH_HEAD": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "packed-refs": {
+      "bytes": 323,
+      "sha256": "7df7419656d35eabeaa21a3cc8223e69803b8149535c6047dfbfabad2c8adf87"
+    },
+    "refs/heads/research/progress-audit-2026-10-19": {
+      "bytes": 41,
+      "sha256": "9e9f13f576a8816ad7444a423c2a1814970eddb75bbc475540ca12fd04f96481"
+    }
+  },
+  "worktree_files_verified": 1320,
+  "worktree_mismatches": [],
+  "worktree_written": false,
+  "method": "verified bundle fetch + metadata-only read-tree/update-ref",
+  "model_calls": 0,
+  "old_run_identity_modified": false
+}

@@ -1,0 +1,9 @@
+{
+  "operation": "preserve this task failed fetch temporary pack in tmpfs",
+  "source": "/home/u202520081000097/jupyterlab/Paper/gosc/.git/objects/pack/tmp_pack_Poo1Ub",
+  "preserved": "/tmp/gosc-t3rv2i-failed-index-pack-20261126.bin",
+  "size": 39694336,
+  "sha256": "841861fdb9c10d4800c176ae6675e545ba63e9ba98e9243f6e42277d6e52dc45",
+  "experiment_outputs_deleted": false,
+  "original_head_index_unchanged": true
+}

@@ -1,0 +1,75 @@
+{
+  "run_id": "hpc-t3rv2i-contract-v2-20261126",
+  "files": [
+    {
+      "path": "outputs/contract_results.json",
+      "size": 77407,
+      "sha256": "3b76a493df61f9c30b1fae879337b6d8dee727acc3e2ad2902476d4473e53bce"
+    },
+    {
+      "path": "outputs/evidence/C01_complete.json",
+      "size": 242797,
+      "sha256": "b7fb3b4de027b7b4dfbb86e02aef7d75ea6f43876b78a96d9c618ffe2d25311c"
+    },
+    {
+      "path": "outputs/evidence/C14_01f6bc8d00.json",
+      "size": 2909,
+      "sha256": "63abea0b0a7b87a300654dcbf169c8e7b529f5bb66b89165826c981294d29879"
+    },
+    {
+      "path": "outputs/evidence/C14_44185f1c39.json",
+      "size": 2888,
+      "sha256": "2efb4fcf0ff09917ade1773c0f4098c749a3bc30389e5e2d88f792eb4970c163"
+    },
+    {
+      "path": "outputs/evidence/C14_a9ca9b751b.json",
+      "size": 2928,
+      "sha256": "64e5b971714bd225a2a8acbbd9fde95582b52fc9f121f3c7e4c6d0cd63a9d586"
+    },
+    {
+      "path": "outputs/evidence/C14_d31d662d01.json",
+      "size": 2830,
+      "sha256": "72d3351ad123c36e61d2aa20d40c2aef135b9c3eacff7bec9c08dc33ca1066d0"
+    },
+    {
+      "path": "outputs/evidence/C14_d987f9a723.json",
+      "size": 2857,
+      "sha256": "7141869714e4fd7489d073a6050dc9b9e8f4478a43b64bd81a315f1d23d0e43e"
+    },
+    {
+      "path": "outputs/evidence/C20_fixture_worker_RuntimeError.json",
+      "size": 6546,
+      "sha256": "17a8289519263748870b2e8665072323124c93787c712178916cd4bd84da097a"
+    },
+    {
+      "path": "outputs/evidence/C20_output_truncated.json",
+      "size": 6525,
+      "sha256": "478d1646b28cf0c73810dc0f0314cb04a62829aabbcc463631c3bb38f1e56a2f"
+    },
+    {
+      "path": "outputs/evidence/C20_timeout.json",
+      "size": 6518,
+      "sha256": "f856af53583d897aaad373940f57b1bd4d199347641789cd9a6c411be90c33e9"
+    },
+    {
+      "path": "outputs/evidence/C20_usage_unknown.json",
+      "size": 6519,
+      "sha256": "ff8ebc472a1d0417015e40d83f8ae25b0e8532792076a5b584f2d24e58d94d23"
+    },
+    {
+      "path": "outputs/evidence/C25_worker_exit.json",
+      "size": 310,
+      "sha256": "2867d995278c45bbe6608435b4f4b94c0a0050338e246d233625e64c7a2a7aed"
+    },
+    {
+      "path": "outputs/fixture-journals.tar.gz",
+      "size": 409985,
+      "sha256": "c65f33b148dc0f2da4242d38a7b23a996b65486780971be749b475494581b059"
+    },
+    {
+      "path": "outputs/pytest.xml",
+      "size": 7757,
+      "sha256": "ecd71e80106448256883fba359844b7948f74610f9ab7d2ef8bb1efb7c20d1bc"
+    }
+  ]
+}

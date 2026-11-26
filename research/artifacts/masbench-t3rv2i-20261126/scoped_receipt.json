@@ -1,0 +1,892 @@
+{
+  "schema": "t3rv2i-scoped-complete-transfer-v1",
+  "run_ids": [
+    "hpc-t3rv2i-contract-20261126",
+    "hpc-t3rv2i-contract-v2-20261126",
+    "hpc-t3rv2i-legacy-20261126",
+    "hpc-t3rv2i-pressure-20261126",
+    "hpc-t3rv2i-pressure-v2-20261126",
+    "hpc-t3rv2i-pressure-v3-20261126",
+    "hpc-t3rv2i-pressure-summary-20261126",
+    "hpc-t3rv2i-counter-v2-20261126",
+    "hpc-t3rv2i-audit-20261126"
+  ],
+  "states": {
+    "hpc-t3rv2i-contract-20261126": {
+      "run_id": "hpc-t3rv2i-contract-20261126",
+      "status": "failed",
+      "started_at": "2026-11-26T01:44:07.057516+00:00",
+      "finished_at": "2026-11-26T01:44:18.210736+00:00",
+      "exit_code": 1,
+      "pid": 34125,
+      "elapsed_seconds": 11.153242,
+      "resource_usage": {
+        "child_max_rss_kib": 53860,
+        "child_cpu_user_seconds": 2.058961,
+        "child_cpu_system_seconds": 2.72946,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+    },
+    "hpc-t3rv2i-contract-v2-20261126": {
+      "run_id": "hpc-t3rv2i-contract-v2-20261126",
+      "status": "completed",
+      "started_at": "2026-11-26T01:46:36.261522+00:00",
+      "finished_at": "2026-11-26T01:46:46.130668+00:00",
+      "exit_code": 0,
+      "pid": 34496,
+      "elapsed_seconds": 9.869166,
+      "resource_usage": {
+        "child_max_rss_kib": 54008,
+        "child_cpu_user_seconds": 1.8230439999999999,
+        "child_cpu_system_seconds": 2.610146,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+    },
+    "hpc-t3rv2i-legacy-20261126": {
+      "run_id": "hpc-t3rv2i-legacy-20261126",
+      "status": "completed",
+      "started_at": "2026-11-26T01:47:26.761147+00:00",
+      "finished_at": "2026-11-26T01:47:28.053557+00:00",
+      "exit_code": 0,
+      "pid": 34737,
+      "elapsed_seconds": 1.29243,
+      "resource_usage": {
+        "child_max_rss_kib": 52876,
+        "child_cpu_user_seconds": 0.885759,
+        "child_cpu_system_seconds": 0.31182899999999997,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+    },
+    "hpc-t3rv2i-pressure-20261126": {
+      "run_id": "hpc-t3rv2i-pressure-20261126",
+      "status": "failed",
+      "started_at": "2026-11-26T01:47:40.040334+00:00",
+      "finished_at": "2026-11-26T01:47:40.370523+00:00",
+      "exit_code": 1,
+      "pid": 34782,
+      "elapsed_seconds": 0.330209,
+      "resource_usage": {
+        "child_max_rss_kib": 54020,
+        "child_cpu_user_seconds": 0.459648,
+        "child_cpu_system_seconds": 0.21620499999999998,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+    },
+    "hpc-t3rv2i-pressure-v2-20261126": {
+      "run_id": "hpc-t3rv2i-pressure-v2-20261126",
+      "status": "failed",
+      "started_at": "2026-11-26T01:51:53.389606+00:00",
+      "finished_at": "2026-11-26T01:51:55.030115+00:00",
+      "exit_code": 1,
+      "pid": 35063,
+      "elapsed_seconds": 1.640527,
+      "resource_usage": {
+        "child_max_rss_kib": 53976,
+        "child_cpu_user_seconds": 0.832378,
+        "child_cpu_system_seconds": 0.46269899999999997,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+    },
+    "hpc-t3rv2i-pressure-v3-20261126": {
+      "run_id": "hpc-t3rv2i-pressure-v3-20261126",
+      "status": "failed",
+      "started_at": "2026-11-26T01:54:36.886580+00:00",
+      "finished_at": "2026-11-26T01:54:38.892549+00:00",
+      "exit_code": 1,
+      "pid": 35340,
+      "elapsed_seconds": 2.005989,
+      "resource_usage": {
+        "child_max_rss_kib": 58816,
+        "child_cpu_user_seconds": 0.928109,
+        "child_cpu_system_seconds": 0.527658,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+    },
+    "hpc-t3rv2i-pressure-summary-20261126": {
+      "run_id": "hpc-t3rv2i-pressure-summary-20261126",
+      "status": "completed",
+      "started_at": "2026-11-26T02:10:38.494113+00:00",
+      "finished_at": "2026-11-26T02:10:38.654952+00:00",
+      "exit_code": 0,
+      "pid": 36379,
+      "elapsed_seconds": 0.160858,
+      "resource_usage": {
+        "child_max_rss_kib": 25908,
+        "child_cpu_user_seconds": 0.22483199999999998,
+        "child_cpu_system_seconds": 0.11765199999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+    },
+    "hpc-t3rv2i-counter-v2-20261126": {
+      "run_id": "hpc-t3rv2i-counter-v2-20261126",
+      "status": "completed",
+      "started_at": "2026-11-26T02:10:50.579845+00:00",
+      "finished_at": "2026-11-26T02:10:52.808975+00:00",
+      "exit_code": 0,
+      "pid": 36423,
+      "elapsed_seconds": 2.22915,
+      "resource_usage": {
+        "child_max_rss_kib": 73272,
+        "child_cpu_user_seconds": 0.97642,
+        "child_cpu_system_seconds": 0.243632,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+    },
+    "hpc-t3rv2i-audit-20261126": {
+      "run_id": "hpc-t3rv2i-audit-20261126",
+      "status": "completed",
+      "started_at": "2026-11-26T02:11:19.383207+00:00",
+      "finished_at": "2026-11-26T02:11:20.715478+00:00",
+      "exit_code": 0,
+      "pid": 36476,
+      "elapsed_seconds": 1.332291,
+      "resource_usage": {
+        "child_max_rss_kib": 38284,
+        "child_cpu_user_seconds": 1.368684,
+        "child_cpu_system_seconds": 0.10684099999999999,
+        "peak_gpu_memory": null
+      },
+      "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+    }
+  },
+  "files": [
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/artifacts.json",
+      "size": 2440,
+      "sha256": "4cea478e2eef91d3a52b45884ecbee14f9e392933fa54aed3f8c6c7eaaecd624",
+      "local_sha256": "4cea478e2eef91d3a52b45884ecbee14f9e392933fa54aed3f8c6c7eaaecd624"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/manifest.json",
+      "size": 16975,
+      "sha256": "858447834016b2a8487d2bc6b76263f61dd541e623a349f926ba1af52114051b",
+      "local_sha256": "858447834016b2a8487d2bc6b76263f61dd541e623a349f926ba1af52114051b"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/contract_results.json",
+      "size": 77411,
+      "sha256": "b3ae1cc0d951b4d4e69e89e3765811efad364d900d6e990987a8da3581a0c157",
+      "local_sha256": "b3ae1cc0d951b4d4e69e89e3765811efad364d900d6e990987a8da3581a0c157"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/evidence/C01_complete.json",
+      "size": 242828,
+      "sha256": "a5a50a6dcd839b2bbf4dea713816c61c990472f6d1a46781fa98b8432ea71657",
+      "local_sha256": "a5a50a6dcd839b2bbf4dea713816c61c990472f6d1a46781fa98b8432ea71657"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/evidence/C14_01f6bc8d00.json",
+      "size": 2909,
+      "sha256": "63abea0b0a7b87a300654dcbf169c8e7b529f5bb66b89165826c981294d29879",
+      "local_sha256": "63abea0b0a7b87a300654dcbf169c8e7b529f5bb66b89165826c981294d29879"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/evidence/C14_44185f1c39.json",
+      "size": 2888,
+      "sha256": "2efb4fcf0ff09917ade1773c0f4098c749a3bc30389e5e2d88f792eb4970c163",
+      "local_sha256": "2efb4fcf0ff09917ade1773c0f4098c749a3bc30389e5e2d88f792eb4970c163"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/evidence/C14_a9ca9b751b.json",
+      "size": 2928,
+      "sha256": "64e5b971714bd225a2a8acbbd9fde95582b52fc9f121f3c7e4c6d0cd63a9d586",
+      "local_sha256": "64e5b971714bd225a2a8acbbd9fde95582b52fc9f121f3c7e4c6d0cd63a9d586"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/evidence/C14_d31d662d01.json",
+      "size": 2830,
+      "sha256": "72d3351ad123c36e61d2aa20d40c2aef135b9c3eacff7bec9c08dc33ca1066d0",
+      "local_sha256": "72d3351ad123c36e61d2aa20d40c2aef135b9c3eacff7bec9c08dc33ca1066d0"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/evidence/C14_d987f9a723.json",
+      "size": 2857,
+      "sha256": "7141869714e4fd7489d073a6050dc9b9e8f4478a43b64bd81a315f1d23d0e43e",
+      "local_sha256": "7141869714e4fd7489d073a6050dc9b9e8f4478a43b64bd81a315f1d23d0e43e"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/evidence/C20_fixture_worker_RuntimeError.json",
+      "size": 6547,
+      "sha256": "a4b791ef2c5788056f65219ddd5ada5aa03af7546f33252c929e8a9f256118c1",
+      "local_sha256": "a4b791ef2c5788056f65219ddd5ada5aa03af7546f33252c929e8a9f256118c1"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/evidence/C20_output_truncated.json",
+      "size": 6538,
+      "sha256": "ebba6cae471fc1218dc8bdb373cb3e786bc78189f4f26d4a2174b9249418f077",
+      "local_sha256": "ebba6cae471fc1218dc8bdb373cb3e786bc78189f4f26d4a2174b9249418f077"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/evidence/C20_timeout.json",
+      "size": 6510,
+      "sha256": "a297f1d824f314061d160a02f35d95bd1e881c4ec20cc49e74f3b19abf7ca556",
+      "local_sha256": "a297f1d824f314061d160a02f35d95bd1e881c4ec20cc49e74f3b19abf7ca556"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/evidence/C20_usage_unknown.json",
+      "size": 6518,
+      "sha256": "3bf21d4114c5dbace769ca6752a18c6a29c43592e4f31a9b24e61bc11d90a4fd",
+      "local_sha256": "3bf21d4114c5dbace769ca6752a18c6a29c43592e4f31a9b24e61bc11d90a4fd"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/evidence/C25_worker_exit.json",
+      "size": 310,
+      "sha256": "213671b42f5921276e03a891754e2d716bc0b2030fd003ffcb3f8953c2e761a5",
+      "local_sha256": "213671b42f5921276e03a891754e2d716bc0b2030fd003ffcb3f8953c2e761a5"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/fixture-journals.tar.gz",
+      "size": 410637,
+      "sha256": "cdcb55305f2595ea6abceaa318e26cadb97846769e916f6bdb0352f3b8e275b1",
+      "local_sha256": "cdcb55305f2595ea6abceaa318e26cadb97846769e916f6bdb0352f3b8e275b1"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/outputs/pytest.xml",
+      "size": 8684,
+      "sha256": "44030dbe0246b08f650b65afb1b8a7fb6325011f14dced649430d42a55f364ba",
+      "local_sha256": "44030dbe0246b08f650b65afb1b8a7fb6325011f14dced649430d42a55f364ba"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/source_changes.patch.gz",
+      "size": 1750522,
+      "sha256": "e16443f9137b9a4b98f43066d1b97c6b9edb58bd8dec30169f848424450b59eb",
+      "local_sha256": "e16443f9137b9a4b98f43066d1b97c6b9edb58bd8dec30169f848424450b59eb"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/source_snapshot.json",
+      "size": 488931,
+      "sha256": "782300e006436ad5f5f5b154bd90421e140fa56ced525e9ee06521719187f7e2",
+      "local_sha256": "782300e006436ad5f5f5b154bd90421e140fa56ced525e9ee06521719187f7e2"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/source_untracked.tar.gz",
+      "size": 48452,
+      "sha256": "912c654020fcb85a74517d9a078aeb04fa460cff0f52b67c14a9bb306b128b35",
+      "local_sha256": "912c654020fcb85a74517d9a078aeb04fa460cff0f52b67c14a9bb306b128b35"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/status.json",
+      "size": 526,
+      "sha256": "5c819b4e4bea71ae4f7ef2f5198075d6fd11b9bd0a455c81c5b7c38056b015b1",
+      "local_sha256": "5c819b4e4bea71ae4f7ef2f5198075d6fd11b9bd0a455c81c5b7c38056b015b1"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-20261126/stdout.log",
+      "size": 1145,
+      "sha256": "c01427877f9c297120ed3672883266859a3f1177d70e4cb69473a5d96e7d4a6d",
+      "local_sha256": "c01427877f9c297120ed3672883266859a3f1177d70e4cb69473a5d96e7d4a6d"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/artifacts.json",
+      "size": 2443,
+      "sha256": "7dc510e189e95b9a875251c98cc077140a60eed5e246ca5bdb3512472ae563c2",
+      "local_sha256": "7dc510e189e95b9a875251c98cc077140a60eed5e246ca5bdb3512472ae563c2"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/manifest.json",
+      "size": 17029,
+      "sha256": "e0c0232c921ff02377e3b788f123b44edd3877b13dc3db275bdc24aecc727dbc",
+      "local_sha256": "e0c0232c921ff02377e3b788f123b44edd3877b13dc3db275bdc24aecc727dbc"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/contract_results.json",
+      "size": 77407,
+      "sha256": "3b76a493df61f9c30b1fae879337b6d8dee727acc3e2ad2902476d4473e53bce",
+      "local_sha256": "3b76a493df61f9c30b1fae879337b6d8dee727acc3e2ad2902476d4473e53bce"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/evidence/C01_complete.json",
+      "size": 242797,
+      "sha256": "b7fb3b4de027b7b4dfbb86e02aef7d75ea6f43876b78a96d9c618ffe2d25311c",
+      "local_sha256": "b7fb3b4de027b7b4dfbb86e02aef7d75ea6f43876b78a96d9c618ffe2d25311c"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/evidence/C14_01f6bc8d00.json",
+      "size": 2909,
+      "sha256": "63abea0b0a7b87a300654dcbf169c8e7b529f5bb66b89165826c981294d29879",
+      "local_sha256": "63abea0b0a7b87a300654dcbf169c8e7b529f5bb66b89165826c981294d29879"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/evidence/C14_44185f1c39.json",
+      "size": 2888,
+      "sha256": "2efb4fcf0ff09917ade1773c0f4098c749a3bc30389e5e2d88f792eb4970c163",
+      "local_sha256": "2efb4fcf0ff09917ade1773c0f4098c749a3bc30389e5e2d88f792eb4970c163"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/evidence/C14_a9ca9b751b.json",
+      "size": 2928,
+      "sha256": "64e5b971714bd225a2a8acbbd9fde95582b52fc9f121f3c7e4c6d0cd63a9d586",
+      "local_sha256": "64e5b971714bd225a2a8acbbd9fde95582b52fc9f121f3c7e4c6d0cd63a9d586"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/evidence/C14_d31d662d01.json",
+      "size": 2830,
+      "sha256": "72d3351ad123c36e61d2aa20d40c2aef135b9c3eacff7bec9c08dc33ca1066d0",
+      "local_sha256": "72d3351ad123c36e61d2aa20d40c2aef135b9c3eacff7bec9c08dc33ca1066d0"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/evidence/C14_d987f9a723.json",
+      "size": 2857,
+      "sha256": "7141869714e4fd7489d073a6050dc9b9e8f4478a43b64bd81a315f1d23d0e43e",
+      "local_sha256": "7141869714e4fd7489d073a6050dc9b9e8f4478a43b64bd81a315f1d23d0e43e"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/evidence/C20_fixture_worker_RuntimeError.json",
+      "size": 6546,
+      "sha256": "17a8289519263748870b2e8665072323124c93787c712178916cd4bd84da097a",
+      "local_sha256": "17a8289519263748870b2e8665072323124c93787c712178916cd4bd84da097a"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/evidence/C20_output_truncated.json",
+      "size": 6525,
+      "sha256": "478d1646b28cf0c73810dc0f0314cb04a62829aabbcc463631c3bb38f1e56a2f",
+      "local_sha256": "478d1646b28cf0c73810dc0f0314cb04a62829aabbcc463631c3bb38f1e56a2f"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/evidence/C20_timeout.json",
+      "size": 6518,
+      "sha256": "f856af53583d897aaad373940f57b1bd4d199347641789cd9a6c411be90c33e9",
+      "local_sha256": "f856af53583d897aaad373940f57b1bd4d199347641789cd9a6c411be90c33e9"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/evidence/C20_usage_unknown.json",
+      "size": 6519,
+      "sha256": "ff8ebc472a1d0417015e40d83f8ae25b0e8532792076a5b584f2d24e58d94d23",
+      "local_sha256": "ff8ebc472a1d0417015e40d83f8ae25b0e8532792076a5b584f2d24e58d94d23"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/evidence/C25_worker_exit.json",
+      "size": 310,
+      "sha256": "2867d995278c45bbe6608435b4f4b94c0a0050338e246d233625e64c7a2a7aed",
+      "local_sha256": "2867d995278c45bbe6608435b4f4b94c0a0050338e246d233625e64c7a2a7aed"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/fixture-journals.tar.gz",
+      "size": 409985,
+      "sha256": "c65f33b148dc0f2da4242d38a7b23a996b65486780971be749b475494581b059",
+      "local_sha256": "c65f33b148dc0f2da4242d38a7b23a996b65486780971be749b475494581b059"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/outputs/pytest.xml",
+      "size": 7757,
+      "sha256": "ecd71e80106448256883fba359844b7948f74610f9ab7d2ef8bb1efb7c20d1bc",
+      "local_sha256": "ecd71e80106448256883fba359844b7948f74610f9ab7d2ef8bb1efb7c20d1bc"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/source_changes.patch.gz",
+      "size": 1750872,
+      "sha256": "4d567cd45b6a1ed9a03c1f32720694ed7a64363380c3c62e96ccea923533affc",
+      "local_sha256": "4d567cd45b6a1ed9a03c1f32720694ed7a64363380c3c62e96ccea923533affc"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/source_snapshot.json",
+      "size": 488931,
+      "sha256": "2109271a5fe3607e4b7ae5d6885408e36a1f71248ce1b43e258f2755513934a8",
+      "local_sha256": "2109271a5fe3607e4b7ae5d6885408e36a1f71248ce1b43e258f2755513934a8"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/source_untracked.tar.gz",
+      "size": 48549,
+      "sha256": "79ba29f5cbe2674af59ef673284d39380d839e9e8a14c2b31644e19c4742276d",
+      "local_sha256": "79ba29f5cbe2674af59ef673284d39380d839e9e8a14c2b31644e19c4742276d"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/status.json",
+      "size": 542,
+      "sha256": "0c982a4103e798ae9a1cbd929f25654cef7c98c0b66b36da77c7b05be81f8440",
+      "local_sha256": "0c982a4103e798ae9a1cbd929f25654cef7c98c0b66b36da77c7b05be81f8440"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-contract-v2-20261126/stdout.log",
+      "size": 99,
+      "sha256": "fe235c185567c254fd3a332fde55efc57f95f604e4807050261a47485cd43c16",
+      "local_sha256": "fe235c185567c254fd3a332fde55efc57f95f604e4807050261a47485cd43c16"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-legacy-20261126/artifacts.json",
+      "size": 541,
+      "sha256": "b225aa3b975b4153a53eed30bd1604901ebac98c0dde7c494660e3eea29a44f4",
+      "local_sha256": "b225aa3b975b4153a53eed30bd1604901ebac98c0dde7c494660e3eea29a44f4"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-legacy-20261126/manifest.json",
+      "size": 17097,
+      "sha256": "8ab6ce32c4887e0d1b0476810384d216bb2e8b0849dcd664894722b6977c8cab",
+      "local_sha256": "8ab6ce32c4887e0d1b0476810384d216bb2e8b0849dcd664894722b6977c8cab"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-legacy-20261126/outputs/fixture-journals.tar.gz",
+      "size": 101,
+      "sha256": "7c51e0ea506b6cc85d682d3d50e8e27f4beea8733131ef7d3179bcbd120f9277",
+      "local_sha256": "7c51e0ea506b6cc85d682d3d50e8e27f4beea8733131ef7d3179bcbd120f9277"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-legacy-20261126/outputs/legacy_results.json",
+      "size": 48472,
+      "sha256": "2903eac6fa59912ea959e143f84021acd918dd0204e859f38558b5f44bd8ff1b",
+      "local_sha256": "2903eac6fa59912ea959e143f84021acd918dd0204e859f38558b5f44bd8ff1b"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-legacy-20261126/outputs/pytest.xml",
+      "size": 10719,
+      "sha256": "e4535dfbfc6ab28ad8cbe82f361fb0777dc632dbba5e542959338dbc658bc064",
+      "local_sha256": "e4535dfbfc6ab28ad8cbe82f361fb0777dc632dbba5e542959338dbc658bc064"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-legacy-20261126/source_changes.patch.gz",
+      "size": 1750972,
+      "sha256": "2d6477ea36408044d66b47a1e91aad0b7e625afa4e91bbb9ce3ba22759a97f3b",
+      "local_sha256": "2d6477ea36408044d66b47a1e91aad0b7e625afa4e91bbb9ce3ba22759a97f3b"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-legacy-20261126/source_snapshot.json",
+      "size": 488931,
+      "sha256": "2109271a5fe3607e4b7ae5d6885408e36a1f71248ce1b43e258f2755513934a8",
+      "local_sha256": "2109271a5fe3607e4b7ae5d6885408e36a1f71248ce1b43e258f2755513934a8"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-legacy-20261126/source_untracked.tar.gz",
+      "size": 48549,
+      "sha256": "2c9101ea8375b68b11b100755b2bf235fa1d9aa55d3d55f437f73917222bc831",
+      "local_sha256": "2c9101ea8375b68b11b100755b2bf235fa1d9aa55d3d55f437f73917222bc831"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-legacy-20261126/status.json",
+      "size": 537,
+      "sha256": "3c406f57f91f84c9b6823a310acaa462a87068dfc9cbcb04b6d5c2f0d47e19b0",
+      "local_sha256": "3c406f57f91f84c9b6823a310acaa462a87068dfc9cbcb04b6d5c2f0d47e19b0"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-legacy-20261126/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-legacy-20261126/stdout.log",
+      "size": 99,
+      "sha256": "0855d99416a8b9650f93d9187753ea75c80fb9062bb61192d235bcb88b659663",
+      "local_sha256": "0855d99416a8b9650f93d9187753ea75c80fb9062bb61192d235bcb88b659663"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-20261126/artifacts.json",
+      "size": 2569,
+      "sha256": "ece74cdf37309bcfc8f7799b9100c17921b723817bda9c443d9ee70a7f3f9681",
+      "local_sha256": "ece74cdf37309bcfc8f7799b9100c17921b723817bda9c443d9ee70a7f3f9681"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-20261126/manifest.json",
+      "size": 17174,
+      "sha256": "54c2da170c1ad8fec7d95ea4e312ea416f2f68800bcbb8a14b767a69027dc0b2",
+      "local_sha256": "54c2da170c1ad8fec7d95ea4e312ea416f2f68800bcbb8a14b767a69027dc0b2"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-20261126/outputs/fixture-prefix-raw.tar.gz",
+      "size": 13519,
+      "sha256": "5c3ca66b0cf4fa6561bfa8e40e4b5262a1e4a9ebee1f28f9ec6b0dd7f08b1084",
+      "local_sha256": "5c3ca66b0cf4fa6561bfa8e40e4b5262a1e4a9ebee1f28f9ec6b0dd7f08b1084"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-20261126/outputs/storage_receipt.json",
+      "size": 2079,
+      "sha256": "374a2be5b6cb8859014db74eb9f6b4c9e625abcbb17eb965d9198646ad2fb72c",
+      "local_sha256": "374a2be5b6cb8859014db74eb9f6b4c9e625abcbb17eb965d9198646ad2fb72c"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-20261126/source_changes.patch.gz",
+      "size": 1751095,
+      "sha256": "51f5179ad10b96982dd4f3216b422f9674895505a07bb531d4ed7341c67da603",
+      "local_sha256": "51f5179ad10b96982dd4f3216b422f9674895505a07bb531d4ed7341c67da603"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-20261126/source_snapshot.json",
+      "size": 488931,
+      "sha256": "2109271a5fe3607e4b7ae5d6885408e36a1f71248ce1b43e258f2755513934a8",
+      "local_sha256": "2109271a5fe3607e4b7ae5d6885408e36a1f71248ce1b43e258f2755513934a8"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-20261126/source_untracked.tar.gz",
+      "size": 48549,
+      "sha256": "17f868de7f5e4754dbdf6d5741e39dd0fb42331fcede72482a1c9a680c70cf03",
+      "local_sha256": "17f868de7f5e4754dbdf6d5741e39dd0fb42331fcede72482a1c9a680c70cf03"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-20261126/status.json",
+      "size": 537,
+      "sha256": "0403f7a1f993b4ad76eea6f63c1cdc3ef68d385478c3274f253c8e56f966043b",
+      "local_sha256": "0403f7a1f993b4ad76eea6f63c1cdc3ef68d385478c3274f253c8e56f966043b"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-20261126/stderr.log",
+      "size": 535,
+      "sha256": "bd7a6653fb773f6f458d844d6cd905578ce051d68ef408543320bb29768d1836",
+      "local_sha256": "bd7a6653fb773f6f458d844d6cd905578ce051d68ef408543320bb29768d1836"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-20261126/stdout.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v2-20261126/artifacts.json",
+      "size": 18100,
+      "sha256": "9b765836c13e59fe3b2f9f64eec0291b17eac7874dd120b5828faffac64fa313",
+      "local_sha256": "9b765836c13e59fe3b2f9f64eec0291b17eac7874dd120b5828faffac64fa313"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v2-20261126/manifest.json",
+      "size": 17233,
+      "sha256": "b663a7e29ab393c64e4cbc5e041346b460266e8e78e377e54e45a33dc28dbfc3",
+      "local_sha256": "b663a7e29ab393c64e4cbc5e041346b460266e8e78e377e54e45a33dc28dbfc3"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v2-20261126/outputs/fixture-prefix-raw.tar.gz",
+      "size": 108369,
+      "sha256": "d7de3bf09f6e1ce2354a7f4814dfc67952ed65412536d968b0deb113d40b28e9",
+      "local_sha256": "d7de3bf09f6e1ce2354a7f4814dfc67952ed65412536d968b0deb113d40b28e9"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v2-20261126/outputs/storage_receipt.json",
+      "size": 12469,
+      "sha256": "c1f1814bb047a0c1e436c26c48487411f179cc9464030958f949d1f555efe2b6",
+      "local_sha256": "c1f1814bb047a0c1e436c26c48487411f179cc9464030958f949d1f555efe2b6"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v2-20261126/source_changes.patch.gz",
+      "size": 1751299,
+      "sha256": "ffc279ca5b0054a829301717e649d3439e20ce1adbcf49fb96518b54577521ec",
+      "local_sha256": "ffc279ca5b0054a829301717e649d3439e20ce1adbcf49fb96518b54577521ec"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v2-20261126/source_snapshot.json",
+      "size": 488931,
+      "sha256": "2109271a5fe3607e4b7ae5d6885408e36a1f71248ce1b43e258f2755513934a8",
+      "local_sha256": "2109271a5fe3607e4b7ae5d6885408e36a1f71248ce1b43e258f2755513934a8"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v2-20261126/source_untracked.tar.gz",
+      "size": 48549,
+      "sha256": "5bdeb9d379dc2b1bfc57ea6f3e291ab5b318e6281db783c534c476c2f382e9c4",
+      "local_sha256": "5bdeb9d379dc2b1bfc57ea6f3e291ab5b318e6281db783c534c476c2f382e9c4"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v2-20261126/status.json",
+      "size": 540,
+      "sha256": "19f8b6fa3247d576604565076654c2aa0339f7e1a21fe60ce34d86c38b7ec170",
+      "local_sha256": "19f8b6fa3247d576604565076654c2aa0339f7e1a21fe60ce34d86c38b7ec170"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v2-20261126/stderr.log",
+      "size": 540,
+      "sha256": "d0a24eb679068a9e8867ee704cf8d79fb382324f1984c0dc617b2bf30eeed754",
+      "local_sha256": "d0a24eb679068a9e8867ee704cf8d79fb382324f1984c0dc617b2bf30eeed754"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v2-20261126/stdout.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/artifacts.json",
+      "size": 23269,
+      "sha256": "142e6e4d7c3ece6aa1a0a4919b422e2a08618aa18133fbc8d55eb2a7223597b3",
+      "local_sha256": "142e6e4d7c3ece6aa1a0a4919b422e2a08618aa18133fbc8d55eb2a7223597b3"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/manifest.json",
+      "size": 17356,
+      "sha256": "d0b08513944a0bb09a77a950b6fc09ce634d88bf18dd8dedaaa9fe092ea8570a",
+      "local_sha256": "d0b08513944a0bb09a77a950b6fc09ce634d88bf18dd8dedaaa9fe092ea8570a"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/outputs/counter-input.json",
+      "size": 1170888,
+      "sha256": "f74a175d813aa004fa2135a13799e95575b3c68b6c443f7901bea6be3c4da0c2",
+      "local_sha256": "f74a175d813aa004fa2135a13799e95575b3c68b6c443f7901bea6be3c4da0c2"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/outputs/counter-stderr.log",
+      "size": 11681,
+      "sha256": "861236c6b6f5e0379573cacdb482be2b9b4761bed058d966e2e1edfc7553ff00",
+      "local_sha256": "861236c6b6f5e0379573cacdb482be2b9b4761bed058d966e2e1edfc7553ff00"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/outputs/fixture-prefix-raw.tar.gz",
+      "size": 136088,
+      "sha256": "c6f8c6265eeb97603af5504f8e82300508e799af29bda0373a5a78eabb4289ae",
+      "local_sha256": "c6f8c6265eeb97603af5504f8e82300508e799af29bda0373a5a78eabb4289ae"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/outputs/storage_receipt.json",
+      "size": 15530,
+      "sha256": "cf3df60a5af734346a48dd1c67a98ae76165736f43377bc69e1d59036ae85de2",
+      "local_sha256": "cf3df60a5af734346a48dd1c67a98ae76165736f43377bc69e1d59036ae85de2"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/outputs/synthetic-requests.json",
+      "size": 1170030,
+      "sha256": "55eb321df2acde7171562910fb0f05e4fb855e196ce7ec8fe8861f02b1e46c6d",
+      "local_sha256": "55eb321df2acde7171562910fb0f05e4fb855e196ce7ec8fe8861f02b1e46c6d"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/source_changes.patch.gz",
+      "size": 1751420,
+      "sha256": "db0d1cde04c515b59b4e4193f0f9fdf373acebba133ee3f42c5fe0abc7d00946",
+      "local_sha256": "db0d1cde04c515b59b4e4193f0f9fdf373acebba133ee3f42c5fe0abc7d00946"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/source_snapshot.json",
+      "size": 489272,
+      "sha256": "f86c8fe402b16eec00b8199666eb6df60370d614d91f16bbb972a57edee43b6f",
+      "local_sha256": "f86c8fe402b16eec00b8199666eb6df60370d614d91f16bbb972a57edee43b6f"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/source_untracked.tar.gz",
+      "size": 50466,
+      "sha256": "e62c80e083fc5a2ced7bb88160980c8f0b65823ffce8759a658c4cecbd5af88c",
+      "local_sha256": "e62c80e083fc5a2ced7bb88160980c8f0b65823ffce8759a658c4cecbd5af88c"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/status.json",
+      "size": 529,
+      "sha256": "f4450c7b8fc4756caaad0825c5c9c2f19da7bd3ada52c0123e67930c27087bda",
+      "local_sha256": "f4450c7b8fc4756caaad0825c5c9c2f19da7bd3ada52c0123e67930c27087bda"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/stderr.log",
+      "size": 788,
+      "sha256": "1ca4d439070d8cd5745ba48dbfb588d3b7bb9a1be17a61c9b0f70cc9564ec142",
+      "local_sha256": "1ca4d439070d8cd5745ba48dbfb588d3b7bb9a1be17a61c9b0f70cc9564ec142"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-v3-20261126/stdout.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-summary-20261126/artifacts.json",
+      "size": 235,
+      "sha256": "fcf4f017e5c0ee0bdff318a00a2ad39e09bae729488258f0bb76730135a2933a",
+      "local_sha256": "fcf4f017e5c0ee0bdff318a00a2ad39e09bae729488258f0bb76730135a2933a"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-summary-20261126/manifest.json",
+      "size": 18126,
+      "sha256": "c7b9f705b2de2df105b076f9942a2deb74d059390d903aaad8b4ee89dcae1f4e",
+      "local_sha256": "c7b9f705b2de2df105b076f9942a2deb74d059390d903aaad8b4ee89dcae1f4e"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-summary-20261126/outputs/pressure_summary.json",
+      "size": 8456,
+      "sha256": "fe28e4723fe0123fc8121dcbe730267253440c81c6a87f472bd6acf1e790f44e",
+      "local_sha256": "fe28e4723fe0123fc8121dcbe730267253440c81c6a87f472bd6acf1e790f44e"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-summary-20261126/source_changes.patch.gz",
+      "size": 375186,
+      "sha256": "856964af8289b1fda4992fe74d4236a6a51f633038edeb25658cb9a22832f546",
+      "local_sha256": "856964af8289b1fda4992fe74d4236a6a51f633038edeb25658cb9a22832f546"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-summary-20261126/source_snapshot.json",
+      "size": 491612,
+      "sha256": "3c9e53fe41db3764c72d964f6ce7ac8d22c5abfba7000a7eee63d1e8285da68c",
+      "local_sha256": "3c9e53fe41db3764c72d964f6ce7ac8d22c5abfba7000a7eee63d1e8285da68c"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-summary-20261126/source_untracked.tar.gz",
+      "size": 56982,
+      "sha256": "926ca6ff0eb252087367784913f6627ca7529a1e084fffedae6120f1b8dccc34",
+      "local_sha256": "926ca6ff0eb252087367784913f6627ca7529a1e084fffedae6120f1b8dccc34"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-summary-20261126/status.json",
+      "size": 559,
+      "sha256": "b6ffd1ca62a9162af5bf74e7772c7acabb4f55a22d0f9e9002bdc833e31717ad",
+      "local_sha256": "b6ffd1ca62a9162af5bf74e7772c7acabb4f55a22d0f9e9002bdc833e31717ad"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-summary-20261126/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-pressure-summary-20261126/stdout.log",
+      "size": 94,
+      "sha256": "b8e00285d3b19ef35043e49bb8a4769038e2d4ac9de62201357e83417558cf99",
+      "local_sha256": "b8e00285d3b19ef35043e49bb8a4769038e2d4ac9de62201357e83417558cf99"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/artifacts.json",
+      "size": 859,
+      "sha256": "7379a24a5211f376f32a1dae1af067877abbc791dd6a0d53ea777087d1b24025",
+      "local_sha256": "7379a24a5211f376f32a1dae1af067877abbc791dd6a0d53ea777087d1b24025"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/manifest.json",
+      "size": 18149,
+      "sha256": "d4ceb87cb797e678f6df5262da076b43dd5852f8411d000b66d1b9101c180921",
+      "local_sha256": "d4ceb87cb797e678f6df5262da076b43dd5852f8411d000b66d1b9101c180921"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/outputs/counter-raw.json.gz",
+      "size": 122377,
+      "sha256": "cbf67586ea664237ee4b9c6c593738ab0d67098d607214ce8c5cc5239152502a",
+      "local_sha256": "cbf67586ea664237ee4b9c6c593738ab0d67098d607214ce8c5cc5239152502a"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/outputs/counter-stderr.log",
+      "size": 5693,
+      "sha256": "89c944f6387771d072626a1c6449c5e0aab9d99ba4cb0e4d435afae68962f533",
+      "local_sha256": "89c944f6387771d072626a1c6449c5e0aab9d99ba4cb0e4d435afae68962f533"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/outputs/counter_recheck.json",
+      "size": 10783,
+      "sha256": "3f0b37a71049e55e66bd6c27f6a91ff9d8b8c7f485516e7b3d164d8a5d05c35b",
+      "local_sha256": "3f0b37a71049e55e66bd6c27f6a91ff9d8b8c7f485516e7b3d164d8a5d05c35b"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/outputs/dispatch.json",
+      "size": 198,
+      "sha256": "e55f07739ec5569fcecd71c690c358615ebff70cd8ef967e87a4eb0081934da4",
+      "local_sha256": "e55f07739ec5569fcecd71c690c358615ebff70cd8ef967e87a4eb0081934da4"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/outputs/process.json",
+      "size": 318,
+      "sha256": "3348b66a0031e3fe1cfd17169d4d383931e5c600fda82fcc255d889888283ea6",
+      "local_sha256": "3348b66a0031e3fe1cfd17169d4d383931e5c600fda82fcc255d889888283ea6"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/source_changes.patch.gz",
+      "size": 375186,
+      "sha256": "856964af8289b1fda4992fe74d4236a6a51f633038edeb25658cb9a22832f546",
+      "local_sha256": "856964af8289b1fda4992fe74d4236a6a51f633038edeb25658cb9a22832f546"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/source_snapshot.json",
+      "size": 491612,
+      "sha256": "3c9e53fe41db3764c72d964f6ce7ac8d22c5abfba7000a7eee63d1e8285da68c",
+      "local_sha256": "3c9e53fe41db3764c72d964f6ce7ac8d22c5abfba7000a7eee63d1e8285da68c"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/source_untracked.tar.gz",
+      "size": 56982,
+      "sha256": "b6e00a0bfbecadb54a3b13be8651102792c797f3cfb0cb2ad82c9e2ad5a37bc9",
+      "local_sha256": "b6e00a0bfbecadb54a3b13be8651102792c797f3cfb0cb2ad82c9e2ad5a37bc9"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/status.json",
+      "size": 529,
+      "sha256": "bf03e7a57e0b66077f7c0a17a2e5c4f1a5375b8c9bd2223781df3fec4682163e",
+      "local_sha256": "bf03e7a57e0b66077f7c0a17a2e5c4f1a5375b8c9bd2223781df3fec4682163e"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-counter-v2-20261126/stdout.log",
+      "size": 94,
+      "sha256": "3251f5ec09cb650456aaad26e2e6efc3b4516abb1400fe39f06b7d04400926be",
+      "local_sha256": "3251f5ec09cb650456aaad26e2e6efc3b4516abb1400fe39f06b7d04400926be"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-audit-20261126/artifacts.json",
+      "size": 225,
+      "sha256": "62818f447d11c6816e16cb94e0821bfa0bbcdd04bdf7ff64a8d4afa698e91e2d",
+      "local_sha256": "62818f447d11c6816e16cb94e0821bfa0bbcdd04bdf7ff64a8d4afa698e91e2d"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-audit-20261126/manifest.json",
+      "size": 18521,
+      "sha256": "2c0d4b83f95331b296afc6f154dfe11a52735df977432f7c4f67c8eb90f52da8",
+      "local_sha256": "2c0d4b83f95331b296afc6f154dfe11a52735df977432f7c4f67c8eb90f52da8"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-audit-20261126/outputs/independent_audit.json",
+      "size": 3766,
+      "sha256": "2ebb055b227ccb364d90eefcc0bda6f89080e29933136a8e52432fba75398f33",
+      "local_sha256": "2ebb055b227ccb364d90eefcc0bda6f89080e29933136a8e52432fba75398f33"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-audit-20261126/source_changes.patch.gz",
+      "size": 375186,
+      "sha256": "856964af8289b1fda4992fe74d4236a6a51f633038edeb25658cb9a22832f546",
+      "local_sha256": "856964af8289b1fda4992fe74d4236a6a51f633038edeb25658cb9a22832f546"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-audit-20261126/source_snapshot.json",
+      "size": 491612,
+      "sha256": "3c9e53fe41db3764c72d964f6ce7ac8d22c5abfba7000a7eee63d1e8285da68c",
+      "local_sha256": "3c9e53fe41db3764c72d964f6ce7ac8d22c5abfba7000a7eee63d1e8285da68c"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-audit-20261126/source_untracked.tar.gz",
+      "size": 56982,
+      "sha256": "b009e47e8651c4224717a198f19eb581e325599298cf2a73321da14435edc37d",
+      "local_sha256": "b009e47e8651c4224717a198f19eb581e325599298cf2a73321da14435edc37d"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-audit-20261126/status.json",
+      "size": 537,
+      "sha256": "e50744eb300f4b7adccd105465e61160a48031953862617531bb28cc70f0fb2a",
+      "local_sha256": "e50744eb300f4b7adccd105465e61160a48031953862617531bb28cc70f0fb2a"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-audit-20261126/stderr.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/sync/runs/hpc-t3rv2i-audit-20261126/stdout.log",
+      "size": 71,
+      "sha256": "d576f020690e58d0a20670665582c1fdcd9de95bed7404a9218f8be554c8007e",
+      "local_sha256": "d576f020690e58d0a20670665582c1fdcd9de95bed7404a9218f8be554c8007e"
+    }
+  ],
+  "all_outputs_mirrored": true,
+  "archived_original_files_restored_locally": 218,
+  "original_artifact_hash_checks": {
+    "hpc-t3rv2i-contract-20261126": 14,
+    "hpc-t3rv2i-contract-v2-20261126": 14,
+    "hpc-t3rv2i-legacy-20261126": 3,
+    "hpc-t3rv2i-pressure-20261126": 13,
+    "hpc-t3rv2i-pressure-v2-20261126": 91,
+    "hpc-t3rv2i-pressure-v3-20261126": 117,
+    "hpc-t3rv2i-pressure-summary-20261126": 1,
+    "hpc-t3rv2i-counter-v2-20261126": 5,
+    "hpc-t3rv2i-audit-20261126": 1
+  },
+  "pytest_transient_trees": "excluded per official channel; regular fixture records preserved in fixture-journals.tar.gz",
+  "bytes": 21131910,
+  "archive_sha256": "52edbf0ba09ab1a7066867cae4f01629e0e3c60086164ecbe969cc6c03f596f4"
+}

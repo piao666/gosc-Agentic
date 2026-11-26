@@ -1,0 +1,70 @@
+{
+  "run_id": "hpc-t3rv2i-pressure-20261126",
+  "files": [
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t0/completed.json",
+      "size": 5346,
+      "sha256": "1bb518af82990efe25838f46d71c3b7ae4c9cfd768906fc70017ae5d73142fa1"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t0/request_ready.json",
+      "size": 24175,
+      "sha256": "db94d32e2c7cb70b0202d36159775ef175f6de5f6a802b84fbeb4d70e460d726"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t0/started.json",
+      "size": 364,
+      "sha256": "f073775894772872d34c9b452842c5c15bb6a7952fa360527d2a62adf093ff28"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t1/completed.json",
+      "size": 5346,
+      "sha256": "5a37961e4c065d138a26072622b2a0104ea209fa7b0946c3a534d22109614528"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t1/request_ready.json",
+      "size": 28373,
+      "sha256": "0bed5d84cd7326a773371a4df9804ede18a6b5a89d8614adefe840b4035cb215"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t1/started.json",
+      "size": 365,
+      "sha256": "31e9bc0851ea3d42b12455fc3d5119faf73c5a5b1dc9130c15f3399932e8f55d"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t2/completed.json",
+      "size": 5347,
+      "sha256": "be9a63f970e4bcc3d30ea8785c41c92dbd5f4e98306f55bc350accdd5fe51668"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t2/request_ready.json",
+      "size": 32669,
+      "sha256": "5098ab140dd6b134220e296de8496209eea49ccf6cf29d52e404797a162dc733"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t2/started.json",
+      "size": 364,
+      "sha256": "ad0668104a74b2a087293d57970da1833b990e45330d54d444024ccfe805b8e8"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t3/completed.json",
+      "size": 451,
+      "sha256": "0abd777ce3a86545468c7840d347ed231972c3e63023e98e5bc409891468c115"
+    },
+    {
+      "path": "outputs/ascii-Full/artifacts/invented-pressure/t3/started.json",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/ascii-Full/ledger.jsonl",
+      "size": 17634,
+      "sha256": "5201cc3ccd359b981bbe39f48a50c2b2a0de32800dc0138cc9e2e4640a2944dc"
+    },
+    {
+      "path": "outputs/ascii-Full/ledger.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

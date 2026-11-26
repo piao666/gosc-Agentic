@@ -1,0 +1,16 @@
+{
+  "run_id": "hpc-t3rv2i-counter-v2-20261126",
+  "status": "completed",
+  "started_at": "2026-11-26T02:10:50.579845+00:00",
+  "finished_at": "2026-11-26T02:10:52.808975+00:00",
+  "exit_code": 0,
+  "pid": 36423,
+  "elapsed_seconds": 2.22915,
+  "resource_usage": {
+    "child_max_rss_kib": 73272,
+    "child_cpu_user_seconds": 0.97642,
+    "child_cpu_system_seconds": 0.243632,
+    "peak_gpu_memory": null
+  },
+  "resource_usage_scope": "All runner child processes, including Git metadata; not exclusive model/job performance."
+}

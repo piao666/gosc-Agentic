@@ -1,0 +1,21 @@
+{
+  "base": "458a96f59b620a02e6872d038b87912eb39e92e4",
+  "scope": "local Git/file management only; no new tests/model",
+  "selected_files": 194,
+  "bytes": 1706636,
+  "excluded_user_paths": [
+    ".workbuddy/memory/2026-11-25.md",
+    "11-17审阅任务安排.md",
+    "T3-R_科研失败归因与研究前提复核任务书.md"
+  ],
+  "credential_pattern_findings": [],
+  "files_over_1MiB": [],
+  "raw_run_outputs_selected": false,
+  "source_snapshot_or_full_receipt_selected": false,
+  "default_whitespace_check_exit": 2,
+  "CRLF_aware_current_code_docs_exit": 0,
+  "preserved_historical_whitespace": "research/sync/runs/hpc-t3rv2i-live-contract-20261126/stdout.log:25",
+  "four_frozen_delivery_manifests_match": true,
+  "new_tests_run": 0,
+  "new_model_calls": 0
+}

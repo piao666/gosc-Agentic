@@ -1,0 +1,10 @@
+{
+  "run_id": "hpc-t3rv2i-audit-20261126",
+  "files": [
+    {
+      "path": "outputs/independent_audit.json",
+      "size": 3766,
+      "sha256": "2ebb055b227ccb364d90eefcc0bda6f89080e29933136a8e52432fba75398f33"
+    }
+  ]
+}
